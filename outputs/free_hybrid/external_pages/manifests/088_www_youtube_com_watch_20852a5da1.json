@@ -1,0 +1,785 @@
+{
+  "url": "https://www.youtube.com/watch?v=-cBjdqK1ITs&t=2",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.93,
+  "extraction_metrics": {
+    "markdown_chars": 19934,
+    "wordish_count": 3372,
+    "heading_count": 8,
+    "bullet_count": 95,
+    "link_count": 97,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 8,
+    "raw_url_count": 99,
+    "numeric_fact_count": 211,
+    "question_count": 99,
+    "unique_line_count": 335,
+    "numeric_facts_sample": [
+      "1",
+      "23",
+      "2023",
+      "2946",
+      "3",
+      "19",
+      "25",
+      "2",
+      "2.9",
+      "29,473",
+      "02",
+      "35.9",
+      "34",
+      "12",
+      "6",
+      "05",
+      "40",
+      "365",
+      "2021",
+      "11",
+      "247",
+      "10",
+      "2024",
+      "2015",
+      "2025"
+    ],
+    "links_sample": [
+      "https://yt3.ggpht.com/ytc/AIdro_kfqyIgOXeXsLDlg0zzEn2KOFB5wGMLjDE4eyT0E0B3VG4=s48-c-k-c0x00ffffff-no-rj",
+      "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/watch?v=mXNz6iUOflM",
+      "https://www.youtube.com/watch?v=kSrlrnL0Yro",
+      "https://www.youtube.com/watch?v=QVCnUMZVqvw",
+      "https://www.youtube.com/watch?v=5Almw_zqvbw",
+      "https://www.youtube.com/@iihs-hldi",
+      "https://www.youtube.com/channel/UCQ7rCjQe2LSyl9uT7A9Zr4g/videos",
+      "https://www.youtube.com/channel/UCQ7rCjQe2LSyl9uT7A9Zr4g/about",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqa2puWFRRXzRDSGJtVFhVTjRMRk9qUkdVQ2p3d3xBQ3Jtc0tsMG9sLTVvV2hDWUhDd2ttUXlBSzUyeWotcGpVT09pQ1B6MHhhZGtLbXhidXlLbGh2dWRBcFFsWGw3MmgyRkZtYVJjWXNCZTJaY3psdUF5NllVOXJLS1VHSUx4VWtrS2FMM0VwOU9OTkVrb3JKRUYzZw&q=https%3A%2F%2Ftwitter.com%2FIIHS_autosafety",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbGVhVklaNTdqZlc5QUVvYVd1djdVaUYzMUpwZ3xBQ3Jtc0tsaC0wcWp2YkZEZ0RmN21FYmhyUEE3RUp6cWpneGJHNm1NRjJPNlI5ZWJ5Uks2ZF9CNkRqYm8zNnlIVkY5QnBfR09MZDkxdU1qRkltQU41eF94SkVHLWFvUnlDVV8taXVCejZCQ1F6Q2RZdlRFXzNGMA&q=https%3A%2F%2Fwww.facebook.com%2Fiihs.org%2F",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbWNMNHYwUEoyRm1Db2p4V1N3SDFhYWF2X19Vd3xBQ3Jtc0ttc0Jhd1kzdEx3X3JMN0FrY2thZjd6TmtwODBqNmpxNUVPcTg3eHRQZnBfVy02VWdOWHV5aTcxSDVvenNVRUtxcGxLRDFtNlhwVzYwd3BoVGpGNTF6ajBjbDJPdHR1a1FSRFI1Mm43ZU9ZSXFSaU5pUQ&q=https%3A%2F%2Fwww.instagram.com%2Fiihs_autosafety%2F",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbDZGLW53ZUdqTDNsb0VPMkVMQk5SNGxTVWtyUXxBQ3Jtc0tuXzZVS1NYSGNrT0NRaFBMVlRIS0JXR2NqMklIWHpRMG85WWxMSEJSS3hzeWdqcTRMMUN3X1ZuQVlIVlVuQlZHMkxVYlc4QlpKNUN6ZUdzemhUN0xJTy02bjVMeFk3QXIwWnYwVjV3ZllsVW1DN0JrTQ&q=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fiihs-hldi%2F",
+      "https://www.youtube.com/watch?v=nXWj0cU_cRo",
+      "https://www.youtube.com/watch?v=UjOHLXpCkwE",
+      "https://www.youtube.com/watch?v=hghq7mLOMr0",
+      "https://www.youtube.com/watch?v=60nXhm6vmsc&pp=ugUHEgVlbi1HQg%3D%3D",
+      "https://www.youtube.com/watch?v=at1rT_pCrgc&pp=ugUHEgVlbi1VUw%3D%3D",
+      "https://www.youtube.com/watch?v=wOUlFONPmac",
+      "https://www.youtube.com/watch?v=Le6flFMjIQI&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=mA3QtWz7RMQ",
+      "https://www.youtube.com/watch?v=DXTGHaDcQNY&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=E_8leLzL6HU&pp=ugUHEgVlbi1VU9IHCQkECwGHKiGM7w%3D%3D",
+      "https://www.youtube.com/watch?v=dXxwHgeKEUk"
+    ],
+    "image_alt_count": 2
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2023/02/23",
+      "2023/02/2",
+      "2023年\n2月2",
+      "Reviewed\nYOUCAR",
+      "Updated Moderate Overlap Crash Test"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 108,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2,
+    "main_chars": 24821,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 310,
+    "full_markdown_chars": 19934
+  },
+  "metadata": {
+    "title": "IIHS strengthens requirements for TOP SAFETY PICK awards - IIHS News - YouTube",
+    "description": "IIHS news release • February 23, 2023 IIHS strengthens requirements for TOP SAFETY PICK awardsThe Insurance Institute for Highway Safety is strengthening the...",
+    "language": "ja-JP",
+    "sourceURL": "https://www.youtube.com/watch?v=-cBjdqK1ITs&t=2",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.youtube.com/watch?v=-cBjdqK1ITs",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.youtube.com/",
+      "text": "https://www.youtube.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=T7SsT0FQdUg",
+      "text": "https://www.youtube.com/watch?v=T7SsT0FQdUg",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mXNz6iUOflM",
+      "text": "14:30",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nXWj0cU_cRo",
+      "text": "13:02",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UjOHLXpCkwE",
+      "text": "8:00",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hghq7mLOMr0",
+      "text": "2:31",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kSrlrnL0Yro",
+      "text": "4:39 Nissan Qashqai – Extreme City Crossover Crash & Handling Test Erfan-Ng 2946回視聴 • 3 か月前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QVCnUMZVqvw",
+      "text": "5:09 Hirochi Sunburst Airbags Crash Test NCAP | BeamNG.drive GTAUTODRIVE 19万回視聴 • 3 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=60nXhm6vmsc",
+      "text": "43:20",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5Almw_zqvbw",
+      "text": "6:20 BULLITT car chase but re-edited in a far BETTER and FASTER way SID. 25万回視聴 • 2 か月前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=at1rT_pCrgc",
+      "text": "23:01",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wOUlFONPmac",
+      "text": "20:39",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Le6flFMjIQI",
+      "text": "11:15",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mA3QtWz7RMQ",
+      "text": "15:37",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@iihs-hldi",
+      "text": "https://www.youtube.com/@iihs-hldi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@iihs-hldi",
+      "text": "IIHS チャンネル登録者数 35.9万人",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCQ7rCjQe2LSyl9uT7A9Zr4g/videos",
+      "text": "動画",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCQ7rCjQe2LSyl9uT7A9Zr4g/about",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqa2puWFRRXzRDSGJtVFhVTjRMRk9qUkdVQ2p3d3xBQ3Jtc0tsMG9sLTVvV2hDWUhDd2ttUXlBSzUyeWotcGpVT09pQ1B6MHhhZGtLbXhidXlLbGh2dWRBcFFsWGw3MmgyRkZtYVJjWXNCZTJaY3psdUF5NllVOXJLS1VHSUx4VWtrS2FMM0VwOU9OTkVrb3JKRUYzZw&q=https%3A%2F%2Ftwitter.com%2FIIHS_autosafety",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbGVhVklaNTdqZlc5QUVvYVd1djdVaUYzMUpwZ3xBQ3Jtc0tsaC0wcWp2YkZEZ0RmN21FYmhyUEE3RUp6cWpneGJHNm1NRjJPNlI5ZWJ5Uks2ZF9CNkRqYm8zNnlIVkY5QnBfR09MZDkxdU1qRkltQU41eF94SkVHLWFvUnlDVV8taXVCejZCQ1F6Q2RZdlRFXzNGMA&q=https%3A%2F%2Fwww.facebook.com%2Fiihs.org%2F",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbWNMNHYwUEoyRm1Db2p4V1N3SDFhYWF2X19Vd3xBQ3Jtc0ttc0Jhd1kzdEx3X3JMN0FrY2thZjd6TmtwODBqNmpxNUVPcTg3eHRQZnBfVy02VWdOWHV5aTcxSDVvenNVRUtxcGxLRDFtNlhwVzYwd3BoVGpGNTF6ajBjbDJPdHR1a1FSRFI1Mm43ZU9ZSXFSaU5pUQ&q=https%3A%2F%2Fwww.instagram.com%2Fiihs_autosafety%2F",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbDZGLW53ZUdqTDNsb0VPMkVMQk5SNGxTVWtyUXxBQ3Jtc0tuXzZVS1NYSGNrT0NRaFBMVlRIS0JXR2NqMklIWHpRMG85WWxMSEJSS3hzeWdqcTRMMUN3X1ZuQVlIVlVuQlZHMkxVYlc4QlpKNUN6ZUdzemhUN0xJTy02bjVMeFk3QXIwWnYwVjV3ZllsVW1DN0JrTQ&q=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fiihs-hldi%2F",
+      "text": "LinkedIn",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mXNz6iUOflM",
+      "text": "The SAFEST Cars by IIHS Crash Test Institut",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nXWj0cU_cRo",
+      "text": "TOP 12 SAFEST SUVs (IIHS Crash Test)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UjOHLXpCkwE",
+      "text": "古い電池をドリルに挿入するだけ。どの家庭にも必要なのに、誰もやらない！創作のヒント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hghq7mLOMr0",
+      "text": "トランプは1988年にアメリカに警告した",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kSrlrnL0Yro",
+      "text": "Nissan Qashqai – Extreme City Crossover Crash & Handling Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QVCnUMZVqvw",
+      "text": "Hirochi Sunburst Airbags Crash Test NCAP | BeamNG.drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=60nXhm6vmsc&pp=ugUHEgVlbi1HQg%3D%3D",
+      "text": "信じられないほど面白いカラスたち！🐦 ⬛🤣 カメラに捉えられた最高に面白い動物たち",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5Almw_zqvbw",
+      "text": "BULLITT car chase but re-edited in a far BETTER and FASTER way",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=at1rT_pCrgc&pp=ugUHEgVlbi1VUw%3D%3D",
+      "text": "When Teenage TYSON Fought a Mob Boss",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wOUlFONPmac",
+      "text": "ウクライナのドローンがロシアのジェット機を撃墜する様子をご覧ください",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Le6flFMjIQI&pp=0gcJCQQLAYcqIYzv",
+      "text": "Iihs small overlap crash compilation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mA3QtWz7RMQ",
+      "text": "WD-40をセメントと混ぜて！ 誰も想像できないほど素晴らしい結果が！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DXTGHaDcQNY&pp=0gcJCQQLAYcqIYzv",
+      "text": "IIHS Safest 2021 Car, Truck, and SUV Winners",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=E_8leLzL6HU&pp=ugUHEgVlbi1VU9IHCQkECwGHKiGM7w%3D%3D",
+      "text": "Unbelievable Workers Compilation | Working with Talented Engineers #11 #adamrose #smartworkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dXxwHgeKEUk",
+      "text": "Never Answer These 6 Questions During a UK Police Stop (Lawyer Explains)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=T7SsT0FQdUg",
+      "text": "sunset aura 🌄| focus background wallpaper for studying | the aesthetic guide",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=q5RmW6vhMVM",
+      "text": "Abstract red and blue Liquid Background video | Footage | Screensaver",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qIN8CyhYREM",
+      "text": "Why New Cars Keep FAILING the Moose Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7Z3CgdxEjmI",
+      "text": "古い電池をドリルに挿入するだけです。どの家庭でもこれが必要ですが、誰もやりません!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=z3zkVuinw-g",
+      "text": "ウクライナのドローンがロシア機を撃墜する様子をご覧ください",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xCRgqIfZi-M",
+      "text": "IIHS Car Crash Test Compilation - Midsize Cars Reviewed",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BiooqfZtS2c",
+      "text": "PVA接着剤をセメントと混ぜると魔法が起こる😱何十億人もの人がこの秘密を知らない",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9pLYhZ4z0ds&pp=ugUEEgJlbg%3D%3D",
+      "text": "Top 10 Most Expensive Car Crash Test Of All Time",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JFrSwERl1eg",
+      "text": "Best of Historic Rallye / VHC 2024 - Show & Mistakes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=H9R_8uE7a6Y&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【車庫入れロジック】この理論を知れば、ナナメ誘導しなくても、いつもと違うクルマでもバックができる！！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=513l-zoEUbg",
+      "text": "DARK PINK SCREEN FOR 2 HOURS LED LIGHTS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MENeXwzIWDI",
+      "text": "Safest vehicles to start 2024 meet tougher criteria - IIHS News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PXHca3o4SoA",
+      "text": "Volkswagen Polo 2015 – Extreme City Hatch Crash, Comfort & Handling Test!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZZpiZWEHc1U",
+      "text": "Geometric Neon Gold Triangular Background video | Footage | Screensaver",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bJ0PRP1b5GY",
+      "text": "【国土交通省】正しく使おうブレーキホールド ～正しい使用方法や注意点について～",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xWs6Qij112Y",
+      "text": "The Dumbest Drivers Ever",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8vjI8GyY718",
+      "text": "中型車の衝突試験 - カムリ、マリブ、アコード、アルティマ、ソナタ...",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gNq1iDBj6No",
+      "text": "NÜRBURGRING CRASH COMPILATION 2025 - BEST of FAILS, CLOSE CALLS & BAD Drivers Nordschleife!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8tLRD7LpRbo",
+      "text": "Why Car Crash Tests Need A Crucial Update - Cheddar Explains",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5-JpEGxWvKU",
+      "text": "Cyberpunk Code Hacker Glitch Hi-Tech Background video | Footage | Screensaver",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HHyHeRAy31k",
+      "text": "17 WORST Cars That NO ONE Buys According to Consumer Reports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xiS5uQXXpIg&pp=ugUEEgJqYQ%3D%3D",
+      "text": "差動装置（デフ）｜どのような仕組みになっている？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XRT47Wgito8&pp=ugUEEgJlbg%3D%3D",
+      "text": "200 Genius Secrets I Learned on YouTube Shorts!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=azQ67YEPCxs",
+      "text": "2388km on One Tank Africa to London!?!?! 1500 Miles | 4k",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2omRWEw45kg",
+      "text": "Latest from New York airport after two pilots killed in runway crash",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zgp7wA49YNE",
+      "text": "25. Dateline Side Impact Crash Test Small SUVs 2003 (1 of 2).flv",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JUQN5scMulE",
+      "text": "How Safe Is The Subaru Ascent?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hRZPHSydoLA&pp=ugUEEgJlbg%3D%3D",
+      "text": "When German POWs Entered a British Pub For The First Time",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=q6MR72Q6T6g",
+      "text": "THE SAFEST CARS IN THE WORLD 2023",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=v0oV7KGTDiE",
+      "text": "1998 Jeep Wrangler Rear End Crash Test of Driver's Seat Calspan 4433",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z8guDAO5P90",
+      "text": "Xi vs. Trump: Who won in the big superpower struggle?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ITAPo7CugW8",
+      "text": "Refreshing Jazz in Street Coffee Shop for Happy Morning - Soft Jazz Music for Calm, Focus & Relax",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xHrGi-Y8HI0",
+      "text": "米国はタイフーンがF-15に絶対に勝てないと言っていたが…その後、ロンドン上空で両者は遭遇した！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Dr5zebXpO-M",
+      "text": "Storchennest Live Webcam in Bad Salzungen, Thüringen",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=km-oyH3t1VQ",
+      "text": "Crash and Learn: An Inside Look at the Insurance Institute for Highway Safety (IIHS)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YItzLqk2j3Q",
+      "text": "労働党指導部危機2026：ウェス・ストリーティング保健相が辞任",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SnAhWHv9TM8",
+      "text": "Inside the Lab That Keeps Your Car From Killing You",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jlDbJHcRE2M&pp=ugUEEgJlbg%3D%3D",
+      "text": "27. Dateline F150 Crash Test Update.flv",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L59Bl3rQTA4",
+      "text": "How to Judge when to Change Lanes using the Mirrors - Blind Spots also",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ztHL1eusixo",
+      "text": "Why Keir Starmer 'lacks gusto'",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bUj0w-deRYQ",
+      "text": "2023/2025 Chrysler Pacifica IIHS 40% Offset Updated Moderate Overlap Crash Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jJBob8-g0eA&pp=ugUHEgVlbi1HQg%3D%3D",
+      "text": "I’m 91 years old… If You Can’t Live Alone, Don’t Go to a Care Home — Do This",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2TLM_ZXgYWE",
+      "text": "Starmer VOWS to block 'far-right' from London march during Police visit with Sadiq Khan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TzIpOHZ2geI",
+      "text": "2022-2025 Ford Bronco (4 Dr.) NHTSA Full-Overlap Frontal Crash Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pdunZAx8VZQ&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【解説】アラスカ航空536便 急減圧事故",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n3COrEvb3rU",
+      "text": "IIHS releases list of 2014 TOP SAFETY PICK award winners - IIHS News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ygX-NpLLPsU",
+      "text": "Most-watched IIHS crash tests of 2023",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=a8dBl3IMLkM",
+      "text": "If Your Car DEALER Does this- WALK OUT!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iLNXliI0dAI",
+      "text": "🔴 LIVE Barred Owl Nest Cam 🦉 | Post-Fledge Updates & Owl Activity",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xzd1XffhWac",
+      "text": "You Can Take A Man’s Show, You Can’t Take A Man’s Voice - David Letterman On Colbert’s Cancellation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RxSE49aiPiE",
+      "text": "Update from Ukraine | Ukraine Strikes Back! Kabooms in Russia! Good News from Frontline",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w6nQ885LfHI",
+      "text": "Bad Driving Has Become Normalized",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZSloKF8tm0Y",
+      "text": "'WHO have they interviewed!?' Should Michael Carrick get the permanent Man Utd job? 👀 | ESPN FC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1quXpDTVg_0",
+      "text": "2002 Cadillac Seville Into 2003 Jeep Liberty Fuel System Integrity Rear Crash Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=csDWSgnA1rU",
+      "text": "Passenger-side tests of midsize SUVs reveal some major flaws - IIHS News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0tr61znO8tc",
+      "text": "House of Commons ERUPTS as the Speaker issues WARNING to Keir Starmer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CEMth_XMjiw",
+      "text": "Remote Control Semi-Truck Crash - How CAPE did it!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9OBK8KS8Ims",
+      "text": "Hooters Waitress - SNL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PmOeGnItWZI",
+      "text": "WPA LIVE STREAM: Somerset vs Sussex - Day One",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dxtueGZWjzk",
+      "text": "Key points from the Donald Trump-Xi Jinping summit",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qk9sdxiRs8M",
+      "text": "2023/2025 Chevrolet Tahoe IIHS 25% Overlap Driver Side Small Overlap Crash Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=f-FNmROhV78",
+      "text": "🚗 How to Adjust the Driver's Seat for Optimal Control & Safety | Step-by-Step Guide",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aqRYGMPaAoE",
+      "text": "BREAKING: Wes Streeting steps aside and throws support behind Andy Burnham to challenge Keir Starmer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1QRQWW22U8k",
+      "text": "2012 Chevrolet Sonic - Crash prevention - Mike Savoie Chevrolet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@liamm-c1287",
+      "text": "@liamm-c1287",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-cBjdqK1ITs&lc=UgxDUOGejHiLoUlcfCF4AaABAg",
+      "text": "3 年前（編集済み）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEM4NktpR0VlT2FTUjl2QkdTcmY2TXFid0l0Z3xBQ3Jtc0tsLXA1a2R0ZTdsOG9PQmxMMjFDYXZ1aTNhR1hXdm1vTWdfVWFwVFhMLVk5Tnp0ZDlhenIyOUlPZWNURjdDeXZOUDFyZS13bW9EanJJOVBrTmxibTM1NFFESkxPcDBDSlo0RVNrWTdmeDV6VUdpUzZkZw&q=https%3A%2F%2Fgo.iihs.org%2Fnews-2023-awards&v=-cBjdqK1ITs",
+      "text": "https://go.iihs.org/news-2023-awards",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXBfYzlHUm9hbDBhcXFuX1ZVZkVVSHdzQ0VzQXxBQ3Jtc0tsNFVsQjVoVTZNTUtmelpONnJEOFlpd2x4a2E4ckxjUkpmSWhoZ1BsUkR2bVpwdTdBQjFzNkNWaFlzZ3VSSDdTWVpYQjhSLUN3NUVpU3EzOHpEbU1UMW53eHQxbEpBbWJOZmxjWjBDc0ZxNUU0UFpRSQ&q=https%3A%2F%2Fgo.iihs.org%2Fsubscribe&v=-cBjdqK1ITs",
+      "text": "https://go.iihs.org/subscribe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDdXWFgwVU9NWFZGWGNuTk5nUkI0YWJENmlNd3xBQ3Jtc0tuMVB5Ym94T3JnM3AxRVlvanhVLXVnWmE2Yi1OU1hSc0h6azB6NXNwekt0NDJSYUt6RVVUNUtfZVVjaFJRZzVjVVhocl9BZE9BV1NySzV2ejNfYlpwa1ZnbXR3ck9UX0RtOGNMZzBlX0FIUWpLNFJOdw&q=https%3A%2F%2Fwww.iihs.org%2F&v=-cBjdqK1ITs",
+      "text": "https://www.iihs.org/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVpLYThwTjZXTWFHNkdSUXNaTEZUWFh0SDRVUXxBQ3Jtc0ttTG5LWGFTV1k1SDN0cUVGbVBEVTdGVmNnLUVzZEl2Q3pQaGxGYTNuckdmcFNRZTFhUHVKUVVwNDZXR0lpb0lORmUxcHRJdnR6MXJ2YW9NdFl4Q2NOdFZwRDY1OWFRdWU0MFZWdHk1dWs1MC14bnNJcw&q=https%3A%2F%2Ftwitter.com%2FIIHS_autosafety&v=-cBjdqK1ITs",
+      "text": "/ iihs_autosafety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnl1UkpDZFNCaVU2WXBTMld3d3JDSDN6U2Vpd3xBQ3Jtc0tsSDZRN0xwWVV0bjZSeV80RGJzWUxVNVA3SzlGY3R4NzZJY0g0Uk9admlvdzlxc2FFMC1ZNVlLcGZFU0FFTWt6LTk4TEw1UVpIVExEeUE4b1kwbF9BOXNQNEFiMnhHV1MxeHpBalFSZ1c3aWIyZVNsQQ&q=https%3A%2F%2Fwww.facebook.com%2Fiihs.org%2F&v=-cBjdqK1ITs",
+      "text": "/ iihs.org",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa19SWncyTmRpMjZVRnkzbEo0bUFTLTdfTjUtZ3xBQ3Jtc0ttdUpoTVNKT2ZPdElzd2U0ZVE5VENQUDlsNkVkSTU0elA5ZUxUT2E5Z19GZHBDeXFXM3p5ZTR0bkRzOGNKUzd6cjd2Vldrc2k5VV95SlJRNTBWUVlMM29IX0c0b256LUo0V1JGVzZEeFNxUTFxM2dtcw&q=https%3A%2F%2Fgo.iihs.org%2Finstagram&v=-cBjdqK1ITs",
+      "text": "https://go.iihs.org/instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbWdOUThtNDNncHpvcE1qNXA3czBEZ3lSeWlKd3xBQ3Jtc0tuY09GejRuREhTLUlKSEJrdzhfcF81U1UyWHpEUy02NTdpYkxxMzdjVnV4eEp2S1ZhWE5PYzhlbWhOUVhabFp6M3E3RjVoN3hSZS1TcGdPUllPY0xFVnZlQ3htOHlpY0ozYzJ1eEYxUnU5LVRrb1k1RQ&q=https%3A%2F%2Fgo.iihs.org%2Flinkedin&v=-cBjdqK1ITs",
+      "text": "https://go.iihs.org/linkedin",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://yt3.ggpht.com/ytc/AIdro_kfqyIgOXeXsLDlg0zzEn2KOFB5wGMLjDE4eyT0E0B3VG4=s48-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    },
+    {
+      "src": "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "alt": "既定のプロフィール写真"
+    },
+    {
+      "src": "https://yt3.ggpht.com/ytc/AIdro_kbTs4huDte2j79g3WiCWq0yOwJJgpBOXVhetoeec_eRDs=s88-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2023/02/23",
+    "2023/02/2",
+    "2023年\n2月2",
+    "Reviewed\nYOUCAR",
+    "Updated Moderate Overlap Crash Test"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=-cBjdqK1ITs&t=2",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=-cBjdqK1ITs&t=2s",
+    "title": "IIHS strengthens requirements for TOP SAFETY PICK awards - IIHS News - YouTube",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:10:10.897434+00:00",
+  "source_meta": {
+    "title": "IIHS strengthens requirements for TOP SAFETY PICK awards",
+    "url": "https://www.youtube.com/watch?v=-cBjdqK1ITs&t=2",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "video_social",
+    "snippet": "today we are releasing our initial list of 2023. top safety pick winners we have 28 models that qualified for our top safety pick ...",
+    "citation_count": 3,
+    "first_cited_position": 14,
+    "answer_support_weight": 8,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "How to interpret Japanese crash-test ratings and what should families prioritise?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How to interpret Japanese crash-test ratings and what should families prioritise?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

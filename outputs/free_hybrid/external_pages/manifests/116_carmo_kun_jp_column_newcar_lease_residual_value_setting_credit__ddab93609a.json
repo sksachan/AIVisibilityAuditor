@@ -1,0 +1,728 @@
+{
+  "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 73298,
+    "wordish_count": 6753,
+    "heading_count": 9,
+    "bullet_count": 62,
+    "link_count": 94,
+    "image_count": 32,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 5,
+    "raw_url_count": 96,
+    "numeric_fact_count": 775,
+    "question_count": 20,
+    "unique_line_count": 316,
+    "numeric_facts_sample": [
+      "3",
+      "2026.04",
+      "28",
+      "5年",
+      "200万円",
+      "100万円",
+      "4",
+      "0円",
+      "1,500km",
+      "37,100円",
+      "012円",
+      "2,193,812円",
+      "2026年",
+      "040円",
+      "146,852円",
+      "370円",
+      "000km",
+      "20%",
+      "1,000km",
+      "352",
+      "1",
+      "35,370円",
+      "2,122,200円",
+      "1484",
+      "576"
+    ],
+    "links_sample": [
+      "https://carmo-kun.jp/column/static/header-button-1484e88ed7f5ef748f319fe9ab0d2ac9.svg",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/a712d15fb59e49baa1914db90d61227c/V1A6969_R-150x150.jpeg?w=70&h=70&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/37833c0e76d94bfe98d92aaa60fd09a5/M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E6%AE%8B%E3%82%AF%E3%83%AC.png?w=890&h=497&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/fc6a2161347241c5b53b1e61d6de0e75/%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E8%A8%B4%E6%B1%82.png?w=360&h=90&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/75def2cdd31b480b9362be0b96b6e0f3/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?w=500&h=621&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/563153c80d764d08b9e6aca8781778e3/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/af338741ab674d5b9735aebf28ae6251/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/83eda7ddf84944f6acb3c55d082b2df1/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%E3%81%AE%E9%81%95%E3%81%84.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/82f31201276842a2b71ffb6f844e3053/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E5%88%A9%E6%81%AF%E3%81%8C%E3%81%8B%E3%81%8B%E3%82%8B%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/44172590f95e4c38aea2426ee2c01cce/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%96%99%E9%87%91%E3%81%AB%E3%81%A9%E3%82%93%E3%81%AA%E8%B2%BB%E7%94%A8%E3%81%8C%E5%90%AB%E3%81%BE%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/e3304f23576140caae5b62e5487c3db7/10026_vezel_top.jpg?w=500&h=281&fm=avif",
+      "https://images.microcms-assets.io/assets/1c3ed894de9f4781a0126e3ed99c096d/52b9669be65b4e7b8452ffd3f379cb02/icon_check.svg",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/3c64fcdad9d540a9bfe7169c53bffc3b/M41_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E6%96%99%E9%87%91%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/532998a93a614f449d97d18ec86cd568/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/f7791e3f13304387a61c66d967db4640/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E5%85%B1%E9%80%9A%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/433c4e7cd7b3417188ea83d1cb3459bb/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/35a2f84bab3a40d9aa615cfc94a1cb70/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/e06ffb3575ab4c18aaf19672fa87c741/newcar_10000_carmo.png?w=500&h=262&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/4dce67054dfb4d3387a0765fbb09ad08/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E9%A0%AD%E9%87%91%E3%83%BB%E5%88%9D%E6%9C%9F%E8%B2%BB%E7%94%A8%E3%81%8C%E4%B8%8D%E8%A6%81.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/a86149241fdf40f5a7cf512e6e72ea11/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E8%B2%BB%E7%94%A8%E3%82%82%E3%81%99%E3%81%B9%E3%81%A6%E3%82%B3%E3%83%9F%E3%82%B3%E3%83%9F%E3%81%AB%E3%81%A7%E3%81%8D%E3%82%8B.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/00dc76323dc54ad7849a1d7100eb81a7/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E8%B5%B0%E8%A1%8C%E8%B7%9D%E9%9B%A2%E5%88%B6%E9%99%90%E3%81%8C%E3%81%AA%E3%81%84.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/cb28ede80a214cef80baa8430e6b6a37/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AB%E7%B8%9B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E8%BB%8A%E7%A8%AE%E9%81%B8%E3%81%B3%E3%81%8C%E5%AE%9F%E7%8F%BE.png?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/eec11d8d481a4971bd588c6ff28095c7/%E6%9C%88%E3%80%851%E4%B8%87%E5%86%86%E5%8F%B0%E3%81%A7%E3%82%82%E5%AE%89%E5%BF%83%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9_%E3%81%8A%E8%A9%A6%E3%81%97%E5%AF%A9%E6%9F%BB%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B.png?w=360&h=104&fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/b8e43fff02ba4719a658449a34307401/%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%8A%E3%81%99%E3%81%99%E3%82%81_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81.jpg?fm=avif",
+      "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/cb166f98bd044e69a229023d19e60bfc/M97_%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%A8%E3%81%AF.png?w=250&h=140&fm=avif"
+    ],
+    "image_alt_count": 39
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "FAQPage",
+      "Question",
+      "Answer",
+      "Article",
+      "Person",
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": true,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2026年2月2",
+      "更新日：2026.04.28"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 218,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 195,
+    "main_chars": 5126,
+    "footer_chars": 501,
+    "tables_chars": 190,
+    "metadata_chars": 361,
+    "full_markdown_chars": 73298
+  },
+  "metadata": {
+    "title": "カーリースと残クレはどっちがお得？費用の違いやデメリットを比較 | カルモマガジン",
+    "description": "カーリースと残クレは、どちらも残価設定によって月々の支払いを抑えられますが、利息の有無や月額料金に含まれる費用に違いがあります。そこで、カーリースと残クレの仕組みやデメリット、実際に5年間でいくらかかるのかの費用を比較します。どちらがお得に車を持てるか、自分に合った方法を確認してみましょう。",
+    "language": "",
+    "sourceURL": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "FAQPage",
+      "Question",
+      "Answer",
+      "Article",
+      "Person",
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "schema_block_count": 3
+  },
+  "links": [
+    {
+      "url": "https://carmo-kun.jp/",
+      "text": "https://carmo-kun.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#menu",
+      "text": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/",
+      "text": "カルモマガジンTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/news/",
+      "text": "ニュース・特集",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/",
+      "text": "カーリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/subscription/",
+      "text": "車のサブスク",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/carloan/",
+      "text": "カーローン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/buycar/",
+      "text": "車選び",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/usedcar/column/",
+      "text": "中古車リース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/quick-only/",
+      "text": "https://carmo-kun.jp/column/newcar/quick-only/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/",
+      "text": "カーリースカルモくんTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/",
+      "text": "カーリースお役立ちコラム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#h1c7a76594f",
+      "text": "カーリースと残クレ（残価設定型クレジット）の仕組み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#h0d99029f6e",
+      "text": "カーリースと残クレの違い",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#hbf938cae2a",
+      "text": "実例で比較！カーリースと残クレ、5年間でいくらかかる？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#h8bc2249bf5",
+      "text": "カーリースと残クレのデメリット",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/#hc4e41167f4",
+      "text": "安く新車に乗れるカーリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/charge-simulation/",
+      "text": "【カーリース料金シミュレーション】月々いくら？見積もり比較で計算",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/landing159/",
+      "text": "https://carmo-kun.jp/column/newcar/landing159/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/",
+      "text": "カーリースカルモくん",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/try/",
+      "text": "https://carmo-kun.jp/column/newcar/try/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/carlease-individual/",
+      "text": "カーリースおすすめランキング【2026年4月】352名の利用者調査と個人向け車リース比較・選び方",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/writer/shinjiito/",
+      "text": "記事一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/writer/list/",
+      "text": "ライター一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/carloan/residual-value-setting-loan/",
+      "text": "【FP監修】残価設定ローンとは？メリットやデメリットと利用の注意点を解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/carloan/residualvalueloan-onlydisadvantages/",
+      "text": "残価設定ローンはデメリットしかない？しくみを知ってお得な方法で車に乗ろう",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/lease-or-buy/",
+      "text": "車はリースと購入どちらが得？FP監修で費用と向き不向きを徹底比較",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/contact",
+      "text": "メールフォームで相談する",
+      "is_pdf": false
+    },
+    {
+      "url": "https://lhco.li/4n18XaX",
+      "text": "LINEでチャット相談する",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/service_introduction_download_ss/",
+      "text": "https://carmo-kun.jp/column/newcar/service_introduction_download_ss/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/toyota/",
+      "text": "トヨタ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/nissan/",
+      "text": "日産",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/honda/",
+      "text": "ホンダ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/mazda/",
+      "text": "マツダ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/subaru/",
+      "text": "スバル",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/suzuki/",
+      "text": "スズキ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/daihatsu/",
+      "text": "ダイハツ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/mitsubishi/",
+      "text": "三菱",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/mini/",
+      "text": "軽自動車",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/compact/",
+      "text": "コンパクトカー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/hatchback/",
+      "text": "ハッチバック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/minivan/",
+      "text": "ミニバン・ワゴン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/suv/",
+      "text": "SUV・クロカン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/sedan/",
+      "text": "セダン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/stationwagon/",
+      "text": "ステーションワゴン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/lineup/coupe/",
+      "text": "クーペ・オープンカー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/about",
+      "text": "カーリースカルモくんとは？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/contract",
+      "text": "ご納車までの流れ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/maintenance",
+      "text": "メンテナンスプラン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/fee",
+      "text": "値段・料金について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/shop/shoplist/",
+      "text": "加盟店舗一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/information/",
+      "text": "お知らせ一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/faq/",
+      "text": "よくあるご質問",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/company/",
+      "text": "企業情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/contact/",
+      "text": "お客様お問合せ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/contract/corporate/",
+      "text": "法人・個人事業主様お問合せ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSf0JxT3eHk23n9yQ0xmbp3ivKbdx3xuQpeIJLF5qXqgEA_QaA/viewform",
+      "text": "取材・業務提携お問合せ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/top/law/",
+      "text": "特定商取引法に基づく表記",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/insurance-sales-policy",
+      "text": "取扱い保険会社／推奨販売に関する方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/top/solicitationpolicy/",
+      "text": "損害保険代理店等における勧誘方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/top/terms",
+      "text": "利用規約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/credit-info-correction/",
+      "text": "信用情報の訂正および利用停止の申し出手続き",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nyle.co.jp/privacypolicy/?__hstc=185624950.ab05662c30f31d23827690204804ec27.1778854476109.1778854476109.1778854476109.1&__hssc=185624950.1.1778854476109&__hsfp=6548bc4981749912b16bea33c59c9fbb",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/column/newcar/contentpolicy/",
+      "text": "コンテンツポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/citation-reprinting-rules/",
+      "text": "引用・転載について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carmo-kun.jp/docs/fd/",
+      "text": "顧客本位の業務運営の宣言",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nyle.co.jp/?__hstc=185624950.ab05662c30f31d23827690204804ec27.1778854476109.1778854476109.1778854476109.1&__hssc=185624950.1.1778854476109&__hsfp=6548bc4981749912b16bea33c59c9fbb",
+      "text": "https://nyle.co.jp/?__hstc=185624950.ab05662c30f31d23827690204804ec27.1778854476109.1778854476109.1778854476109.1&__hssc=185624950.1.1778854476109&__hsfp=6548bc4981749912b16bea33c59c9fbb",
+      "is_pdf": false
+    },
+    {
+      "url": "https://privacymark.jp/",
+      "text": "https://privacymark.jp/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iX+ODrOOCpOODpOODvF8yIiBkYXRhLW5hbWU9IuODrOOCpOODpOODvCAyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjIwLjc4IDI1My4xIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBmaWxsOiAjMzczMjMyOwogICAgICB9CgogICAgICAuY2xzLTIgewogICAgICAgIGZpbGw6ICMzNjJlMmU7CiAgICAgIH0KCiAgICAgIC5jbHMtMyB7CiAgICAgICAgZmlsbDogI2ZmYzMwMDsKICAgICAgfQoKICAgICAgLmNscy00IHsKICAgICAgICBmaWxsOiAjZmZmOwogICAgICB9CgogICAgICAuY2xzLTUgewogICAgICAgIGZpbGw6ICNlYjQ2Mzc7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxnIGlkPSJf44Os44Kk44Ok44O8XzEtMiIgZGF0YS1uYW1lPSLjg6zjgqTjg6Tjg7wgMSI+CiAgICA8Zz4KICAgICAgPHJlY3QgY2xhc3M9ImNscy00IiB3aWR0aD0iMTIyMC43OCIgaGVpZ2h0PSIyNTMuMSIvPgogICAgICA8Zz4KICAgICAgICA8cmVjdCBjbGFzcz0iY2xzLTQiIHg9IjI1NC42NyIgeT0iNjAuODQiIHdpZHRoPSI0OTYuMTEiIGhlaWdodD0iMTUzLjY2Ii8+CiAgICAgICAgPGc+CiAgICAgICAgICA8cmVjdCBjbGFzcz0iY2xzLTMiIHg9Ijc0Mi4wNSIgeT0iNTguNzQiIHdpZHRoPSI0NDIuNzkiIGhlaWdodD0iMTU4LjQ1Ii8+CiAgICAgICAgICA8Zz4KICAgICAgICAgICAgPHBhdGggaWQ9Il/jg5HjgrlfMjAyODUiIGRhdGEtbmFtZT0i44OR44K5IDIwMjg1IiBjbGFzcz0iY2xzLTEiIGQ9Ik0xMTQ2LjM0LDE1OC4yMmgtMy42OGMtMS4wMiwwLTEuODQuODItMS44NCwxLjg0aDB2Ny4zN2MwLDIuNzUtMS4zMyw1LjUyLTQuMzEsNS41MmgtMS44NGMtMS4wMiwwLTEuODQtLjgyLTEuODQtMS44NGgwdi00LjZjLS4wMS04LjUzLTYuNzItMTUuNTUtMTUuMjUtMTUuOTQuMzItNC4zMS42NS04Ljc2LjgzLTExLjI0LjA3LTEuMDEtLjY5LTEuOS0xLjctMS45Ny0uMDQsMC0uMDksMC0uMTMsMGgtMy42N2MtLjk2LDAtMS43Ni43NC0xLjg0LDEuNy0uMjksMy45My0xLjA1LDEzLjktMS42NCwyMS42Ny0uNjQsOC4zMy0xLjA4LDE0LjYxLTEuMzEsMTcuNi0uMDcsMS4wMS42OSwxLjksMS43LDEuOTcuMDQsMCwuMDksMCwuMTMsMGgzLjY4Yy45NiwwLDEuNzYtLjc0LDEuODQtMS43MS4yNC0zLjIxLjc4LTEwLjQ0LDEuMzEtMTcuMzYuMDktMS4xMi4xNy0yLjIzLjI2LTMuMzMsNC42OC4xLDguNDIsMy45MSw4LjQzLDguNTl2MTEuMzZjMCwxLjM2LDEuMSwyLjQ2LDIuNDYsMi40Nmg4LjZjNi42NS0uMiwxMS44OC01Ljc1LDExLjY5LTEyLjQsMC0uMTYtLjAxLS4zMy0uMDItLjQ5di03LjM0YzAtMS4wMi0uODEtMS44NS0xLjgzLTEuODZoMFoiLz4KICAgICAgICAgICAgPHBhdGggaWQ9Il/jg5HjgrlfMjAyODYiIGRhdGEtbmFtZT0i44OR44K5IDIwMjg2IiBjbGFzcz0iY2xzLTEiIGQ9Ik0xMDk0LjY0LDE0MC41NmMuNzUtLjY5LjgxLTEuODUuMTItMi42LS4zNS0uMzgtLjg0LS42LTEuMzYtLjZoLTQuOTdjLS40NiwwLS44OS4xNy0xLjIzLjQ3bC0yMS45NCwxOS43NWMtMS4wMS45LTEuMDksMi40Ni0uMTksMy40Ni4wNy4wOC4xNS4xNi4yNC4yM2wyMS45MSwxOC42MWMuMzMuMjguNzYuNDQsMS4xOS40NGg0Ljc5YzEuMDIsMCwxLjg0LS44MywxLjg0LTEuODUsMC0uNTMtLjIzLTEuMDQtLjYzLTEuMzhsLTE5LjQzLTE2LjczYy0uNTEtLjQ0LS41Ny0xLjIxLS4xMy0xLjczLjAzLS4wNC4wNy0uMDcuMTEtLjExbDE5LjY5LTE3Ljk4WiIvPgogICAgICAgICAgICA8cGF0aCBpZD0iX+ODkeOCuV8yMDI4NyIgZGF0YS1uYW1lPSLjg5HjgrkgMjAyODciIGNsYXNzPSJjbHMtMSIgZD0iTTg5Ny43NywxMDguMTZoLTEyLjcyYy0xLjM2LDAtMi40NiwxLjEtMi40NiwyLjQ2djQxLjM1YzAsLjY1LS4yNiwxLjI3LS43MiwxLjczbC0xMS40OSwxMS40OWMtLjk2Ljk2LS45NiwyLjUxLDAsMy40N2gwczguOTgsOC45OCw4Ljk4LDguOThjLjk2Ljk2LDIuNTEuOTYsMy40NywwbDE2LjI5LTE2LjI5Yy42OS0uNjksMS4wOC0xLjYzLDEuMDgtMi42di00OC4xM2MwLTEuMzUtMS4wOC0yLjQ1LTIuNDQtMi40NloiLz4KICAgICAgICAgICAgPHBhdGggaWQ9Il/jg5HjgrlfMjAyODgiIGRhdGEtbmFtZT0i44OR44K5IDIwMjg4IiBjbGFzcz0iY2xzLTEiIGQ9Ik04NTUuMjUsMTA4LjE2aC0zOS45NmMtLjM0LDAtLjYxLS4yOC0uNjEtLjYxdi0xMC43YzAtMS4zNS0xLjEtMi40NS0yLjQ1LTIuNDVoLTEyLjcyYy0xLjM1LDAtMi40NSwxLjEtMi40NSwyLjQ1aDB2MTAuN2MwLC4zNC0uMjcuNjEtLjYxLjYxaC0xNy4zMWMtMS4zNiwwLTIuNDYsMS4xLTIuNDYsMi40NnYxMi43MWMwLDEuMzYsMS4xLDIuNDYsMi40NiwyLjQ2aDE3LjMxYy4zNCwwLC42MS4yOC42MS42MXYyMC4wN2MwLC42NS0uMjYsMS4yNy0uNzIsMS43MmwtMTYuNzYsMTdjLS45NS45Ni0uOTUsMi41LDAsMy40Nmw4Ljk4LDguOThjLjk2Ljk2LDIuNTEuOTcsMy40NywwLDAsMCwwLDAsMCwwbDIxLjcyLTIxLjk2Yy41Ny0uNTcuODktMS4zNS44OS0yLjE2di0yNy4xMWMwLS4zNC4yNy0uNjEuNjEtLjYxaDI0LjE3Yy4zNCwwLC42MS4yOC42MS42MXYzNS42OGMwLC4zNC0uMjcuNjEtLjYxLjYxaC05LjA1Yy0xLjM2LDAtMi40NiwxLjEtMi40NiwyLjQ2djEyLjcxYzAsMS4zNiwxLjEsMi40NiwyLjQ2LDIuNDZoMTYuMTZjLjY1LDAsMS4yNy0uMjYsMS43My0uNzJsOC42OC04LjY4Yy40Ni0uNDYuNzItMS4wOC43Mi0xLjczdi01OC41N2MwLTEuMzQtMS4wOC0yLjQ0LTIuNDItMi40NloiLz4KICAgICAgICAgICAgPHBhdGggaWQ9Il/jg5HjgrlfMjAyODkiIGRhdGEtbmFtZT0i44OR44K5IDIwMjg5IiBjbGFzcz0iY2xzLTEiIGQ9Ik05NTEuMDYsMTQxLjk5Yy0uOTEtMS4wMS0yLjQ2LTEuMDktMy40Ni0uMThoMHMtMTUuNDksMTMuOTQtMTUuNDksMTMuOTRjLS4yNS4yMy0uNjQuMi0uODctLjA1LS4xLS4xMS0uMTYtLjI2LS4xNi0uNDF2LTU4LjQ2YzAtMS4zNS0xLjEtMi40NS0yLjQ1LTIuNDVoLTEyLjcxYy0xLjM1LDAtMi40NSwxLjEtMi40NSwyLjQ1djgxLjAyYzAsMS4zNiwxLjEsMi40NSwyLjQ1LDIuNDZoMTQuMzFjLjYxLDAsMS4xOS0uMjMsMS42NS0uNjNsMjcuNTMtMjQuNzhjMS4wMS0uOTEsMS4wOS0yLjQ2LjE4LTMuNDdsLTguNTEtOS40NFoiLz4KICAgICAgICAgICAgPHBhdGggaWQ9Il/jg5HjgrlfMjAyOTAiIGRhdGEtbmFtZT0i44OR44K5IDIwMjkwIiBjbGFzcz0iY2xzLTEiIGQ9Ik0xMDQ1Ljk4LDk5LjM0aC03Ni4xMWMtMS4zNiwwLTIuNDYsMS4xLTIuNDYsMi40NnYxMi43YzAsMS4zNiwxLjEsMi40NiwyLjQ2LDIuNDZoMjIuODVjLjM0LDAsLjYxLjI4LjYxLjYxdjEyLjU0YzAsLjM0LS4yNy42MS0uNjEuNjFoLTIyLjg1Yy0xLjM2LDAtMi40NiwxLjEtMi40NiwyLjQ2djEyLjcxYzAsMS4zNiwxLjEsMi40NiwyLjQ2LDIuNDZoMjIuODVjLjM0LDAsLjYxLjI4LjYxLjYxdjEzLjY2YzAsLjk4LjM5LDEuOTEsMS4wOCwyLjZsMTQuMDEsMTQuMDFjLjY5LjY5LDEuNjMsMS4wOCwyLjYsMS4wOGgzNC45NWMxLjM2LDAsMi40NS0xLjEsMi40NS0yLjQ2di0xMi43MmMwLTEuMzUtMS4wOS0yLjQ1LTIuNDUtMi40NmgtMjguOTJjLS4xNiwwLS4zMi0uMDYtLjQzLS4xOGwtNS41LTUuNWMtLjExLS4xMi0uMTgtLjI3LS4xOC0uNDN2LTcuNmMwLS4zNC4yNy0uNjEuNjEtLjYxaDM0LjQxYzEuMzUsMCwyLjQ1LTEuMSwyLjQ1LTIuNDVoMHYtMTIuNzJjMC0xLjM1LTEuMDktMi40NS0yLjQ1LTIuNDZoLTM0LjQyYy0uMzQsMC0uNjEtLjI4LS42MS0uNjF2LTEyLjU0YzAtLjM0LjI3LS42MS42MS0uNjFoMzQuNDFjMS4zNSwwLDIuNDYtMS4wOSwyLjQ2LTIuNDV2LTEyLjc0YzAtMS4zNS0xLjEtMi40My0yLjQ1LTIuNDRaIi8+CiAgICAgICAgICA8L2c+CiAgICAgICAgICA8cmVjdCBjbGFzcz0iY2xzLTMiIHg9IjI1My42NyIgeT0iNTguNzQiIHdpZHRoPSI1OTUuMTYiIGhlaWdodD0iNC41MSIvPgogICAgICAgICAgPHJlY3QgY2xhc3M9ImNscy0zIiB4PSIyNTMuNjciIHk9IjIxMi42OCIgd2lkdGg9IjU5NS4xNiIgaGVpZ2h0PSI0LjUxIi8+CiAgICAgICAgICA8Zz4KICAgICAgICAgICAgPHBvbHlnb24gY2xhc3M9ImNscy0zIiBwb2ludHM9IjEwNC4wMSA1OC42OCAxMDQuMDEgMzYuMDEgNTguNjggMzYuMDEgNTguNjggNTguNjggMzYuMDEgNTguNjggMzYuMDEgMTA0LjAxIDU4LjY4IDEwNC4wMSA1OC42OCAyMTcuMzUgMTA0LjAxIDIxNy4zNSAxMDQuMDEgMTA0LjAxIDE3Mi4wMSAxMDQuMDEgMTcyLjAxIDIxNy4zNSAyMTcuMzUgMjE3LjM1IDIxNy4zNSA1OC42OCAxMDQuMDEgNTguNjgiLz4KICAgICAgICAgICAgPHBhdGggY2xhc3M9ImNscy01IiBkPSJNMTcyLjAxLDEyNS4wNmgtMjQuNzRjLTUuNCwwLTEwLjQxLDIuOC0xMy4yNCw3LjRsLTE0Ljk5LDI0LjM1Yy0yLjgzLDQuNi03Ljg0LDcuNC0xMy4yNCw3LjRoLTE5LjkzYy00LjI5LDAtNy43NywzLjQ4LTcuNzcsNy43N3YyMC41OWMwLDQuMjksMy40OCw3Ljc3LDcuNzcsNy43N2g4Ni4xM3YtNzUuMjlaIi8+CiAgICAgICAgICAgIDxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iMTI5LjExIiBjeT0iMjAwLjM1IiByPSIxNyIvPgogICAgICAgICAgPC9nPgogICAgICAgICAgPHJlY3QgY2xhc3M9ImNscy0zIiB4PSIyNTMuNjciIHk9IjU4Ljc0IiB3aWR0aD0iNC41MSIgaGVpZ2h0PSIxNTguMyIvPgogICAgICAgICAgPGc+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQ0OS44MSwxMzIuN3YtLjU0YzAtLjU1LS40NS0xLTEtMWgtNjcuODhjLS41NSwwLS45OC40NC0uOTkuOTl2OS41NmMwLC41NS40NS45OSwxLC45OWguNTFzNjYuODQsMCw2Ni44NCwwaDBzLjUxLDAsLjUxLDBjLjU1LDAsMS0uNDUsMS0xdi0uNTRoMHYtOC40NmgwWiIvPgogICAgICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik02MjAuNDIsMTMyLjd2LS41NGMwLS41NS0uNDUtMS0xLTFoLTY3Ljg4Yy0uNTUsMC0uOTguNDQtLjk5Ljk5djkuNTZjMCwuNTUuNDUuOTksMSwuOTloLjUxczY2Ljg0LDAsNjYuODQsMGgwcy41MSwwLC41MSwwYy41NSwwLDEtLjQ1LDEtMXYtLjU0aDB2LTguNDZoMFoiLz4KICAgICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNNDg2LjUzLDEwMy44MWMwLS41NS0uNDQtLjk5LS45OS0xaC0xMC41MmMtLjU1LDAtLjk5LjQ1LS45OS45OXY0MC42NmMwLC41NS40NS45OSwxLC45OWguNTFzOS40OSwwLDkuNDksMGgwcy41MSwwLC41MSwwYy41NSwwLDEtLjQ1LDEtMXYtLjU0aDB2LTM5LjU4aDB2LS41NFoiLz4KICAgICAgICAgICAgPHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMzYwLjM1LDExNy44OXYtLjUxYzAtLjU1LS40NS0xLTEtMWgtMjUuOTNzLS41MSwwLS41MSwwYy0uNTUsMC0xLS40NS0xLTF2LS41MmMuMTgtNC40MS4yNS03LjM0LjI2LTExLjgxaDB2LS41NGMwLS41NS0uNDQtLjk5LS45OS0xaC0xMC4yYy0uNTQsMC0uOTguNDQtLjk5Ljk4LS4wMSwzLjM4LS4wOSw2LjIzLS4xNiw5LjQybC0uMDcsMy40NXYuMDJjMCwuNTUtLjQ1LDEtMSwxaC0uNTRzLTIwLjQ3LDAtMjAuNDcsMGMtLjU1LDAtLjk5LjQ0LS45OS45OXY4LjU4YzAsLjU1LjQ1Ljk5LDEsLjk5aC41NHMxOS43MSwwLDE5LjcxLDBjLjU1LDAsLjk5LjQ1Ljk5LDF2LjQ1Yy0uOTgsNy4zMi0yLjk5LDE0LjAxLTUuNTEsMTguMTMtMy44OSw2LjIyLTEwLjUyLDExLjk4LTE4LjQ5LDE2LjFsLS4xMy4wOGMtLjQ0LjM0LS41Mi45Ni0uMTksMS40bC4wNS4wNiw2LjIyLDcuNDloMHMuMzMuNC4zMy40Yy4yOS40My44NS41NiwxLjMuMzIsOC45NS00Ljg2LDE2LjQ4LTExLjg1LDIxLjMtMTkuODQsMy41My01LjgxLDYuMjMtMTQuODksNy4yMS0yNC41OGgwYy4wNi0uNTguNTEtMS4wMSwxLjA2LTEuMDFoMTQuNzdjLjU1LDAsLjk5LjQ1Ljk5LDFoMGMtLjEzLDEwLjgzLTEuMTYsMjQuMzYtMi4zNCwyOS44Ny0uNTcsMy4wOS0xLjIyLDMuNTctNC4xNCwzLjU3cy02LjU0LS40MS0xMC45OS0xLjIzaC0uMDZjLS41NS0uMDItMS4wMS40LTEuMDQuOTRsMS40Nyw5LjQ0Yy4wOS40NS41Ljg2LDEuMDEuOTUsNC4xLjU2LDcuNzUuODYsMTEuMy44Niw4LjM3LDAsMTIuMTktMi4yNywxNC4wNS04LjM3LDEuNjctNS42NSwyLjg3LTIyLjI5LDMuMTUtNDYuMWgwWiIvPgogICAgICAgICAgICA8cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik01MjUuOTQsMTMwLjc2di0yNy4yMmgwdi0uNTRjMC0uNTUtLjQ0LS45OS0uOTktMWgtMTAuNTJjLS41NSwwLS45OS40NC0uOTkuOTl2MjcuODVjMCwxMi44NC0uNjUsMTYuNzMtMy43NCwyMS43Ny0zLjE1LDQuOTItMTAuMSw4LjQ2LTIwLjc2LDEwLjYxbC0uNS4xMWMtLjU0LjExLS45MS42Ni0uOCwxLjJ2LjAyczQuODMsOC44Myw0LjgzLDguODNjLjI1LjQ5LjcuNjcsMS4yOS41NSwyNS4zNi01LjcyLDMyLjgyLTE1LjgsMzIuMTgtNDMuMThaIi8+CiAgICAgICAgICAgIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTcwNS4wOCwxNjIuMThjLTcuMTctNy41LTE1LjMtMTQuOTQtMjIuODMtMjAuOTJsLS4wOC0uMDhjLS4zNy0uMzctLjM4LS45Ni0uMDQtMS4zNSw2LjM0LTguNjUsMTEuMDQtMTcuMjQsMTQuNS0yNi4zN2wtNi44Mi02LjE3aC00Ni43N2MtLjU1LDAtLjk5LjQ0LS45OS45OXY4LjU4YzAsLjU1LjQ1Ljk5LDEsLjk5aC41MXMzNy4xNCwwLDM3LjE0LDBoLjA1Yy41NC4xMi44OS42NC43OSwxLjE5bC0uMDguNDFjLTguMTYsMTguMjUtMjUuMTksMzQuNC00NC40Niw0MS45OWwtLjM2LjIxYy0uNDguMjgtLjY0Ljg5LS4zNiwxLjM3bC4wNi4xLDUuNCw4LjY3aDBjLjI3LjQ2Ljc2LjU4LDEuMjguMzcsMTEuNTItNS4xMywyMi40MS0xMi45MywzMC43My0yMi4wMWwuMTUtLjE1Yy4zOC0uMzgsMS0uMzksMS4zOS0uMDEsNy40NCw2LjY3LDE0LjY0LDEzLjg3LDIwLjg3LDIwLjk2bC4zNi4zNWMuMzkuMzksMS4wMi4zOSwxLjQxLDBsLjM2LS4zNmgwczYuNzYtNy4zNCw2Ljc2LTcuMzRoMGMuMzktLjM5LjM5LTEuMDEuMDItMS40WiIvPgogICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvZz4KPC9zdmc+",
+      "alt": "カーリースカルモくん"
+    },
+    {
+      "src": "https://carmo-kun.jp/column/static/header-button-1484e88ed7f5ef748f319fe9ab0d2ac9.svg",
+      "alt": "お試無料お試し審査し審査"
+    },
+    {
+      "src": "https://carmo-kun.jp/column/static/header-button-1484e88ed7f5ef748f319fe9ab0d2ac9.svg",
+      "alt": "お試し審査"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/a712d15fb59e49baa1914db90d61227c/V1A6969_R-150x150.jpeg?w=70&h=70&fm=avif",
+      "alt": "伊藤 真二"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/37833c0e76d94bfe98d92aaa60fd09a5/M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E6%AE%8B%E3%82%AF%E3%83%AC.png?w=890&h=497&fm=avif",
+      "alt": "カーリースと残クレの違いやどっちがお得かについて、仕組みや月額料金の内訳、総支払額を徹底比較して解説する記事のタイトル画像。残価設定型クレジットの略称である残クレと、車のサブスクとも呼ばれるカーリース、残価設定によって月々の支払額を抑えやすい仕組みは同じ。しかし、実際に支払う金額やその内訳には違いがあり、それぞれのメリット・デメリットを比較して自分に合う方法を選ぶことをすすめている。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/fc6a2161347241c5b53b1e61d6de0e75/%E3%82%82%E3%82%89%E3%81%88%E3%82%8B%E8%A8%B4%E6%B1%82.png?w=360&h=90&fm=avif",
+      "alt": "カーリースカルモくんはクルマがもらえる！"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/75def2cdd31b480b9362be0b96b6e0f3/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?w=500&h=621&fm=avif",
+      "alt": "カーリース（車のサブスク）と残クレ（残価設定型クレジット）それぞれの仕組みの違いについて比較解説している画像。契約満了時の残価を差し引いた金額を基に算出された月額料金を支払うカーリース。数年後の返却・乗換えを前提に買取保証額を残価として設定するローンである残クレ。それぞれの特徴の違いを比較ししている。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/563153c80d764d08b9e6aca8781778e3/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?fm=avif",
+      "alt": "カーリースの「残価設定」のしくみについて、契約満了時の車の予測価格（残価）をあらかじめ設定し、車両価格から残価を差し引いた金額のみを分割して支払うため、車両価格を全額支払うよりも支払負担を抑えられるメリットを、200万円の新車の具体例を用いて解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/af338741ab674d5b9735aebf28ae6251/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%81%97%E3%81%8F%E3%81%BF.png?fm=avif",
+      "alt": "残クレについて、設定した残価を差し引いて分割するため通常のローンより月々の返済額や金利を抑えられる特徴と、支払期間終了後に選べる3つの選択肢（新車への乗換え、残価を支払って乗り続ける、ディーラーへの返却）を解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/83eda7ddf84944f6acb3c55d082b2df1/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%E3%81%AE%E9%81%95%E3%81%84.png?fm=avif",
+      "alt": "同じく残価設定を利用するカーリースと残クレのおもな違いとして、「利息がかかるかどうか」と「料金に含まれる費用の内訳」の2点を挙げ、それぞれの特徴を比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/82f31201276842a2b71ffb6f844e3053/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E5%88%A9%E6%81%AF%E3%81%8C%E3%81%8B%E3%81%8B%E3%82%8B%E3%81%8B%E3%81%A9%E3%81%86%E3%81%8B.png?fm=avif",
+      "alt": "カーリースと残クレの大きな違いである「利息の有無」について、残クレはローンであるため残価を含めた元金に利息がかかるのに対し、カーリースは車の使用料を支払う仕組みのため利息がかからないことを比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/44172590f95e4c38aea2426ee2c01cce/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%96%99%E9%87%91%E3%81%AB%E3%81%A9%E3%82%93%E3%81%AA%E8%B2%BB%E7%94%A8%E3%81%8C%E5%90%AB%E3%81%BE%E3%82%8C%E3%82%8B%E3%81%AE%E3%81%8B.png?fm=avif",
+      "alt": "カーリースと残クレの月々の支払額に含まれる費用の違いについて、車の使用料を支払うカーリースは各種税金や自賠責保険料が月額料金に含まれるのに対し、車両購入資金の返済である残クレはそれらが含まれず、購入者自身に納税義務があることを比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/e3304f23576140caae5b62e5487c3db7/10026_vezel_top.jpg?w=500&h=281&fm=avif",
+      "alt": "ヴェゼル_車種画像"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/1c3ed894de9f4781a0126e3ed99c096d/52b9669be65b4e7b8452ffd3f379cb02/icon_check.svg",
+      "alt": "チェックアイコン"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/3c64fcdad9d540a9bfe7169c53bffc3b/M41_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E6%96%99%E9%87%91%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3.png?fm=avif",
+      "alt": "カーリース料金シミュレーションと見積もり比較"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/532998a93a614f449d97d18ec86cd568/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E6%AE%8B%E3%82%AF%E3%83%AC%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "alt": "カーリースと残クレのデメリットについて、走行距離制限や傷による追加請求などの「両者に共通するデメリット」、中途解約不可や総支払額が高くなりやすい「カーリース特有のデメリット」、最終的な買取り負担や再ローン時の高金利リスクといった「残クレ特有のデメリット」の3つに分けて解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/f7791e3f13304387a61c66d967db4640/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E5%85%B1%E9%80%9A%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "alt": "カーリースと残クレに共通するデメリットについて、制限超過や原状回復に伴う追加費用が発生する「走行距離とカスタマイズの制限」、価値低下時に差額請求される「傷や事故による追加請求のリスク」、自分の判断で売却できない「車の所有権が自分にない」という3つの注意点を解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/433c4e7cd7b3417188ea83d1cb3459bb/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "alt": "カーリース特有のデメリットについて、原則として中途解約ができず強制解約時に違約金が発生するリスク、毎月の支払いがフラットになる分だけ総支払額が現金一括購入より高くなりやすいこと、契約満了時は返却や乗換えが基本となり最終的に車が手元に残らない点（プランによる例外あり）の3つを解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/35a2f84bab3a40d9aa615cfc94a1cb70/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E6%AE%8B%E3%82%AF%E3%83%AC%EF%BC%88%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%AC%E3%82%B8%E3%83%83%E3%83%88%EF%BC%89%E3%81%AE%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88.png?fm=avif",
+      "alt": "残クレ特有のデメリットについて、最終的に車を買い取って乗り続ける場合において残っていた高額な残価を一括で支払う負担が大きいことや、一括払いができず再ローンを組むと通常の高い金利での契約になりやすいという2つのリスクを解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/e06ffb3575ab4c18aaf19672fa87c741/newcar_10000_carmo.png?w=500&h=262&fm=avif",
+      "alt": "カーリースの「おトクにマイカー 定額カルモくん」なら、日本最安水準の月々10,000円台から国産新車に乗れるということを表した図"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/4dce67054dfb4d3387a0765fbb09ad08/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E9%A0%AD%E9%87%91%E3%83%BB%E5%88%9D%E6%9C%9F%E8%B2%BB%E7%94%A8%E3%81%8C%E4%B8%8D%E8%A6%81.png?fm=avif",
+      "alt": "一般的な残クレでは車両価格の10～20%の頭金や初期費用が必要になるのに対し、カルモくんは頭金やボーナス払いなしで初期費用が一切かからず、最初にまとまったお金を用意せずにスムーズにカーライフを始められる魅力を比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/a86149241fdf40f5a7cf512e6e72ea11/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%83%A1%E3%83%B3%E3%83%86%E3%83%8A%E3%83%B3%E3%82%B9%E8%B2%BB%E7%94%A8%E3%82%82%E3%81%99%E3%81%B9%E3%81%A6%E3%82%B3%E3%83%9F%E3%82%B3%E3%83%9F%E3%81%AB%E3%81%A7%E3%81%8D%E3%82%8B.png?fm=avif",
+      "alt": "車検やメンテナンス費用などをその都度自己負担で支払う必要がある残クレに対し、カルモくんは月額料金に自賠責保険料や各種税金が含まれており、プランによっては車検基本料やメンテナンス費用もすべてコミコミにできる違いを比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/00dc76323dc54ad7849a1d7100eb81a7/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E8%B5%B0%E8%A1%8C%E8%B7%9D%E9%9B%A2%E5%88%B6%E9%99%90%E3%81%8C%E3%81%AA%E3%81%84.png?fm=avif",
+      "alt": "一般的な残クレやカーリースでは月1,000kmなどの走行距離制限があり超過料金が発生するのに対し、カルモくんは7年以上の契約で走行距離が無制限となり、もらえるオプションを追加すれば契約満了時の超過料金や原状回復が不要で気楽に車に乗れる違いを比較解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/cb28ede80a214cef80baa8430e6b6a37/%E3%80%90%E8%A8%98%E4%BA%8B%E5%86%85%E7%94%BB%E5%83%8F%E3%80%91M70_%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC%E3%81%AB%E7%B8%9B%E3%82%89%E3%82%8C%E3%81%AA%E3%81%84%E8%BB%8A%E7%A8%AE%E9%81%B8%E3%81%B3%E3%81%8C%E5%AE%9F%E7%8F%BE.png?fm=avif",
+      "alt": "カルモくんでは国産メーカーの全車種・全グレードを取り扱っているためメーカーに縛られない自由な車種選びができることや、さまざまな車に乗りたい方は短いサイクルで乗り替えていくことも可能な魅力を解説する画像。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/eec11d8d481a4971bd588c6ff28095c7/%E6%9C%88%E3%80%851%E4%B8%87%E5%86%86%E5%8F%B0%E3%81%A7%E3%82%82%E5%AE%89%E5%BF%83%E3%81%AE%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9_%E3%81%8A%E8%A9%A6%E3%81%97%E5%AF%A9%E6%9F%BB%E3%82%92%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B.png?w=360&h=104&fm=avif",
+      "alt": "月々1万円台でも安心のサービス_お試し審査をしてみる"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/b8e43fff02ba4719a658449a34307401/%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%8A%E3%81%99%E3%81%99%E3%82%81_%E3%82%A2%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81.jpg?fm=avif",
+      "alt": "カーリースおすすめを比較する個人向けガイド"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/cb166f98bd044e69a229023d19e60bfc/M97_%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%83%AD%E3%83%BC%E3%83%B3%E3%81%A8%E3%81%AF.png?w=250&h=140&fm=avif",
+      "alt": "残価設定型クレジット、略して残クレとも呼ばれる残価設定ローンとは何か、その仕組みやメリット・デメリット、注意点についてファイナンシャルプランナー監修のもと解説した記事のタイトル画像。通常の車のローンとの違いや月々の支払いが安くなる理由、契約満了時の選択肢についても紹介している。また、残価設定ローンでお得に車を購入できるかどうかは、中古車市場での扱いにもよることを解説している。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/cdd8095d6e1a4e61872250b01e724506/%E6%AE%8B%E4%BE%A1%E8%A8%AD%E5%AE%9A%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%87%E3%83%A1%E3%83%AA%E3%83%83%E3%83%88%E3%81%97%E3%81%8B%E3%81%AA%E3%81%84_%E3%82%B5%E3%83%A0%E3%83%8D%E3%82%A4%E3%83%AB.png?w=250&h=140&fm=avif",
+      "alt": "残価設定ローンには本当にデメリットだけでメリットはないのか、なぜそういわれているのかを一般的なローンと比較しながら解説し、注意点に気をつけながらお得に車に乗れる方法を紹介する記事のタイトル画像"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/f6b6e5eec2a842ffbd70fc578cae329d/M30_%E3%83%AA%E3%83%BC%E3%82%B9%E3%81%A8%E8%B3%BC%E5%85%A5%E3%81%A9%E3%81%A1%E3%82%89%E3%81%8C%E5%BE%97%E3%81%8B.png?w=250&h=140&fm=avif",
+      "alt": "車のリースと購入どちらが得かについて、費用比較や特徴の違いを交えながら解説。車は買うかリースか、どっちがお得かをシミュレーションで比較するとともに、それぞれのメリット・デメリットや向いている方の特徴についても紹介。"
+    },
+    {
+      "src": "https://images.microcms-assets.io/assets/576cfa02bd414638bb533bb0b49429bb/826b6fc5ee794ce2b0fe6ef976e85680/%E6%9C%80%E5%AE%89%E7%B4%9A%E3%81%AE%E3%82%AB%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9_%E5%AF%A9%E6%9F%BB%E3%81%AB%E9%80%9A%E3%82%8B%E3%81%8B%E8%A9%A6%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B.png?w=360&h=56&fm=avif",
+      "alt": "最安級のカーリース_審査に通るか試してみる"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMTYuNjkzIiBoZWlnaHQ9IjYzLjA4IiB2aWV3Qm94PSIwIDAgMzE2LjY5MyA2My4wOCI+CiAgICA8ZGVmcz4KICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgIC5jbHMtMXtmaWxsOiNmZmMzMDB9CiAgICAgICAgPC9zdHlsZT4KICAgIDwvZGVmcz4KICAgIDxnIGlkPSLjgrDjg6vjg7zjg5dfNDQ0MSIgZGF0YS1uYW1lPSLjgrDjg6vjg7zjg5cgNDQ0MSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIwMy43NDkgLTEwNzgwLjc0OCkiPgogICAgICAgIDxwYXRoIGlkPSJpY29uX2ZyZWVjYWxsIiBkPSJNMjMuMDg5IDBhMjMuMDg5IDIzLjA4OSAwIDEgMCAyMy4wODkgMjMuMDg5QTIzLjA5IDIzLjA5IDAgMCAwIDIzLjA4OSAwem0yLjQzMyAxNi41MzJoLTEuNjc0VjguODNoMS42NzRhMS4zMjcgMS4zMjcgMCAwIDEgMS4zMjggMS4zMjdWMTUuMmExLjMyNyAxLjMyNyAwIDAgMS0xLjMyOCAxLjMzMnptMS4zMjggMTQuNDQydjUuMDQ4YTEuMzI4IDEuMzI4IDAgMCAxLTEuMzI4IDEuMzI3aC0xLjY3NHYtNy43aDEuNjc0YTEuMzI4IDEuMzI4IDAgMCAxIDEuMzI4IDEuMzI1em0tMy45MS0xNC40MDdhMS4zMjggMS4zMjggMCAwIDAtMS4wMjYgMS4xMjUgMjkuOTE1IDI5LjkxNSAwIDAgMC0uMzczIDUuNCAyOS45IDI5LjkgMCAwIDAgLjM3MyA1LjQgMS4zMjcgMS4zMjcgMCAwIDAgMS4wMjYgMS4xMjV2Ny43MzhoLS40NjJjLTMuMjI2IDAtNi4wMzYtNy4wNzctNi4wMzYtMTQuMjZTMTkuMjUxIDguODMgMjIuNDc4IDguODNoLjQ2MnoiIGNsYXNzPSJjbHMtMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTMwIDIwMjYyLjEwOSA1MDIxLjcxOCkiLz4KICAgICAgICA8ZyBpZD0i44Kw44Or44O844OXXzQ0NDAiIGRhdGEtbmFtZT0i44Kw44Or44O844OXIDQ0NDAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI2OS40NjUgMTA3OTguOTQzKSI+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI4OSIgZD0iTTEwMzEuNTMxIDY4NC4yMTZhOS4yOTEgOS4yOTEgMCAwIDEtMi4xODktMy4zNSAyMi4yIDIyLjIgMCAwIDEtMS4yOTMtNy42MjljMC0zLjUxNi44LTcuMTY1IDIuMDIzLTkuMTg5YTkuNDMyIDkuNDMyIDAgMCAxIDguNDU5LTQuNjEgOS42MzYgOS42MzYgMCAwIDEgNyAyLjY4NiA5LjI5NCA5LjI5NCAwIDAgMSAyLjE4OSAzLjM1IDIyLjMwNiAyMi4zMDYgMCAwIDEgMS4yOTMgNy43YzAgNC4wOC0uOSA3LjY2My0yLjQ1NSA5LjgxOWE5LjQxNSA5LjQxNSAwIDAgMS04LjA2IDMuOTE0IDkuNTU3IDkuNTU3IDAgMCAxLTYuOTY3LTIuNjkxem0xMC41ODItMi41NTRjMS40OTMtMS41NTkgMi4zMjItNC42NDQgMi4zMjItOC41MjUgMC0zLjg0Ny0uODI5LTYuODY2LTIuMzIyLTguNDkyYTQuOCA0LjggMCAwIDAtMy42MTUtMS4zOTIgNC40NjEgNC40NjEgMCAwIDAtMy43MTUgMS42OTFjLTEuNDU5IDEuNzI1LTIuMTg5IDQuNDQ1LTIuMTg5IDguMDYxIDAgMy40ODMuNjMgNi4zNjkgMS42OTIgNy44OTRhNS4yNzcgNS4yNzcgMCAwIDAgNy44MjguNzYzeiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IuODkeOCuSA5Mjg5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAyOC4wNDggLTY1OS4zMzgpIi8+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI5MCIgZD0iTTEwOTMuMzg1IDY4Ni44OTVhMjcuNTIxIDI3LjUyMSAwIDAgMCAuMjY1LTQuMzEydi0xOC4yNzdoLTEuNTkyYTI5LjQ3MSAyOS40NzEgMCAwIDAtMy40MTcuMnYtNC4yMTNhMTguNDQyIDE4LjQ0MiAwIDAgMCAzLjMxNy4yaDMuMDUyYTI0LjEyMiAyNC4xMjIgMCAwIDAgMy4zODMtLjE2NiA1MCA1MCAwIDAgMC0uMjY1IDUuNDczdjE2Ljc4NGEyNy44MTEgMjcuODExIDAgMCAwIC4yNjUgNC4zMTJ6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0i44OR44K5IDkyOTAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDY1LjEyNCAtNjU5Ljg2MSkiLz4KICAgICAgICAgICAgPHBhdGggaWQ9IuODkeOCuV85MjkxIiBkPSJNMTEzMS4yMjYgNjg2LjM3MmEzMC41NjEgMzAuNTYxIDAgMCAwLTQuMjc5LjE2NiAxNi45NzQgMTYuOTc0IDAgMCAxIC44NjItNC4yNDYgMTYuMzY4IDE2LjM2OCAwIDAgMSA0LjU0NS02LjUgNDUuNyA0NS43IDAgMCAxIDUuNDczLTQuMDE0YzMuMDUyLTIuMDg5IDMuOTgxLTMuMTg0IDMuOTgxLTQuODc2IDAtMi4yNTYtMS43NTgtMy42NDktNC41NzctMy42NDlhNC42ODcgNC42ODcgMCAwIDAtNC4yMTMgMS45NTcgNi4zIDYuMyAwIDAgMC0xLjAyOCAzLjA1MmwtNC43NDMtLjU2NGE5Ljk2MSA5Ljk2MSAwIDAgMSAyLjI4OS01LjMwOGMxLjY1OS0xLjkyNCA0LjI3OS0yLjk1MiA3LjYtMi45NTIgNS44IDAgOS4zODcgMi43ODYgOS4zODcgNy4zM2E2LjczNCA2LjczNCAwIDAgMS0yLjM1NSA1LjMwOGMtLjkyOS44NjItMS4yNiAxLjEyOC01LjU3MyA0LjA4YTI5LjAxIDI5LjAxIDAgMCAwLTMuOTQ4IDMuMzE3IDggOCAwIDAgMC0xLjg5MSAyLjk4NWg5LjI4OGEzNC44MzQgMzQuODM0IDAgMCAwIDQuODQzLS4yNjV2NC4zNzljLTEuNTU5LS4xMzMtMi44ODYtLjItNS4wMDktLjJ6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0i44OR44K5IDkyOTEiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDg4LjU2MiAtNjU5LjMzOCkiLz4KICAgICAgICAgICAgPHBhdGggaWQ9IuODkeOCuV85MjkyIiBkPSJNMTE5MC4wODYgNjg0LjIxNmE5LjI4OCA5LjI4OCAwIDAgMS0yLjE4OS0zLjM1IDIyLjE5IDIyLjE5IDAgMCAxLTEuMjk0LTcuNjI5YzAtMy41MTYuOC03LjE2NSAyLjAyMy05LjE4OWE5LjQzMyA5LjQzMyAwIDAgMSA4LjQ1OS00LjYxIDkuNjM3IDkuNjM3IDAgMCAxIDcgMi42ODYgOS4yOTIgOS4yOTIgMCAwIDEgMi4xODkgMy4zNSAyMi4zIDIyLjMgMCAwIDEgMS4yOTMgNy43YzAgNC4wOC0uODk1IDcuNjYzLTIuNDU0IDkuODE5YTkuNDE1IDkuNDE1IDAgMCAxLTguMDYxIDMuOTE0IDkuNTU2IDkuNTU2IDAgMCAxLTYuOTY2LTIuNjkxem0xMC41ODEtMi41NTRjMS40OTMtMS41NTkgMi4zMjItNC42NDQgMi4zMjItOC41MjUgMC0zLjg0Ny0uODI5LTYuODY2LTIuMzIyLTguNDkyYTQuOCA0LjggMCAwIDAtMy42MTYtMS4zOTIgNC40NjIgNC40NjIgMCAwIDAtMy43MTUgMS42OTFjLTEuNDU5IDEuNzI1LTIuMTg5IDQuNDQ1LTIuMTg5IDguMDYxIDAgMy40ODMuNjMgNi4zNjkgMS42OTIgNy44OTRhNS4yNzcgNS4yNzcgMCAwIDAgNy44MjguNzYzeiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IuODkeOCuSA5MjkyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTEyNS4wNjQgLTY1OS4zMzgpIi8+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI5MyIgZD0iTTEyNDYuOTQxIDY5MC4yMTJhMjAuNzYxIDIwLjc2MSAwIDAgMCAzLjExOC4yaDUuMTQyYTIwLjkzNCAyMC45MzQgMCAwIDAgMy4xNTEtLjJ2NC40MTJhMTguMTczIDE4LjE3MyAwIDAgMC0zLjE1MS0uMmgtNS4xNDJhMTguMjMgMTguMjMgMCAwIDAtMy4xMTguMnoiIGNsYXNzPSJjbHMtMSIgZGF0YS1uYW1lPSLjg5HjgrkgOTI5MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTExNjEuOTg0IC02NzguMTY4KSIvPgogICAgICAgICAgICA8cGF0aCBpZD0i44OR44K5XzkyOTQiIGQ9Ik0xMjg4Ljg2NiA2NzkuOTI0YTQuNTQ0IDQuNTQ0IDAgMCAwIC45OTUgMS45MjQgNS4wMjMgNS4wMjMgMCAwIDAgNC4wOCAxLjY5MiA1LjE0NSA1LjE0NSAwIDAgMCA1LjQ0LTUuNDczYzAtMy4yNTEtMi4wNTctNS4zNC01LjIwOC01LjM0YTUuODMzIDUuODMzIDAgMCAwLTQuMTEzIDEuNTI1IDMuOCAzLjggMCAwIDAtLjk5NSAxLjQ5M2wtNC4xNDctLjRjLjMzMi0yLjM1NS4zNjUtMi41MjEuNDMxLTMuNDVsLjc2My04LjIyNmMuMDMzLS42LjEtMS43MjUuMTMzLTMuMzg0Ljk5NS4wNjcgMS43NTguMSAzLjUxNi4xaDguMTU5YTI1LjI2IDI1LjI2IDAgMCAwIDQuNjExLS4yNjZ2NC4xOGEzMS44MDcgMzEuODA3IDAgMCAwLTQuNTc4LS4yNjZoLTcuOGwtLjUzMSA1LjgwNXEtLjA1LjQtLjIgMS4zOTNhOC4xNjMgOC4xNjMgMCAwIDEgNS42NzItMi4wMjMgOC41MjEgOC41MjEgMCAwIDEgNi40NjggMi40ODggOC4xNTMgOC4xNTMgMCAwIDEgMi4zNTYgNi4yMzZjMCA1LjgzOC0zLjgxNSA5LjQ1My05Ljk4NSA5LjQ1My0zLjI4NCAwLTUuNzM5LS45MjktNy41NjMtMi44ODVhOS44IDkuOCAwIDAgMS0yLjA5LTMuNjE2eiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IuODkeOCuSA5Mjk0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTE4NC44MzYgLTY1OS43NTYpIi8+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI5NSIgZD0iTTEzNDYuNzE4IDY3OS45MjRhNC41NDMgNC41NDMgMCAwIDAgLjk5NSAxLjkyNCA1LjAyNCA1LjAyNCAwIDAgMCA0LjA4IDEuNjkyIDUuMTQ1IDUuMTQ1IDAgMCAwIDUuNDQtNS40NzNjMC0zLjI1MS0yLjA1Ni01LjM0LTUuMjA4LTUuMzRhNS44MzIgNS44MzIgMCAwIDAtNC4xMTMgMS41MjUgMy44IDMuOCAwIDAgMC0xIDEuNDkzbC00LjE0Ni0uNGMuMzMyLTIuMzU1LjM2NS0yLjUyMS40MzEtMy40NWwuNzYzLTguMjI2Yy4wMzMtLjYuMS0xLjcyNS4xMzMtMy4zODQuOTk1LjA2NyAxLjc1OC4xIDMuNTE2LjFoOC4xNmEyNS4yNTggMjUuMjU4IDAgMCAwIDQuNjExLS4yNjZ2NC4xOGEzMS44IDMxLjggMCAwIDAtNC41NzctLjI2NmgtNy43OTVsLS41MzEgNS44MDVxLS4wNDkuNC0uMiAxLjM5M2E4LjE2MiA4LjE2MiAwIDAgMSA1LjY3Mi0yLjAyMyA4LjUyMSA4LjUyMSAwIDAgMSA2LjQ2OCAyLjQ4OCA4LjE1NSA4LjE1NSAwIDAgMSAyLjM1NSA2LjIzNmMwIDUuODM4LTMuODE1IDkuNDUzLTkuOTg0IDkuNDUzLTMuMjg0IDAtNS43MzktLjkyOS03LjU2My0yLjg4NWE5LjggOS44IDAgMCAxLTIuMDktMy42MTZ6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0i44OR44K5IDkyOTUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjIwLjIzNCAtNjU5Ljc1NikiLz4KICAgICAgICAgICAgPHBhdGggaWQ9IuODkeOCuV85Mjk2IiBkPSJNMTQwNS4xMTMgNjc5LjgxM2E1LjQ5MiA1LjQ5MiAwIDAgMCAxLjAyOCAxLjgyNCA1LjkzNyA1LjkzNyAwIDAgMCA3LjU2MyAwYzEuNjU4LTEuNTkyIDIuNDIxLTMuOTggMi41ODctNy44OTVhNi40NzUgNi40NzUgMCAwIDEtMS43NTggMS44OTEgOS4wMTYgOS4wMTYgMCAwIDEtNS4zNzQgMS41MjZjLTUuNTA3IDAtOS4wMjMtMy4zODMtOS4wMjMtOC43MjRhOC43NDQgOC43NDQgMCAwIDEgNC4yMTMtNy44IDEwLjg0MyAxMC44NDMgMCAwIDEgNS44LTEuNDU5IDkuNDA2IDkuNDA2IDAgMCAxIDkuMTIyIDYuNTM1IDIxLjIzNiAyMS4yMzYgMCAwIDEgLjk2MiA2Ljg2NmMwIDUuMDA5LTEuMzI3IDkuMzg3LTMuNTE2IDExLjUxLTEuNzU4IDEuNzU5LTMuOTE0IDIuNTIxLTcuMDY1IDIuNTIxYTkuNTgzIDkuNTgzIDAgMCAxLTYuNC0xLjkyNCA5LjM5NCA5LjM5NCAwIDAgMS0yLjcyLTMuNjgyem0xMC40MTYtMTEuNjQzYTUuNDkxIDUuNDkxIDAgMCAwLTEwLjk4LjEgNC45NTQgNC45NTQgMCAwIDAgNS4yNzQgNS4zMDcgNS40MzkgNS40MzkgMCAwIDAgNS43MDUtNS40MDd6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0i44OR44K5IDkyOTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjU1LjcyMSAtNjU5LjE4MSkiLz4KICAgICAgICAgICAgPHBhdGggaWQ9IuODkeOCuV85Mjk3IiBkPSJNMTQ1OC43MDcgNjkwLjIxMmEyMC43NjEgMjAuNzYxIDAgMCAwIDMuMTE4LjJoNS4xNDFhMjAuOTIzIDIwLjkyMyAwIDAgMCAzLjE1MS0uMnY0LjQxMmExOC4xNyAxOC4xNyAwIDAgMC0zLjE1MS0uMmgtNS4xNDFhMTguMjI2IDE4LjIyNiAwIDAgMC0zLjExOC4yeiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IuODkeOCuSA5Mjk3IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI5MS41NTkgLTY3OC4xNjgpIi8+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI5OCIgZD0iTTE1MTguMDg4IDY4MS4zYTI1LjU1OSAyNS41NTkgMCAwIDAtMy4zMTctLjIzMmgtMS4xOTR2Mi4zNTVhMjAuNTkzIDIwLjU5MyAwIDAgMCAuMjY1IDMuNzgxaC00LjcxYTIxLjEzNiAyMS4xMzYgMCAwIDAgLjI2Ni0zLjg0OHYtMi4yODloLTkuMTg4Yy0xLjk1NyAwLTMuMDE5LjAzMy00LjE0Ni4xMzN2LTQuMDhjMS4xMjgtMS4yMjggMS40OTMtMS42NTggMi42NTQtMy4wNTJsNy44NjEtOS42MmEzMS41NTUgMzEuNTU1IDAgMCAwIDIuNzUzLTMuNjQ4aDQuNDc4YTQ2LjY0NCA0Ni42NDQgMCAwIDAtLjIzMiA1LjYwNnYxMC44OGgxLjE2MWEyMS44NTcgMjEuODU3IDAgMCAwIDMuMzUtLjIzMnptLTguNjU3LTEwLjg0NmEzNy41IDM3LjUgMCAwIDEgLjE2Ni0zLjk4MWMtLjY2NC45NjItMS4wNjIgMS40OTMtMi4yNTYgMi45NTJsLTYuMzY5IDcuODk1aDguNDU4eiIgY2xhc3M9ImNscy0xIiBkYXRhLW5hbWU9IuODkeOCuSA5Mjk4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTMxNC40MTYgLTY2MC4xNzUpIi8+CiAgICAgICAgICAgIDxwYXRoIGlkPSLjg5HjgrlfOTI5OSIgZD0iTTE1ODEuOTQgNjgxLjNhMjUuNTU3IDI1LjU1NyAwIDAgMC0zLjMxNy0uMjMyaC0xLjE5NHYyLjM1NWEyMC42MTUgMjAuNjE1IDAgMCAwIC4yNjUgMy43ODFoLTQuNzFhMjEuMTQxIDIxLjE0MSAwIDAgMCAuMjY1LTMuODQ4di0yLjI4OWgtOS4xODhjLTEuOTU3IDAtMy4wMTkuMDMzLTQuMTQ2LjEzM3YtNC4wOGMxLjEyOC0xLjIyOCAxLjQ5My0xLjY1OCAyLjY1NC0zLjA1Mmw3Ljg2MS05LjYyYTMxLjU5MSAzMS41OTEgMCAwIDAgMi43NTMtMy42NDhoNC40NzhhNDYuNjM5IDQ2LjYzOSAwIDAgMC0uMjMyIDUuNjA2djEwLjg4aDEuMTYxYTIxLjg1OSAyMS44NTkgMCAwIDAgMy4zNS0uMjMyem0tOC42NTgtMTAuODQ2YTM3LjUgMzcuNSAwIDAgMSAuMTY2LTMuOTgxYy0uNjY0Ljk2Mi0xLjA2MiAxLjQ5My0yLjI1NSAyLjk1MmwtNi4zNjkgNy44OTVoOC40NTh6IiBjbGFzcz0iY2xzLTEiIGRhdGEtbmFtZT0i44OR44K5IDkyOTkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMzUzLjQ4NiAtNjYwLjE3NSkiLz4KICAgICAgICAgICAgPHBhdGggaWQ9IuODkeOCuV85MzAwIiBkPSJNMTYyNy42MDkgNjg2LjM3MmEzMC41NTcgMzAuNTU3IDAgMCAwLTQuMjc5LjE2NiAxNi45NTggMTYuOTU4IDAgMCAxIC44NjItNC4yNDYgMTYuMzY2IDE2LjM2NiAwIDAgMSA0LjU0NS02LjUgNDUuNjU2IDQ1LjY1NiAwIDAgMSA1LjQ3My00LjAxNGMzLjA1Mi0yLjA4OSAzLjk4MS0zLjE4NCAzLjk4MS00Ljg3NiAwLTIuMjU2LTEuNzU4LTMuNjQ5LTQuNTc4LTMuNjQ5YTQuNjg3IDQuNjg3IDAgMCAwLTQuMjEzIDEuOTU3IDYuMzA4IDYuMzA4IDAgMCAwLTEuMDI5IDMuMDUybC00Ljc0My0uNTY0YTkuOTYxIDkuOTYxIDAgMCAxIDIuMjg5LTUuMzA4YzEuNjU5LTEuOTI0IDQuMjc5LTIuOTUyIDcuNi0yLjk1MiA1LjggMCA5LjM4OCAyLjc4NiA5LjM4OCA3LjMzYTYuNzM0IDYuNzM0IDAgMCAxLTIuMzU1IDUuMzA4Yy0uOTI5Ljg2Mi0xLjI2MSAxLjEyOC01LjU3MyA0LjA4YTI4Ljk4NiAyOC45ODYgMCAwIDAtMy45NDggMy4zMTcgOCA4IDAgMCAwLTEuODkxIDIuOTg1aDkuMjg4YTM0LjgyMyAzNC44MjMgMCAwIDAgNC44NDMtLjI2NXY0LjM3OWMtMS41NTktLjEzMy0yLjg4NS0uMi01LjAwOS0uMnoiIGNsYXNzPSJjbHMtMSIgZGF0YS1uYW1lPSLjg5HjgrkgOTMwMCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzOTIuMjg4IC02NTkuMzM4KSIvPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg==",
+      "alt": "お問合せ先"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MC4zMDEiIGhlaWdodD0iMzIuMyIgdmlld0JveD0iMCAwIDQwLjMwMSAzMi4zIj4KICA8cGF0aCBpZD0ibWFpbCIgZD0iTTM2Ljk5LDMySDMuMDFhMi44MzIsMi44MzIsMCwwLDEtMi4xMTktLjk0MUEzLjE1OCwzLjE1OCwwLDAsMSwwLDI4LjgyMVYzLjE3OUEzLjE1OCwzLjE1OCwwLDAsMSwuODkxLjk0MSwyLjgzMiwyLjgzMiwwLDAsMSwzLjAxLDBIMzYuOTlhMi44MzIsMi44MzIsMCwwLDEsMi4xMTkuOTQxQTMuMTU4LDMuMTU4LDAsMCwxLDQwLDMuMTc5VjI4LjgyMWEzLjE1OCwzLjE1OCwwLDAsMS0uODkxLDIuMjM4QTIuODMyLDIuODMyLDAsMCwxLDM2Ljk5LDMyWm0tMjIuNi0xMy4zNTVoMEw0Ljc1NCwyOC44MjFIMzUuMjQ2TDI1LjYxMiwxOC42NDUsMjAsMjIuNjUybC01LjYxMi00LjAwN1ptMjIuNi04LjMzNS05LjMyOSw2LjgxMiw5LjMyOSw5Ljg1NlpNMy4wMSwxMC40NzJWMjYuOTc4TDEyLjMzOSwxNy4yWm0wLTcuMjkzVjcuMzQ2TDIwLDE5LjYwNSwzNi45MTUsNy4yNjZsLjA3Ni4wOFYzLjE3OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMTUgMC4xNSkiIGZpbGw9IiM0ZjUyNTEiIHN0cm9rZT0iIzRmNTI1MSIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2Utd2lkdGg9IjAuMyIvPgo8L3N2Zz4K",
+      "alt": "メールフォームで相談する"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjQ5cHgiIGhlaWdodD0iNDlweCIgdmlld0JveD0iMCAwIDQ5IDQ5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA0NSAoNDM0NzUpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPkdyb3VwPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+CiAgICAgICAgPHBvbHlnb24gaWQ9InBhdGgtMSIgcG9pbnRzPSIwIDQ4LjUzODY0NTkgMCAwIDQ4LjY2NjEwMDUgMCA0OC42NjYxMDA1IDQ4LjUzODY0NTkgMS41MDk0NTQxNGUtMTUgNDguNTM4NjQ1OSI+PC9wb2x5Z29uPgogICAgPC9kZWZzPgogICAgPGcgaWQ9IlN5bWJvbHMiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJJY28vOUxpbmUiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAiPgogICAgICAgICAgICAgICAgPG1hc2sgaWQ9Im1hc2stMiIgZmlsbD0id2hpdGUiPgogICAgICAgICAgICAgICAgICAgIDx1c2UgeGxpbms6aHJlZj0iI3BhdGgtMSI+PC91c2U+CiAgICAgICAgICAgICAgICA8L21hc2s+CiAgICAgICAgICAgICAgICA8ZyBpZD0iQ2xpcC0yIj48L2c+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMzkuODY0MTM3NSw3Ljg5NDQ5MjllLTA2IEw4Ljg3MDI1MTY3LDcuODk0NDkyOWUtMDYgQzQuMDAzNzQzNTIsLTAuMDA2NDI4NzkxMDEgMC4wMDcxNDAyNTYzLDMuOTI0MDE0NjQgNy4xMDQxMjg1NWUtMDYsOC43Nzg5NjkzOCBMNy4xMDQxMjg1NWUtMDYsMzkuNjkwMzA0NiBDLTAuMDA2MTA3MDI2MzEsNDQuNTQ1OTM2OSAzLjkzNTEyOTM5LDQ4LjUzMjI3NzggOC44MDIzMTY4OSw0OC41Mzg3MTQ1IEwzOS43OTY1NDI0LDQ4LjUzODcxNDUgQzQ0LjY2NDA2OTYsNDguNTQ0ODEyNCA0OC42NTkzMTQyLDQ0LjYxNDcwNzggNDguNjY2NDQ3MywzOS43NTgzOTc5IEw0OC42NjY0NDczLDguODQ2NzIzOTYgQzQ4LjY3MzU4MDUsMy45OTE0MzA0NSA0NC43MzI2ODM3LDAuMDA2NzgzMzUyOTIgMzkuODY0MTM3NSw3Ljg5NDQ5MjllLTA2IiBpZD0iRmlsbC0xIiBmaWxsPSIjMDBCOTAwIiBtYXNrPSJ1cmwoI21hc2stMikiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik00MS45NTk1Nzg4LDIxLjg1NTQ1MjEgQzQxLjk1OTU3ODgsMTMuOTQ3ODE0NiAzNC4wMTEyMDkyLDcuNTE0NTE2NzggMjQuMjQwNDg5MSw3LjUxNDUxNjc4IEMxNC40NzExMjc3LDcuNTE0NTE2NzggNi41MjE3MzkxMywxMy45NDc4MTQ2IDYuNTIxNzM5MTMsMjEuODU1NDUyMSBDNi41MjE3MzkxMywyOC45NDQ2MTQyIDEyLjgyNTQwNzYsMzQuODgxNjA5NyAyMS4zNDAzNTMzLDM2LjAwNDMwMzEgQzIxLjkxNzQ1OTIsMzYuMTI4Mjk0IDIyLjcwMjc4NTMsMzYuMzgzNzI4OCAyMi45MDE0OTQ2LDM2Ljg3NTYyNzEgQzIzLjA3OTgyMzQsMzcuMzIyMTI5OCAyMy4wMTgzNDI0LDM4LjAyMjM3MzQgMjIuOTU4NTU5OCwzOC40NzM2MTkgQzIyLjk1ODU1OTgsMzguNDczNjE5IDIyLjc1MDY3OTMsMzkuNzIwMzAzMyAyMi43MDU4NDI0LDM5Ljk4NjU3ODggQzIyLjYyODczNjQsNDAuNDMzMDgxNSAyMi4zNDk4NjQxLDQxLjczMzk2OTYgMjQuMjQwNDg5MSw0MC45Mzg4Njk1IEMyNi4xMzE3OTM1LDQwLjE0NDEwODIgMzQuNDQ0OTcyOCwzNC45NDY2NTQxIDM4LjE2MjM2NDEsMzAuNjc4NzkyOCBMMzguMTYxMzQ1MSwzMC42Nzg3OTI4IEM0MC43Mjk2MTk2LDI3Ljg3MDM2NTMgNDEuOTU5NTc4OCwyNS4wMjAyNjg3IDQxLjk1OTU3ODgsMjEuODU1NDUyMSIgaWQ9IkZpbGwtNCIgZmlsbD0iI0ZGRkZGRiIgbWFzaz0idXJsKCNtYXNrLTIpIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjAuMDY2MjM2NCwxOC4zODQwODIgTDE4LjgyMzM2OTYsMTguMzg0MDgyIEMxOC42MzI4MTI1LDE4LjM4NDA4MiAxOC40NzgyNjA5LDE4LjUzODIyMzcgMTguNDc4MjYwOSwxOC43Mjc5MzY1IEwxOC40NzgyNjA5LDI2LjQyNzkwNjIgQzE4LjQ3ODI2MDksMjYuNjE3NjE5MSAxOC42MzI4MTI1LDI2Ljc3MTQyMiAxOC44MjMzNjk2LDI2Ljc3MTQyMiBMMjAuMDY2MjM2NCwyNi43NzE0MjIgQzIwLjI1Njc5MzUsMjYuNzcxNDIyIDIwLjQxMTM0NTEsMjYuNjE3NjE5MSAyMC40MTEzNDUxLDI2LjQyNzkwNjIgTDIwLjQxMTM0NTEsMTguNzI3OTM2NSBDMjAuNDExMzQ1MSwxOC41MzgyMjM3IDIwLjI1Njc5MzUsMTguMzg0MDgyIDIwLjA2NjIzNjQsMTguMzg0MDgyIiBpZD0iRmlsbC02IiBmaWxsPSIjMDBCOTAwIiBtYXNrPSJ1cmwoI21hc2stMikiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yOC43NDA0ODkxLDE4LjM4NDA4MiBMMjcuNDk3NjIyMywxOC4zODQwODIgQzI3LjMwNjcyNTUsMTguMzg0MDgyIDI3LjE1MjUxMzYsMTguNTM4MjIzNyAyNy4xNTI1MTM2LDE4LjcyNzkzNjUgTDI3LjE1MjUxMzYsMjMuMzAyMzg3MyBMMjMuNjE0MTMwNCwxOC41MzcyMDc0IEMyMy42MDYzMTc5LDE4LjUyNDY3MjggMjMuNTk2ODA3MSwxOC41MTMxNTQ1IDIzLjU4NzYzNTksMTguNTAyMzEzNyBDMjMuNTg2NjE2OCwxOC41MDEyOTc0IDIzLjU4NTU5NzgsMTguNTAwNjE5OSAyMy41ODUyNTgyLDE4LjQ5OTk0MjMgQzIzLjU3ODQ2NDcsMTguNDkyNDg5MyAyMy41NzEzMzE1LDE4LjQ4NTM3NTEgMjMuNTY0NTM4LDE4LjQ3ODU5OTYgQzIzLjU2MjE2MDMsMTguNDc2NTY3IDIzLjU2MDQ2MiwxOC40NzQ4NzMxIDIzLjU1ODA4NDIsMTguNDcyODQwNSBDMjMuNTUyMzA5OCwxOC40Njc3NTg5IDIzLjU0NjE5NTcsMTguNDYyMzM4NSAyMy41Mzk0MDIyLDE4LjQ1NzU5NTcgQzIzLjUzNjY4NDgsMTguNDU0ODg1NSAyMy41MzM2Mjc3LDE4LjQ1Mjg1MjkgMjMuNTMwNTcwNywxOC40NTA0ODE1IEMyMy41MjQ3OTYyLDE4LjQ0NjQxNjIgMjMuNTE4NjgyMSwxOC40NDIwMTIyIDIzLjUxMjU2NzksMTguNDM4Mjg1NyBDMjMuNTA5NTEwOSwxOC40MzU5MTQzIDIzLjUwNjExNDEsMTguNDMzODgxNiAyMy41MDIzNzc3LDE4LjQzMjE4NzggQzIzLjQ5NjI2MzYsMTguNDI4NDYxMyAyMy40OTAxNDk1LDE4LjQyNTA3MzUgMjMuNDg0MDM1MywxOC40MjE2ODU4IEMyMy40ODAyOTg5LDE4LjQxOTk5MTkgMjMuNDc2NTYyNSwxOC40MTgyOTgxIDIzLjQ3MzE2NTgsMTguNDE2NjA0MiBDMjMuNDY2NzEyLDE4LjQxMzU1NTIgMjMuNDYwMjU4MiwxOC40MTA4NDUxIDIzLjQ1MzEyNSwxOC40MDgxMzQ5IEMyMy40NDkwNDg5LDE4LjQwNjc3OTggMjMuNDQ1OTkxOCwxOC40MDU0MjQ3IDIzLjQ0MTkxNTgsMTguNDA0NDA4NCBDMjMuNDM1MTIyMywxOC40MDE2OTgyIDIzLjQyODY2ODUsMTguMzk5MzI2OCAyMy40MjE1MzUzLDE4LjM5NzYzMjkgQzIzLjQxNzc5ODksMTguMzk2NjE2NiAyMy40MTM3MjI4LDE4LjM5NTYwMDMgMjMuNDA5NjQ2NywxOC4zOTQ1ODQgQzIzLjQwMjg1MzMsMTguMzkyODkwMSAyMy4zOTYzOTk1LDE4LjM5MTE5NjIgMjMuMzg5NjA2LDE4LjM5MDE3OTkgQzIzLjM4NDg1MDUsMTguMzg5MTYzNiAyMy4zNzk3NTU0LDE4LjM4ODQ4NiAyMy4zNzUzMzk3LDE4LjM4ODE0NzMgQzIzLjM2OTIyNTUsMTguMzg2NzkyMiAyMy4zNjMxMTE0LDE4LjM4NjQ1MzQgMjMuMzU2OTk3MywxOC4zODU3NzU5IEMyMy4zNTEyMjI4LDE4LjM4NTA5ODMgMjMuMzQ1MTA4NywxOC4zODUwOTgzIDIzLjMzODk5NDYsMTguMzg0NzU5NSBDMjMuMzM0OTE4NSwxOC4zODQ3NTk1IDIzLjMzMTE4MjEsMTguMzg0MDgyIDIzLjMyNzEwNiwxOC4zODQwODIgTDIyLjA4NDIzOTEsMTguMzg0MDgyIEMyMS44OTM2ODIxLDE4LjM4NDA4MiAyMS43MzkxMzA0LDE4LjUzODIyMzcgMjEuNzM5MTMwNCwxOC43Mjc5MzY1IEwyMS43MzkxMzA0LDI2LjQyNzkwNjIgQzIxLjczOTEzMDQsMjYuNjE3NjE5MSAyMS44OTM2ODIxLDI2Ljc3MTQyMiAyMi4wODQyMzkxLDI2Ljc3MTQyMiBMMjMuMzI3MTA2LDI2Ljc3MTQyMiBDMjMuNTE4MDAyNywyNi43NzE0MjIgMjMuNjcyNTU0MywyNi42MTc2MTkxIDIzLjY3MjU1NDMsMjYuNDI3OTA2MiBMMjMuNjcyNTU0MywyMS44NTQ4MTA2IEwyNy4yMTUwMTM2LDI2LjYyNjQyNzIgQzI3LjIzOTEzMDQsMjYuNjYwNjQzMiAyNy4yNjkzNjE0LDI2LjY4ODc2MTQgMjcuMzAyNjQ5NSwyNi43MTExMjA0IEMyNy4zMDM2Njg1LDI2LjcxMjEzNjcgMjcuMzA0Njg3NSwyNi43MTI4MTQzIDI3LjMwNjA0NjIsMjYuNzEzODMwNiBDMjcuMzEzMTc5MywyNi43MTgyMzQ2IDI3LjMxOTk3MjgsMjYuNzIyNjM4NyAyNy4zMjc0NDU3LDI2LjcyNjcwNCBDMjcuMzMwODQyNCwyNi43Mjg3MzY2IDI3LjMzMzU1OTgsMjYuNzMwNDMwNSAyNy4zMzY5NTY1LDI2LjczMjEyNDMgQzI3LjM0MjM5MTMsMjYuNzM0ODM0NSAyNy4zNDc4MjYxLDI2LjczNzU0NDcgMjcuMzUzNjAwNSwyNi43NDAyNTQ5IEMyNy4zNTkzNzUsMjYuNzQyMjg3NSAyNy4zNjQ0NzAxLDI2Ljc0NDk5NzcgMjcuMzcwNTg0MiwyNi43NDcwMzAzIEMyNy4zNzQzMjA3LDI2Ljc0ODM4NTQgMjcuMzc3MDM4LDI2Ljc0OTc0MDUgMjcuMzgwNzc0NSwyNi43NTEwOTU2IEMyNy4zODg5MjY2LDI2Ljc1MzgwNTggMjcuMzk2Mzk5NSwyNi43NTYxNzcyIDI3LjQwNDIxMiwyNi43NTg1NDg2IEMyNy40MDU5MTAzLDI2Ljc1ODg4NzQgMjcuNDA3NjA4NywyNi43NTkyMjYyIDI3LjQwOTMwNzEsMjYuNzU5NTY0OSBDMjcuNDM3MTYwMywyNi43NjczNTY3IDI3LjQ2NjcxMiwyNi43NzE0MjIgMjcuNDk3NjIyMywyNi43NzE0MjIgTDI4Ljc0MDQ4OTEsMjYuNzcxNDIyIEMyOC45MzEzODU5LDI2Ljc3MTQyMiAyOS4wODU1OTc4LDI2LjYxNzYxOTEgMjkuMDg1NTk3OCwyNi40Mjc5MDYyIEwyOS4wODU1OTc4LDE4LjcyNzkzNjUgQzI5LjA4NTU5NzgsMTguNTM4MjIzNyAyOC45MzEzODU5LDE4LjM4NDA4MiAyOC43NDA0ODkxLDE4LjM4NDA4MiIgaWQ9IkZpbGwtOCIgZmlsbD0iIzAwQjkwMCIgbWFzaz0idXJsKCNtYXNrLTIpIj48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuMjY2NjQ0LDI0Ljg0MzEyNjUgTDEzLjg4OTYwNiwyNC44NDMxMjY1IEwxMy44ODk2MDYsMTguNzI3OTM2NSBDMTMuODg5NjA2LDE4LjUzNzg4NDkgMTMuNzM1MDU0MywxOC4zODQwODIgMTMuNTQ0NDk3MywxOC4zODQwODIgTDEyLjMwMTYzMDQsMTguMzg0MDgyIEMxMi4xMTEwNzM0LDE4LjM4NDA4MiAxMS45NTY1MjE3LDE4LjUzNzg4NDkgMTEuOTU2NTIxNywxOC43Mjc5MzY1IEwxMS45NTY1MjE3LDI2LjQyNzIyODcgTDExLjk1NjUyMTcsMjYuNDI3NTY3NSBDMTEuOTU2NTIxNywyNi41MjAwNTI1IDExLjk5MzU0NjIsMjYuNjAzNzI5NCAxMi4wNTI5ODkxLDI2LjY2NTM4NjEgQzEyLjA1NDM0NzgsMjYuNjY3MDc5OSAxMi4wNTU3MDY1LDI2LjY2OTExMjYgMTIuMDU3NzQ0NiwyNi42NzA4MDY0IEMxMi4wNTk0NDI5LDI2LjY3MjE2MTUgMTIuMDYxMTQxMywyNi42NzM4NTU0IDEyLjA2MjgzOTcsMjYuNjc1NTQ5MiBDMTIuMTI1LDI2LjczNDgzNDUgMTIuMjA4NTU5OCwyNi43NzE0MjIgMTIuMzAwOTUxMSwyNi43NzE0MjIgTDEyLjMwMTYzMDQsMjYuNzcxNDIyIEwxNy4yNjY2NDQsMjYuNzcxNDIyIEMxNy40NTcyMDExLDI2Ljc3MTQyMiAxNy42MTEwNzM0LDI2LjYxNjk0MTUgMTcuNjExMDczNCwyNi40MjcyMjg3IEwxNy42MTEwNzM0LDI1LjE4NzMxOTggQzE3LjYxMTA3MzQsMjQuOTk3NjA3IDE3LjQ1NzIwMTEsMjQuODQzMTI2NSAxNy4yNjY2NDQsMjQuODQzMTI2NSIgaWQ9IkZpbGwtMTAiIGZpbGw9IiMwMEI5MDAiIG1hc2s9InVybCgjbWFzay0yKSI+PC9wYXRoPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTM1Ljc0NDkwNDksMjAuMzEyMzc3NSBDMzUuOTM1NDYyLDIwLjMxMjM3NzUgMzYuMDg5NjczOSwyMC4xNTgyMzU4IDM2LjA4OTY3MzksMTkuOTY4MTg0MiBMMzYuMDg5NjczOSwxOC43Mjg2MTQxIEMzNi4wODk2NzM5LDE4LjUzODU2MjQgMzUuOTM1NDYyLDE4LjM4NDA4MiAzNS43NDQ5MDQ5LDE4LjM4NDA4MiBMMzAuNzc5ODkxMywxOC4zODQwODIgTDMwLjc3OTIxMiwxOC4zODQwODIgQzMwLjY4NjE0MTMsMTguMzg0MDgyIDMwLjYwMjI0MTgsMTguNDIxMDA4MiAzMC41NDAwODE1LDE4LjQ4MTMwOTggQzMwLjUzODcyMjgsMTguNDgyNjY0OSAzMC41MzcwMjQ1LDE4LjQ4MzY4MTIgMzAuNTM2MDA1NCwxOC40ODQ2OTc2IEMzMC41MzM5Njc0LDE4LjQ4NzA2OSAzMC41MzE5MjkzLDE4LjQ4OTEwMTYgMzAuNTMwMjMxLDE4LjQ5MTEzNDIgQzMwLjQ3MTQ2NzQsMTguNTUyNzkwOSAzMC40MzQ3ODI2LDE4LjYzNjEyOTEgMzAuNDM0NzgyNiwxOC43Mjc5MzY1IEwzMC40MzQ3ODI2LDE4LjcyODYxNDEgTDMwLjQzNDc4MjYsMjYuNDI3MjI4NyBMMzAuNDM0NzgyNiwyNi40Mjc5MDYyIEMzMC40MzQ3ODI2LDI2LjUyMDM5MTIgMzAuNDcxODA3MSwyNi42MDQwNjgyIDMwLjUzMTI1LDI2LjY2NTM4NjEgQzMwLjUzMjYwODcsMjYuNjY3MDc5OSAzMC41MzQzMDcxLDI2LjY2OTExMjYgMzAuNTM2MDA1NCwyNi42NzA4MDY0IEMzMC41MzczNjQxLDI2LjY3MjE2MTUgMzAuNTM5NDAyMiwyNi42NzM4NTU0IDMwLjU0MTEwMDUsMjYuNjc1MjEwNSBDMzAuNjAyNTgxNSwyNi43MzQ4MzQ1IDMwLjY4NjQ4MSwyNi43NzE0MjIgMzAuNzc5MjEyLDI2Ljc3MTQyMiBMMzAuNzc5ODkxMywyNi43NzE0MjIgTDM1Ljc0NDkwNDksMjYuNzcxNDIyIEMzNS45MzU0NjIsMjYuNzcxNDIyIDM2LjA4OTY3MzksMjYuNjE3MjgwMyAzNi4wODk2NzM5LDI2LjQyNzIyODcgTDM2LjA4OTY3MzksMjUuMTg3NjU4NiBDMzYuMDg5NjczOSwyNC45OTc2MDcgMzUuOTM1NDYyLDI0Ljg0MzQ2NTMgMzUuNzQ0OTA0OSwyNC44NDM0NjUzIEwzMi4zNjgyMDY1LDI0Ljg0MzQ2NTMgTDMyLjM2ODIwNjUsMjMuNTQxODk5NyBMMzUuNzQ0OTA0OSwyMy41NDE4OTk3IEMzNS45MzU0NjIsMjMuNTQxODk5NyAzNi4wODk2NzM5LDIzLjM4Nzc1OCAzNi4wODk2NzM5LDIzLjE5NzcwNjQgTDM2LjA4OTY3MzksMjEuOTU4MTM2MyBDMzYuMDg5NjczOSwyMS43Njc3NDU5IDM1LjkzNTQ2MiwyMS42MTM2MDQzIDM1Ljc0NDkwNDksMjEuNjEzNjA0MyBMMzIuMzY4MjA2NSwyMS42MTM2MDQzIEwzMi4zNjgyMDY1LDIwLjMxMjM3NzUgTDM1Ljc0NDkwNDksMjAuMzEyMzc3NSBaIiBpZD0iRmlsbC0xMiIgZmlsbD0iIzAwQjkwMCIgbWFzaz0idXJsKCNtYXNrLTIpIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==",
+      "alt": "LINEでチャット相談する"
+    },
+    {
+      "src": "data:image/png;base64,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",
+      "alt": "資料をダウンロードする"
+    },
+    {
+      "src": "data:image/png;base64,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",
+      "alt": "資料をダウンロードする"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTY4IiBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMTY4IDM0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTI1LjM4OSAyMS44NTIzQzEyNS4wNzIgMjEuODUyMyAxMjQuODE0IDIxLjU5MzQgMTI0LjgxNCAyMS4yNzY0VjcuNzAwODhDMTI0LjgxNCA3LjM4MzkyIDEyNC41NTUgNy4xMjUgMTI0LjIzOCA3LjEyNUgxMTguOTU3QzExOC42NCA3LjEyNSAxMTguMzgxIDcuMzgzOTIgMTE4LjM4MSA3LjcwMDg4VjI2Ljc4NTJDMTE4LjM4MSAyNy4xMDIxIDExOC42NCAyNy4zNjExIDExOC45NTcgMjcuMzYxMUgxMzguNzQ2QzEzOS4wNjMgMjcuMzYxMSAxMzkuMzIyIDI3LjEwMjEgMTM5LjMyMiAyNi43ODUyVjIyLjQyMzdDMTM5LjMyMiAyMi4xMDY3IDEzOS4wNjMgMjEuODQ3OCAxMzguNzQ2IDIxLjg0NzhIMTI1LjM4OVYyMS44NTIzWiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTE2Ny40MjQgMTIuNjM4MkMxNjcuNzQxIDEyLjYzODIgMTY4IDEyLjM3OTMgMTY4IDEyLjA2MjRWNy43MDA4OEMxNjggNy4zODM5MiAxNjcuNzQxIDcuMTI1IDE2Ny40MjQgNy4xMjVIMTQ0Ljk4N0MxNDQuNjcgNy4xMjUgMTQ0LjQxMSA3LjM4MzkyIDE0NC40MTEgNy43MDA4OFYyNi43ODUyQzE0NC40MTEgMjcuMTAyMSAxNDQuNjcgMjcuMzYxMSAxNDQuOTg3IDI3LjM2MTFIMTY3LjQyNEMxNjcuNzQxIDI3LjM2MTEgMTY4IDI3LjEwMjEgMTY4IDI2Ljc4NTJWMjIuNDIzN0MxNjggMjIuMTA2NyAxNjcuNzQxIDIxLjg0NzggMTY3LjQyNCAyMS44NDc4SDE1MS40MkMxNTEuMTAzIDIxLjg0NzggMTUwLjg0NCAyMS41ODg5IDE1MC44NDQgMjEuMjcxOVYyMC4xMTU3QzE1MC44NDQgMTkuNzk4OCAxNTEuMTAzIDE5LjUzOTggMTUxLjQyIDE5LjUzOThIMTYzLjU1NEMxNjMuODcxIDE5LjUzOTggMTY0LjEzIDE5LjI4MDkgMTY0LjEzIDE4Ljk2NFYxNS41MjIxQzE2NC4xMyAxNS4yMDUxIDE2My44NzEgMTQuOTQ2MiAxNjMuNTU0IDE0Ljk0NjJIMTUxLjQyQzE1MS4xMDMgMTQuOTQ2MiAxNTAuODQ0IDE0LjY4NzMgMTUwLjg0NCAxNC4zNzAzVjEzLjIxNDFDMTUwLjg0NCAxMi44OTcyIDE1MS4xMDMgMTIuNjM4MiAxNTEuNDIgMTIuNjM4MkgxNjcuNDI0WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTgwLjAzOCA3LjcwNTM0QzgwLjAzOCA3LjM4ODM5IDc5Ljc3OSA3LjEyOTQ2IDc5LjQ2MjEgNy4xMjk0Nkg3NC4xODFDNzMuODY0IDcuMTI5NDYgNzMuNjA1MSA3LjM4ODM5IDczLjYwNTEgNy43MDUzNFYxNy45NjRDNzMuNjA1MSAxOC4yODEgNzMuMzk5NyAxOC4zODM2IDczLjE0NTMgMTguMTkxN0w1OC45MDAxIDcuNDczMkM1OC42NDU3IDcuMjgxMjUgNTguMTgxNCA3LjEyNSA1Ny44NjQ0IDcuMTI1SDUzLjc2MTlDNTMuNDQ0OSA3LjEyNSA1My4xODYgNy4zODM5MiA1My4xODYgNy43MDA4OFYyNi43ODUyQzUzLjE4NiAyNy4xMDIxIDUzLjQ0NDkgMjcuMzYxMSA1My43NjE5IDI3LjM2MTFINTkuMDQzQzU5LjM1OTkgMjcuMzYxMSA1OS42MTg5IDI3LjEwMjEgNTkuNjE4OSAyNi43ODUyVjE2LjcwMDZDNTkuNjE4OSAxNi4zODM3IDU5LjgyODcgMTYuMjgxIDYwLjA3ODcgMTYuNDY4NUw3NC4yMTY3IDI3LjAxNzNDNzQuNDcxMSAyNy4yMDQ4IDc0LjkzNTQgMjcuMzYxMSA3NS4yNTI0IDI3LjM2MTFINzkuNDYyMUM3OS43NzkgMjcuMzYxMSA4MC4wMzggMjcuMTAyMSA4MC4wMzggMjYuNzg1MlY3LjcwNTM0WiIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTEwNy42NCA3LjE0Nzc0QzEwNy4zMjMgNy4xNDc3NCAxMDYuOTAzIDcuMzQ4NjMgMTA2LjcwMyA3LjU5ODYyTDk5LjkzMDQgMTYuMDMxNEM5OS43MzQgMTYuMjc3IDk5LjQwODEgMTYuMjc3IDk5LjIxMTcgMTYuMDMxNEw5Mi40Nzk3IDcuNTgwNzZDOTIuMjgzMyA3LjMzMDc3IDkxLjg2MzYgNy4xMjk4OCA5MS41NDY3IDcuMTI5ODhIODQuNDY2NUM4NC4xNDk2IDcuMTI5ODggODQuMDUxMyA3LjMzMDc3IDg0LjI0NzggNy41ODA3Nkw5NS4wNzc4IDIxLjE2NTJDOTUuMjc0MyAyMS40MTA4IDk1LjI3NDMgMjEuODE3IDk1LjA3NzggMjIuMDYyNUw5MS4xNjcyIDI2LjkxOTVDOTAuOTY2MyAyNy4xNjUxIDkxLjA2NDYgMjcuMzY2IDkxLjM4MTUgMjcuMzY2SDk4LjQ4ODVDOTguODA1NCAyNy4zNjYgOTkuMjI1MSAyNy4xNjUxIDk5LjQyNTkgMjYuOTE1MUwxMTQuOTY2IDcuNTk0MTZDMTE1LjE2MiA3LjM0ODYzIDExNS4wNjggNy4xNDMyOCAxMTQuNzUxIDcuMTQzMjhIMTA3LjY0NEwxMDcuNjQgNy4xNDc3NFoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0yOC41NTczIDMzLjQ3MkMyOC4wMjE2IDMzLjQ3MiAyNy40NzY5IDMzLjM2MDQgMjYuOTU5MSAzMy4xMTk0TDcuNjY5NDQgMjQuMjUzNVYyOS42MzI4QzcuNjY5NDQgMzEuNzQ4OSA1Ljk1MDczIDMzLjQ2NzYgMy44MzQ3MiAzMy40Njc2QzEuNzE4NyAzMy40Njc2IDAgMzEuNzU3OCAwIDI5LjYzNzNWMTguMjc2QzAgMTYuOTY4IDAuNjY1MTYxIDE1Ljc1MzcgMS43NjMzNSAxNS4wNDg0QzIuODYxNTMgMTQuMzQzMSA0LjI0NTQyIDE0LjI0OTMgNS40MzI4OSAxNC43OTRMMzAuMTU1NCAyNi4xNTUzQzMyLjA3OTUgMjcuMDM5MiAzMi45MjMyIDI5LjMxNTkgMzIuMDM5MyAzMS4yMzk5QzMxLjM5MiAzMi42NDYyIDMwLjAwMzcgMzMuNDcyIDI4LjU1MjggMzMuNDcySDI4LjU1NzNaIiBmaWxsPSIjOTVGRjAwIi8+CjxwYXRoIGQ9Ik0yOC41NjE3IDE5LjAzMDdDMjguMDE3MSAxOS4wMzA3IDI3LjQ3MjUgMTguOTE0NyAyNi45NTkxIDE4LjY4MjVMMi4yMzY1NSA3LjMyMTIzQzAuMzA4MDI1IDYuNDM3MzMgLTAuNTMxMjM4IDQuMTYwNiAwLjM1MjY2NyAyLjIzNjU1QzEuMjM2NTcgMC4zMDgwMjggMy41MTMzIC0wLjUzMTIzNiA1LjQzNzM1IDAuMzUyNjY5TDI0LjcyNyA5LjIxODUxVjMuODM5MThDMjQuNzI3IDEuNzE4NyAyNi40NDEzIDAgMjguNTYxNyAwQzMwLjY4MjIgMCAzMi4zOTY1IDEuNzE4NyAzMi4zOTY1IDMuODM0NzJWMTUuMTk2QzMyLjM5NjUgMTYuNTA0IDMxLjczMTMgMTcuNzE4MyAzMC42MzMxIDE4LjQyMzZDMzAuMDAzNyAxOC44MjU0IDI5LjI4NDkgMTkuMDMwNyAyOC41NjE3IDE5LjAzMDdaIiBmaWxsPSIjOTVGRjAwIi8+Cjwvc3ZnPgo=",
+      "alt": "ナイル株式会社"
+    },
+    {
+      "src": "https://carmo-kun.jp/column/static/logo-jpx-bbb1e9f946da699a368197840a0ee0c3.svg",
+      "alt": "東証ロゴマーク"
+    },
+    {
+      "src": "https://carmo-kun.jp/column/static/logo-pmark-fc3695fa481d4864c9f4c6a509ca1e58.svg",
+      "alt": "プライバシーマーク"
+    },
+    {
+      "src": "https://api.ad-platform.jmty.jp/v1/ev/1?loc=https%3A%2F%2Fcarmo-kun.jp%2Fcolumn%2Fnewcar%2Flease-residual-value-setting-credit%2F&os=Mac+OS&osver=10.15.7&model=Macintosh&browser=Chrome&tv=1.0.14&evType=pv&aId=hZCsBiVVSTREiT7FhxYJ3_7fjPaE2T91M7xS_8VhHcg&clReqId=",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2026年2月2",
+    "更新日：2026.04.28"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+    "title": "カーリースと残クレはどっちがお得？費用の違いやデメリットを比較 | カルモマガジン",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:14:41.343270+00:00",
+  "source_meta": {
+    "title": "カーリースと残クレはどっちがお得？費用の違いやデメリット ...",
+    "url": "https://carmo-kun.jp/column/newcar/lease-residual-value-setting-credit/",
+    "source_name": "カーリースカルモくん",
+    "source_domain": "carmo-kun.jp",
+    "source_type": "other",
+    "snippet": "Apr 28, 2026 — カーリースと残クレ（残価設定型クレジット）はどっちがお得？ 費用の違いやデメリットを比較 ... カーリースと残クレ（残価設定型クレジット）は、どちらも月々の支払いを抑えて車に乗れる方法として注目されています。 しかし、仕組みや費用の内訳には違いがあり、どちら...",
+    "citation_count": 3,
+    "first_cited_position": 8,
+    "answer_support_weight": 8,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Typical PCP and lease terms available for family cars in Japan and how to compare them",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Typical PCP and lease terms available for family cars in Japan and how to compare them",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

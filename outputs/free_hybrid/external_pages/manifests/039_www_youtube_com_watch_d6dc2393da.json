@@ -1,0 +1,663 @@
+{
+  "url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 15724,
+    "wordish_count": 2842,
+    "heading_count": 8,
+    "bullet_count": 78,
+    "link_count": 79,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 82,
+    "numeric_fact_count": 147,
+    "question_count": 92,
+    "unique_line_count": 255,
+    "numeric_facts_sample": [
+      "1",
+      "8192",
+      "4",
+      "8,192",
+      "2025",
+      "12",
+      "17",
+      "7240人",
+      "199",
+      "1.9",
+      "5",
+      "2026",
+      "15",
+      "2",
+      "32",
+      "1,000",
+      "30年",
+      "10時間",
+      "10",
+      "429",
+      "488",
+      "100",
+      "4,000",
+      "91",
+      "2026年"
+    ],
+    "links_sample": [
+      "https://yt3.ggpht.com/5RM6upPJ9ZTH1oZ3LDjEzX0AEKMPSUeRHcZAonNWqdqC4msAJepkMB2xgpb1VwWwfdid90ZjDfg=s48-c-k-c0x00ffffff-no-rj",
+      "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/watch?v=ZenFEdW29z8",
+      "https://www.youtube.com/watch?v=ZenFEdW29z8&t=47s",
+      "https://www.youtube.com/watch?v=ZenFEdW29z8&t=169s",
+      "https://www.youtube.com/watch?v=ZenFEdW29z8&t=291s",
+      "https://www.youtube.com/watch?v=ZenFEdW29z8&t=416s&pp=0gcJCRQDDuyUWbzu",
+      "https://www.youtube.com/@CruiserTv012",
+      "https://www.youtube.com/channel/UCtcxdit2FXHjf9ayT4BP7Sg/videos",
+      "https://www.youtube.com/channel/UCtcxdit2FXHjf9ayT4BP7Sg/about",
+      "https://www.youtube.com/watch?v=TGhv2RdjpHU&pp=ugUHEgVlbi1VUw%3D%3D",
+      "https://www.youtube.com/watch?v=8X5tb5caJes",
+      "https://www.youtube.com/watch?v=uEfAOGicRQU",
+      "https://www.youtube.com/watch?v=18rvE2j57cE",
+      "https://www.youtube.com/watch?v=nMRSK-K6zv8&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=mQ9dk5raSXA",
+      "https://www.youtube.com/watch?v=uIcBTWkyebo&pp=ugUEEgJlbg%3D%3D",
+      "https://www.youtube.com/watch?v=ElSJtOTtxec&pp=ugUHEgVlbi1VU9IHCQkECwGHKiGM7w%3D%3D",
+      "https://www.youtube.com/watch?v=4y5ctu2fYgA",
+      "https://www.youtube.com/watch?v=Qmg3AiEleTw",
+      "https://www.youtube.com/watch?v=vZeBqqzRTiw",
+      "https://www.youtube.com/watch?v=xBeA9_492G0",
+      "https://www.youtube.com/watch?v=oAHaYXBFnJo",
+      "https://www.youtube.com/watch?v=X-cFdTKFBQE"
+    ],
+    "image_alt_count": 2
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2025/12/17",
+      "2025/12/1",
+      "2026年03月2",
+      "2026年3月2"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 193,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2,
+    "main_chars": 20260,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 310,
+    "full_markdown_chars": 15724
+  },
+  "metadata": {
+    "title": "Toyota Hybrid vs Gas Maintenance: The Cost Myth Finally Exposed! - YouTube",
+    "description": "Are Toyota hybrids really more expensive to maintain than gasoline cars, or is that just one of the biggest misconceptions in modern car ownership?In this vi...",
+    "language": "ja-JP",
+    "sourceURL": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.youtube.com/",
+      "text": "https://www.youtube.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@CruiserTv012",
+      "text": "https://www.youtube.com/@CruiserTv012",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+      "text": "Intro Intro 0:00",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+      "text": "Intro",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=47s",
+      "text": "The Hybrid Component everyone thinks is expensive The Hybrid Component everyone thinks is expensive 0:47",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=47s",
+      "text": "The Hybrid Component everyone thinks is expensive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=169s",
+      "text": "Regenrative braking and real world maintenance cost Regenrative braking and real world maintenance cost 2:49",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=169s",
+      "text": "Regenrative braking and real world maintenance cost",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=291s",
+      "text": "The Hybrid Batttery Fear and the real long term reality The Hybrid Batttery Fear and the real long term reality 4:51",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=291s",
+      "text": "The Hybrid Batttery Fear and the real long term reality",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=416s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Final verdict Final verdict 6:56",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=416s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Final verdict",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@CruiserTv012",
+      "text": "CruiserTv チャンネル登録者数 7240人",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCtcxdit2FXHjf9ayT4BP7Sg/videos",
+      "text": "動画",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCtcxdit2FXHjf9ayT4BP7Sg/about",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TGhv2RdjpHU&pp=ugUHEgVlbi1VUw%3D%3D",
+      "text": "Should You Worry About The Hybrid Battery In Your Toyota Hybrid?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8X5tb5caJes",
+      "text": "Cost Comparison: EVs, Hybrids & Gas Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uEfAOGicRQU",
+      "text": "Toyota Hybrid Batteries: The TRUTH Nobody Tells You",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=18rvE2j57cE",
+      "text": "【衝撃】ウクライナがついに見つけた「勝利への最短ルート」…戦争を変える答えは驚くほど単純だった",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nMRSK-K6zv8&pp=0gcJCQQLAYcqIYzv",
+      "text": "Toyota's Biggest Embarrassment - 12 Model Dealers Refuse to Stock",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mQ9dk5raSXA",
+      "text": "12Vハイブリッド車・EVバッテリーの消耗問題を解決する。12Vバッテリー切れのトラブルを回避しましょう。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uIcBTWkyebo&pp=ugUEEgJlbg%3D%3D",
+      "text": "EXTREME BEST SELLERS! -- 2026 Toyota RAV4 vs. 2026 Honda CR-V: Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ElSJtOTtxec&pp=ugUHEgVlbi1VU9IHCQkECwGHKiGM7w%3D%3D",
+      "text": "How to Get Better Gas Mileage out of your Toyota and Lexus Hybrid",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4y5ctu2fYgA",
+      "text": "Waiting in an Automatic - Avoid Damage and What to do on your Driving Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Qmg3AiEleTw",
+      "text": "Is Your Hybrid Saving You Fuel or Hurting Your Engine? The Shocking Truth!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vZeBqqzRTiw",
+      "text": "これらの 15 台のオートバイは 2026 年の時点では価値がありません - その理由は次のとおりです。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xBeA9_492G0",
+      "text": "エンジンオイルをセメントに注ぐと、何十億人もの人が知らないことが分かります！ちょっとした裏技",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oAHaYXBFnJo",
+      "text": "How to Replace a Hybrid Battery in a Prius (Upgraded Battery)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=X-cFdTKFBQE",
+      "text": "The Truth About Owning a Toyota Yaris Cross",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R_J_T7TWbXY",
+      "text": "Why Hybrids Are Beating EVs In The U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fNeTsRGrI6Q&pp=0gcJCQQLAYcqIYzv",
+      "text": "Toyota Hybrid Facts That No One Will Tell You!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xiS5uQXXpIg&pp=ugUEEgJqYQ%3D%3D",
+      "text": "差動装置（デフ）｜どのような仕組みになっている？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TaOwcmmY8vk",
+      "text": "2026 Toyota RAV4 Hybrid VS Plug-In: Which One Is REALLY Worth It?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Ce8ZpcoAAOk&pp=0gcJCQQLAYcqIYzv",
+      "text": "The Toyota Hybrid Setting That's Silently Killing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-coGgiuLd1w",
+      "text": "Owning a Toyota Hybrid in Winter: Here’s What Nobody Tells You!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0RVby7aYhnM",
+      "text": "2026 Toyota RAV4 Hybrid Vs. Plug-In Hybrid: Which One Is REALLY Worth It?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fE7SFx8nLEk&pp=0gcJCQQLAYcqIYzv",
+      "text": "Toyota hybrid maintenance cost is insane! Hybrid VS gas!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8L9R_YDjgR4",
+      "text": "たった1分で古いバッテリーを新品同様に！バッテリーを素早く復活！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EEIUwACU2yI",
+      "text": "NEVER Use 32 PSI — Stop Falling For The Tire Industry’s $1,000 Trap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Y8PPZIHaCLw",
+      "text": "Hybrid Mileage Secret – eCVT Working Explained | Toyota Hybrid Transmission Explained",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wzgmaLWQkUs&pp=0gcJCQQLAYcqIYzv",
+      "text": "【緊急依頼】30年放置の油脂汚れと水垢汚れ「ホンダNSX」10時間徹底洗車で甦る car detailing honda nsx",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LnslXxiklJ8&list=PLeFzfl0Q8rQUOHwFNOMTuwyHzO7UWKT-z",
+      "text": "How Toyota Hybrids Work",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@TheCarCareNut",
+      "text": "The Car Care Nut",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@TheCarCareNut",
+      "text": "コース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLeFzfl0Q8rQUOHwFNOMTuwyHzO7UWKT-z",
+      "text": "すべてのコースを表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KnUFH5GX_fI",
+      "text": "Nobody understands the point of hybrid cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DMzyVIzankk",
+      "text": "10 Toyota Models Owners Are ABANDONING Right Now (Reliability COLLAPSED)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-NidHM8_g00",
+      "text": "Plug-In Hybrids Are Not What You Think They Are | Talking Cars with Consumer Reports #429",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yBq74DIjjx8",
+      "text": "Hybrid 12v Battery Care - Truth About Hybrid 12V Battery Problems: What You Need to Know",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SEK0wN_IqgA&pp=ugUHEgVlbi1VU9IHCQkECwGHKiGM7w%3D%3D",
+      "text": "Dont do this to your RAV4 Prime and Prius Prime",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jstEp36kBRU",
+      "text": "Subaru production in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pZP2WljT2oc",
+      "text": "【THS/e-power/e:HEV】トヨタ、日産、ホンダのハイブリッドシステム—どう違う？THS Ⅱの遊星歯車のギア比は固定なのに、どうやって駆動割合を変えるのか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t-0nmAUNIZ4",
+      "text": "2026 Toyota RAV4 | Talking Cars with Consumer Reports #488",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3Yn1IlyJhzQ",
+      "text": "Toyota just ended Tesla // 2026 RAV4 PHEV pricing official",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0M1D2GxZzPY",
+      "text": "The One Button Every Toyota Hybrid Owner Should Press (But Nobody Does)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J9i09Dwe51g",
+      "text": "Do THIS To Your Toyota Hybrid Before 100k Miles Or Risk a $4,000 Battery Failure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Uvc6bXtrrhM",
+      "text": "2026 Toyota RAV4 Hybrid vs Plug-In Hybrid — The REAL Difference No One Is Telling You!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jJBob8-g0eA&pp=ugUHEgVlbi1HQg%3D%3D",
+      "text": "I’m 91 years old… If You Can’t Live Alone, Don’t Go to a Care Home — Do This",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n6kDxw_dEK0&list=RDn6kDxw_dEK0&start_radio=1&pp=oAcB",
+      "text": "Horigome Yasuyuki [1/2] - tiny desk concerts JAPAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MvsnZ-b4PXo&pp=ugUEEgJlbg%3D%3D",
+      "text": "2025 Toyota RAV4 Hybrid vs RAV4 Gasoline: Who Wins?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oYYC66sJTgM",
+      "text": "【日曜報道最終回】日米首脳会談直後の茂木外相「自衛隊派遣の憲法9条の制約を説明した」（2026年03月22日）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZysBEjtLW4Q&pp=ugUHEgVlbi1DQQ%3D%3D",
+      "text": "モジュラー建築がカナダの住宅危機に革命をもたらす理由",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RPvXJdG2PJM",
+      "text": "Hybrid Owners REGRET This? Honda vs Toyota vs Hyundai EXPOSED",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=adKI5tUDQIM&list=PLUZq2wO0Az1f6UFnxkkpC6LpoJWhgkH3G",
+      "text": "Toyota Hybrid Maintenance cost!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@ToyotaWorld",
+      "text": "Toyota World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@ToyotaWorld",
+      "text": "コース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLUZq2wO0Az1f6UFnxkkpC6LpoJWhgkH3G",
+      "text": "すべてのコースを表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0OT2IQSoVEs",
+      "text": "Why Alberta’s separation from Canada is almost impossible | About That",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0tr61znO8tc",
+      "text": "House of Commons ERUPTS as the Speaker issues WARNING to Keir Starmer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=odYn9DVuyqw&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【ライブ】赤沢経済産業大臣 閣議後の会見｜石油の国家備蓄放出へ【LIVE】(2026年3月24日) ANN/テレ朝",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MfM8_6G-ZYo",
+      "text": "Why Toyota Just Panicked! Giving Hybrid Buyers HUGE Discounts Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dCPAk5BnB2g",
+      "text": "U.S. aviation accident agency gives update after collision in New York",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wzWL7J0z95Y&pp=ugUHEgVlbi1HQg%3D%3D",
+      "text": "I Bought the Cheapest Car on the Internet (So You Don't Have To)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GGeLRCg7VEE&pp=ugUEEgJlbg%3D%3D",
+      "text": "AVOID These CHEAP SUV CARS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=h11DV0EFUsE",
+      "text": "Highlander Hybrid vs Highlander Gas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oW9G_Gif6_k&list=RDoW9G_Gif6_k&start_radio=1&pp=oAcB",
+      "text": "Horigome Yasuyuki [2/2] - tiny desk concerts JAPAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6fJ-q0QPdxM",
+      "text": "2026 Honda CR-V Review: Hybrid vs Gas – The Real Winner!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0cmLZ2yuv00",
+      "text": "MURA ANG MAINTENANCE NG ELECTRIC VEHICLE PERO HABANG PANAHON KA SA CASA?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OdI_JLb1Fs8",
+      "text": "Toyota Production in Japan – Prius, Crown, Mirai, Harrier, JPN Taxi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zjCHjOnzFro&pp=0gcJCQQLAYcqIYzv",
+      "text": "【燃費激悪】ランドクルーザーFJの良いところ・悪いところをカタログ見て考える　ランクルFJ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gMPjbPxWoOI",
+      "text": "Toyota's new \"Woodland\" trim on the 2026 Toyota RAV4 is my favorite. Here's why.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+      "text": "0:00",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=47s",
+      "text": "0:47",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=169s",
+      "text": "2:49",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=291s",
+      "text": "4:51",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZenFEdW29z8&t=416s",
+      "text": "6:56",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazJsVVU4SkdkdUZITEQ2MlpNRnFHUXA5ZkJXZ3xBQ3Jtc0tsZjRKZm1vWEQydlJsNExJWVU3UlpLNmE0MG1OZnRoNWR6dXp3cEZLUTB4TVQ2cldfekdEWUFEUkhlUEFDY0RpZHFkbUNtQ2lJcVd1VXI2ajQ5SjFqeTdXN0dEM3ljcWRMMHVlMzdvY2lVM2doallUZw&q=https%3A%2F%2Fbit.ly%2F3JW98DC&v=ZenFEdW29z8",
+      "text": "https://bit.ly/3JW98DC",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://yt3.ggpht.com/5RM6upPJ9ZTH1oZ3LDjEzX0AEKMPSUeRHcZAonNWqdqC4msAJepkMB2xgpb1VwWwfdid90ZjDfg=s48-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    },
+    {
+      "src": "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "alt": "既定のプロフィール写真"
+    }
+  ],
+  "visible_dates": [
+    "2025/12/17",
+    "2025/12/1",
+    "2026年03月2",
+    "2026年3月2"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+    "title": "Toyota Hybrid vs Gas Maintenance: The Cost Myth Finally Exposed! - YouTube",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:02:45.060818+00:00",
+  "source_meta": {
+    "title": "Toyota Hybrid vs Gas Maintenance: The Cost Myth Finally ...",
+    "url": "https://www.youtube.com/watch?v=ZenFEdW29z8",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "competitor_owned",
+    "snippet": "Dec 17, 2025 — is maintaining a Toyota hybrid really more expensive than a gasoline Toyota or is that just a common misconception. many people as...",
+    "citation_count": 5,
+    "first_cited_position": 16,
+    "answer_support_weight": 9,
+    "supported_block_types": [
+      "list",
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "What are typical maintenance costs for hybrid powertrains in Japan compared to petrol engines?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "What are typical maintenance costs for hybrid powertrains in Japan compared to petrol engines?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

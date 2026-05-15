@@ -1,0 +1,708 @@
+{
+  "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 13975,
+    "wordish_count": 2060,
+    "heading_count": 8,
+    "bullet_count": 57,
+    "link_count": 67,
+    "image_count": 10,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 72,
+    "numeric_fact_count": 101,
+    "question_count": 19,
+    "unique_line_count": 166,
+    "numeric_facts_sample": [
+      "2",
+      "1",
+      "19",
+      "2023",
+      "3",
+      "4",
+      "5",
+      "3000",
+      "5000",
+      "15",
+      "2026",
+      "10",
+      "2025",
+      "9",
+      "2021",
+      "8",
+      "320",
+      "328",
+      "18",
+      "2019",
+      "11",
+      "2022",
+      "09",
+      "01",
+      "628215"
+    ],
+    "links_sample": [
+      "https://carfromjapan.com/wp-content/uploads/2022/09/logo.png",
+      "https://carfromjapan.com/wp-content/uploads/2025/01/logo.png",
+      "https://secure.gravatar.com/avatar/628215efdec39912cb19f3bd335bc878?s=96&d=mm&r=g",
+      "https://carfromjapan.com/wp-content/uploads/2018/05/maxresdefault-7.jpg",
+      "https://carfromjapan.com/wp-content/uploads/2018/05/hybrid-cars-for-2018-1024x683.jpeg",
+      "https://carfromjapan.com/wp-content/uploads/2020/12/louis-tricot-j-0qSdBbjH4-unsplash-1024x683.jpg",
+      "https://carfromjapan.com/wp-content/uploads/2025/01/2508-Referal-ads-1-1-300x300.jpg",
+      "https://carfromjapan.com/wp-content/uploads/2025/01/footer-logo.png",
+      "https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=1b762a23-8e67-4be0-a618-92e60ad843e0",
+      "https://www.facebook.com/tr?id=1556890951217633&ev=PageView&noscript=1",
+      "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "https://carfromjapan.com/talk/",
+      "https://carfromjapan.com/article/category/car-maintenance/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-ac/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-battery/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-brakes/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-engine/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-noises/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-tires/",
+      "https://carfromjapan.com/article/category/car-maintenance/car-transmission/",
+      "https://carfromjapan.com/article/category/car-maintenance/warning-lights/",
+      "https://carfromjapan.com/article/category/driving-tips/",
+      "https://carfromjapan.com/article/category/car-review/",
+      "https://carfromjapan.com/article/category/car-comparison/",
+      "https://carfromjapan.com/article/mazda-rx8-problems/"
+    ],
+    "image_alt_count": 10
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Place",
+      "Organization",
+      "WebSite",
+      "ImageObject",
+      "WebPage",
+      "Person",
+      "BlogPosting",
+      "PostalAddress",
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 333,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 6752,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 490,
+    "full_markdown_chars": 13975
+  },
+  "metadata": {
+    "title": "Hybrid vs. Gas Fuels Cars - Which is Best for You?",
+    "description": "Every car buyer wishes to have a car that is both fuel-efficient and eco-friendly. But, the question is which car to buy – Hybrid or Gas Car? Each of these",
+    "language": "en-US",
+    "sourceURL": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Place",
+      "Organization",
+      "WebSite",
+      "ImageObject",
+      "WebPage",
+      "Person",
+      "BlogPosting",
+      "PostalAddress",
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Vimeo",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/talk/",
+      "text": "Car Talk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/",
+      "text": "Car Maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-ac/",
+      "text": "Car AC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-battery/",
+      "text": "Car Battery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-brakes/",
+      "text": "Car Brakes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-engine/",
+      "text": "Car Engine",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-noises/",
+      "text": "Car Noises",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-tires/",
+      "text": "Car Tires",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/car-transmission/",
+      "text": "Car Transmission",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-maintenance/warning-lights/",
+      "text": "Warning Lights",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/driving-tips/",
+      "text": "Driving Tips",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-review/",
+      "text": "Car Review",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-comparison/",
+      "text": "Car Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Forgot your password?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/",
+      "text": "https://carfromjapan.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/mazda-rx8-problems/",
+      "text": "https://carfromjapan.com/article/mazda-rx8-problems/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/mazda-rx8-problems/",
+      "text": "Mazda RX-8 Problems That Owners Often Face",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/how-to-choose-the-right-forgiato-rims/",
+      "text": "https://carfromjapan.com/article/how-to-choose-the-right-forgiato-rims/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/how-to-choose-the-right-forgiato-rims/",
+      "text": "How to Choose the Right Forgiato Rims | Buying Guide",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/signs-your-car-is-no-longer-roadworthy/",
+      "text": "https://carfromjapan.com/article/signs-your-car-is-no-longer-roadworthy/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/signs-your-car-is-no-longer-roadworthy/",
+      "text": "Signs Your Car Is No Longer Roadworthy (And What to Do Next)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/car-blind-spot-checking/",
+      "text": "https://carfromjapan.com/article/car-blind-spot-checking/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/car-blind-spot-checking/",
+      "text": "The Blind Spot: Why Checking Your Mirrors Isn’t Enough in 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/how-weather-affects-driving-and-what-you-can-do-about-it/",
+      "text": "https://carfromjapan.com/article/how-weather-affects-driving-and-what-you-can-do-about-it/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/how-weather-affects-driving-and-what-you-can-do-about-it/",
+      "text": "How͏͏ Weather͏͏ Affects͏͏ Driving͏͏ and͏͏ What͏͏ You͏͏ Can͏͏ Do͏͏ About͏͏ It",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/are-bigger-cars-really-safer/",
+      "text": "https://carfromjapan.com/article/are-bigger-cars-really-safer/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/are-bigger-cars-really-safer/",
+      "text": "Are Bigger Cars Really Safer? What Drivers Often Overlook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/driving-safety-tips-to-avoid-accidents/",
+      "text": "https://carfromjapan.com/article/driving-safety-tips-to-avoid-accidents/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/driving-safety-tips-to-avoid-accidents/",
+      "text": "7 Driving Safety Tips to Avoid Accidents on the Road",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/author/naoki/",
+      "text": "https://carfromjapan.com/author/naoki/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/author/naoki/",
+      "text": "Matsumoto Naoki",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#respond",
+      "text": "0",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fcarfromjapan.com%2Farticle%2Fhybrid-vs-gas-fuel-cars%2F",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=Hybrid+vs.+Gas+Fuels+Cars+%E2%80%93+Which+is+Best+for+You%3F&url=https%3A%2F%2Fcarfromjapan.com%2Farticle%2Fhybrid-vs-gas-fuel-cars%2F&via=CAR+FROM+JAPAN",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/&media=https://carfromjapan.com/wp-content/uploads/2018/05/maxresdefault-7.jpg&description=Hybrid+vs.+Gas+Fuels+Cars+%E2%80%93+Which+is+Best+for+You%3F",
+      "text": "Pinterest",
+      "is_pdf": false
+    },
+    {
+      "url": "https://api.whatsapp.com/send?text=Hybrid+vs.+Gas+Fuels+Cars+%E2%80%93+Which+is+Best+for+You%3F %0A%0A https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "WhatsApp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "Show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#hybrids-vs-gas-cars-lets-know-the-difference",
+      "text": "Hybrids vs Gas Cars – Let’s know the Difference",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#1-cost",
+      "text": "1. Cost",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#2-maintenance-costs",
+      "text": "2. Maintenance costs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#3-gas-mileage",
+      "text": "3. Gas mileage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#4-performance",
+      "text": "4. Performance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#5-emissions",
+      "text": "5. Emissions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#the-verdict",
+      "text": "The Verdict",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/driving-tips/drive-hybrid-car-efficiently/",
+      "text": "Everything you need to Know about Hybrid Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/car-maintenance/what-is-good-gas-mileage/",
+      "text": "The Perfect Gas Mileage for Your Vehicle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/category/car-comparison/",
+      "text": "car comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/toyota-mark-2-vs-chaser/",
+      "text": "https://carfromjapan.com/article/toyota-mark-2-vs-chaser/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/toyota-mark-2-vs-chaser/",
+      "text": "Toyota Mark 2 vs Chaser: A Simple Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/honda-acty-vs-suzuki-carry-truck/",
+      "text": "https://carfromjapan.com/article/honda-acty-vs-suzuki-carry-truck/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/honda-acty-vs-suzuki-carry-truck/",
+      "text": "Honda Acty vs Suzuki Carry Truck: A Detailed Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/nissan-frontier-vs-toyota-tacoma/",
+      "text": "https://carfromjapan.com/article/nissan-frontier-vs-toyota-tacoma/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/nissan-frontier-vs-toyota-tacoma/",
+      "text": "Comparison: Nissan Frontier vs. Toyota Tacoma",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/#respond",
+      "text": "Cancel reply",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/campaigns/referral-program?utm_source=cartalk&utm_medium=banner&utm_campaign=referralprogram",
+      "text": "https://carfromjapan.com/campaigns/referral-program?utm_source=cartalk&utm_medium=banner&utm_campaign=referralprogram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/mercedes-s-class-maybach-differences/",
+      "text": "https://carfromjapan.com/article/mercedes-s-class-maybach-differences/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/mercedes-s-class-maybach-differences/",
+      "text": "Mercedes S-Class vs Maybach: The Differences",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/2021-honda-civic-vs-2021-toyota-corolla/",
+      "text": "https://carfromjapan.com/article/2021-honda-civic-vs-2021-toyota-corolla/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/2021-honda-civic-vs-2021-toyota-corolla/",
+      "text": "2021 Honda Civic vs. 2021 Toyota Corolla Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/bmw-320i-vs-328i/",
+      "text": "https://carfromjapan.com/article/bmw-320i-vs-328i/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/bmw-320i-vs-328i/",
+      "text": "BMW 320i vs 328i Conundrum: A Quick Guide To Clear The Confusion!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/nissan-note-vs-honda-fit-one-new-hatchback/",
+      "text": "https://carfromjapan.com/article/nissan-note-vs-honda-fit-one-new-hatchback/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/nissan-note-vs-honda-fit-one-new-hatchback/",
+      "text": "Nissan Note vs Honda Fit: Which One Is Your New Hatchback?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/honda-passport-vs-pilot/",
+      "text": "https://carfromjapan.com/article/honda-passport-vs-pilot/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/honda-passport-vs-pilot/",
+      "text": "2019 Honda Passport Vs. Pilot: Which SUV Is Right For You?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/ford-edge-vs-ford-escape/",
+      "text": "https://carfromjapan.com/article/ford-edge-vs-ford-escape/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/article/ford-edge-vs-ford-escape/",
+      "text": "The Truth About the Differences between Ford Edge vs Ford Escape",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/CarFromJapan.Official",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/carfromjapan_com/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@carfromjapan.com",
+      "text": "TikTok",
+      "is_pdf": false
+    },
+    {
+      "url": "https://x.com/CarFromJapan",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@CarfromjapanLtd",
+      "text": "Youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dmca.com/Protection/Status.aspx?ID=1b762a23-8e67-4be0-a618-92e60ad843e0&refurl=https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "text": "https://www.dmca.com/Protection/Status.aspx?ID=1b762a23-8e67-4be0-a618-92e60ad843e0&refurl=https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/cheap-used-cars-for-sale",
+      "text": "Japanese Used Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/company/overview",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/company/conditions-of-use/",
+      "text": "Conditions Of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/company/privacy-policy/",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/sitemap",
+      "text": "Sitemap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carfromjapan.com/campaigns/referral-program?utm_source=cartalk&utm_medium=Floatingbutton&utm_campaign=ReferralProgram",
+      "text": "https://carfromjapan.com/campaigns/referral-program?utm_source=cartalk&utm_medium=Floatingbutton&utm_campaign=ReferralProgram",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2022/09/logo.png",
+      "alt": "carfromjapan header logo"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2025/01/logo.png",
+      "alt": "Logo"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2022/09/logo.png",
+      "alt": "Logo"
+    },
+    {
+      "src": "https://secure.gravatar.com/avatar/628215efdec39912cb19f3bd335bc878?s=96&d=mm&r=g",
+      "alt": "Matsumoto Naoki"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2018/05/maxresdefault-7.jpg",
+      "alt": "Best points for know hybrid vs. gas fuel cars"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2018/05/hybrid-cars-for-2018-1024x683.jpeg",
+      "alt": "Comparison between Hybrid vs Gas Fuel cars"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2020/12/louis-tricot-j-0qSdBbjH4-unsplash-1024x683.jpg",
+      "alt": "Hybrid cars vs.regular cars? Which car will be the best for you? (Photo Source: Unsplash)"
+    },
+    {
+      "src": "https://secure.gravatar.com/avatar/628215efdec39912cb19f3bd335bc878?s=117&d=mm&r=g",
+      "alt": "Matsumoto Naoki"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2025/01/2508-Referal-ads-1-1-300x300.jpg",
+      "alt": "referral program"
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2025/01/footer-logo.png",
+      "alt": "carfromjapan footer logo"
+    },
+    {
+      "src": "https://images.dmca.com/Badges/dmca-badge-w150-5x1-07.png?ID=1b762a23-8e67-4be0-a618-92e60ad843e0",
+      "alt": "DMCA.com Protection Status"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1556890951217633&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://carfromjapan.com/?ga4_ns_track=1&data=Tu1D6C5_5gQnJMp55ZAzBT9-_ARyeDDWoi0X57xRuA97vUwydjvIuEMMrPxMXgKev34pWer8f99jYO_ybkgZ68VHr70BNO3BXi7eXoYAoNdYxGmXLsUUqSsuBXk6b4SMRad3VoG-4nLfZYcgrydjqR3unI7yEOnjYcTALw5XDuFQPaR1v0xnOwExW10Fa2BPsQwBHB4zux5PEBcxAhhQc5fP9VZZPHF4_-6tlywZYn32G6LaB37buGeksOB6mnpRK8QrY2hPsVPV-oxSob87M-B3vdwP-k3N60c4MGBq-w",
+      "alt": ""
+    },
+    {
+      "src": "https://carfromjapan.com/wp-content/uploads/2026/01/Referral-program.png",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+    "title": "Hybrid vs. Gas Fuels Cars - Which is Best for You?",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:01:45.232440+00:00",
+  "source_meta": {
+    "title": "Hybrid vs. Gas Fuels Cars - Which is Best for You? - Car From Japan",
+    "url": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+    "source_name": "Car From Japan",
+    "source_domain": "carfromjapan.com",
+    "source_type": "other",
+    "snippet": "Dec 19, 2023 — 1. Cost. ... Many people think that a hybrid car is more expensive than a gas car. However, it depends on many elements. Sometimes...",
+    "citation_count": 2,
+    "first_cited_position": 11,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

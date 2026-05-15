@@ -1,0 +1,478 @@
+{
+  "url": "https://toka.energy/en/blog/nissan-ariya",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 17333,
+    "wordish_count": 2517,
+    "heading_count": 8,
+    "bullet_count": 35,
+    "link_count": 41,
+    "image_count": 6,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 43,
+    "numeric_fact_count": 129,
+    "question_count": 9,
+    "unique_line_count": 172,
+    "numeric_facts_sample": [
+      "0",
+      "100",
+      "18",
+      "2025",
+      "15",
+      "63",
+      "87",
+      "90",
+      "360",
+      "500",
+      "623",
+      "280",
+      "320",
+      "2",
+      "400",
+      "450",
+      "350",
+      "20",
+      "30%",
+      "10%",
+      "80%",
+      "35",
+      "40",
+      "130",
+      "22"
+    ],
+    "links_sample": [
+      "https://toka.energy/img-resizer/blog/posts/A7TboEeV04woNFG3jI3Dz7YPvjkNgzawlNJfHPRT.jpg?w=1400&q=80",
+      "https://toka.energy/img-resizer/blog/authors/01KD38V0JXRBPDREJ41GVG73WF.png?w=42&q=80",
+      "https://toka.energy/img-resizer/blog/posts/imgs/gg64ZKZ6H7BtCqOwAgNOge5u2cVldgBlKOlPO3Yx.jpg?w=632&q=80",
+      "https://toka.energy/img-resizer/blog/posts/01KNH4Q045W6CP3WEHCKY9HAKS.jpg?w=416&q=80",
+      "https://toka.energy/img-resizer/blog/posts/01KNH4JCP9G3YGFGKRRQ6KH0R0.jpg?w=416&q=80",
+      "https://toka.energy/img-resizer/blog/posts/01KNH4Q3FRHDTXVFKX52S78TEM.jpg?w=416&q=80",
+      "https://toka.energy/en",
+      "https://toka.energy/en/about",
+      "https://toka.energy/en/blog",
+      "https://toka.energy/en/chargemap",
+      "https://toka.energy/en/shop",
+      "https://toka.energy/en/business",
+      "https://toka.energy/en/drivers",
+      "https://toka.energy/en/faq",
+      "https://toka.energy/en/contacts",
+      "https://toka.energy/statti/nissan-ariya",
+      "https://toka.energy/en/blog/nissan-ariya",
+      "https://toka.energy/ru/blog/nissan-ariya",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-1",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-2",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-3",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-4",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-5",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-6",
+      "https://toka.energy/en/blog/nissan-ariya#blog-part-7"
+    ],
+    "image_alt_count": 6
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 3,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 3,
+    "content_terms": 168,
+    "noise_ratio": 0.02
+  },
+  "content_regions": {
+    "header_chars": 962,
+    "main_chars": 13897,
+    "footer_chars": 307,
+    "tables_chars": 0,
+    "metadata_chars": 218,
+    "full_markdown_chars": 17333
+  },
+  "metadata": {
+    "title": "Nissan Ariya specifications: a comprehensive review of the Japanese electric crossover | TOKA",
+    "description": "​Nissan ​Ariya specifications: complete review of battery, range, charging & dimensions. Technical data, configurations, performance in Ukraine​",
+    "language": "en",
+    "sourceURL": "https://toka.energy/en/blog/nissan-ariya",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://toka.energy/en/blog/nissan-ariya",
+    "robots": "",
+    "hreflang": [
+      {
+        "hreflang": "uk",
+        "href": "https://toka.energy/statti/nissan-ariya"
+      },
+      {
+        "hreflang": "ru",
+        "href": "https://toka.energy/ru/blog/nissan-ariya"
+      },
+      {
+        "hreflang": "en",
+        "href": "https://toka.energy/en/blog/nissan-ariya"
+      }
+    ],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://toka.energy/en",
+      "text": "https://toka.energy/en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/about",
+      "text": "About TOKA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog",
+      "text": "Blog",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/chargemap",
+      "text": "Charging stations map",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/shop",
+      "text": "Shop",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/business",
+      "text": "For business",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/drivers",
+      "text": "For drivers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/faq",
+      "text": "Questions and answers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/contacts",
+      "text": "Contacts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/statti/nissan-ariya",
+      "text": "UA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya",
+      "text": "EN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/ru/blog/nissan-ariya",
+      "text": "RU",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/business",
+      "text": "For partners",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ua.linkedin.com/company/tokaenergy",
+      "text": "https://ua.linkedin.com/company/tokaenergy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/tokaua",
+      "text": "https://www.instagram.com/tokaua",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/tokaua",
+      "text": "https://www.facebook.com/tokaua",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-1",
+      "text": "Nissan Ariya Battery and Energy Efficiency",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-2",
+      "text": "Range and Real-World Performance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-3",
+      "text": "Nissan Ariya Charging: Speed and Convenience",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-4",
+      "text": "Nissan Ariya Dimensions and Spaciousness",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-5",
+      "text": "Nissan Ariya Interior: Technologies of the Future",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-6",
+      "text": "Nissan Ariya Configurations and Technical Specifications",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-7",
+      "text": "Nissan Ariya 0-100 Acceleration and Dynamic Characteristics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-8",
+      "text": "Safety Systems and Driver Assistance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-9",
+      "text": "Practicality of Use in Ukrainian Conditions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-10",
+      "text": "Competitors and Market Positioning",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-11",
+      "text": "Development Prospects and Future Updates",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/nissan-ariya#blog-part-12",
+      "text": "Frequently Asked Questions (FAQ)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/author/toka-team",
+      "text": "TOKA Our goal: to ensure convenient placement of charging stations and reach the international level.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/author/toka-team",
+      "text": "Share",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/author/toka-team",
+      "text": "https://toka.energy/en/blog/author/toka-team",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftoka.energy%2Fen%2Fblog%2Fnissan-ariya",
+      "text": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftoka.energy%2Fen%2Fblog%2Fnissan-ariya",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftoka.energy%2Fen%2Fblog%2Fnissan-ariya",
+      "text": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Ftoka.energy%2Fen%2Fblog%2Fnissan-ariya",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en",
+      "text": "TOKA Energy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/shop",
+      "text": "fast charging station",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/shop",
+      "text": "home charging solutions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/how-to-extend-the-battery-life-of-an-electric-vehicle",
+      "text": "https://toka.energy/en/blog/how-to-extend-the-battery-life-of-an-electric-vehicle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/innovations-in-charging-technologies",
+      "text": "Innovations in charging technologies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/how-to-extend-the-battery-life-of-an-electric-vehicle",
+      "text": "How to extend the battery life of an electric vehicle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/chy-mozhna-buksyruvaty-elektromobil",
+      "text": "https://toka.energy/en/blog/chy-mozhna-buksyruvaty-elektromobil",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/chy-mozhna-buksyruvaty-elektromobil",
+      "text": "Can an electric vehicle be towed - rules, risks and safe alternatives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/do-electric-vehicles-need-oil",
+      "text": "https://toka.energy/en/blog/do-electric-vehicles-need-oil",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/blog/do-electric-vehicles-need-oil",
+      "text": "Do electric vehicles need oil and other maintenance issues?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://itunes.apple.com/ua/app/toka-network/id1320781993",
+      "text": "https://itunes.apple.com/ua/app/toka-network/id1320781993",
+      "is_pdf": false
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.tokamobile.TokaApp",
+      "text": "https://play.google.com/store/apps/details?id=com.tokamobile.TokaApp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://toka.energy/en/privacy-and-cookie-policy",
+      "text": "Privacy & Cookie Policy",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/A7TboEeV04woNFG3jI3Dz7YPvjkNgzawlNJfHPRT.jpg?w=1400&q=80",
+      "alt": "Nissan Ariya specifications: a comprehensive review of the Japanese electric crossover"
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/authors/01KD38V0JXRBPDREJ41GVG73WF.png?w=42&q=80",
+      "alt": "TOKA"
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/imgs/gg64ZKZ6H7BtCqOwAgNOge5u2cVldgBlKOlPO3Yx.jpg?w=632&q=80",
+      "alt": ""
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/imgs/y3TI9pHMm40XAJJUFX9UXykA0nCJNNIHq0fu9eut.jpg?w=632&q=80",
+      "alt": ""
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/01KNH4Q045W6CP3WEHCKY9HAKS.jpg?w=416&q=80",
+      "alt": "How to extend the battery life of an electric vehicle"
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/01KNH4JCP9G3YGFGKRRQ6KH0R0.jpg?w=416&q=80",
+      "alt": "Can an electric vehicle be towed - rules, risks and safe alternatives"
+    },
+    {
+      "src": "https://toka.energy/img-resizer/blog/posts/01KNH4Q3FRHDTXVFKX52S78TEM.jpg?w=416&q=80",
+      "alt": "Do electric vehicles need oil and other maintenance issues?"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=573114099876023&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://toka.energy/en/blog/nissan-ariya",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://toka.energy/en/blog/nissan-ariya",
+    "title": "Nissan Ariya specifications: a comprehensive review of the Japanese electric crossover | TOKA",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:59:07.181368+00:00",
+  "source_meta": {
+    "title": "Nissan Ariya specifications: a comprehensive review ... - TOKA",
+    "url": "https://toka.energy/en/blog/nissan-ariya",
+    "source_name": "TOKA Energy",
+    "source_domain": "toka.energy",
+    "source_type": "publisher_review",
+    "snippet": "Range and Real-World Performance. One of the most important parameters for electric vehicle buyers is range. The real-world range ...",
+    "citation_count": 2,
+    "first_cited_position": 10,
+    "answer_support_weight": 5,
+    "supported_block_types": [
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

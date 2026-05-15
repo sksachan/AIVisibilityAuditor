@@ -1,0 +1,1526 @@
+{
+  "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "blocked",
+  "extraction_status": "blocked",
+  "content_score_policy": "exclude_from_content_score",
+  "geo_analysis_ready": false,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 44297,
+    "wordish_count": 6444,
+    "heading_count": 9,
+    "bullet_count": 181,
+    "link_count": 218,
+    "image_count": 42,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 10,
+    "raw_url_count": 220,
+    "numeric_fact_count": 623,
+    "question_count": 94,
+    "unique_line_count": 645,
+    "numeric_facts_sample": [
+      "1",
+      "53609",
+      "99",
+      "30000",
+      "100000",
+      "15",
+      "2025",
+      "10",
+      "60%",
+      "7",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "24",
+      "100%",
+      "115,000",
+      "2026",
+      "55,000",
+      "2027",
+      "17",
+      "19,573",
+      "6,281",
+      "6,002"
+    ],
+    "links_sample": [
+      "https://ymimg1.b8cdn.com/uploads/logos/ym-colored-logo-en.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/uae.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/ksa.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/egypt.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/qatar.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/oman.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/kuwait.svg",
+      "https://ymimg1.b8cdn.com/uploads/flags/32/bahrain.svg",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Ficon.png&w=64&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F53609%2Flogo_file_name%2Fwebp_listing_main_Picsart_25-05-14_23-11-58-813.webp&w=1920&q=75",
+      "https://yallamotor-production-assets.s3.ap-south-1.amazonaws.com/uploads/articles/f2c91fd8-7748-4765-97e2-b4f09b73a6ec.webp",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fuploads%2Flogos%2Fym-white-logo-en.png&w=384&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55330%2Flogo_file_name%2Fwebp_mobile_listing_main_ABI02758.webp&w=256&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55328%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-evs-for-sale-in-uae-2.webp&w=256&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55326%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-new-cars-uae-2026-best-models-under-55000-aed.webp&w=256&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55324%2Flogo_file_name%2Fwebp_mobile_listing_main_1776757125324_0.webp&w=256&q=75",
+      "https://img.youtube.com/vi/MKmsmlZ-rJ4/hqdefault.jpg",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55322%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-new-7-seater-cars-uae-2026-family-suvs-under-aed-100000.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55308%2Flogo_file_name%2Fwebp_mobile_listing_main_best-used-cars-for-sale-uae-2026-30-reliable-under-50000-aed.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55306%2Flogo_file_name%2Fwebp_mobile_listing_main_car-prices-uae-2026-complete-guide-50-models-all-segments.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55300%2Flogo_file_name%2Fwebp_mobile_listing_main_Tesla-v-BYD__1_.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55298%2Flogo_file_name%2Fwebp_mobile_listing_main_hq720__1_.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55296%2Flogo_file_name%2Fwebp_mobile_listing_main_Tesla_Model_Y_2.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2025%2F8%2F8%2F2040376%2Fpictures%2F15610700%2Fwebp_listing_main_3N1CP5CP2RL478759_5481301_1.webp&w=1920&q=75",
+      "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2025%2F8%2F18%2F2040542%2Fpictures%2F15639133%2Fwebp_listing_main_1N4AL4AP3PN363622_5232221_1.webp&w=1920&q=75"
+    ],
+    "image_alt_count": 42
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "NewsArticle",
+      "Organization",
+      "WebPage",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 15,
+    "freshness_signals": true,
+    "visible_dates": [
+      "updated with reviews from experts."
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 3,
+    "content_terms": 683,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 7269,
+    "main_chars": 17942,
+    "footer_chars": 13103,
+    "tables_chars": 1031,
+    "metadata_chars": 441,
+    "full_markdown_chars": 44297
+  },
+  "metadata": {
+    "title": "Japanese Used Car History Checks in UAE: Why Vehicle Report is Essential | YallaMotor",
+    "description": "iscover how Vehicle Report provides comprehensive Japanese used car history checks in the UAE starting at AED 99. Protect yourself from hidden damage, odometer fraud, and more when buying Japanese cars.",
+    "language": "en",
+    "sourceURL": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+    "robots": "index, follow",
+    "hreflang": [
+      {
+        "hreflang": "en-AE",
+        "href": "https://uae.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-AE",
+        "href": "https://uae.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-SA",
+        "href": "https://ksa.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-SA",
+        "href": "https://ksa.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-EG",
+        "href": "https://egypt.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-EG",
+        "href": "https://egypt.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-QA",
+        "href": "https://qatar.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-QA",
+        "href": "https://qatar.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-OM",
+        "href": "https://oman.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-OM",
+        "href": "https://oman.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-KW",
+        "href": "https://kuwait.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-KW",
+        "href": "https://kuwait.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "en-BH",
+        "href": "https://bahrain.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "ar-BH",
+        "href": "https://bahrain.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      },
+      {
+        "hreflang": "x-default",
+        "href": "https://uae.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609"
+      }
+    ],
+    "json_ld_present": true,
+    "schema_types": [
+      "NewsArticle",
+      "Organization",
+      "WebPage",
+      "ImageObject"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://uae.yallamotor.com/",
+      "text": "https://uae.yallamotor.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/offers",
+      "text": "Offers New",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars",
+      "text": "New",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars",
+      "text": "Used",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/electric-cars",
+      "text": "Electric",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/chinese-cars",
+      "text": "Chinese",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/car-services",
+      "text": "Car Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/sell-my-car",
+      "text": "Sell My Car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/login",
+      "text": "Sign In",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/sell-my-car",
+      "text": "Sell My Car Free",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/export",
+      "text": "Car Import",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/auto-companies",
+      "text": "Auto Companies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/prices",
+      "text": "Car Prices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/compare",
+      "text": "Compare New Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news",
+      "text": "Blog",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/car-videos",
+      "text": "Car Videos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/expert-car-ratings",
+      "text": "Expert Car Ratings",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/contact-us",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/advertise",
+      "text": "Advertise With Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/about-us",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/privacy-policy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/terms-of-service",
+      "text": "Terms of Service",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news",
+      "text": "Automotive News & Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=uae",
+      "text": "uae",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=apanese-used-cars-uae",
+      "text": "apanese used cars UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=vehicle-history-check-uae",
+      "text": "vehicle history check UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=odometer-fraud",
+      "text": "odometer fraud",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=used-car-inspection",
+      "text": "used car inspection",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=vehicle-report-uae",
+      "text": "Vehicle Report UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=japanese-car-imports",
+      "text": "Japanese car imports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=used-toyota-uae",
+      "text": "used Toyota UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=used-nissan-uae",
+      "text": "used Nissan UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=car-history-report-dubai",
+      "text": "car history report Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://vehiclereport.me",
+      "text": "Vehicle Report",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/toyota/land-cruiser",
+      "text": "Toyota Land Cruiser",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/patrol",
+      "text": "Nissan Patrol",
+      "is_pdf": false
+    },
+    {
+      "url": "https://vehiclereport.me/partner/yallamotor?utm_source=yallamotor&utm_medium=website&utm_campaign=partners",
+      "text": "Vehicle Report's partnership with YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/toyota/land-cruiser",
+      "text": "Used Toyota Land Cruiser models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/patrol",
+      "text": "Used Nissan Patrol vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/toyota/camry",
+      "text": "Used Toyota Camry sedans",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/lexus/lx",
+      "text": "Used Lexus LX series",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/honda/accord",
+      "text": "Used Honda Accord models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars",
+      "text": "used car for sale in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars",
+      "text": "used car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars",
+      "text": "new car deals",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/sell-my-car",
+      "text": "SELL YOUR CAR FOR FREE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/best-off-road-cars-uae-2026-55330",
+      "text": "https://www.yallamotor.com/news/best-off-road-cars-uae-2026-55330",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/best-off-road-cars-uae-2026-55330",
+      "text": "Best Off-Road Cars in UAE 2026: Top 10 Ranked",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-electric-cars-in-uae-2026-55328",
+      "text": "https://www.yallamotor.com/news/cheapest-electric-cars-in-uae-2026-55328",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-electric-cars-in-uae-2026-55328",
+      "text": "Cheapest EVs in the UAE 2026: Top Affordable Electric Cars Worth Buying Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-new-cars-uae-2026-best-models-under-55000-aed-55326",
+      "text": "https://www.yallamotor.com/news/cheapest-new-cars-uae-2026-best-models-under-55000-aed-55326",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-new-cars-uae-2026-best-models-under-55000-aed-55326",
+      "text": "Cheapest New Cars in UAE 2026: Top 10 New Models Under AED 55,000",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/rivian-r2-uae-price-specs-import-guide-55324",
+      "text": "https://www.yallamotor.com/news/rivian-r2-uae-price-specs-import-guide-55324",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/rivian-r2-uae-price-specs-import-guide-55324",
+      "text": "Rivian R2 UAE Guide 2027: Import Price, Real-World Range & GCC Availability",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=abu-dhabi-petrol-price",
+      "text": "Abu Dhabi Petrol Price",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=diesel-price-in-uae",
+      "text": "Diesel Price In UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=dubai-petrol-price",
+      "text": "Dubai Petrol Price",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=petrol-price-in-uae",
+      "text": "Petrol Price In UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=uae-diesel-price",
+      "text": "UAE Diesel Price",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=uae-fuel-prices",
+      "text": "UAE Fuel Prices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=uae-petrol-price",
+      "text": "UAE Petrol Price",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=dubai-police",
+      "text": "Dubai Police",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=dubai-traffic",
+      "text": "Dubai Traffic",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=dubai-traffic-fines",
+      "text": "Dubai Traffic Fines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=dubai-traffic-rules",
+      "text": "Dubai Traffic Rules",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=ford",
+      "text": "Ford",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=ford-bronco",
+      "text": "Ford Bronco",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=ford-off-road-trucks",
+      "text": "Ford off-road Trucks",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=ford-innovation",
+      "text": "Ford Innovation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=maserati",
+      "text": "maserati",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=grecale",
+      "text": "grecale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=aston",
+      "text": "aston",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=martin",
+      "text": "martin",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news?search=koenigsegg",
+      "text": "Koenigsegg",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/car-videos/watch/nissan-magnite-review-best-budget-suv-of-2025-14678",
+      "text": "08:22",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/car-videos/watch/nissan-magnite-review-best-budget-suv-of-2025-14678",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/dubai",
+      "text": "Used Cars in Dubai (19,573)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/sharjah",
+      "text": "Used Cars in Sharjah (6,281)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/abu-dhabi",
+      "text": "Used Cars in Abu Dhabi (6,002)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ajman",
+      "text": "Used Cars in Ajman (3,139)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/al-ain",
+      "text": "Used Cars in Al Ain (1,172)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ras-al-khaimah",
+      "text": "Used Cars in Ras Al Khaimah (711)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/fujairah",
+      "text": "Used Cars in Fujairah (367)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/umm-al-quwain",
+      "text": "Used Cars in Umm al Quwain (214)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan",
+      "text": "Used Nissan Cars (6,030)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/toyota",
+      "text": "Used Toyota Cars (4,719)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/mercedes-benz",
+      "text": "Used Mercedes-Benz Cars (2,640)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/hyundai",
+      "text": "Used Hyundai Cars (2,078)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ford",
+      "text": "Used Ford Cars (2,008)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/lexus",
+      "text": "Used Lexus Cars (1,807)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/kia",
+      "text": "Used Kia Cars (1,671)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/mitsubishi",
+      "text": "Used Mitsubishi Cars (1,605)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/bmw",
+      "text": "Used BMW Cars (1,591)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/honda",
+      "text": "Used Honda Cars (1,582)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/chevrolet",
+      "text": "Used Chevrolet Cars (1,214)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/land-rover",
+      "text": "Used Land Rover Cars (881)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/best-off-road-cars-uae-2026-55330",
+      "text": "Best Off-Road Cars in UAE 2026: Top 10 Ranked May 14, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-electric-cars-in-uae-2026-55328",
+      "text": "Cheapest EVs in the UAE 2026: Top Affordable Electric Cars Worth Buying Now May 11, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-new-cars-uae-2026-best-models-under-55000-aed-55326",
+      "text": "Cheapest New Cars in UAE 2026: Top 10 New Models Under AED 55,000 May 11, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/rivian-r2-uae-price-specs-import-guide-55324",
+      "text": "Rivian R2 UAE Guide 2027: Import Price, Real-World Range & GCC Availability May 11, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/cheapest-new-7-seater-cars-uae-2026-family-suvs-under-aed-100000-55322",
+      "text": "Cheapest New 7-Seater Cars in the UAE 2026: 8 Family SUVs Under AED 100,000 Including Outlander, Jetour X70 & Captiva May 10, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/best-used-cars-for-sale-uae-2026-30-reliable-under-50000-aed-55308",
+      "text": "Best Used Cars for Sale in UAE (2026): More Than 30 Reliable Cars Under AED 50,000 May 05, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/car-prices-uae-2026-complete-guide-50-models-all-segments-55306",
+      "text": "Car Prices in UAE (2026): Complete Guide for Over 50 Models in All Segments May 05, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/byd-sealion-7-vs-tesla-model-y-uae-2026-ev-decision-buyers-get-wrong-55300",
+      "text": "BYD Sealion 7 vs Tesla Model Y in the UAE 2026: The EV Decision Most Buyers Get Wrong May 04, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/nissan-patrol-2026-vs-toyota-land-cruiser-2026-aed-300000-desert-king-55298",
+      "text": "Nissan Patrol 2026 vs Toyota Land Cruiser 2026: Which Desert King Earns Your AED 300,000? May 04, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/electric-car-buying-guide-uae-2026-costs-benefits-best-evs-55296",
+      "text": "UAE Electric Car Buying Guide 2026: Should You Buy One & Which EV is Right for You? May 03, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/kicks/2024/used-nissan-kicks-2024-abu-dhabi-2040376",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/kicks/2024/used-nissan-kicks-2024-abu-dhabi-2040376",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/kicks/2024/used-nissan-kicks-2024-abu-dhabi-2040376",
+      "text": "Used Nissan Kicks 2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/altima/2023/used-nissan-altima-2023-abu-dhabi-2040542",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/altima/2023/used-nissan-altima-2023-abu-dhabi-2040542",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/altima/2023/used-nissan-altima-2023-abu-dhabi-2040542",
+      "text": "Used Nissan Altima 2023",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084372",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084372",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084372",
+      "text": "Used Nissan Patrol 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084350",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084350",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/patrol/2025/used-nissan-patrol-2025-abu-dhabi-2084350",
+      "text": "Used Nissan Patrol 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/kicks/2025/used-nissan-kicks-2025-abu-dhabi-2096301",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/kicks/2025/used-nissan-kicks-2025-abu-dhabi-2096301",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/kicks/2025/used-nissan-kicks-2025-abu-dhabi-2096301",
+      "text": "Used Nissan Kicks 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/maxima/2022/used-nissan-maxima-2022-abu-dhabi-2106544",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/maxima/2022/used-nissan-maxima-2022-abu-dhabi-2106544",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/maxima/2022/used-nissan-maxima-2022-abu-dhabi-2106544",
+      "text": "Used Nissan Maxima SR 2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/x-trail/2024/used-nissan-x-trail-2024-abu-dhabi-2105239",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/x-trail/2024/used-nissan-x-trail-2024-abu-dhabi-2105239",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/x-trail/2024/used-nissan-x-trail-2024-abu-dhabi-2105239",
+      "text": "Used Nissan X-Trail 2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/xterra/2025/used-nissan-xterra-2025-abu-dhabi-2106907",
+      "text": "https://uae.yallamotor.com/used-cars/nissan/xterra/2025/used-nissan-xterra-2025-abu-dhabi-2106907",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan/xterra/2025/used-nissan-xterra-2025-abu-dhabi-2106907",
+      "text": "Used Nissan Xterra 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/ariya/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/ariya/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/ariya/2026",
+      "text": "Nissan Ariya 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/magnite/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/magnite/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/magnite/2026",
+      "text": "Nissan Magnite 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/sunny/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/sunny/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/sunny/2026",
+      "text": "Nissan Sunny 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/z/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/z/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/z/2026",
+      "text": "Nissan Z 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/altima/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/altima/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/altima/2026",
+      "text": "Nissan Altima 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/civilian/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/civilian/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/civilian/2026",
+      "text": "Nissan Civilian 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/gt-r/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/gt-r/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/gt-r/2026",
+      "text": "Nissan GT-R 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/juke/2026",
+      "text": "https://uae.yallamotor.com/new-cars/nissan/juke/2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan/juke/2026",
+      "text": "Nissan Juke 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/#navbar",
+      "text": "https://uae.yallamotor.com/#navbar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars",
+      "text": "Used cars in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/dubai",
+      "text": "Used cars in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ajman",
+      "text": "Used cars in Ajman",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/fujairah",
+      "text": "Used cars in Fujairah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/sharjah",
+      "text": "Used cars in Sharjah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ras-al-khaimah",
+      "text": "Used cars in Ras Al Khaimah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/abu-dhabi",
+      "text": "Used cars in Abu Dhabi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/al-ain",
+      "text": "Used cars in Al Ain",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/umm-al-quwain",
+      "text": "Used cars in Umm al Quwain",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/sell-my-car",
+      "text": "Sell used car FREE on Yallamotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/offers",
+      "text": "New cars offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/export",
+      "text": "Car Export",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/car-valuation",
+      "text": "Car Valuation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/YallaMotor",
+      "text": "https://www.facebook.com/YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/YallaMotor",
+      "text": "https://twitter.com/YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/YallaMotor",
+      "text": "https://www.youtube.com/YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/yallamotor",
+      "text": "https://www.linkedin.com/company/yallamotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/YallaMotor",
+      "text": "https://www.instagram.com/YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@YallaMotor",
+      "text": "https://www.tiktok.com/@YallaMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.yallamotor",
+      "text": "https://play.google.com/store/apps/details?id=com.yallamotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://apps.apple.com/app/yallamotor/id123456789",
+      "text": "https://apps.apple.com/app/yallamotor/id123456789",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/toyota",
+      "text": "Used Toyota cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/mercedes-benz",
+      "text": "Used Mercedes-Benz cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/nissan",
+      "text": "Used Nissan cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/lexus",
+      "text": "Used Lexus cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/bmw",
+      "text": "Used BMW cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/ford",
+      "text": "Used Ford cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/land-rover",
+      "text": "Used Land Rover cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/hyundai",
+      "text": "Used Hyundai cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/chevrolet",
+      "text": "Used Chevrolet cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/mitsubishi",
+      "text": "Used Mitsubishi cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/honda",
+      "text": "Used Honda cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/porsche",
+      "text": "Used Porsche cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/kia",
+      "text": "Used Kia cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/auto-companies/search",
+      "text": "Certified car dealers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/mg",
+      "text": "MG",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/jetour",
+      "text": "Jetour",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/geely",
+      "text": "Geely",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/jac",
+      "text": "JAC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/used-cars/byd",
+      "text": "BYD",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/search",
+      "text": "Cars prices in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/toyota",
+      "text": "Toyota",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/nissan",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/kia",
+      "text": "Kia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/mitsubishi",
+      "text": "Mitsubishi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/hyundai",
+      "text": "Hyundai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/honda",
+      "text": "Honda",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/mercedes-benz",
+      "text": "Mercedes-Benz",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/bmw",
+      "text": "BMW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/ford",
+      "text": "Ford",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/new-cars/chevrolet",
+      "text": "Chevrolet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/terms-of-service",
+      "text": "Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news",
+      "text": "Car news",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ksa.yallamotor.com/",
+      "text": "Yallamotor KSA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://egypt.yallamotor.com/",
+      "text": "Yallamotor Egypt",
+      "is_pdf": false
+    },
+    {
+      "url": "https://qatar.yallamotor.com/",
+      "text": "Yallamotor Qatar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://oman.yallamotor.com/",
+      "text": "Yallamotor Oman",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kuwait.yallamotor.com/",
+      "text": "Yallamotor Kuwait",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bahrain.yallamotor.com/",
+      "text": "Yallamotor Bahrain",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.yallamotor.com/ar/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "العربية",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "How can I change my choice?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "What if I don't consent?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "How does legitimate interest work?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "Do I have to consent to everything?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "List of partners.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "View details",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "more",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "Storage details",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+      "text": "Privacy policy",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/logos/ym-colored-logo-en.svg",
+      "alt": "Yalla Motor"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/uae.svg",
+      "alt": "United Arab Emirates"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/ksa.svg",
+      "alt": "Saudia Arabia"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/egypt.svg",
+      "alt": "Egypt"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/qatar.svg",
+      "alt": "Qatar"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/oman.svg",
+      "alt": "Oman"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/kuwait.svg",
+      "alt": "Kuwait"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/bahrain.svg",
+      "alt": "Bahrain"
+    },
+    {
+      "src": "https://ymimg1.b8cdn.com/uploads/flags/32/uae.svg",
+      "alt": "UAE"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Ficon.png&w=64&q=75",
+      "alt": "Author avatar"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F53609%2Flogo_file_name%2Fwebp_listing_main_Picsart_25-05-14_23-11-58-813.webp&w=1920&q=75",
+      "alt": "Vehicle Report Launches Japanese Car History Checks to Protect UAE Buyers"
+    },
+    {
+      "src": "https://yallamotor-production-assets.s3.ap-south-1.amazonaws.com/uploads/articles/f2c91fd8-7748-4765-97e2-b4f09b73a6ec.webp",
+      "alt": "Vehicle Report Launches Japanese Car History Checks"
+    },
+    {
+      "src": "https://yallamotor-production-assets.s3.ap-south-1.amazonaws.com/uploads/articles/65208f71-1453-4b38-a7bb-c725eeeb5c96.webp",
+      "alt": "Vehicle Report Launches Japanese Car History Checks"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fuploads%2Flogos%2Fym-white-logo-en.png&w=384&q=75",
+      "alt": "YallaMotor"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55330%2Flogo_file_name%2Fwebp_mobile_listing_main_ABI02758.webp&w=256&q=75",
+      "alt": "Best Off-Road Cars in UAE 2026: Top 10 Ranked"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55328%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-evs-for-sale-in-uae-2.webp&w=256&q=75",
+      "alt": "Cheapest EVs in the UAE 2026: Top Affordable Electric Cars Worth Buying Now"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55326%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-new-cars-uae-2026-best-models-under-55000-aed.webp&w=256&q=75",
+      "alt": "Cheapest New Cars in UAE 2026: Top 10 New Models Under AED 55,000"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55324%2Flogo_file_name%2Fwebp_mobile_listing_main_1776757125324_0.webp&w=256&q=75",
+      "alt": "Rivian R2 UAE Guide 2027: Import Price, Real-World Range & GCC Availability"
+    },
+    {
+      "src": "https://img.youtube.com/vi/MKmsmlZ-rJ4/hqdefault.jpg",
+      "alt": "Nissan Magnite Review: Best Budget SUV of 2025?"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55330%2Flogo_file_name%2Fwebp_mobile_listing_main_ABI02758.webp&w=1920&q=75",
+      "alt": "Best Off-Road Cars in UAE 2026: Top 10 Ranked"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55328%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-evs-for-sale-in-uae-2.webp&w=1920&q=75",
+      "alt": "Cheapest EVs in the UAE 2026: Top Affordable Electric Cars Worth Buying Now"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55326%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-new-cars-uae-2026-best-models-under-55000-aed.webp&w=1920&q=75",
+      "alt": "Cheapest New Cars in UAE 2026: Top 10 New Models Under AED 55,000"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55324%2Flogo_file_name%2Fwebp_mobile_listing_main_1776757125324_0.webp&w=1920&q=75",
+      "alt": "Rivian R2 UAE Guide 2027: Import Price, Real-World Range & GCC Availability"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55322%2Flogo_file_name%2Fwebp_mobile_listing_main_cheapest-new-7-seater-cars-uae-2026-family-suvs-under-aed-100000.webp&w=1920&q=75",
+      "alt": "Cheapest New 7-Seater Cars in the UAE 2026: 8 Family SUVs Under AED 100,000 Including Outlander, Jetour X70 & Captiva"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55308%2Flogo_file_name%2Fwebp_mobile_listing_main_best-used-cars-for-sale-uae-2026-30-reliable-under-50000-aed.webp&w=1920&q=75",
+      "alt": "Best Used Cars for Sale in UAE (2026): More Than 30 Reliable Cars Under AED 50,000"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55306%2Flogo_file_name%2Fwebp_mobile_listing_main_car-prices-uae-2026-complete-guide-50-models-all-segments.webp&w=1920&q=75",
+      "alt": "Car Prices in UAE (2026): Complete Guide for Over 50 Models in All Segments"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55300%2Flogo_file_name%2Fwebp_mobile_listing_main_Tesla-v-BYD__1_.webp&w=1920&q=75",
+      "alt": "BYD Sealion 7 vs Tesla Model Y in the UAE 2026: The EV Decision Most Buyers Get Wrong"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55298%2Flogo_file_name%2Fwebp_mobile_listing_main_hq720__1_.webp&w=1920&q=75",
+      "alt": "Nissan Patrol 2026 vs Toyota Land Cruiser 2026: Which Desert King Earns Your AED 300,000?"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Farticle%2F55296%2Flogo_file_name%2Fwebp_mobile_listing_main_Tesla_Model_Y_2.webp&w=1920&q=75",
+      "alt": "UAE Electric Car Buying Guide 2026: Should You Buy One & Which EV is Right for You?"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2025%2F8%2F8%2F2040376%2Fpictures%2F15610700%2Fwebp_listing_main_3N1CP5CP2RL478759_5481301_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Kicks 2024 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2025%2F8%2F18%2F2040542%2Fpictures%2F15639133%2Fwebp_listing_main_1N4AL4AP3PN363622_5232221_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Altima 2023 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F1%2F21%2F2084372%2Fpictures%2F16162281%2Fwebp_listing_main_JN8BY3NY8S9008903_6382871_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Patrol 2025 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F2%2F18%2F2084350%2Fpictures%2F16252862%2Fwebp_listing_main_JN8BY3NYXS9007803_6382621_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Patrol 2025 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F3%2F16%2F2096301%2Fpictures%2F16428856%2Fwebp_listing_main_3N8AP6EF5SL330453_5902491_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Kicks 2025 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F4%2F27%2F2106544%2Fpictures%2F16633681%2Fwebp_listing_main_1N4AA6AP4NC509049_5010221_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Maxima SR 2022 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F4%2F23%2F2105239%2Fpictures%2F16620314%2Fwebp_listing_main_JN8AT3MM2RW011719_5543901_1.webp&w=1920&q=75",
+      "alt": "Used Nissan X-Trail 2024 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fused_car%2F2026%2F5%2F5%2F2106907%2Fpictures%2F16686786%2Fwebp_listing_main_MNTAD3N64S6008943_6021561_1.webp&w=1920&q=75",
+      "alt": "Used Nissan Xterra 2025 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12111%2Fpictures%2F15969845%2Fwebp_mobile_listing_main_01.webp&w=1920&q=75",
+      "alt": "Nissan Ariya 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12712%2Fpictures%2F15980802%2Fwebp_mobile_listing_main_nissan-magnite-color-680410.webp&w=1920&q=75",
+      "alt": "Nissan Magnite 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12996%2Fpictures%2F15986492%2Fwebp_mobile_listing_main_2024-Nissan-SUNNY-Exterior-1.webp&w=1920&q=75",
+      "alt": "Nissan Sunny 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F13219%2Fpictures%2F15990798%2Fwebp_mobile_listing_main_01.webp&w=1920&q=75",
+      "alt": "Nissan Z 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12102%2Flogo%2Fwebp_mobile_listing_main_2023_Nissan_Altima_Exterior_01.webp&w=1920&q=75",
+      "alt": "Nissan Altima 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12246%2Fpictures%2F15972292%2Fwebp_mobile_listing_main_2018_Nissan_Civilian__1_.webp&w=1920&q=75",
+      "alt": "Nissan Civilian 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12542%2Flogo%2Fwebp_mobile_listing_main_01.webp&w=1920&q=75",
+      "alt": "Nissan GT-R 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fresized%2Fcar_model%2F12622%2Flogo%2Fwebp_mobile_listing_main_download.webp&w=1920&q=75",
+      "alt": "Nissan Juke 2026 used_cars.forSale"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fuploads%2Flogos%2Fym-white-logo-en.png&w=1920&q=75",
+      "alt": "Yalla Motor"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=%2Fimages%2Fgoogle_play.png&w=256&q=75",
+      "alt": "Google Play"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=%2Fimages%2Fapp_store.webp&w=256&q=75",
+      "alt": "App Store"
+    },
+    {
+      "src": "https://www.yallamotor.com/_next/image?url=https%3A%2F%2Fymimg1.b8cdn.com%2Fuploads%2Flogos%2Fym-white-logo-en.png&w=384&q=75",
+      "alt": "Yalla Motor"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=468457330202038&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/BjQ6HhxnluLPfqITrKlBvSNWQizl0nZ3DMA4eHTgQ-56faIx7svFc_tcCrA8In672YU12w6L_9rStGGMxAaEufZSVdiKIx1ENKfKlUlJ5MF3uawhzG9w=h60",
+      "alt": "Welcome to YallaMotor"
+    }
+  ],
+  "visible_dates": [
+    "updated with reviews from experts."
+  ],
+  "static_fetch": {
+    "status_code": 403,
+    "final_url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+    "error": null,
+    "blocked": true,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+    "title": "Japanese Used Car History Checks in UAE: Why Vehicle Report is Essential | YallaMotor",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:11:08.675464+00:00",
+  "source_meta": {
+    "title": "Japanese Used Car History Checks in UAE: Why Vehicle Report is Essential",
+    "url": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+    "source_name": "YallaMotor",
+    "source_domain": "www.yallamotor.com",
+    "source_type": "marketplace_listing",
+    "snippet": "Unscrupulous exporters and sellers frequently conceal accident histories or digitally roll back odometers before vehicles enter th...",
+    "citation_count": 1,
+    "first_cited_position": 6,
+    "answer_support_weight": 2,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

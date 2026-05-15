@@ -1,0 +1,1174 @@
+{
+  "url": "https://note.com/teacher_gemini/n/ncea7198361c0",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 17614,
+    "wordish_count": 2975,
+    "heading_count": 8,
+    "bullet_count": 61,
+    "link_count": 66,
+    "image_count": 5,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 68,
+    "numeric_fact_count": 268,
+    "question_count": 16,
+    "unique_line_count": 296,
+    "numeric_facts_sample": [
+      "1",
+      "2025年",
+      "07",
+      "28",
+      "1000",
+      "1.1",
+      "1,000,000",
+      "2,000,000",
+      "1,500,000",
+      "2,500,000",
+      "1.2",
+      "2019",
+      "2%",
+      "3%",
+      "1.3",
+      "7,000",
+      "15,000",
+      "10,000",
+      "20,000",
+      "1.4",
+      "1.5",
+      "2,500",
+      "3,000",
+      "1.6",
+      "100,000"
+    ],
+    "links_sample": [
+      "https://assets.st-note.com/production/uploads/images/195466061/rectangle_large_type_2_c16b0e76de24c0883256d019c5e67dfd.png?width=1280",
+      "https://assets.st-note.com/img/1749622825-17VzQujtTnLxdo5qU3NBlIcb.png?width=1200",
+      "https://assets.st-note.com/production/uploads/images/193642994/square_middle_17b7ce2fd1d4b1a9501eca6fae7f98cf.png?width=80&height=56&fit=crop&dpr=2&frame=1",
+      "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png?width=32&dpr=2",
+      "https://assets.st-note.com/production/uploads/images/178761375/profile_b04698f2281c0491fde3d95f02e5e86b.png?fit=bounds&format=jpeg&quality=85&width=330",
+      "https://note.com/",
+      "https://note.com/signup",
+      "https://note.com/login?redirectPath=https%3A%2F%2Fnote.com%2Fteacher_gemini%2Fn%2Fncea7198361c0",
+      "https://note.com/teacher_gemini",
+      "https://note.com/hashtag/car",
+      "https://note.com/hashtag/information",
+      "https://note.com/hashtag/foreigner",
+      "https://note.com/hashtag/useful",
+      "https://note.com/hashtag/Buying",
+      "https://note.com/hashtag/notification",
+      "https://note.com/teacher_gemini/n/n75a4e7036b82",
+      "https://note.com/carol_lawrence",
+      "https://note.com/hisshi97",
+      "https://note.com/yumetsukisakura",
+      "https://note.com/japongo",
+      "https://note.com/hillside_auto",
+      "https://note.com/fond_gibbon9326",
+      "https://note.com/mybiyori",
+      "https://note.com/eureka_fumi023",
+      "https://note.com/machiya_toko"
+    ],
+    "image_alt_count": 7
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "Organization",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2025年6月2",
+      "2025年10月3"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": false,
+    "nav_noise_terms": 2,
+    "content_terms": 184,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 40,
+    "main_chars": 11750,
+    "footer_chars": 103,
+    "tables_chars": 0,
+    "metadata_chars": 526,
+    "full_markdown_chars": 17614
+  },
+  "metadata": {
+    "title": "Buying a Car in Japan? What are the Costs?｜Yosh",
+    "description": "【For Foreign Residents】Buying a Car in Japan? What are the Costs? A Detailed Comparison of Kei Cars and Compact Cars! \"I want to buy a car in Japan, but how much will it actually cost...?\" Do you have that question? When buying a car in Japan, various costs arise beyond just the vehicle's pric",
+    "language": "ja-JP",
+    "sourceURL": "https://note.com/teacher_gemini/n/ncea7198361c0",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://note.com/teacher_gemini/n/ncea7198361c0",
+    "robots": "max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "BlogPosting",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "Organization",
+      "ListItem"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://note.com/",
+      "text": "https://note.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/signup",
+      "text": "投稿",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/login?redirectPath=https%3A%2F%2Fnote.com%2Fteacher_gemini%2Fn%2Fncea7198361c0",
+      "text": "ログイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/signup",
+      "text": "会員登録",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/production/uploads/images/195466061/rectangle_large_type_2_c16b0e76de24c0883256d019c5e67dfd.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/production/uploads/images/195466061/rectangle_large_type_2_c16b0e76de24c0883256d019c5e67dfd.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini",
+      "text": "Yosh",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749622825-17VzQujtTnLxdo5qU3NBlIcb.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749622825-17VzQujtTnLxdo5qU3NBlIcb.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749624575-yP4CSu63GnBgYcarA58IxXTm.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749624575-yP4CSu63GnBgYcarA58IxXTm.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749623821-kLPF5SzZiBYwv7InCG1cQXtg.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749623821-kLPF5SzZiBYwv7InCG1cQXtg.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749623848-F4cQHZkCfLe9B7VGP5Ky6xlz.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749623848-F4cQHZkCfLe9B7VGP5Ky6xlz.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749623937-gTWe6lEUz9wNFKup75GVrcJZ.png?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749623937-gTWe6lEUz9wNFKup75GVrcJZ.png?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749622694-e0sSTvoUAqY8hMt4Df2PVRZF.jpg?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749622694-e0sSTvoUAqY8hMt4Df2PVRZF.jpg?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://assets.st-note.com/img/1749623672-UEPNOLHwlpiuQfeh1x8Vm2RW.jpg?width=2000&height=2000&fit=bounds&quality=85",
+      "text": "https://assets.st-note.com/img/1749623672-UEPNOLHwlpiuQfeh1x8Vm2RW.jpg?width=2000&height=2000&fit=bounds&quality=85",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/car",
+      "text": "#car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/information",
+      "text": "#information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/foreigner",
+      "text": "#foreigner",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/useful",
+      "text": "#useful",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/Buying",
+      "text": "#Buying",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hashtag/notification",
+      "text": "#notification",
+      "is_pdf": false
+    },
+    {
+      "url": "https://x.com/yosh55258",
+      "text": "https://x.com/yosh55258",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/rss",
+      "text": "https://note.com/teacher_gemini/rss",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/n/n297c0046d630",
+      "text": "https://note.com/teacher_gemini/n/n297c0046d630",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/n/na5abf9231672",
+      "text": "https://note.com/teacher_gemini/n/na5abf9231672",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/n/nf8c8dee84e6a",
+      "text": "https://note.com/teacher_gemini/n/nf8c8dee84e6a",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/n/n75a4e7036b82",
+      "text": "前の記事 #AIとやってみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/carol_lawrence",
+      "text": "https://note.com/carol_lawrence",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/carol_lawrence",
+      "text": "Carol Lawrence",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autobidmaster.com/en/search/salvage-motorcycles/",
+      "text": "https://www.autobidmaster.com/en/search/salvage-motorcycles/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/login?redirectPath=%2Fteacher_gemini%2Fn%2Fncea7198361c0",
+      "text": "ログイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/signup?redirectPath=%2Fteacher_gemini%2Fn%2Fncea7198361c0",
+      "text": "会員登録",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hisshi97/n/n646180ace310",
+      "text": "https://note.com/hisshi97/n/n646180ace310",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hisshi97",
+      "text": "Hisashi | カナダ在住2年目",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yumetsukisakura/n/n11f87b319f74",
+      "text": "https://note.com/yumetsukisakura/n/n11f87b319f74",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yumetsukisakura",
+      "text": "夢月さくら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/japongo/n/n5d19d65bc566",
+      "text": "https://note.com/japongo/n/n5d19d65bc566",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/japongo",
+      "text": "Japón Go",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hillside_auto/n/n8ece382d953e",
+      "text": "https://note.com/hillside_auto/n/n8ece382d953e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hillside_auto",
+      "text": "Japan Cheat Code",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fond_gibbon9326/n/n03d158ccf333",
+      "text": "https://note.com/fond_gibbon9326/n/n03d158ccf333",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fond_gibbon9326",
+      "text": "○",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/mybiyori/n/n244160615f5e",
+      "text": "https://note.com/mybiyori/n/n244160615f5e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/mybiyori",
+      "text": "マレーシア日和",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/eureka_fumi023/n/n65e8326943fc",
+      "text": "https://note.com/eureka_fumi023/n/n65e8326943fc",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/eureka_fumi023",
+      "text": "fumi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/machiya_toko/n/n4d1bb830751b",
+      "text": "https://note.com/machiya_toko/n/n4d1bb830751b",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/machiya_toko",
+      "text": "町谷東光",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/meteor_garage/n/n3f6f21a6292a",
+      "text": "https://note.com/meteor_garage/n/n3f6f21a6292a",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/meteor_garage",
+      "text": "コラッペン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yuki_kurashi0307/n/nb151b16645bc",
+      "text": "https://note.com/yuki_kurashi0307/n/nb151b16645bc",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yuki_kurashi0307",
+      "text": "ゆき｜33歳、暮らしを整えたら人生変わった",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/grand_ibis2827/n/nd579543bf7d1",
+      "text": "https://note.com/grand_ibis2827/n/nd579543bf7d1",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/grand_ibis2827",
+      "text": "Arealty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/jolly_eider1310/n/naf6598449fc2",
+      "text": "https://note.com/jolly_eider1310/n/naf6598449fc2",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/jolly_eider1310",
+      "text": "bit",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/dandy_dunlin6590/n/n3672d329eadc",
+      "text": "https://note.com/dandy_dunlin6590/n/n3672d329eadc",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/dandy_dunlin6590",
+      "text": "ガチャネコ@エッセイ＆メルカリ出品中@浮雲連（うきぐもれん）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/icequeen1983/n/n641c8fff0596",
+      "text": "https://note.com/icequeen1983/n/n641c8fff0596",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/icequeen1983",
+      "text": "氷の女王",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/lastupdate/n/n77c06028a1ff",
+      "text": "https://note.com/lastupdate/n/n77c06028a1ff",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/lastupdate",
+      "text": "●-●",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kiko_kobayashi/n/n21d8fff1cde7",
+      "text": "https://note.com/kiko_kobayashi/n/n21d8fff1cde7",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kiko_kobayashi",
+      "text": "Kiko Kobayashi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rc_design_lab/n/nf2036334c6a4",
+      "text": "https://note.com/rc_design_lab/n/nf2036334c6a4",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rc_design_lab",
+      "text": "生活設計室",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fine_bear268/n/nb2566a566138",
+      "text": "https://note.com/fine_bear268/n/nb2566a566138",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fine_bear268",
+      "text": "ひるかわつばさ@まごころ投資教室",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/manaviva_web/n/n19741f3dc7b9",
+      "text": "https://note.com/manaviva_web/n/n19741f3dc7b9",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/manaviva_web",
+      "text": "manaviva",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/dadagaga/n/n65fdd94b9dec",
+      "text": "https://note.com/dadagaga/n/n65fdd94b9dec",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/dadagaga",
+      "text": "かんたん",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/naoki919/n/n32cb763cdbeb",
+      "text": "https://note.com/naoki919/n/n32cb763cdbeb",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/naoki919",
+      "text": "Monkuchi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kutsurogitai/n/n65488b520335",
+      "text": "https://note.com/kutsurogitai/n/n65488b520335",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kutsurogitai",
+      "text": "駆け出しシニアの宝箱",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/jacky_ken_47/n/nd22b3293f2b3",
+      "text": "https://note.com/jacky_ken_47/n/nd22b3293f2b3",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/jacky_ken_47",
+      "text": "Jacky Ken NZ🇳🇿",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teskun_no_papa/n/nefd8bfde587f",
+      "text": "https://note.com/teskun_no_papa/n/nefd8bfde587f",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teskun_no_papa",
+      "text": "テス君のパパ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/ilovemyanmar/n/n00210424bc05",
+      "text": "https://note.com/ilovemyanmar/n/n00210424bc05",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/ilovemyanmar",
+      "text": "Shiori🇦🇺オーストラリアワーホリ28歳",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fpg08/n/n2f440542f050",
+      "text": "https://note.com/fpg08/n/n2f440542f050",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/fpg08",
+      "text": "グリーン｜CFP・FP1級",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rapid_ivy1376/n/n1623c76760e6",
+      "text": "https://note.com/rapid_ivy1376/n/n1623c76760e6",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rapid_ivy1376",
+      "text": "EVアナリスト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/ren_lqwc/n/n0d1e90d14042",
+      "text": "https://note.com/ren_lqwc/n/n0d1e90d14042",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/ren_lqwc",
+      "text": "REN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yacchan233/n/n2e3d3b7cee91",
+      "text": "https://note.com/yacchan233/n/n2e3d3b7cee91",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/yacchan233",
+      "text": "Yasuo Maruta",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/tomimasu/n/n164b002aeb0f",
+      "text": "https://note.com/tomimasu/n/n164b002aeb0f",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/tomimasu",
+      "text": "トミマス｜投資と創作",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/cheeky_violet605/n/nab38f942aa78",
+      "text": "https://note.com/cheeky_violet605/n/nab38f942aa78",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/cheeky_violet605",
+      "text": "お金の教科書",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rapid_ibis7559/n/n6c4d8498f036",
+      "text": "https://note.com/rapid_ibis7559/n/n6c4d8498f036",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/rapid_ibis7559",
+      "text": "ファイト25",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kashinushibukken/n/n0e2d9ef43569",
+      "text": "https://note.com/kashinushibukken/n/n0e2d9ef43569",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/kashinushibukken",
+      "text": "貸主物件.com FIRE管理人のコラム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hana_427/n/ne99e29e4b537",
+      "text": "https://note.com/hana_427/n/ne99e29e4b537",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/hana_427",
+      "text": "のんびりさん｜育児しながら駐妻キャリコン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/xplane/n/n0a237a80f380",
+      "text": "https://note.com/xplane/n/n0a237a80f380",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/xplane",
+      "text": "XPLANE –海外大学院留学支援コミュニティ–",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/easy_quail3567/n/n8c71119494e7",
+      "text": "https://note.com/easy_quail3567/n/n8c71119494e7",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/easy_quail3567",
+      "text": "1961つぶやき",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini",
+      "text": "https://note.com/teacher_gemini",
+      "is_pdf": false
+    },
+    {
+      "url": "https://premium.lp-note.com",
+      "text": "noteプレミアム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://pro.lp-note.com/?utm_source=notecom&utm_medium=footer",
+      "text": "note pro",
+      "is_pdf": false
+    },
+    {
+      "url": "https://help-note.com/hc/ja",
+      "text": "ヘルプ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://terms.help-note.com/hc/ja/articles/44948981050649",
+      "text": "プライバシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/message",
+      "text": "クリエイターへのお問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://help-note.com/hc/ja/requests/new?ticket_form_id=360000081181",
+      "text": "フィードバック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://terms.help-note.com/hc/ja/articles/44943817565465",
+      "text": "ご利用規約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/terms/paid_point",
+      "text": "通常ポイント利用特約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/terms/seller_creators",
+      "text": "加盟店規約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/terms/payment_service_act",
+      "text": "資金決済法に基づく表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/teacher_gemini/terms/specified",
+      "text": "特商法表記",
+      "is_pdf": false
+    },
+    {
+      "url": "https://note.com/terms/investment_disclaimer",
+      "text": "投資情報の免責事項",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/195466061/rectangle_large_type_2_c16b0e76de24c0883256d019c5e67dfd.png?width=1280",
+      "alt": "見出し画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749622825-17VzQujtTnLxdo5qU3NBlIcb.png?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749624575-yP4CSu63GnBgYcarA58IxXTm.png?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749623821-kLPF5SzZiBYwv7InCG1cQXtg.png?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749623848-F4cQHZkCfLe9B7VGP5Ky6xlz.png?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749623937-gTWe6lEUz9wNFKup75GVrcJZ.png?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749622694-e0sSTvoUAqY8hMt4Df2PVRZF.jpg?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/img/1749623672-UEPNOLHwlpiuQfeh1x8Vm2RW.jpg?width=1200",
+      "alt": "画像"
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/193642994/square_middle_17b7ce2fd1d4b1a9501eca6fae7f98cf.png?width=80&height=56&fit=crop&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/179790334/square_middle_4dad7543fa68f6853d56556150f603d9.jpeg?width=80&height=56&fit=crop&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/179871671/square_middle_361575fa4c0b6f7fff44310260f35bbd.jpeg?width=80&height=56&fit=crop&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_2-5375e0fe14f8f6451ac8859ef34c1b34d978cfaec6bf1222d0655ad5412d97f6.png?width=32&dpr=2",
+      "alt": "Carol Lawrence"
+    },
+    {
+      "src": "data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20100%20100%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22a%22%3E%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23f7f9f9%22%2F%3E%3Cstop%20offset%3D%2233%25%22%20stop-color%3D%22%23f7f9f9%22%2F%3E%3Cstop%20offset%3D%2250%25%22%20stop-color%3D%22%23fff%22%2F%3E%3Cstop%20offset%3D%2267%25%22%20stop-color%3D%22%23f7f9f9%22%2F%3E%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23f7f9f9%22%2F%3E%3CanimateTransform%20attributeName%3D%22gradientTransform%22%20type%3D%22translate%22%20from%3D%22-1%200%22%20to%3D%221%200%22%20begin%3D%220s%22%20dur%3D%221.5s%22%20repeatCount%3D%22indefinite%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Cpath%20class%3D%22rect%22%20fill%3D%22url(%23a)%22%20d%3D%22M-100-100h300v300h-300z%22%2F%3E%3C%2Fsvg%3E",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/265154474/rectangle_large_type_2_ecd45ea311dee9a29b4f780e49dac3a8.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/257027811/rectangle_large_type_2_f49de96d4ccda76a76b6af9a8e0906bc.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI2NzAiIHZpZXdCb3g9IjAgMCAxMjgwIDY3MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4MV8zMjQpIj4KPHBhdGggZD0iTTAgMEgxMjgwVjY3MEgwVjBaIiBmaWxsPSIjRjVGOEZBIi8+CjxwYXRoIGQ9Ik02OTUuMyAyODMuMUg3MTkuOFYzMDkuNEg3NDVWMzMyLjRINzE5LjhWMzU5LjdINjk1LjNWMzMyLjRINjcwLjFWMzA5LjRINjk1LjNWMjgzLjFaIiBmaWxsPSIjREZFMkU0Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNTM2LjggMzM5LjFDNTM2LjggMzEzIDU1Ny45IDI5MS44IDU4My44IDI5MS44QzYwOS43IDI5MS44IDYzMC44IDMxMyA2MzAuOCAzMzkuMUM2MzAuOCAzNjUuMiA2MDkuNyAzODYuNCA1ODMuOCAzODYuNEM1NTcuOSAzODYuNCA1MzYuOCAzNjUuMiA1MzYuOCAzMzkuMVpNNTU5LjIgMzM5QzU1OS4yIDM1Mi43IDU3MC4yIDM2My44IDU4My44IDM2My44QzU5Ny40IDM2My44IDYwOC40IDM1Mi44IDYwOC40IDMzOUM2MDguNCAzMjUuMyA1OTcuNCAzMTQuMiA1ODMuOCAzMTQuMkM1NzAuMiAzMTQuMiA1NTkuMiAzMjUuMyA1NTkuMiAzMzlaIiBmaWxsPSIjREZFMkU0Ii8+CjxwYXRoIGQ9Ik00MjQuNzk0IDI5Mi4yOTNDNDM3Ljk0MSAyOTIuMDQ4IDQ1MS42MTIgMjkxLjc5NSA0NjIuNiAyOTIuMUM0ODYuOCAyOTIuNyA0OTUuOSAzMDMuMiA0OTYuMyAzMjkuM0M0OTYuNiAzNDQgNDk2LjMgMzg2LjIgNDk2LjMgMzg2LjJINDcwLjFDNDcwLjEgMzcwLjUzOCA0NzAuMTM2IDM2MC40MjUgNDcwLjE2MiAzNTMuMDg1VjM1My4wNjhDNDcwLjE5OCAzNDMuMTI1IDQ3MC4yMTUgMzM4LjI3MyA0NzAuMSAzMzEuNkM0NjkuOCAzMjEuNCA0NjYuOSAzMTYuNSA0NTkgMzE1LjZDNDUwLjYgMzE0LjYgNDI3LjMgMzE1LjQgNDI3LjMgMzE1LjRWMzg2LjJINDAxLjFWMjkyLjZDNDA4LjIyNyAyOTIuNiA0MTYuNDAxIDI5Mi40NDggNDI0Ljc4OSAyOTIuMjkzTDQyNC43OTQgMjkyLjI5M1oiIGZpbGw9IiNERkUyRTQiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04NzguNCAzMzkuMUM4NzguNCAzMTMgODU3LjMgMjkxLjggODMxLjQgMjkxLjhDODA1LjUgMjkxLjggNzg0LjQgMzEzIDc4NC40IDMzOS4xQzc4NC40IDM1NC40IDc5MS40IDM2Ny41IDgwMi4zIDM3Ni4yQzgwOS45IDM4Mi4yIDgyMC41IDM4Ni40IDgzNC43IDM4Ni40Qzg0MS42IDM4Ni40IDg1OS41IDM4NC41IDg3Mi40IDM3MC4yTDg2MS44IDM1NkM4NTcuMyAzNjAgODQ2IDM2NS42IDgzNyAzNjUuNkM4MjUuNiAzNjUuNiA4MTguNyAzNjMuNCA4MTMuNyAzNTguN0M4MTAuNiAzNTUuOSA4MDguNCAzNTEuNiA4MDcuNCAzNDYuM0g4NzcuN0M4NzguMSAzNDMuOSA4NzguNCAzNDEuNiA4NzguNCAzMzkuMVpNODA3LjYgMzMwLjVDODEwLjIgMzE5LjQgODE4IDMxMS4yIDgzMS4zIDMxMS4yQzg0NS4yIDMxMS4yIDg1Mi41IDMyMCA4NTQuOSAzMzAuNUg4MDcuNloiIGZpbGw9IiNERkUyRTQiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xODFfMzI0Ij4KPHJlY3Qgd2lkdGg9IjEyODAiIGhlaWdodD0iNjcwIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/264457900/rectangle_large_type_2_9b346686549eab2260988934bb2d93c4.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/259008981/rectangle_large_type_2_70f103fd94e7a492d5e6b09388996b0a.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1778055615-dRIKYw5A1CFSvDqHNVkum8B6.jpg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/275972086/rectangle_large_type_2_e7b06205c35929d486187f72d50be7e6.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273666369/rectangle_large_type_2_51588b5d0f1ca91d2392afeaf0e4fff0.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/270311695/rectangle_large_type_2_2be3248067266f6d1f2550d9cfefb87d.jpg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/261364883/rectangle_large_type_2_cf2c5bb3026f3d2bdbe1320ef46d2c6f.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/269447827/rectangle_large_type_2_f42513eff0c5edca1ee6d7b5642a451f.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/255494800/rectangle_large_type_2_9acc0e04e48b70fea3f19ddce3fada1f.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273043978/rectangle_large_type_2_d9275bb5b8c5a84a4dacfed683816da0.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1772175882-ZROCEoP4Wru6cDK8HMlYjeq1.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272028244/rectangle_large_type_2_cbaa440f0e652c029079ae8fa51026ba.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256583227/rectangle_large_type_2_a4e5d8031a51a6ec58f72abf91abfc99.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272412417/rectangle_large_type_2_d8f903651e7b3e7b9aa18f292df913f4.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/271755535/rectangle_large_type_2_3be9f59dc6ee7e4bcabd78b0a91a3490.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/255068780/rectangle_large_type_2_99c6de1201c5e6cb46bcc1e91c4763cd.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256981551/rectangle_large_type_2_3782b5f03626f14735425e9eb57d7c32.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273852513/rectangle_large_type_2_2edf3d163d6cf93dcba0b392cd9db7d2.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/268144297/rectangle_large_type_2_e5fbd9aa2bf1c4c763553722ee8aac4f.jpg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1778648998-RUVoY26WwxNbGHvLsZMd5e3i.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256093493/rectangle_large_type_2_0038badee1e166d426f9dedc06b2bd3c.jpg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/267739623/rectangle_large_type_2_9ef508b013a1c6d68708ededc074218c.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/268284289/rectangle_large_type_2_07f7d980fc511caa68d2a3f6f6c76e54.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/257036361/rectangle_large_type_2_094276fe964c8d8b12b99858086e28e9.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274432293/rectangle_large_type_2_6c37002e82697fc7a8f90f6f379dcceb.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274319653/rectangle_large_type_2_d5ac43a1478af36308db2612f699f165.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256765347/rectangle_large_type_2_15393c5693dbb803093ccd06d032bcb9.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272611984/rectangle_large_type_2_6cfca6cd1aa5ed0d2e6d730003811a83.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274849665/rectangle_large_type_2_2545f0b958a7431de07be1daef8ceba8.png?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/246400619/rectangle_large_type_2_aefddd277c4b31fbb39bd6035b323947.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272284548/rectangle_large_type_2_ed1cfc42b2307c74b295513800794465.jpeg?width=108&dpr=2&frame=1",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/265154474/rectangle_large_type_2_ecd45ea311dee9a29b4f780e49dac3a8.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/224473837/profile_0b56dfdae73267754ad182a4ad2f89a7.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/257027811/rectangle_large_type_2_f49de96d4ccda76a76b6af9a8e0906bc.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/167586791/profile_130d4743523437e01779e7791b6f5a8b.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/249661803/profile_3fa4bbe833a42faaf18258672e78a9aa.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/264457900/rectangle_large_type_2_9b346686549eab2260988934bb2d93c4.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/261473153/profile_3f1e18469b296a447b3d7f6779a1368e.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/259008981/rectangle_large_type_2_70f103fd94e7a492d5e6b09388996b0a.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_1-9b784003abbac36db44620c7f48629787caea4d53ae4e4f1b710aed18e204e23.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1778055615-dRIKYw5A1CFSvDqHNVkum8B6.jpg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/242096864/profile_71b65670d3944b8fb439da04f4d7a162.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/275972086/rectangle_large_type_2_e7b06205c35929d486187f72d50be7e6.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/198916828/profile_42aaa5569689589d59508c600d68ebc9.jpg?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273666369/rectangle_large_type_2_51588b5d0f1ca91d2392afeaf0e4fff0.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/44697505/profile_3e84195448f2939ab33fe6f10be93a5b.jpg?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/270311695/rectangle_large_type_2_2be3248067266f6d1f2550d9cfefb87d.jpg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/240614537/profile_4635731efc1b36288ded718e968ec315.jpg?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/261364883/rectangle_large_type_2_cf2c5bb3026f3d2bdbe1320ef46d2c6f.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/260223329/profile_293920c71151de9de9e3a07953864ef1.jpg?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/269447827/rectangle_large_type_2_f42513eff0c5edca1ee6d7b5642a451f.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://d2l930y2yx77uc.cloudfront.net/assets/default/default_profile_5-043439195e40e86fd7641a3a1daf982637d77ec6f14b67d3fc98ab92374404ac.png?width=18&dpr=2",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/255494800/rectangle_large_type_2_9acc0e04e48b70fea3f19ddce3fada1f.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273043978/rectangle_large_type_2_d9275bb5b8c5a84a4dacfed683816da0.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1772175882-ZROCEoP4Wru6cDK8HMlYjeq1.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272028244/rectangle_large_type_2_cbaa440f0e652c029079ae8fa51026ba.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256583227/rectangle_large_type_2_a4e5d8031a51a6ec58f72abf91abfc99.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272412417/rectangle_large_type_2_d8f903651e7b3e7b9aa18f292df913f4.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/271755535/rectangle_large_type_2_3be9f59dc6ee7e4bcabd78b0a91a3490.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/255068780/rectangle_large_type_2_99c6de1201c5e6cb46bcc1e91c4763cd.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256981551/rectangle_large_type_2_3782b5f03626f14735425e9eb57d7c32.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/273852513/rectangle_large_type_2_2edf3d163d6cf93dcba0b392cd9db7d2.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/268144297/rectangle_large_type_2_e5fbd9aa2bf1c4c763553722ee8aac4f.jpg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/img/1778648998-RUVoY26WwxNbGHvLsZMd5e3i.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256093493/rectangle_large_type_2_0038badee1e166d426f9dedc06b2bd3c.jpg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/267739623/rectangle_large_type_2_9ef508b013a1c6d68708ededc074218c.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/268284289/rectangle_large_type_2_07f7d980fc511caa68d2a3f6f6c76e54.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/257036361/rectangle_large_type_2_094276fe964c8d8b12b99858086e28e9.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274432293/rectangle_large_type_2_6c37002e82697fc7a8f90f6f379dcceb.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274319653/rectangle_large_type_2_d5ac43a1478af36308db2612f699f165.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/256765347/rectangle_large_type_2_15393c5693dbb803093ccd06d032bcb9.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272611984/rectangle_large_type_2_6cfca6cd1aa5ed0d2e6d730003811a83.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/274849665/rectangle_large_type_2_2545f0b958a7431de07be1daef8ceba8.png?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/246400619/rectangle_large_type_2_aefddd277c4b31fbb39bd6035b323947.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/272284548/rectangle_large_type_2_ed1cfc42b2307c74b295513800794465.jpeg?width=302&dpr=2&frame=1&format=jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://assets.st-note.com/production/uploads/images/178761375/profile_b04698f2281c0491fde3d95f02e5e86b.png?fit=bounds&format=jpeg&quality=85&width=330",
+      "alt": "Yosh"
+    }
+  ],
+  "visible_dates": [
+    "2025年6月2",
+    "2025年10月3"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://note.com/teacher_gemini/n/ncea7198361c0",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://note.com/teacher_gemini/n/ncea7198361c0",
+    "title": "Buying a Car in Japan? What are the Costs?｜Yosh",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:14:05.963563+00:00",
+  "source_meta": {
+    "title": "Buying a Car in Japan? What are the Costs?｜Yosh - note",
+    "url": "https://note.com/teacher_gemini/n/ncea7198361c0",
+    "source_name": "note",
+    "source_domain": "note.com",
+    "source_type": "other",
+    "snippet": "Jun 25, 2025 — 2. Car Maintenance Costs (Annual). These are expenses that occur annually or periodically as long as you own the car. 2.1. Automob...",
+    "citation_count": 4,
+    "first_cited_position": 3,
+    "answer_support_weight": 10,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Insurance cost differences between kei cars and compact cars in Japan",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,831 @@
+{
+  "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+  "kind": "owned",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 11553,
+    "wordish_count": 2743,
+    "heading_count": 9,
+    "bullet_count": 82,
+    "link_count": 97,
+    "image_count": 15,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 10,
+    "raw_url_count": 99,
+    "numeric_fact_count": 110,
+    "question_count": 3,
+    "unique_line_count": 278,
+    "numeric_facts_sample": [
+      "5",
+      "360",
+      "4,389,000円",
+      "2.0",
+      "2",
+      "3",
+      "1",
+      "2603",
+      "2601",
+      "2602",
+      "2312",
+      "90",
+      "26",
+      "20",
+      "26127%",
+      "261440%",
+      "261400%",
+      "2610%",
+      "2624%",
+      "260%",
+      "49",
+      "3731",
+      "4462",
+      "9569",
+      "22"
+    ],
+    "links_sample": [
+      "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/leaf_2603_top_pfa_pc_03.jpg.ximg.full.hero.jpg",
+      "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/leaf/2601/top/leaf_2601_top_bnr_pc_01.jpg",
+      "https://www3.nissan.co.jp/etc.clientlibs/pacejapan/components/stepnavi/clientlibs/resources/logo-nissanid.svg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_grade_01.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_grade_02.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_01.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_02.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_03.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_01.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_02.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_03.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2312/specifications/90th_anniversary/leaf_2312_spec_btn_002.gif",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2312/specifications/90th_anniversary/leaf_2312_spec_btn_03.gif",
+      "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=49b645c9-3731-4462-9569-c6e9a66b2b33&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b7e3bbc0-7548-483f-a371-8e56cbc09fc9&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "https://www3.nissan.co.jp/vehicles/new/leaf.html#container",
+      "https://www.nissan.co.jp/CARLINEUP/",
+      "https://www.nissan.co.jp/OWNERS/",
+      "https://www.nissan.co.jp/UNDERSTAND/",
+      "https://www3.nissan.co.jp/MYPAGE/",
+      "https://www2.nissan.co.jp/SP/LEAF/SPECIAL/FIRSTREACTION/?rstid=leaf_top_pfa_01",
+      "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "https://www3.nissan.co.jp/vehicles/new/leaf/exterior.html",
+      "https://www3.nissan.co.jp/vehicles/new/leaf/interior.html"
+    ],
+    "image_alt_count": 15
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 2,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "Organization",
+      "ImageObject",
+      "Product",
+      "Brand",
+      "Offer",
+      "QuantitativeValue",
+      "PropertyValue",
+      "EngineSpecification"
+    ],
+    "product_schema": true,
+    "faq_schema": false,
+    "offer_schema": true,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 135,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 74,
+    "main_chars": 3889,
+    "footer_chars": 386,
+    "tables_chars": 330,
+    "metadata_chars": 368,
+    "full_markdown_chars": 11553
+  },
+  "metadata": {
+    "title": "日産：リーフ [ LEAF ] Webカタログ トップ",
+    "description": "日産リーフ（LEAF）の公式サイト。電気自動車（EV）。走行中のCO2排出ゼロ。クロスオーバーEVにデザインを一新。航続距離は大幅に向上。ガソリンを一切使わない、電気で動くクルマの魅力をご覧いただけます。",
+    "language": "ja-JP",
+    "sourceURL": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+    "robots": "index,follow",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "Organization",
+      "ImageObject",
+      "Product",
+      "Brand",
+      "Offer",
+      "QuantitativeValue",
+      "PropertyValue",
+      "EngineSpecification"
+    ],
+    "schema_block_count": 5
+  },
+  "links": [
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "text": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html#container",
+      "text": "メインコンテンツへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html#footer-element",
+      "text": "https://www3.nissan.co.jp/vehicles/new/leaf.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "https://www3.nissan.co.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CARLINEUP/",
+      "text": "クルマを探す",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/OWNERS/",
+      "text": "オーナーの方へ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/UNDERSTAND/",
+      "text": "日産を知る",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/MYPAGE/",
+      "text": "MyNISSAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/SP/LEAF/SPECIAL/FIRSTREACTION/?rstid=leaf_top_pfa_01",
+      "text": "詳しくはこちら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/exterior.html",
+      "text": "外観・デザイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/interior.html",
+      "text": "室内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/range_and_charging.html",
+      "text": "航続距離・充電",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety.html",
+      "text": "走行・安全",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety.html",
+      "text": "走行・安全 TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety/performance.html",
+      "text": "走行性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety/advanced_driving_assistance.html",
+      "text": "先進運転⽀援",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety/360_safety_assist.html",
+      "text": "360°セーフティアシスト・安全性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/performance_safety/eco.html",
+      "text": "環境・品質",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/connect.html",
+      "text": "NissanConnect",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/v2h.html",
+      "text": "蓄電池利用",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories.html",
+      "text": "アクセサリー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories.html",
+      "text": "アクセサリー TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/distinctive_accessories.html",
+      "text": "差がつくアクセサリー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/package.html",
+      "text": "パッケージ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/exterior.html",
+      "text": "外装アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/interior.html",
+      "text": "内装アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/luggage.html",
+      "text": "荷室アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/accessories/charging-support_other-items.html",
+      "text": "充電サポート/その他アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications.html",
+      "text": "価格・グレード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications.html",
+      "text": "価格・グレード TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html",
+      "text": "補助金・優遇策",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/autech.html",
+      "text": "AUTECH",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/comparison.html",
+      "text": "グレード間比較",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/sim.html",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/carsindealers.html#/search!modelName=%E3%83%AA%E3%83%BC%E3%83%95",
+      "text": "試乗予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/sim.html?rstid=leaf_top_pfa_02",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html",
+      "text": "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/product.html",
+      "text": "各車両の工場出荷時期の目処について >",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/nissanid/",
+      "text": "NISSAN IDとは",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CREDIT/",
+      "text": "買い方プランを確認する",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/MYPAGE/VIRTUAL-SHOWROOM",
+      "text": "販売店に見積り依頼",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/SERVICE/MAINTEPRO/",
+      "text": "メンテプロパック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/SERVICE/GOODPLUS/",
+      "text": "グッドプラス保証",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/connect.html",
+      "text": "NissanConnect",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/EV/CHARGE_SUPPORT/ZESP3/",
+      "text": "ZESP3",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/embed/iT4xChnZtfE",
+      "text": "https://www.youtube.com/embed/iT4xChnZtfE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/embed/8snJ0odJPPg",
+      "text": "https://www.youtube.com/embed/8snJ0odJPPg",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/EVENT/PRIZE/26/01/?syid=20260416_004&260430_vlp_bn",
+      "text": "購入資金が当たる！キャンペーン実施中",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ev2.nissan.co.jp/",
+      "text": "電気自動車総合情報サイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ev2.nissan.co.jp/NARUHODOEVCHARGE/",
+      "text": "あなたのはてなを解決！なるほどEV充電",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ev2.nissan.co.jp/EV/NATTOKU/",
+      "text": "知っトク！ナットク！電気自動車",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/SP/SUV/",
+      "text": "NISSAN × SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/BRAND/",
+      "text": "日産ブランドサイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/exterior.html#bodyColor",
+      "text": "その他のボディカラー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/ariya.html?rstid=leaf_top_cp_01",
+      "text": "WEBカタログへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/x-trail.html?rstid=kicks_top_cp_01",
+      "text": "WEBカタログへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/aura.html?rstid=kicks_top_cp_02",
+      "text": "WEBカタログへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_specsheet_01.pdf",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_specsheet_01.pdf",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_autech_specsheet_01.pdf",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_autech_specsheet_01.pdf",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www3.nissan.co.jp/dealers.html?rstid=leaf_top_sp_01",
+      "text": "来店予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf/sim.html?rstid=leaf_top_sp_02",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "http://map2.nissan.co.jp/c/f/CATALOG/LEAF/",
+      "text": "カタログ請求",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles.html",
+      "text": "クルマをお探しの方",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "text": "Toggle 企業・IR情報 menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/",
+      "text": "企業情報TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP",
+      "text": "ニュースリリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/SUSTAINABILITY/",
+      "text": "サステナビリティ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/IR/",
+      "text": "投資家の皆さまへ",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECRUIT/",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "text": "Toggle エンターテイメント menu",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/",
+      "text": "エンターテイメントTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/#num_a02",
+      "text": "ダウンロード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://shop.nissan.co.jp/?utm_source=nissanhometop",
+      "text": "NISSAN ONLINE SHOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan-global.com/JP/PLANT/index.html?rstid=20140314rst000000221",
+      "text": "工場見学",
+      "is_pdf": false
+    },
+    {
+      "url": "http://drive.nissan.co.jp/",
+      "text": "ドライブナビ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "text": "Toggle 購入検討サポート menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/BUYING/",
+      "text": "クルマ購入検討ガイド",
+      "is_pdf": false
+    },
+    {
+      "url": "http://map2.nissan.co.jp/c/f/DEALER/",
+      "text": "販売店検索",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CONFIGURATOR/SIMULATOR/",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CREDIT/",
+      "text": "購入プラン・保険",
+      "is_pdf": false
+    },
+    {
+      "url": "https://u-car.nissan.co.jp/",
+      "text": "中古車検索",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+      "text": "Toggle Nissan Social menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanJP",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanJP",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissanjapan/",
+      "text": "instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/NissanNewsroom",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SITEGUIDE/index.html",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/siteinfo.html",
+      "text": "ご利用にあたって",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECALL/index.html",
+      "text": "リコール情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://faq2.nissan.co.jp/?site_domain=default",
+      "text": "FAQ/お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "Corporate Website (EN)",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SP/REDIRECT/INFO/index.html",
+      "text": "本ページへのご意見",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/dealers.html",
+      "text": "来店予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CATALOG/LEAF/",
+      "text": "カタログ請求",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_specsheet_01.pdf",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_specsheet_01.pdf",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_autech_specsheet_01.pdf",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/pdf/leaf_2603_autech_specsheet_01.pdf",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-white.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2603/leaf_2603_top_pfa_pc_03.jpg.ximg.full.hero.jpg",
+      "alt": "日産リーフ"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2510/top/leaf_2510_pfa001_pc.jpg.ximg.full.hero.jpg",
+      "alt": "日産リーフ"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2510/top/leaf_2510_pfa02_pc.jpg.ximg.full.hero.jpg",
+      "alt": "日産リーフ"
+    },
+    {
+      "src": "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/leaf/2601/top/leaf_2601_top_bnr_pc_01.jpg",
+      "alt": "補助金"
+    },
+    {
+      "src": "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/leaf/2601/top/leaf_2601_top_bnr_sp_01.jpg",
+      "alt": "補助金"
+    },
+    {
+      "src": "https://www3.nissan.co.jp/etc.clientlibs/pacejapan/components/stepnavi/clientlibs/resources/logo-nissanid.svg",
+      "alt": "Nissan ID"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_grade_01.jpg",
+      "alt": "B5 G"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_grade_02.jpg",
+      "alt": "B7 X"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_grade_03.jpg",
+      "alt": "B5 X"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_01.jpg",
+      "alt": "調光パノラミックガラスルーフ"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_02.jpg",
+      "alt": "プロパイロット 2.0"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_option_03.jpg",
+      "alt": "新車キット"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_01.jpg",
+      "alt": "ルミナスターコイズ/スーパーブラック 2トーン"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_02.jpg",
+      "alt": "プリズムホワイト/スーパーブラック 2トーン"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2602/top/leaf_2602_ranking_color_03.jpg",
+      "alt": "ダークメタルグレー"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2312/specifications/90th_anniversary/leaf_2312_spec_btn_002.gif",
+      "alt": "主要装備一覧／諸元表：リーフ"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/leaf/2312/specifications/90th_anniversary/leaf_2312_spec_btn_03.gif",
+      "alt": "主要装備一覧／諸元表：リーフ AUTECH"
+    },
+    {
+      "src": "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=49b645c9-3731-4462-9569-c6e9a66b2b33&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b7e3bbc0-7548-483f-a371-8e56cbc09fc9&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=49b645c9-3731-4462-9569-c6e9a66b2b33&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b7e3bbc0-7548-483f-a371-8e56cbc09fc9&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=1eaade28-a5bd-4cc5-9ca6-285d24d80e2c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b7e3bbc0-7548-483f-a371-8e56cbc09fc9&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=1eaade28-a5bd-4cc5-9ca6-285d24d80e2c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=b7e3bbc0-7548-483f-a371-8e56cbc09fc9&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.gunosy.com/v1/beacon?tag_id=2748",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97132646&tm=gtm002&Ver=2&mid=ad58bf44-2817-4ed6-8cfa-fd6c046c958a&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&kw=%E3%83%AA%E3%83%BC%E3%83%95,LEAF,%E9%9B%BB%E6%B0%97%E8%87%AA%E5%8B%95%E8%BB%8A,EV,%E6%97%A5%E7%94%A3,NISSAN,%E3%83%8B%E3%83%83%E3%82%B5%E3%83%B3the%20new%20car,%E6%8E%92%E6%B0%97%E3%82%AC%E3%82%B9,%E4%BA%8C%E9%85%B8%E5%8C%96%E7%82%AD%E7%B4%A0,CO2&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&r=&lt=778&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=395766",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97142661&tm=gtm002&Ver=2&mid=2e798f1c-9ab7-4c81-adec-7674dcf64c65&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AA%E3%83%BC%E3%83%95%20%5B%20LEAF%20%5D%20Web%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%20%E3%83%88%E3%83%83%E3%83%97&kw=%E3%83%AA%E3%83%BC%E3%83%95,LEAF,%E9%9B%BB%E6%B0%97%E8%87%AA%E5%8B%95%E8%BB%8A,EV,%E6%97%A5%E7%94%A3,NISSAN,%E3%83%8B%E3%83%83%E3%82%B5%E3%83%B3the%20new%20car,%E6%8E%92%E6%B0%97%E3%82%AC%E3%82%B9,%E4%BA%8C%E9%85%B8%E5%8C%96%E7%82%AD%E7%B4%A0,CO2&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html&r=&lt=778&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=894411",
+      "alt": ""
+    },
+    {
+      "src": "https://meas.hera.d2c.ne.jp/v1/events/71300-32dfd407-6544-4863-ba15-29e5f2347d72/pv/tag.gif?a=dGohXATSgZAsrOxnLAjh&r=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html",
+      "alt": ""
+    },
+    {
+      "src": "https://meas.hera.d2c.ne.jp/v1/events/71300-32dfd407-6544-4863-ba15-29e5f2347d72/ev_vlp/tag.gif?a=dGohXATSgZAsrOxnLAjh&r=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Fleaf.html",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+    "title": "日産：リーフ [ LEAF ] Webカタログ トップ",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:53:03.144774+00:00",
+  "source_meta": {
+    "url": "https://www3.nissan.co.jp/vehicles/new/leaf.html",
+    "rank": 3,
+    "selection_reason": "mapped_owned_page_top_3",
+    "mapping_quality": "strong",
+    "mapping_score": 68.5,
+    "mapping_reason": [
+      "token_overlap:6",
+      "existing_category_match",
+      "expected_page_type:ev_range_charging",
+      "model_match:leaf"
+    ],
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

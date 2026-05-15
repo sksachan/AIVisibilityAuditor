@@ -1,0 +1,343 @@
+{
+  "query_id": "q008",
+  "query": "Nissan home charger installation guidance and recommended suppliers in Japan",
+  "query_type": "branded",
+  "brand_topic_category": "EV range, charging and battery confidence",
+  "journey_stage": "consideration",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Nissan home charger installation guidance and recommended suppliers in Japan",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a0719c0a8dce6b9a502d163",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/RkEUJzRN9fzsw8xjEdBMrA/6a0719c0a8dce6b9a502d163.json",
+      "created_at": "2026-05-15 13:04:00 UTC",
+      "processed_at": "2026-05-15 13:04:00 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Nissan+home+charger+installation+guidance+and+recommended+suppliers+in+Japan&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/RkEUJzRN9fzsw8xjEdBMrA/6a0719c0a8dce6b9a502d163.html",
+      "prettify_html_file": "https://serpapi.com/searches/RkEUJzRN9fzsw8xjEdBMrA/6a0719c0a8dce6b9a502d163.prettify",
+      "total_time_taken": 5.43
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Nissan home charger installation guidance and recommended suppliers in Japan",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "For installing a Nissan home charger in Japan, the most reliable method is through a Nissan-affiliated dealer, who will coordinate with specialized contractors like Japan Management (JM).",
+        "snippet_links": [
+          {
+            "text": "Japan Management (JM)",
+            "link": "https://www.matabee.com/ev/?wovn=en"
+          }
+        ],
+        "snippet_highlighted_words": [
+          "most reliable method is through a Nissan-affiliated dealer"
+        ],
+        "reference_indexes": [
+          2
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Official Installation Guidance"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Nissan recommends a professional assessment of your home's electrical capacity before purchase.",
+        "reference_indexes": [
+          4,
+          11
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Step 1: Consultation: Contact your local Nissan dealer to discuss the Sakura, Leaf, or Ariya requirements.",
+            "snippet_links": [
+              {
+                "text": "Sakura",
+                "link": "https://www.nissan.co.jp/EV/CHARGE/"
+              }
+            ]
+          },
+          {
+            "snippet": "Step 2: On-site Survey: An electrician will check your meter cupboard and electrical fuse board to determine if upgrades (like a dedicated 200V circuit) are needed."
+          },
+          {
+            "snippet": "Step 3: Quote & Booking: You will receive a breakdown of costs, which typically includes the charger unit and labor."
+          },
+          {
+            "snippet": "Step 4: Installation: The process usually takes 2–4 hours and involves mounting the unit near your parking spot.",
+            "reference_indexes": [
+              11,
+              4,
+              8,
+              1,
+              10,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Recommended Suppliers and Contractors"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Nissan Japan partners with established infrastructure providers to ensure safety and compliance."
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Japan Management (JM): A primary recommended contractor for Nissan, offering 6kW ordinary chargers from brands like Delta.",
+            "snippet_links": [
+              {
+                "text": "Japan Management (JM)",
+                "link": "https://www.matabee.com/ev/nissan/?wovn=en"
+              }
+            ]
+          },
+          {
+            "snippet": "Panasonic Corporation: Widely used for standard 200V outlets and wall-mounted chargers in Japanese homes.",
+            "snippet_links": [
+              {
+                "text": "Panasonic Corporation",
+                "link": "https://evcnice.com/blog/best-ev-charger-wholesale-suppliers-in-japan/"
+              }
+            ]
+          },
+          {
+            "snippet": "Nichicon: Specialized in V2H (Vehicle-to-Home) systems that allow your Nissan EV to power your house during outages.",
+            "reference_indexes": [
+              0,
+              2,
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Estimated Costs & Subsidies (2026)"
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          7,
+          9
+        ],
+        "table": [
+          [
+            "Item",
+            "Estimated Price (Approx.)"
+          ],
+          [
+            "Basic 200V Outlet",
+            "¥50,000 – ¥100,000"
+          ],
+          [
+            "6kW Wall Charger",
+            "¥308,000 – ¥352,000 (installed)"
+          ],
+          [
+            "CEV Subsidy (Charging)",
+            "Up to ¥50,000 for outlets"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Item"
+            },
+            {
+              "snippet": "Estimated Price (Approx.)"
+            }
+          ],
+          [
+            {
+              "snippet": "Basic 200V Outlet"
+            },
+            {
+              "snippet": "¥50,000 – ¥100,000"
+            }
+          ],
+          [
+            {
+              "snippet": "6kW Wall Charger"
+            },
+            {
+              "snippet": "¥308,000 – ¥352,000 (installed)"
+            }
+          ],
+          [
+            {
+              "snippet": "CEV Subsidy (Charging)"
+            },
+            {
+              "snippet": "Up to ¥50,000 for outlets"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "item": "Basic 200V Outlet",
+            "estimated_price_approx": "¥50,000 – ¥100,000"
+          },
+          {
+            "item": "6kW Wall Charger",
+            "estimated_price_approx": "¥308,000 – ¥352,000 (installed)"
+          },
+          {
+            "item": "CEV Subsidy (Charging)",
+            "estimated_price_approx": "Up to ¥50,000 for outlets"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Watch this walkthrough of the Nissan home charging setup and installation essentials to prepare for your home visit:"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you are interested, I can:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Help you find your nearest Nissan dealer in Japan for a quote."
+          },
+          {
+            "snippet": "Explain the difference between a 6kW wall charger and a V2H system."
+          },
+          {
+            "snippet": "Check the latest CEV subsidy deadlines for your specific region."
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Best EV Charger Wholesale Suppliers In Japan - EVCNICE",
+        "link": "https://evcnice.com/blog/best-ev-charger-wholesale-suppliers-in-japan/",
+        "snippet": "#1. Nissan Motor Corporation. Nissan, one of Japan's leading automobile manufacturers, has ventured into the EV charger market. Kn...",
+        "source": "EVCNICE",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/JuT0Ucd3ACGJ-gVCBjfymMdR9_PZAf1-Oy6jcbVO3iQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/DyZHXxCC3wE_wBSfHfMVRHY8KC4ook-L7HhiTiBF35M.png",
+        "index": 0
+      },
+      {
+        "title": "EV Charging Installation Guide - Nissan UK",
+        "link": "https://www.nissan.co.uk/ev-home-charging/ev-charging-installation-guide.html",
+        "snippet": "Where to buy EV Home Chargers. Nissan works with leading EV home charger installer, Pod Point. We have tethered or non-tethered ch...",
+        "source": "Nissan",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/L0IfNLvCrSGyh1BbfSHfCOSr89WBwwwHjNifuEIb39E.png",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/xioTiRzgamvzOssEB5NwH0qG3oOmDgMBAw2UfdIqnP8.png",
+        "index": 1
+      },
+      {
+        "title": "Japan Management Nissan Motor's recommended EV / PH EV ...",
+        "link": "https://www.matabee.com/ev/?wovn=en",
+        "snippet": "Customer information. Thorough management and advanced care. Japan Management. Important customer information will be strictly man...",
+        "source": "株式会社ＪＭ",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/9hyBOQV-jGxbzEw8T1guemwJvu4WD8xeu5KOEBNmFPU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/zE8iR1GU4yGy1mUcMkWpW-pXwX5h8fA73I8QQlNbOWc.png",
+        "index": 2
+      },
+      {
+        "title": "Nissan EV Home Charging Solutions: Costs, Installers, and ...",
+        "link": "https://tayniu.com/home-charging-solutions-for-your-nissan-ev-comparing-costs-installers-and-getting-the-best-setup/",
+        "snippet": "Sep 17, 2025 — Choosing the Right Professional Installer. Selecting a qualified electrician is the most critical step for a safe and compliant in...",
+        "source": "tayniu.com",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/XOK5bTXI2P8yGAJtcdIFrvEcdhBo00kVw6JXZMZ2q7c.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/phLTOokuEw1_asgq38Ttq79lf_phBj-t7tqf4FVLuJ4.png",
+        "index": 3
+      },
+      {
+        "title": "Getting Started with Nissan EV Home Charging: Installation Tips",
+        "link": "https://www.mlady.com/blog/getting-started-with-nissan-ev-home-charging-installation-tips/",
+        "snippet": "Jan 27, 2025 — What to Expect During the Installation Process * Initial Assessment: A licensed electrician will first assess your home's electric...",
+        "source": "M'Lady Nissan",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/rNojpgZF0Dv1fzH9awprSwNEBvkNdydH2keEu08J7uU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/dsAgWP64asjbks7WItcyWG-GahwdBeJ5_gce9A47C0g.png",
+        "index": 4
+      },
+      {
+        "title": "Nissan Home Charge Essentials | Part 3",
+        "link": "https://www.youtube.com/watch?t=6&v=oFqnZrPbemk",
+        "snippet": "Sep 29, 2023 — installation is usually completed within 2 to 4 weeks to help prepare. simply answer a few questions online or over the phone. you...",
+        "source": "YouTube",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/s0qpl4-18PMmh7m7Yq0yeYxOddOD-NsLmHO2m7TtIJc.jpeg",
+        "index": 5
+      },
+      {
+        "title": "Nissan and Nichicon to Launch the 'LEAF to Home' Power Supply ...",
+        "link": "https://global.nissannews.com/en/releases/120530-01-e",
+        "snippet": "May 29, 2012 — Table_title: Nissan and Nichicon to Launch the 'LEAF to Home' Power Supply System With \"EV Power Station\" Table_content: | Input v...",
+        "source": "日産自動車ニュースルーム",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/0Y1KAbwvZILzg_XWZtACLoYDl0xFwC5bOm3YIH6tLf4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/wpb3vA28QWaNNjjoc8Puf1vaWkM3GT5PvP_iOSZwzp8.png",
+        "index": 6
+      },
+      {
+        "title": "Japan Management Application for charging equipment for EV ...",
+        "link": "https://www.matabee.com/ev/nissan/?wovn=en",
+        "snippet": "6kW普通充電器 充電ケーブル付き （デルタ社製）. It is a stylish wall mounting type. Notification of charging status with built-in body lamp. Recommende...",
+        "source": "株式会社ＪＭ",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/xppSBUQ_1_AiEXt0oaZ4IfPl64vkp27ymJxppXng44k.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/CqXZrRHuiSJOqQ9ZTK-hFtDCvrOoNq-hw8OFP2hQjdc.png",
+        "index": 7
+      },
+      {
+        "title": "Nissan Electric Vehicle Home Charging Guide",
+        "link": "https://www.nielsennissan.com/nissan-EV/home-charging.htm",
+        "snippet": "COIL s end-to-end EV charging solutions make your home charger installation effortless,3. All you need to do is: Submit your prope...",
+        "source": "Nielsen Nissan",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/WKjgrFOABHm1Y_XkNR2aFMHJjLcv2Fy0AuaZJhm3yjY.png",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/42SiynTA1oIIs8MeYLOa8rqkaUX6EapIOJxd2th42t8.png",
+        "index": 8
+      },
+      {
+        "title": "Subsidies for EV Charging Infrastructure Installation (FY2025 ...",
+        "link": "https://teskas.net/t/topic/14059?tl=en",
+        "snippet": "Feb 28, 2026 — (ジェイ) February 28, 2026, 3:49am 1. It seems that you can receive a 50,000 yen subsidy for installing an EV outlet in a detached ho...",
+        "source": "テスカス",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/2nrE_UCl-qIeMzdA6GaW7DsTH8vbaToqSgjOpThWuhs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/6_LG-exDY12G-rSRvDKLeBqsSjhsL5ZOmEBHopkyZjc.jpeg",
+        "index": 9
+      },
+      {
+        "title": "日産電気自動車 充電について | 自宅で充電",
+        "link": "https://www.nissan.co.jp/EV/CHARGE/",
+        "snippet": "充電方法 ・普通充電 充電操作は簡単。 クルマの充電ポートリッドを開いて充電コネクターをポートに挿すだけです。 充電モードは、ただちに充電を開始する「即充電」、指定の時間で充電開始/停止する「タイマー充電」、携帯電話やパソコンから充電開始操作ができる「リモート...",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/96z5LzV9fSKSNtkEoXzTBhPiQI5hbadMvbN5SEKLm0w.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c0a8dce6b9a502d163/images/Y_J9A3LRa1PinaE0kEunlwiGJ7BMabArHFBDhb6LG5Q.png",
+        "index": 10
+      },
+      {
+        "title": "Nissan Home Charge Essentials | Part 3",
+        "link": "https://www.youtube.com/watch?v=oFqnZrPbemk&t=6",
+        "snippet": "installation is usually completed within 2 to 4 weeks to help prepare. simply answer a few questions online or over the phone. you...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTcqi-mQlE6mnytC_2jtpIIO72kE6YFSxuL3h5BP5a3txGQR-J3",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      }
+    ],
+    "reconstructed_markdown": "For installing a Nissan home charger in Japan, the most reliable method is through a Nissan\\-affiliated dealer, who will coordinate with specialized contractors like [Japan Management \\(JM\\)](https://www.matabee.com/ev/?wovn=en). [2]\n\n### Official Installation Guidance\n\nNissan recommends a professional assessment of your home's electrical capacity before purchase. [4] [11]\n\n- Step 1: Consultation: Contact your local Nissan dealer to discuss the [Sakura](https://www.nissan.co.jp/EV/CHARGE/), Leaf, or Ariya requirements.\n- Step 2: On\\-site Survey: An electrician will check your meter cupboard and electrical fuse board to determine if upgrades \\(like a dedicated 200V circuit\\) are needed.\n- Step 3: Quote & Booking: You will receive a breakdown of costs, which typically includes the charger unit and labor.\n- Step 4: Installation: The process usually takes 2–4 hours and involves mounting the unit near your parking spot. [11] [4] [8] [1] [10] [3]\n\n### Recommended Suppliers and Contractors\n\nNissan Japan partners with established infrastructure providers to ensure safety and compliance.\n\n- [Japan Management \\(JM\\)](https://www.matabee.com/ev/nissan/?wovn=en): A primary recommended contractor for Nissan, offering 6kW ordinary chargers from brands like Delta.\n- [Panasonic Corporation](https://evcnice.com/blog/best-ev-charger-wholesale-suppliers-in-japan/): Widely used for standard 200V outlets and wall\\-mounted chargers in Japanese homes.\n- Nichicon: Specialized in V2H \\(Vehicle\\-to\\-Home\\) systems that allow your Nissan EV to power your house during outages. [0] [2] [7]\n\n### Estimated Costs & Subsidies \\(2026\\)\n\n| Item | Estimated Price \\(Approx.\\) |\n| --- | --- |\n| Basic 200V Outlet | ¥50,000 – ¥100,000 |\n| 6kW Wall Charger | ¥308,000 – ¥352,000 \\(installed\\) |\n| CEV Subsidy \\(Charging\\) | Up to ¥50,000 for outlets |\n[7] [9]\n\nWatch this walkthrough of the Nissan home charging setup and installation essentials to prepare for your home visit:\n\nIf you are interested, I can:\n\n- Help you find your nearest Nissan dealer in Japan for a quote.\n- Explain the difference between a 6kW wall charger and a V2H system.\n- Check the latest CEV subsidy deadlines for your specific region.\n\n\n### References\n\n[0] [Best EV Charger Wholesale Suppliers In Japan \\- EVCNICE](https://evcnice.com/blog/best-ev-charger-wholesale-suppliers-in-japan/) — \\#1. Nissan Motor Corporation. Nissan, one of Japan's leading automobile manufacturers, has ventured into the EV charger market. Kn...\n\n[1] [EV Charging Installation Guide \\- Nissan UK](https://www.nissan.co.uk/ev-home-charging/ev-charging-installation-guide.html) — Where to buy EV Home Chargers. Nissan works with leading EV home charger installer, Pod Point. We have tethered or non\\-tethered ch...\n\n[2] [Japan Management Nissan Motor's recommended EV / PH EV ...](https://www.matabee.com/ev/?wovn=en) — Customer information. Thorough management and advanced care. Japan Management. Important customer information will be strictly man...\n\n[3] [Nissan EV Home Charging Solutions: Costs, Installers, and ...](https://tayniu.com/home-charging-solutions-for-your-nissan-ev-comparing-costs-installers-and-getting-the-best-setup/) — Sep 17, 2025 — Choosing the Right Professional Installer. Selecting a qualified electrician is the most critical step for a safe and compliant in...\n\n[4] [Getting Started with Nissan EV Home Charging: Installation Tips](https://www.mlady.com/blog/getting-started-with-nissan-ev-home-charging-installation-tips/) — Jan 27, 2025 — What to Expect During the Installation Process \\* Initial Assessment: A licensed electrician will first assess your home's electric...\n\n[5] [Nissan Home Charge Essentials \\| Part 3](https://www.youtube.com/watch?t=6&v=oFqnZrPbemk) — Sep 29, 2023 — installation is usually completed within 2 to 4 weeks to help prepare. simply answer a few questions online or over the phone. you...\n\n[6] [Nissan and Nichicon to Launch the 'LEAF to Home' Power Supply ...](https://global.nissannews.com/en/releases/120530-01-e) — May 29, 2012 — Table\\_title: Nissan and Nichicon to Launch the 'LEAF to Home' Power Supply System With \"EV Power Station\" Table\\_content: \\| Input v...\n\n[7] [Japan Management Application for charging equipment for EV ...](https://www.matabee.com/ev/nissan/?wovn=en) — 6kW普通充電器 充電ケーブル付き （デルタ社製）. It is a stylish wall mounting type. Notification of charging status with built\\-in body lamp. Recommende...\n\n[8] [Nissan Electric Vehicle Home Charging Guide](https://www.nielsennissan.com/nissan-EV/home-charging.htm) — COIL s end\\-to\\-end EV charging solutions make your home charger installation effortless,3. All you need to do is: Submit your prope...\n\n[9] [Subsidies for EV Charging Infrastructure Installation \\(FY2025 ...](https://teskas.net/t/topic/14059?tl=en) — Feb 28, 2026 — \\(ジェイ\\) February 28, 2026, 3:49am 1. It seems that you can receive a 50,000 yen subsidy for installing an EV outlet in a detached ho...\n\n[10] [日産電気自動車 充電について \\| 自宅で充電](https://www.nissan.co.jp/EV/CHARGE/) — 充電方法 ・普通充電 充電操作は簡単。 クルマの充電ポートリッドを開いて充電コネクターをポートに挿すだけです。 充電モードは、ただちに充電を開始する「即充電」、指定の時間で充電開始/停止する「タイマー充電」、携帯電話やパソコンから充電開始操作ができる「リモート...\n\n[11] [Nissan Home Charge Essentials \\| Part 3](https://www.youtube.com/watch?t=6&v=oFqnZrPbemk) — installation is usually completed within 2 to 4 weeks to help prepare. simply answer a few questions online or over the phone. you...\n"
+  }
+}

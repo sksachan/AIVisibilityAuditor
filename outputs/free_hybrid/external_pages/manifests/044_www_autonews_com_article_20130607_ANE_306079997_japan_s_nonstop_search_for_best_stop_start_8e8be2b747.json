@@ -1,0 +1,474 @@
+{
+  "url": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 7688,
+    "wordish_count": 1051,
+    "heading_count": 8,
+    "bullet_count": 30,
+    "link_count": 40,
+    "image_count": 10,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 42,
+    "numeric_fact_count": 102,
+    "question_count": 6,
+    "unique_line_count": 104,
+    "numeric_facts_sample": [
+      "1",
+      "20130607",
+      "306079997",
+      "150",
+      "07",
+      "2013",
+      "01",
+      "00",
+      "2025",
+      "300,000",
+      "2",
+      "2027",
+      "14",
+      "243",
+      "3",
+      "4",
+      "948",
+      "6",
+      "44",
+      "252",
+      "2026",
+      "0412%",
+      "1776896282259",
+      "800",
+      "450"
+    ],
+    "links_sample": [
+      "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&ws=1",
+      "https://www.autonews.com/pf/resources/images/logos/europe/europe.svg?d=243",
+      "https://www.autonews.com/resizer/v2/https%3A%2F%2Fauthor-service-images-prod-us-east-1.publishing.aws.arc.pub%2Fcrain%2F6be02b1b-b117-4b49-948f-a126ea0c8746.png?auth=c5e147a9f0fd0e8727d3b8bab62d77b33d221ae4899a54e232a928f7ba366f9e",
+      "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fretail%252Ftop-150-dealership-groups%252Fan-2026-top-150-dealership-groups-list-highlights-0412%252F/image?etag=1776896282259&width=800&height=450",
+      "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Frivian%252Fan-rivian-reports-q1-earns-after-sales-gain%252F/image?etag=1778207044023&width=800&height=450",
+      "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fhonda%252Fan-sony-honda-mobility-cancels-afeela-electric-vehicles-restructures-business-0421%252F/image?etag=1776770282474&width=800&height=450",
+      "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fbmw%252Fane-bmw-ceo-succession-nedeljkovic-0506%252F/image?etag=1778476862571&width=800&height=450",
+      "https://www.autonews.com/pf/resources/images/AN_IdentifierLogo_Arc.svg?d=243",
+      "https://consent.trustarc.com/asset/ic-close-white.svg",
+      "https://consent.trustarc.com/get?name=Powered-By-TrustArc.png",
+      "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/#main-content",
+      "https://www.autonews.com/",
+      "https://www.autonews.com/europe",
+      "https://www.autonews.com/canada",
+      "https://www.autonews.com/asia",
+      "https://www.autonews.com/subscribe",
+      "https://www.autonews.com/retail/top-150-dealership-groups/2026",
+      "https://www.autonews.com/future-product-guide/",
+      "https://www.autonews.com/news",
+      "https://www.autonews.com/data-center",
+      "https://www.autonews.com/events",
+      "https://www.autonews.com/awards",
+      "https://www.autonews.com/digital-edition",
+      "https://jobs.autonews.com",
+      "https://i261.autonews.com/s/1uG?profileid=1572ff50-a337-47ea-aeb5-987e57d51087"
+    ],
+    "image_alt_count": 10
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "NewsMediaOrganization",
+      "NewsArticle",
+      "BreadcrumbList",
+      "ImageObject",
+      "WebPage",
+      "Person",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 1,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 20,
+    "noise_ratio": 0.05
+  },
+  "content_regions": {
+    "header_chars": 516,
+    "main_chars": 1398,
+    "footer_chars": 216,
+    "tables_chars": 0,
+    "metadata_chars": 473,
+    "full_markdown_chars": 7688
+  },
+  "metadata": {
+    "title": "Japan's nonstop search for best stop-start system - Automotive News",
+    "description": "Suppliers and carmakers are trying out competing energy-storage systems to power the fuel-saving engine stop-start systems that are increasingly common on vehicles.",
+    "language": "en",
+    "sourceURL": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+    "robots": "max-image-preview:large",
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/"
+      }
+    ],
+    "json_ld_present": true,
+    "schema_types": [
+      "NewsMediaOrganization",
+      "NewsArticle",
+      "BreadcrumbList",
+      "ImageObject",
+      "WebPage",
+      "Person",
+      "ListItem"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/#main-content",
+      "text": "Skip to main content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/europe",
+      "text": "Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/canada",
+      "text": "Canada",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/asia",
+      "text": "Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/subscribe",
+      "text": "Subscribe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/europe",
+      "text": "Return to homepage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/retail/top-150-dealership-groups/2026",
+      "text": "Top 150 Dealership Groups",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/future-product-guide/",
+      "text": "Future Product Guide",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/news",
+      "text": "Latest News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/data-center",
+      "text": "Data Center",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/events",
+      "text": "Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/awards",
+      "text": "Awards",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/digital-edition",
+      "text": "Digital Edition",
+      "is_pdf": false
+    },
+    {
+      "url": "https://jobs.autonews.com",
+      "text": "Jobs Board",
+      "is_pdf": false
+    },
+    {
+      "url": "https://i261.autonews.com/s/1uG?profileid=1572ff50-a337-47ea-aeb5-987e57d51087",
+      "text": "Upgrade Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/staff/Hans-Greimel",
+      "text": "By Hans Greimel",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/retail/top-150-dealership-groups/an-2026-top-150-dealership-groups-list-highlights-0412/",
+      "text": "Top 150 Dealership Groups The biggest gainers and decliners on our top 150 dealership groups list The top 150’s overall sales and share of sales in the U.S. grew in 2025. By: Paige Hodder",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/rivian/an-rivian-reports-q1-earns-after-sales-gain/",
+      "text": "Rivian Rivian scales back Georgia plant capacity to 300,000 as federal loan shrinks by about $2 billion Rivian cuts Georgia plant capacity and loan size, shifting to single-phase build that allows earlier access to federal funds starting in 2027. By: Laurence Iliff",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/honda/an-sony-honda-mobility-cancels-afeela-electric-vehicles-restructures-business-0421/",
+      "text": "Honda Sony Honda Mobility scales back struggling Afeela EV venture, sends employees back to parent companies Honda Motor Co. and Sony Corp. will restructure Sony Honda Mobility after canceling Afeela electric vehicles and review future collaboration on automotive software. By: Hans Greimel",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/bmw/ane-bmw-ceo-succession-nedeljkovic-0506/",
+      "text": "BMW BMW’s CEO transition underscores continuity over disruption Manufacturing veteran Milan Nedeljkovic succeeds Oliver Zipse as BMW CEO on May 14, reinforcing the automaker's preference for operational execution over personality-driven leadership as it scales its Neue Klasse software-led platform. By: Frank Volk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/about",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/media-kit/",
+      "text": "Advertise",
+      "is_pdf": false
+    },
+    {
+      "url": "https://jobs.autonews.com",
+      "text": "Job Board",
+      "is_pdf": false
+    },
+    {
+      "url": "https://preferences-mgr.truste.com/?pid=crain01&aid=crain01&type=crain&site=crain.com&action=notice&country=us&locale=en&behavior=implied&privacypolicylink=http%253A%252F%252Fwww.autonews.com%252Fsection%252Fprivacy-policy&from=http%3A//consent.trustarc.com/",
+      "text": "Ad Choices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/privacy-policy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/privacy-request",
+      "text": "Privacy Request",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/terms-of-use",
+      "text": "Terms and Conditions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/reprints/",
+      "text": "Reprints",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/AutoNews",
+      "text": "https://www.facebook.com/AutoNews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/automotive_news",
+      "text": "https://twitter.com/automotive_news",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/automotive-news/",
+      "text": "https://www.linkedin.com/company/automotive-news/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/automotivenews/?hl=en",
+      "text": "https://www.instagram.com/automotivenews/?hl=en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@automotivenews",
+      "text": "https://www.youtube.com/@automotivenews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.autonews.com/",
+      "text": "Return to homepage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.crain.com/privacy-policy/",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trustarc.com",
+      "text": "https://trustarc.com",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://aorta.clickagy.com/pixel.gif?clkgypv=jstag&ws=1",
+      "alt": ""
+    },
+    {
+      "src": "https://aorta.clickagy.com/channel-sync/4?clkgypv=jstag&ws=1",
+      "alt": ""
+    },
+    {
+      "src": "https://aorta.clickagy.com/pixel.gif?ch=319&cm=5ff66bc7263428e8ee1b749a1a97daa15513a2ca54d1587d6ebd967eacc86871",
+      "alt": ""
+    },
+    {
+      "src": "https://www.autonews.com/pf/resources/images/logos/europe/europe.svg?d=243",
+      "alt": "Automotive News Europe"
+    },
+    {
+      "src": "https://www.autonews.com/resizer/v2/https%3A%2F%2Fauthor-service-images-prod-us-east-1.publishing.aws.arc.pub%2Fcrain%2F6be02b1b-b117-4b49-948f-a126ea0c8746.png?auth=c5e147a9f0fd0e8727d3b8bab62d77b33d221ae4899a54e232a928f7ba366f9e",
+      "alt": "HG"
+    },
+    {
+      "src": "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fretail%252Ftop-150-dealership-groups%252Fan-2026-top-150-dealership-groups-list-highlights-0412%252F/image?etag=1776896282259&width=800&height=450",
+      "alt": "The biggest gainers and decliners on our top 150 dealership groups list"
+    },
+    {
+      "src": "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Frivian%252Fan-rivian-reports-q1-earns-after-sales-gain%252F/image?etag=1778207044023&width=800&height=450",
+      "alt": "Rivian scales back Georgia plant capacity to 300,000 as federal loan shrinks by about $2 billion"
+    },
+    {
+      "src": "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fhonda%252Fan-sony-honda-mobility-cancels-afeela-electric-vehicles-restructures-business-0421%252F/image?etag=1776770282474&width=800&height=450",
+      "alt": "Sony Honda Mobility scales back struggling Afeela EV venture, sends employees back to parent companies"
+    },
+    {
+      "src": "https://i261.autonews.com/rest/v2/contentStores/1fe9719d-6e0e-44f0-bb4b-c2988abae826/items/www.autonews.com%252Fbmw%252Fane-bmw-ceo-succession-nedeljkovic-0506%252F/image?etag=1778476862571&width=800&height=450",
+      "alt": "BMW’s CEO transition underscores continuity over disruption"
+    },
+    {
+      "src": "https://www.autonews.com/pf/resources/images/AN_IdentifierLogo_Arc.svg?d=243",
+      "alt": "Automotive News, a Crain Family brand"
+    },
+    {
+      "src": "https://consent.trustarc.com/asset/ic-close-white.svg",
+      "alt": "alert message close"
+    },
+    {
+      "src": "https://consent.trustarc.com/get?name=Powered-By-TrustArc.png",
+      "alt": "cookie notice provider logo"
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=99cc0ee9-4104-4ada-9fa5-b0ae0c806ec9&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c57aac63-7c0b-4409-82b3-b5bd78da2a36&pt=Japan's%20nonstop%20search%20for%20best%20stop-start%20system%20-%20Automotive%20News&tw_document_href=https%3A%2F%2Fwww.autonews.com%2Farticle%2F20130607%2FANE%2F306079997%2Fjapan-s-nonstop-search-for-best-stop-start-system%2F&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853565533.174138892575857682&txn_id=o4r8y&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=99cc0ee9-4104-4ada-9fa5-b0ae0c806ec9&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=c57aac63-7c0b-4409-82b3-b5bd78da2a36&pt=Japan's%20nonstop%20search%20for%20best%20stop-start%20system%20-%20Automotive%20News&tw_document_href=https%3A%2F%2Fwww.autonews.com%2Farticle%2F20130607%2FANE%2F306079997%2Fjapan-s-nonstop-search-for-best-stop-start-system%2F&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853565533.174138892575857682&txn_id=o4r8y&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97075039&Ver=2&mid=cb9764aa-a65a-44ba-9eb3-1a9666a93418&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=Japan's%20nonstop%20search%20for%20best%20stop-start%20system%20-%20Automotive%20News&p=https%3A%2F%2Fwww.autonews.com%2Farticle%2F20130607%2FANE%2F306079997%2Fjapan-s-nonstop-search-for-best-stop-start-system%2F&r=&lt=658&evt=pageLoad&sv=2&asc=D&cdb=AQAc&rn=499143",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97038470&tm=al001&Ver=2&mid=e784d86c-66c8-4d2e-8f3b-b1cf0cae7b81&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=Japan's%20nonstop%20search%20for%20best%20stop-start%20system%20-%20Automotive%20News&p=https%3A%2F%2Fwww.autonews.com%2Farticle%2F20130607%2FANE%2F306079997%2Fjapan-s-nonstop-search-for-best-stop-start-system%2F&r=&lt=658&pt=1778853810296,,,,,0,1,6,6,35,9,36,151,231,155,420,656,658,,,&pn=0,0&evt=pageLoad&sv=2&asc=D&cdb=AQAU&rn=937440",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+    "title": "Japan's nonstop search for best stop-start system - Automotive News",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:03:37.921719+00:00",
+  "source_meta": {
+    "title": "Japan's nonstop search for best stop-start system",
+    "url": "https://www.autonews.com/article/20130607/ANE/306079997/japan-s-nonstop-search-for-best-stop-start-system/",
+    "source_name": "Automotive News",
+    "source_domain": "www.autonews.com",
+    "source_type": "other",
+    "snippet": "Jun 7, 2013 — The downside: Capacitors have limited capacity. Indeed, they can't rival lithium ion batteries in such tasks as powering the wheel...",
+    "citation_count": 1,
+    "first_cited_position": 6,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

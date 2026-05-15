@@ -1,0 +1,708 @@
+{
+  "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+  "kind": "owned",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 9679,
+    "wordish_count": 1926,
+    "heading_count": 8,
+    "bullet_count": 73,
+    "link_count": 78,
+    "image_count": 5,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 1,
+    "raw_url_count": 80,
+    "numeric_fact_count": 148,
+    "question_count": 8,
+    "unique_line_count": 191,
+    "numeric_facts_sample": [
+      "2",
+      "360",
+      "４",
+      "48L",
+      "27",
+      "1",
+      "675mm",
+      "2025年",
+      "4",
+      "3",
+      "2508",
+      "2002",
+      "26",
+      "20",
+      "26127%",
+      "261440%",
+      "261400%",
+      "2610%",
+      "2624%",
+      "260%",
+      "11415996",
+      "1063",
+      "46",
+      "9592",
+      "5"
+    ],
+    "links_sample": [
+      "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/roox/2508/accessories/storage_luggage/roox_2508_accessories_storage_luggage_cs1_video_tn_001.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2002/top/roox_spec_btn_01.gif",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2508/pdf/roox_2508_spec_autech_line_btn.jpg",
+      "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=11415996-1063-46c8-9592-2a7fdfc414b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2d84d97f-7081-44e0-aba5-624c8d2875e0&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#container",
+      "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#footer-element",
+      "https://www.nissan.co.jp/CARLINEUP/",
+      "https://www.nissan.co.jp/OWNERS/",
+      "https://www.nissan.co.jp/UNDERSTAND/",
+      "https://www3.nissan.co.jp/MYPAGE/",
+      "https://www3.nissan.co.jp/vehicles/new/roox.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/exterior.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/interior.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/360_safety_assist.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/safety.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/performance.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/eco.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/connect.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/accessories.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/accessories/distinctive_exterior.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/accessories/package.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/accessories/exterior.html",
+      "https://www3.nissan.co.jp/vehicles/new/roox/accessories/interior.html"
+    ],
+    "image_alt_count": 5
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 2,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "Organization",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 82,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 89,
+    "main_chars": 2068,
+    "footer_chars": 386,
+    "tables_chars": 0,
+    "metadata_chars": 295,
+    "full_markdown_chars": 9679
+  },
+  "metadata": {
+    "title": "日産：ルークス [ ROOX ] 軽自動車 | 室内 | 収納・ラゲッジ",
+    "description": "新型 日産ルークス（ROOX）の公式サイト。使い勝手のよさにこだわった収納や大きなラゲッジルーム、シートアレンジをはじめ、おすすめオプションなどもご覧いただけます。",
+    "language": "ja-JP",
+    "sourceURL": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+    "robots": "index,follow",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "Organization",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#container",
+      "text": "メインコンテンツへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#footer-element",
+      "text": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "https://www3.nissan.co.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CARLINEUP/",
+      "text": "クルマを探す",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/OWNERS/",
+      "text": "オーナーの方へ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/UNDERSTAND/",
+      "text": "日産を知る",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/MYPAGE/",
+      "text": "MyNISSAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox.html",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/exterior.html",
+      "text": "外観・デザイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior.html",
+      "text": "室内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety.html",
+      "text": "走行・安全",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety.html",
+      "text": "走行・安全 TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/360_safety_assist.html",
+      "text": "360°セーフティアシスト（全方位運転支援システム）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/safety.html",
+      "text": "安全性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/performance.html",
+      "text": "走行性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/performance_safety/eco.html",
+      "text": "環境・品質",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/connect.html",
+      "text": "NissanConnect",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories.html",
+      "text": "アクセサリー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories.html",
+      "text": "アクセサリー TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/distinctive_exterior.html",
+      "text": "差がつくエクステリア",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/package.html",
+      "text": "パッケージ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/exterior.html",
+      "text": "外装アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/interior.html",
+      "text": "内装アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/storage_luggage.html",
+      "text": "収納・荷室アイテム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/audio_navigation.html",
+      "text": "ナビゲーション/周辺機器",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/specifications.html",
+      "text": "価格・グレード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/specifications.html",
+      "text": "価格・グレード TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/specifications/autech_line.html",
+      "text": "AUTECH LINE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/specifications/lv.html",
+      "text": "LV（福祉車両）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/specifications/comparison.html?rstid=navi_comparison",
+      "text": "グレード間比較",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/sim.html",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior.html",
+      "text": "室内 TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+      "text": "収納・ラゲッジ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/comfortable_convenient.html",
+      "text": "快適・便利",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/navi_audio.html",
+      "text": "ナビ・オーディオ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#specialStorage",
+      "text": "こだわりの収納",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#largeLuggage",
+      "text": "⼤きなラゲッジルーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#seatArrangement",
+      "text": "シートアレンジ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html#recommendedOptions",
+      "text": "おすすめオプション",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/accessories/storage_luggage.html#luggageBoardSet",
+      "text": "詳しくはこちら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_autech_line_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_autech_line_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www3.nissan.co.jp/dealers.html?rstid=roox_top_sp_01",
+      "text": "来店予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/carsindealers.html?rstid=roox_top_sp_04#/search!modelName=%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9",
+      "text": "試乗予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/sim.html?rstid=roox_top_sp_02",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CATALOG/ROOX/?rstid=roox_top_sp_03",
+      "text": "カタログ請求",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles.html",
+      "text": "クルマをお探しの方",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+      "text": "Toggle 企業・IR情報 menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "企業情報TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "ニュースリリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/SUSTAINABILITY/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "サステナビリティ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/IR/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "投資家の皆さまへ",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECRUIT/",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+      "text": "Toggle エンターテイメント menu",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/",
+      "text": "エンターテイメントTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/#num_a02",
+      "text": "ダウンロード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://shop.nissan.co.jp/?utm_source=nissanhometop",
+      "text": "NISSAN ONLINE SHOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan-global.com/JP/PLANT/index.html?rstid=20140314rst000000221&adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "工場見学",
+      "is_pdf": false
+    },
+    {
+      "url": "http://drive.nissan.co.jp/",
+      "text": "ドライブナビ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+      "text": "Toggle 購入検討サポート menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/BUYING/",
+      "text": "クルマ購入検討ガイド",
+      "is_pdf": false
+    },
+    {
+      "url": "http://map2.nissan.co.jp/c/f/DEALER/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "販売店検索",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CONFIGURATOR/SIMULATOR/",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CREDIT/",
+      "text": "購入プラン・保険",
+      "is_pdf": false
+    },
+    {
+      "url": "https://u-car.nissan.co.jp/",
+      "text": "中古車検索",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+      "text": "Toggle Nissan Social menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanJP",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanJP",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissanjapan/",
+      "text": "instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/NissanNewsroom",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SITEGUIDE/index.html",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/siteinfo.html",
+      "text": "ご利用にあたって",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECALL/index.html",
+      "text": "リコール情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://faq2.nissan.co.jp/?site_domain=default",
+      "text": "FAQ/お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "Corporate Website (EN)",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SP/REDIRECT/INFO/index.html",
+      "text": "本ページへのご意見",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/dealers.html",
+      "text": "来店予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/carsindealers.html#/search!modelName=ルークス",
+      "text": "試乗予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CATALOG/ROOX/",
+      "text": "カタログ請求",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_autech_line_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2603/pdf/roox_2603_autech_line_specsheet_01.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853215",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-white.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/roox/2508/accessories/storage_luggage/roox_2508_accessories_storage_luggage_cs1_video_tn_001.jpg",
+      "alt": "ラゲッジボード/ネット/バー セット（リヤシートベルト固定ホルダー付き）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2002/top/roox_spec_btn_01.gif",
+      "alt": "主要装備一覧/諸元表：ルークス"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/roox/2508/pdf/roox_2508_spec_autech_line_btn.jpg",
+      "alt": "主要装備一覧/諸元表：ルークス AUTECH line"
+    },
+    {
+      "src": "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=11415996-1063-46c8-9592-2a7fdfc414b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2d84d97f-7081-44e0-aba5-624c8d2875e0&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=11415996-1063-46c8-9592-2a7fdfc414b8&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2d84d97f-7081-44e0-aba5-624c8d2875e0&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=82695f14-8dda-40bf-bb34-f4778b767093&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2d84d97f-7081-44e0-aba5-624c8d2875e0&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=82695f14-8dda-40bf-bb34-f4778b767093&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=2d84d97f-7081-44e0-aba5-624c8d2875e0&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.gunosy.com/v1/beacon?tag_id=2748",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=54e86ad6-902d-48fe-ba1f-b00f7e0cd12b&e=pv&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97132646&tm=gtm002&Ver=2&mid=400586c6-7b0a-40bc-b433-5b0f2f3bd3dc&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&kw=%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9,roox,%E6%B8%9B%E7%A8%8E,%E3%82%A8%E3%82%B3%E3%82%AB%E3%83%BC,%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A,%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0,%E4%BD%8E%E7%87%83%E8%B2%BB,%E3%82%BF%E3%83%BC%E3%83%9C,%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%8F%E3%82%A4%E3%83%88%E3%83%AF%E3%82%B4%E3%83%B3,%E4%BE%A1%E6%A0%BC,%E7%A8%8E%E9%87%91&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&r=&lt=787&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=989975",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97142661&tm=gtm002&Ver=2&mid=2f54607e-15ca-4baf-bfd5-007f981deb49&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9%20%5B%20ROOX%20%5D%20%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A%20%7C%20%E5%AE%A4%E5%86%85%20%7C%20%E5%8F%8E%E7%B4%8D%E3%83%BB%E3%83%A9%E3%82%B2%E3%83%83%E3%82%B8&kw=%E3%83%AB%E3%83%BC%E3%82%AF%E3%82%B9,roox,%E6%B8%9B%E7%A8%8E,%E3%82%A8%E3%82%B3%E3%82%AB%E3%83%BC,%E8%BB%BD%E8%87%AA%E5%8B%95%E8%BB%8A,%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0,%E4%BD%8E%E7%87%83%E8%B2%BB,%E3%82%BF%E3%83%BC%E3%83%9C,%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%8F%E3%82%A4%E3%83%88%E3%83%AF%E3%82%B4%E3%83%B3,%E4%BE%A1%E6%A0%BC,%E7%A8%8E%E9%87%91&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Froox%2Finterior%2Fstorage_luggage.html&r=&lt=787&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=664948",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+    "title": "日産：ルークス [ ROOX ] 軽自動車 | 室内 | 収納・ラゲッジ",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:53:42.398286+00:00",
+  "source_meta": {
+    "url": "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html",
+    "rank": 2,
+    "selection_reason": "mapped_owned_page_top_3",
+    "mapping_quality": "strong",
+    "mapping_score": 49.0,
+    "mapping_reason": [
+      "token_overlap:4",
+      "existing_category_match",
+      "expected_page_type:family_practicality"
+    ],
+    "brand_topic_category": "Family practicality, space and comfort",
+    "related_queries_seed": [
+      {
+        "query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How much boot space do families need for weekend trips with two children in Japan?",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Best family cars for frequent long highway trips between Tokyo and regional areas in Japan",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Small minivan alternatives suitable for school runs and shopping in crowded Japanese streets",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Roox compact family car review for city parking in Japan",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

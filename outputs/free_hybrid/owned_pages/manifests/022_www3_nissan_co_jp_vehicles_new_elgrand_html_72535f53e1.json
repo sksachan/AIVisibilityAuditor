@@ -1,0 +1,802 @@
+{
+  "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+  "kind": "owned",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 13511,
+    "wordish_count": 2827,
+    "heading_count": 9,
+    "bullet_count": 80,
+    "link_count": 98,
+    "image_count": 18,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 11,
+    "raw_url_count": 101,
+    "numeric_fact_count": 197,
+    "question_count": 9,
+    "unique_line_count": 261,
+    "numeric_facts_sample": [
+      "1",
+      "360",
+      "4,082,100",
+      "600円",
+      "250",
+      "7人",
+      "2",
+      "350",
+      "0",
+      "3",
+      "2603",
+      "2403",
+      "2210",
+      "2010",
+      "2310",
+      "1803",
+      "2012",
+      "26",
+      "20",
+      "26127%",
+      "261440%",
+      "261400%",
+      "2610%",
+      "2624%",
+      "260%"
+    ],
+    "links_sample": [
+      "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2603/top/elgrand_2603_top_pfa_pc_02.jpg.ximg.full.hero.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2403/configure/grade/elgrand_2403_250highway_star_premium_urban_chrome_2wd.jpg.ximg.l_12_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2403/configure/grade/elgrand_2403_350highway_star_premium_2wd.jpg.ximg.l_12_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_001.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_02.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_003.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_2010_ranking_option_0001.jpg",
+      "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_2010_ranking_option_0002.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2310/top/elgrand_2310_ranking_option_0003.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_01.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_02.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_03.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/1803/top/elgrand_spec_btn_01.gif",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_spec_btn_03.gif",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2012/specifications/sp/elgrand_spec_btn_001.gif",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2012/specifications/sp/elgrand_spec_btn_02.gif",
+      "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=b7981796-1f1d-49c7-903c-419bcb2b1098&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=63dc0fc9-e24c-46a6-abb9-44165e7d3ce6&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "https://www3.nissan.co.jp/vehicles/new/elgrand.html#container",
+      "https://www.nissan.co.jp/CARLINEUP/",
+      "https://www.nissan.co.jp/OWNERS/",
+      "https://www.nissan.co.jp/UNDERSTAND/",
+      "https://www3.nissan.co.jp/MYPAGE/",
+      "https://www3.nissan.co.jp/vehicles/new/elgrand.html"
+    ],
+    "image_alt_count": 19
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 3,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Product",
+      "Brand",
+      "Offer",
+      "QuantitativeValue",
+      "PropertyValue",
+      "EngineSpecification"
+    ],
+    "product_schema": true,
+    "faq_schema": false,
+    "offer_schema": true,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 113,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 74,
+    "main_chars": 4003,
+    "footer_chars": 386,
+    "tables_chars": 508,
+    "metadata_chars": 359,
+    "full_markdown_chars": 13511
+  },
+  "metadata": {
+    "title": "日産：エルグランド [ ELGRAND ] ミニバン/ワゴン トップ",
+    "description": "日産エルグランド（ELGRAND）の公式サイト。全方位の安心を支える、360°セーフティアシストを搭載したエルグランドをご紹介します。先進技術はもちろん、風格漂う外観、ゆとりある室内空間、日常を置き去りにする爽快な走りなど、エルグランドのすべてをご覧ください。",
+    "language": "ja-JP",
+    "sourceURL": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+    "robots": "index,follow",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Product",
+      "Brand",
+      "Offer",
+      "QuantitativeValue",
+      "PropertyValue",
+      "EngineSpecification"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "text": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html#container",
+      "text": "メインコンテンツへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html#footer-element",
+      "text": "https://www3.nissan.co.jp/vehicles/new/elgrand.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "https://www3.nissan.co.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CARLINEUP/",
+      "text": "クルマを探す",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/OWNERS/",
+      "text": "オーナーの方へ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/UNDERSTAND/",
+      "text": "日産を知る",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/MYPAGE/",
+      "text": "MyNISSAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/exterior.html",
+      "text": "外観・デザイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/exterior.html",
+      "text": "外観・デザイン TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/exterior/equipment.html",
+      "text": "外装 / タイヤ・ホイール",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior.html",
+      "text": "室内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior.html",
+      "text": "室内 TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/interior.html",
+      "text": "内装",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/interior_space.html",
+      "text": "室内空間",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/utility.html",
+      "text": "ユーティリティ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/amenity.html",
+      "text": "快適性",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/navi_audio.html",
+      "text": "ナビ・オーディオ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety.html",
+      "text": "走行・安全",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety.html",
+      "text": "走行・安全 TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety/nim.html",
+      "text": "360°セーフティアシスト［前方・側方・後方］",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety/performance.html",
+      "text": "走行性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety/eco.html",
+      "text": "環境・品質",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety/safety.html",
+      "text": "安全性能",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications.html",
+      "text": "価格・グレード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications.html",
+      "text": "価格・グレード TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/sp.html",
+      "text": "アーバンクロム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/vip.html",
+      "text": "VIP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/autech.html",
+      "text": "AUTECH",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/lv.html",
+      "text": "LV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/nismo.html",
+      "text": "NISMO",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/comparison.html?rstid=navi_comparison",
+      "text": "グレード間比較",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/sim.html",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CREDIT/BVC/ELGRAND/index.html",
+      "text": "月々33,600円から お支払い例はこちら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/carsindealers.html#/search!modelName=%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89",
+      "text": "試乗予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/product.html",
+      "text": "各車両の工場出荷時期の目処について >",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/simulation.html#configure/A:E521401G74/exterior-colour",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/performance_safety/nim.html",
+      "text": "先進技術",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/EVENT/PRIZE/26/01/?syid=20260416_014&260416_vlp_bn",
+      "text": "購入資金が当たる！キャンペーン実施中",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/SP/MINIVAN/",
+      "text": "NISSAN MINIVAN COLLECTION",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/interior.html#amenity",
+      "text": "プラズマクラスター技術搭載エアコン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/BRAND/",
+      "text": "日産ブランドサイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CREDIT/BVC/ELGRAND/index.html",
+      "text": "残価設定型クレジット",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/OPTIONAL-PARTS/NAVI_AUDIO/NISSAN_CONNECT/index.html",
+      "text": "NissanConnect",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SP/ELGRAND/VLP/OPTION/option_all.html",
+      "text": "オプションパーツ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/exterior.html#bodyColor",
+      "text": "その他のボディカラー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/vip.html",
+      "text": "詳しくはこちら>",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/autech.html",
+      "text": "詳しくはこちら>",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand/specifications/lv.html#lv",
+      "text": "詳しくはこちら>",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/skyline.html",
+      "text": "WEBカタログへ＞",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/serena.html",
+      "text": "WEBカタログへ＞",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_vip_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_vip_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2410/pdf/elgrand_autech_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2410/pdf/elgrand_autech_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www3.nissan.co.jp/dealers.html",
+      "text": "来店予約",
+      "is_pdf": false
+    },
+    {
+      "url": "http://map2.nissan.co.jp/c/f/CATALOG/ELGRAND/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "カタログ請求",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CONSULTATION/",
+      "text": "オンライン相談",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles.html",
+      "text": "クルマをお探しの方",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+      "text": "Toggle 企業・IR情報 menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "企業情報TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "ニュースリリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/SUSTAINABILITY/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "サステナビリティ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/IR/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "投資家の皆さまへ",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECRUIT/",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+      "text": "Toggle エンターテイメント menu",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/",
+      "text": "エンターテイメントTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/ENTERTAINMENT/#num_a02",
+      "text": "ダウンロード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://shop.nissan.co.jp/?utm_source=nissanhometop",
+      "text": "NISSAN ONLINE SHOP",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan-global.com/JP/PLANT/index.html?rstid=20140314rst000000221&adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "工場見学",
+      "is_pdf": false
+    },
+    {
+      "url": "http://drive.nissan.co.jp/",
+      "text": "ドライブナビ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+      "text": "Toggle 購入検討サポート menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/BUYING/",
+      "text": "クルマ購入検討ガイド",
+      "is_pdf": false
+    },
+    {
+      "url": "http://map2.nissan.co.jp/c/f/DEALER/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "販売店検索",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CONFIGURATOR/SIMULATOR/",
+      "text": "セルフ見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/CREDIT/",
+      "text": "購入プラン・保険",
+      "is_pdf": false
+    },
+    {
+      "url": "https://u-car.nissan.co.jp/",
+      "text": "中古車検索",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+      "text": "Toggle Nissan Social menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanJP",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanJP",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissanjapan/",
+      "text": "instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/NissanNewsroom",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SITEGUIDE/index.html",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/privacy.html",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/siteinfo/siteinfo.html",
+      "text": "ご利用にあたって",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/RECALL/index.html",
+      "text": "リコール情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://faq2.nissan.co.jp/?site_domain=default",
+      "text": "FAQ/お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "Corporate Website (EN)",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan.co.jp/SP/REDIRECT/INFO/index.html",
+      "text": "本ページへのご意見",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CATALOG/ELGRAND/",
+      "text": "カタログ請求",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_vip_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2409/pdf/elgrand_vip_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2410/pdf/elgrand_autech_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "text": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2410/pdf/elgrand_autech_specsheet.pdf?adobe_mc=MCMID%3D25934235066663339652888171514210487631%7CMCORGID%3D0BCEE1CE543D41F50A4C98A5%2540AdobeOrg%7CTS%3D1778853291",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-text.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/pace-omni-nav/ui-build/assets/images/nissan-next-logo-white.svg",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2603/top/elgrand_2603_top_pfa_pc_02.jpg.ximg.full.hero.jpg",
+      "alt": "ELGRAND"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2603/top/elgrand_2603_top_pfa_pc_01.jpg.ximg.full.hero.jpg",
+      "alt": "ELGRAND"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2403/configure/grade/elgrand_2403_250highway_star_s_7p_2wd.jpg.ximg.l_12_m.smart.jpg",
+      "alt": "250Highway STAR S [7人乗り]（2WD）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2403/configure/grade/elgrand_2403_250highway_star_premium_urban_chrome_2wd.jpg.ximg.l_12_m.smart.jpg",
+      "alt": "250Highway STAR Premium Urban CHROME（2WD）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2403/configure/grade/elgrand_2403_350highway_star_premium_2wd.jpg.ximg.l_12_m.smart.jpg",
+      "alt": "350Highway STAR Premium（2WD）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_001.jpg",
+      "alt": "250Highway STAR S"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_02.jpg",
+      "alt": "250Highway STAR Premium Urban CHROME"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_grade_003.jpg",
+      "alt": "350Highway STAR Premium"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_2010_ranking_option_0001.jpg",
+      "alt": "日産オリジナルナビゲーション取付パッケージ+ステアリングスイッチ"
+    },
+    {
+      "src": "https://www3.nissan.co.jp/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_2010_ranking_option_0002.jpg",
+      "alt": "ワンタッチオートスライドドア〈運転席側〉 +リモコンオートバックドア"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2310/top/elgrand_2310_ranking_option_0003.jpg",
+      "alt": "ナビレコツインモニターパック（MM523D-L）+ETC2.0"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_01.jpg",
+      "alt": "ピュアホワイトパール（3P）〈＃QAC・スクラッチシールド〉（特別塗装色）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_02.jpg",
+      "alt": "ミッドナイトブラック（P）〈＃GAT・スクラッチシールド〉（特別塗装色）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2210/top/elgrand_2210_top_ranking_color_03.jpg",
+      "alt": "ディープクリムゾン（PM）〈＃NAW・スクラッチシールド〉（特別塗装色）"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/1803/top/elgrand_spec_btn_01.gif",
+      "alt": "主要装備一覧／諸元表：エルグランド"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2010/top/elgrand_spec_btn_03.gif",
+      "alt": "主要装備一覧／諸元表：VIP"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2012/specifications/sp/elgrand_spec_btn_001.gif",
+      "alt": "主要装備一覧／諸元表：エルグランド アーバンクロム"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/jp/vehicles/elgrand/2012/specifications/sp/elgrand_spec_btn_02.gif",
+      "alt": "主要装備一覧／諸元表：エルグランド AUTECH"
+    },
+    {
+      "src": "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=b7981796-1f1d-49c7-903c-419bcb2b1098&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=63dc0fc9-e24c-46a6-abb9-44165e7d3ce6&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=b7981796-1f1d-49c7-903c-419bcb2b1098&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=63dc0fc9-e24c-46a6-abb9-44165e7d3ce6&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853118883.140624854822621592&txn_id=nvcld&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=137a5c3a-9845-4169-8b83-20c640b8c127&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=63dc0fc9-e24c-46a6-abb9-44165e7d3ce6&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=5&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=137a5c3a-9845-4169-8b83-20c640b8c127&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=63dc0fc9-e24c-46a6-abb9-44165e7d3ce6&pt=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&tw_document_href=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&tw_iframe_status=0&tw_pid_src=2&twpid=tw.1778853118883.140624854822621592&txn_id=o1yc3&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.gunosy.com/v1/beacon?tag_id=2748",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97132646&tm=gtm002&Ver=2&mid=3e88005d-0049-410c-9c7e-0ad1f6a56418&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&kw=%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89,ELGRAND,%E6%97%A5%E7%94%A3,NISSAN,%E3%83%8B%E3%83%83%E3%82%B5%E3%83%B3,%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3,%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0,%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3,%E4%BE%A1%E6%A0%BC,%E8%89%B2,%E6%B8%9B%E7%A8%8E,%E3%82%A8%E3%82%B3%E3%82%AB%E3%83%BC&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&r=&lt=791&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=195802",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97142661&tm=gtm002&Ver=2&mid=519f2d42-5d3d-4150-b52e-db497e529790&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=%E6%97%A5%E7%94%A3%EF%BC%9A%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%20%5B%20ELGRAND%20%5D%20%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3%2F%E3%83%AF%E3%82%B4%E3%83%B3%20%E3%83%88%E3%83%83%E3%83%97&kw=%E3%82%A8%E3%83%AB%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89,ELGRAND,%E6%97%A5%E7%94%A3,NISSAN,%E3%83%8B%E3%83%83%E3%82%B5%E3%83%B3,%E3%83%9F%E3%83%8B%E3%83%90%E3%83%B3,%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0,%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3,%E4%BE%A1%E6%A0%BC,%E8%89%B2,%E6%B8%9B%E7%A8%8E,%E3%82%A8%E3%82%B3%E3%82%AB%E3%83%BC&p=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&r=&lt=791&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=628656",
+      "alt": ""
+    },
+    {
+      "src": "https://aw.dw.impact-ad.jp/ut/rep?u=959&v=532&r=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&t=3366&fu=a46db15f-e84e-450d-8634-f220da84ca91",
+      "alt": ""
+    },
+    {
+      "src": "https://aw.dw.impact-ad.jp/ut/rep?u=361&v=147&r=https%3A%2F%2Fwww3.nissan.co.jp%2Fvehicles%2Fnew%2Felgrand.html&t=3249",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=54e86ad6-902d-48fe-ba1f-b00f7e0cd12b&e=pv&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+    "title": "日産：エルグランド [ ELGRAND ] ミニバン/ワゴン トップ",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:54:54.450053+00:00",
+  "source_meta": {
+    "url": "https://www3.nissan.co.jp/vehicles/new/elgrand.html",
+    "rank": 3,
+    "selection_reason": "mapped_owned_page_top_3",
+    "mapping_quality": "strong",
+    "mapping_score": 66.8,
+    "mapping_reason": [
+      "token_overlap:5",
+      "existing_category_match",
+      "expected_page_type:family_practicality",
+      "model_match:elgrand"
+    ],
+    "brand_topic_category": "Family practicality, space and comfort",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Elgrand long-trip comfort features and seating arrangements for multi-passenger travel",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Elgrand long-trip comfort features and seating arrangements for multi-passenger travel",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

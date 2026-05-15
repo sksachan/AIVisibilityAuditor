@@ -1,0 +1,952 @@
+{
+  "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 11397,
+    "wordish_count": 1469,
+    "heading_count": 8,
+    "bullet_count": 96,
+    "link_count": 113,
+    "image_count": 17,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 117,
+    "numeric_fact_count": 87,
+    "question_count": 11,
+    "unique_line_count": 252,
+    "numeric_facts_sample": [
+      "2026",
+      "1",
+      "661",
+      "486",
+      "5142",
+      "451",
+      "30,325",
+      "39",
+      "20",
+      "30",
+      "2024",
+      "09",
+      "24",
+      "25",
+      "1824531537655813",
+      "318",
+      "2021",
+      "10",
+      "300",
+      "9",
+      "8",
+      "3",
+      "0",
+      "200",
+      "02"
+    ],
+    "links_sample": [
+      "https://www.facebook.com/tr?id=1824531537655813&ev=PageView&noscript=1",
+      "https://static.foxdealer.com/318/2021/10/AV-Nissan-logo-with-tagline.png",
+      "https://static.foxdealer.com/assets/q/Q/compressed/300x300_qQ7ER.png",
+      "https://static.foxdealer.com/assets/O/g/compressed/300x300_OggDL.png",
+      "https://static.foxdealer.com/assets/V/m/compressed/300x300_VmGL1.png",
+      "https://static.foxdealer.com/assets/9/1/compressed/300x300_91JEz.png",
+      "https://static.foxdealer.com/assets/l/R/compressed/300x300_lR2k7.png",
+      "https://static.foxdealer.com/assets/o/Z/compressed/300x300_oZVYN.png",
+      "https://static.foxdealer.com/assets/8/3/compressed/300x300_83M23.png",
+      "https://static.foxdealer.com/assets/0/8/compressed/300x300_08YYV.png",
+      "https://static.foxdealer.com/assets/Q/n/compressed/300x300_QnQY9.png",
+      "https://static.foxdealer.com/assets/Q/k/compressed/300x300_Qk6ZZ.png",
+      "https://static.foxdealer.com/assets/y/w/compressed/300x300_ywwnE.png",
+      "https://static.foxdealer.com/assets/L/Z/compressed/300x300_LZJkD.png",
+      "https://static.foxdealer.com/318/2024/10/avnissan_SRP_20-yr-200k-promo.jpg",
+      "https://static.foxdealer.com/global/2026/02/websites-by-catalyst-fd-full-color-lightbackground2x-d63cb5f0af.png ",
+      "https://cdn.complyauto.com/cookiebanner/assets/CA_SVG_Icon.svg",
+      "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+      "https://www.avnissan.com/",
+      "https://maps.google.com/?q= 451 + Auto Center Dr + Palmdale + CA + 93551 ",
+      "https://www.avnissan.com/easy-pass/",
+      "https://www.avnissan.com/inventory/new/",
+      "https://www.avnissan.com/inventory/new-nissan-altima/ ",
+      "https://www.avnissan.com/inventory/new-nissan-altima/",
+      "https://www.avnissan.com/inventory/?s=&type=used%2ccertified&display_price=5000%2c20000&ordering=display_price-asc"
+    ],
+    "image_alt_count": 17
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "WebPage",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebSite",
+      "Person",
+      "AutoDealer",
+      "Place",
+      "PostalAddress",
+      "GeoCoordinates",
+      "ReadAction",
+      "ListItem",
+      "SearchAction",
+      "EntryPoint",
+      "PropertyValueSpecification"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 77,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 3978,
+    "main_chars": 454,
+    "footer_chars": 602,
+    "tables_chars": 0,
+    "metadata_chars": 565,
+    "full_markdown_chars": 11397
+  },
+  "metadata": {
+    "title": "Can the Nissan LEAF & ARIYA use Tesla Chargers? [2026]",
+    "description": "Charge the Nissan LEAF and ARIYA safely with Tesla-compatible options at Antelope Valley Nissan serving Lancaster, Palmdale, Lakeview, and Acton.",
+    "language": "en",
+    "sourceURL": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "WebPage",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebSite",
+      "Person",
+      "AutoDealer",
+      "Place",
+      "PostalAddress",
+      "GeoCoordinates",
+      "ReadAction",
+      "ListItem",
+      "SearchAction",
+      "EntryPoint",
+      "PropertyValueSpecification"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+      "text": "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/",
+      "text": "https://www.avnissan.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.google.com/?q= 451 + Auto Center Dr + Palmdale + CA + 93551 ",
+      "text": "451 Auto Center Dr , Palmdale , CA 93551 Directions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/AntelopeValleyNissan",
+      "text": "https://www.facebook.com/AntelopeValleyNissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/avnissan",
+      "text": "https://twitter.com/avnissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/avnissan/",
+      "text": "https://www.instagram.com/avnissan/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCulbNSPCB82oouPfrU0aAig",
+      "text": "https://www.youtube.com/channel/UCulbNSPCB82oouPfrU0aAig",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/easy-pass/",
+      "text": "Easy Pass",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new/",
+      "text": "New",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-altima/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-altima/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-altima/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-sentra/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-sentra/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-sentra/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/contact-us/ ",
+      "text": "https://www.avnissan.com/contact-us/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-versa",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-leaf/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-leaf/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-leaf/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-z/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-z/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-z/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-kicks/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-kicks/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-kicks/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-rogue/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-rogue/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-rogue/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-rogue_plug--in_hybrid/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-rogue_plug--in_hybrid/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-rogue_plug--in_hybrid/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-murano/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-murano/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-murano/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-pathfinder/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-pathfinder/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-pathfinder/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-armada/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-armada/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-armada/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-frontier/ ",
+      "text": "https://www.avnissan.com/inventory/new-nissan-frontier/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new-nissan-frontier/",
+      "text": "VIEW INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?s=&type=used%2ccertified&display_price=5000%2c20000&ordering=display_price-asc",
+      "text": "Used",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?type=used%2ccertified&ordering=display_price-asc",
+      "text": "View All 39 Pre-Owned Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?condition=certified",
+      "text": "View Certified Pre-Owned Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?type=used%2ccertified&display_price=10000%2c15000%7c15000%2c20000&ordering=display_price-asc",
+      "text": "Vehicles Under $20K",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?dealer_offer=cpo-special",
+      "text": "Certified Pre-Owned Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/#tradeIn",
+      "text": "Value Your Trade",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanusa.com/recalls-vin/#/#/Home",
+      "text": "Nissan Recall",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/30-day-exchange/",
+      "text": "30-Day Vehicle Exchange Program",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/nissan-commercial/",
+      "text": "Commercial",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+      "text": "Electric",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/nissan-ev-center/",
+      "text": "Nissan EV Center",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/2026-nissan-leaf/",
+      "text": "2026 Nissan Leaf",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/homepage-specials/",
+      "text": "Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?dealer_offer=new-vehicle-special",
+      "text": "New Car Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/?dealer_offer=cpo-special",
+      "text": "Certified Pre Owned",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/homepage-specials/",
+      "text": "Homepage Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-specials/",
+      "text": "Service & Parts Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/av-nissan-powertrain-warranty/",
+      "text": "AV Nissan Powertrain Warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/military-discount-program/",
+      "text": "Nissan Military Program",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanusa.com/los-angeles-area/dealer-incentives.html",
+      "text": "Nissan Incentives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/finance-application/",
+      "text": "Financing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+      "text": "Get Pre-Qualified!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/finance-application/",
+      "text": "Finance Application",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/payment-calculator/",
+      "text": "Payment Calculator",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/get-pre-qualified-with-capital-one-no-impact-to-your-credit-score/",
+      "text": "Get Pre-Qualified with Capital One (no impact to your credit score)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/schedule-service/",
+      "text": "Service",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/schedule-service/",
+      "text": "Schedule Service",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-department/",
+      "text": "Service Department",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-parts-financing/",
+      "text": "Service & Parts Financing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/nissan-recall-lookup/",
+      "text": "Nissan Recall",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/brakes/",
+      "text": "Brakes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/oil-change/",
+      "text": "Oil Change",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/tire-center/",
+      "text": "Tire Center",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/battery/",
+      "text": "Battery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/electric-vehicle-maintenance/",
+      "text": "Electric Vehicle Maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-specials/",
+      "text": "Parts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/parts/",
+      "text": "AV Nissan Parts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-specials/",
+      "text": "Parts & Service Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://parts.avnissan.com/",
+      "text": "Order Parts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissantireadvantage.com/?uid=73721C2E-9AD0-4424-97738E9C77090D11",
+      "text": "Online Tire Store",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/model-showroom/",
+      "text": "Model Info",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/model-showroom/",
+      "text": "Model Showroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/our-dealership/",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/our-dealership/",
+      "text": "Why Buy Here",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/meet-our-staff/",
+      "text": "Meet Our Staff",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/contact-us/",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/hours-directions/",
+      "text": "Hours & Directions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/reviews/",
+      "text": "Reviews and Testimonials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/employment/",
+      "text": "Employment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanusa.com/",
+      "text": "Nissan USA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/av-nissan-powertrain-warranty/",
+      "text": "https://www.avnissan.com/av-nissan-powertrain-warranty/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/2024-lineup/",
+      "text": "2024 Lineup",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/370z/",
+      "text": "370Z",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/antelope-valley-nissan/",
+      "text": "Antelope Valley Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/armada/",
+      "text": "Armada",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/car-buying-tips/",
+      "text": "Car Buying Tips",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/frontier/",
+      "text": "Frontier",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/juke/",
+      "text": "Juke",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/kicks/",
+      "text": "Kicks",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/lancaster/",
+      "text": "Lancaster",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/leaf/",
+      "text": "Leaf",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/maxima/",
+      "text": "Maxima",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/new-nissans/",
+      "text": "New Nissans",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/nissan-comparisons/",
+      "text": "Nissan Comparisons",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/nissan-warranty/",
+      "text": "Nissan Warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/pathfinder/",
+      "text": "Pathfinder",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/preowned/",
+      "text": "Preowned",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/rogue/",
+      "text": "Rogue",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/titan/",
+      "text": "Titan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/uncategorized/",
+      "text": "Uncategorized",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/versa/",
+      "text": "Versa",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/category/versa-note/",
+      "text": "Versa Note",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/2025-nissan-leaf-sv-plus-vs-2025-nissan-ariya-platinum/",
+      "text": "«OLDER POSTS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/whats-the-difference-between-the-2026-nissan-leaf-vs-2025/",
+      "text": "NEWER POSTS»",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&src=sdkpreparse",
+      "text": "Share",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/",
+      "text": "Antelope Valley Nissan https://static.foxdealer.com/318/2021/10/AV-Nissan-logo-with-tagline.png",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/hours-directions/",
+      "text": "Directions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+      "text": "INVENTORY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/new/",
+      "text": "New Inventory",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/used/",
+      "text": "Pre-Owned Inventory",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/homepage-specials/",
+      "text": "New Car Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/used-specials/",
+      "text": "Pre-Owned Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+      "text": "SERVICE & PARTS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-department/",
+      "text": "Service Dept.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/service-specials",
+      "text": "Service Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/parts-specials/",
+      "text": "Parts Specials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.foxdealer.com/",
+      "text": "https://www.foxdealer.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/accessibility/",
+      "text": "Accessibility",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/privacy-policy/",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/sitemap/",
+      "text": "Site Map",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/do-not-sell-my-personal-information/",
+      "text": "Do Not Sell My Personal Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/ccpa-requests/",
+      "text": "Do Not Sell My Personal Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/inventory/New",
+      "text": "View All New Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/privacy-policy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.avnissan.com/ccpa-requests",
+      "text": "Your California Privacy Choices",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.facebook.com/tr?id=1824531537655813&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://static.foxdealer.com/318/2021/10/AV-Nissan-logo-with-tagline.png",
+      "alt": "Antelope Valley Nissan"
+    },
+    {
+      "src": "https://static.foxdealer.com/318/2022/10/Palmdale-Shop-Local.png?w=600",
+      "alt": ""
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/q/Q/compressed/300x300_qQ7ER.png",
+      "alt": "Altima"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/O/g/compressed/300x300_OggDL.png",
+      "alt": "Sentra"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/V/m/compressed/300x300_VmGL1.png",
+      "alt": "Versa"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/9/1/compressed/300x300_91JEz.png",
+      "alt": "Leaf"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/l/R/compressed/300x300_lR2k7.png",
+      "alt": "Nissan Z"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/o/Z/compressed/300x300_oZVYN.png",
+      "alt": "Kicks"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/8/3/compressed/300x300_83M23.png",
+      "alt": "Rogue"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/0/8/compressed/300x300_08YYV.png",
+      "alt": "rogue plug-in hybrid"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/Q/n/compressed/300x300_QnQY9.png",
+      "alt": "Murano"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/Q/k/compressed/300x300_Qk6ZZ.png",
+      "alt": "Pathfinder"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/y/w/compressed/300x300_ywwnE.png",
+      "alt": "Armada"
+    },
+    {
+      "src": "https://static.foxdealer.com/assets/L/Z/compressed/300x300_LZJkD.png",
+      "alt": "Frontier"
+    },
+    {
+      "src": "https://static.foxdealer.com/318/2024/10/avnissan_SRP_20-yr-200k-promo.jpg",
+      "alt": "nav banner"
+    },
+    {
+      "src": "https://static.foxdealer.com/318/2020/09/AV-Nissan-logo-with-tagline-1.png",
+      "alt": "Antelope Valley Nissan"
+    },
+    {
+      "src": "https://static.foxdealer.com/global/2026/02/websites-by-catalyst-fd-full-color-lightbackground2x-d63cb5f0af.png ",
+      "alt": "Website by Fox Dealer"
+    },
+    {
+      "src": "https://www.cargurus.com/Cars/api/2.0/recordMetricsImage.action?k=00000000-0000-19f8-0000-00000000fd6e&x=%7B%22ns%22%3A1%7D",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.complyauto.com/cookiebanner/assets/CA_SVG_Icon.svg",
+      "alt": "Opt-Out Icon"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+    "title": "Can the Nissan LEAF & ARIYA use Tesla Chargers? [2026]",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:00:53.761482+00:00",
+  "source_meta": {
+    "title": "Can the Nissan LEAF \\u0026 ARIYA use Tesla Chargers? [2026]",
+    "url": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+    "source_name": "Antelope Valley Nissan",
+    "source_domain": "www.avnissan.com",
+    "source_type": "partner_infrastructure",
+    "snippet": "The 2025 ARIYA features a CCS1 port, which supports fast DC charging and works with the Nissan ARIYA Tesla adapter for Tesla Super...",
+    "citation_count": 1,
+    "first_cited_position": 13,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

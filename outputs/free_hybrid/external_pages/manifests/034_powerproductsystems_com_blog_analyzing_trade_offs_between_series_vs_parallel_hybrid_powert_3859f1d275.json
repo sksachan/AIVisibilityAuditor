@@ -1,0 +1,152 @@
+{
+  "url": "https://powerproductsystems.com/blog/analyzing-trade-offs-between-series-vs-parallel-hybrid-powertrains-at-sea/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "blocked",
+  "extraction_status": "blocked",
+  "content_score_policy": "exclude_from_content_score",
+  "geo_analysis_ready": false,
+  "extraction_quality_score": 0.22,
+  "extraction_metrics": {
+    "markdown_chars": 282,
+    "wordish_count": 35,
+    "heading_count": 8,
+    "bullet_count": 0,
+    "link_count": 0,
+    "image_count": 0,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 0,
+    "numeric_fact_count": 1,
+    "question_count": 0,
+    "unique_line_count": 10,
+    "numeric_facts_sample": [
+      "403"
+    ],
+    "links_sample": [],
+    "image_alt_count": 0
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": false,
+    "low_noise_ratio": true,
+    "faq_like": false,
+    "comparison_terms": true,
+    "actionable_terms": false,
+    "domain_specific_terms": true,
+    "key_facts": false,
+    "statistics_or_numbers": false,
+    "source_citations": true,
+    "internal_links": false,
+    "external_links": false,
+    "pdf_or_spec_links": false,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": false,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": false,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 2,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 60,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 0,
+    "full_markdown_chars": 282
+  },
+  "metadata": {
+    "title": "403 Forbidden",
+    "description": "",
+    "language": "",
+    "sourceURL": "https://powerproductsystems.com/blog/analyzing-trade-offs-between-series-vs-parallel-hybrid-powertrains-at-sea/",
+    "statusCode": 403,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [],
+  "linked_pdfs": [],
+  "images": [],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 403,
+    "final_url": "https://powerproductsystems.com/blog/analyzing-trade-offs-between-series-vs-parallel-hybrid-powertrains-at-sea/",
+    "error": null,
+    "blocked": true,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 403,
+    "final_url": "https://powerproductsystems.com/blog/analyzing-trade-offs-between-series-vs-parallel-hybrid-powertrains-at-sea/",
+    "title": "403 Forbidden",
+    "error": null,
+    "blocked": true
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:02:02.114140+00:00",
+  "source_meta": {
+    "title": "Analyzing Trade-Offs Between Series vs Parallel Hybrid Powertrains at Sea | Power Products Blog",
+    "url": "https://powerproductsystems.com/blog/analyzing-trade-offs-between-series-vs-parallel-hybrid-powertrains-at-sea/",
+    "source_name": "powerproductsystems.com",
+    "source_domain": "powerproductsystems.com",
+    "source_type": "other",
+    "snippet": "The engine and generator operate independent of propeller load demands in a series hybrid, allowing the engine to remain in narrow...",
+    "citation_count": 1,
+    "first_cited_position": 3,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

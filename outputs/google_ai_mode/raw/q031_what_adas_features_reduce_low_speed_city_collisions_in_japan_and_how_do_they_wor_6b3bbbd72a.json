@@ -1,0 +1,496 @@
+{
+  "query_id": "q031",
+  "query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+  "query_type": "non_branded",
+  "brand_topic_category": "Safety, reliability and trust",
+  "journey_stage": "trust_safety",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071a99895d9038430dcc42",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Qm8jdZj2-RJPUU3dTLrflQ/6a071a99895d9038430dcc42.json",
+      "created_at": "2026-05-15 13:07:37 UTC",
+      "processed_at": "2026-05-15 13:07:37 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=What+ADAS+features+reduce+low-speed+city+collisions+in+Japan+and+how+do+they+work%3F&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/Qm8jdZj2-RJPUU3dTLrflQ/6a071a99895d9038430dcc42.html",
+      "prettify_html_file": "https://serpapi.com/searches/Qm8jdZj2-RJPUU3dTLrflQ/6a071a99895d9038430dcc42.prettify",
+      "total_time_taken": 7.57
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "In Japan, the dense urban layout and unique aging demographic have led to specialized Advanced Driver Assistance Systems (ADAS). These systems target typical low-speed city accidents, such as parking lot mishaps and intersection collisions with pedestrians.",
+        "reference_indexes": [
+          1,
+          19,
+          22,
+          23
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "These specific technologies are heavily incentivized by the Japanese government under the Safety Support Car (SuppoCar) certification initiative.",
+        "snippet_links": [
+          {
+            "text": "Safety Support Car (SuppoCar)",
+            "link": "https://www.safety-support-car.go.jp/temp/supcar_A4_en.pdf"
+          }
+        ],
+        "reference_indexes": [
+          19,
+          16,
+          17
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "1. Pedal Misapplication Prevention Systems"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "This unique technology is highly prioritized in Japan to prevent sudden, violent acceleration when a driver mistakes the gas pedal for the brake in parking garages or gridlock.",
+        "reference_indexes": [
+          16,
+          17,
+          10
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "How it works with obstacles: Ultrasonic sonar sensors and cameras mounted on the front and rear bumpers monitor tight spaces (usually within 3 meters). If you are stationary or crawling under 15 km/h, and you suddenly stamp on the gas pedal with a wall, car, or glass window in front of you, the system instantly catches the error. It flashes an alert, sounds a buzzer, and electronically overrides the throttle to cut engine or motor output. Advanced versions will also lock down the brakes."
+          },
+          {
+            "snippet": "How it works without obstacles: Newer Japanese ADAS suites feature \"obstacle-free\" acceleration suppression. By using big data gathered from real Japanese traffic accidents, the system identifies the exact speed, pressure, and angle profile of an accidental \"panic stomp\". It will suppress a jackrabbit launch even if you are out in an empty intersection or open lot with no immediate obstacle."
+          }
+        ],
+        "reference_indexes": [
+          16,
+          8,
+          12,
+          13,
+          14,
+          21,
+          11
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "2. Autonomous Emergency Braking (AEB) with Pedestrian & Cyclist Detection",
+        "reference_indexes": [
+          24,
+          25
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Japanese cities feature narrow, shared roads where pedestrians, cyclists, and cars mix intimately. AEB is tailor-made to prevent low-speed forward collisions in these zones.",
+        "reference_indexes": [
+          1,
+          19,
+          26
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "How it works: Monocular cameras, millimeter-wave radars, or highly precise stereo cameras (famously used in Subaru's EyeSight system) scan the path ahead. Stereo cameras capture depth by measuring the offset data points between two lenses, letting the car map objects in 3D.",
+            "snippet_links": [
+              {
+                "text": "Subaru's EyeSight",
+                "link": "https://www.subaru.co.jp/en/difference/technology/"
+              }
+            ]
+          },
+          {
+            "snippet": "The Action: If a pedestrian steps out or a car stops ahead at speeds up to 60 km/h, the car calculates the time-to-collision. If you do not react to visual and audio alarms, the vehicle automatically hammers the hydraulic brakes to prevent the crash or minimize impact force."
+          }
+        ],
+        "reference_indexes": [
+          0,
+          5,
+          3,
+          4,
+          6,
+          7
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "3. Intersection Turn Collision Avoidance",
+        "reference_indexes": [
+          27
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Collisions often occur at tight Japanese urban intersections when cars turn across oncoming lanes or turn into a crosswalk where pedestrians are crossing.",
+        "reference_indexes": [
+          1,
+          28
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "How it works: Specialized wide-angle cameras and lateral radar sensors scan the diagonal blind spots as you enter an intersection. If the car's turn signal is on and you attempt to accelerate into a turn while an oncoming vehicle is approaching, or a pedestrian is walking across the corner crosswalk, the system sounds an urgent alarm and engages automated braking to stop the vehicle mid-turn."
+          }
+        ],
+        "reference_indexes": [
+          13,
+          0,
+          15,
+          29
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "4. Low-Speed Adaptive Cruise Control (Stop & Go)"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Heavy city congestion in Tokyo, Osaka, and Nagoya causes thousands of low-speed, rear-end bumper taps.",
+        "reference_indexes": [
+          5
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "How it works: Using short-to-medium-range radar and cameras, this urban-centric system tracks the license plate and rear bumper of the vehicle immediately ahead. It operates down to 0 km/h. The system automatically mirrors the car in front: smoothly braking to a complete halt when traffic stops, holding the brake, and creeping forward when traffic moves again. This prevents creeping collisions caused by driver distraction or fatigue."
+          }
+        ],
+        "reference_indexes": [
+          5,
+          6,
+          2,
+          20,
+          30
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you want to look closer at these safety features, please let me know:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Are you interested in the aftermarket retrofit kits sold to older drivers in Japan?"
+          },
+          {
+            "snippet": "Do you want to compare how different Japanese brands like Toyota, Honda, or Subaru deploy these tools?"
+          },
+          {
+            "snippet": "Do you need information on the SuppoCar testing and subsidies regulated by the Japanese government?"
+          }
+        ],
+        "reference_indexes": [
+          8,
+          10,
+          16,
+          2,
+          14,
+          19,
+          9
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Advance Safety | ISUZU MOTORS LIMITED",
+        "link": "https://www.isuzu.co.jp/world/product/p_car/mu-x/advance_safety.html",
+        "snippet": "The new ISUZU MU-X's latest Advanced Driver Assistance Systems (ADAS) which features 3D Imaging Stereo Camera, Rear Radars, and El...",
+        "source": "いすゞ自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/TY1ckq-dyksha_V0-Zf75LUKYwTSVOM-SJFdSZzk5_E.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/QElLagyyasRT2U_PcZRPUG2QILatF92oGuq4V494Zmg.png",
+        "index": 0
+      },
+      {
+        "title": "Technologies for safety improvement",
+        "link": "https://www.iatss.or.jp/en/entry_img/iatss40_theory_07.pdf",
+        "snippet": "Shining infra- red light in the direction of travel during nighttime driving allows use of infrared cameras that can visu- alize a...",
+        "source": "国際交通安全学会",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/LSSYjnIgUzayDKnKWIsNWesRw5rtw_3U9FzemzvTPMY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/PGrup_zmcz9Nhj-4eYJTFX5IuOpyiJC_NSzLNLaJUzA.png",
+        "index": 1
+      },
+      {
+        "title": "Making Safe Vehicles | Subaru Corporation",
+        "link": "https://www.subaru.co.jp/en/csr/social/car_making/",
+        "snippet": "SUBARU believes that reducing operating burden leads to greater safety. In 2020, EyeSight X was born, an evolutionary advance from...",
+        "source": "株式会社SUBARU",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/xOH3HAqZD76dFnfsfjZOCTmoywdpIde1gNyw3PWfkSs.png",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/JO1M0tfHKtMQlGEbTd7bWyRrLj_30fizDjQAfqxWtWc.png",
+        "index": 2
+      },
+      {
+        "title": "The technology that makes Subaru different: enjoyment and peace ...",
+        "link": "https://www.subaru.co.jp/en/difference/technology/",
+        "snippet": "EyeSight: commitment to the stereo camera Speaking of advanced driver-assistance systems (ADAS), in general, many of them combine ...",
+        "source": "株式会社SUBARU",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/ZZCcVJKLLlh2mKqHxlQT2um6eMH9wTPPIwJPd6FiEtQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/PKIofa-cFtzQTuIIXZrLK4eEbicI3SmyB5wa8gA-pBA.png",
+        "index": 3
+      },
+      {
+        "title": "Advanced Driver Assistance Systems (ADAS) - JSAE",
+        "link": "https://en.jsae.or.jp/knowledge/sa-so/detail5",
+        "snippet": "This system compensates for driver mistakes in order to prevent traffic accidents. In case of recognition errors, the system recog...",
+        "source": "公益社団法人自動車技術会",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/3k51nex4IPw3Rs_x4uKxSpoNDE_Aca381-kDewNPXhI.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/v14sV2ZXlj7iPrnMCh_XYEaKb1IfBJc0mF4rUb36RMA.png",
+        "index": 4
+      },
+      {
+        "title": "What is ADAS? Description of the advanced technologies that ...",
+        "link": "https://saiyo.boschjapan-brandtopics.jp/mid-career/en/pickup/technical-content03.html",
+        "snippet": "Nov 17, 2022 — When the system determines that there is a traffic jam based on the driving speed and the situation around the vehicle, it combine...",
+        "source": "もっと知ってほしい、ボッシュです",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/tVHjbf73BkkUloqsfv_lmZMp8UWGQRWr_XHJbCLW8IY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/XzLVHoLhBcASa2wOEOjzygYuJlyC7eNohO2ZTKkRXZI.png",
+        "index": 5
+      },
+      {
+        "title": "Japanese Cars on the Road to Higher Safety Standards",
+        "link": "https://web-japan.org/niponica/niponica10/en/feature/feature02.html",
+        "snippet": "1Helping drivers avoid collisions Detection system to reduce the risk of a collision. Cameras and radar systems watch out for a po...",
+        "source": "web-japan.org",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/GL-H5yN7XBs90HzoHtvWF3wBOxLYQ5xj77WLHxNrIus.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/ZIDucOFzwg_pb6n8xC9GK3QnTJlViIbpyX1eB0vTPSQ.png",
+        "index": 6
+      },
+      {
+        "title": "ADAS Brake Technology",
+        "link": "https://www.wagnerbrake.com/technical/parts-matter/automotive-repair-and-maintenance/adas-brake-technology.html",
+        "snippet": "Automatic emergency braking (also called autonomous emergency braking) is a safety feature that can identify when a crash may occu...",
+        "source": "Wagner Brake",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/i031z-8geu4Kb0g1LMi4Lwa2EYwhbNcpiQb-LMgp7Ao.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/-IWPvTgEVkiha4zQNDWN-jSnZ6qMGPaulAqckT9ieks.png",
+        "index": 7
+      },
+      {
+        "title": "Toyota Launches New Acceleration Suppression System",
+        "link": "https://global.toyota/en/newsroom/corporate/33012068.html",
+        "snippet": "Jul 1, 2020 — Toyota City, Japan, July 1, 2020―Toyota Motor Corporation (Toyota) announced today that it has developed a new Acceleration Suppre...",
+        "source": "トヨタ自動車株式会社 公式企業サイト",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/hbqB1MIZ5SpI-ZS6aZZ3yexMxQ3mljSerjygEjQJmos.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/2bhzFRRFdjtb4wlbvr1mxXvrQx6fgeMGRF8JucaNwTE.png",
+        "index": 8
+      },
+      {
+        "title": "Subaru Launches Retrofit Equipment to Prevent Unintended ...",
+        "link": "https://www.subaru.co.jp/press/news-en/2020_05_29_8769/",
+        "snippet": "May 29, 2020 — - When the vehicle is moving up to about 10 km/h in drive or reverse, sonar sensors equipped at the front and rear detect obstacle...",
+        "source": "株式会社SUBARU",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/dIIkbHIP6UqVnLduJvyVwdzY5Zx-E0_x5ALWAn6rfFE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/jIkZ3msf-2CNUckWXI828G3F56RMMLh5aiD-TsHMF3s.png",
+        "index": 9
+      },
+      {
+        "title": "Pedal Misapplication Prevention Device (Ministry of Land ...",
+        "link": "https://www.aida-eng.co.jp/en/business/iaccel/",
+        "snippet": "If you need the most necessary features for your car, Traffic accidents caused by misplacing the accelerator pedal and brake pedal...",
+        "source": "株式会社英田エンジニアリング",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/pbOGRhr-GfCbv3Oi8RTOgN5P5d4SW5Csin1dYG4wnNo.png",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/GDsEZYlq4UTGprNpEUy7vp-teZ48-VwfHV1pOnGgLXo.png",
+        "index": 10
+      },
+      {
+        "title": "Pedal Misapplication / ACPE - UNECE Wiki",
+        "link": "https://wiki.unece.org/download/attachments/192841112/ACPE-01-07%20%28CLEPA-OICA%29%20State%20of%20the%20art%20description%20.pptx?api=v2",
+        "snippet": "Pedal Misapplication / ACPE. Industry experience with Pedal Misapplication / ACPE. March 23rd, 2023. ACPE-01-07. State of the art ...",
+        "source": "UNECE Wiki",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/R1G-6BCV98tiaA6YD77sHhv9FCU4cCC7FQ5RKtEZvdk.png",
+        "index": 11
+      },
+      {
+        "title": "Daihatsu Launches Retrofit Safety Device that Prevents Sudden ...",
+        "link": "https://www.daihatsu.com/news/2018/20181205-2.html",
+        "snippet": "Dec 5, 2018 — “Tsukutsuku Boshi” utilizes front and rear sonar sensors to detect obstacles within a three-meter range. If the driver presses the...",
+        "source": "DAIHATSU",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/w5JKn4fu8q9almOys9c-sD0fQjNHxWjujQ448KJY90Y.png",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/3LX71HvajoKtMgv2y0cFObNFAJPG0L1GTZj2Henr1-c.png",
+        "index": 12
+      },
+      {
+        "title": "Maneuvering assist​ | Innovation - Nissan Global",
+        "link": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PEDAL/",
+        "snippet": "Home. Maneuvering assist​ Helps to prevent accidents caused by applying the wrong pedal. When you accidentally press the accelerat...",
+        "source": "Nissan global website",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/g6wGBCW5uu-xBsH95ob5cZzgrraH-5-TUPU9SdTOv7M.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/r5rdt9Dcpm_uC-lMZmKqpAI5Oi7QAhjqH_hdUVD2Bp0.png",
+        "index": 13
+      },
+      {
+        "title": "Unintended Acceleration Mitigation｜Honda Technology",
+        "link": "https://global.honda/en/tech/Unintended_Acceleration_Mitigation/",
+        "snippet": "How it works. STEP1 The system identifies sudden unintended acceleration. When the accelerator pedal is firmly applied while the v...",
+        "source": "Honda Global",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/wQWH84gNHjn3lNLgbL92u0nlJYVylziX39-r88xr7HQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/mZf3DQ8rNhv4wQ_MzSJgmR7_f9qEaBD8KXhMXkZ5pKs.png",
+        "index": 14
+      },
+      {
+        "title": "Toyota's New Acceleration Suppression Function Set to Launch in ...",
+        "link": "https://global.toyota/en/newsroom/corporate/31430982.html",
+        "snippet": "Feb 3, 2020 — More specifically, several of the functions adopted in the Lexus Safety System +A, the advanced safety package that was equipped t...",
+        "source": "トヨタ自動車株式会社 公式企業サイト",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/0TGjsk8zP4gN-1l1IAYkiw1xvrRAywUEgKsZJxSrZ_4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/TnzbOR_2zzpSpo3sf1XJzjykej8XRNPnSxAhQuO--wU.png",
+        "index": 15
+      },
+      {
+        "title": "Car safety rule to counter gas pedal errors eyed for June 2025",
+        "link": "https://www.asahi.com/ajw/articles/15324211",
+        "snippet": "Jun 28, 2024 — The transport ministry will discuss the specific time when the requirement to the new cars will take effect and other issues later...",
+        "source": "朝日新聞",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/bZmrNnSq9r_zSkx5fkx6P00oFd9YvEb_g_dg9r_yu4Q.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/cInfRvMLWsHOoFL5zt9MocOlCCrk-kDMwVkgPDons3U.png",
+        "index": 16
+      },
+      {
+        "title": "About Safety Support Car/Safety Support Car S - サポカー",
+        "link": "https://www.safety-support-car.go.jp/temp/supcar_A4_en.pdf",
+        "snippet": "Prevents sudden acceleration due to pedal misapplication when exiting parking spaces, etc. When the car is stationary or moving at...",
+        "source": "www.safety-support-car.go.jp",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/3b-_dQRIt7mJc-k-tq9uFMMcn4k0MQY6sOxydouw8rc.png",
+        "index": 17
+      },
+      {
+        "title": "[ASV Introduction 02] Acceleration suppression device ...",
+        "link": "https://www.youtube.com/watch?t=5&v=Q_6q7LOiKkE",
+        "snippet": "Mar 23, 2017 — ペダル踏み間違い時加速抑制装置はご発信抑制制御機能などとも呼ば。 れドライバーが障害物に向かって謝ってアクセルペダルを踏み込んでしまった場合に警告音でご操作を知らせ同時にエンジン出力を抑制する先進安全装備です。 前向きで止めた駐車場から交代で出する際ドライバー...",
+        "source": "YouTube",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/hGKmM3sOBZQ79Y6Zrq08T7ZbGVU5zARAA51UDRV5RDg.jpeg",
+        "index": 18
+      },
+      {
+        "title": "The Future of Vehicle Safety for a Traffic Accident-Free Society",
+        "link": "https://www.mlit.go.jp/en/jidosha/vehiclesafety/report_the_future_of_vehicle_safety_en.pdf",
+        "snippet": "Jun 28, 2021 — will be hence effective to support drivers with ADAS in detecting speed limits and stop signs and preventing sudden starting after...",
+        "source": "国土交通省",
+        "thumbnail": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/LAMHzICK-8EwWhLCR1thdYmsIrY_QF9pbbp93Xioa0Q.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/8MZRp1_su8wkiHMTHdhBIGrPejCN95SXyPt6RRYwajI.png",
+        "index": 19
+      },
+      {
+        "title": "Development Strategy of Sensing System - DENSO Global",
+        "link": "https://www.denso.com/jp/ja/-/media/Global/business/innovation/review/09-2/09-2-doc-dissertation11-id-ja.pdf",
+        "snippet": "＊Reprinted from “Proceedings of the 11th World Congress on ITS in Nagoya (2004)” デンソーテクニカルレビュー Vol.９ No.２ 2004. Fig. 1 Trend of AD...",
+        "source": "DENSO Global",
+        "source_icon": "https://serpapi.com/searches/6a071a99895d9038430dcc42/images/9a0H0YE13MuldS0iM-xfNP44zYvFIL02i1_J_rYZpHY.png",
+        "index": 20
+      },
+      {
+        "title": "[ASV Introduction 02] Acceleration suppression device ...",
+        "link": "https://www.youtube.com/watch?v=Q_6q7LOiKkE&t=5",
+        "snippet": "ペダル踏み間違い時加速抑制装置はご発信抑制制御機能などとも呼ば。 れドライバーが障害物に向かって謝ってアクセルペダルを踏み込んでしまった場合に警告音でご操作を知らせ同時にエンジン出力を抑制する先進安全装備です。 前向きで止めた駐車場から交代で出する際ドライバー...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgSPKvww4JRvPDR9ucK5j0zke__NGYDTrJ-5gkSaUmU5w6RU-N",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 21
+      },
+      {
+        "title": "ADAS Market Size to Reach USD 124.5 Bn by 2034 | CAGR 13.5%",
+        "link": "https://dimensionmarketresearch.com/report/advanced-driver-assistance-system-adas-market/",
+        "snippet": "Japan's Cabinet Office publishes annual white papers on traffic safety, which highlight the country's aging driver demographic as ...",
+        "source": "Dimension Market Research",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSFkni4GQEVaPUfPDIPmwbOgJIQUXRJaJwahHp32H9PaJQLSLGb",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://dimensionmarketresearch.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 22
+      },
+      {
+        "title": "Japan Motorcycle Advanced Driver Assistance System (ADAS), Market, By Application",
+        "link": "https://www.linkedin.com/pulse/japan-motorcycle-advanced-driver-assistance-system-adas-2ymhf",
+        "snippet": "The country's deep expertise in precision engineering and automation underpins the development and deployment of sophisticated ADA...",
+        "source": "LinkedIn",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ0dI2muuIB5vTnrdkZHVBqJPrRWnUuORF25hkj690UysBfgpZ0",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.linkedin.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 23
+      },
+      {
+        "title": "What is the ADAS system in a vehicle?",
+        "link": "https://astara.com/en/blog/aids-driving-aids",
+        "snippet": "AEB + P + C (Autonomous Emergency Braking with Pedestrian and Cyclist Detection) Automatic braking system in urban environments in...",
+        "source": "Astara",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSV9uGG_FmikITdEyFRNaFHmp2iPIqjC_qyjeHvyI8EMj35mBEH",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://astara.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 24
+      },
+      {
+        "title": "Telematics \\u0026 ADAS: The Future of Fleet Safety and Driver Assistance",
+        "link": "https://resolute-dynamics.com/telematics-adas-the-future-of-fleet-safety-and-driver-assistance/",
+        "snippet": "Pedestrian \\u0026 Cyclist Protection ADAS systems can detect vulnerable road users in urban environments, automatically braking or stee...",
+        "source": "Resolute Dynamics",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqWGKy-aVe79E_eSIXwGXeGOJeengnjSJW9hzxx6kGjRDEN-h9",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://resolute-dynamics.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 25
+      },
+      {
+        "title": "10 Things To Know About Automatic Emergency Braking [AEB]",
+        "link": "https://boddenbennettlaw.com/10-things-to-know-about-automatic-emergency-braking-aeb/",
+        "snippet": "7. Low-speed Automatic Emergency Braking Only a few AEB systems can run at faster speeds. They are designed to prevent collisions ...",
+        "source": "Bodden and Bennett Law Group",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP96oBvBmB0YokDyljtSlm3ibFFxdxOa-5w3YRG05hV0xcQL3j",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://boddenbennettlaw.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 26
+      },
+      {
+        "title": "What makes the 2025 Volvo XC60 so safe?",
+        "link": "https://www.volvocarsvilla.com/en/news/view/five-advanced-safety-features-that-make-the-2025-volvo-xc60-stand-out/133053",
+        "snippet": "This feature uses a combination of cameras, radar, and sensors to monitor cross-traffic when approaching intersections. If the sys...",
+        "source": "Volvo Cars Villa",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKcbHmWPFPEXI85ZyFStZDxrqkBqiImqHusR4ewDurabeEAzJu",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.volvocarsvilla.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 27
+      },
+      {
+        "title": "Motorcycle Advanced Rider Assistance System ARAS Market Outlook 2025-2032",
+        "link": "https://www.intelmarketresearch.com/motorcycle-advanced-rider-assistance-system-market-11075",
+        "snippet": "Japan's dense urban traffic conditions drive demand for collision avoidance systems. Developing nations are witnessing gradual ARA...",
+        "source": "Intelmarketresearch",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0TP75KbomVkF9rBoPK8Pwoe4vnKdsUib5m00ehor_CF3BKN3p",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.intelmarketresearch.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 28
+      },
+      {
+        "title": "A Look at Modern ADAS Technology and Terminology",
+        "link": "https://www.audioinnovations-ark.com/https-www-bestcaraudio-com-a-look-at-modern-adas-technology-and-terminology/",
+        "snippet": "When these systems detect something, they ( radar-based ultrasonic sensors ) illuminate an indicator on the dash, the A-pillar or ...",
+        "source": "www.audioinnovations-ark.com",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRdwxiRC6mXfnMg2HRRHpr-Z_4xH7BHhZ89V9_8lRiCphMVV8zX",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.audioinnovations-ark.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 29
+      },
+      {
+        "title": "ADAS: Protecting passengers, drivers and road users",
+        "link": "https://www.scania.com/group/en/home/newsroom/news/2021/adas-protecting-passengers-drivers-and-road-users.html",
+        "snippet": "Key features of Scania's ADAS system: Helps the driver maintain a constant time gap in traffic, at speeds down to 0 km/h. In a tra...",
+        "source": "Scania Group",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTFGnNgem7RKEjxP6UY4PPYViQgHFnDb1MuNWVG1466CG6Ged5-",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.scania.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 30
+      }
+    ],
+    "reconstructed_markdown": "In Japan, the dense urban layout and unique aging demographic have led to specialized Advanced Driver Assistance Systems \\(ADAS\\). These systems target typical low\\-speed city accidents, such as parking lot mishaps and intersection collisions with pedestrians. [1] [19] [22] [23]\n\nThese specific technologies are heavily incentivized by the Japanese government under the [Safety Support Car \\(SuppoCar\\)](https://www.safety-support-car.go.jp/temp/supcar_A4_en.pdf) certification initiative. [19] [16] [17]\n\n### 1. Pedal Misapplication Prevention Systems\n\nThis unique technology is highly prioritized in Japan to prevent sudden, violent acceleration when a driver mistakes the gas pedal for the brake in parking garages or gridlock. [16] [17] [10]\n\n- How it works with obstacles: Ultrasonic sonar sensors and cameras mounted on the front and rear bumpers monitor tight spaces \\(usually within 3 meters\\). If you are stationary or crawling under 15 km/h, and you suddenly stamp on the gas pedal with a wall, car, or glass window in front of you, the system instantly catches the error. It flashes an alert, sounds a buzzer, and electronically overrides the throttle to cut engine or motor output. Advanced versions will also lock down the brakes.\n- How it works without obstacles: Newer Japanese ADAS suites feature \"obstacle\\-free\" acceleration suppression. By using big data gathered from real Japanese traffic accidents, the system identifies the exact speed, pressure, and angle profile of an accidental \"panic stomp\". It will suppress a jackrabbit launch even if you are out in an empty intersection or open lot with no immediate obstacle.\n\n### 2. Autonomous Emergency Braking \\(AEB\\) with Pedestrian & Cyclist Detection\n\nJapanese cities feature narrow, shared roads where pedestrians, cyclists, and cars mix intimately. AEB is tailor\\-made to prevent low\\-speed forward collisions in these zones. [1] [19] [26]\n\n- How it works: Monocular cameras, millimeter\\-wave radars, or highly precise stereo cameras \\(famously used in [Subaru's EyeSight](https://www.subaru.co.jp/en/difference/technology/) system\\) scan the path ahead. Stereo cameras capture depth by measuring the offset data points between two lenses, letting the car map objects in 3D.\n- The Action: If a pedestrian steps out or a car stops ahead at speeds up to 60 km/h, the car calculates the time\\-to\\-collision. If you do not react to visual and audio alarms, the vehicle automatically hammers the hydraulic brakes to prevent the crash or minimize impact force.\n\n### 3. Intersection Turn Collision Avoidance\n\nCollisions often occur at tight Japanese urban intersections when cars turn across oncoming lanes or turn into a crosswalk where pedestrians are crossing. [1] [28]\n\n- How it works: Specialized wide\\-angle cameras and lateral radar sensors scan the diagonal blind spots as you enter an intersection. If the car's turn signal is on and you attempt to accelerate into a turn while an oncoming vehicle is approaching, or a pedestrian is walking across the corner crosswalk, the system sounds an urgent alarm and engages automated braking to stop the vehicle mid\\-turn.\n\n### 4. Low\\-Speed Adaptive Cruise Control \\(Stop & Go\\)\n\nHeavy city congestion in Tokyo, Osaka, and Nagoya causes thousands of low\\-speed, rear\\-end bumper taps. [5]\n\n- How it works: Using short\\-to\\-medium\\-range radar and cameras, this urban\\-centric system tracks the license plate and rear bumper of the vehicle immediately ahead. It operates down to 0 km/h. The system automatically mirrors the car in front: smoothly braking to a complete halt when traffic stops, holding the brake, and creeping forward when traffic moves again. This prevents creeping collisions caused by driver distraction or fatigue.\n\nIf you want to look closer at these safety features, please let me know:\n\n- Are you interested in the aftermarket retrofit kits sold to older drivers in Japan?\n- Do you want to compare how different Japanese brands like Toyota, Honda, or Subaru deploy these tools?\n- Do you need information on the SuppoCar testing and subsidies regulated by the Japanese government?\n\n\n### References\n\n[0] [Advance Safety \\| ISUZU MOTORS LIMITED](https://www.isuzu.co.jp/world/product/p_car/mu-x/advance_safety.html) — The new ISUZU MU\\-X's latest Advanced Driver Assistance Systems \\(ADAS\\) which features 3D Imaging Stereo Camera, Rear Radars, and El...\n\n[1] [Technologies for safety improvement](https://www.iatss.or.jp/en/entry_img/iatss40_theory_07.pdf) — Shining infra\\- red light in the direction of travel during nighttime driving allows use of infrared cameras that can visu\\- alize a...\n\n[2] [Making Safe Vehicles \\| Subaru Corporation](https://www.subaru.co.jp/en/csr/social/car_making/) — SUBARU believes that reducing operating burden leads to greater safety. In 2020, EyeSight X was born, an evolutionary advance from...\n\n[3] [The technology that makes Subaru different: enjoyment and peace ...](https://www.subaru.co.jp/en/difference/technology/) — EyeSight: commitment to the stereo camera Speaking of advanced driver\\-assistance systems \\(ADAS\\), in general, many of them combine ...\n\n[4] [Advanced Driver Assistance Systems \\(ADAS\\) \\- JSAE](https://en.jsae.or.jp/knowledge/sa-so/detail5) — This system compensates for driver mistakes in order to prevent traffic accidents. In case of recognition errors, the system recog...\n\n[5] [What is ADAS? Description of the advanced technologies that ...](https://saiyo.boschjapan-brandtopics.jp/mid-career/en/pickup/technical-content03.html) — Nov 17, 2022 — When the system determines that there is a traffic jam based on the driving speed and the situation around the vehicle, it combine...\n\n[6] [Japanese Cars on the Road to Higher Safety Standards](https://web-japan.org/niponica/niponica10/en/feature/feature02.html) — 1Helping drivers avoid collisions Detection system to reduce the risk of a collision. Cameras and radar systems watch out for a po...\n\n[7] [ADAS Brake Technology](https://www.wagnerbrake.com/technical/parts-matter/automotive-repair-and-maintenance/adas-brake-technology.html) — Automatic emergency braking \\(also called autonomous emergency braking\\) is a safety feature that can identify when a crash may occu...\n\n[8] [Toyota Launches New Acceleration Suppression System](https://global.toyota/en/newsroom/corporate/33012068.html) — Jul 1, 2020 — Toyota City, Japan, July 1, 2020―Toyota Motor Corporation \\(Toyota\\) announced today that it has developed a new Acceleration Suppre...\n\n[9] [Subaru Launches Retrofit Equipment to Prevent Unintended ...](https://www.subaru.co.jp/press/news-en/2020_05_29_8769/) — May 29, 2020 — \\- When the vehicle is moving up to about 10 km/h in drive or reverse, sonar sensors equipped at the front and rear detect obstacle...\n\n[10] [Pedal Misapplication Prevention Device \\(Ministry of Land ...](https://www.aida-eng.co.jp/en/business/iaccel/) — If you need the most necessary features for your car, Traffic accidents caused by misplacing the accelerator pedal and brake pedal...\n\n[11] [Pedal Misapplication / ACPE \\- UNECE Wiki](https://wiki.unece.org/download/attachments/192841112/ACPE-01-07%20%28CLEPA-OICA%29%20State%20of%20the%20art%20description%20.pptx?api=v2) — Pedal Misapplication / ACPE. Industry experience with Pedal Misapplication / ACPE. March 23rd, 2023. ACPE\\-01\\-07. State of the art ...\n\n[12] [Daihatsu Launches Retrofit Safety Device that Prevents Sudden ...](https://www.daihatsu.com/news/2018/20181205-2.html) — Dec 5, 2018 — “Tsukutsuku Boshi” utilizes front and rear sonar sensors to detect obstacles within a three\\-meter range. If the driver presses the...\n\n[13] [Maneuvering assist​ \\| Innovation \\- Nissan Global](https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PEDAL/) — Home. Maneuvering assist​ Helps to prevent accidents caused by applying the wrong pedal. When you accidentally press the accelerat...\n\n[14] [Unintended Acceleration Mitigation｜Honda Technology](https://global.honda/en/tech/Unintended_Acceleration_Mitigation/) — How it works. STEP1 The system identifies sudden unintended acceleration. When the accelerator pedal is firmly applied while the v...\n\n[15] [Toyota's New Acceleration Suppression Function Set to Launch in ...](https://global.toyota/en/newsroom/corporate/31430982.html) — Feb 3, 2020 — More specifically, several of the functions adopted in the Lexus Safety System \\+A, the advanced safety package that was equipped t...\n\n[16] [Car safety rule to counter gas pedal errors eyed for June 2025](https://www.asahi.com/ajw/articles/15324211) — Jun 28, 2024 — The transport ministry will discuss the specific time when the requirement to the new cars will take effect and other issues later...\n\n[17] [About Safety Support Car/Safety Support Car S \\- サポカー](https://www.safety-support-car.go.jp/temp/supcar_A4_en.pdf) — Prevents sudden acceleration due to pedal misapplication when exiting parking spaces, etc. When the car is stationary or moving at...\n\n[18] [\\[ASV Introduction 02\\] Acceleration suppression device ...](https://www.youtube.com/watch?t=5&v=Q_6q7LOiKkE) — Mar 23, 2017 — ペダル踏み間違い時加速抑制装置はご発信抑制制御機能などとも呼ば。 れドライバーが障害物に向かって謝ってアクセルペダルを踏み込んでしまった場合に警告音でご操作を知らせ同時にエンジン出力を抑制する先進安全装備です。 前向きで止めた駐車場から交代で出する際ドライバー...\n\n[19] [The Future of Vehicle Safety for a Traffic Accident\\-Free Society](https://www.mlit.go.jp/en/jidosha/vehiclesafety/report_the_future_of_vehicle_safety_en.pdf) — Jun 28, 2021 — will be hence effective to support drivers with ADAS in detecting speed limits and stop signs and preventing sudden starting after...\n\n[20] [Development Strategy of Sensing System \\- DENSO Global](https://www.denso.com/jp/ja/-/media/Global/business/innovation/review/09-2/09-2-doc-dissertation11-id-ja.pdf) — ＊Reprinted from “Proceedings of the 11th World Congress on ITS in Nagoya \\(2004\\)” デンソーテクニカルレビュー Vol.９ No.２ 2004. Fig. 1 Trend of AD...\n\n[21] [\\[ASV Introduction 02\\] Acceleration suppression device ...](https://www.youtube.com/watch?t=5&v=Q_6q7LOiKkE) — ペダル踏み間違い時加速抑制装置はご発信抑制制御機能などとも呼ば。 れドライバーが障害物に向かって謝ってアクセルペダルを踏み込んでしまった場合に警告音でご操作を知らせ同時にエンジン出力を抑制する先進安全装備です。 前向きで止めた駐車場から交代で出する際ドライバー...\n\n[22] [ADAS Market Size to Reach USD 124.5 Bn by 2034 \\| CAGR 13.5%](https://dimensionmarketresearch.com/report/advanced-driver-assistance-system-adas-market/) — Japan's Cabinet Office publishes annual white papers on traffic safety, which highlight the country's aging driver demographic as ...\n\n[23] [Japan Motorcycle Advanced Driver Assistance System \\(ADAS\\), Market, By Application](https://www.linkedin.com/pulse/japan-motorcycle-advanced-driver-assistance-system-adas-2ymhf) — The country's deep expertise in precision engineering and automation underpins the development and deployment of sophisticated ADA...\n\n[24] [What is the ADAS system in a vehicle?](https://astara.com/en/blog/aids-driving-aids) — AEB \\+ P \\+ C \\(Autonomous Emergency Braking with Pedestrian and Cyclist Detection\\) Automatic braking system in urban environments in...\n\n[25] [Telematics \\u0026 ADAS: The Future of Fleet Safety and Driver Assistance](https://resolute-dynamics.com/telematics-adas-the-future-of-fleet-safety-and-driver-assistance/) — Pedestrian \\u0026 Cyclist Protection ADAS systems can detect vulnerable road users in urban environments, automatically braking or stee...\n\n[26] [10 Things To Know About Automatic Emergency Braking \\[AEB\\]](https://boddenbennettlaw.com/10-things-to-know-about-automatic-emergency-braking-aeb/) — 7. Low\\-speed Automatic Emergency Braking Only a few AEB systems can run at faster speeds. They are designed to prevent collisions ...\n\n[27] [What makes the 2025 Volvo XC60 so safe?](https://www.volvocarsvilla.com/en/news/view/five-advanced-safety-features-that-make-the-2025-volvo-xc60-stand-out/133053) — This feature uses a combination of cameras, radar, and sensors to monitor cross\\-traffic when approaching intersections. If the sys...\n\n[28] [Motorcycle Advanced Rider Assistance System ARAS Market Outlook 2025\\-2032](https://www.intelmarketresearch.com/motorcycle-advanced-rider-assistance-system-market-11075) — Japan's dense urban traffic conditions drive demand for collision avoidance systems. Developing nations are witnessing gradual ARA...\n\n[29] [A Look at Modern ADAS Technology and Terminology](https://www.audioinnovations-ark.com/https-www-bestcaraudio-com-a-look-at-modern-adas-technology-and-terminology/) — When these systems detect something, they \\( radar\\-based ultrasonic sensors \\) illuminate an indicator on the dash, the A\\-pillar or ...\n\n[30] [ADAS: Protecting passengers, drivers and road users](https://www.scania.com/group/en/home/newsroom/news/2021/adas-protecting-passengers-drivers-and-road-users.html) — Key features of Scania's ADAS system: Helps the driver maintain a constant time gap in traffic, at speeds down to 0 km/h. In a tra...\n"
+  }
+}

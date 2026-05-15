@@ -1,0 +1,400 @@
+{
+  "query_id": "q009",
+  "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+  "query_type": "branded",
+  "brand_topic_category": "EV range, charging and battery confidence",
+  "journey_stage": "consideration",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a0719c6dc74d01215f7e72c",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/C75u29hTtZu9eYZt7OauXg/6a0719c6dc74d01215f7e72c.json",
+      "created_at": "2026-05-15 13:04:06 UTC",
+      "processed_at": "2026-05-15 13:04:06 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Nissan+Ariya+compatibility+with+Japan+public+fast+charging+networks+and+connector+types&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/C75u29hTtZu9eYZt7OauXg/6a0719c6dc74d01215f7e72c.html",
+      "prettify_html_file": "https://serpapi.com/searches/C75u29hTtZu9eYZt7OauXg/6a0719c6dc74d01215f7e72c.prettify",
+      "total_time_taken": 5.84
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "inline_images": [
+      "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/_lSc152pAP8hYFn4tUqGDw.jpeg",
+      "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/yytPzc9gd97vmVwsZ-0x1g.jpeg"
+    ],
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "The Nissan Ariya sold in Japan is primarily compatible with the CHAdeMO fast charging standard. This differs from North American and European models, which use CCS (Combined Charging System).",
+        "snippet_links": [
+          {
+            "text": "CCS",
+            "link": "https://www.zapmap.com/ev-guides/model-charging/nissan-ariya"
+          }
+        ],
+        "reference_indexes": [
+          0,
+          1,
+          5,
+          3
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Standard Connectors in Japan"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Domestic models feature a dual-port setup to support the most common public infrastructure in Japan:",
+        "reference_indexes": [
+          8,
+          9
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Fast Charging (DC): Uses the CHAdeMO connector."
+          },
+          {
+            "snippet": "Slow/Home Charging (AC): Uses the J1772 (Type 1) connector.",
+            "snippet_links": [
+              {
+                "text": "J1772",
+                "link": "https://recharged.com/articles/nissan-ariya-best-home-charger"
+              }
+            ],
+            "reference_indexes": [
+              5,
+              10,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Network Compatibility"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The Ariya is designed to work with Japan's extensive public charging networks, which are heavily built around the CHAdeMO standard.",
+        "reference_indexes": [
+          3,
+          2,
+          11
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "e-Mobility Power (eMP): This is the largest network in Japan. The Ariya can utilize its vast array of chargers found at roadside stations (Michi-no-Eki), service areas, and commercial facilities.",
+            "snippet_links": [
+              {
+                "text": "roadside stations",
+                "link": "https://teskas.net/t/topic/12864?tl=en"
+              }
+            ]
+          },
+          {
+            "snippet": "High-Power Charging: Japanese spec vehicles support up to 130kW DC fast charging."
+          },
+          {
+            "snippet": "Next-Gen Infrastructure: Recent developments in Japan include 350kW+ chargers, which are being developed to ensure long-term compatibility with high-voltage vehicles.",
+            "snippet_links": [
+              {
+                "text": "350kW+ chargers",
+                "link": "https://www.chademo.com/japan-opens-to-1000v-charging"
+              }
+            ]
+          },
+          {
+            "snippet": "Tesla Superchargers: Currently, Nissan is transitioning toward NACS (Tesla standard) in North America. In Japan, some Tesla chargers may require a CHAdeMO adapter if they do not provide a native CHAdeMO cable.",
+            "snippet_links": [
+              {
+                "text": "NACS",
+                "link": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models"
+              }
+            ],
+            "reference_indexes": [
+              2,
+              9,
+              5,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Comparison by Region"
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          0,
+          12,
+          13,
+          14
+        ],
+        "table": [
+          [
+            "Market",
+            "Fast Charging (DC)",
+            "Normal Charging (AC)"
+          ],
+          [
+            "Japan",
+            "CHAdeMO",
+            "J1772"
+          ],
+          [
+            "USA / Canada",
+            "CCS1 / NACS (2025+)",
+            "J1772"
+          ],
+          [
+            "Europe",
+            "CCS2",
+            "Type 2"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Market"
+            },
+            {
+              "snippet": "Fast Charging (DC)"
+            },
+            {
+              "snippet": "Normal Charging (AC)"
+            }
+          ],
+          [
+            {
+              "snippet": "Japan"
+            },
+            {
+              "snippet": "CHAdeMO"
+            },
+            {
+              "snippet": "J1772"
+            }
+          ],
+          [
+            {
+              "snippet": "USA / Canada"
+            },
+            {
+              "snippet": "CCS1 / NACS (2025+)"
+            },
+            {
+              "snippet": "J1772"
+            }
+          ],
+          [
+            {
+              "snippet": "Europe"
+            },
+            {
+              "snippet": "CCS2"
+            },
+            {
+              "snippet": "Type 2"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "market": "Japan",
+            "fast_charging_dc": "CHAdeMO",
+            "normal_charging_ac": "J1772"
+          },
+          {
+            "market": "USA / Canada",
+            "fast_charging_dc": "CCS1 / NACS (2025+)",
+            "normal_charging_ac": "J1772"
+          },
+          {
+            "market": "Europe",
+            "fast_charging_dc": "CCS2",
+            "normal_charging_ac": "Type 2"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Watch how to properly utilize rapid charging infrastructure and manage battery health for the Nissan Ariya:"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you'd like, I can:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Provide a list of apps to find chargers in Japan"
+          },
+          {
+            "snippet": "Explain the cost of charging at public stations in Japan"
+          },
+          {
+            "snippet": "Help you find compatible home charging equipment for your region"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Nissan to adopt North American Charging Standard (NACS ...",
+        "link": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+        "snippet": "Jul 19, 2023 — NASHVILLE, Tenn. – Nissan has reached an agreement with Tesla to adopt the North American Charging Standard (NACS) beginning in 20...",
+        "source": "日産自動車ニュースルーム",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/Kj6tnqP6wsFLejbehMX6ZzHKFe5gike9TsxIc-ng94k.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/eJkzZXf1IGZiqe0FHx0d_gNwAvA_jdcGcoshy3ixKeE.png",
+        "index": 0
+      },
+      {
+        "title": "Nissan Ariya EV charging guide - Zapmap",
+        "link": "https://www.zapmap.com/ev-guides/model-charging/nissan-ariya",
+        "snippet": "How to charge the Nissan Ariya. The Nissan Ariya uses the CCS charging standard, which consists of a combined AC and DC inlet port...",
+        "source": "Zapmap",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/7l-iiBw4NLfQoZ0ZUmgtqWWFD_M_6Du-PiexFta8IdI.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/yPIbqYKnclERytxLK2cVotb1zviCv8RUwcTnfScpwU4.png",
+        "index": 1
+      },
+      {
+        "title": "Japan opens to 1000V charging and next-gen fast chargers are in ...",
+        "link": "https://www.chademo.com/japan-opens-to-1000v-charging",
+        "snippet": "Jun 30, 2024 — With the change in the Japanese government's regulation about the upper limit of DC EV charging voltage level, high voltage chargi...",
+        "source": "CHAdeMO",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/IIFygCkjlmrHkN9QC-osKrsxpCYiF8GRfvImBNKWKqw.png",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/HyhgVolZ1LLSRuDsQsIi8mWpqplqXUyekuk5OoQFkpE.png",
+        "index": 2
+      },
+      {
+        "title": "Does Nissan’s switch to CCS charging for the Ariya mean ... - WhichEV",
+        "link": "https://www.whichev.net/2020/07/21/does-nissans-switch-to-ccs-charging-for-the-ariya-mean-chademo-is-dead/",
+        "snippet": "Jul 21, 2020 — As of right now, CHAdeMO is still very popular as of course it is used by the Leaf and it is widely appreciated in Japan. That is ...",
+        "source": "www.whichev.net",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/1jf3GotJqHKRq8svmN_MkagaR4BIbEMM9l9HaW-2hf4.png",
+        "index": 3
+      },
+      {
+        "title": "Nissan adopts CCS fast-charging with new Ariya electric SUV",
+        "link": "https://www.cnet.com/home/electric-vehicles/nissan-ariya-electric-suv-adopts-ccs-fast-charging/",
+        "snippet": "Jul 14, 2020 — ... powering a home during an outage or equalizing grid spikes and dips with connected cars' batteries. \"We will keep using CHAdeM...",
+        "source": "CNET",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/TXFAasfGnWA6Z0AYaHxr_bIAdrUckA528B4Wh_CwaOs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/vKpuPoNV2OtPKf8N_445W04DiQpUe6p1rcEgtbQabKw.png",
+        "index": 4
+      },
+      {
+        "title": "アリア [ ARIYA ] 取扱説明書 ｜ 充電の種類 - 日産自動車",
+        "link": "https://www.nissan.co.jp/OPTIONAL-PARTS/NAVIOM/ARIYA_SPECIAL/2602/?cr=pg&pg=guid-ed63b23a-3a98-4bb4-9815-9d6c2122afa5-m030860",
+        "snippet": "外出先などに設置された急速充電器を使用し、短時間で行うことができる充電を「急速充電」といいます。 この車両は、CHAdeMO※1（チャデモ）仕様の急速充電器を使用してください。 急速充電のしかた ※1：CHAdeMOとは、日本発の電気自動車用急速充電規格です。...",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/QCBGvsdKCResbJ4aYUo6MXZ5i7Siz2Zildc5UZ8nwsM.png",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/kouMahh88K-yzf9V3rIci7SCEbdOgzDMfQCKds4MgKw.png",
+        "index": 5
+      },
+      {
+        "title": "Nissan Ariya Best Home Charger: 2026 Buyer's Guide | Recharged",
+        "link": "https://recharged.com/articles/nissan-ariya-best-home-charger",
+        "snippet": "May 10, 2026 — Every U.S. Nissan Ariya uses a J1772 connector for AC charging and has about a 7.2–7.4 kW onboard charger. That means a 32–40 amp ...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/e00ipk1MKBgVzngrXQmMiflaOFuX5btiOMJJelysjB4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/3C-wNblUhkhzXhS4nq1dPJygwBtQHPgOtHbYMKI1fNg.png",
+        "index": 6
+      },
+      {
+        "title": "[Announcement of the complete end of the Japanese EV ...",
+        "link": "https://www.youtube.com/watch?t=116&v=LsafVwmjypw",
+        "snippet": "Jul 28, 2021 — 2種類の充電プラグを使い分けなければならずその電気自動乗車側にも普通充電ポートと急速充電ポートという。 2種類の充電ポートを用意しなければなりませんそれでは。 対する欧米市場の充電プラグの形状はどうなっているのかというとまず北米市場に関してですがその普通充電器...",
+        "source": "YouTube",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/mlE2IYwmW-JLq0N9gRRWiMdx_ub3V1lP2toFYlAc6gI.jpeg",
+        "index": 7
+      },
+      {
+        "title": "So Jealous. New 2026 Leaf got NACS charge port before the ...",
+        "link": "https://www.reddit.com/r/NissanAriya/comments/1ldulak/so_jealous_new_2026_leaf_got_nacs_charge_port/",
+        "snippet": "Jun 17, 2025 — This was probably the cheapest way for Nissan to implement NACS for North American EVs. The Japanese market version of the Ariya (",
+        "source": "Reddit",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/Sc3E495PAxVBh9Gnz7DXaZvvsCcPxA3uaRdN6ML7BCA.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/D6qb5R-WTKRRvUWJbAIMCxZYQaB5QivHOiUtQPsc7nc.png",
+        "index": 8
+      },
+      {
+        "title": "Please tell me about recommended charging equipment",
+        "link": "https://teskas.net/t/topic/12864?tl=en",
+        "snippet": "Jun 4, 2025 — ● Chargers from other companies. CHAdeMO rapid chargers. This is the most common rapid charging standard in Japan and is widely in...",
+        "source": "テスカス",
+        "thumbnail": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/9tarnXWYyz15vkFeQtDb0NKIWeGt27qNz39U22AY0O8.png",
+        "source_icon": "https://serpapi.com/searches/6a0719c6dc74d01215f7e72c/images/ngFlXjPAu8IM5hQ9YL62_5ljc7flK2Ji_NdpGB5iZkk.jpeg",
+        "index": 9
+      },
+      {
+        "title": "[Announcement of the complete end of the Japanese EV ...",
+        "link": "https://www.youtube.com/watch?v=LsafVwmjypw&t=116",
+        "snippet": "2種類の充電プラグを使い分けなければならずその電気自動乗車側にも普通充電ポートと急速充電ポートという。 2種類の充電ポートを用意しなければなりませんそれでは。 対する欧米市場の充電プラグの形状はどうなっているのかというとまず北米市場に関してですがその普通充電器...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQglSxOPuRn9_9v5pTGYWBHabe0fpG325f60OHvEL94zoLP6T2_",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "Whats the difference between EV charging connectors?",
+        "link": "https://www.evcableco.ie/blogs/news/whats-the-difference-between-ev-charging-connectors",
+        "snippet": "For DC fast charging, Japan predominantly uses the CHAdeMO connector, which was developed by a consortium of Japanese automakers a...",
+        "source": "EV Cable Co.",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRLFRoy3_kwO82Ja2BZSdx8StarWux9gnHmlUza3uQPgY3vMU8Y",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.evcableco.ie&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "Can the Nissan LEAF \\u0026 ARIYA use Tesla Chargers? [2026]",
+        "link": "https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/",
+        "snippet": "The 2025 ARIYA features a CCS1 port, which supports fast DC charging and works with the Nissan ARIYA Tesla adapter for Tesla Super...",
+        "source": "Antelope Valley Nissan",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSq7MnnYYxpf1VIYcre2SgbCCLUq7317gswqJARlhyKAwTAnr5_",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.avnissan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "Adapting to Japan's Connectors for AC and DC Charging in Malaysia \\u0026 South East Asia",
+        "link": "https://www.evguru.com.my/post/navigating-electric-vehicle-charging-in-southeast-asia-adapting-to-japan-s-connectors-for-ac-and-dc",
+        "snippet": "In Japan, the Type 1 connector (J1772) is the standard for AC charging. When Southeast Asian EV owners acquire Japanese electric v...",
+        "source": "EvGuru",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSuZ2pMT3Xnsx-BNd1d-jH5FHdEISTdc_pijfhphYd7zE_sJ-EI",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.evguru.com.my&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "Nissan Is Switching to Tesla's NACS EV Charging Plug in 2025",
+        "link": "https://www.thedrive.com/news/nissan-is-switching-to-teslas-nacs-ev-charging-plug-in-2025",
+        "snippet": "Nissan is officially the first Japanese automaker to plan on adopting Tesla's charger plug for EVs. In 2025 the Nissan Ariya, and ...",
+        "source": "The Drive",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRiEmpmEGTpb0oqxrbH_zC1qEiXvzK3kAwZFurOTIFyXMSSRpXs",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.thedrive.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      }
+    ],
+    "reconstructed_markdown": "The Nissan Ariya sold in Japan is primarily compatible with the CHAdeMO fast charging standard. This differs from North American and European models, which use [CCS](https://www.zapmap.com/ev-guides/model-charging/nissan-ariya) \\(Combined Charging System\\). [0] [1] [5] [3]\n\n### Standard Connectors in Japan\n\nDomestic models feature a dual\\-port setup to support the most common public infrastructure in Japan: [8] [9]\n\n- Fast Charging \\(DC\\): Uses the CHAdeMO connector.\n- Slow/Home Charging \\(AC\\): Uses the [J1772](https://recharged.com/articles/nissan-ariya-best-home-charger) \\(Type 1\\) connector. [5] [10] [6]\n\n### Network Compatibility\n\nThe Ariya is designed to work with Japan's extensive public charging networks, which are heavily built around the CHAdeMO standard. [3] [2] [11]\n\n- e\\-Mobility Power \\(eMP\\): This is the largest network in Japan. The Ariya can utilize its vast array of chargers found at [roadside stations](https://teskas.net/t/topic/12864?tl=en) \\(Michi\\-no\\-Eki\\), service areas, and commercial facilities.\n- High\\-Power Charging: Japanese spec vehicles support up to 130kW DC fast charging.\n- Next\\-Gen Infrastructure: Recent developments in Japan include [350kW chargers](https://www.chademo.com/japan-opens-to-1000v-charging), which are being developed to ensure long\\-term compatibility with high\\-voltage vehicles.\n- Tesla Superchargers: Currently, Nissan is transitioning toward [NACS](https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models) \\(Tesla standard\\) in North America. In Japan, some Tesla chargers may require a CHAdeMO adapter if they do not provide a native CHAdeMO cable. [2] [9] [5] [0]\n\n### Comparison by Region\n\n| Market | Fast Charging \\(DC\\) | Normal Charging \\(AC\\) |\n| --- | --- | --- |\n| Japan | CHAdeMO | J1772 |\n| USA / Canada | CCS1 / NACS \\(2025\\+\\) | J1772 |\n| Europe | CCS2 | Type 2 |\n[0] [12] [13] [14]\n\nWatch how to properly utilize rapid charging infrastructure and manage battery health for the Nissan Ariya:\n\nIf you'd like, I can:\n\n- Provide a list of apps to find chargers in Japan\n- Explain the cost of charging at public stations in Japan\n- Help you find compatible home charging equipment for your region\n\n\n### References\n\n[0] [Nissan to adopt North American Charging Standard \\(NACS ...](https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models) — Jul 19, 2023 — NASHVILLE, Tenn. – Nissan has reached an agreement with Tesla to adopt the North American Charging Standard \\(NACS\\) beginning in 20...\n\n[1] [Nissan Ariya EV charging guide \\- Zapmap](https://www.zapmap.com/ev-guides/model-charging/nissan-ariya) — How to charge the Nissan Ariya. The Nissan Ariya uses the CCS charging standard, which consists of a combined AC and DC inlet port...\n\n[2] [Japan opens to 1000V charging and next\\-gen fast chargers are in ...](https://www.chademo.com/japan-opens-to-1000v-charging) — Jun 30, 2024 — With the change in the Japanese government's regulation about the upper limit of DC EV charging voltage level, high voltage chargi...\n\n[3] [Does Nissan’s switch to CCS charging for the Ariya mean ... \\- WhichEV](https://www.whichev.net/2020/07/21/does-nissans-switch-to-ccs-charging-for-the-ariya-mean-chademo-is-dead/) — Jul 21, 2020 — As of right now, CHAdeMO is still very popular as of course it is used by the Leaf and it is widely appreciated in Japan. That is ...\n\n[4] [Nissan adopts CCS fast\\-charging with new Ariya electric SUV](https://www.cnet.com/home/electric-vehicles/nissan-ariya-electric-suv-adopts-ccs-fast-charging/) — Jul 14, 2020 — ... powering a home during an outage or equalizing grid spikes and dips with connected cars' batteries. \"We will keep using CHAdeM...\n\n[5] [アリア \\[ ARIYA \\] 取扱説明書 ｜ 充電の種類 \\- 日産自動車](https://www.nissan.co.jp/OPTIONAL-PARTS/NAVIOM/ARIYA_SPECIAL/2602/?cr=pg&pg=guid-ed63b23a-3a98-4bb4-9815-9d6c2122afa5-m030860) — 外出先などに設置された急速充電器を使用し、短時間で行うことができる充電を「急速充電」といいます。 この車両は、CHAdeMO※1（チャデモ）仕様の急速充電器を使用してください。 急速充電のしかた ※1：CHAdeMOとは、日本発の電気自動車用急速充電規格です。...\n\n[6] [Nissan Ariya Best Home Charger: 2026 Buyer's Guide \\| Recharged](https://recharged.com/articles/nissan-ariya-best-home-charger) — May 10, 2026 — Every U.S. Nissan Ariya uses a J1772 connector for AC charging and has about a 7.2–7.4 kW onboard charger. That means a 32–40 amp ...\n\n[7] [\\[Announcement of the complete end of the Japanese EV ...](https://www.youtube.com/watch?t=116&v=LsafVwmjypw) — Jul 28, 2021 — 2種類の充電プラグを使い分けなければならずその電気自動乗車側にも普通充電ポートと急速充電ポートという。 2種類の充電ポートを用意しなければなりませんそれでは。 対する欧米市場の充電プラグの形状はどうなっているのかというとまず北米市場に関してですがその普通充電器...\n\n[8] [So Jealous. New 2026 Leaf got NACS charge port before the ...](https://www.reddit.com/r/NissanAriya/comments/1ldulak/so_jealous_new_2026_leaf_got_nacs_charge_port/) — Jun 17, 2025 — This was probably the cheapest way for Nissan to implement NACS for North American EVs. The Japanese market version of the Ariya \\(\n\n[9] [Please tell me about recommended charging equipment](https://teskas.net/t/topic/12864?tl=en) — Jun 4, 2025 — ● Chargers from other companies. CHAdeMO rapid chargers. This is the most common rapid charging standard in Japan and is widely in...\n\n[10] [\\[Announcement of the complete end of the Japanese EV ...](https://www.youtube.com/watch?t=116&v=LsafVwmjypw) — 2種類の充電プラグを使い分けなければならずその電気自動乗車側にも普通充電ポートと急速充電ポートという。 2種類の充電ポートを用意しなければなりませんそれでは。 対する欧米市場の充電プラグの形状はどうなっているのかというとまず北米市場に関してですがその普通充電器...\n\n[11] [Whats the difference between EV charging connectors?](https://www.evcableco.ie/blogs/news/whats-the-difference-between-ev-charging-connectors) — For DC fast charging, Japan predominantly uses the CHAdeMO connector, which was developed by a consortium of Japanese automakers a...\n\n[12] [Can the Nissan LEAF \\u0026 ARIYA use Tesla Chargers? \\[2026\\]](https://www.avnissan.com/blog/can-the-nissan-leaf-ariya-use-tesla-chargers/) — The 2025 ARIYA features a CCS1 port, which supports fast DC charging and works with the Nissan ARIYA Tesla adapter for Tesla Super...\n\n[13] [Adapting to Japan's Connectors for AC and DC Charging in Malaysia \\u0026 South East Asia](https://www.evguru.com.my/post/navigating-electric-vehicle-charging-in-southeast-asia-adapting-to-japan-s-connectors-for-ac-and-dc) — In Japan, the Type 1 connector \\(J1772\\) is the standard for AC charging. When Southeast Asian EV owners acquire Japanese electric v...\n\n[14] [Nissan Is Switching to Tesla's NACS EV Charging Plug in 2025](https://www.thedrive.com/news/nissan-is-switching-to-teslas-nacs-ev-charging-plug-in-2025) — Nissan is officially the first Japanese automaker to plan on adopting Tesla's charger plug for EVs. In 2025 the Nissan Ariya, and ...\n"
+  }
+}

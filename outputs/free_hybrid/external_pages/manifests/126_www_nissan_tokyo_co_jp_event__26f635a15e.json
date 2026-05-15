@@ -1,0 +1,744 @@
+{
+  "url": "https://www.nissan-tokyo.co.jp/event/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 19190,
+    "wordish_count": 3519,
+    "heading_count": 8,
+    "bullet_count": 80,
+    "link_count": 103,
+    "image_count": 23,
+    "pdf_link_count": 2,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 109,
+    "numeric_fact_count": 848,
+    "question_count": 9,
+    "unique_line_count": 204,
+    "numeric_facts_sample": [
+      "200",
+      "4",
+      "3",
+      "20",
+      "2000",
+      "90",
+      "72",
+      "201665",
+      "201673",
+      "23",
+      "2087",
+      "345%",
+      "2038.679",
+      "064.011",
+      "343.02",
+      "453.02",
+      "8.835",
+      "031",
+      "972",
+      "075%",
+      "200%",
+      "20.591%",
+      "20.709",
+      "013",
+      "9%"
+    ],
+    "links_sample": [
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-2604present-cp.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-skyline_fairlady.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-subscription_pop.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-nt-popserena.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-special_plan_lease.png",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-online-consultation.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-customize.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-lv.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-grandberrypark.png",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-tamadaira.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-osusume.jpg?update=2605",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-tire.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-viruscoat.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-mainte-estimates.png?update=2502",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-mainte-reserve.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-nissandenki.png",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-omoide.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-line.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-blog.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-youtube.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-column.jpg",
+      "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-chat.jpg",
+      "https://appimg.chatplus.jp/app/8812/eyecatcher/eyecatcher31.png",
+      "https://www.nissan-tokyo.co.jp/",
+      "https://www.nissan-tokyo.co.jp/shop/"
+    ],
+    "image_alt_count": 27
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 3,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 97,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 1164,
+    "main_chars": 743,
+    "footer_chars": 657,
+    "tables_chars": 0,
+    "metadata_chars": 61,
+    "full_markdown_chars": 19190
+  },
+  "metadata": {
+    "title": "フェア・キャンペーン・特集【おすすめコンテンツ】｜日産東京販売株式会社",
+    "description": "日産東京のフェア・キャンペーンや特集、SNSなどのおすすめコンテンツを掲載しています。",
+    "language": "",
+    "sourceURL": "https://www.nissan-tokyo.co.jp/event/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.nissan-tokyo.co.jp/",
+      "text": "https://www.nissan-tokyo.co.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/shop/",
+      "text": "地域から探す",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/search/dealer.html",
+      "text": "一覧から探す",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/shop/?id=shop-renewal",
+      "text": "店舗リニューアル情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/shop/?id=notice",
+      "text": "店舗統合・移転のお知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/shop/calendar/",
+      "text": "営業カレンダー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/newcar/search.html",
+      "text": "試乗車・展示車検索",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/lv/",
+      "text": "福祉車両（ライフケアビークル）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/customize/",
+      "text": "カスタイマイズサービス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo-pop.com/",
+      "text": "クルマのサブスク（P.O.P）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-fs.co.jp/carlease/simulation.html",
+      "text": "法人リースオンライン受付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/info/videochat/",
+      "text": "オンライン相談予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/support/estimates.html",
+      "text": "オンライン見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/support/catalog.html",
+      "text": "カタログ請求",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CARLIFE-INSURANCE/",
+      "text": "日産カーライフ保険",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/newcar/nissan_tamadaira.html",
+      "text": "イオンモール多摩平の森",
+      "is_pdf": false
+    },
+    {
+      "url": "https://u-car.nissan.co.jp/shop/ucarsearch/s3300",
+      "text": "在庫車一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://u-car.nissan.co.jp/WIDE/",
+      "text": "中古車ワイド保証",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/",
+      "text": "アフターサービスTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/service-reservation/",
+      "text": "メンテナンスネット予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/shaken/",
+      "text": "車検",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/tenken/",
+      "text": "点検",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/shaken-estimates/",
+      "text": "車検立会い見積り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/maintepro/",
+      "text": "メンテプロパック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/service/",
+      "text": "メンテナンス商品TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/service/seasonal.html",
+      "text": "季節のおすすめ商品",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/assets/pdf/maintenance/tenken_price.pdf",
+      "text": "整備料金",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/2310tire-storage-service/",
+      "text": "タイヤ・ホイールセットお預かりサービス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/2302service-antivirus/",
+      "text": "抗菌・抗ウイルスコートロングタイプ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/after-service/motorsportsfactory.html",
+      "text": "モータースポーツ室",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/",
+      "text": "おすすめコンテンツ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/line/",
+      "text": "公式LINEアカウント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://blog.nissan.co.jp/DEALER/3300",
+      "text": "店舗ブログ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCqYtiKqYx4hIVuVSl5CUGrA",
+      "text": "公式Youtubeアカウント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/column/",
+      "text": "コラム「クルマと暮らす」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/nissan-car-stories/",
+      "text": "日産車と紡ぐストーリー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/contact/",
+      "text": "お問い合わせTOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/info/chat/",
+      "text": "チャットサポート",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/company/about.html",
+      "text": "会社情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/company/philosophy/",
+      "text": "企業理念",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/company/document-policy/",
+      "text": "お客さまよりお預かりする大切な書類について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/company/sdgs/",
+      "text": "SDGsへの取り組み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/corp/woman-activation.html",
+      "text": "ダイバーシティ＆インクルージョン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/company/public-announcement.html",
+      "text": "電子公告",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/corp/corporate-pension.html",
+      "text": "企業年金",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/assets/pdf/jidosya-hikitori.pdf",
+      "text": "自動車引取業登録通知書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/insurance/fiduciaryduty/",
+      "text": "お客さま本位の業務運営方針（FD宣言）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/insurance/solicitation/",
+      "text": "金融商品販売の勧誘方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.ps-craft.co.jp/",
+      "text": "日産ピーズフィールドクラフト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.renault.tokyo/",
+      "text": "ルノーNT販売",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recruit.nissan-tokyo.co.jp/",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/shop/calendar/",
+      "text": "営業 カレンダー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/content/dam/nissan/3300_%E6%97%A5%E7%94%A3%E6%9D%B1%E4%BA%AC%E8%B2%A9%E5%A3%B2%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/pdf/nts_2406tenken_price.pdf",
+      "text": "整備料金",
+      "is_pdf": true
+    },
+    {
+      "url": "https://recruit.nissan-tokyo.co.jp",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/",
+      "text": "トップに戻る",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www2.nissan.co.jp/EVENT/PRIZE/26/01/?syid=20260416_111",
+      "text": "購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる新車購入資金プレゼントキャンペーン！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/skyline_fairlady/",
+      "text": "進化を遂げたスカイラインとフェアレディZ、心を動かすのはどちら？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo-pop.com/",
+      "text": "クルマのサブスクリプション あなたのライフプランにあった買い方を選べます。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo-pop.com/post-car/serena",
+      "text": "セレナe-4ORCE マイカーリースポップ（P.O.P）プラン登場！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo-pop.com/event/2506special/",
+      "text": "個人・法人でご利用いただけるスペシャルプランが登場！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/info/videochat/",
+      "text": "来店前にサクッと事前に。好きな場所からオンライン相談でラクラク！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/customize/",
+      "text": "趣味や仕事をより楽しむために、自分だけの1台に新車をカスタムしませんか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/lv/",
+      "text": "福祉車両のアドバイザーがお客さまに合った車両をご案内します。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/ariya_smartev/",
+      "text": "南町田グランベリーパークへ。日産アリアと過ごす、週末のひととき。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/newcar/nissan_tamadaira.html",
+      "text": "お買い物やお食事のついでにぜひお立ち寄りください♪",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/service/seasonal.html",
+      "text": "おでかけ前に愛車をメンテナンス！季節にあわせたクルマのケアメニューを紹介します。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/2310tire-storage-service/",
+      "text": "ニッサンに全部お任せで安心！タイヤ保管のお悩みを解消します。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/2302service-antivirus/",
+      "text": "新車時にコーティングするだけで車内の「キレイ」が3年も続く！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/shaken-estimates/",
+      "text": "車検前に費用を把握しよう。車検立会い見積り。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/maintenance/service-reservation/",
+      "text": "お店の営業時間を気にせず、カンタン予約！車両メンテナンスネット予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/nissan-denki/",
+      "text": "日産でんきは、暮らし・社会・環境を考え続ける日産のあたらしい取り組みです。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/nissan-car-stories/",
+      "text": "日産東京のオーナーさまと日産車の想い出のストーリーをご紹介します。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/line/",
+      "text": "友だち追加でクーポンや点検時期を受け取ろう！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://blog.nissan.co.jp/DEALER/3300?_gl=1*1y54aag*_gcl_au*NTA3MDU3MDg2LjE3MzAyODI1NTY.",
+      "text": "お店からお届け。来店前にチェック！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCqYtiKqYx4hIVuVSl5CUGrA",
+      "text": "動画で知っトク！日産東京チャンネル",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/column/",
+      "text": "カーライフに関するコラム。お客さまに役立つ情報を日々配信しています。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/info/chat/",
+      "text": "皆さまのクルマ選び・カーライフをサポートします。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/event/#top",
+      "text": "https://www.nissan-tokyo.co.jp/event/#top",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.jp/CARLINEUP/",
+      "text": "カーラインアップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/privacy/index.html",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/terms/index.html",
+      "text": "ご利用にあたって",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/antique/index.html",
+      "text": "古物営業法の規定に基づく表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/ownership/index.html",
+      "text": "所有権解除手続き",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www.nissan-tokyo.co.jp/assets/pdf/maintenance/tenken_price.pdf",
+      "text": "整備料金",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nissan-tokyo.co.jp/assets/pdf/jidosya-hikitori.pdf",
+      "text": "自動車引取業登録通知書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://ni-tokyo.nissan-dealer.jp/content/dam/nissan/3300_%E6%97%A5%E7%94%A3%E6%9D%B1%E4%BA%AC%E8%B2%A9%E5%A3%B2%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/pdf/nts_2406tenken_price.pdf",
+      "text": "整備料金",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='90'%20height='72'%3e%3cg%20data-name='グループ%201665'%3e%3cpath%20data-name='長方形%201673'%20fill='%23fff'%20d='M0%200h90v72H0z'/%3e%3cpath%20data-name='パス%2087'%20d='M51.345%2038.679c-.064.011-.343.02-.453.02h-8.835v2.031h8.972c.075%200%20.591%200%20.709-.013a2.9%202.9%200%20002.664-3.017%202.873%202.873%200%2000-2.527-2.976%206.539%206.539%200%2000-.721-.03l-.02.176v-.17h-5.841a3.387%203.387%200%2001-.652-.051.85.85%200%2001-.632-.859.883.883%200%2001.65-.857%202.184%202.184%200%2001.614-.044h8.466v-2.014h-8.6a6.375%206.375%200%2000-.86.045%202.912%202.912%200%2000-.034%205.761%207.537%207.537%200%2000.923.04h5.715c.108%200%20.362.006.414.013a.984.984%200%2001.052%201.946zm-16.718%200c-.063.011-.343.02-.452.02h-8.836v2.031h8.972c.075%200%20.591%200%20.708-.013a2.9%202.9%200%20002.666-3.017%202.873%202.873%200%2000-2.528-2.976%206.545%206.545%200%2000-.721-.03l-.019.176v-.17h-5.843a3.387%203.387%200%2001-.652-.051.85.85%200%2001-.632-.859.883.883%200%2001.647-.857%202.2%202.2%200%2001.615-.044h8.467v-2.014h-8.6a6.368%206.368%200%2000-.86.045%202.912%202.912%200%2000-.035%205.761%207.672%207.672%200%2000.923.04h5.714c.108%200%20.363.006.415.013a.984.984%200%2001.052%201.946zm-13.908-7.858h-2.22v9.964h2.22zm-7.13%209.964v-9.963h-2.22v7.425l-7.4-7.425h-2.85v9.963h2.22V33.31l7.449%207.475zm71.51-9.963v7.425l-7.4-7.425h-2.855v9.963h2.22v-7.476l7.449%207.475h2.8v-9.962zm-18.123%206.3h-5.015l2.509-4zm-3.7-6.3l-6.267%209.962h2.694L60.819%2039h7.3l1.115%201.78h2.69l-6.261-9.964h-2.389zm-49.8-5.661a32.64%2032.64%200%200161.516%200l.037.108h9.79V24.1l-.142-.016-3.931-.455c-2.511-.29-3.047-1.389-3.728-2.782l-.165-.336a36.2%2036.2%200%2000-65.242%200l-.166.337c-.679%201.392-1.215%202.491-3.728%202.782l-3.931.455-.142.016v1.168h9.792l.037-.108zm61.661%2021.187h-.118l-.037.108A32.433%2032.433%200%200144.229%2068.17%2032.436%2032.436%200%200113.47%2046.449l-.037-.108H3.642v1.167l.142.017%203.93.455c2.513.291%203.049%201.39%203.728%202.783l.164.334a36.156%2036.156%200%200032.62%2020.514h.005a36.154%2036.154%200%200032.617-20.5l.166-.34c.679-1.392%201.217-2.491%203.728-2.782l3.932-.455.142-.016v-1.169h-9.678z'%20fill-rule='evenodd'/%3e%3c/g%3e%3c/svg%3e",
+      "alt": "NISSAN ロゴ"
+    },
+    {
+      "src": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='104'%20height='25'%3e%3cimage%20width='104'%20height='25'%20xlink:href='data:image/gif;base64,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'/%3e%3c/svg%3e",
+      "alt": "日産東京 ロゴ"
+    },
+    {
+      "src": "data:image/svg+xml,%3csvg%20viewBox='0%200%2023%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_2298_6724)'%3e%3cpath%20d='M22.5841%208.74232V5.0559C22.5841%203.65703%2021.4475%202.51732%2020.0486%202.51732H18.7903V4.03779V4.70304V5.3151C18.7903%206.0458%2018.197%206.6389%2017.4663%206.6389H15.14C14.4093%206.6389%2013.816%206.0458%2013.816%205.3151V4.70299V4.03779V2.52904V2.52446V2.51727H9.1852V4.03774V4.70299V5.31505C9.1852%206.04575%208.58877%206.63885%207.85807%206.63885H5.53498C4.80429%206.63885%204.20786%206.04575%204.20786%205.31505V4.70299V4.03779V2.51727H2.95265C1.55378%202.51727%200.417215%203.65699%200.417215%205.05585V8.74228H0.415283V20.7206C0.415283%2022.2531%201.66204%2023.5%203.19464%2023.5H19.8054C21.3378%2023.5%2022.5848%2022.2531%2022.5848%2020.7206V8.74232H22.5841ZM2.60118%209.0464H2.60293V8.57943H20.3983V9.0464H20.3988V20.7206C20.3988%2021.0477%2020.1326%2021.3141%2019.8054%2021.3141H3.19464C2.86721%2021.3141%202.60118%2021.0477%202.60118%2020.7206V9.0464Z'%20fill='%23C3002F'/%3e%3cpath%20d='M7.73061%2010.8545V10.8463V10.8391H5.02563V13.5438H7.73061V10.8545Z'%20fill='%23C3002F'/%3e%3cpath%20d='M12.8522%2010.8391H10.1475V13.5438H12.8522V10.8391Z'%20fill='%23C3002F'/%3e%3cpath%20d='M15.2693%2013.5367V13.5438H17.9743V10.8391H15.2693V13.5286V13.5367Z'%20fill='%23C3002F'/%3e%3cpath%20d='M7.73061%2015.7471V15.7389V15.7317H5.02563V18.4367H7.73061V15.7471Z'%20fill='%23C3002F'/%3e%3cpath%20d='M12.8522%2015.7317H10.1475V18.4366H12.8522V15.7317Z'%20fill='%23C3002F'/%3e%3cpath%20d='M15.2693%2018.4367H17.9743V15.7317H15.2693V18.4213V18.4295V18.4367Z'%20fill='%23C3002F'/%3e%3cpath%20d='M5.53501%205.70218H7.8581C8.07364%205.70218%208.24838%205.53053%208.24838%205.31504V4.70298V4.03778V2.51726V1.70534C8.24838%201.04329%207.70514%200.5%207.04007%200.5H6.35308C5.68802%200.5%205.14478%201.04329%205.14478%201.70534V2.51726V4.03773V4.70298V5.31504C5.14478%205.53053%205.31952%205.70218%205.53501%205.70218Z'%20fill='%23C3002F'/%3e%3cpath%20d='M15.14%205.70218H17.4663C17.6786%205.70218%2017.8534%205.53053%2017.8534%205.31504V4.70298V4.03778V2.51726V1.70534C17.8533%201.04329%2017.3101%200.5%2016.6482%200.5H15.958C15.296%200.5%2014.7527%201.04329%2014.7527%201.70534V2.51726V4.03773V4.70298V5.31504C14.7527%205.53053%2014.9276%205.70218%2015.14%205.70218Z'%20fill='%23C3002F'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_2298_6724'%3e%3crect%20width='23'%20height='23'%20fill='white'%20transform='translate(0%200.5)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-2604present-cp.jpg",
+      "alt": "購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる新車購入資金プレゼントキャンペーン！"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-skyline_fairlady.jpg",
+      "alt": "宿る伝統、進化のその先へ 同型エンジンを持つ2台 スカイライン・フェアレディZ"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-subscription_pop.jpg",
+      "alt": "5年契約なのに3年毎に新車に乗り換え！？サブスクP.O.P"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-nt-popserena.jpg",
+      "alt": "マイカーリースP.O.P 現金キャッシュバック付きセレナ"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-special_plan_lease.png",
+      "alt": "個人・法人でご利用いただけるスペシャルプランが登場！"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-online-consultation.jpg",
+      "alt": "オンライン相談"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-customize.jpg",
+      "alt": "日産カスタムカー / カスタマイズサービス"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-lv.jpg",
+      "alt": "日産東京の一部店舗にて展示中！日産の福祉車両 Life Care Vehicles of Nissan ライフケアビークル"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-grandberrypark.png",
+      "alt": "南町田グランベリーパークへ。日産アリアと過ごす、週末のひととき。"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-tamadaira.jpg",
+      "alt": "イオンモール多摩平の森 日産展示場に日産の人気車種を展示中！"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-osusume.jpg?update=2605",
+      "alt": "おでかけ前に愛車をメンテナンス！"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-tire.jpg",
+      "alt": "ニッサンに全部お任せで安心！タイヤ・ホイールセットお預かりサービス"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-viruscoat.jpg",
+      "alt": "抗菌・抗ウイルスコーティング！ロングタイプ"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-mainte-estimates.png?update=2502",
+      "alt": "車検立会い見積り"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-mainte-reserve.jpg",
+      "alt": "メンテナンスネット予約"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-nissandenki.png",
+      "alt": "日産でんき"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-omoide.jpg",
+      "alt": "想い出コンテンツ"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-line.jpg",
+      "alt": "日産東京LINE公式アカウント"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-blog.jpg",
+      "alt": "日産東京の店舗ブログ"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-youtube.jpg",
+      "alt": "日産東京公式Youtubeチャンネル"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-column.jpg",
+      "alt": "コラム「クルマと暮らす」"
+    },
+    {
+      "src": "https://www.nissan-tokyo.co.jp/assets/images/top/pickup-chat.jpg",
+      "alt": "チャットサポート"
+    },
+    {
+      "src": "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2086%2086'%20fill='none'%3e%3cg%20filter='url(%23filter0_d_1_1134)'%3e%3crect%20x='14'%20y='72'%20width='58'%20height='58'%20rx='29'%20transform='rotate(-90%2014%2072)'%20fill='white'/%3e%3c/g%3e%3cpath%20d='M38%2041.7373L42.8832%2038M42.8832%2038L48%2041.7373M42.8832%2038L42.8832%2048'%20stroke='%23C3002F'%20stroke-width='2'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cdefs%3e%3cfilter%20id='filter0_d_1_1134'%20x='0.7'%20y='0.7'%20width='84.6'%20height='84.6'%20filterUnits='userSpaceOnUse'%20color-interpolation-filters='sRGB'%3e%3cfeFlood%20flood-opacity='0'%20result='BackgroundImageFix'/%3e%3cfeColorMatrix%20in='SourceAlpha'%20type='matrix'%20values='0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%20127%200'%20result='hardAlpha'/%3e%3cfeMorphology%20radius='4'%20operator='dilate'%20in='SourceAlpha'%20result='effect1_dropShadow_1_1134'/%3e%3cfeOffset/%3e%3cfeGaussianBlur%20stdDeviation='4.65'/%3e%3cfeComposite%20in2='hardAlpha'%20operator='out'/%3e%3cfeColorMatrix%20type='matrix'%20values='0%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200%200.06%200'/%3e%3cfeBlend%20mode='normal'%20in2='BackgroundImageFix'%20result='effect1_dropShadow_1_1134'/%3e%3cfeBlend%20mode='normal'%20in='SourceGraphic'%20in2='effect1_dropShadow_1_1134'%20result='shape'/%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e",
+      "alt": ""
+    },
+    {
+      "src": "https://appimg.chatplus.jp/app/8812/eyecatcher/eyecatcher31.png",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan-tokyo.co.jp/event/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan-tokyo.co.jp/event/",
+    "title": "フェア・キャンペーン・特集【おすすめコンテンツ】｜日産東京販売株式会社",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:16:39.446924+00:00",
+  "source_meta": {
+    "title": "フェア・キャンペーン・特集【おすすめコンテンツ】 - 日産東京",
+    "url": "https://www.nissan-tokyo.co.jp/event/",
+    "source_name": "日産東京販売株式会社",
+    "source_domain": "www.nissan-tokyo.co.jp",
+    "source_type": "other",
+    "snippet": "フェア・キャンペーン. 購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる新車購入資金プレゼントキャンペーン！ 購入サポート. 宿る伝統、進化のその先へ 同型エンジンを持つ2台 スカイライン・. 進化を遂げたスカイラインとフェアレディZ、心を...",
+    "citation_count": 3,
+    "first_cited_position": 6,
+    "answer_support_weight": 5,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Nissan offers and finance deals for new models in Japan today",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan offers and finance deals for new models in Japan today",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

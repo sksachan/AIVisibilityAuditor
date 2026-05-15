@@ -1,0 +1,688 @@
+{
+  "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 16276,
+    "wordish_count": 2362,
+    "heading_count": 8,
+    "bullet_count": 78,
+    "link_count": 86,
+    "image_count": 8,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 89,
+    "numeric_fact_count": 76,
+    "question_count": 8,
+    "unique_line_count": 232,
+    "numeric_facts_sample": [
+      "1",
+      "4",
+      "2024",
+      "2025",
+      "08",
+      "07121614",
+      "07121706",
+      "1024",
+      "07121722",
+      "2",
+      "04",
+      "02061535",
+      "100",
+      "2021",
+      "09",
+      "14062725",
+      "140920211115",
+      "11",
+      "10092613",
+      "12",
+      "18120024",
+      "135364593468759",
+      "86%",
+      "88%",
+      "8"
+    ],
+    "links_sample": [
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121614/This-or-That-Parallel-vs-Series-Hybrids.jpg",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121706/This-or-That-Parallel-vs-Series-Hybrids-1-1024x640.jpg",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121722/This-or-That-Parallel-vs-Series-Hybrids-2-1024x640.jpg",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2024/04/02061535/Cover-Image-2024-Chery-Cars-100x100.jpg",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2021/09/14062725/child-seat-cover-140920211115-100x100.jpg",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/11/10092613/Wireless-smartphone-charging-in-cars-100x100.png",
+      "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/12/18120024/Car-Tyres-Black-100x100.jpg",
+      "https://www.facebook.com/tr?id=135364593468759&ev=PageView&noscript=1",
+      "https://www.dubizzle.com/",
+      "https://www.dubizzle.com/blog/cars/",
+      "https://uae.dubizzle.com/motors/used-cars/",
+      "https://uae.dubizzle.com/en/property-for-rent/",
+      "https://uae.dubizzle.com/en/property-for-sale/",
+      "https://uae.dubizzle.com/classified/",
+      "https://uae.dubizzle.com/jobs/",
+      "https://uae.dubizzle.com/community/",
+      "https://uae.dubizzle.com/place-an-ad/user/login/",
+      "https://www.dubizzle.com/blog/cars/ar/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%A7%D9%8A%D8%A8%D8%B1%D8%AF/",
+      "https://www.dubizzle.com/blog/cars/driving/",
+      "https://www.dubizzle.com/blog/cars/parts-repairs/",
+      "https://www.dubizzle.com/blog/cars/market-trends/",
+      "https://www.dubizzle.com/blog/cars/laws-regulations/",
+      "https://www.dubizzle.com/blog/cars/public-transport/",
+      "https://www.dubizzle.com/blog/cars/car-comparison/",
+      "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/"
+    ],
+    "image_alt_count": 8
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "WebPage",
+      "ImageObject",
+      "WebSite",
+      "Person",
+      "ReadAction",
+      "SearchAction",
+      "EntryPoint",
+      "PropertyValueSpecification"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 2,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 277,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 206,
+    "main_chars": 6889,
+    "footer_chars": 963,
+    "tables_chars": 0,
+    "metadata_chars": 470,
+    "full_markdown_chars": 16276
+  },
+  "metadata": {
+    "title": "Parallel vs Series Hybrid: Working, Benefits & More | dubizzle",
+    "description": "Understand the differences between parallel vs series hybrid vehicles, including how they work and which is better for your driving habits.",
+    "language": "en-US",
+    "sourceURL": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "hreflang": [
+      {
+        "hreflang": "en",
+        "href": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/"
+      },
+      {
+        "hreflang": "ar",
+        "href": "https://www.dubizzle.com/blog/cars/ar/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%A7%D9%8A%D8%A8%D8%B1%D8%AF/"
+      }
+    ],
+    "json_ld_present": true,
+    "schema_types": [
+      "WebPage",
+      "ImageObject",
+      "WebSite",
+      "Person",
+      "ReadAction",
+      "SearchAction",
+      "EntryPoint",
+      "PropertyValueSpecification"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.dubizzle.com/",
+      "text": "dubizzle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/",
+      "text": "blog",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/",
+      "text": "Cars for Sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/en/property-for-rent/",
+      "text": "Property for Rent",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/en/property-for-sale/",
+      "text": "Property for Sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/classified/",
+      "text": "Classifieds",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/jobs/",
+      "text": "Jobs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/community/",
+      "text": "Community",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/place-an-ad/user/login/",
+      "text": "Place Your Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/ar/%D8%A7%D9%86%D9%88%D8%A7%D8%B9-%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%87%D8%A7%D9%8A%D8%A8%D8%B1%D8%AF/",
+      "text": "العربية",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/driving/",
+      "text": "Driving",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parts-repairs/",
+      "text": "Parts & Repairs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/market-trends/",
+      "text": "Market Trends",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/laws-regulations/",
+      "text": "Laws & Regulations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/public-transport/",
+      "text": "Public Transport",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/car-comparison/",
+      "text": "Car Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/#h-understanding-series-hybrids",
+      "text": "Series Hybrids Working",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/#h-understanding-parallel-hybrids",
+      "text": "Parallel Hybrids Working",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/#h-parallel-and-hybrid-comparison",
+      "text": "Comparison",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/#h-faqs",
+      "text": "FAQs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/auto-anatomy-car-wheels/",
+      "text": "wheels",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/car-engine-parts-types/",
+      "text": "car engine",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/regenerative-braking/",
+      "text": "regenerative braking",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/car-brakes/",
+      "text": "braking components",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/s/fuel-type/hybrid/",
+      "text": "used hybrid vehicles for sale in the UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/",
+      "text": "dubizzle auto blog",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.dubizzle.com%2Fblog%2Fcars%2Fparallel-vs-series-hybrids%2F",
+      "text": "Share",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=This+or+That%3A+Parallel+vs+Series+Hybrids&url=https%3A%2F%2Fwww.dubizzle.com%2Fblog%2Fcars%2Fparallel-vs-series-hybrids%2F",
+      "text": "Tweet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.dubizzle.com%2Fblog%2Fcars%2Fparallel-vs-series-hybrids%2F",
+      "text": "Pin",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/cws/share?url=https%3A%2F%2Fwww.dubizzle.com%2Fblog%2Fcars%2Fparallel-vs-series-hybrids%2F",
+      "text": "Share",
+      "is_pdf": false
+    },
+    {
+      "url": "https://api.whatsapp.com/send?text=This or That: Parallel vs Series Hybrids  https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "whatsapp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/chery-cars-2024/",
+      "text": "https://www.dubizzle.com/blog/cars/chery-cars-2024/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/chery-cars-2024/",
+      "text": "2024 Chery Car Lineup in the UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/all-about-child-car-seat/",
+      "text": "https://www.dubizzle.com/blog/cars/all-about-child-car-seat/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/all-about-child-car-seat/",
+      "text": "All about Child Seats in Car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/wireless-smartphone-charging-cars/",
+      "text": "https://www.dubizzle.com/blog/cars/wireless-smartphone-charging-cars/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/wireless-smartphone-charging-cars/",
+      "text": "All About Wireless Smartphone Charging in Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/car-tyres-black-reason/",
+      "text": "https://www.dubizzle.com/blog/cars/car-tyres-black-reason/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/car-tyres-black-reason/",
+      "text": "Get the Facts Rolling: Why Car Tyres Are Black",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "Buy used cars on dubizzle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/",
+      "text": "Used cars for sale in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/used-cars/",
+      "text": "Used cars for sale in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://abudhabi.dubizzle.com/motors/used-cars/",
+      "text": "Used cars for sale in Abu Dhabi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://sharjah.dubizzle.com/motors/used-cars/",
+      "text": "Used cars for sale in Sharjah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "Buy new cars on dubizzle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/new-cars/",
+      "text": "New cars for sale in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/new-cars/",
+      "text": "New cars for sale in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://abudhabi.dubizzle.com/motors/new-cars/",
+      "text": "New cars for sale in Abu Dhabi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://sharjah.dubizzle.com/motors/new-cars/",
+      "text": "New cars for sale in Sharjah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "Buy export cars on dubizzle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/export-cars/",
+      "text": "Export cars for sale in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/export-cars/",
+      "text": "Export cars for sale in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://abudhabi.dubizzle.com/motors/export-cars/",
+      "text": "Export cars for sale in Abu Dhabi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://sharjah.dubizzle.com/motors/export-cars/",
+      "text": "Export cars for sale in Sharjah",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "Rent cars on dubizzle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/rental-cars/",
+      "text": "Cars for rent in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/rental-cars/s/frequency/daily/",
+      "text": "Daily car rentals in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/rental-cars/s/frequency/weekly/",
+      "text": "Weekly car rentals in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/motors/rental-cars/s/frequency/monthly/",
+      "text": "Monthly car rentals in Dubai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "Popular Searches",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/o/cars-under-10000-aed-in-uae/",
+      "text": "Used cars under 10,000 AED in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/o/cars-with-0-downpayment-for-sale-in-uae/",
+      "text": "Used cars with 0% downpayment in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/o/cars-on-installments-for-sale-in-uae/",
+      "text": "Used cars on installments in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/used-cars/o/cars-under-20000-aed-in-uae/",
+      "text": "Used cars under 20,000 AED in UAE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+      "text": "dubizzle Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/services/inspection/",
+      "text": "Car Inspection",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/cars/services/sell-my-car/",
+      "text": "Sell my Car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dubizzle.com/cars/services/buy/",
+      "text": "Buy a Car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/services/car-finance/",
+      "text": "Car Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/about/",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://business.dubizzle.com/advertisers/",
+      "text": "Advertising",
+      "is_pdf": false
+    },
+    {
+      "url": "https://apply.workable.com/bayutdubizzle/",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/terms/",
+      "text": "Terms of use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://dubai.dubizzle.com/privacy/",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/contact/",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/dubizzle",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/dubizzle",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/dubizzle/",
+      "text": "instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/dubizzle-com/",
+      "text": "linkedin",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/dubizzle",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://apps.apple.com/ae/app/dubizzle/id892172848",
+      "text": "app store",
+      "is_pdf": false
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.dubizzle.horizontal",
+      "text": "google play",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/",
+      "text": "https://uae.dubizzle.com/motors/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://uae.dubizzle.com/motors/",
+      "text": "View cars for sale",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121614/This-or-That-Parallel-vs-Series-Hybrids.jpg",
+      "alt": "انواع السيارات الهايبرد"
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121706/This-or-That-Parallel-vs-Series-Hybrids-1-1024x640.jpg",
+      "alt": "Series and parallel hybrids combine electric and petrol power in different ways."
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/08/07121722/This-or-That-Parallel-vs-Series-Hybrids-2-1024x640.jpg",
+      "alt": "Series hybrids operate solely on electric motor power."
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2024/04/02061535/Cover-Image-2024-Chery-Cars-100x100.jpg",
+      "alt": "2024 Chery Cars in the UAE"
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2021/09/14062725/child-seat-cover-140920211115-100x100.jpg",
+      "alt": "child seat in car"
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/11/10092613/Wireless-smartphone-charging-in-cars-100x100.png",
+      "alt": "Wireless smartphone charging in cars"
+    },
+    {
+      "src": "https://d2hucwwplm5rxi.cloudfront.net/wp-content/uploads/2025/12/18120024/Car-Tyres-Black-100x100.jpg",
+      "alt": "Reason Behind the Black Colour of Tyres"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=135364593468759&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+    "title": "Parallel vs Series Hybrid: Working, Benefits & More | dubizzle",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:02:09.201704+00:00",
+  "source_meta": {
+    "title": "Parallel vs Series Hybrid: Working, Benefits \\u0026 More",
+    "url": "https://www.dubizzle.com/blog/cars/parallel-vs-series-hybrids/",
+    "source_name": "dubizzle",
+    "source_domain": "www.dubizzle.com",
+    "source_type": "other",
+    "snippet": "No, in series hybrid vehicles, the engine does not have a direct mechanical connection to the wheels.",
+    "citation_count": 1,
+    "first_cited_position": 1,
+    "answer_support_weight": 1,
+    "supported_block_types": [
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

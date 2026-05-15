@@ -1,0 +1,393 @@
+{
+  "query_id": "q001",
+  "query": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+  "query_type": "non_branded",
+  "brand_topic_category": "EV range, charging and battery confidence",
+  "journey_stage": "consideration",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071980f6e926595b257d40",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/VI17-Ter0AKSOcxpnLhoeQ/6a071980f6e926595b257d40.json",
+      "created_at": "2026-05-15 13:02:56 UTC",
+      "processed_at": "2026-05-15 13:02:56 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=How+far+can+modern+small+electric+cars+travel+on+a+single+charge+for+daily+city+driving+in+Japan%3F&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/VI17-Ter0AKSOcxpnLhoeQ/6a071980f6e926595b257d40.html",
+      "prettify_html_file": "https://serpapi.com/searches/VI17-Ter0AKSOcxpnLhoeQ/6a071980f6e926595b257d40.prettify",
+      "total_time_taken": 7.62
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Modern small electric cars in Japan—predominantly categorized as electric kei cars (kei-jidosha)—can travel between 120 and 180 kilometers (75 to 111 miles) on a single charge during daily city driving.",
+        "snippet_highlighted_words": [
+          "between 120 and 180 kilometers (75 to 111 miles)"
+        ],
+        "reference_indexes": [
+          3,
+          6
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "While official Japanese WLTC (Worldwide Harmonized Light Vehicles Test Cycle) ratings advertise up to 180 kilometers, real-world dense urban traffic, seasonal climate changes, and air conditioning use typically lower the actual distance.",
+        "reference_indexes": [
+          5,
+          1,
+          8,
+          9
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Real-World Distance Expectations"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Because city driving consists of low speeds and heavy stop-and-go traffic, electric cars heavily utilize regenerative braking to recover energy. However, extreme weather directly dictates how far the vehicle will travel on a single battery charge:",
+        "reference_indexes": [
+          1,
+          10,
+          11
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Spring & Autumn (Optimal Conditions): 150 – 180 km. Little to no climate control is required, allowing the car to approach its maximum rated test range."
+          },
+          {
+            "snippet": "Summer (Heavy A/C Use): 130 – 150 km. Cooling the cabin in hot, humid Japanese summers draws extra power from the main traction battery."
+          },
+          {
+            "snippet": "Winter (Heavy Heater Use): 100 – 120 km. Electric cabin heaters require substantial energy. In cold climates like Hokkaido or Tohoku, range can drop by up to 30%."
+          }
+        ],
+        "reference_indexes": [
+          1,
+          0,
+          2,
+          12
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Comparison of Popular Small Japanese EVs"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The small EV market in Japan is dominated by highly efficient micro-vehicles tailored explicitly for narrow city streets:",
+        "reference_indexes": [
+          7,
+          13,
+          14
+        ]
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          5,
+          3,
+          4,
+          15,
+          16
+        ],
+        "table": [
+          [
+            "Vehicle Model",
+            "Battery Capacity",
+            "Official WLTC Range",
+            "Estimated Real City Range"
+          ],
+          [
+            "Nissan Sakura",
+            "20 kWh",
+            "180 km",
+            "130 – 160 km"
+          ],
+          [
+            "Mitsubishi eK X EV",
+            "20 kWh",
+            "180 km",
+            "130 – 160 km"
+          ],
+          [
+            "Honda e (Discontinued/Used)",
+            "35.5 kWh",
+            "259 km",
+            "170 – 200 km"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Vehicle Model"
+            },
+            {
+              "snippet": "Battery Capacity"
+            },
+            {
+              "snippet": "Official WLTC Range"
+            },
+            {
+              "snippet": "Estimated Real City Range"
+            }
+          ],
+          [
+            {
+              "snippet": "Nissan Sakura"
+            },
+            {
+              "snippet": "20 kWh"
+            },
+            {
+              "snippet": "180 km"
+            },
+            {
+              "snippet": "130 – 160 km"
+            }
+          ],
+          [
+            {
+              "snippet": "Mitsubishi eK X EV"
+            },
+            {
+              "snippet": "20 kWh"
+            },
+            {
+              "snippet": "180 km"
+            },
+            {
+              "snippet": "130 – 160 km"
+            }
+          ],
+          [
+            {
+              "snippet": "Honda e (Discontinued/Used)"
+            },
+            {
+              "snippet": "35.5 kWh"
+            },
+            {
+              "snippet": "259 km"
+            },
+            {
+              "snippet": "170 – 200 km"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "vehicle_model": "Nissan Sakura",
+            "battery_capacity": "20 kWh",
+            "official_wltc_range": "180 km",
+            "estimated_real_city_range": "130 – 160 km"
+          },
+          {
+            "vehicle_model": "Mitsubishi eK X EV",
+            "battery_capacity": "20 kWh",
+            "official_wltc_range": "180 km",
+            "estimated_real_city_range": "130 – 160 km"
+          },
+          {
+            "vehicle_model": "Honda e (Discontinued/Used)",
+            "battery_capacity": "35.5 kWh",
+            "official_wltc_range": "259 km",
+            "estimated_real_city_range": "170 – 200 km"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Why These Ranges Work for Japan"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Domestic automotive data from manufacturers like Mitsubishi Motors confirms that roughly 80% of Japanese kei-car drivers travel less than 50 kilometers per day. Consequently, a standard 20 kWh battery pack provides enough energy for 2 to 3 days of standard local commuting, grocery shopping, and city errands without needing a daily recharge.",
+        "snippet_links": [
+          {
+            "text": "Mitsubishi Motors",
+            "link": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20220520_2.html"
+          }
+        ],
+        "reference_indexes": [
+          4
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you are evaluating these vehicles for a specific region or use case, please let me know where in Japan you plan to drive or your estimated daily commute distance so I can provide a more tailored range and charging breakdown."
+      }
+    ],
+    "references": [
+      {
+        "title": "How far can an electric vehicle go on one charge if ... - Quora",
+        "link": "https://www.quora.com/How-far-can-an-electric-vehicle-go-on-one-charge-if-driven-at-normal-speeds-and-with-no-stops-or-starts-i-e-driving-like-a-grandma",
+        "snippet": "Jan 6, 2023 — In this hypothetical world where I don't need a pee break and traffic doesn't exist, my first EV would go about 75 miles. My curre...",
+        "source": "Quora",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/Dc0WqGwk2Y4wnBuKbFL52YQAf3cF6lCIcj-PsTsM7jc.png",
+        "index": 0
+      },
+      {
+        "title": "Electric car range: how many kilometers on a single charge?",
+        "link": "https://powy.energy/en/news/evolution-tips/electric-car-range/",
+        "snippet": "Sep 15, 2025 — Key factors influencing autonomy * Battery capacity: this is the most intuitive factor. The greater the capacity of the battery (e...",
+        "source": "Powy Energy",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/FUsz6aFJE1hwmogiviIhQehFyGsrmSvj8ufR8JGWr24.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/3Vdy8L_9x-cn8Edjkjg8ruHaoZw1wVPsFuscI3bUiMY.png",
+        "index": 1
+      },
+      {
+        "title": "Electric Vehicle Battery Drains | Department of Energy",
+        "link": "https://www.energy.gov/energysaver/electric-vehicle-battery-drains",
+        "snippet": "Controlling the cabin and battery temperature is the biggest power drain second to driving the vehicle. Unlike gas-powered automob...",
+        "source": "Department of Energy (.gov)",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/nKIW1PMtcjOOE9ofSEyfGGgfqfI6LCX_j0KqHfuuGCY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/juFKmwuUPsltujVHdXxwUp0WDIUJEh_89rVZ6J-DoXc.png",
+        "index": 2
+      },
+      {
+        "title": "Mitsubishi Motors' All-New eK X EV Wins RJC Car of the Year ...",
+        "link": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20221110_1.html",
+        "snippet": "Nov 10, 2022 — The eK X EV is a new EV model in the eK X series 5, Mitsubishi Motors' kei-car series with an SUV flavor, offered at an affordable...",
+        "source": "三菱自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/ciX6XGJfmb-BUiuPlfYMG9Q5rmSkbhkiN7KUqhuG-SM.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/YEX3nSGYRgtUTIacBL_QsCk2CpE5wKCTTPnLsdRtOEM.png",
+        "index": 3
+      },
+      {
+        "title": "Mitsubishi Motors to Launch the All-New eK X EV in Japan",
+        "link": "https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20220520_2.html",
+        "snippet": "May 20, 2022 — Driving range of 180 km per charge, sufficient for everyday use. · Equipped with a newly developed drive battery with a total powe...",
+        "source": "三菱自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/M6Cak5mLUZ2Oj20A0Z8XFssv0SF7mBWszc-8n--Otbw.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/w-fFx9Esc84rFqvqMTQr9HPyhasa80Rj8dr7lqhli2M.png",
+        "index": 4
+      },
+      {
+        "title": "Nissan unveils all-new, all-electric minivehicle in Japan",
+        "link": "https://global.nissannews.com/en/releases/nissan-unveils-all-new-all-electric-minivehicle-in-japan",
+        "snippet": "May 20, 2022 — Table_title: Nissan Sakura specifications Table_content: header: | Battery | Lithium-ion | row: | Battery: Range (WLTC mode） | Lit...",
+        "source": "日産自動車ニュースルーム",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/eJtRbqts73BJ0W06xQ6ValLhlZsM62xLIkMB3RlYrCw.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/ker54xmC3pUf8Jb_qLISsMwFx7y5sVnbRY46lm8ZTB8.png",
+        "index": 5
+      },
+      {
+        "title": "Nissan Sakura and Mitsubishi eK X unveiled - electric kei cars from ...",
+        "link": "https://www.arenaev.com/nissan_sakura_and_mitsubishi_ek_x__first_electric_kei_cars_from_japan-news-303.php",
+        "snippet": "May 20, 2022 — Nissan Sakura and Mitsubishi eK X unveiled - electric kei cars from Japan * Mitsubishi eK X - Nissan Sakura's twin. Nissan and Mit...",
+        "source": "ArenaEV",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/Kw73PnSMpHtX5Ijeo5ggvim6bo55-VdcCsIhKAX9D4M.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/Z9c6ssaVtV_H5thjXCIrRX5fIpqxMzHuk6eFco5qZjg.png",
+        "index": 6
+      },
+      {
+        "title": "Nissan and Mitsubishi micro EVs are the cheap electric cars we need",
+        "link": "https://evcentral.com.au/nissan-and-mitsubishi-micro-evs-are-the-cheap-electric-cars-we-need/",
+        "snippet": "May 24, 2022 — Japan only for now At the moment both the Sakura and eK X are destined only for the Japanese domestic market, where the tiny kei-c...",
+        "source": "EV Central",
+        "thumbnail": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/nUFFLC0tlJ0IoJtlbgb4WKOy47WBu7lwyEAggagOKRU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071980f6e926595b257d40/images/-DbWWCT5ME33XIVuqWMQkisfR2Dn386aprF-ddBg8_Y.png",
+        "index": 7
+      },
+      {
+        "title": "Is EV Range \\u0026 Charging Speed Good Enough for Daily Commuting?",
+        "link": "https://www.reddit.com/r/electricvehicles/comments/1irgdk8/is_ev_range_charging_speed_good_enough_for_daily/",
+        "snippet": "I've been thinking about switching to an EV, but I keep wondering—is range and charging speed actually good enough for daily commu...",
+        "source": "Reddit",
+        "thumbnail": "https://www.reddit.com/r/electricvehicles/comments/1irgdk8/is_ev_range_charging_speed_good_enough_for_daily/",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.reddit.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      },
+      {
+        "title": "New mini EVs from Nissan, Mitsubishi are perfect for PH",
+        "link": "https://www.autoindustriya.com/auto-industry-news/new-mini-evs-from-nissan-mitsubishi-are-perfect-for-ph.html",
+        "snippet": "Both the Sakura and eK X EV come with a state-of-the-art e-Powertrain. It comes with an electric motor that's powered by a 20 kWh ...",
+        "source": "AutoIndustriya",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSLFNRNz8qHf26cRzP3nC1khnYbL_dm3mOs6QXBCLnxah-q72ss",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.autoindustriya.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      },
+      {
+        "title": "Factors influencing electric car range",
+        "link": "https://fotovol.com/en/electric-mobility/what-is-the-range-of-an-electric-car/",
+        "snippet": "Vehicle energy efficiency average consumption: expressed in kWh/100 km or km/kWh. energy recovery: many electric vehicles regenera...",
+        "source": "Fotovol",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkVQeLRluZSNReXnaaDE9XXeIFtzroOmJ5aEocozFN8NcclJEk",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://fotovol.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "Electrifying the Future with Electric Vehicles",
+        "link": "https://elektrasmartenergy.co.uk/2023/08/16/electrifying-the-future-with-electric-vehicles-a-comprehensive-guide/",
+        "snippet": "Weather conditions, particularly extreme cold or hot temperatures, impact the efficiency of the battery and energy-consuming syste...",
+        "source": "EleKtra Smart Energy",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtLQdc8NshLywAlYEE-NQTYUniis46J4Qj68kcCLC7GWv_MusD",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://elektrasmartenergy.co.uk&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "Electric car range: understanding how far an EV can go",
+        "link": "https://www.parkers.co.uk/electric-cars/electric-car-range/",
+        "snippet": "The car is hooked up to a series of sensors then put through a standardised test to establish maximum range in could achieve. The ...",
+        "source": "Parkers",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRQX8G4nTGvlyt_R97YF76Ebmx8mpAPJXw9hCm2Qkils0PPPQJ1",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.parkers.co.uk&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "Smallest EVs 2025: Tiny Electric Cars \\u0026 Buying Guide",
+        "link": "https://recharged.com/articles/smallest-ev",
+        "snippet": "Why so many tiny EVs are overseas Chinese micro EVs and Japanese Kei cars thrive where streets are narrow, parking is scarce, and ...",
+        "source": "Recharged",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTCCV_uzFdS-FaeupAuvvGdUQOrhzq3Agxs3lVFLIG8sAIZOYF7",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://recharged.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "Japan's tiny electric vehicle with very big ambitions",
+        "link": "https://monocle.com/business/transport/mibot-japan-tiny-electric-minicar-kg-motors/",
+        "snippet": "Japan's tiny electric vehicle with very big ambitions Make way for Mibot, the diminutive vehicle moving Japan's EV sector. Japan's...",
+        "source": "Monocle",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQakoRXtZgokFi7-2cMGDs7ohFKeC4GD5kjZWgog0iYvl74gHIw",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://monocle.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      },
+      {
+        "title": "Japan's EV pocket rocket Nissan Sakura is a game changer!",
+        "link": "https://www.group1nissan.co.za/blog/nissan-news/nissan-sakura-ev-making-waves/",
+        "snippet": "Speaking of battery life, the Sakura boasts a 20 kWh lithium-ion battery, which Nissan has cleverly designed using stacked cells f...",
+        "source": "Group1 Nissan",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS9szRN8yTLR0osXmPfeAKJSd_O5zy-5zM5LNMcI9MkyKml-vzC",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.group1nissan.co.za&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 15
+      },
+      {
+        "title": "Cuteness alert: Would you drive these small EVs?",
+        "link": "https://gulfnews.com/photos/business-photos/cuteness-alert-would-you-drive-these-small-evs-1.1625140690516",
+        "snippet": "CITY EV FROM HONDA: The Japanese are redoubling efforts to lead in EV rollout. The Honda e, with a total length of under 4 meters,",
+        "source": "Gulf News",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRqnklzXoDg4thlLCcpqKc7yHk7bD_iMcJqKLnCmuNiGRyoxZXR",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://gulfnews.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 16
+      }
+    ],
+    "reconstructed_markdown": "Modern small electric cars in Japan—predominantly categorized as electric kei cars \\(kei\\-jidosha\\)—can travel between 120 and 180 kilometers \\(75 to 111 miles\\) on a single charge during daily city driving. [3] [6]\n\nWhile official Japanese WLTC \\(Worldwide Harmonized Light Vehicles Test Cycle\\) ratings advertise up to 180 kilometers, real\\-world dense urban traffic, seasonal climate changes, and air conditioning use typically lower the actual distance. [5] [1] [8] [9]\n\n### Real\\-World Distance Expectations\n\nBecause city driving consists of low speeds and heavy stop\\-and\\-go traffic, electric cars heavily utilize regenerative braking to recover energy. However, extreme weather directly dictates how far the vehicle will travel on a single battery charge: [1] [10] [11]\n\n- Spring & Autumn \\(Optimal Conditions\\): 150 – 180 km. Little to no climate control is required, allowing the car to approach its maximum rated test range.\n- Summer \\(Heavy A/C Use\\): 130 – 150 km. Cooling the cabin in hot, humid Japanese summers draws extra power from the main traction battery.\n- Winter \\(Heavy Heater Use\\): 100 – 120 km. Electric cabin heaters require substantial energy. In cold climates like Hokkaido or Tohoku, range can drop by up to 30%.\n\n### Comparison of Popular Small Japanese EVs\n\nThe small EV market in Japan is dominated by highly efficient micro\\-vehicles tailored explicitly for narrow city streets: [7] [13] [14]\n\n| Vehicle Model | Battery Capacity | Official WLTC Range | Estimated Real City Range |\n| --- | --- | --- | --- |\n| Nissan Sakura | 20 kWh | 180 km | 130 – 160 km |\n| Mitsubishi eK X EV | 20 kWh | 180 km | 130 – 160 km |\n| Honda e \\(Discontinued/Used\\) | 35.5 kWh | 259 km | 170 – 200 km |\n[5] [3] [4] [15] [16]\n\n### Why These Ranges Work for Japan\n\nDomestic automotive data from manufacturers like [Mitsubishi Motors](https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20220520_2.html) confirms that roughly 80% of Japanese kei\\-car drivers travel less than 50 kilometers per day. Consequently, a standard 20 kWh battery pack provides enough energy for 2 to 3 days of standard local commuting, grocery shopping, and city errands without needing a daily recharge. [4]\n\nIf you are evaluating these vehicles for a specific region or use case, please let me know where in Japan you plan to drive or your estimated daily commute distance so I can provide a more tailored range and charging breakdown.\n\n\n### References\n\n[0] [How far can an electric vehicle go on one charge if ... \\- Quora](https://www.quora.com/How-far-can-an-electric-vehicle-go-on-one-charge-if-driven-at-normal-speeds-and-with-no-stops-or-starts-i-e-driving-like-a-grandma) — Jan 6, 2023 — In this hypothetical world where I don't need a pee break and traffic doesn't exist, my first EV would go about 75 miles. My curre...\n\n[1] [Electric car range: how many kilometers on a single charge?](https://powy.energy/en/news/evolution-tips/electric-car-range/) — Sep 15, 2025 — Key factors influencing autonomy \\* Battery capacity: this is the most intuitive factor. The greater the capacity of the battery \\(e...\n\n[2] [Electric Vehicle Battery Drains \\| Department of Energy](https://www.energy.gov/energysaver/electric-vehicle-battery-drains) — Controlling the cabin and battery temperature is the biggest power drain second to driving the vehicle. Unlike gas\\-powered automob...\n\n[3] [Mitsubishi Motors' All\\-New eK X EV Wins RJC Car of the Year ...](https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20221110_1.html) — Nov 10, 2022 — The eK X EV is a new EV model in the eK X series 5, Mitsubishi Motors' kei\\-car series with an SUV flavor, offered at an affordable...\n\n[4] [Mitsubishi Motors to Launch the All\\-New eK X EV in Japan](https://www.mitsubishi-motors.com/en/newsroom/newsrelease/2022/20220520_2.html) — May 20, 2022 — Driving range of 180 km per charge, sufficient for everyday use. · Equipped with a newly developed drive battery with a total powe...\n\n[5] [Nissan unveils all\\-new, all\\-electric minivehicle in Japan](https://global.nissannews.com/en/releases/nissan-unveils-all-new-all-electric-minivehicle-in-japan) — May 20, 2022 — Table\\_title: Nissan Sakura specifications Table\\_content: header: \\| Battery \\| Lithium\\-ion \\| row: \\| Battery: Range \\(WLTC mode） \\| Lit...\n\n[6] [Nissan Sakura and Mitsubishi eK X unveiled \\- electric kei cars from ...](https://www.arenaev.com/nissan_sakura_and_mitsubishi_ek_x__first_electric_kei_cars_from_japan-news-303.php) — May 20, 2022 — Nissan Sakura and Mitsubishi eK X unveiled \\- electric kei cars from Japan \\* Mitsubishi eK X \\- Nissan Sakura's twin. Nissan and Mit...\n\n[7] [Nissan and Mitsubishi micro EVs are the cheap electric cars we need](https://evcentral.com.au/nissan-and-mitsubishi-micro-evs-are-the-cheap-electric-cars-we-need/) — May 24, 2022 — Japan only for now At the moment both the Sakura and eK X are destined only for the Japanese domestic market, where the tiny kei\\-c...\n\n[8] [Is EV Range \\u0026 Charging Speed Good Enough for Daily Commuting?](https://www.reddit.com/r/electricvehicles/comments/1irgdk8/is_ev_range_charging_speed_good_enough_for_daily/) — I've been thinking about switching to an EV, but I keep wondering—is range and charging speed actually good enough for daily commu...\n\n[9] [New mini EVs from Nissan, Mitsubishi are perfect for PH](https://www.autoindustriya.com/auto-industry-news/new-mini-evs-from-nissan-mitsubishi-are-perfect-for-ph.html) — Both the Sakura and eK X EV come with a state\\-of\\-the\\-art e\\-Powertrain. It comes with an electric motor that's powered by a 20 kWh ...\n\n[10] [Factors influencing electric car range](https://fotovol.com/en/electric-mobility/what-is-the-range-of-an-electric-car/) — Vehicle energy efficiency average consumption: expressed in kWh/100 km or km/kWh. energy recovery: many electric vehicles regenera...\n\n[11] [Electrifying the Future with Electric Vehicles](https://elektrasmartenergy.co.uk/2023/08/16/electrifying-the-future-with-electric-vehicles-a-comprehensive-guide/) — Weather conditions, particularly extreme cold or hot temperatures, impact the efficiency of the battery and energy\\-consuming syste...\n\n[12] [Electric car range: understanding how far an EV can go](https://www.parkers.co.uk/electric-cars/electric-car-range/) — The car is hooked up to a series of sensors then put through a standardised test to establish maximum range in could achieve. The ...\n\n[13] [Smallest EVs 2025: Tiny Electric Cars \\u0026 Buying Guide](https://recharged.com/articles/smallest-ev) — Why so many tiny EVs are overseas Chinese micro EVs and Japanese Kei cars thrive where streets are narrow, parking is scarce, and ...\n\n[14] [Japan's tiny electric vehicle with very big ambitions](https://monocle.com/business/transport/mibot-japan-tiny-electric-minicar-kg-motors/) — Japan's tiny electric vehicle with very big ambitions Make way for Mibot, the diminutive vehicle moving Japan's EV sector. Japan's...\n\n[15] [Japan's EV pocket rocket Nissan Sakura is a game changer\\!](https://www.group1nissan.co.za/blog/nissan-news/nissan-sakura-ev-making-waves/) — Speaking of battery life, the Sakura boasts a 20 kWh lithium\\-ion battery, which Nissan has cleverly designed using stacked cells f...\n\n[16] [Cuteness alert: Would you drive these small EVs?](https://gulfnews.com/photos/business-photos/cuteness-alert-would-you-drive-these-small-evs-1.1625140690516) — CITY EV FROM HONDA: The Japanese are redoubling efforts to lead in EV rollout. The Honda e, with a total length of under 4 meters,\n"
+  }
+}

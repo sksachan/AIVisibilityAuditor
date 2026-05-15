@@ -1,0 +1,469 @@
+{
+  "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 23328,
+    "wordish_count": 3828,
+    "heading_count": 9,
+    "bullet_count": 42,
+    "link_count": 52,
+    "image_count": 10,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 6,
+    "raw_url_count": 53,
+    "numeric_fact_count": 326,
+    "question_count": 39,
+    "unique_line_count": 338,
+    "numeric_facts_sample": [
+      "2025",
+      "2",
+      "10",
+      "80%",
+      "20",
+      "60",
+      "45",
+      "10%",
+      "3",
+      "50",
+      "350",
+      "150",
+      "40",
+      "800",
+      "5",
+      "25",
+      "18",
+      "6",
+      "1",
+      "35",
+      "200",
+      "100",
+      "250",
+      "320",
+      "4"
+    ],
+    "links_sample": [
+      "https://recharged.com/logo.svg",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2Ff879728d4025492f4d342da338791356-hero.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2Ff879728d4025492f4d342da338791356-content.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F410049-681B51515182424CAE9D2B251674BF69.jpg&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F295262-E6325CCCF8E64E41BB5031F2A93F0E37.jpg&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F333770-3D86C7A616BD4F35A090FEC92128A584.jpg&w=3840&q=75",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/a301d7ae087df2cfab46d6473d57f651-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/eeeabb0faaa583e446b742c153316226-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/9985b20c7364-hero.png",
+      "https://www.facebook.com/tr?id=1416665379491545&ev=PageView&noscript=1",
+      "https://recharged.com/",
+      "https://recharged.com/vehicles?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+      "https://recharged.com/sell",
+      "https://recharged.com/prequalify",
+      "https://recharged.com/vehicles",
+      "https://recharged.com/articles/category/charging",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#dc-fast-charging-basics",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#what-really-determines-dc-fast-charge-time",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#typical-dc-fast-charging-times-by-vehicle-type",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#why-10-to-80-is-the-benchmark",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#planning-road-trips-around-dc-fast-charging",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#battery-health-how-much-dc-fast-charging-is-too-much",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#used-evs-fast-charging-and-the-recharged-score",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#practical-tips-to-reduce-your-dc-fast-charge-time",
+      "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#faq-dc-fast-charging-times"
+    ],
+    "image_alt_count": 10
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 339,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 853,
+    "main_chars": 15741,
+    "footer_chars": 461,
+    "tables_chars": 758,
+    "metadata_chars": 254,
+    "full_markdown_chars": 23328
+  },
+  "metadata": {
+    "title": "How Long to Charge an EV at a DC Fast Charger (2025 Guide) | Recharged",
+    "description": "Learn how long it really takes to charge an EV at a DC fast charger, with 10–80% time examples, key factors, and tips to charge faster and protect your battery.",
+    "language": "en",
+    "sourceURL": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://recharged.com/",
+      "text": "https://recharged.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+      "text": "Shop EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "Sell or trade",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Pre-qualify",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "Browse EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/category/charging",
+      "text": "Charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#dc-fast-charging-basics",
+      "text": "DC fast charging basics: the 20–60 minute rule of thumb",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#what-really-determines-dc-fast-charge-time",
+      "text": "What really determines how long your EV takes to DC fast charge",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#typical-dc-fast-charging-times-by-vehicle-type",
+      "text": "Typical DC fast charging times by vehicle type",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#why-10-to-80-is-the-benchmark",
+      "text": "Why most EV DC fast charging times are quoted 10–80%",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#planning-road-trips-around-dc-fast-charging",
+      "text": "Planning road trips around DC fast charging stops",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#battery-health-how-much-dc-fast-charging-is-too-much",
+      "text": "Battery health: how much DC fast charging is too much?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#used-evs-fast-charging-and-the-recharged-score",
+      "text": "Used EVs, fast charging, and the Recharged Score",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#practical-tips-to-reduce-your-dc-fast-charge-time",
+      "text": "Practical tips to reduce your DC fast charge time",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#faq-dc-fast-charging-times",
+      "text": "FAQ: DC fast charging times answered",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt#bottom-line-how-long-to-charge-at-a-dc-fast-charger",
+      "text": "Bottom line: how long to charge at a DC fast charger?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "Browse Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles?makes=Tesla",
+      "text": "See all →",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-3/5YJ3E1EA4KF410049",
+      "text": "2019 Tesla Model 3",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-y/7SAYGDEEXRA295262",
+      "text": "2024 Tesla Model Y",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-x/7SAXCBE6XNF333770",
+      "text": "2022 Tesla Model X",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/polestar-2-best-home-charger",
+      "text": "Charging · 9 min Best Home Chargers for the Polestar 2 (2026 U.S. Buyer’s Guide) See the best Level 2 home chargers for the Polestar 2 in 2026. Learn ideal specs, top models, installation tips, and how to charge smarter at home. polestar-2 ev-charging home-charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/switching-from-bmw-x5-to-bmw-ix-cost-savings",
+      "text": "Ownership & Costs · 10 min Switching from BMW X5 to BMW iX: Real-World Cost Savings Explained Thinking about switching from a BMW X5 to a BMW iX? See how much you could save on fuel, maintenance, and total ownership costs, with clear real‑world examples. bmw-x5 bmw-ix ev-ownership-costs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/how-much-is-a-second-hand-car",
+      "text": "Buying Guides · 9 min How Much Is a Second Hand Car in 2025? Used & EV Price Guide Wondering how much a second hand car costs in 2025? See average used car and EV prices, financing costs, and tips for getting a fair deal. used-car-prices used-ev-buying ev-vs-gas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "EVs for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/learning",
+      "text": "Learn about EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles",
+      "text": "Articles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/chargers",
+      "text": "Charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "How it works",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Get pre-qualified",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/contact/book",
+      "text": "Book a consultation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/VUd8wC2AWngZLdUTA",
+      "text": "Richmond, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/63oR9zeJvgDNMamJA",
+      "text": "Fairfax, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/kRdmVQWRzkjyTpRw5",
+      "text": "Charlotte, NC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/returns",
+      "text": "7-Day Return Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/privacy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sms-optin",
+      "text": "SMS Opt-In",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/do-not-sell",
+      "text": "Do Not Sell or Share My Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@recharged.com",
+      "text": "TikTok",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@RechargedEVs",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/rechargedevs/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/recharged-evs/",
+      "text": "LinkedIn",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/Recharged.EVs",
+      "text": "Facebook",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://recharged.com/logo.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/icon.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2Ff879728d4025492f4d342da338791356-hero.png&w=3840&q=75",
+      "alt": "How Long Does It Take to Charge an EV at a DC Fast Charger?"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2Ff879728d4025492f4d342da338791356-content.png&w=3840&q=75",
+      "alt": "Electric vehicle connected to a DC fast charger showing charging power and time remaining on the screen"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F410049-681B51515182424CAE9D2B251674BF69.jpg&w=3840&q=75",
+      "alt": "2019 Tesla Model 3"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F295262-E6325CCCF8E64E41BB5031F2A93F0E37.jpg&w=3840&q=75",
+      "alt": "2024 Tesla Model Y"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F333770-3D86C7A616BD4F35A090FEC92128A584.jpg&w=3840&q=75",
+      "alt": "2022 Tesla Model X"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/a301d7ae087df2cfab46d6473d57f651-hero.png",
+      "alt": "Best Home Chargers for the Polestar 2 (2026 U.S. Buyer’s Guide)"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/eeeabb0faaa583e446b742c153316226-hero.png",
+      "alt": "Switching from BMW X5 to BMW iX: Real-World Cost Savings Explained"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/9985b20c7364-hero.png",
+      "alt": "How Much Is a Second Hand Car in 2025? Used & EV Price Guide"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1416665379491545&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+    "title": "How Long to Charge an EV at a DC Fast Charger (2025 Guide) | Recharged",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:57:38.940339+00:00",
+  "source_meta": {
+    "title": "How Long Does It Take to Charge an EV at a DC Fast Charger?",
+    "url": "https://recharged.com/articles/how-long-to-charge-ev-at-dc-fast-charger?srsltid=AfmBOopUlYi3OAocGa4qyuvCGm-OblQObqKZXddECQhCU6576C3B6eFt",
+    "source_name": "Recharged",
+    "source_domain": "recharged.com",
+    "source_type": "partner_infrastructure",
+    "snippet": "DC fast charging (often called Level 3 charging) sends high‑power DC electricity directly into your battery, bypassing the slower ...",
+    "citation_count": 2,
+    "first_cited_position": 2,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips in Japan?",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips in Japan?",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

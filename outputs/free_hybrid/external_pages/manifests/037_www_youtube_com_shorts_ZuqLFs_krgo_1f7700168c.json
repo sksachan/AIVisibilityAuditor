@@ -1,0 +1,166 @@
+{
+  "url": "https://www.youtube.com/shorts/ZuqLFs_krgo",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.48,
+  "extraction_metrics": {
+    "markdown_chars": 1883,
+    "wordish_count": 449,
+    "heading_count": 8,
+    "bullet_count": 1,
+    "link_count": 2,
+    "image_count": 1,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 3,
+    "numeric_fact_count": 0,
+    "question_count": 1,
+    "unique_line_count": 122,
+    "numeric_facts_sample": [],
+    "links_sample": [
+      "https://www.gstatic.com/ac/cb/youtube_logo_v2.svg",
+      "https://policies.google.com/technologies/cookies?hl=ja&utm_source=ucb"
+    ],
+    "image_alt_count": 1
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": false,
+    "faq_like": false,
+    "comparison_terms": true,
+    "actionable_terms": false,
+    "domain_specific_terms": true,
+    "key_facts": false,
+    "statistics_or_numbers": false,
+    "source_citations": true,
+    "internal_links": false,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": false,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 7,
+    "content_terms": 2,
+    "noise_ratio": 3.5
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 2392,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 44,
+    "full_markdown_chars": 1883
+  },
+  "metadata": {
+    "title": "YouTube を引き続きご利用いただく前に",
+    "description": "",
+    "language": "ja",
+    "sourceURL": "https://www.youtube.com/shorts/ZuqLFs_krgo",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://consent.youtube.com/m",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://policies.google.com/technologies/cookies?hl=ja&utm_source=ucb",
+      "text": "Cookie",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.gstatic.com/ac/cb/youtube_logo_v2.svg",
+      "alt": "YouTube"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FZuqLFs_krgo%3Fcbrd%3D1&gl=GB&m=0&pc=yt&cm=2&hl=ja&src=1",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://consent.youtube.com/m?continue=https%3A%2F%2Fwww.youtube.com%2Fshorts%2FZuqLFs_krgo%3Fcbrd%3D1&gl=GB&m=0&pc=yt&cm=2&hl=ja&src=1",
+    "title": "YouTube を引き続きご利用いただく前に",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:02:24.918542+00:00",
+  "source_meta": {
+    "title": "We compared gasoline and hybrid cars to see which is more ...",
+    "url": "https://www.youtube.com/shorts/ZuqLFs_krgo",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "video_social",
+    "snippet": "May 20, 2023 — ガソリン車私買った方がいいのかハイブリッド車得なのか一番問い合わせが来てたま人気車室のボクシーで行きましょうボクシーのSZはいガソリンとハイブリッド比較してみましたハイブリッドの方の車両本体価格が。 374万円ねでガソリンの方が333万9000円。 ま約ね差で...",
+    "citation_count": 3,
+    "first_cited_position": 6,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

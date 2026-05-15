@@ -1,0 +1,913 @@
+{
+  "url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 32069,
+    "wordish_count": 4848,
+    "heading_count": 8,
+    "bullet_count": 111,
+    "link_count": 116,
+    "image_count": 5,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 118,
+    "numeric_fact_count": 72,
+    "question_count": 10,
+    "unique_line_count": 392,
+    "numeric_facts_sample": [
+      "1",
+      "13",
+      "10",
+      "2025",
+      "24.6%",
+      "2024",
+      "52.8%",
+      "20",
+      "40",
+      "32",
+      "64",
+      "2",
+      "48",
+      "1500",
+      "45",
+      "2023",
+      "20,000",
+      "30",
+      "1.534",
+      "46.02",
+      "552.24",
+      "2,000",
+      "8,000",
+      "15,000",
+      "15%"
+    ],
+    "links_sample": [
+      "https://www.brokerlink.ca/build/assets/brokerlink-logo-D3VmFpkK.svg",
+      "https://broker-link.imgix.net/images/Blog/what-are-the-two-main-types-of-hybrid-vehicles-banner.jpg?auto=format&dpr=1.0&h=380&ixlib=php-4.1.0&q=60&w=300",
+      "https://www.brokerlink.ca/build/assets/icon-phone-thick-D07Zc3M7.svg",
+      "https://www.brokerlink.ca/build/assets/icon-or-footer-DSBmsgMh.png",
+      "https://www.brokerlink.ca/images/new-intact-footer-logo.svg",
+      "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles#content",
+      "https://www.brokerlink.ca/set-province/1",
+      "https://www.brokerlink.ca/set-province/2",
+      "https://www.brokerlink.ca/set-province/3",
+      "https://www.brokerlink.ca/set-province/4",
+      "https://www.brokerlink.ca/set-province/5",
+      "https://www.brokerlink.ca/set-province/6",
+      "https://www.brokerlink.ca/set-province/7",
+      "https://www.brokerlink.ca/set-province/8",
+      "https://www.brokerlink.ca/set-province/9",
+      "https://www.brokerlink.ca/set-province/10",
+      "https://www.brokerlink.ca/set-province/11",
+      "https://www.brokerlink.ca/set-province/12",
+      "https://www.brokerlink.ca/set-province/13",
+      "https://www.brokerlink.ca/blog",
+      "https://www.brokerlink.ca",
+      "https://www.brokerlink.ca/insurance/car",
+      "https://www.brokerlink.ca/insurance/motorcycle",
+      "https://www.brokerlink.ca/insurance/atv",
+      "https://www.brokerlink.ca/insurance/snowmobile"
+    ],
+    "image_alt_count": 5
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "WebSite",
+      "BreadcrumbList",
+      "WebPage",
+      "BlogPosting",
+      "ListItem",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "Published on Nov 10, 2025 by BrokerLink Communications"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 413,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2207,
+    "main_chars": 19077,
+    "footer_chars": 1745,
+    "tables_chars": 0,
+    "metadata_chars": 377,
+    "full_markdown_chars": 32069
+  },
+  "metadata": {
+    "title": "Types of Hybrid Vehicles: Series vs. Parallel Explained | BrokerLink",
+    "description": "Explore the two main types of hybrid vehicles. Learn how series and parallel hybrids work, their benefits, and which suits your driving needs.",
+    "language": "en",
+    "sourceURL": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "WebSite",
+      "BreadcrumbList",
+      "WebPage",
+      "BlogPosting",
+      "ListItem",
+      "ImageObject"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles#content",
+      "text": "Skip to content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/1",
+      "text": "AB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/2",
+      "text": "BC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/3",
+      "text": "MB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/4",
+      "text": "NB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/5",
+      "text": "NL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/6",
+      "text": "NT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/7",
+      "text": "NS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/8",
+      "text": "NU",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/9",
+      "text": "ON",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/10",
+      "text": "PE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/11",
+      "text": "QC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/12",
+      "text": "SK",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/set-province/13",
+      "text": "YT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog",
+      "text": "Blog",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca",
+      "text": "https://www.brokerlink.ca",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car",
+      "text": "Car Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/motorcycle",
+      "text": "Motorcycle Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/atv",
+      "text": "ATV Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/snowmobile",
+      "text": "Snowmobile Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/boat",
+      "text": "Boat Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/trailer",
+      "text": "Trailer Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/home",
+      "text": "Home Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/tenant",
+      "text": "Tenant and Renters Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/condo",
+      "text": "Condo Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/vacation-property",
+      "text": "Vacation Property & Cottage Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/groups",
+      "text": "Group Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/pet",
+      "text": "Pet Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/travel",
+      "text": "Travel Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/life",
+      "text": "Life Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/health",
+      "text": "Health Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/employee-benefits",
+      "text": "Employee Benefits",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance",
+      "text": "View All",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/service",
+      "text": "Service & Claims",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations",
+      "text": "Locations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/assured-bond",
+      "text": "Assured Bond Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/business-interruption",
+      "text": "Business Interruption Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/builders-risk",
+      "text": "Builder’s Risk Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/property",
+      "text": "Business Property Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/auto",
+      "text": "Commercial Auto Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/general-liability",
+      "text": "Commercial General Liability Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/crime-coverage",
+      "text": "Crime Coverage Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/cyber",
+      "text": "Cyber Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/directors",
+      "text": "Directors and Officers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/employee-benefits",
+      "text": "Employee Group Benefits",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/equipment-breakdown",
+      "text": "Equipment Breakdown Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/errors-and-omissions",
+      "text": "Errors and Omissions (Professional Liability) Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/event-liability",
+      "text": "Event Liability Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/public-liability",
+      "text": "Public liability insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/trade-credit",
+      "text": "Trade Credit Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business",
+      "text": "View All",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/farm",
+      "text": "Agriculture & Farm Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/contractor",
+      "text": "Contractor insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/construction",
+      "text": "Construction Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/oil-and-gas",
+      "text": "Energy, Oil and Gas Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/health-and-wellness",
+      "text": "Health and Wellness Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/hospitality",
+      "text": "Hospitality Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/manufacturing",
+      "text": "Manufacturing Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/marine",
+      "text": "Marine insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/non-profit",
+      "text": "Non-Profit Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/personal-care-and-beauty",
+      "text": "Personal Care and Beauty Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/professional-services",
+      "text": "Professional Services Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/real-estate",
+      "text": "Real Estate Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/retail",
+      "text": "Retail Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/technology",
+      "text": "Technology Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/transportation",
+      "text": "Transportation Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/wholesale-and-warehousing",
+      "text": "Wholesale and Warehousing Industry Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business/industries",
+      "text": "View All",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quotes.brokerlink.ca/auto/start",
+      "text": "Get a quote",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+      "text": "My Account",
+      "is_pdf": false
+    },
+    {
+      "url": "https://portalt02.csr24.ca/mvc/665051520",
+      "text": "Login",
+      "is_pdf": false
+    },
+    {
+      "url": "https://portalt02.csr24.ca/mvc/Account/SignUp?AgencyKey=665051520",
+      "text": "Register your account",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/service#service-payment",
+      "text": "Learn More About Payments",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/250313/dq250313c-eng.htm",
+      "text": "According to Statistics Canada",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/pros-and-cons-of-a-hybrid-car",
+      "text": "hybrid can be the perfect middle ground",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/hybrid-vs-gas",
+      "text": "hybrid vs. gas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/hybrid-vs-electric",
+      "text": "hybrid vs. electric cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/how-long-do-electric-car-batteries-last",
+      "text": "electric car battery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/what-are-the-disadvantages-of-a-hybrid-car",
+      "text": "disadvantages of hybrid cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/how-far-can-an-electric-car-go",
+      "text": "how far the electric car can go",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.consumerreports.org/cars/hybrids-evs/how-do-hybrid-cars-work-a1034181509/",
+      "text": "According to Consumer Reports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.bellevilletoyota.com/en/news/view/the-significant-savings-of-toyota-hybrid-vehicles-a-comparison-with-gas-powered-models/117299",
+      "text": "Toyota dealership in Belleville",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810000101",
+      "text": "According to Statistics Canada",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/hybrid-electric-car-maintenance",
+      "text": "hybrid car maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/how-much-does-car-maintenance-cost",
+      "text": "routine maintenance, the cost",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car",
+      "text": "car insurance coverage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car/collision",
+      "text": "collision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car/comprehensive",
+      "text": "comprehensive coverage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car/hybrid",
+      "text": "hybrid car insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/market-snapshots/2018/market-snapshot-how-much-co2-do-electric-vehicles-hybrids-gasoline-vehicles-emit.html?utm_source=chatgpt.com",
+      "text": "According to the Canadian Energy Regulator",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.ucs.org/resources/cleaner-cars-cradle-grave",
+      "text": "Union of Concerned Scientists",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/car",
+      "text": "auto insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quotes.brokerlink.ca/auto/start",
+      "text": "Get an auto insurance quote",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/category/car-insurance",
+      "text": "View other Car Insurance blogs posts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/category/helpful-tips",
+      "text": "View other Helpful Tips posts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/what-insurance-do-i-need",
+      "text": "Previous",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/blog/what-does-oil-do-in-a-car",
+      "text": "Next",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/tenant",
+      "text": "Tenant Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance/business",
+      "text": "Business Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/insurance",
+      "text": "Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/about-us",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/about-us/careers",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/newsroom",
+      "text": "Newsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/resources",
+      "text": "Resources",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/faqs",
+      "text": "FAQs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/contest-rules",
+      "text": "Contest Rules",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/alerts",
+      "text": "Alerts and notices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/alberta",
+      "text": "AB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/british-columbia",
+      "text": "BC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/manitoba",
+      "text": "MB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/new-brunswick",
+      "text": "NB",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/newfoundland-and-labrador",
+      "text": "NL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/northwest-territories",
+      "text": "NT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/nova-scotia",
+      "text": "NS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/nunavut",
+      "text": "NU",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/ontario",
+      "text": "ON",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/prince-edward-island",
+      "text": "PE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/quebec",
+      "text": "QC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/saskatchewan",
+      "text": "SK",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations/yukon",
+      "text": "YT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/locations",
+      "text": "Find A Branch Near You",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/BrokerLink",
+      "text": "https://www.facebook.com/BrokerLink",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/brokerlink",
+      "text": "https://www.linkedin.com/company/brokerlink",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCKdtPhkE78WAF7dP3B_UNjw",
+      "text": "https://www.youtube.com/channel/UCKdtPhkE78WAF7dP3B_UNjw",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/brokerlinkca/",
+      "text": "https://www.instagram.com/brokerlinkca/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@brokerlink",
+      "text": "https://www.tiktok.com/@brokerlink",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/terms-of-use",
+      "text": "Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/privacy-promise",
+      "text": "Privacy Promise",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/accessibility",
+      "text": "Accessibility",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/whistleblower-hotline",
+      "text": "Whistleblower Hotline",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/customer-satisfaction",
+      "text": "Customer Satisfaction",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.brokerlink.ca/customers-rights-and-responsibilities",
+      "text": "Customers’ Rights and Responsibilities",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.brokerlink.ca/build/assets/brokerlink-logo-D3VmFpkK.svg",
+      "alt": "Brokerlink Logo"
+    },
+    {
+      "src": "https://broker-link.imgix.net/images/Blog/what-are-the-two-main-types-of-hybrid-vehicles-banner.jpg?auto=format&dpr=1.0&h=380&ixlib=php-4.1.0&q=60&w=300",
+      "alt": "A person plugging in an electric car's charging cable in a picturesque, eco-friendly setting."
+    },
+    {
+      "src": "https://www.brokerlink.ca/build/assets/icon-phone-thick-D07Zc3M7.svg",
+      "alt": "Phone Icon"
+    },
+    {
+      "src": "https://www.brokerlink.ca/build/assets/icon-or-footer-DSBmsgMh.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.brokerlink.ca/images/new-intact-footer-logo.svg",
+      "alt": "Intact Logo"
+    },
+    {
+      "src": "https://broker-link.imgix.net/images/Homepage/small_flag.png?auto=format&ixlib=php-4.1.0&q=100&w=60",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=148010915&tm=gtm002&Ver=2&mid=768eff43-53be-4bb2-a0ca-fa6cec0e37b1&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=Types%20of%20Hybrid%20Vehicles%3A%20Series%20vs.%20Parallel%20Explained%20%7C%20BrokerLink&p=https%3A%2F%2Fwww.brokerlink.ca%2Fblog%2Fwhat-are-the-two-main-types-of-hybrid-vehicles&r=&evt=pageLoad&sv=2&asc=D&cdb=AQAY&rn=252478",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "Published on Nov 10, 2025 by BrokerLink Communications"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+    "title": "Types of Hybrid Vehicles: Series vs. Parallel Explained | BrokerLink",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:01:54.192668+00:00",
+  "source_meta": {
+    "title": "Types of Hybrid Vehicles: Series vs. Parallel Explained",
+    "url": "https://www.brokerlink.ca/blog/what-are-the-two-main-types-of-hybrid-vehicles",
+    "source_name": "BrokerLink",
+    "source_domain": "www.brokerlink.ca",
+    "source_type": "other",
+    "snippet": "Examples of hybrid vehicles with series hybrid systems Series hybrids are especially efficient in urban settings. At lower speeds ...",
+    "citation_count": 2,
+    "first_cited_position": 2,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

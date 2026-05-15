@@ -1,0 +1,229 @@
+{
+  "schema_version": "pr_publisher_opportunity_plan_v1",
+  "brand": "Nissan",
+  "market": "Japan",
+  "publisher_dependency_summary": {
+    "overall_dependency_level": "high",
+    "summary": "AI Mode citation evidence is materially dependent on external publishers, authorities, forums, partners, aggregators or competitor-owned sources.",
+    "dominant_source_types": [
+      "low_quality_unknown",
+      "forum_social_video",
+      "publisher_review",
+      "nissan_ecosystem_off_market",
+      "partner_infrastructure",
+      "competitor_owned",
+      "authority_body",
+      "owned_same_domain"
+    ],
+    "brand_topic_categories_most_affected": [
+      "EV range, charging and battery confidence",
+      "Hybrid / e-POWER running costs and powertrain choice",
+      "Safety, reliability and trust",
+      "Value, offers, finance and total cost of ownership",
+      "Family practicality, space and comfort"
+    ]
+  },
+  "per_brand_topic_opportunities_compact": [
+    {
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "opportunity_type": "authority_source",
+      "priority": "P1",
+      "summary": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for EV range, charging and battery confidence.",
+      "dominant_source_types": [
+        "partner_infrastructure",
+        "low_quality_unknown",
+        "forum_social_video",
+        "competitor_owned",
+        "publisher_review"
+      ],
+      "top_domains": [
+        "recharged.com",
+        "www.mitsubishi-motors.com",
+        "global.nissannews.com",
+        "evdays.tepco.co.jp",
+        "teskas.net",
+        "www.reddit.com",
+        "www.facebook.com",
+        "www.matabee.com",
+        "www.taiyoko-kakaku.jp",
+        "reform.cainz.com"
+      ],
+      "recommended_pr_action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for EV range, charging and battery confidence.",
+      "target_source_types": [
+        "partner_infrastructure",
+        "low_quality_unknown",
+        "forum_social_video",
+        "competitor_owned"
+      ],
+      "why_it_matters": "Observed AI citations show that external sources are shaping buyer answers where owned target pages are absent or under-cited."
+    },
+    {
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "opportunity_type": "comparison_narrative",
+      "priority": "P1",
+      "summary": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Hybrid / e-POWER running costs and powertrain choice.",
+      "dominant_source_types": [
+        "low_quality_unknown",
+        "forum_social_video",
+        "publisher_review",
+        "nissan_ecosystem_off_market",
+        "competitor_owned"
+      ],
+      "top_domains": [
+        "www.facebook.com",
+        "www.youtube.com",
+        "www.reddit.com",
+        "car.rakuten.co.jp",
+        "ukajapan.com",
+        "en.wikipedia.org",
+        "carfromjapan.com",
+        "www.brokerlink.ca",
+        "powerproductsystems.com",
+        "www.dubizzle.com"
+      ],
+      "recommended_pr_action": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Hybrid / e-POWER running costs and powertrain choice.",
+      "target_source_types": [
+        "low_quality_unknown",
+        "forum_social_video",
+        "publisher_review",
+        "nissan_ecosystem_off_market"
+      ],
+      "why_it_matters": "Observed AI citations show that external sources are shaping buyer answers where owned target pages are absent or under-cited."
+    },
+    {
+      "brand_topic_category": "Safety, reliability and trust",
+      "opportunity_type": "authority_source",
+      "priority": "P1",
+      "summary": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Safety, reliability and trust.",
+      "dominant_source_types": [
+        "low_quality_unknown",
+        "authority_body",
+        "nissan_ecosystem_off_market",
+        "publisher_review",
+        "forum_social_video"
+      ],
+      "top_domains": [
+        "www.nasva.go.jp",
+        "www.nissan-global.com",
+        "www.youtube.com",
+        "www.asahi.com",
+        "saiyo.boschjapan-brandtopics.jp",
+        "www.mlit.go.jp",
+        "www.custombrokers.com.au",
+        "sansonejrs66mitsubishi.com",
+        "www.yallamotor.com",
+        "drive-ev.ae"
+      ],
+      "recommended_pr_action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Safety, reliability and trust.",
+      "target_source_types": [
+        "low_quality_unknown",
+        "authority_body",
+        "nissan_ecosystem_off_market",
+        "publisher_review"
+      ],
+      "why_it_matters": "Observed AI citations show that external sources are shaping buyer answers where owned target pages are absent or under-cited."
+    },
+    {
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "opportunity_type": "authority_source",
+      "priority": "P1",
+      "summary": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Value, offers, finance and total cost of ownership.",
+      "dominant_source_types": [
+        "low_quality_unknown",
+        "forum_social_video",
+        "finance_or_insurance",
+        "publisher_review",
+        "competitor_owned"
+      ],
+      "top_domains": [
+        "note.com",
+        "www.reddit.com",
+        "www.asahi.com",
+        "www.nissan-fs.co.jp",
+        "www.facebook.com",
+        "www.accessj.com",
+        "www.shinagawa-driving-school.jp",
+        "carmo-kun.jp",
+        "www.ehime-toyota.co.jp",
+        "asia.nikkei.com"
+      ],
+      "recommended_pr_action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Value, offers, finance and total cost of ownership.",
+      "target_source_types": [
+        "low_quality_unknown",
+        "forum_social_video",
+        "finance_or_insurance",
+        "publisher_review"
+      ],
+      "why_it_matters": "Observed AI citations show that external sources are shaping buyer answers where owned target pages are absent or under-cited."
+    },
+    {
+      "brand_topic_category": "Family practicality, space and comfort",
+      "opportunity_type": "comparison_narrative",
+      "priority": "P2",
+      "summary": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Family practicality, space and comfort.",
+      "dominant_source_types": [
+        "forum_social_video",
+        "low_quality_unknown",
+        "publisher_review",
+        "nissan_ecosystem_off_market"
+      ],
+      "top_domains": [
+        "www.facebook.com",
+        "www.reddit.com",
+        "www.youtube.com",
+        "szabo.jp",
+        "www.daveyjapan.com",
+        "global.nissannews.com",
+        "www.fun-japan.jp",
+        "www.sascrossingcountries.com",
+        "www.adrianflux.co.uk",
+        "web-japan.org"
+      ],
+      "recommended_pr_action": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Family practicality, space and comfort.",
+      "target_source_types": [
+        "forum_social_video",
+        "low_quality_unknown",
+        "publisher_review",
+        "nissan_ecosystem_off_market"
+      ],
+      "why_it_matters": "Observed AI citations show that external sources are shaping buyer answers where owned target pages are absent or under-cited."
+    }
+  ],
+  "recommended_pr_actions_compact": [
+    {
+      "action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for EV range, charging and battery confidence.",
+      "target_brand_topic_category": "EV range, charging and battery confidence",
+      "impact": "high",
+      "effort": "medium",
+      "priority": "P1"
+    },
+    {
+      "action": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Hybrid / e-POWER running costs and powertrain choice.",
+      "target_brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "impact": "high",
+      "effort": "medium",
+      "priority": "P1"
+    },
+    {
+      "action": "Develop neutral, data-backed comparison narratives with respected automotive or consumer publishers for Family practicality, space and comfort.",
+      "target_brand_topic_category": "Family practicality, space and comfort",
+      "impact": "medium",
+      "effort": "medium",
+      "priority": "P2"
+    },
+    {
+      "action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Safety, reliability and trust.",
+      "target_brand_topic_category": "Safety, reliability and trust",
+      "impact": "high",
+      "effort": "medium",
+      "priority": "P1"
+    },
+    {
+      "action": "Partner with credible Japan-relevant authorities or infrastructure sources to publish validated explainers and datasets for Value, offers, finance and total cost of ownership.",
+      "target_brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "impact": "high",
+      "effort": "medium",
+      "priority": "P1"
+    }
+  ]
+}

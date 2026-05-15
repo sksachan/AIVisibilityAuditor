@@ -1,0 +1,470 @@
+{
+  "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 23082,
+    "wordish_count": 3556,
+    "heading_count": 9,
+    "bullet_count": 42,
+    "link_count": 52,
+    "image_count": 10,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 10,
+    "raw_url_count": 53,
+    "numeric_fact_count": 202,
+    "question_count": 39,
+    "unique_line_count": 357,
+    "numeric_facts_sample": [
+      "2025",
+      "2",
+      "8",
+      "100",
+      "100,000",
+      "70%",
+      "12",
+      "15",
+      "5,000",
+      "20,000",
+      "0",
+      "60",
+      "10",
+      "150,000",
+      "150",
+      "5",
+      "10%",
+      "1",
+      "3",
+      "120",
+      "6",
+      "155",
+      "175,000",
+      "155,000",
+      "2021"
+    ],
+    "links_sample": [
+      "https://recharged.com/logo.svg",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2F021102eca3b8-hero.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2F021102eca3b8-content.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F410049-681B51515182424CAE9D2B251674BF69.jpg&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F295262-E6325CCCF8E64E41BB5031F2A93F0E37.jpg&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F333770-3D86C7A616BD4F35A090FEC92128A584.jpg&w=3840&q=75",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/670b24937b07a18746bd0ac838d6b178-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/ce6cf1b16cabaaa9c221cf5edddf8dee-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/a07c8bd77627583039193b37176b7499-hero.png",
+      "https://www.facebook.com/tr?id=1416665379491545&ev=PageView&noscript=1",
+      "https://recharged.com/",
+      "https://recharged.com/vehicles?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+      "https://recharged.com/sell",
+      "https://recharged.com/prequalify",
+      "https://recharged.com/vehicles",
+      "https://recharged.com/articles/category/charging",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#why-battery-warranty-matters",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#battery-warranty-basics",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#what-battery-warranties-cover",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#what-battery-warranties-dont-cover",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#brand-comparison",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#used-ev-battery-warranty",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#how-to-read-warranty",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#extend-life-outside-warranty",
+      "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#recharged-advantage"
+    ],
+    "image_alt_count": 10
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 383,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 811,
+    "main_chars": 15879,
+    "footer_chars": 461,
+    "tables_chars": 597,
+    "metadata_chars": 250,
+    "full_markdown_chars": 23082
+  },
+  "metadata": {
+    "title": "EV Battery Warranty 2025: What’s Covered & What’s Not | Recharged",
+    "description": "Learn how EV battery warranties work, what 8-year/100k coverage really means, exclusions, capacity guarantees & tips for buying a used electric car in 2025.",
+    "language": "en",
+    "sourceURL": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://recharged.com/",
+      "text": "https://recharged.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+      "text": "Shop EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "Sell or trade",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Pre-qualify",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "Browse EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/category/charging",
+      "text": "Charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#why-battery-warranty-matters",
+      "text": "Why your EV’s battery warranty matters",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#battery-warranty-basics",
+      "text": "Battery warranty basics: years, miles, and capacity",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#what-battery-warranties-cover",
+      "text": "What an EV battery warranty actually covers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#what-battery-warranties-dont-cover",
+      "text": "What EV battery warranties don’t cover",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#brand-comparison",
+      "text": "Battery warranty comparison by brand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#used-ev-battery-warranty",
+      "text": "Used EVs: how battery warranty works for second owners",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#how-to-read-warranty",
+      "text": "How to read (and not misread) a battery warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#extend-life-outside-warranty",
+      "text": "Extending battery life beyond the warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#recharged-advantage",
+      "text": "How Recharged helps you de-risk battery warranties",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#battery-warranty-faq",
+      "text": "EV battery warranty FAQ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt#bottom-line",
+      "text": "The bottom line on EV battery warranties",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "See all →",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-3/5YJ3E1EA4KF410049",
+      "text": "2019 Tesla Model 3",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-y/7SAYGDEEXRA295262",
+      "text": "2024 Tesla Model Y",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/tesla/model-x/7SAXCBE6XNF333770",
+      "text": "2022 Tesla Model X",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/where-to-sell-used-ev-in-west-virginia",
+      "text": "Selling · 9 min Where to Sell a Used EV in West Virginia: 2026 Guide Wondering where to sell a used EV in West Virginia? Compare online buyers, local dealers, private sale and Recharged’s EV-focused options in this 2026 guide. west-virginia selling-used-ev ev-trade-in",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/what-is-my-rivian-r1t-worth",
+      "text": "Used EVs · 10 min What Is My Rivian R1T Worth? Used Values, Depreciation & Selling Options Wondering what your Rivian R1T is worth? Learn how mileage, spec, condition and battery health impact value, and see your options for trading or selling. rivian-r1t used-ev-values ev-depreciation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/is-2026-tesla-model-3-a-good-buy",
+      "text": "Reviews & Comparisons · 10 min Is the 2026 Tesla Model 3 a Good Buy? A No‑Nonsense Guide Wondering if the 2026 Tesla Model 3 is a good buy? Get pros, cons, pricing, tax credit info, and used‑vs‑new advice to decide with confidence. tesla-model-3 2026-model-year used-ev-buying",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "EVs for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/learning",
+      "text": "Learn about EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles",
+      "text": "Articles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/chargers",
+      "text": "Charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "How it works",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Get pre-qualified",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/contact/book",
+      "text": "Book a consultation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/VUd8wC2AWngZLdUTA",
+      "text": "Richmond, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/63oR9zeJvgDNMamJA",
+      "text": "Fairfax, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/kRdmVQWRzkjyTpRw5",
+      "text": "Charlotte, NC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/returns",
+      "text": "7-Day Return Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/privacy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sms-optin",
+      "text": "SMS Opt-In",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/do-not-sell",
+      "text": "Do Not Sell or Share My Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@recharged.com",
+      "text": "TikTok",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@RechargedEVs",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/rechargedevs/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/recharged-evs/",
+      "text": "LinkedIn",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/Recharged.EVs",
+      "text": "Facebook",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://recharged.com/logo.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/icon.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2F021102eca3b8-hero.png&w=3840&q=75",
+      "alt": "EV Battery Warranty Guide 2025: What’s Really Covered"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2F021102eca3b8-content.png&w=3840&q=75",
+      "alt": "Electric vehicle dashboard showing battery state of charge and remaining range"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F410049-681B51515182424CAE9D2B251674BF69.jpg&w=3840&q=75",
+      "alt": "2019 Tesla Model 3"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F295262-E6325CCCF8E64E41BB5031F2A93F0E37.jpg&w=3840&q=75",
+      "alt": "2024 Tesla Model Y"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F333770-3D86C7A616BD4F35A090FEC92128A584.jpg&w=3840&q=75",
+      "alt": "2022 Tesla Model X"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/670b24937b07a18746bd0ac838d6b178-hero.png",
+      "alt": "Where to Sell a Used EV in West Virginia: 2026 Guide"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/ce6cf1b16cabaaa9c221cf5edddf8dee-hero.png",
+      "alt": "What Is My Rivian R1T Worth? Used Values, Depreciation & Selling Options"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/a07c8bd77627583039193b37176b7499-hero.png",
+      "alt": "Is the 2026 Tesla Model 3 a Good Buy? A No‑Nonsense Guide"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1416665379491545&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+    "title": "EV Battery Warranty 2025: What’s Covered & What’s Not | Recharged",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:58:17.670381+00:00",
+  "source_meta": {
+    "title": "EV Battery Warranty 2025: What’s Covered & What’s Not - Recharged",
+    "url": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+    "source_name": "Recharged",
+    "source_domain": "recharged.com",
+    "source_type": "partner_infrastructure",
+    "snippet": "What an EV battery warranty actually covers * Defects and outright failures. This includes things like: Failed modules or cells. I...",
+    "citation_count": 3,
+    "first_cited_position": 2,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "query_id": "q044",
+  "query": "Insurance cost differences between kei cars and compact cars in Japan",
+  "query_type": "non_branded",
+  "brand_topic_category": "Value, offers, finance and total cost of ownership",
+  "journey_stage": "cost_value",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Insurance cost differences between kei cars and compact cars in Japan",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071b1071a90d206c25d78a",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/yG7b0kzzXKF0I7gxG9B2yw/6a071b1071a90d206c25d78a.json",
+      "created_at": "2026-05-15 13:09:36 UTC",
+      "processed_at": "2026-05-15 13:09:36 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Insurance+cost+differences+between+kei+cars+and+compact+cars+in+Japan&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/yG7b0kzzXKF0I7gxG9B2yw/6a071b1071a90d206c25d78a.html",
+      "prettify_html_file": "https://serpapi.com/searches/yG7b0kzzXKF0I7gxG9B2yw/6a071b1071a90d206c25d78a.prettify",
+      "total_time_taken": 12.07
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Insurance cost differences between kei cars and compact cars in Japan",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "In Japan, car insurance is divided into Mandatory Insurance (Jibaiseki Hoken) and Voluntary Insurance (Nin-i Hoken). When comparing kei cars (yellow plate, ≤660cc) to compact cars (white plate, e.g., 1000cc–1500cc), kei cars are consistently cheaper to insure.",
+        "reference_indexes": [
+          5,
+          1,
+          0,
+          3,
+          12
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The cost differences and the structural reasons behind them are detailed below.",
+        "reference_indexes": [
+          13
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "1. Cost Comparison Overview"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "On average, a driver will save roughly ¥6,000 to ¥23,000 per year on voluntary insurance by choosing a kei car over a standard compact car.",
+        "reference_indexes": [
+          4
+        ]
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          1,
+          0,
+          4,
+          8,
+          2
+        ],
+        "table": [
+          [
+            "Insurance Type",
+            "Kei Cars (≤660cc)",
+            "Compact Cars (1000cc–1500cc)",
+            "Cost Difference Details"
+          ],
+          [
+            "Mandatory (Jibaiseki)",
+            "¥17,540 (For 24 months)",
+            "¥17,650 (For 24 months)",
+            "Negligible difference (¥110 savings for kei)."
+          ],
+          [
+            "Voluntary (Nin-i)",
+            "¥20,000 – ¥50,000 / year (Experienced driver)",
+            "¥40,000 – ¥80,000 / year (Experienced driver)",
+            "Kei cars are ¥6,000 to ¥23,000 cheaper annually."
+          ],
+          [
+            "Voluntary (Young/New)",
+            "¥80,000 – ¥120,000 / year",
+            "¥100,000 – ¥150,000+ / year",
+            "Premium gaps widen significantly for young profiles."
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Insurance Type"
+            },
+            {
+              "snippet": "Kei Cars (≤660cc)"
+            },
+            {
+              "snippet": "Compact Cars (1000cc–1500cc)"
+            },
+            {
+              "snippet": "Cost Difference Details"
+            }
+          ],
+          [
+            {
+              "snippet": "Mandatory (Jibaiseki)"
+            },
+            {
+              "snippet": "¥17,540 (For 24 months)"
+            },
+            {
+              "snippet": "¥17,650 (For 24 months)"
+            },
+            {
+              "snippet": "Negligible difference (¥110 savings for kei)."
+            }
+          ],
+          [
+            {
+              "snippet": "Voluntary (Nin-i)"
+            },
+            {
+              "snippet": "¥20,000 – ¥50,000 / year (Experienced driver)"
+            },
+            {
+              "snippet": "¥40,000 – ¥80,000 / year (Experienced driver)"
+            },
+            {
+              "snippet": "Kei cars are ¥6,000 to ¥23,000 cheaper annually."
+            }
+          ],
+          [
+            {
+              "snippet": "Voluntary (Young/New)"
+            },
+            {
+              "snippet": "¥80,000 – ¥120,000 / year"
+            },
+            {
+              "snippet": "¥100,000 – ¥150,000+ / year"
+            },
+            {
+              "snippet": "Premium gaps widen significantly for young profiles."
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "insurance_type": "Mandatory (Jibaiseki)",
+            "kei_cars_≤660cc": "¥17,540 (For 24 months)",
+            "compact_cars_1000cc_1500cc": "¥17,650 (For 24 months)",
+            "cost_difference_details": "Negligible difference (¥110 savings for kei)."
+          },
+          {
+            "insurance_type": "Voluntary (Nin-i)",
+            "kei_cars_≤660cc": "¥20,000 – ¥50,000 / year (Experienced driver)",
+            "compact_cars_1000cc_1500cc": "¥40,000 – ¥80,000 / year (Experienced driver)",
+            "cost_difference_details": "Kei cars are ¥6,000 to ¥23,000 cheaper annually."
+          },
+          {
+            "insurance_type": "Voluntary (Young/New)",
+            "kei_cars_≤660cc": "¥80,000 – ¥120,000 / year",
+            "compact_cars_1000cc_1500cc": "¥100,000 – ¥150,000+ / year",
+            "cost_difference_details": "Premium gaps widen significantly for young profiles."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "2. Why Kei Car Voluntary Insurance is Cheaper"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Voluntary premiums are determined using historical accident metrics calculated by the General Insurance Rating Organization of Japan (GIROJ). Kei cars benefit from lower rates due to three distinct variables:",
+        "reference_indexes": [
+          8,
+          14,
+          15,
+          16
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Lower Accident Rates: Statistical data shows that kei cars historically hold a lower overall accident frequency compared to standard compact passenger vehicles."
+          },
+          {
+            "snippet": "Reduced Damage Scale: Because kei cars are physically lighter and limited in speed capability, they typically inflict less costly physical property and bodily damage to third parties during a collision."
+          },
+          {
+            "snippet": "Lower Vehicle Value (Sharyou Hoken): The replacement and repair costs for kei car parts are lower. If you opt for vehicle damage coverage, insuring a cheaper kei car reduces the risk payout ceiling for the provider."
+          }
+        ],
+        "reference_indexes": [
+          8,
+          0,
+          6,
+          9,
+          7
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "3. Model-Specific \"Risk Class\" Pricing Differences"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Starting in recent years, Japan's insurance structure evaluates vehicle models through a tiered system known as Model-Specific Risk Class (Katashikibetsu Ryouritsu Kurasu). Insurance companies utilize this scale to dynamically adjust premiums:",
+        "reference_indexes": [
+          5,
+          8
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Kei Cars: Scored on a simplified 1-to-7 scale across four coverage categories (Bodily injury, Property damage, Personal injury, and Vehicle damage)."
+          },
+          {
+            "snippet": "Compact Cars: Scored on a more complex 1-to-17 scale."
+          },
+          {
+            "snippet": "The Impact: A highly popular compact car with a high collision history (e.g., certain sport-tuned compact variants) may sit at a much higher risk tier than a standard family-oriented kei car, widening the premium gap even further."
+          }
+        ],
+        "reference_indexes": [
+          5,
+          8,
+          17
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "4. Other Factors Overriding Vehicle Type"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "While a kei car is baseline cheaper, individual profile parameters heavily influence the final premium pricing:",
+        "reference_indexes": [
+          8,
+          0
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Driver Age & Grade: Drivers under 21 or 26 face massive premiums regardless of vehicle type. Your cumulative insurance discount grade (Kykyu / 1–20 scale) heavily dictates final costs."
+          },
+          {
+            "snippet": "Provider Model: Choosing a Direct/Online insurer (such as SBI Sompo or Axa Direct) for a compact car is often significantly cheaper than using a traditional brick-and-mortar Agency insurer for a kei car."
+          }
+        ],
+        "reference_indexes": [
+          5,
+          2,
+          7,
+          8,
+          10
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "To help get more precise expectations, are you planning to buy a brand new or used vehicle, and what is the age/license color of the primary driver?",
+        "reference_indexes": [
+          7,
+          11
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Buying a Car in Japan? What are the Costs?｜Yosh - note",
+        "link": "https://note.com/teacher_gemini/n/ncea7198361c0",
+        "snippet": "Jun 25, 2025 — Kei Car: Starts from 9,900 JPY (equivalent to approx. 3,300 JPY per year) and slightly decreases with age. 1000CC Class (For vehic...",
+        "source": "note.com",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/mNZIHT-ZBK1WA4aKKZhHW4e1f6IFoTOi5WJJXhpG5_E.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/C_AJ73Sb675VhclVZ0JGDmEIf7YLT0U611aFN7Jmiog.png",
+        "index": 0
+      },
+      {
+        "title": "Car insurance in Japan · szabo.jp",
+        "link": "https://szabo.jp/2025/08/03/car-insurance/",
+        "snippet": "Aug 3, 2025 — Mandatory car insurance (自賠責保険 - Jibaiseki Hoken) All vehicles must have it, the price and coverage is set by the law (and doesn't...",
+        "source": "szabo.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/8ElglDpyKiQy2Nt0YrqeaweBGl2aPQ8yT23eFCy8OF4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/l7iq3gtfls-fmemJQndv2zEH-jMb22Pqazxg6ThHrmc.png",
+        "index": 1
+      },
+      {
+        "title": "Car Insurance in Japan: A Guide to the Top Providers | MailMate",
+        "link": "https://mailmate.jp/blog/car-insurance-in-japan",
+        "snippet": "Feb 27, 2026 — Kei car (軽自動車), low mileage, experienced driver: around 20,000 to 50,000 yen per year. Standard passenger car, average usage, mid-",
+        "source": "mailmate.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/ZEWNeRg5s0G5fyTUOH2ZTGPBAbOhikJDiYZC3D74kUg.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/YX-o55gIVznZzvzPcBOzEsA0MJOOFPTYpq9sZ1QQq54.png",
+        "index": 2
+      },
+      {
+        "title": "Getting a Car and the Related Costs - National AJET",
+        "link": "https://ajet.net/resources/living-in-japan-resources/getting-a-car-in-japan/",
+        "snippet": "The difference between regular cars and kei cars is the power of the engine. The maximum engine size for a kei car is 660cc – not ...",
+        "source": "ajet.net",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/K9EwS9OtNaybWLAXZg1FBw0cj7w0wDwZVmzVo_EXpfk.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/B5d99pmUWMFuoayYYLKW-y9JWRBa9kTfesl8EgY9mh0.png",
+        "index": 3
+      },
+      {
+        "title": "軽自動車の保険料は普通自動車より安い？年間の保険料相場を解説",
+        "link": "https://www.sonysonpo.co.jp/auto/guide/agde315.html",
+        "snippet": "統計から見ると、軽自動車（乗用）の任意保険の保険料は、自家用普通乗用車と比べると約23,000円、自家用小型乗用車と比べると約6,000円安くなっています。 ※ あくまでも平均保険料です。 契約者の年齢・使用地域・車種・補償内容などによって保険料は変わります。",
+        "source": "www.sonysonpo.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/Q9BG3JVG2I9UGWY4o7u6rPuyxmT5NDmNWGaYHSA8Fz4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/mmO2olVK7MrGzm9L86ixsjNtr7HTJC3fbr7jNGn0KWk.png",
+        "index": 4
+      },
+      {
+        "title": "軽自動車の任意保険料の相場。月額はいくら？｜チューリッヒ",
+        "link": "https://www.zurich.co.jp/car/useful/light_car/",
+        "snippet": "Nov 20, 2025 — 軽自動車の任意保険料の相場。 月額はいくら？ ... 軽自動車の自動車保険（任意保険）の保険料は、普通自動車よりも保険料が安い傾向があります。 また、保険料に加えて、税率や維持費が安い傾向があるのも軽自動車の特長です。 軽自動車の自動車保険（任意保険）の保険料...",
+        "source": "www.zurich.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/mVHRCnFTXUsymi0A5BiOFiWeRip9ywUABn6ZP7bI4vE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/FB_kZULHz7_s19RsoWiM1OV3wzYtOmO3K9MQiCyRewo.png",
+        "index": 5
+      },
+      {
+        "title": "軽自動車の保険料、年齢別の相場（年額・月額）は？安いのはどこ？",
+        "link": "https://www.insweb.co.jp/car/hokenryou/keijidousha-hokenryou-souba.html",
+        "snippet": "Apr 13, 2026 — 上で紹介した通り、軽自動車は普通乗用車や小型乗用車と比べて保険料が安い傾向にあります。 では、なぜ軽自動車の任意保険料が安いのでしょうか。 軽自動車の任意保険料の相場が安い理由は、次のような理由が考えられます。 ... 任意保険は事故の際の救済として使用する性...",
+        "source": "www.insweb.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/5RHkAOCYaLPxOx_N3RRPd0NIHUTK2Em_rWKrVCrW29o.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/8B3NR7sQN69l4TmqywRIxvwnk_p1h0BT6HGJGK4lS1E.png",
+        "index": 6
+      },
+      {
+        "title": "軽自動車の保険料相場はいくら？保険の選び方や型式別料率 ...",
+        "link": "https://park.sompo-japan.co.jp/carmag/autoins/basic/column/ab011.html",
+        "snippet": "Mar 2, 2026 — * 軽自動車の保険の基礎知識：普通自動車との違いとは？ 軽自動車の保険と普通自動車の保険では、保険料の仕組みや基準に違いがあります。 まずは、自動車保険の基本と軽自動車の保険料が抑えられる理由を理解しましょう。 自動車保険は、自動車の保有者が必ず加入する自動車...",
+        "source": "park.sompo-japan.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/GfnpeUZ9ViZAuAy2e0jgFsPHVWQvxiMqWO0b0eHDYDs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/_DiwsLxlA2h9Ln2WN4Yjn67qq6-RsVm35Q1IiZ2zK5w.png",
+        "index": 7
+      },
+      {
+        "title": "軽自動車の保険料はいくら？保険料の決まり方や節約方法を解説",
+        "link": "https://www.sbisonpo.co.jp/car/column/column130.html",
+        "snippet": "Oct 17, 2025 — 軽自動車の保険料はいくら？ 保険料の決まり方や節約方法を解説 ... 軽自動車の任意保険の保険料は、普通車の保険料に比べて安くなる傾向があります。 そもそも、軽自動車の任意保険の保険料はいくらで、どのように決められているのでしょうか。 本記事では、軽自動車の任...",
+        "source": "www.sbisonpo.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/OMHsJb3Jui5ynhlhthnQaBI2SH0aV81fI7fmxBUNcUU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/xNumNmaKfM1S1jQZ21jyY46lmebt-RlEKptzE0o2n80.png",
+        "index": 8
+      },
+      {
+        "title": "軽自動車（乗用車）の自動車保険料は他の車種と比較して安い？保険料 ...",
+        "link": "https://www.e-design.net/ande/guide/column/kei-car/",
+        "snippet": "Feb 14, 2025 — 軽自動車（乗用車）の自動車保険料は他の車種と比較して安い？ 保険料相場や安い理由について解説 ... 軽自動車（乗用車）は、自家用乗用車（普通）や自家用乗用車（小型）と比較して、自動車保険の保険料が安い傾向にあります。 本記事では軽自動車（乗用車）の保険料相場...",
+        "source": "www.e-design.net",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/7O77LxOcQnOdId-4tKPkE3RXlQI3GN3f8vwZ6JBpp4Q.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/bG95YZ4pqiRhNXQlf1OIwHiO8VNXpiB94zIrFGdPI9Y.png",
+        "index": 9
+      },
+      {
+        "title": "【2026年】安い自動車保険ランキング｜大手5社の月払い料金 ...",
+        "link": "https://car.motor-fan.jp/article/10020064",
+        "snippet": "Table_title: 保険料が安い自動車保険ランキングTOP5 Table_content: header: | 順位 | 自動車保険 | 保険料 | row: | 順位: 1位 | 自動車保険: アクサダイレクト | 保険料: 26,960円／年 2,4...",
+        "source": "car.motor-fan.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/SZTzK14JpflO2crtO8JPJF2u-wxJMPZod9qfORTeBTY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/gWN41DK02a3VASOlmScamsQYT7CufgIJGAemQ4v1hDQ.png",
+        "index": 10
+      },
+      {
+        "title": "In Japan, car ownership follows a structured inspection cycle. For a ...",
+        "link": "https://www.facebook.com/sas3japan/posts/in-japan-car-ownership-follows-a-structured-inspection-cycle-for-a-brand-new-car/1922183098737229/",
+        "snippet": "Apr 17, 2026 — For a brand new car, the first shaken (vehicle inspection) is required after 3 years. After that, it must be renewed every 2 years...",
+        "source": "www.facebook.com",
+        "source_icon": "https://serpapi.com/searches/6a071b1071a90d206c25d78a/images/VBzllWmXbScA3P-uXmpLuJqv_ojx19l-Z-_Bvh-XUZQ.png",
+        "index": 11
+      },
+      {
+        "title": "Ultimate Guide to Buying a Car in Japan: New or Used",
+        "link": "https://cotoacademy.com/buy-new-used-car-japan/",
+        "snippet": "In Japan, you must at a minimum have the compulsory liability insurance called jibaiseki hoken (自賠責保険) in order to own a car. Ther...",
+        "source": "cotoacademy.com",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI84BG6vF7oUvN2eBeew-ImN5hW9mnxzyRudsl-LqAksbmS_SV",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://cotoacademy.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "Kei Cars vs. Western Compact Cars - everycar review",
+        "link": "https://everycar-review.com/2025/04/23/kei-cars-vs-western-compact-cars/",
+        "snippet": "Kei cars are more fuel-efficient, especially for short trips and city driving. * 3. Price and Maintenance. Kei Cars. Low purchase ...",
+        "source": "everycar-review.com",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MrfMHItGmkTcaiaVLqXjco8IibEQFEL--KAcI_zs3Dt0cdEQ",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://everycar-review.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "The Charm of Japan's Kei Cars | JOBS IN JAPAN",
+        "link": "https://jobsinjapan.com/living-in-japan-guide/the-charm-of-japans-kei-cars/",
+        "snippet": "The government incentivized manufacturers to produce compact, efficient vehicles by offering reduced taxes, cheaper insurance, and...",
+        "source": "jobsinjapan.com",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQON-wMploRFI7iAcETXkA6IdT6YNsmstr9xgIrAZZOWcTt_gr5",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://jobsinjapan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      },
+      {
+        "title": "How much does a car cost in Japan: Car price in Japan 2026",
+        "link": "https://www.next-drive.co.jp/blog/how-much-does-a-car-cost-in-japan",
+        "snippet": "Average Car Price in Japan in 2025 The cost of new car in Japan 2025 varies widely. A new kei car Japan price starts around 1.5 mi...",
+        "source": "www.next-drive.co.jp",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS0EJeNw5EuQlV4Z5a3-zmHAjcGjQURMKlHImdCjJZCCkt9KSbs",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.next-drive.co.jp&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 15
+      },
+      {
+        "title": "2024 Mitsubishi EK X review: First Aussie drive of the cuddly kei car that could become Australia's cheapest EV",
+        "link": "https://evcentral.com.au/australias-cheapest-ev-the-kei-to-mitsubishis-future-is-cuter-than-a-puppy/",
+        "snippet": "More than on one in three cars sold in Japan are what's defined as “kei” cars, which are cheaper to buy, register and insure. Kei ...",
+        "source": "evcentral.com.au",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRXUFMZ1UDOtG2BN5hNajxTza5LEXOO3CFUCcPgHa4gAmcjjTvY",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://evcentral.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 16
+      },
+      {
+        "title": "Buying a Car - Hyogo AJET",
+        "link": "https://www.hyogoajet.net/carpurchase/",
+        "snippet": "Compulsory insurance only gives limited cover for accidents involving death and injury to people, or to oneself. * Shaken costs va...",
+        "source": "www.hyogoajet.net",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTP64tDyYmYUySdkoW7tVnCSc9RnQDH5N1A1Wu3StGyDsDtPih2",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.hyogoajet.net&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 17
+      }
+    ],
+    "reconstructed_markdown": "In Japan, car insurance is divided into Mandatory Insurance \\(Jibaiseki Hoken\\) and Voluntary Insurance \\(Nin\\-i Hoken\\). When comparing kei cars \\(yellow plate, ≤660cc\\) to compact cars \\(white plate, e.g., 1000cc–1500cc\\), kei cars are consistently cheaper to insure. [5] [1] [0] [3] [12]\n\nThe cost differences and the structural reasons behind them are detailed below. [13]\n\n### 1. Cost Comparison Overview\n\nOn average, a driver will save roughly ¥6,000 to ¥23,000 per year on voluntary insurance by choosing a kei car over a standard compact car. [4]\n\n| Insurance Type | Kei Cars \\(≤660cc\\) | Compact Cars \\(1000cc–1500cc\\) | Cost Difference Details |\n| --- | --- | --- | --- |\n| Mandatory \\(Jibaiseki\\) | ¥17,540 \\(For 24 months\\) | ¥17,650 \\(For 24 months\\) | Negligible difference \\(¥110 savings for kei\\). |\n| Voluntary \\(Nin\\-i\\) | ¥20,000 – ¥50,000 / year \\(Experienced driver\\) | ¥40,000 – ¥80,000 / year \\(Experienced driver\\) | Kei cars are ¥6,000 to ¥23,000 cheaper annually. |\n| Voluntary \\(Young/New\\) | ¥80,000 – ¥120,000 / year | ¥100,000 – ¥150,000\\+ / year | Premium gaps widen significantly for young profiles. |\n[1] [0] [4] [8] [2]\n\n### 2. Why Kei Car Voluntary Insurance is Cheaper\n\nVoluntary premiums are determined using historical accident metrics calculated by the General Insurance Rating Organization of Japan \\(GIROJ\\). Kei cars benefit from lower rates due to three distinct variables: [8] [14] [15] [16]\n\n- Lower Accident Rates: Statistical data shows that kei cars historically hold a lower overall accident frequency compared to standard compact passenger vehicles.\n- Reduced Damage Scale: Because kei cars are physically lighter and limited in speed capability, they typically inflict less costly physical property and bodily damage to third parties during a collision.\n- Lower Vehicle Value \\(Sharyou Hoken\\): The replacement and repair costs for kei car parts are lower. If you opt for vehicle damage coverage, insuring a cheaper kei car reduces the risk payout ceiling for the provider.\n\n### 3. Model\\-Specific \"Risk Class\" Pricing Differences\n\nStarting in recent years, Japan's insurance structure evaluates vehicle models through a tiered system known as Model\\-Specific Risk Class \\(Katashikibetsu Ryouritsu Kurasu\\). Insurance companies utilize this scale to dynamically adjust premiums: [5] [8]\n\n- Kei Cars: Scored on a simplified 1\\-to\\-7 scale across four coverage categories \\(Bodily injury, Property damage, Personal injury, and Vehicle damage\\).\n- Compact Cars: Scored on a more complex 1\\-to\\-17 scale.\n- The Impact: A highly popular compact car with a high collision history \\(e.g., certain sport\\-tuned compact variants\\) may sit at a much higher risk tier than a standard family\\-oriented kei car, widening the premium gap even further.\n\n### 4. Other Factors Overriding Vehicle Type\n\nWhile a kei car is baseline cheaper, individual profile parameters heavily influence the final premium pricing: [8] [0]\n\n- Driver Age & Grade: Drivers under 21 or 26 face massive premiums regardless of vehicle type. Your cumulative insurance discount grade \\(Kykyu / 1–20 scale\\) heavily dictates final costs.\n- Provider Model: Choosing a Direct/Online insurer \\(such as SBI Sompo or Axa Direct\\) for a compact car is often significantly cheaper than using a traditional brick\\-and\\-mortar Agency insurer for a kei car.\n\nTo help get more precise expectations, are you planning to buy a brand new or used vehicle, and what is the age/license color of the primary driver? [7] [11]\n\n\n### References\n\n[0] [Buying a Car in Japan? What are the Costs?｜Yosh \\- note](https://note.com/teacher_gemini/n/ncea7198361c0) — Jun 25, 2025 — Kei Car: Starts from 9,900 JPY \\(equivalent to approx. 3,300 JPY per year\\) and slightly decreases with age. 1000CC Class \\(For vehic...\n\n[1] [Car insurance in Japan · szabo.jp](https://szabo.jp/2025/08/03/car-insurance/) — Aug 3, 2025 — Mandatory car insurance \\(自賠責保険 \\- Jibaiseki Hoken\\) All vehicles must have it, the price and coverage is set by the law \\(and doesn't...\n\n[2] [Car Insurance in Japan: A Guide to the Top Providers \\| MailMate](https://mailmate.jp/blog/car-insurance-in-japan) — Feb 27, 2026 — Kei car \\(軽自動車\\), low mileage, experienced driver: around 20,000 to 50,000 yen per year. Standard passenger car, average usage, mid\\-\n\n[3] [Getting a Car and the Related Costs \\- National AJET](https://ajet.net/resources/living-in-japan-resources/getting-a-car-in-japan/) — The difference between regular cars and kei cars is the power of the engine. The maximum engine size for a kei car is 660cc – not ...\n\n[4] [軽自動車の保険料は普通自動車より安い？年間の保険料相場を解説](https://www.sonysonpo.co.jp/auto/guide/agde315.html) — 統計から見ると、軽自動車（乗用）の任意保険の保険料は、自家用普通乗用車と比べると約23,000円、自家用小型乗用車と比べると約6,000円安くなっています。 ※ あくまでも平均保険料です。 契約者の年齢・使用地域・車種・補償内容などによって保険料は変わります。\n\n[5] [軽自動車の任意保険料の相場。月額はいくら？｜チューリッヒ](https://www.zurich.co.jp/car/useful/light_car/) — Nov 20, 2025 — 軽自動車の任意保険料の相場。 月額はいくら？ ... 軽自動車の自動車保険（任意保険）の保険料は、普通自動車よりも保険料が安い傾向があります。 また、保険料に加えて、税率や維持費が安い傾向があるのも軽自動車の特長です。 軽自動車の自動車保険（任意保険）の保険料...\n\n[6] [軽自動車の保険料、年齢別の相場（年額・月額）は？安いのはどこ？](https://www.insweb.co.jp/car/hokenryou/keijidousha-hokenryou-souba.html) — Apr 13, 2026 — 上で紹介した通り、軽自動車は普通乗用車や小型乗用車と比べて保険料が安い傾向にあります。 では、なぜ軽自動車の任意保険料が安いのでしょうか。 軽自動車の任意保険料の相場が安い理由は、次のような理由が考えられます。 ... 任意保険は事故の際の救済として使用する性...\n\n[7] [軽自動車の保険料相場はいくら？保険の選び方や型式別料率 ...](https://park.sompo-japan.co.jp/carmag/autoins/basic/column/ab011.html) — Mar 2, 2026 — \\* 軽自動車の保険の基礎知識：普通自動車との違いとは？ 軽自動車の保険と普通自動車の保険では、保険料の仕組みや基準に違いがあります。 まずは、自動車保険の基本と軽自動車の保険料が抑えられる理由を理解しましょう。 自動車保険は、自動車の保有者が必ず加入する自動車...\n\n[8] [軽自動車の保険料はいくら？保険料の決まり方や節約方法を解説](https://www.sbisonpo.co.jp/car/column/column130.html) — Oct 17, 2025 — 軽自動車の保険料はいくら？ 保険料の決まり方や節約方法を解説 ... 軽自動車の任意保険の保険料は、普通車の保険料に比べて安くなる傾向があります。 そもそも、軽自動車の任意保険の保険料はいくらで、どのように決められているのでしょうか。 本記事では、軽自動車の任...\n\n[9] [軽自動車（乗用車）の自動車保険料は他の車種と比較して安い？保険料 ...](https://www.e-design.net/ande/guide/column/kei-car/) — Feb 14, 2025 — 軽自動車（乗用車）の自動車保険料は他の車種と比較して安い？ 保険料相場や安い理由について解説 ... 軽自動車（乗用車）は、自家用乗用車（普通）や自家用乗用車（小型）と比較して、自動車保険の保険料が安い傾向にあります。 本記事では軽自動車（乗用車）の保険料相場...\n\n[10] [【2026年】安い自動車保険ランキング｜大手5社の月払い料金 ...](https://car.motor-fan.jp/article/10020064) — Table\\_title: 保険料が安い自動車保険ランキングTOP5 Table\\_content: header: \\| 順位 \\| 自動車保険 \\| 保険料 \\| row: \\| 順位: 1位 \\| 自動車保険: アクサダイレクト \\| 保険料: 26,960円／年 2,4...\n\n[11] [In Japan, car ownership follows a structured inspection cycle. For a ...](https://www.facebook.com/sas3japan/posts/in-japan-car-ownership-follows-a-structured-inspection-cycle-for-a-brand-new-car/1922183098737229/) — Apr 17, 2026 — For a brand new car, the first shaken \\(vehicle inspection\\) is required after 3 years. After that, it must be renewed every 2 years...\n\n[12] [Ultimate Guide to Buying a Car in Japan: New or Used](https://cotoacademy.com/buy-new-used-car-japan/) — In Japan, you must at a minimum have the compulsory liability insurance called jibaiseki hoken \\(自賠責保険\\) in order to own a car. Ther...\n\n[13] [Kei Cars vs. Western Compact Cars \\- everycar review](https://everycar-review.com/2025/04/23/kei-cars-vs-western-compact-cars/) — Kei cars are more fuel\\-efficient, especially for short trips and city driving. \\* 3. Price and Maintenance. Kei Cars. Low purchase ...\n\n[14] [The Charm of Japan's Kei Cars \\| JOBS IN JAPAN](https://jobsinjapan.com/living-in-japan-guide/the-charm-of-japans-kei-cars/) — The government incentivized manufacturers to produce compact, efficient vehicles by offering reduced taxes, cheaper insurance, and...\n\n[15] [How much does a car cost in Japan: Car price in Japan 2026](https://www.next-drive.co.jp/blog/how-much-does-a-car-cost-in-japan) — Average Car Price in Japan in 2025 The cost of new car in Japan 2025 varies widely. A new kei car Japan price starts around 1.5 mi...\n\n[16] [2024 Mitsubishi EK X review: First Aussie drive of the cuddly kei car that could become Australia's cheapest EV](https://evcentral.com.au/australias-cheapest-ev-the-kei-to-mitsubishis-future-is-cuter-than-a-puppy/) — More than on one in three cars sold in Japan are what's defined as “kei” cars, which are cheaper to buy, register and insure. Kei ...\n\n[17] [Buying a Car \\- Hyogo AJET](https://www.hyogoajet.net/carpurchase/) — Compulsory insurance only gives limited cover for accidents involving death and injury to people, or to oneself. \\* Shaken costs va...\n"
+  }
+}

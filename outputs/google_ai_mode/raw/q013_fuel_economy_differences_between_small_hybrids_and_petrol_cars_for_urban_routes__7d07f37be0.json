@@ -1,0 +1,416 @@
+{
+  "query_id": "q013",
+  "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+  "query_type": "non_branded",
+  "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+  "journey_stage": "cost_value",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a0719e1526c4890422d6ea0",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/pXVqBjNQDymbsaNmnU_0fg/6a0719e1526c4890422d6ea0.json",
+      "created_at": "2026-05-15 13:04:33 UTC",
+      "processed_at": "2026-05-15 13:04:33 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Fuel+economy+differences+between+small+hybrids+and+petrol+cars+for+urban+routes+in+Japan&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/pXVqBjNQDymbsaNmnU_0fg/6a0719e1526c4890422d6ea0.html",
+      "prettify_html_file": "https://serpapi.com/searches/pXVqBjNQDymbsaNmnU_0fg/6a0719e1526c4890422d6ea0.prettify",
+      "total_time_taken": 17.34
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "In Japan, the fuel economy gap between small hybrid electric vehicles (HEVs) and conventional petrol cars peaks on congested urban routes. Stop-and-go traffic directly plays to the mechanical strengths of hybrid powertrains.",
+        "reference_indexes": [
+          2,
+          3
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "The Core Efficiency Divergence"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Small Hybrids (e.g., Toyota Yaris/Aqua Hybrid): These vehicles achieve 28 to 35 km/L under real-world urban conditions. Their electric motors handle low-speed creeping and idling. Regenerative braking captures energy from frequent braking cycles to continuously recharge the battery pack."
+          },
+          {
+            "snippet": "Small Petrol Cars (e.g., 1.0L–1.3L Hatchbacks): Standard petrol variants drop significantly in heavy traffic, averaging 12 to 16 km/L. Internal combustion engines operate at their lowest thermal efficiency during constant acceleration from a dead stop. Idling further wastes fuel unless an aggressive start-stop system is installed."
+          },
+          {
+            "snippet": "The Urban Margin: Full hybrids deliver a 40% to 50% reduction in fuel consumption over identical petrol counterparts during heavy city commuting."
+          }
+        ],
+        "reference_indexes": [
+          2,
+          3,
+          16,
+          10,
+          4,
+          6,
+          5,
+          17,
+          15
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Test Cycle Discrepancies: WLTC vs. Real-World Japan"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Japan uses the Worldwide Harmonized Light Duty Test Procedure (WLTC) to certify vehicles. This testing process splits fuel economy ratings into three distinct sub-modes.",
+        "reference_indexes": [
+          7,
+          12
+        ]
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          16,
+          5,
+          0,
+          13,
+          11
+        ],
+        "table": [
+          [
+            "Powertrain Type",
+            "WLTC \"Urban Mode\" (市街地モード)",
+            "Real-World Japan Traffic (Tokyo/Osaka Core)"
+          ],
+          [
+            "Full Hybrid (e.g., Toyota Aqua)",
+            "34.0 – 38.0 km/L",
+            "28.0 – 32.0 km/L"
+          ],
+          [
+            "Kei-Car Mild Hybrid (e.g., Suzuki Wagon R)",
+            "23.0 – 25.0 km/L",
+            "18.0 – 21.0 km/L"
+          ],
+          [
+            "Standard Petrol (e.g., 1.3L Petrol Hatchback)",
+            "14.0 – 17.0 km/L",
+            "11.0 – 13.0 km/L"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Powertrain Type"
+            },
+            {
+              "snippet": "WLTC \"Urban Mode\" (市街地モード)"
+            },
+            {
+              "snippet": "Real-World Japan Traffic (Tokyo/Osaka Core)"
+            }
+          ],
+          [
+            {
+              "snippet": "Full Hybrid (e.g., Toyota Aqua)"
+            },
+            {
+              "snippet": "34.0 – 38.0 km/L"
+            },
+            {
+              "snippet": "28.0 – 32.0 km/L"
+            }
+          ],
+          [
+            {
+              "snippet": "Kei-Car Mild Hybrid (e.g., Suzuki Wagon R)"
+            },
+            {
+              "snippet": "23.0 – 25.0 km/L"
+            },
+            {
+              "snippet": "18.0 – 21.0 km/L"
+            }
+          ],
+          [
+            {
+              "snippet": "Standard Petrol (e.g., 1.3L Petrol Hatchback)"
+            },
+            {
+              "snippet": "14.0 – 17.0 km/L"
+            },
+            {
+              "snippet": "11.0 – 13.0 km/L"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "powertrain_type": "Full Hybrid (e.g., Toyota Aqua)",
+            "wltc_urban_mode_市街地モード": "34.0 – 38.0 km/L",
+            "real_world_japan_traffic_tokyo_osaka_core": "28.0 – 32.0 km/L"
+          },
+          {
+            "powertrain_type": "Kei-Car Mild Hybrid (e.g., Suzuki Wagon R)",
+            "wltc_urban_mode_市街地モード": "23.0 – 25.0 km/L",
+            "real_world_japan_traffic_tokyo_osaka_core": "18.0 – 21.0 km/L"
+          },
+          {
+            "powertrain_type": "Standard Petrol (e.g., 1.3L Petrol Hatchback)",
+            "wltc_urban_mode_市街地モード": "14.0 – 17.0 km/L",
+            "real_world_japan_traffic_tokyo_osaka_core": "11.0 – 13.0 km/L"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Official WLTC Urban test profiles assume smooth, controlled decelerations. True Japanese gridlock features severe, prolonged idling, heavy climate control loads, and short bursts of movement. This causes a 15% to 20% negative deviation from the official catalog metrics for all vehicle classes.",
+        "reference_indexes": [
+          7,
+          4,
+          8
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "The Kei Car Factor (660cc Exception)"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Japan’s unique Kei car segment behaves differently due to strict weight and displacement boundaries:",
+        "reference_indexes": [
+          14
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Mild Hybrids Dominance: Most hybrid Kei cars utilize cost-effective, low-voltage mild hybrid systems (ISG - Integrated Starter Generator) rather than full EV-mode drivetrains."
+          },
+          {
+            "snippet": "The Weight Advantage: Because standard petrol Kei cars are already exceptionally lightweight, they manage 15 to 18 km/L in dense city conditions without electrical assistance."
+          },
+          {
+            "snippet": "Diminishing Returns: Adding a mild-hybrid system to a Kei car only pushes urban economy up to roughly 19 to 22 km/L. The urban efficiency gap is much narrower in the Kei category than it is when comparing standard 1.3L–1.5L compact cars."
+          }
+        ],
+        "reference_indexes": [
+          16,
+          14,
+          13,
+          11,
+          9
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Key Factors Driving the Difference"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Air Conditioning Loads: Summer heatwaves in Japan drastically increase fuel use. Petrol cars must run their engines constantly to power the mechanical AC compressor. Full hybrids run an electric compressor off the high-voltage battery pack, keeping the gas engine off for longer stretches."
+          },
+          {
+            "snippet": "Topography & Short Trips: Mountainous urban areas (such as parts of Kobe or Nagasaki) allow hybrids to harvest massive amounts of energy descending hills. Conversely, very short winter trips under 2 kilometers hurt hybrid efficiency because the vehicle runs the petrol engine continuously just to reach operating temperature."
+          }
+        ],
+        "reference_indexes": [
+          4,
+          1,
+          18
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Are you looking to calculate the financial payback period for a hybrid upgrade based on a specific annual mileage? Let me know your estimated monthly driving distance or a target budget to pinpoint the best option.",
+        "reference_indexes": [
+          5
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Hybrid Vehicles, Electric Vehicles, Fuel Cell Electric Vehicles",
+        "link": "https://www.jsae.or.jp/files_publish/page/1225/11_hv_ev_fcev.pdf",
+        "snippet": "In December, Toyota released an updated version of the Aqua. The efficiency of the hybrid system was im- proved by reducing engine...",
+        "source": "公益社団法人自動車技術会",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/oi4L-LBBaARQ4Zek2KKx-1OKGBJy8nKC8VlD71P3IPw.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/Fm3UCvQ1_ZSeZAsvLy3Kuj1Stl-UNRmCakmdMK1r6gI.png",
+        "index": 0
+      },
+      {
+        "title": "Fuel efficiency has never been more important, but a hybrid or ...",
+        "link": "https://www.facebook.com/7NEWSQld/posts/fuel-efficiency-has-never-been-more-important-but-a-hybrid-or-a-fully-powered-el/1370318041793485/",
+        "snippet": "Apr 5, 2026 — Nige Jack They don't come anywhere close to 2L / 100km, even going downhill. They appear to be only as efficient as Toyota's hybri...",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/S8NKcMIIfDVMfnsr2r82KA6VkuOiSW8UZwitQmaPgJI.jpeg",
+        "index": 1
+      },
+      {
+        "title": "Understanding Hybrid Vehicle Fuel Economy | Mazda USA",
+        "link": "https://www.mazdausa.com/resource-center/hybrid-vehicle-fuel-economy",
+        "snippet": "May 6, 2025 — Because of the stop-and-go nature of city driving, hybrids employ the electric motor more, and can maintain battery charge for lon...",
+        "source": "Mazda USA",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/eRSNfeo3MFe-zkz9EgseF_MU1M617pCx4zEC3ORAnn4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/qm-39tKFbPpjVPJtvs6sS60CAqgzEfzmRCAm2Q0jovs.png",
+        "index": 2
+      },
+      {
+        "title": "Real-world emissions and fuel consumption of gasoline and hybrid ...",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S004896972105484X",
+        "snippet": "Jan 20, 2022 — To compare the fuel economy and emissions performance of HEV and CV on real roads, this study conducted real driving emission (RDE...",
+        "source": "ScienceDirect.com",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/SKLguqLD3TDSGdH8Y-7205cwUf3dgzhid9_fCMQIDME.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/0VYl8FmDp-dBPYRGdNOQlXrQSa8OX2V-Fix633S3km4.png",
+        "index": 3
+      },
+      {
+        "title": "Hybrid vs. Gas Fuels Cars - Which is Best for You?",
+        "link": "https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/",
+        "snippet": "Dec 19, 2023 — Along with the question of hybrid car vs gas car, drivers also wonder a lot about fuel savings. Gas-fuel cars offer less mileage t...",
+        "source": "Car From Japan",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/mMdiXhlsH6NR6OfMU0AlbLQt2_Epg4tJadTy6RqS0TQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/xO1s9vI9r-uAbP5sxZr_97bOGCUjipEM0QD9DXUyVw8.png",
+        "index": 4
+      },
+      {
+        "title": "We compared gasoline and hybrid cars to see which is more ...",
+        "link": "https://www.youtube.com/shorts/ZuqLFs_krgo",
+        "snippet": "May 20, 2023 — ガソリン車私買った方がいいのかハイブリッド車得なのか一番問い合わせが来てたま人気車室のボクシーで行きましょうボクシーのSZはいガソリンとハイブリッド比較してみましたハイブリッドの方の車両本体価格が。 374万円ねでガソリンの方が333万9000円。 ま約ね差で...",
+        "source": "YouTube",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/_EZG61X1-qApCYtUMxH-BYNVSEVi-YanzaIwCgTbJak.jpeg",
+        "index": 5
+      },
+      {
+        "title": "What is the fuel consumption of hybrid cars in Japan? Is ... - 知乎",
+        "link": "https://www.zhihu.com/en/answer/2313081260",
+        "snippet": "What is the fuel consumption of hybrid cars in Japan? Is it suitable for daily commuting in the city? Visit original page. View al...",
+        "source": "www.zhihu.com",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/zsmhaiuwPBA3M0NUC2GIJed0fcRPXkU1OaaFkab9c-k.png",
+        "index": 6
+      },
+      {
+        "title": "Analysis of the Deviation Factors between the Actual and Test ...",
+        "link": "https://www.mdpi.com/2624-8921/3/2/10",
+        "snippet": "Apr 22, 2021 — Figure 2 shows the relationship between the JC08 mode and the WLTC mode fuel economy. It can be seen that the WLTC mode fuel econo...",
+        "source": "MDPI",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/nSz-hvPisBBprHGaxnVDM9Nr-ey3YS3CdKMx5xqyigA.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/MG8B3K5vLQetczSvW6LW3FwDUmpIcqAIPmh5wLj9bDk.png",
+        "index": 7
+      },
+      {
+        "title": "Comparison of JC08 and WLTC fuel economy. (L: urban, M",
+        "link": "https://www.researchgate.net/figure/Comparison-of-JC08-and-WLTC-fuel-economy-L-urban-M-suburban-H-Rural-WLTC-mode_fig2_368014302",
+        "snippet": "Overall, results show that the ECMS algorithm leads to lower fuel consumption than the RB one in most driving conditions. The diff...",
+        "source": "ResearchGate",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/x4Rpx_xA_9zC-NidH2s7nmM2qwxQFXG5UdhD4hb-Jd0.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/XcscWVub3A9J6BmAxSNRk1N05Xpq3H5cv6wgaH3s4jI.png",
+        "index": 8
+      },
+      {
+        "title": "The Japanese kei car gets a new mild-hybrid powertrain with ...",
+        "link": "https://www.facebook.com/Carscoopscom/posts/the-japanese-kei-car-gets-a-new-mild-hybrid-powertrain-with-fuel-consumption-as-/10159130722243025/",
+        "snippet": "Dec 24, 2021 — The Japanese kei car gets a new mild-hybrid powertrain with fuel consumption as low as 3.61 lt/100km #carscoops. Carscoops's post.",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/rVYbVPiIgZswG8GOSDHQZsg9SkhbMcfDJQ-e0p4EDrc.jpeg",
+        "index": 9
+      },
+      {
+        "title": "Top 15 Kei Cars: Compact Japanese Mini Cars for Urban ...",
+        "link": "https://www.next-drive.co.jp/blog/japanese-mini-cars",
+        "snippet": "Apr 30, 2025 — Has sliding doors on both sides like a mini van. Inside feels much bigger than it looks from outside. Comes in a hybrid version th...",
+        "source": "Next Drive Japan",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/VHVe57EeTVM0JY9e2pz8z-k4yl2IYFKunkgoufte2Hw.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/d-G0wBuYdc1DB9mqZPF7Jhq9diWGl9s6DFevKHZ1SZY.png",
+        "index": 10
+      },
+      {
+        "title": "Kei van fuel consumption really depends on how and where you ...",
+        "link": "https://www.facebook.com/61552537627000/posts/kei-van-fuel-consumption-really-depends-on-how-and-where-you-drivedriving-style-/122267055878084587/",
+        "snippet": "Apr 5, 2026 — For stock kei vans (mixed highway + light traffic, reference only): • DA64V (K6A) – around 12–15 km/L • DA17V (R06A) – around 14–1...",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/jlQ0jQBe6oeWN7EPQSnSTg-Q5peOWtWTFkOh_ahSTW4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/0JRi0JXV0G1tQ4W0oMLbkpQBiR1mkbXUejMdETw2_kk.png",
+        "index": 11
+      },
+      {
+        "title": "Japan 2030 fuel economy standards",
+        "link": "https://theicct.org/publication/japan-2030-fuel-economy-standards/",
+        "snippet": "Sep 27, 2019 — In June 2019, Japan issued new fuel economy standards for passenger vehicles starting in model year 2030. The standards require an...",
+        "source": "International Council on Clean Transportation",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/2BeC-cHjuHW7FikJILkx1VWWvUgZllz6mbxHzNzizOg.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/W0oWbmo6a5L_EIVJ6R9htTpBcj_29LPyPYUwAqn1wSI.png",
+        "index": 12
+      },
+      {
+        "title": "The Suzuki Kei-van DA17V is a standout for fuel efficiency ...",
+        "link": "https://www.facebook.com/61552537627000/posts/the-suzuki-kei-van-da17v-is-a-standout-for-fuel-efficiency-averaging-around-204-/122240237210084587/",
+        "snippet": "Aug 24, 2025 — The fuel consumption for a Suzuki Every DA17V typically ranges from 15 to 20 kilometers per liter (km/L), though some sources repo...",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/Zvqi_GCemQbTbJPfwhW-LeuSPOgB3-K5oyUEP20tj_U.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/P0-UXrp5ZEMnltKLGJv7p89VCqU-ilZvUWekgnOxK_c.png",
+        "index": 13
+      },
+      {
+        "title": "Kei Cars vs. Western Compact Cars | EVERYCAR REVIEW",
+        "link": "https://everycar-review.com/2025/04/23/kei-cars-vs-western-compact-cars/",
+        "snippet": "Apr 23, 2025 — 1. Size and Maneuverability. Kei Cars (Japan) Built to meet strict Japanese regulations: max 660cc engine, length under 3.4 meters...",
+        "source": "everycar-review.com",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/iepBLjAG0N9IN3zPVOuHCKsGWPBuDljSLgPaJxz3f2c.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/Rxx5sNe610MJ5tkaUGCa6DFm3sAOoO7c4506A0-nOq4.png",
+        "index": 14
+      },
+      {
+        "title": "Experimental evaluation of hybrid vehicle fuel economy and ...",
+        "link": "https://www.sciencedirect.com/science/article/pii/S135223100800085X",
+        "snippet": "Jun 15, 2008 — Under urban driving conditions, fuel consumption was found to be 40–60% lower than the average equivalent conventional gasoline ve...",
+        "source": "ScienceDirect.com",
+        "thumbnail": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/RaUTAYTSfmdHkecPfnwoj8eACEnw9hXYEr98SdfP8_0.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/kIUoMfW3Ll6gqGm2iUIxmowHdDT6MNR8-A-i5UJl_fU.png",
+        "index": 15
+      },
+      {
+        "title": "Kei car or regular car : r/japanresidents - Reddit",
+        "link": "https://www.reddit.com/r/japanresidents/comments/1kt74gz/kei_car_or_regular_car/",
+        "snippet": "May 23, 2025 — The toyota aqua hybrid can get as high as 30 km/liter which most kei cars cannot get. A kei car can probably get at best 18-20 km/",
+        "source": "Reddit",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/QDIIoZQtf3Hq5jsRjPuhZG9je5QLRzYQH4DXLOs04XQ.png",
+        "index": 16
+      },
+      {
+        "title": "Are Kei cars fuel efficient? - Quora",
+        "link": "https://www.quora.com/Are-Kei-cars-fuel-efficient",
+        "snippet": "Dec 31, 2021 — * The Internal combustion engine is only about 20% efficient. It produces a lot of heat and has friction from over 2,000 moving pa...",
+        "source": "Quora",
+        "source_icon": "https://serpapi.com/searches/6a0719e1526c4890422d6ea0/images/1r4CuocNRmDA5MU1vog-Vd02timafmc_qSnZqKPdEiM.png",
+        "index": 17
+      },
+      {
+        "title": "What Are Hybrid Cars All Things You Need To Know",
+        "link": "https://www.icartea.com/en/wiki/what-are-hybrid-cars-all-things-you-need-to-know",
+        "snippet": "The Engine is Key: Your car's AC compressor needs power. In a hybrid, when the AC demand is high, the Power Control Unit will simp...",
+        "source": "www.icartea.com",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTXl3FrHpWAUgq72j1c-K81v32uT9y89Z7d3agX0aYubAolWZG",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.icartea.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 18
+      }
+    ],
+    "reconstructed_markdown": "In Japan, the fuel economy gap between small hybrid electric vehicles \\(HEVs\\) and conventional petrol cars peaks on congested urban routes. Stop\\-and\\-go traffic directly plays to the mechanical strengths of hybrid powertrains. [2] [3]\n\n### The Core Efficiency Divergence\n\n- Small Hybrids \\(e.g., Toyota Yaris/Aqua Hybrid\\): These vehicles achieve 28 to 35 km/L under real\\-world urban conditions. Their electric motors handle low\\-speed creeping and idling. Regenerative braking captures energy from frequent braking cycles to continuously recharge the battery pack.\n- Small Petrol Cars \\(e.g., 1.0L–1.3L Hatchbacks\\): Standard petrol variants drop significantly in heavy traffic, averaging 12 to 16 km/L. Internal combustion engines operate at their lowest thermal efficiency during constant acceleration from a dead stop. Idling further wastes fuel unless an aggressive start\\-stop system is installed.\n- The Urban Margin: Full hybrids deliver a 40% to 50% reduction in fuel consumption over identical petrol counterparts during heavy city commuting.\n\n### Test Cycle Discrepancies: WLTC vs. Real\\-World Japan\n\nJapan uses the Worldwide Harmonized Light Duty Test Procedure \\(WLTC\\) to certify vehicles. This testing process splits fuel economy ratings into three distinct sub\\-modes. [7] [12]\n\n| Powertrain Type | WLTC \"Urban Mode\" \\(市街地モード\\) | Real\\-World Japan Traffic \\(Tokyo/Osaka Core\\) |\n| --- | --- | --- |\n| Full Hybrid \\(e.g., Toyota Aqua\\) | 34.0 – 38.0 km/L | 28.0 – 32.0 km/L |\n| Kei\\-Car Mild Hybrid \\(e.g., Suzuki Wagon R\\) | 23.0 – 25.0 km/L | 18.0 – 21.0 km/L |\n| Standard Petrol \\(e.g., 1.3L Petrol Hatchback\\) | 14.0 – 17.0 km/L | 11.0 – 13.0 km/L |\n[16] [5] [0] [13] [11]\n\nOfficial WLTC Urban test profiles assume smooth, controlled decelerations. True Japanese gridlock features severe, prolonged idling, heavy climate control loads, and short bursts of movement. This causes a 15% to 20% negative deviation from the official catalog metrics for all vehicle classes. [7] [4] [8]\n\n### The Kei Car Factor \\(660cc Exception\\)\n\nJapan’s unique Kei car segment behaves differently due to strict weight and displacement boundaries: [14]\n\n- Mild Hybrids Dominance: Most hybrid Kei cars utilize cost\\-effective, low\\-voltage mild hybrid systems \\(ISG \\- Integrated Starter Generator\\) rather than full EV\\-mode drivetrains.\n- The Weight Advantage: Because standard petrol Kei cars are already exceptionally lightweight, they manage 15 to 18 km/L in dense city conditions without electrical assistance.\n- Diminishing Returns: Adding a mild\\-hybrid system to a Kei car only pushes urban economy up to roughly 19 to 22 km/L. The urban efficiency gap is much narrower in the Kei category than it is when comparing standard 1.3L–1.5L compact cars.\n\n### Key Factors Driving the Difference\n\n- Air Conditioning Loads: Summer heatwaves in Japan drastically increase fuel use. Petrol cars must run their engines constantly to power the mechanical AC compressor. Full hybrids run an electric compressor off the high\\-voltage battery pack, keeping the gas engine off for longer stretches.\n- Topography & Short Trips: Mountainous urban areas \\(such as parts of Kobe or Nagasaki\\) allow hybrids to harvest massive amounts of energy descending hills. Conversely, very short winter trips under 2 kilometers hurt hybrid efficiency because the vehicle runs the petrol engine continuously just to reach operating temperature.\n\nAre you looking to calculate the financial payback period for a hybrid upgrade based on a specific annual mileage? Let me know your estimated monthly driving distance or a target budget to pinpoint the best option. [5]\n\n\n### References\n\n[0] [Hybrid Vehicles, Electric Vehicles, Fuel Cell Electric Vehicles](https://www.jsae.or.jp/files_publish/page/1225/11_hv_ev_fcev.pdf) — In December, Toyota released an updated version of the Aqua. The efficiency of the hybrid system was im\\- proved by reducing engine...\n\n[1] [Fuel efficiency has never been more important, but a hybrid or ...](https://www.facebook.com/7NEWSQld/posts/fuel-efficiency-has-never-been-more-important-but-a-hybrid-or-a-fully-powered-el/1370318041793485/) — Apr 5, 2026 — Nige Jack They don't come anywhere close to 2L / 100km, even going downhill. They appear to be only as efficient as Toyota's hybri...\n\n[2] [Understanding Hybrid Vehicle Fuel Economy \\| Mazda USA](https://www.mazdausa.com/resource-center/hybrid-vehicle-fuel-economy) — May 6, 2025 — Because of the stop\\-and\\-go nature of city driving, hybrids employ the electric motor more, and can maintain battery charge for lon...\n\n[3] [Real\\-world emissions and fuel consumption of gasoline and hybrid ...](https://www.sciencedirect.com/science/article/abs/pii/S004896972105484X) — Jan 20, 2022 — To compare the fuel economy and emissions performance of HEV and CV on real roads, this study conducted real driving emission \\(RDE...\n\n[4] [Hybrid vs. Gas Fuels Cars \\- Which is Best for You?](https://carfromjapan.com/article/hybrid-vs-gas-fuel-cars/) — Dec 19, 2023 — Along with the question of hybrid car vs gas car, drivers also wonder a lot about fuel savings. Gas\\-fuel cars offer less mileage t...\n\n[5] [We compared gasoline and hybrid cars to see which is more ...](https://www.youtube.com/shorts/ZuqLFs_krgo) — May 20, 2023 — ガソリン車私買った方がいいのかハイブリッド車得なのか一番問い合わせが来てたま人気車室のボクシーで行きましょうボクシーのSZはいガソリンとハイブリッド比較してみましたハイブリッドの方の車両本体価格が。 374万円ねでガソリンの方が333万9000円。 ま約ね差で...\n\n[6] [What is the fuel consumption of hybrid cars in Japan? Is ... \\- 知乎](https://www.zhihu.com/en/answer/2313081260) — What is the fuel consumption of hybrid cars in Japan? Is it suitable for daily commuting in the city? Visit original page. View al...\n\n[7] [Analysis of the Deviation Factors between the Actual and Test ...](https://www.mdpi.com/2624-8921/3/2/10) — Apr 22, 2021 — Figure 2 shows the relationship between the JC08 mode and the WLTC mode fuel economy. It can be seen that the WLTC mode fuel econo...\n\n[8] [Comparison of JC08 and WLTC fuel economy. \\(L: urban, M](https://www.researchgate.net/figure/Comparison-of-JC08-and-WLTC-fuel-economy-L-urban-M-suburban-H-Rural-WLTC-mode_fig2_368014302) — Overall, results show that the ECMS algorithm leads to lower fuel consumption than the RB one in most driving conditions. The diff...\n\n[9] [The Japanese kei car gets a new mild\\-hybrid powertrain with ...](https://www.facebook.com/Carscoopscom/posts/the-japanese-kei-car-gets-a-new-mild-hybrid-powertrain-with-fuel-consumption-as-/10159130722243025/) — Dec 24, 2021 — The Japanese kei car gets a new mild\\-hybrid powertrain with fuel consumption as low as 3.61 lt/100km \\#carscoops. Carscoops's post.\n\n[10] [Top 15 Kei Cars: Compact Japanese Mini Cars for Urban ...](https://www.next-drive.co.jp/blog/japanese-mini-cars) — Apr 30, 2025 — Has sliding doors on both sides like a mini van. Inside feels much bigger than it looks from outside. Comes in a hybrid version th...\n\n[11] [Kei van fuel consumption really depends on how and where you ...](https://www.facebook.com/61552537627000/posts/kei-van-fuel-consumption-really-depends-on-how-and-where-you-drivedriving-style-/122267055878084587/) — Apr 5, 2026 — For stock kei vans \\(mixed highway \\+ light traffic, reference only\\): • DA64V \\(K6A\\) – around 12–15 km/L • DA17V \\(R06A\\) – around 14–1...\n\n[12] [Japan 2030 fuel economy standards](https://theicct.org/publication/japan-2030-fuel-economy-standards/) — Sep 27, 2019 — In June 2019, Japan issued new fuel economy standards for passenger vehicles starting in model year 2030. The standards require an...\n\n[13] [The Suzuki Kei\\-van DA17V is a standout for fuel efficiency ...](https://www.facebook.com/61552537627000/posts/the-suzuki-kei-van-da17v-is-a-standout-for-fuel-efficiency-averaging-around-204-/122240237210084587/) — Aug 24, 2025 — The fuel consumption for a Suzuki Every DA17V typically ranges from 15 to 20 kilometers per liter \\(km/L\\), though some sources repo...\n\n[14] [Kei Cars vs. Western Compact Cars \\| EVERYCAR REVIEW](https://everycar-review.com/2025/04/23/kei-cars-vs-western-compact-cars/) — Apr 23, 2025 — 1. Size and Maneuverability. Kei Cars \\(Japan\\) Built to meet strict Japanese regulations: max 660cc engine, length under 3.4 meters...\n\n[15] [Experimental evaluation of hybrid vehicle fuel economy and ...](https://www.sciencedirect.com/science/article/pii/S135223100800085X) — Jun 15, 2008 — Under urban driving conditions, fuel consumption was found to be 40–60% lower than the average equivalent conventional gasoline ve...\n\n[16] [Kei car or regular car : r/japanresidents \\- Reddit](https://www.reddit.com/r/japanresidents/comments/1kt74gz/kei_car_or_regular_car/) — May 23, 2025 — The toyota aqua hybrid can get as high as 30 km/liter which most kei cars cannot get. A kei car can probably get at best 18\\-20 km/\n\n[17] [Are Kei cars fuel efficient? \\- Quora](https://www.quora.com/Are-Kei-cars-fuel-efficient) — Dec 31, 2021 — \\* The Internal combustion engine is only about 20% efficient. It produces a lot of heat and has friction from over 2,000 moving pa...\n\n[18] [What Are Hybrid Cars All Things You Need To Know](https://www.icartea.com/en/wiki/what-are-hybrid-cars-all-things-you-need-to-know) — The Engine is Key: Your car's AC compressor needs power. In a hybrid, when the AC demand is high, the Power Control Unit will simp...\n"
+  }
+}

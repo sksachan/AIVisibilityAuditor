@@ -1,0 +1,456 @@
+{
+  "url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 18395,
+    "wordish_count": 1319,
+    "heading_count": 8,
+    "bullet_count": 36,
+    "link_count": 38,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 1,
+    "raw_url_count": 39,
+    "numeric_fact_count": 62,
+    "question_count": 0,
+    "unique_line_count": 109,
+    "numeric_facts_sample": [
+      "1",
+      "2021",
+      "2050",
+      "2022",
+      "10",
+      "100,000",
+      "3",
+      "4",
+      "9",
+      "6",
+      "20",
+      "0",
+      "2",
+      "92",
+      "5",
+      "9Km",
+      "8",
+      "2l",
+      "1L",
+      "93",
+      "661",
+      "4L",
+      "7",
+      "0832",
+      "16"
+    ],
+    "links_sample": [
+      "https://ir.premium-group.co.jp/resources/sw_img/logo_main.png",
+      "https://ir.premium-group.co.jp/resources/sw_img/sp/btn_menu.png",
+      "http://www.premium-group.co.jp/en/",
+      "http://www.premium-group.co.jp/",
+      "https://www.premium-group.co.jp/en/",
+      "http://www.premium-group.co.jp/en/message/index.html",
+      "http://www.premium-group.co.jp/en/message/philosophy.html",
+      "http://www.premium-group.co.jp/en/about-premium-group.html",
+      "https://ir.premium-group.co.jp/en/index.html",
+      "http://www.premium-group.co.jp/en/esg/index.html",
+      "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html#premium-group-title",
+      "https://www.premium-group.co.jp/en/affiliate/premium-financial-services.html",
+      "https://www.premium-group.co.jp/en/affiliate/pws.html",
+      "http://www.premium-group.co.jp/en/affiliate/pms.html",
+      "https://www.premium-group.co.jp/en/pls/",
+      "https://www.premium-group.co.jp/en/affiliate/premium-financial-services-thailand.html",
+      "https://ir.premium-group.co.jp/en/news.html",
+      "https://ir.premium-group.co.jp/en/management.html",
+      "https://ir.premium-group.co.jp/en/finance.html",
+      "https://ir.premium-group.co.jp/en/library.html",
+      "https://ir.premium-group.co.jp/en/meeting.html",
+      "https://ir.premium-group.co.jp/en/stock.html",
+      "https://ir.premium-group.co.jp/en/calendar.html",
+      "https://ir.premium-group.co.jp/en/faq.html",
+      "https://ir.premium-group.co.jp/en/disclaimer.html"
+    ],
+    "image_alt_count": 5
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2021/12/13",
+      "2021/12/1"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 71,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 1521,
+    "main_chars": 2420,
+    "footer_chars": 524,
+    "tables_chars": 0,
+    "metadata_chars": 149,
+    "full_markdown_chars": 18395
+  },
+  "metadata": {
+    "title": "Premium Group Announces Being the First in the Industry to Offer an Automobile Warranty Plan for EVs | IR News | IR",
+    "description": "本企業のPremium Group Announces Being the First in the Industry to Offer an Automobile Warranty Plan for EVsをご覧いただけます。",
+    "language": "ja",
+    "sourceURL": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "all",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "http://www.premium-group.co.jp/en/",
+      "text": "http://www.premium-group.co.jp/en/",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/",
+      "text": "EN",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/",
+      "text": "JA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/",
+      "text": "Philosophy",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/message/index.html",
+      "text": "President Message",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/message/philosophy.html",
+      "text": "Our Business Philosophy",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/about-premium-group.html",
+      "text": "About Premium Group",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/index.html",
+      "text": "IR",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/esg/index.html",
+      "text": "For ESG,SDGs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html#premium-group-title",
+      "text": "Affiliate",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/affiliate/premium-financial-services.html",
+      "text": "Premium Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/affiliate/pws.html",
+      "text": "Premium Warranty Services Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/affiliate/pms.html",
+      "text": "Premium Mobility Services Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/pls/",
+      "text": "PLS Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/affiliate/premium-financial-services-thailand.html",
+      "text": "Premium Asset Management（Thailand）Co.,Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+      "text": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/",
+      "text": "HOME",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/message/index.html",
+      "text": "President’s Message",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/esg/index.html",
+      "text": "For ESG, SDGs",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/",
+      "text": "日本語",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en.html",
+      "text": "IR",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/index.html",
+      "text": "IR Top",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/news.html",
+      "text": "現在位置: IR News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/management.html",
+      "text": "Management Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/finance.html",
+      "text": "Financial Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/library.html",
+      "text": "IR Library",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/meeting.html",
+      "text": "Meeting of Shareholders",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/stock.html",
+      "text": "Stock Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/calendar.html",
+      "text": "IR Calendar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/faq.html",
+      "text": "IR FAQs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/disclaimer.html",
+      "text": "Disclaimer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ir.premium-group.co.jp/en/finance.html",
+      "text": "Finance, Results",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/recruit/",
+      "text": "Premium Group Recruit",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/affiliate/pms.html",
+      "text": "Premium Mobility Services Co., Ltd",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.premium-group.co.jp/en/affiliate/premium-financial-services-thailand.html",
+      "text": "Premium Asset Management （Thailand）Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/terms.html",
+      "text": "Website Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/policy.html",
+      "text": "Anti-social ForcesExclusion Clause",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.premium-group.co.jp/en/privacy.html",
+      "text": "Handling of Personal Information",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "data:image/png;base64,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",
+      "alt": ""
+    },
+    {
+      "src": "data:image/gif;base64,R0lGODlhAQABAIAAAP////8AACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==",
+      "alt": ""
+    },
+    {
+      "src": "data:image/gif;base64,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",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/logo_main.png",
+      "alt": "Premium"
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/sp/logo_main.png",
+      "alt": "Premium"
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/sp/btn_menu.png",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/en/news/news2710132148967312614/main/0/teaserItems1/00/binaryNodeName/1.png",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/en/news/news2710132148967312614/main/0/teaserItems1/02/binaryNodeName/2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/btn_top.png",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/sp/btn_top.png",
+      "alt": ""
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/logo_bottom.gif",
+      "alt": "Premium"
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/sp/logo_bottom.png",
+      "alt": "Premium"
+    },
+    {
+      "src": "https://ir.premium-group.co.jp/resources/sw_img/btn_footer.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=247518764973602&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2021/12/13",
+    "2021/12/1"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+    "title": "Premium Group Announces Being the First in the Industry to Offer an Automobile Warranty Plan for EVs | IR News | IR",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:11:29.219974+00:00",
+  "source_meta": {
+    "title": "Premium Group Announces Being the First in the Industry to ...",
+    "url": "https://ir.premium-group.co.jp/en/news/news2710132148967312614.html",
+    "source_name": "プレミアグループ",
+    "source_domain": "ir.premium-group.co.jp",
+    "source_type": "other",
+    "snippet": "Dec 13, 2021 — Warranty period: 1-3 years.",
+    "citation_count": 1,
+    "first_cited_position": 3,
+    "answer_support_weight": 2,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 17582,
+    "wordish_count": 2425,
+    "heading_count": 8,
+    "bullet_count": 73,
+    "link_count": 82,
+    "image_count": 10,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 84,
+    "numeric_fact_count": 70,
+    "question_count": 5,
+    "unique_line_count": 200,
+    "numeric_facts_sample": [
+      "2",
+      "20",
+      "2026",
+      "100",
+      "11",
+      "19",
+      "2025",
+      "2015",
+      "03",
+      "2.94",
+      "443",
+      "870",
+      "1,500",
+      "40",
+      "2014",
+      "33",
+      "17",
+      "6.6",
+      "32",
+      "7",
+      "14,500",
+      "635,000",
+      "97%",
+      "95%",
+      "24"
+    ],
+    "links_sample": [
+      "https://europe.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "https://europe.nissannews.com/page-kvnF2/attachment/863a3cb15b8a614fda5bfbea966bd39780800bbc",
+      "https://europe.nissannews.com/page-kvnF2/attachment/2b1edbc02ea90838d522a344a2c9e90d13f6d06c",
+      "https://europe.nissannews.com/page-kvnF2/attachment/9b6877362dbb5599a4ea738eaf9cc446a2d2c78c",
+      "https://europe.nissannews.com/page-kvnF2/attachment/77c2b615a0204f051d634ae1d9267ceb12de7edb",
+      "https://europe.nissannews.com/page-kvnF2/attachment/ac0ba16c951fd2d51498ae1b16d77af46104b419",
+      "https://wieck-nissanao-production.s3.amazonaws.com/photos/2532b7399b2e0a07eb429a24d57a59008047a830/preview-928x522.jpg",
+      "https://newsroom.nissan-europe.com/image/low/130100/1_1/5",
+      "https://cdn.cookielaw.org/logos/833dee04-98f8-4819-b98d-6fdfee2c09fc/83294b90-f23d-4d6b-a58f-435c4bf7d39a/aeae389c-c678-4147-a6d3-a9c3e60219e3/Nissan_Motor_Corporation_Light.png",
+      "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "https://europe.nissannews.com/en-GB",
+      "https://europe.nissannews.com/en-GB/channels/europe-latest-news?selectedTabId=channel-f573b18d967e421886bb351075efb598-videos",
+      "https://europe.nissannews.com/en-GB/channels/content/europe-latest-news?selectedTabId=releases",
+      "https://europe.nissannews.com/en-GB/channels/europe-latest-news?selectedTabId=europe-latest-news-photos",
+      "https://europe.nissannews.com/en-GB/channels/content/europe-latest-news?selectedTabId=videos",
+      "https://europe.nissannews.com/nissan-model-lineup",
+      "https://europe.nissannews.com/en-GB/channels/crossovers",
+      "https://europe.nissannews.com/en-GB/channels/juke",
+      "https://europe.nissannews.com/en-GB/channels/qashqai",
+      "https://europe.nissannews.com/en-GB/channels/x-trail",
+      "https://europe.nissannews.com/en-GB/channels/electric-vehicles",
+      "https://europe.nissannews.com/en-GB/channels/ariya",
+      "https://europe.nissannews.com/en-GB/channels/leaf",
+      "https://europe.nissannews.com/en-GB/channels/leaf-nismo-rc",
+      "https://europe.nissannews.com/en-GB/channels/micra"
+    ],
+    "image_alt_count": 10
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2015/03/03",
+      "2015/04/17",
+      "2015/05/05",
+      "2015/04/1",
+      "Published for Nissan Micra and Qashqai"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": true,
+    "nav_noise_terms": 5,
+    "content_terms": 108,
+    "noise_ratio": 0.05
+  },
+  "content_regions": {
+    "header_chars": 1597,
+    "main_chars": 7276,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 495,
+    "full_markdown_chars": 17582
+  },
+  "metadata": {
+    "title": "Nissan launches seven seat e-NV200: The world's most versatile electric vehicle at Geneva Motor Show",
+    "description": "Thanks to growing requests from companies and fleets alike, Nissan has announced it is bringing forward the introduction of the latest iteration in its electric vehicle line-up - a seven seat version of the all-electric e-NV200.",
+    "language": "en-GB",
+    "sourceURL": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://europe.nissannews.com/en-GB",
+      "text": "Europe Newsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/europe-latest-news?selectedTabId=channel-f573b18d967e421886bb351075efb598-videos",
+      "text": "Open Europe Latest News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/content/europe-latest-news?selectedTabId=releases",
+      "text": "Releases",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/europe-latest-news?selectedTabId=europe-latest-news-photos",
+      "text": "Images",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/content/europe-latest-news?selectedTabId=videos",
+      "text": "Videos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/nissan-model-lineup",
+      "text": "Open Models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/crossovers",
+      "text": "Open Crossovers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/juke",
+      "text": "Juke",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/qashqai",
+      "text": "Qashqai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/x-trail",
+      "text": "X-Trail",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/electric-vehicles",
+      "text": "Open Electric Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/ariya",
+      "text": "Ariya",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/leaf",
+      "text": "LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/leaf-nismo-rc",
+      "text": "LEAF NISMO RC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/micra",
+      "text": "Micra",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/lcvs",
+      "text": "Open LCVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/townstar",
+      "text": "Townstar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/primaster",
+      "text": "Primastar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/interstar",
+      "text": "Interstar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/archive-models",
+      "text": "Archive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/corporate",
+      "text": "Open Corporate",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/channels/corporate",
+      "text": "Corporate News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/europe-executive-bios",
+      "text": "Open Executives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/corporate-officers",
+      "text": "Global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/europe-executive-bios#europe-executives",
+      "text": "AMIEO Region",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/logos",
+      "text": "Logos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global",
+      "text": "Open Nissan Global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global-overview",
+      "text": "Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global-sales",
+      "text": "Sales",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global-location",
+      "text": "Location",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global-history",
+      "text": "History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-in-europe",
+      "text": "Open Nissan In Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/sales-and-marketing",
+      "text": "Sales and Marketing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/manufacturing-research-and-development",
+      "text": "Manufacturing, Research and Development",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/history",
+      "text": "History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/technology",
+      "text": "Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/morsports-main",
+      "text": "Motorsports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissanstories.com/en",
+      "text": "Stories",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/regions",
+      "text": "Regions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/contacts",
+      "text": "Contacts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/basket",
+      "text": "No No Saved Items Saved Item Saved Items",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/basket",
+      "text": "https://europe.nissannews.com/en-GB/basket",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/europe-latest-news?selectedTabId=channel-f573b18d967e421886bb351075efb598-videos",
+      "text": "Europe Latest News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/seven-nissan-standouts-named-among-the-uks-top-100-most-influential-women",
+      "text": "https://europe.nissannews.com/en-GB/releases/seven-nissan-standouts-named-among-the-uks-top-100-most-influential-women",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/seven-nissan-standouts-named-among-the-uks-top-100-most-influential-women",
+      "text": "Seven Nissan Standouts Named Among the UK's Top 100 Most Influential Women",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-unveils-juke-pulse-a-high-spec-version-of-its-iconic-model",
+      "text": "https://europe.nissannews.com/en-GB/releases/nissan-unveils-juke-pulse-a-high-spec-version-of-its-iconic-model",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-unveils-juke-pulse-a-high-spec-version-of-its-iconic-model",
+      "text": "Nissan unveils JUKE Pulse, a high spec version of its iconic model",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/nissan-model-lineup",
+      "text": "Models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/crossovers",
+      "text": "Crossovers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/electric-vehicles",
+      "text": "Electric Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/lcvs",
+      "text": "LCVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/watch-the-unveil-new-nissan-x-trail-2026",
+      "text": "https://europe.nissannews.com/en-GB/releases/watch-the-unveil-new-nissan-x-trail-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/watch-the-unveil-new-nissan-x-trail-2026",
+      "text": "Tougher and more connected: Discover the new 2026 Nissan X‑Trail",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/latest-euro-ncap-assessment-results-published-for-nissan-micra-and-qashqai",
+      "text": "https://europe.nissannews.com/en-GB/releases/latest-euro-ncap-assessment-results-published-for-nissan-micra-and-qashqai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/latest-euro-ncap-assessment-results-published-for-nissan-micra-and-qashqai",
+      "text": "Latest Euro NCAP Assessment Results Published for Nissan Micra and Qashqai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/corporate",
+      "text": "Corporate",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/europe-executive-bios",
+      "text": "Executives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-global",
+      "text": "Nissan Global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/channels/nissan-in-europe",
+      "text": "Nissan In Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-brings-real-time-rewards-to-the-road-with-launch-of-nissan-deals-in-europe",
+      "text": "https://europe.nissannews.com/en-GB/releases/nissan-brings-real-time-rewards-to-the-road-with-launch-of-nissan-deals-in-europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-brings-real-time-rewards-to-the-road-with-launch-of-nissan-deals-in-europe",
+      "text": "Nissan Brings Real-Time Rewards to the Road, with Launch of Nissan Deals in Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/release-130184/download",
+      "text": "Download",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/attachment/release-130184/eefc712bb0df81c6b790408d58a4d47cabb0bc5b",
+      "text": "130184_Nissan_launches_seven_seat_e-NV200_The_world_s_most_versatile_electric.pdf (101 KB)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/attachment/release-130184/da4c8f7f6525792e3faf167bbc38fd620ec87aa2",
+      "text": "130184_Nissan_launches_seven_seat_e-NV200_The_world_s_most_versatile_electric.pdf (101 KB)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+      "text": "Show All",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-at-the-2015-geneva-motor-show",
+      "text": "https://europe.nissannews.com/releases/nissan-at-the-2015-geneva-motor-show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-at-the-2015-geneva-motor-show",
+      "text": "Nissan at the 2015 Geneva Motor Show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-rethinks-the-compact-hatchback-introducing-the-sway",
+      "text": "https://europe.nissannews.com/releases/nissan-rethinks-the-compact-hatchback-introducing-the-sway",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-rethinks-the-compact-hatchback-introducing-the-sway",
+      "text": "Nissan rethinks the compact hatchback - introducing the SWAY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-sets-bold-new-direction-for-european-growth-united-kingdom",
+      "text": "https://europe.nissannews.com/releases/nissan-sets-bold-new-direction-for-european-growth-united-kingdom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/nissan-sets-bold-new-direction-for-european-growth-united-kingdom",
+      "text": "Nissan sets bold new direction for European growth",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/expanded-nissan-nismo-range-turns-up-the-heat-at-geneva",
+      "text": "https://europe.nissannews.com/releases/expanded-nissan-nismo-range-turns-up-the-heat-at-geneva",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/expanded-nissan-nismo-range-turns-up-the-heat-at-geneva",
+      "text": "Expanded Nissan NISMO range turns up the heat at Geneva",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/the-complete-crossover-nissan-showcases-its-most-comprehensive-range-to-date",
+      "text": "https://europe.nissannews.com/releases/the-complete-crossover-nissan-showcases-its-most-comprehensive-range-to-date",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/the-complete-crossover-nissan-showcases-its-most-comprehensive-range-to-date",
+      "text": "The complete crossover: Nissan showcases its most comprehensive range to date",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/power-to-spare-nissan-and-endesa-sign-pledge-to-promote-europe-s-first-mass-market-vehicle-to-grid-system",
+      "text": "https://europe.nissannews.com/releases/power-to-spare-nissan-and-endesa-sign-pledge-to-promote-europe-s-first-mass-market-vehicle-to-grid-system",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/power-to-spare-nissan-and-endesa-sign-pledge-to-promote-europe-s-first-mass-market-vehicle-to-grid-system",
+      "text": "Power to spare - Nissan and Endesa sign pledge to promote Europe's first mass market vehicle to grid system",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/hail-the-electric-amsterdam-s-ev-taxis",
+      "text": "https://europe.nissannews.com/releases/hail-the-electric-amsterdam-s-ev-taxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/hail-the-electric-amsterdam-s-ev-taxis",
+      "text": "Hail the Electric: Amsterdam’s EV Taxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/bakery-goes-carbon-neutral-with-a-helping-hand-from-nissan",
+      "text": "https://europe.nissannews.com/releases/bakery-goes-carbon-neutral-with-a-helping-hand-from-nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/releases/bakery-goes-carbon-neutral-with-a-helping-hand-from-nissan",
+      "text": "Bakery goes carbon neutral with a helping hand from Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+      "text": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCFArn7GtcJh-fKJeLSHbeJw",
+      "text": "https://www.youtube.com/channel/UCFArn7GtcJh-fKJeLSHbeJw",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "text": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/nissanusa/?brand_redir=333711736686957",
+      "text": "https://www.facebook.com/nissanusa/?brand_redir=333711736686957",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissan/",
+      "text": "https://www.instagram.com/nissan/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanmotor.jobs/",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/europe-copyright",
+      "text": "Copyright",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/pages/europe-gdpr-information",
+      "text": "GDPR Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://europe.nissannews.com/en-GB/pages/europe-cookies",
+      "text": "Cookies Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.uk/legal/cookies.html",
+      "text": "More information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.onetrust.com/products/cookie-consent/",
+      "text": "https://www.onetrust.com/products/cookie-consent/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://europe.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "alt": "Nissan | logo"
+    },
+    {
+      "src": "https://europe.nissannews.com/page-kvnF2/attachment/863a3cb15b8a614fda5bfbea966bd39780800bbc",
+      "alt": "Graphic featuring seven individuals recognised for the AutoCar 2026 Great Women Awards. The individuals are Heather Trembath, Marion Berlier, Emma Deutsch, Nicola Stoker, Claire Curtis, Fiona Mackay and Carol Jeffrie, all holding senior leadership roles within Nissan Manufacturing UK, Nissan GB and Nissan Technical Centre Europe."
+    },
+    {
+      "src": "https://europe.nissannews.com/page-kvnF2/attachment/2b1edbc02ea90838d522a344a2c9e90d13f6d06c",
+      "alt": "The Nissan JUKE Pulse driving through a modern urban setting, shown in motion with a sleek Ocean Deep exterior against glass-fronted buildings."
+    },
+    {
+      "src": "https://europe.nissannews.com/page-kvnF2/attachment/9b6877362dbb5599a4ea738eaf9cc446a2d2c78c",
+      "alt": "New Nissan LEAF"
+    },
+    {
+      "src": "https://europe.nissannews.com/page-kvnF2/attachment/77c2b615a0204f051d634ae1d9267ceb12de7edb",
+      "alt": "A blue Nissan Micra, seen from the front ¾ perspective, drives across a bridge with a city scape in the background"
+    },
+    {
+      "src": "https://europe.nissannews.com/page-kvnF2/attachment/ac0ba16c951fd2d51498ae1b16d77af46104b419",
+      "alt": "Nissan Deals offers displayed on the screen"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/2532b7399b2e0a07eb429a24d57a59008047a830/preview-928x522.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://newsroom.nissan-europe.com/image/low/130100/1_1/5",
+      "alt": "Nissan 7 seat e-NV200: the world's most versatile electric vehicle"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/64cbefeaa68d569932e70daec940e7a39c9a2427/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/eb35b434840c47755c49738ec335bf946fd0221f/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/02b8fc07496f71abdc0913807defef886a72a36d/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/6ec9dccc01646d8e2718f0dc567935abbcd7b572/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/ee0fda8708c40144a895eda158e7fce45c60549c/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/0812f78aeff645d3e87f60c4498351a2b3a5c8ce/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/ed6c4a7e3fef633b1a22a2d90b543e8d26764199/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/94cbc8121feb23743070c93c0af408fee14c1f98/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/833dee04-98f8-4819-b98d-6fdfee2c09fc/83294b90-f23d-4d6b-a58f-435c4bf7d39a/aeae389c-c678-4147-a6d3-a9c3e60219e3/Nissan_Motor_Corporation_Light.png",
+      "alt": "Company Logo"
+    },
+    {
+      "src": "https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust"
+    }
+  ],
+  "visible_dates": [
+    "2015/03/03",
+    "2015/04/17",
+    "2015/05/05",
+    "2015/04/1",
+    "Published for Nissan Micra and Qashqai"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+    "title": "Nissan launches seven seat e-NV200: The world's most versatile electric vehicle at Geneva Motor Show",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:08:45.000098+00:00",
+  "source_meta": {
+    "title": "Nissan launches seven seat e-NV200: The world's most ...",
+    "url": "https://europe.nissannews.com/en-GB/releases/nissan-launches-seven-seat-e-nv200-the-world-s-most-versatile-electric-vehicle-at-geneva-motor-show",
+    "source_name": "europe.nissannews.com",
+    "source_domain": "europe.nissannews.com",
+    "source_type": "other",
+    "snippet": "Mar 3, 2015 — The seven seat version of the e-NV200 is configured with two seats in the front, three in the middle and two in the rear. Both the...",
+    "citation_count": 2,
+    "first_cited_position": 2,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Family practicality, space and comfort",
+    "related_queries_seed": [
+      {
+        "query": "Nissan NV200 cargo and seating options when used as a family shuttle in Japan",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan NV200 cargo and seating options when used as a family shuttle in Japan",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

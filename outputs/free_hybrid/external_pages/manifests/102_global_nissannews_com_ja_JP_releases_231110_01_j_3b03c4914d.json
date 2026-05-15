@@ -1,0 +1,846 @@
+{
+  "url": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 11675,
+    "wordish_count": 2734,
+    "heading_count": 9,
+    "bullet_count": 66,
+    "link_count": 84,
+    "image_count": 18,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 4,
+    "raw_url_count": 86,
+    "numeric_fact_count": 106,
+    "question_count": 1,
+    "unique_line_count": 195,
+    "numeric_facts_sample": [
+      "2",
+      "231110",
+      "01",
+      "2024",
+      "2023",
+      "2026年",
+      "2025年",
+      "23",
+      "11",
+      "10",
+      "6",
+      "360",
+      "1",
+      "2023年",
+      "3,253,800",
+      "289",
+      "8",
+      "4",
+      "3,520,000",
+      "853",
+      "2026",
+      "41607",
+      "48",
+      "31",
+      "35"
+    ],
+    "links_sample": [
+      "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "https://global.nissannews.com/page-MVGhb/attachment/a60279b5c264cad720755424082c881b35ab211b",
+      "https://global.nissannews.com/page-MVGhb/attachment/48e5a01734f058422d4165e27b37d66890a02f90",
+      "https://global.nissannews.com/page-MVGhb/attachment/31f3704a5a38cfeb3076d6f7dadc5dbc964bb6fe",
+      "https://global.nissannews.com/page-MVGhb/attachment/35dd03c3de1b1d4ebeb3fb0fb07578aab7601d34",
+      "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/2a81e527f08d42aef2cad957de79553d3571a0a7",
+      "https://global.nissannews.com/releases/release-0a142cda058309079750a0cd0d1a81b1/images/57faa68da49d169e38b4e0b45148e6d8dbf227c9",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/96889cd2912d4ac5dc1abb9bc50d464cf01c3044",
+      "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/018e1b22-17bc-729f-8d4c-08aee4203167/89eb2343-a81c-4b13-a97f-c6b1b2219841/logo.png",
+      "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "https://global.nissannews.com/ja-JP",
+      "https://global.nissannews.com/en",
+      "https://global.nissannews.com/pages/all-news-archive-j",
+      "https://global.nissannews.com/ja-JP/channels/news?selectedTabId=news-photos",
+      "https://global.nissannews.com/ja-JP/channels/notices",
+      "https://global.nissannews.com/nissan-models-j",
+      "https://global.nissannews.com/ja-JP/channels/heritage-models"
+    ],
+    "image_alt_count": 18
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": false,
+    "comparison_terms": true,
+    "actionable_terms": false,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2023/11/10",
+      "2023/10/05",
+      "2023/04/13",
+      "2022/11/28",
+      "2026年3月1",
+      "2026年5月1",
+      "2026年4月1",
+      "2026年4月8日",
+      "2026年4月7日",
+      "2026年5月7日",
+      "2026年5月4日",
+      "2023/11/1",
+      "2023/04/1",
+      "2022/11/2"
+    ],
+    "authority_signals": true,
+    "cta_links": false,
+    "footer_present": false,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 106,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 1369,
+    "main_chars": 2186,
+    "footer_chars": 0,
+    "tables_chars": 193,
+    "metadata_chars": 293,
+    "full_markdown_chars": 11675
+  },
+  "metadata": {
+    "title": "日産「セレナ」が自動車アセスメント（JNCAP）「自動車安全性能2023」で最高評価「ファイブスター賞」を獲得、またガソリン車に人気の安全装備を標準設定した「Vセレクション」を発売",
+    "description": "日産自動車株式会社は10日、自動車アセスメント（JNCAP）で「衝突安全性能」と「予防安全性能」等を統合して評価する総合評価、「自動車安全性能2023」において、「セレナ」が最高評価「ファイブスター賞」を獲得したと発表しました。",
+    "language": "ja-JP",
+    "sourceURL": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://global.nissannews.com/ja-JP",
+      "text": "https://global.nissannews.com/ja-JP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP",
+      "text": "日産自動車 ニュースルーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "EN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/all-news-archive-j",
+      "text": "ニュースリリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/news",
+      "text": "ニュースリリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/news?selectedTabId=news-photos",
+      "text": "リリース画像",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/notices",
+      "text": "お知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/nissan-models-j",
+      "text": "商品情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/nissan-models-j",
+      "text": "国内市場販売車種一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/heritage-models",
+      "text": "旧モデル",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/out-sell-j",
+      "text": "旧販売車種",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/heritage-models-j",
+      "text": "旧型車",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/nissan-in-depth-j",
+      "text": "日産の取り組み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/channel-fd86f26fe0b756c430ee7f6c0c012766",
+      "text": "サステナビリティ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/channel-45ec0f513c5381a56ca843312d308f65",
+      "text": "電動化の取り組み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/blue-switch",
+      "text": "日本電動化アクション「ブルー・スイッチ」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/technology",
+      "text": "テクノロジー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/corporate-j",
+      "text": "企業情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/vision",
+      "text": "ビジョン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/re-nissan",
+      "text": "経営再建計画 Re:Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/sales-report-year-jp",
+      "text": "生産・販売・輸出実績",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/investor-relations",
+      "text": "決算・事業情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/IR/",
+      "text": "投資家向け情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/IR/FINANCIAL_RESULTS/",
+      "text": "IR資料室",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/corporate-officers-j",
+      "text": "役員の経歴",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/executive-manage-change",
+      "text": "役員人事",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/COMPANY/GOVERNANCE/",
+      "text": "コーポレート ガバナンス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/renault-nissan-mitsubishi",
+      "text": "ルノー・日産自動車・三菱自動車アライアンス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/COMPANY/PROFILE/",
+      "text": "事業所",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/COMPANY/PROFILE/HERITAGE/",
+      "text": "会社と製品の歴史",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/auto-show-archive-j",
+      "text": "イベント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/events-2026",
+      "text": "2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/beijing-2026",
+      "text": "北京モーターショー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-salon-2026",
+      "text": "東京オートサロン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/events-2025",
+      "text": "2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/guangzhou-2025",
+      "text": "広州モーターショー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/jms-2025",
+      "text": "JAPAN MOBILITY SHOW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/shanghai-2025",
+      "text": "上海モーターショー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-salon-2025",
+      "text": "東京オートサロン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/events-2024",
+      "text": "2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/channel-dcff5a651a804de5782d473fc60caebe",
+      "text": "広州モーターショー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/241008-01-j",
+      "text": "JAPAN MOBILITY SHOW BIZWEEK 2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/beijing-2024",
+      "text": "北京モーターショー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-sallon-2024",
+      "text": "東京オートサロン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/auto-show-archive-j",
+      "text": "2023以前",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/motorsports-archive-j",
+      "text": "モータースポーツ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/formula-e",
+      "text": "Formula E",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/motorsports-2026",
+      "text": "2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/motorsports-2025",
+      "text": "2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/motorsports-2024",
+      "text": "2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/motorsports-archive-j",
+      "text": "2023以前",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/regions",
+      "text": "海外のニュースルーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/basket",
+      "text": "お気に入り 0 件",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/basket",
+      "text": "https://global.nissannews.com/ja-JP/basket",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260312-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260312-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260312-01-j",
+      "text": "Wayve、Uber、日産がロボタクシーでの協業を発表",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260310-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260310-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260310-01-j",
+      "text": "新型「日産リーフ」が「ウィメンズ・ワールド・カー・オブ・ザ・イヤー2026」を受賞",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260511-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260511-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260511-01-j",
+      "text": "「クリッパー バン」、「クリッパー リオ」を一部仕様向上",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260416-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260416-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260416-01-j",
+      "text": "「日産サクラ」をマイナーチェンジ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260408-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260408-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260408-01-j",
+      "text": "日産とユアスタンド、集合住宅へのEV充電器設置に関するパートナーシップを締結",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260407-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260407-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260407-01-j",
+      "text": "令和8年度 文部科学大臣表彰 科学技術賞（開発部門）を受賞",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260414-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260414-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260414-01-j",
+      "text": "長期ビジョン「モビリティの知能化で、毎日を新たな体験に」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260513-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260513-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260513-01-j",
+      "text": "日産自動車、2025年度決算を発表",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/beijing-2026",
+      "text": "https://global.nissannews.com/ja-JP/channels/beijing-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/beijing-2026",
+      "text": "北京モーターショー2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-salon-2026",
+      "text": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-salon-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/tokyo-auto-salon-2026",
+      "text": "東京オートサロン2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260507-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260507-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260507-01-j",
+      "text": "日産フォーミュラEチーム 第7戦・第8戦 連続で表彰台を獲得",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260504-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/260504-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/260504-01-j",
+      "text": "#23 MOTUL Niterra Zが3位に入り、Z NISMO GT500が連続表彰台",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/",
+      "text": "ホーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/release-0a142cda058309079750a0cd0d1a81b1/download",
+      "text": "ダウンロード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/channels/serena-e-power-j",
+      "text": "セレナ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/SAFETY_TDC/",
+      "text": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/SAFETY_TDC/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www3.nissan.co.jp/vehicles/new/serena.html",
+      "text": "https://www3.nissan.co.jp/vehicles/new/serena.html",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/attachment/release-0a142cda058309079750a0cd0d1a81b1/b1359ae773e66e583faa04f50076c2d0cc4833af",
+      "text": "Press release - 231110-01-j.pdf (289 KB)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/231005-01-j",
+      "text": "https://global.nissannews.com/releases/231005-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/231005-01-j",
+      "text": "「エクストレイル」「セレナ」、ポータブル電源が2023年度グッドデザイン賞を受賞",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/230413-01-j",
+      "text": "https://global.nissannews.com/releases/230413-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/230413-01-j",
+      "text": "新型「セレナ」e-POWERを発売、受注2万台を突破",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/221128-01-j",
+      "text": "https://global.nissannews.com/releases/221128-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/221128-01-j",
+      "text": "新型「セレナ」を発表",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+      "text": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/NissanNewsroom",
+      "text": "https://www.youtube.com/user/NissanNewsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanGlobal",
+      "text": "https://twitter.com/NissanGlobal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://jp.linkedin.com/company/nissan-motor-corporation",
+      "text": "https://jp.linkedin.com/company/nissan-motor-corporation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanJP",
+      "text": "https://www.facebook.com/NissanJP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissanjapan/",
+      "text": "https://www.instagram.com/nissanjapan/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/pages/terms-of-use-jp",
+      "text": "利用規約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/pages/global-cookies-policy-j",
+      "text": "クッキーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/PRIVACY/",
+      "text": "個人情報の取扱いについて",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/pages/digital-accessibility-statement-jp",
+      "text": "デジタルアクセシビリティ ステートメント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/JP/",
+      "text": "企業情報サイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.onetrust.com/products/cookie-consent/",
+      "text": "https://www.onetrust.com/products/cookie-consent/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "alt": "日産自動車ニュースルーム"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "alt": "日産のCEOであるイヴァン エスピノーサ氏、WayveのCEOであるアレックス ケンダル氏、Uberの自律移動および配送部門責任者であるサルファラズ マレーディア氏とロボタクシーのプロトタイプ車両。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "alt": "走行中の新型日産リーフが森林沿いの道路を前方へ進む様子を捉えた画像。左側に『2026 Women’s Worldwide Car of the Year Nissan Leaf Supreme Winner』の受賞ロゴが表示されている。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/a60279b5c264cad720755424082c881b35ab211b",
+      "alt": "濃いグレー色のクリッパー リオを、無地の白いスタジオ背景の前で、車両の左前方から斜め前向きに撮影した画像。フロントグリルと左側面がはっきりと見え、車両全体が中央に配置されている。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/48e5a01734f058422d4165e27b37d66890a02f90",
+      "alt": "青空の広がる屋外の舗装された広場で、ピンク色の日産サクラが手前左から斜め前向きに走行しており、背景奥には白色の日産サクラが同じ方向に並んで走っている様子を捉えた画像。周囲には街路樹が見え、開放的な都市空間が広がっている。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/31f3704a5a38cfeb3076d6f7dadc5dbc964bb6fe",
+      "alt": "地下駐車場で、ターコイズブルーの車体の日産リーフが左前方から見える向きで駐車し、左側面から延びたケーブルを壁の充電器につないで充電している。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/35dd03c3de1b1d4ebeb3fb0fb07578aab7601d34",
+      "alt": "白い背景に、銀色と黒を基調とした自動車用パワートレインを斜め前方から写した画像。エンジンと変速機が一体で、右向きに配置されている。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "alt": "赤い背景のステージ上で、淡いブルーの車両が斜め前方を向いて展示されている。背景には「NISSAN」「VISION」の文字が表示されている。"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "alt": "会議室の前方で、2人の人物が横並びに着席している記者会見の様子。背後のスクリーンには車両の画像と「FY2025 Financial Results」という文字が投影され、中央の壁には「NISSAN MOTOR CORPORATION」のロゴが表示されている。"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "alt": "北京モーターショー2026で初公開となるアーバンSUV PHEVコンセプト／テラノPHEVコンセプト"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "alt": "銀色と黒のツートンカラーのスポーツカー『AURA NISMO RS CONCEPT』が、橋の上を高速で走行している様子。車両は左前方に向かって進んでおり、フロントライトが強く輝いている。車体側面には大きなアルファベットで『RS』と描かれ、赤いアクセントラインがフロント下部に入っている。背景は流れるような光の軌跡で、スピード感を強調している"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "alt": "ベルリン大会の表彰台で、2位フィニッシュを果たし、シャンパンを振りまいて祝う日産フォーミュラEチームのドライバー、オリバー ローランド"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "alt": "富士スピードウェイの右コーナーを走る赤い#23 MOTUL Niterra Z"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/2a81e527f08d42aef2cad957de79553d3571a0a7",
+      "alt": "日産「セレナ」が自動車アセスメント（JNCAP）「自動車安全性能2023」で最高評価「ファイブスター賞」を獲得、またガソリン車に人気の安全装備を標準設定した「Vセレクション」を発売"
+    },
+    {
+      "src": "https://global.nissannews.com/releases/release-0a142cda058309079750a0cd0d1a81b1/images/57faa68da49d169e38b4e0b45148e6d8dbf227c9",
+      "alt": ""
+    },
+    {
+      "src": "https://global.nissannews.com/releases/release-0a142cda058309079750a0cd0d1a81b1/images/206040a1824480a65ddf6afda648fe88d70c1489",
+      "alt": ""
+    },
+    {
+      "src": "https://global.nissannews.com/releases/release-0a142cda058309079750a0cd0d1a81b1/images/b44e6a959d0e395e3d22258527a6f03a9d0167fc",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/96889cd2912d4ac5dc1abb9bc50d464cf01c3044",
+      "alt": "「エクストレイル」と「セレナ」、再生バッテリーを利用したポータブル電源が2023年度グッドデザイン賞を受賞"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/e7a68f0637d2be25c06cefc96687478eaa2ec7c3/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/947584b1c90973fa9e090d618482ae86b2bfe3b9/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1164831160280483&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/018e1b22-17bc-729f-8d4c-08aee4203167/89eb2343-a81c-4b13-a97f-c6b1b2219841/logo.png",
+      "alt": "企業ロゴ"
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust"
+    }
+  ],
+  "visible_dates": [
+    "2023/11/10",
+    "2023/10/05",
+    "2023/04/13",
+    "2022/11/28",
+    "2026年3月1",
+    "2026年5月1",
+    "2026年4月1",
+    "2026年4月8日",
+    "2026年4月7日",
+    "2026年5月7日",
+    "2026年5月4日",
+    "2023/11/1",
+    "2023/04/1",
+    "2022/11/2"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+    "title": "日産「セレナ」が自動車アセスメント（JNCAP）「自動車安全性能2023」で最高評価「ファイブスター賞」を獲得、またガソリン車に人気の安全装備を標準設定した「Vセレクション」を発売",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:13:01.301910+00:00",
+  "source_meta": {
+    "title": "日産「セレナ」が自動車アセスメント（JNCAP）「自動車 ...",
+    "url": "https://global.nissannews.com/ja-JP/releases/231110-01-j",
+    "source_name": "日産自動車ニュースルーム",
+    "source_domain": "global.nissannews.com",
+    "source_type": "owned_ecosystem",
+    "snippet": "Nov 10, 2023 — すべての画像・動画を見る 2023/11/10. 日産自動車株式会社は10日、自動車アセスメント（JNCAP*1）で「衝突安全性能」と「予防安全性能」等を統合して評価する総合評価、「自動車安全性能2023」において、「セレナ」が最高評価「ファイブスター賞」を獲...",
+    "citation_count": 3,
+    "first_cited_position": 6,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "heading",
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "high",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": true,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "Nissan crash test results and any safety awards for Japan-market models",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan crash test results and any safety awards for Japan-market models",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

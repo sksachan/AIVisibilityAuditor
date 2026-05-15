@@ -1,0 +1,1724 @@
+{
+  "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 31094,
+    "wordish_count": 4299,
+    "heading_count": 8,
+    "bullet_count": 165,
+    "link_count": 179,
+    "image_count": 14,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 181,
+    "numeric_fact_count": 240,
+    "question_count": 18,
+    "unique_line_count": 439,
+    "numeric_facts_sample": [
+      "2028",
+      "1",
+      "48",
+      "4",
+      "17",
+      "2025",
+      "07",
+      "28",
+      "2.5%",
+      "2026",
+      "57",
+      "390",
+      "396",
+      "1076130949081971",
+      "20251216",
+      "3",
+      "2",
+      "780",
+      "700",
+      "394",
+      "178",
+      "100",
+      "20251008",
+      "2.5"
+    ],
+    "links_sample": [
+      "https://www.facebook.com/tr?id=1076130949081971&ev=PageView&noscript=1",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F1%2F2%2F6%2F11836212-2-eng-GB%2F625eb2de8665-photo_SXM2025121600003865.jpg?width=780&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F4%2F3%2F3%2F11763349-1-eng-GB%2F9400a1513dbf-IMG_5388.jpg?width=700&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=394",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F2%2F0%2F5%2F11745020-2-eng-GB%2Fca4de8c8504d-photo_SXM2025111600006315.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F6%2F5%2F11705667-2-eng-GB%2F6d0cf289fbf1-photo_SXM2025111700014342.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F4%2F0%2F8%2F11548045-1-eng-GB%2F705b4c294992-20251008N-Tesla.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F0%2F7%2F4%2F11804702-2-eng-GB%2F90ff871ff129-photo_SXM2025091900004829.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F9%2F6%2F3%2F11763691-2-eng-GB%2F9eea6dff1477-photo_SXM2025112800013373.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F1%2F6%2F11786119-2-eng-GB%2F7608c8eaca59-photo_SXM2025112300008628.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F7%2F5%2F11495767-2-eng-GB%2F148b3314dc70-photo_SXM2025082600008120.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F1%2F9%2F2%2F12492914-1-eng-GB%2Fd76ac4dad7b5-IMG_3117.jpeg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F3%2F1%2F12481395-2-eng-GB%2Ff1ced7ad5c64-photo_SXM2026042800005538.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F4%2F3%2F9%2F12479348-4-eng-GB%2Ff1c452ea24a5-photo_SXM2026042800004264a.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "https://lh3.googleusercontent.com/4YflCaIy3tSU5MtktQOLSMVWW3f5OaEB13xm6Bv0M6AFf2mbPZckQ63FF76JRLThaJqzwTT4YcTTLV9W107eGI1n69PVgnyZmiTazHw7GxDh_5nTbrfI=h60",
+      "https://asia.nikkei.com/search",
+      "https://asia.nikkei.com/member/register/?return_url=/",
+      "https://asia.nikkei.com/location",
+      "https://asia.nikkei.com/location/east-asia/china",
+      "https://asia.nikkei.com/location/east-asia/japan",
+      "https://asia.nikkei.com/location/south-asia/india",
+      "https://asia.nikkei.com/location/east-asia/south-korea",
+      "https://asia.nikkei.com/location/southeast-asia/indonesia",
+      "https://asia.nikkei.com/location/east-asia/taiwan",
+      "https://asia.nikkei.com/location/southeast-asia/thailand",
+      "https://asia.nikkei.com/location/rest-of-the-world/north-america/u.s"
+    ],
+    "image_alt_count": 14
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "NewsArticle",
+      "Organization",
+      "Person",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 12,
+    "content_terms": 156,
+    "noise_ratio": 0.08
+  },
+  "content_regions": {
+    "header_chars": 9172,
+    "main_chars": 13833,
+    "footer_chars": 441,
+    "tables_chars": 0,
+    "metadata_chars": 438,
+    "full_markdown_chars": 31094
+  },
+  "metadata": {
+    "title": "Japan officials look to levy new tax on EVs and plug-ins from 2028 - Nikkei Asia",
+    "description": "TOKYO -- Japanese lawmakers in the ruling coalition and government officials aim to roll out new taxes on electric vehicles and plug-in hybrids accord",
+    "language": "en",
+    "sourceURL": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+    "robots": "max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "NewsArticle",
+      "Organization",
+      "Person",
+      "ImageObject"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://asia.nikkei.com/search",
+      "text": "https://asia.nikkei.com/search",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/",
+      "text": "https://asia.nikkei.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/member/register/?return_url=/",
+      "text": "Subscribe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location",
+      "text": "World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/china",
+      "text": "China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/japan",
+      "text": "Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/india",
+      "text": "India",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/south-korea",
+      "text": "South Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/indonesia",
+      "text": "Indonesia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/taiwan",
+      "text": "Taiwan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/thailand",
+      "text": "Thailand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/north-america/u.s",
+      "text": "U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia",
+      "text": "East Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/hong-kong",
+      "text": "Hong Kong",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/macao",
+      "text": "Macao",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/mongolia",
+      "text": "Mongolia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/east-asia/north-korea",
+      "text": "North Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia",
+      "text": "Southeast Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/malaysia",
+      "text": "Malaysia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/singapore",
+      "text": "Singapore",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/philippines",
+      "text": "Philippines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/vietnam",
+      "text": "Vietnam",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/myanmar",
+      "text": "Myanmar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/cambodia",
+      "text": "Cambodia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/laos",
+      "text": "Laos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/brunei",
+      "text": "Brunei",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/southeast-asia/east-timor",
+      "text": "East Timor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia",
+      "text": "South Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/pakistan",
+      "text": "Pakistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/afghanistan",
+      "text": "Afghanistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/bangladesh",
+      "text": "Bangladesh",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/sri-lanka",
+      "text": "Sri Lanka",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/nepal",
+      "text": "Nepal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/bhutan",
+      "text": "Bhutan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/south-asia/maldives",
+      "text": "Maldives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia",
+      "text": "Central Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia/kazakhstan",
+      "text": "Kazakhstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia/uzbekistan",
+      "text": "Uzbekistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia/turkmenistan",
+      "text": "Turkmenistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia/tajikistan",
+      "text": "Tajikistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/central-asia/kyrgyzstan",
+      "text": "Kyrgyzstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/oceania",
+      "text": "Oceania",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/oceania/australia",
+      "text": "Australia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/oceania/new-zealand",
+      "text": "New Zealand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/oceania/papua-new-guinea",
+      "text": "Papua New Guinea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/oceania/pacific-islands",
+      "text": "Pacific Islands",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world",
+      "text": "Rest of the World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/middle-east",
+      "text": "Middle East",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/russia-caucasus",
+      "text": "Russia & Caucasus",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/north-america",
+      "text": "North America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/latin-america",
+      "text": "Latin America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/europe",
+      "text": "Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/location/rest-of-the-world/africa",
+      "text": "Africa",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/trending",
+      "text": "Trending",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/trump-xi-summit",
+      "text": "Trump-Xi Summit",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/iran-tensions",
+      "text": "Iran tensions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/inflation",
+      "text": "Inflation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/trump-administration",
+      "text": "Trump administration",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence",
+      "text": "Artificial intelligence",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles",
+      "text": "Electric vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/supply-chain",
+      "text": "Supply Chain",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions",
+      "text": "Taiwan tensions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/bank-of-japan",
+      "text": "Bank of Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/immigration",
+      "text": "Immigration",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/esg",
+      "text": "ESG",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/explainer",
+      "text": "Explainer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business",
+      "text": "Business",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/tech/semiconductors",
+      "text": "Semiconductors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles",
+      "text": "Automobiles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/energy",
+      "text": "Energy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/transportation",
+      "text": "Transportation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/retail",
+      "text": "Retail",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/travel-leisure",
+      "text": "Travel & Leisure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/media-entertainment",
+      "text": "Media & Entertainment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/food-beverage",
+      "text": "Food & Beverage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/finance",
+      "text": "Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/electronics",
+      "text": "Electronics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/startups",
+      "text": "Startups",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/business-deals",
+      "text": "Business deals",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets",
+      "text": "Markets",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/equities",
+      "text": "Equities",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/currencies",
+      "text": "Currencies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/bonds",
+      "text": "Bonds",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/commodities",
+      "text": "Commodities",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/property",
+      "text": "Property",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/ipo",
+      "text": "IPO",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/wealth-management",
+      "text": "Wealth Management",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/tech",
+      "text": "Tech",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/techasia",
+      "text": "#techAsia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/china-tech",
+      "text": "China tech",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/cryptocurrencies",
+      "text": "Cryptocurrencies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/dealstreetasia",
+      "text": "DealStreetAsia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics",
+      "text": "Politics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/china",
+      "text": "China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/japan",
+      "text": "Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/india",
+      "text": "India",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/south-korea",
+      "text": "South Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/indonesia",
+      "text": "Indonesia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/taiwan",
+      "text": "Taiwan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/thailand",
+      "text": "Thailand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/north-america/u.s",
+      "text": "U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia",
+      "text": "East Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/hong-kong",
+      "text": "Hong Kong",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/macao",
+      "text": "Macao",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/mongolia",
+      "text": "Mongolia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/east-asia/north-korea",
+      "text": "North Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia",
+      "text": "Southeast Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/malaysia",
+      "text": "Malaysia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/singapore",
+      "text": "Singapore",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/philippines",
+      "text": "Philippines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/vietnam",
+      "text": "Vietnam",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/myanmar",
+      "text": "Myanmar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/cambodia",
+      "text": "Cambodia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/laos",
+      "text": "Laos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/brunei",
+      "text": "Brunei",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-east-asia/east-timor",
+      "text": "East Timor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia",
+      "text": "South Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/pakistan",
+      "text": "Pakistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/afghanistan",
+      "text": "Afghanistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/bangladesh",
+      "text": "Bangladesh",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/sri-lanka",
+      "text": "Sri Lanka",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/nepal",
+      "text": "Nepal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/bhutan",
+      "text": "Bhutan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/south-asia/maldives",
+      "text": "Maldives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia",
+      "text": "Central Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia/kazakhstan",
+      "text": "Kazakhstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia/uzbekistan",
+      "text": "Uzbekistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia/turkmenistan",
+      "text": "Turkmenistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia/tajikistan",
+      "text": "Tajikistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/central-asia/kyrgyzstan",
+      "text": "Kyrgyzstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/oceania",
+      "text": "Oceania",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/oceania/australia",
+      "text": "Australia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/oceania/new-zealand",
+      "text": "New Zealand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/oceania/papua-new-guinea",
+      "text": "Papua New Guinea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/oceania/pacific-islands",
+      "text": "Pacific Islands",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world",
+      "text": "Rest of the World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/middle-east",
+      "text": "Middle East",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/russia-caucasus",
+      "text": "Russia & Caucasus",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/north-america",
+      "text": "North America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/latin-america",
+      "text": "Latin America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/europe",
+      "text": "Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/rest-of-the-world/africa",
+      "text": "Africa",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy",
+      "text": "Economy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/china",
+      "text": "China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/japan",
+      "text": "Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/india",
+      "text": "India",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/south-korea",
+      "text": "South Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/indonesia",
+      "text": "Indonesia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/taiwan",
+      "text": "Taiwan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/thailand",
+      "text": "Thailand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/north-america/u.s",
+      "text": "U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia",
+      "text": "East Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/hong-kong",
+      "text": "Hong Kong",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/macao",
+      "text": "Macao",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/mongolia",
+      "text": "Mongolia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/east-asia/north-korea",
+      "text": "North Korea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia",
+      "text": "Southeast Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/malaysia",
+      "text": "Malaysia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/singapore",
+      "text": "Singapore",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/philippines",
+      "text": "Philippines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/vietnam",
+      "text": "Vietnam",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/myanmar",
+      "text": "Myanmar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/cambodia",
+      "text": "Cambodia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/laos",
+      "text": "Laos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/brunei",
+      "text": "Brunei",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-east-asia/east-timor",
+      "text": "East Timor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia",
+      "text": "South Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/pakistan",
+      "text": "Pakistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/afghanistan",
+      "text": "Afghanistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/bangladesh",
+      "text": "Bangladesh",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/sri-lanka",
+      "text": "Sri Lanka",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/nepal",
+      "text": "Nepal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/bhutan",
+      "text": "Bhutan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/south-asia/maldives",
+      "text": "Maldives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia",
+      "text": "Central Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia/kazakhstan",
+      "text": "Kazakhstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia/uzbekistan",
+      "text": "Uzbekistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia/turkmenistan",
+      "text": "Turkmenistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia/tajikistan",
+      "text": "Tajikistan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/central-asia/kyrgyzstan",
+      "text": "Kyrgyzstan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/oceania",
+      "text": "Oceania",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/oceania/australia",
+      "text": "Australia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/oceania/new-zealand",
+      "text": "New Zealand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/oceania/papua-new-guinea",
+      "text": "Papua New Guinea",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/oceania/pacific-islands",
+      "text": "Pacific Islands",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world",
+      "text": "Rest of the World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/middle-east",
+      "text": "Middle East",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/russia-caucasus",
+      "text": "Russia & Caucasus",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/north-america",
+      "text": "North America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/latin-america",
+      "text": "Latin America",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/europe",
+      "text": "Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/rest-of-the-world/africa",
+      "text": "Africa",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/features",
+      "text": "Features",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/trading-asia",
+      "text": "Trading Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/asean-money",
+      "text": "ASEAN Money",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/technology/tech-asia",
+      "text": "Tech Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/business-asia",
+      "text": "Business Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/editor-s-picks/china-up-close",
+      "text": "China Up Close",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/policy-asia",
+      "text": "Policy Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/big-in-asia",
+      "text": "Big in Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/datawatch",
+      "text": "Datawatch",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/infographics",
+      "text": "Infographics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/opinion",
+      "text": "Opinion",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/editor-s-picks/editor-in-chief-s-picks",
+      "text": "Editor-in-Chief's Picks",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/opinion/the-nikkei-view",
+      "text": "The Nikkei View",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts",
+      "text": "Life & Arts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/life",
+      "text": "Life",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/arts",
+      "text": "Arts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/my-personal-history",
+      "text": "My Personal History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/editor-s-picks/tea-leaves",
+      "text": "Tea Leaves",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/life/eat-drink",
+      "text": "Eat & Drink",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/life/destinations",
+      "text": "Destinations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/books",
+      "text": "Books",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/life-arts/obituaries",
+      "text": "Obituaries",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/watch-listen",
+      "text": "Watch & Listen",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/spotlight/podcasts",
+      "text": "Podcasts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/video",
+      "text": "Video",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/photos",
+      "text": "Photos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/japan-s-kioxia-forecasts-48-fold-quarterly-profit-jump-on-ai-demand?obOrigUrl=true",
+      "text": "Japan's Kioxia forecasts 48-fold quarterly profit jump…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/energy/india-raises-regular-fuel-prices-for-1st-time-in-4-years-on-iran-war?obOrigUrl=true",
+      "text": "India raises regular fuel prices for 1st time in 4…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/technology/foxconn-expects-q2-to-beat-slow-season-war-uncertainty-thanks-to-ai-boom?obOrigUrl=true",
+      "text": "Foxconn expects Q2 to beat slow season, war…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/finance/japan-banks-eye-anthropic-s-mythos-in-gearing-up-cybersecurity-drive?obOrigUrl=true",
+      "text": "Japan banks eye Anthropic's Mythos in gearing up…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.outbrain.com/what-is/default/en",
+      "text": "https://www.outbrain.com/what-is/default/en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/share?text=Japan+officials+look+to+levy+new+tax+on+EVs+and+plug-ins+from+2028&url=https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028&via=NikkeiAsia",
+      "text": "https://twitter.com/share?text=Japan+officials+look+to+levy+new+tax+on+EVs+and+plug-ins+from+2028&url=https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028&via=NikkeiAsia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "is_pdf": false
+    },
+    {
+      "url": "https://api.whatsapp.com/send?text=Japan+officials+look+to+levy+new+tax+on+EVs+and+plug-ins+from+2028+https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "https://api.whatsapp.com/send?text=Japan+officials+look+to+levy+new+tax+on+EVs+and+plug-ins+from+2028+https%3A%2F%2Fasia.nikkei.com%2Fbusiness%2Fautomobiles%2Felectric-vehicles%2Fjapan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-ev-makers-like-byd-seen-gaining-from-new-uk-pay-per-mile-tax",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-ev-makers-like-byd-seen-gaining-from-new-uk-pay-per-mile-tax",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-ev-makers-like-byd-seen-gaining-from-new-uk-pay-per-mile-tax",
+      "text": "Chinese EV makers like BYD seen gaining from new UK pay-per-mile tax",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/japan-weighs-taxing-low-value-imports-through-temu-shein",
+      "text": "Japan weighs taxing low-value imports through Temu, Shein",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/japan-weighs-taxing-low-value-imports-through-temu-shein",
+      "text": "https://asia.nikkei.com/economy/japan-weighs-taxing-low-value-imports-through-temu-shein",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/japan-s-new-pm",
+      "text": "Japan's new PM",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/japan-s-new-pm/japanese-prime-minister-takaichi-eyes-tax-cuts-to-spur-investment",
+      "text": "Japanese Prime Minister Takaichi eyes tax cuts to spur investment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/japan-s-new-pm/japanese-prime-minister-takaichi-eyes-tax-cuts-to-spur-investment",
+      "text": "https://asia.nikkei.com/politics/japan-s-new-pm/japanese-prime-minister-takaichi-eyes-tax-cuts-to-spur-investment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/tesla-hyundai-nissan-offer-cheaper-evs-as-china-price-war-goes-global",
+      "text": "Tesla, Hyundai, Nissan offer cheaper EVs as China price war goes global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/tesla-hyundai-nissan-offer-cheaper-evs-as-china-price-war-goes-global",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/tesla-hyundai-nissan-offer-cheaper-evs-as-china-price-war-goes-global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/bonds/japan-borrowing-costs-seen-doubling-if-benchmark-yield-surges-to-2.5",
+      "text": "Japan borrowing costs seen doubling if benchmark yield surges to 2.5%",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/markets/bonds/japan-borrowing-costs-seen-doubling-if-benchmark-yield-surges-to-2.5",
+      "text": "https://asia.nikkei.com/business/markets/bonds/japan-borrowing-costs-seen-doubling-if-benchmark-yield-surges-to-2.5",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/japan-debates-sustainable-debt-load-as-takaichi-eyes-looser-fiscal-goal",
+      "text": "Japan debates sustainable debt load as Takaichi eyes looser fiscal goal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/japan-debates-sustainable-debt-load-as-takaichi-eyes-looser-fiscal-goal",
+      "text": "https://asia.nikkei.com/economy/japan-debates-sustainable-debt-load-as-takaichi-eyes-looser-fiscal-goal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/travel-leisure/japan-weighs-fiscal-2026-start-for-departure-tax-hike",
+      "text": "Japan weighs fiscal 2026 start for departure tax hike",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/travel-leisure/japan-weighs-fiscal-2026-start-for-departure-tax-hike",
+      "text": "https://asia.nikkei.com/business/travel-leisure/japan-weighs-fiscal-2026-start-for-departure-tax-hike",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/toyota-to-sell-proprietary-home-ev-chargers-in-japan",
+      "text": "Toyota to sell proprietary home EV chargers in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/toyota-to-sell-proprietary-home-ev-chargers-in-japan",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/toyota-to-sell-proprietary-home-ev-chargers-in-japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/china-sentences-ex-defense-chiefs-wei-fenghe-li-shangfu-to-death-with-reprieve?obOrigUrl=true",
+      "text": "Politics China sentences two former defense ministers to death with reprieve",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/southern-california-mayor-resigns-over-charge-for-acting-as-agent-for-china?obOrigUrl=true",
+      "text": "US-China tensions Southern California mayor resigns over charge for acting as agent for China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/economy/natural-disasters/two-singaporeans-confirmed-dead-in-indonesia-volcano-eruption-bodies-found?obOrigUrl=true",
+      "text": "Natural disasters Two Singaporeans confirmed dead in Indonesia volcano eruption, bodies found",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/china-s-leapmotor-woos-germans-with-57-monthly-ev-lease",
+      "text": "China's Leapmotor woos Germans with $57 monthly EV lease",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/china-s-leapmotor-woos-germans-with-57-monthly-ev-lease",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/china-s-leapmotor-woos-germans-with-57-monthly-ev-lease",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/panasonic-ev-battery-production-delayed-again-as-customer-order-stalls",
+      "text": "Panasonic EV battery production delayed again as customer order stalls",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/panasonic-ev-battery-production-delayed-again-as-customer-order-stalls",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/panasonic-ev-battery-production-delayed-again-as-customer-order-stalls",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-automaker-chery-to-launch-ev-brand-with-japan-s-autobacs-seven",
+      "text": "Chinese automaker Chery to launch EV brand with Japan's Autobacs Seven",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-automaker-chery-to-launch-ev-brand-with-japan-s-autobacs-seven",
+      "text": "https://asia.nikkei.com/business/automobiles/electric-vehicles/chinese-automaker-chery-to-launch-ev-brand-with-japan-s-autobacs-seven",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/member/register/newsletter",
+      "text": "Register for our newsletters",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/nikkeiasia",
+      "text": "https://www.facebook.com/nikkeiasia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NikkeiAsia",
+      "text": "https://twitter.com/NikkeiAsia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nikkeiasia/",
+      "text": "https://www.linkedin.com/company/nikkeiasia/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nikkeiasia/",
+      "text": "https://www.instagram.com/nikkeiasia/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/NikkeiAsia",
+      "text": "https://www.youtube.com/user/NikkeiAsia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/rss",
+      "text": "https://info.asia.nikkei.com/rss",
+      "is_pdf": false
+    },
+    {
+      "url": "https://t.me/nikkeiasia",
+      "text": "https://t.me/nikkeiasia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.whatsapp.com/channel/0029VacReBOBqbrEcmjs4U0o",
+      "text": "https://www.whatsapp.com/channel/0029VacReBOBqbrEcmjs4U0o",
+      "is_pdf": false
+    },
+    {
+      "url": "https://s.nikkei.com/podcasia",
+      "text": "https://s.nikkei.com/podcasia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nikkeiasiaios.onelink.me/q8oP/be8e9cfa",
+      "text": "https://nikkeiasiaios.onelink.me/q8oP/be8e9cfa",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nikkeiasiaandroid.onelink.me/gUfe/aa627ce1",
+      "text": "https://nikkeiasiaandroid.onelink.me/gUfe/aa627ce1",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/about",
+      "text": "About us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/sitemap",
+      "text": "Sitemap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/Announcements",
+      "text": "Announcements",
+      "is_pdf": false
+    },
+    {
+      "url": "https://marketing.nikkei.com/english/audience/asia/",
+      "text": "Advertise with Nikkei Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/en",
+      "text": "About NIKKEI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://help.asia.nikkei.com",
+      "text": "Help / Contact us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/guide",
+      "text": "View site tips",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/member/register/",
+      "text": "Individual subscription",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/member/register/group-subscription/",
+      "text": "Online group subscription",
+      "is_pdf": false
+    },
+    {
+      "url": "https://corporate.asia.nikkei.com/",
+      "text": "Corporate subscription",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/member/register/gift/purchase/?utm_source=organic&utm_medium=sitemap&utm_campaign=gift202303",
+      "text": "Gift subscription",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/terms-of-use",
+      "text": "Terms of use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/copyright",
+      "text": "Copyright",
+      "is_pdf": false
+    },
+    {
+      "url": "https://info.asia.nikkei.com/privacy",
+      "text": "Privacy & Cookie policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nikkei.com/lounge/privacy/cookie/optout.html#nikkeiasia",
+      "text": "Information Transmission",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.global-nikkei.com/events/",
+      "text": "Nikkei Global Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ps.asia.nikkei.com/nikkeievents/index.html",
+      "text": "Event Reports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nikkei.co.jp/nikkeiinfo/en",
+      "text": "https://www.nikkei.co.jp/nikkeiinfo/en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "How can I change my choice?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "What if I don't consent?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "How does legitimate interest work?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "Do I have to consent to everything?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "List of partners.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "View details",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "more",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "Storage details",
+      "is_pdf": false
+    },
+    {
+      "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+      "text": "Privacy policy",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.facebook.com/tr?id=1076130949081971&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F1%2F2%2F6%2F11836212-2-eng-GB%2F625eb2de8665-photo_SXM2025121600003865.jpg?width=780&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto",
+      "alt": "20251216N Electric vehicle"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F4%2F3%2F3%2F11763349-1-eng-GB%2F9400a1513dbf-IMG_5388.jpg?width=700&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=394",
+      "alt": "Chinese EV makers like BYD seen gaining from new UK pay-per-mile tax"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F0%2F2%2F0%2F5%2F11745020-2-eng-GB%2Fca4de8c8504d-photo_SXM2025111600006315.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Japan weighs taxing low-value imports through Temu, Shein"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F6%2F5%2F11705667-2-eng-GB%2F6d0cf289fbf1-photo_SXM2025111700014342.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Japanese Prime Minister Takaichi eyes tax cuts to spur investment"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F4%2F0%2F8%2F11548045-1-eng-GB%2F705b4c294992-20251008N-Tesla.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Tesla, Hyundai, Nissan offer cheaper EVs as China price war goes global"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F2%2F0%2F7%2F4%2F11804702-2-eng-GB%2F90ff871ff129-photo_SXM2025091900004829.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Japan borrowing costs seen doubling if benchmark yield surges to 2.5%"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F1%2F9%2F6%2F3%2F11763691-2-eng-GB%2F9eea6dff1477-photo_SXM2025112800013373.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Japan debates sustainable debt load as Takaichi eyes looser fiscal goal"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F1%2F6%2F11786119-2-eng-GB%2F7608c8eaca59-photo_SXM2025112300008628.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Japan weighs fiscal 2026 start for departure tax hike"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F7%2F6%2F7%2F5%2F11495767-2-eng-GB%2F148b3314dc70-photo_SXM2025082600008120.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Toyota to sell proprietary home EV chargers in Japan"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F4%2F1%2F9%2F2%2F12492914-1-eng-GB%2Fd76ac4dad7b5-IMG_3117.jpeg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "China's Leapmotor woos Germans with $57 monthly EV lease"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F5%2F9%2F3%2F1%2F12481395-2-eng-GB%2Ff1ced7ad5c64-photo_SXM2026042800005538.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Panasonic EV battery production delayed again as customer order stalls"
+    },
+    {
+      "src": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F8%2F4%2F3%2F9%2F12479348-4-eng-GB%2Ff1c452ea24a5-photo_SXM2026042800004264a.jpg?width=178&fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&height=100",
+      "alt": "Chinese automaker Chery to launch EV brand with Japan's Autobacs Seven"
+    },
+    {
+      "src": "https://lh3.googleusercontent.com/4YflCaIy3tSU5MtktQOLSMVWW3f5OaEB13xm6Bv0M6AFf2mbPZckQ63FF76JRLThaJqzwTT4YcTTLV9W107eGI1n69PVgnyZmiTazHw7GxDh_5nTbrfI=h60",
+      "alt": "Welcome to Nikkei Asia"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+    "title": "Japan officials look to levy new tax on EVs and plug-ins from 2028 - Nikkei Asia",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:15:02.860398+00:00",
+  "source_meta": {
+    "title": "Japan officials look to levy new tax on EVs and plug-ins from 2028",
+    "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/japan-officials-look-to-levy-new-tax-on-evs-and-plug-ins-from-2028",
+    "source_name": "asia.nikkei.com",
+    "source_domain": "asia.nikkei.com",
+    "source_type": "news_media",
+    "snippet": "Dec 17, 2025 — A continued shift to EVs in Japan could cause tax revenue for maintaining roads to drop. In addition, the proportion of imports am...",
+    "citation_count": 3,
+    "first_cited_position": 3,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "heading",
+      "list",
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,464 @@
+{
+  "url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 24924,
+    "wordish_count": 9540,
+    "heading_count": 8,
+    "bullet_count": 19,
+    "link_count": 21,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 23,
+    "numeric_fact_count": 275,
+    "question_count": 12,
+    "unique_line_count": 746,
+    "numeric_facts_sample": [
+      "1",
+      "9",
+      "94%",
+      "81%",
+      "83%",
+      "82%",
+      "8",
+      "84%",
+      "96%",
+      "048",
+      "598",
+      "3001",
+      "30",
+      "18",
+      "2026",
+      "03",
+      "28",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "3年",
+      "10"
+    ],
+    "links_sample": [
+      "https://bande-gi.co.jp/wp-content/themes/insp_theme02/img/logo_black.png",
+      "https://bande-gi.co.jp/wp-content/uploads/2025/02/noimg-1.jpg",
+      "https://bande-gi.co.jp",
+      "https://bande-gi.co.jp/about/",
+      "https://bande-gi.co.jp/service/",
+      "https://bande-gi.co.jp/guide/",
+      "https://bande-gi.co.jp/recruit/",
+      "https://bande-gi.co.jp/contact/",
+      "https://bande-gi.co.jp/",
+      "https://bande-gi.co.jp/all-news",
+      "https://bande-gi.co.jp/category/column/",
+      "https://bande-gi.co.jp/category/news/",
+      "https://bande-gi.co.jp/2026/05/",
+      "https://bande-gi.co.jp/all-news/",
+      "https://bande-gi.co.jp/privacy-policy/"
+    ],
+    "image_alt_count": 6
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2026/03/28",
+      "2026/03/2",
+      "2026年5月\n2",
+      "2026年3月\n2",
+      "2026年1月\n2",
+      "2025年11月\n2",
+      "2025年9月\n2"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 257,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 492,
+    "main_chars": 21965,
+    "footer_chars": 146,
+    "tables_chars": 0,
+    "metadata_chars": 458,
+    "full_markdown_chars": 24924
+  },
+  "metadata": {
+    "title": "国産SUVはなぜリセールが強い？相場の見方と今おすすめ車種、グレード・カラー・駆動方式の選び方、高値売却のコツ – 有限会社ジーアイサービス",
+    "description": "埼玉県深谷市の【BANDE】（有限会社ジーアイサービス）は、お客様との絆を大切にし、安心・安全な車選びをサポート。遠方購入の不安も解消し、購入前後のサポートも充実。自社工場完備＆自動車保険取扱いを行っています。",
+    "language": "ja",
+    "sourceURL": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://bande-gi.co.jp/%e5%9b%bd%e7%94%a3suv%e3%81%af%e3%81%aa%e3%81%9c%e3%83%aa%e3%82%bb%e3%83%bc%e3%83%ab%e3%81%8c%e5%bc%b7%e3%81%84%ef%bc%9f%e7%9b%b8%e5%a0%b4%e3%81%ae%e8%a6%8b%e6%96%b9%e3%81%a8%e4%bb%8a%e3%81%8a/",
+    "robots": "max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://bande-gi.co.jp",
+      "text": "https://bande-gi.co.jp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/about/",
+      "text": "ABOUT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/service/",
+      "text": "SERVICE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/guide/",
+      "text": "USAGE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/recruit/",
+      "text": "RECRUIT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/contact/",
+      "text": "お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/048-598-3001",
+      "text": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/048-598-3001",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/contact/",
+      "text": "https://bande-gi.co.jp/contact/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/",
+      "text": "https://bande-gi.co.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://x.com/BANDE0717",
+      "text": "https://x.com/BANDE0717",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/bande.fukaya/",
+      "text": "https://www.instagram.com/bande.fukaya/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@kurumayabande",
+      "text": "https://www.youtube.com/@kurumayabande",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@bandekurumaya3?lang=ja-JP",
+      "text": "https://www.tiktok.com/@bandekurumaya3?lang=ja-JP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://lin.ee/uulIE8O",
+      "text": "https://lin.ee/uulIE8O",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/all-news",
+      "text": "投稿一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/category/column/",
+      "text": "コラム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/%e8%b5%b0%e8%a1%8c%e8%b7%9d%e9%9b%a2%e3%82%aa%e3%83%bc%e3%83%90%e3%83%bc%e3%81%a7%e6%9f%bb%e5%ae%9a%e3%81%af%e3%81%a9%e3%82%8c%e3%81%a0%e3%81%91%e4%b8%8b%e3%81%8c%e3%82%8b%ef%bc%9f%e6%b8%9b%e9%a1%8d/",
+      "text": "https://bande-gi.co.jp/%e8%b5%b0%e8%a1%8c%e8%b7%9d%e9%9b%a2%e3%82%aa%e3%83%bc%e3%83%90%e3%83%bc%e3%81%a7%e6%9f%bb%e5%ae%9a%e3%81%af%e3%81%a9%e3%82%8c%e3%81%a0%e3%81%91%e4%b8%8b%e3%81%8c%e3%82%8b%ef%bc%9f%e6%b8%9b%e9%a1%8d/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/%e8%bb%bd%e8%87%aa%e5%8b%95%e8%bb%8a-%e8%b2%b7%e5%8f%96%e4%be%a1%e6%a0%bc%e3%83%a9%e3%83%b3%e3%82%ad%e3%83%b3%e3%82%b0%e3%80%80%e4%bb%8a%e3%81%84%e3%81%a1%e3%81%b0%e3%82%93%e9%ab%98%e3%81%8f%e5%a3%b2/",
+      "text": "https://bande-gi.co.jp/%e8%bb%bd%e8%87%aa%e5%8b%95%e8%bb%8a-%e8%b2%b7%e5%8f%96%e4%be%a1%e6%a0%bc%e3%83%a9%e3%83%b3%e3%82%ad%e3%83%b3%e3%82%b0%e3%80%80%e4%bb%8a%e3%81%84%e3%81%a1%e3%81%b0%e3%82%93%e9%ab%98%e3%81%8f%e5%a3%b2/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/category/news/",
+      "text": "お知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2026/05/",
+      "text": "2026年5月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2026/04/",
+      "text": "2026年4月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2026/03/",
+      "text": "2026年3月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2026/02/",
+      "text": "2026年2月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2026/01/",
+      "text": "2026年1月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2025/12/",
+      "text": "2025年12月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2025/11/",
+      "text": "2025年11月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2025/10/",
+      "text": "2025年10月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2025/09/",
+      "text": "2025年9月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/2025/04/",
+      "text": "2025年4月",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/contact/",
+      "text": "お問い合わせフォーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/",
+      "text": "HOME",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/all-news/",
+      "text": "お知らせ一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/about/",
+      "text": "私たちについて",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/service/",
+      "text": "事業内容について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/guide/",
+      "text": "ご利用について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/recruit/",
+      "text": "採用について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/privacy-policy/",
+      "text": "個人情報保護方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+      "text": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://bande-gi.co.jp/wp-content/themes/insp_theme02/img/logo_black.png",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/01/logo.png",
+      "alt": ""
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANkAAABBAQAAAAB08Dz1AAAAAnRSTlMAAHaTzTgAAAAXSURBVDjLY2AYBaNgFIyCUTAKRgFVAQAHXQABj/mExwAAAABJRU5ErkJggg==",
+      "alt": ""
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAA5JREFUGNNjYBgFgwkAAAGQAAHFm9tJAAAAAElFTkSuQmCC",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2024/10/tel-icon.png",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2024/10/mail-icon.png",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/01/logo_black.png",
+      "alt": ""
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAAGQAQAAAABaTiM1AAAAAnRSTlMAAHaTzTgAAAA0SURBVHja7cEBDQAAAMKg909tDwcUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPBnbAAAFPCsYQAAAAAElFTkSuQmCC",
+      "alt": "no-img"
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/02/noimg-1.jpg",
+      "alt": "no-img"
+    },
+    {
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAB4AAAARMAQAAAABQG7M5AAAAAnRSTlMAAHaTzTgAAAEYSURBVHja7cExAQAAAMKg9U9tDQ+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAHAwvIAAHBB2NSAAAAAElFTkSuQmCC",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/01/mv05.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/01/logo_white.png",
+      "alt": ""
+    },
+    {
+      "src": "https://bande-gi.co.jp/wp-content/uploads/2025/01/pagetop.png",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2026/03/28",
+    "2026/03/2",
+    "2026年5月\n2",
+    "2026年3月\n2",
+    "2026年1月\n2",
+    "2025年11月\n2",
+    "2025年9月\n2"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+    "title": "国産SUVはなぜリセールが強い？相場の見方と今おすすめ車種、グレード・カラー・駆動方式の選び方、高値売却のコツ – 有限会社ジーアイサービス",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:16:11.390594+00:00",
+  "source_meta": {
+    "title": "国産SUVはなぜリセールが強い？相場の見方と今おすすめ車種",
+    "url": "https://bande-gi.co.jp/%E5%9B%BD%E7%94%A3suv%E3%81%AF%E3%81%AA%E3%81%9C%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E5%BC%B7%E3%81%84%EF%BC%9F%E7%9B%B8%E5%A0%B4%E3%81%AE%E8%A6%8B%E6%96%B9%E3%81%A8%E4%BB%8A%E3%81%8A/",
+    "source_name": "有限会社ジーアイサービス",
+    "source_domain": "bande-gi.co.jp",
+    "source_type": "other",
+    "snippet": "Mar 28, 2026 — 売却タイミングモデルチェンジ直前直後、需要期（繁忙期）、為替・輸出市況が良い時期を見計らう。 走行距離の閾値（例 1万km刻み、5万km、10万km）を意識すると査定が安定しやすい。 まとめ国産SUVのリセールが強いのは、(1)国内外の厚い需要（とくに輸出が作...",
+    "citation_count": 5,
+    "first_cited_position": 11,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

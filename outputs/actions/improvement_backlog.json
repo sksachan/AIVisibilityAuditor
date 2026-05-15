@@ -1,0 +1,1012 @@
+{
+  "prioritisation_status": "success",
+  "priority_backlog": [
+    {
+      "priority": 1,
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "target_query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html",
+      "recommended_action": "For Hybrid / e-POWER running costs and powertrain choice: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "action_type": "comparison_table",
+      "recommended_module": "comparison_table",
+      "dimension": "Semantic Depth",
+      "impact": "low",
+      "effort": "high",
+      "confidence": "low",
+      "likely_owner": "Marketing",
+      "supporting_queries": [
+        {
+          "query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan e-POWER running costs versus equivalent petrol models in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?: external-minus-owned delta -20.0, evidence weak, mapping strong. Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?: external-minus-owned delta -20.0, evidence weak, mapping strong. Fuel economy differences between small hybrids and petrol cars for urban routes in Japan: external-minus-owned delta -20.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source",
+        "Validate exact facts and source references before publishing"
+      ],
+      "external_source_types": [
+        [
+          "forum_community",
+          3
+        ],
+        [
+          "other",
+          3
+        ],
+        [
+          "video_social",
+          1
+        ],
+        [
+          "owned_ecosystem",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 8
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 2,
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "target_query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+      "target_page": "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+      "recommended_action": "For Value, offers, finance and total cost of ownership: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "action_type": "comparison_table",
+      "recommended_module": "comparison_table",
+      "dimension": "Semantic Depth",
+      "impact": "low",
+      "effort": "high",
+      "confidence": "low",
+      "likely_owner": "Marketing",
+      "supporting_queries": [
+        {
+          "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Insurance cost differences between kei cars and compact cars in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Resale value factors that most affect small SUVs in the Japanese market",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan EV subsidy eligibility and how it applies to Nissan purchases in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+        "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How to calculate total cost of ownership for a compact car in Japan over 5 years?: external-minus-owned delta -12.0, evidence weak, mapping strong. How do government EV subsidies and tax breaks in Japan affect monthly payments?: external-minus-owned delta 22.0, evidence strong, mapping strong. Insurance cost differences between kei cars and compact cars in Japan: external-minus-owned delta -12.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source",
+        "Validate exact facts and source references before publishing"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          4
+        ],
+        [
+          "news_media",
+          1
+        ],
+        [
+          "forum_community",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 6
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 3,
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "target_query": "Typical home charger installation costs and technical requirements for EV owners in Japan?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/clipper_ev/charge_cruising-distance/cruising-distance_battery.html",
+      "recommended_action": "For EV range, charging and battery confidence: Add concise FAQ blocks matching conversational AI-search questions.",
+      "action_type": "faq_block",
+      "recommended_module": "faq_block",
+      "dimension": "FAQ Readiness",
+      "impact": "medium",
+      "effort": "low",
+      "confidence": "medium",
+      "likely_owner": "AEM/CMS",
+      "supporting_queries": [
+        {
+          "query": "Typical home charger installation costs and technical requirements for EV owners in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How to plan long-distance trips in Japan with public charging stops and recommended route apps?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/clipper_ev/charge_cruising-distance/cruising-distance_battery.html",
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/cruising-distance_charge.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Typical home charger installation costs and technical requirements for EV owners in Japan?: external-minus-owned delta 5.0, evidence moderate, mapping strong. How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips in Japan?: external-minus-owned delta 12.0, evidence strong, mapping strong. What battery warranty terms are common for EVs sold in Japan and what do they usually cover?: external-minus-owned delta 3.0, evidence moderate, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "marketplace_listing",
+          1
+        ],
+        [
+          "news_media",
+          1
+        ],
+        [
+          "partner_infrastructure",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 5
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 4,
+      "brand_topic_category": "Family practicality, space and comfort",
+      "target_query": "How much boot space do families need for weekend trips with two children in Japan?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html",
+      "recommended_action": "For Family practicality, space and comfort: Add concise FAQ blocks matching conversational AI-search questions.",
+      "action_type": "faq_block",
+      "recommended_module": "faq_block",
+      "dimension": "FAQ Readiness",
+      "impact": "low",
+      "effort": "low",
+      "confidence": "low",
+      "likely_owner": "AEM/CMS",
+      "supporting_queries": [
+        {
+          "query": "How much boot space do families need for weekend trips with two children in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Best family cars for frequent long highway trips between Tokyo and regional areas in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Small minivan alternatives suitable for school runs and shopping in crowded Japanese streets",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan Serena interior layout, seating flexibility and ISOFIX locations for families",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html",
+        "https://www3.nissan.co.jp/vehicles/new/serena/interior/seat.html",
+        "https://www3.nissan.co.jp/vehicles/new/nv200vanette/interior/comfort.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How much boot space do families need for weekend trips with two children in Japan?: external-minus-owned delta -24.0, evidence weak, mapping strong. Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?: external-minus-owned delta -7.0, evidence weak, mapping strong. Best family cars for frequent long highway trips between Tokyo and regional areas in Japan: external-minus-owned delta -24.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "publisher_review",
+          2
+        ],
+        [
+          "forum_community",
+          2
+        ],
+        [
+          "other",
+          1
+        ],
+        [
+          "video_social",
+          1
+        ],
+        [
+          "marketplace_listing",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 7
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 5,
+      "brand_topic_category": "Family practicality, space and comfort",
+      "target_query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html",
+      "recommended_action": "For Family practicality, space and comfort: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "action_type": "comparison_table",
+      "recommended_module": "comparison_table",
+      "dimension": "Semantic Depth",
+      "impact": "low",
+      "effort": "high",
+      "confidence": "medium",
+      "likely_owner": "Marketing",
+      "supporting_queries": [
+        {
+          "query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Best family cars for frequent long highway trips between Tokyo and regional areas in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Small minivan alternatives suitable for school runs and shopping in crowded Japanese streets",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families: external-minus-owned delta 2.0, evidence moderate, mapping strong. Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?: external-minus-owned delta -7.0, evidence weak, mapping strong. Best family cars for frequent long highway trips between Tokyo and regional areas in Japan: external-minus-owned delta -24.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source",
+        "Validate exact facts and source references before publishing"
+      ],
+      "external_source_types": [
+        [
+          "publisher_review",
+          2
+        ],
+        [
+          "forum_community",
+          2
+        ],
+        [
+          "other",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 5
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 6,
+      "brand_topic_category": "Safety, reliability and trust",
+      "target_query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html",
+      "recommended_action": "For Safety, reliability and trust: Add concise FAQ blocks matching conversational AI-search questions.",
+      "action_type": "faq_block",
+      "recommended_module": "faq_block",
+      "dimension": "FAQ Readiness",
+      "impact": "low",
+      "effort": "low",
+      "confidence": "low",
+      "likely_owner": "AEM/CMS",
+      "supporting_queries": [
+        {
+          "query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan warranty coverage details for powertrain and battery in Japan",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan reliability record and common service items for owners in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Questions to ask a dealer about safety feature calibration and software updates before buying: external-minus-owned delta -24.0, evidence weak, mapping acceptable. Nissan warranty coverage details for powertrain and battery in Japan: external-minus-owned delta -24.0, evidence weak, mapping acceptable. Nissan reliability record and common service items for owners in Japan: external-minus-owned delta -24.0, evidence weak, mapping acceptable.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          3
+        ]
+      ],
+      "mapping_quality_mix": {
+        "acceptable": 3
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 7,
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "target_query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html",
+      "recommended_action": "For Hybrid / e-POWER running costs and powertrain choice: Add concise FAQ blocks matching conversational AI-search questions.",
+      "action_type": "faq_block",
+      "recommended_module": "faq_block",
+      "dimension": "FAQ Readiness",
+      "impact": "low",
+      "effort": "low",
+      "confidence": "low",
+      "likely_owner": "AEM/CMS",
+      "supporting_queries": [
+        {
+          "query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan hybrid model fuel economy figures and real-world performance in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?: external-minus-owned delta -20.0, evidence weak, mapping strong. Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?: external-minus-owned delta -20.0, evidence weak, mapping strong. Fuel economy differences between small hybrids and petrol cars for urban routes in Japan: external-minus-owned delta -20.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "forum_community",
+          3
+        ],
+        [
+          "other",
+          3
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 6
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 8,
+      "brand_topic_category": "Safety, reliability and trust",
+      "target_query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html",
+      "recommended_action": "For Safety, reliability and trust: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "action_type": "journey_coverage_fix",
+      "recommended_module": "journey_coverage_fix",
+      "dimension": "Journey Coverage",
+      "impact": "low",
+      "effort": "medium",
+      "confidence": "medium",
+      "likely_owner": "SEO",
+      "supporting_queries": [
+        {
+          "query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan reliability record and common service items for owners in Japan",
+          "query_type": "branded"
+        },
+        {
+          "query": "How Nissan's safety systems compare with competitors in Japanese crash tests",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html",
+        "https://www3.nissan.co.jp/vehicles/new/x-trail/performance_safety/propilot.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How long are typical powertrain and battery warranties for vehicles sold in Japan?: external-minus-owned delta 4.0, evidence moderate, mapping acceptable. Questions to ask a dealer about safety feature calibration and software updates before buying: external-minus-owned delta -24.0, evidence weak, mapping acceptable. Nissan ProPILOT features and real-world performance on Japanese expressways: external-minus-owned delta 0.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Confirm whether a better existing Japan-market owned page exists before creating new content",
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "publisher_review",
+          1
+        ],
+        [
+          "owned_ecosystem",
+          1
+        ],
+        [
+          "authority_body",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "acceptable": 4,
+        "strong": 1
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 9,
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "target_query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/ariya-details/cruising-distance_charge.html",
+      "recommended_action": "For EV range, charging and battery confidence: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "action_type": "journey_coverage_fix",
+      "recommended_module": "journey_coverage_fix",
+      "dimension": "Journey Coverage",
+      "impact": "low",
+      "effort": "medium",
+      "confidence": "low",
+      "likely_owner": "SEO",
+      "supporting_queries": [
+        {
+          "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/cruising-distance_charge.html",
+        "https://www3.nissan.co.jp/vehicles/new/leaf/range_and_charging.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Nissan Ariya real-world range and energy use for Japanese city and highway driving: external-minus-owned delta 14.0, evidence strong, mapping strong. Nissan Leaf battery warranty coverage and conditions in Japan: external-minus-owned delta -24.0, evidence weak, mapping strong. Nissan Leaf tips for maximising battery life and range in Japan's climate: external-minus-owned delta -24.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Confirm whether a better existing Japan-market owned page exists before creating new content",
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "forum_community",
+          2
+        ],
+        [
+          "other",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 3
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 10,
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "target_query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html",
+      "recommended_action": "For Hybrid / e-POWER running costs and powertrain choice: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "action_type": "journey_coverage_fix",
+      "recommended_module": "journey_coverage_fix",
+      "dimension": "Journey Coverage",
+      "impact": "low",
+      "effort": "medium",
+      "confidence": "low",
+      "likely_owner": "SEO",
+      "supporting_queries": [
+        {
+          "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How does Nissan e-POWER work and what maintenance does it require in Japan?",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/note/performance_safety/e-power.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?: external-minus-owned delta -20.0, evidence weak, mapping strong. Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?: external-minus-owned delta -20.0, evidence weak, mapping strong. How does Nissan e-POWER work and what maintenance does it require in Japan?: external-minus-owned delta -16.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Confirm whether a better existing Japan-market owned page exists before creating new content",
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "owned_ecosystem",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 3
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 11,
+      "brand_topic_category": "Family practicality, space and comfort",
+      "target_query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html",
+      "recommended_action": "For Family practicality, space and comfort: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "action_type": "journey_coverage_fix",
+      "recommended_module": "journey_coverage_fix",
+      "dimension": "Journey Coverage",
+      "impact": "low",
+      "effort": "medium",
+      "confidence": "low",
+      "likely_owner": "SEO",
+      "supporting_queries": [
+        {
+          "query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How much boot space do families need for weekend trips with two children in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Small minivan alternatives suitable for school runs and shopping in crowded Japanese streets",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/x-trail/interior/luggage_storage.html",
+        "https://www3.nissan.co.jp/vehicles/new/nv200vanette/interior/comfort.html",
+        "https://www3.nissan.co.jp/vehicles/new/elgrand/interior/interior_space.html",
+        "https://www3.nissan.co.jp/vehicles/new/roox/interior/storage_luggage.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families: external-minus-owned delta 2.0, evidence moderate, mapping strong. How much boot space do families need for weekend trips with two children in Japan?: external-minus-owned delta -24.0, evidence weak, mapping strong. Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?: external-minus-owned delta -7.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Confirm whether a better existing Japan-market owned page exists before creating new content",
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "publisher_review",
+          2
+        ],
+        [
+          "forum_community",
+          2
+        ],
+        [
+          "marketplace_listing",
+          1
+        ],
+        [
+          "video_social",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 8
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 12,
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "target_query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+      "target_page": "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+      "recommended_action": "For Value, offers, finance and total cost of ownership: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "action_type": "journey_coverage_fix",
+      "recommended_module": "journey_coverage_fix",
+      "dimension": "Journey Coverage",
+      "impact": "low",
+      "effort": "medium",
+      "confidence": "low",
+      "likely_owner": "SEO",
+      "supporting_queries": [
+        {
+          "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Insurance cost differences between kei cars and compact cars in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Estimating running costs for a Nissan Leaf over five years in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+        "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How to calculate total cost of ownership for a compact car in Japan over 5 years?: external-minus-owned delta -12.0, evidence weak, mapping strong. Insurance cost differences between kei cars and compact cars in Japan: external-minus-owned delta -12.0, evidence weak, mapping strong. Estimating running costs for a Nissan Leaf over five years in Japan: external-minus-owned delta -18.0, evidence weak, mapping strong.",
+      "depends_on": [
+        "Confirm whether a better existing Japan-market owned page exists before creating new content",
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "forum_community",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 3
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 13,
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "target_query": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/clipper_ev/charge_cruising-distance/cruising-distance_battery.html",
+      "recommended_action": "For EV range, charging and battery confidence: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "action_type": "comparison_table",
+      "recommended_module": "comparison_table",
+      "dimension": "Semantic Depth",
+      "impact": "low",
+      "effort": "high",
+      "confidence": "medium",
+      "likely_owner": "Marketing",
+      "supporting_queries": [
+        {
+          "query": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Typical home charger installation costs and technical requirements for EV owners in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/clipper_ev/charge_cruising-distance/cruising-distance_battery.html",
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/cruising-distance_charge.html",
+        "https://www3.nissan.co.jp/vehicles/new/leaf/range_and_charging.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?: external-minus-owned delta -5.0, evidence weak, mapping strong. Typical home charger installation costs and technical requirements for EV owners in Japan?: external-minus-owned delta 5.0, evidence moderate, mapping strong. What battery warranty terms are common for EVs sold in Japan and what do they usually cover?: external-minus-owned delta 3.0, evidence moderate, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source",
+        "Validate exact facts and source references before publishing"
+      ],
+      "external_source_types": [
+        [
+          "finance_lender",
+          1
+        ],
+        [
+          "marketplace_listing",
+          1
+        ],
+        [
+          "partner_infrastructure",
+          1
+        ],
+        [
+          "other",
+          1
+        ],
+        [
+          "forum_community",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 5
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 14,
+      "brand_topic_category": "Safety, reliability and trust",
+      "target_query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+      "target_page": "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html",
+      "recommended_action": "For Safety, reliability and trust: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "action_type": "comparison_table",
+      "recommended_module": "comparison_table",
+      "dimension": "Semantic Depth",
+      "impact": "low",
+      "effort": "high",
+      "confidence": "medium",
+      "likely_owner": "Marketing",
+      "supporting_queries": [
+        {
+          "query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+          "query_type": "branded"
+        },
+        {
+          "query": "Nissan warranty coverage details for powertrain and battery in Japan",
+          "query_type": "branded"
+        }
+      ],
+      "target_pages": [
+        "https://www3.nissan.co.jp/vehicles/new/ariya-details/performance_safety/360_safety_assist.html",
+        "https://www3.nissan.co.jp/vehicles/new/x-trail/performance_safety/propilot.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "What ADAS features reduce low-speed city collisions in Japan and how do they work?: external-minus-owned delta 0.0, evidence weak, mapping acceptable. How long are typical powertrain and battery warranties for vehicles sold in Japan?: external-minus-owned delta 4.0, evidence moderate, mapping acceptable. Questions to ask a dealer about safety feature calibration and software updates before buying: external-minus-owned delta -24.0, evidence weak, mapping acceptable.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source",
+        "Validate exact facts and source references before publishing"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          2
+        ],
+        [
+          "news_media",
+          1
+        ],
+        [
+          "publisher_review",
+          1
+        ],
+        [
+          "owned_ecosystem",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "acceptable": 4,
+        "strong": 1
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    },
+    {
+      "priority": 15,
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "target_query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+      "target_page": "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+      "recommended_action": "For Value, offers, finance and total cost of ownership: Add concise FAQ blocks matching conversational AI-search questions.",
+      "action_type": "faq_block",
+      "recommended_module": "faq_block",
+      "dimension": "FAQ Readiness",
+      "impact": "low",
+      "effort": "low",
+      "confidence": "low",
+      "likely_owner": "AEM/CMS",
+      "supporting_queries": [
+        {
+          "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Typical PCP and lease terms available for family cars in Japan and how to compare them",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Insurance cost differences between kei cars and compact cars in Japan",
+          "query_type": "non_branded"
+        },
+        {
+          "query": "Resale value factors that most affect small SUVs in the Japanese market",
+          "query_type": "non_branded"
+        }
+      ],
+      "target_pages": [
+        "https://www.nissan.co.jp/CREDIT/BVC/DAYZ/index.html",
+        "https://www3.nissan.co.jp/vehicles/new/leaf/specifications/subsidy.html"
+      ],
+      "why_now": "This journey shows a query-level owned-content or owned-coverage gap against AI-cited evidence.",
+      "evidence_basis": "How to calculate total cost of ownership for a compact car in Japan over 5 years?: external-minus-owned delta -12.0, evidence weak, mapping strong. Typical PCP and lease terms available for family cars in Japan and how to compare them: external-minus-owned delta -9.0, evidence weak, mapping strong. How do government EV subsidies and tax breaks in Japan affect monthly payments?: external-minus-owned delta 22.0, evidence strong, mapping strong.",
+      "depends_on": [
+        "Do not rely on low-quality external source as proof; validate with official or authority source"
+      ],
+      "external_source_types": [
+        [
+          "other",
+          3
+        ],
+        [
+          "finance_lender",
+          1
+        ],
+        [
+          "news_media",
+          1
+        ],
+        [
+          "forum_community",
+          1
+        ]
+      ],
+      "mapping_quality_mix": {
+        "strong": 6
+      },
+      "expected_direction_of_improvement": "Improve owned-page usefulness, extractability and citation readiness without promising citation uplift."
+    }
+  ],
+  "journey_level_priorities": [
+    {
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "current_visibility_gap": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?: external-minus-owned delta -20.0, evidence weak, mapping strong. Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?: external-minus-o",
+      "highest_priority_action": "For Hybrid / e-POWER running costs and powertrain choice: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "primary_owner": "Marketing",
+      "confidence": "low"
+    },
+    {
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "current_visibility_gap": "How to calculate total cost of ownership for a compact car in Japan over 5 years?: external-minus-owned delta -12.0, evidence weak, mapping strong. How do government EV subsidies and tax breaks in Japan affect monthly payments?: external-minus-owned delta 22.0",
+      "highest_priority_action": "For Value, offers, finance and total cost of ownership: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "primary_owner": "Marketing",
+      "confidence": "low"
+    },
+    {
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "current_visibility_gap": "Typical home charger installation costs and technical requirements for EV owners in Japan?: external-minus-owned delta 5.0, evidence moderate, mapping strong. How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips ",
+      "highest_priority_action": "For EV range, charging and battery confidence: Add concise FAQ blocks matching conversational AI-search questions.",
+      "primary_owner": "AEM/CMS",
+      "confidence": "medium"
+    },
+    {
+      "brand_topic_category": "Family practicality, space and comfort",
+      "current_visibility_gap": "How much boot space do families need for weekend trips with two children in Japan?: external-minus-owned delta -24.0, evidence weak, mapping strong. Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?: external-minus-owned",
+      "highest_priority_action": "For Family practicality, space and comfort: Add concise FAQ blocks matching conversational AI-search questions.",
+      "primary_owner": "AEM/CMS",
+      "confidence": "low"
+    },
+    {
+      "brand_topic_category": "Safety, reliability and trust",
+      "current_visibility_gap": "Questions to ask a dealer about safety feature calibration and software updates before buying: external-minus-owned delta -24.0, evidence weak, mapping acceptable. Nissan warranty coverage details for powertrain and battery in Japan: external-minus-owned delta",
+      "highest_priority_action": "For Safety, reliability and trust: Add concise FAQ blocks matching conversational AI-search questions.",
+      "primary_owner": "AEM/CMS",
+      "confidence": "low"
+    }
+  ],
+  "aggregate": {
+    "top_5_actions": [
+      "For Hybrid / e-POWER running costs and powertrain choice: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "For Value, offers, finance and total cost of ownership: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "For EV range, charging and battery confidence: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Family practicality, space and comfort: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Family practicality, space and comfort: Add a comparison table or trade-off module aligned to the buyer decision."
+    ],
+    "quick_wins": [
+      "For EV range, charging and battery confidence: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Family practicality, space and comfort: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Safety, reliability and trust: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Hybrid / e-POWER running costs and powertrain choice: Add concise FAQ blocks matching conversational AI-search questions.",
+      "For Value, offers, finance and total cost of ownership: Add concise FAQ blocks matching conversational AI-search questions."
+    ],
+    "strategic_builds": [
+      "For Hybrid / e-POWER running costs and powertrain choice: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "For Value, offers, finance and total cost of ownership: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "For Family practicality, space and comfort: Add a comparison table or trade-off module aligned to the buyer decision.",
+      "For Safety, reliability and trust: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "For EV range, charging and battery confidence: Map or create a more specific owned page for this journey intent before optimising the content.",
+      "For Hybrid / e-POWER running costs and powertrain choice: Map or create a more specific owned page for this journey intent before optimising the content."
+    ],
+    "measurement_actions": [],
+    "summary": "Backlog was aggregated by brand topic and action type, with implementation actions prioritised ahead of measurement-only actions."
+  }
+}

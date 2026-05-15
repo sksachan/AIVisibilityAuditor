@@ -1,0 +1,782 @@
+{
+  "url": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 14847,
+    "wordish_count": 1978,
+    "heading_count": 9,
+    "bullet_count": 73,
+    "link_count": 89,
+    "image_count": 16,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 91,
+    "numeric_fact_count": 85,
+    "question_count": 3,
+    "unique_line_count": 197,
+    "numeric_facts_sample": [
+      "2",
+      "2025",
+      "2026",
+      "12",
+      "9",
+      "2027",
+      "13",
+      "23",
+      "3",
+      "19",
+      "2023",
+      "2024",
+      "1",
+      "2030",
+      "40%",
+      "79",
+      "853",
+      "41607",
+      "6",
+      "447",
+      "51",
+      "88",
+      "4",
+      "8933",
+      "0"
+    ],
+    "links_sample": [
+      "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "https://global.nissannews.com/page-MVGhb/attachment/6c6275860907a63281ae87cd5dca3c6ccacfe2c1",
+      "https://global.nissannews.com/page-MVGhb/attachment/447a20c35e06321b06aff478bcc0723742c9dc21",
+      "https://global.nissannews.com/page-MVGhb/attachment/b00c475fae225fa23138086ac43f17472a4b5b63",
+      "https://global.nissannews.com/page-MVGhb/attachment/51cf01a45023dba48c761283e47a4c6f8e11264e",
+      "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/bca08484f089b1f4082117f94851e06be73a6e3b",
+      "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/018e1b22-17bc-729f-8d4c-08aee4203167/89eb2343-a81c-4b13-a97f-c6b1b2219841/logo.png",
+      "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "https://global.nissannews.com/en",
+      "https://global.nissannews.com/ja-JP",
+      "https://global.nissannews.com/pages/all-news-archive",
+      "https://global.nissannews.com/en/channels/news",
+      "https://global.nissannews.com/en/channels/news?selectedTabId=news-photos",
+      "https://global.nissannews.com/en/channels/notices",
+      "https://global.nissannews.com/pages/nissan-model-lineup",
+      "https://global.nissannews.com/pages/major-models-lineup-infiniti",
+      "https://global.nissannews.com/heritage_models"
+    ],
+    "image_alt_count": 16
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": true,
+    "nav_noise_terms": 3,
+    "content_terms": 56,
+    "noise_ratio": 0.05
+  },
+  "content_regions": {
+    "header_chars": 2328,
+    "main_chars": 2544,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 425,
+    "full_markdown_chars": 14847
+  },
+  "metadata": {
+    "title": "Nissan to adopt North American Charging Standard (NACS) for Ariya and future EV models",
+    "description": "Nissan has reached an agreement with Tesla to adopt the North American Charging Standard (NACS) beginning in 2025, providing Nissan customers even more choices when it comes to charging their electric vehicle.",
+    "language": "en",
+    "sourceURL": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "NewsArticle",
+      "WebPage",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "https://global.nissannews.com/en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "Global Newsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP",
+      "text": "日本語",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/all-news-archive",
+      "text": "News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/news",
+      "text": "News Releases",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/news?selectedTabId=news-photos",
+      "text": "Release Photos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/notices",
+      "text": "Notices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/nissan-model-lineup",
+      "text": "Models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/nissan-model-lineup",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/major-models-lineup-infiniti",
+      "text": "INFINITI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/heritage_models",
+      "text": "Heritage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/nng-nissan-in-depth",
+      "text": "More From Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/sustainability",
+      "text": "Sustainability",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/channel-45ec0f513c5381a56ca843312d308f65",
+      "text": "Electrification",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/technology-en",
+      "text": "Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/",
+      "text": "Facilities",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/nng-corporate",
+      "text": "Corporate",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/vision",
+      "text": "Our Vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/re-nissan",
+      "text": "Re:Nissan: Our recovery plan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/sales-report-year-en",
+      "text": "Sales, Production & Export Results",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/investor-relations",
+      "text": "Investor News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/",
+      "text": "Investor Site",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/FINANCIAL_RESULTS/",
+      "text": "Results, Reports and Presentations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/corporate-officers",
+      "text": "Executive Bios",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/executive-manage-change",
+      "text": "Executive management changes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/",
+      "text": "Corporate Governance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/renault-nissan-mitsubishi",
+      "text": "Renault Nissan Mitsubishi Alliance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/auto-show-archive",
+      "text": "Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2026",
+      "text": "2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2026",
+      "text": "Auto China 2026 (Beijing)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2025",
+      "text": "2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/auto-guangzhou-2025",
+      "text": "Auto Guangzhou",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/jms-2025",
+      "text": "Japan Mobility Show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/shanghai-2025",
+      "text": "Auto Shanghai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2025",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2024",
+      "text": "2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/auto-guangzhou-2024",
+      "text": "Auto Guangzhou",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2024",
+      "text": "Auto China 2024 (Beijing)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-sallon-2024",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/auto-show-archive",
+      "text": "Archive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/motorsports-archive",
+      "text": "Motorsports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/formula-e",
+      "text": "Formula E",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/nismo-news",
+      "text": "NISMO News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/channels/channel-1c1dfa2d347ec972e305af1f71002338",
+      "text": "Super GT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://usa.nissannews.com/en-US/channels/us-nissan-z-gt4?selectedTabId=us-nissan-z-gt4-releases",
+      "text": "Nissan Z GT4",
+      "is_pdf": false
+    },
+    {
+      "url": "https://canada.nissannews.com/en-CA/channels/ca-canada-nissan-sentra-cup",
+      "text": "Sentra Cup",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/infiniti",
+      "text": "INFINITI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/regions",
+      "text": "Regions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/contacts",
+      "text": "Contacts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/basket",
+      "text": "No Saved Items Saved Item Saved Items",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/basket",
+      "text": "https://global.nissannews.com/en/basket",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "text": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "text": "Wayve, Uber and Nissan announce collaboration on Robotaxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "text": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "text": "New Nissan LEAF crowned Supreme Winner for 2026 by Women's Worldwide Car of the Year",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "text": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "text": "Dongfeng Nissan launches the All-New NX8 in China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "text": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "text": "All-new 2027 INFINITI QX65 debuts in U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "text": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "text": "Wayve and Nissan to exhibit global robotaxi prototype vehicle powered by NVIDIA DRIVE Hyperion for Uber trials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/251212-02-e",
+      "text": "https://global.nissannews.com/en/releases/251212-02-e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/251212-02-e",
+      "text": "CDP awards A-rank to Nissan for climate change and water security initiatives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260414-vision",
+      "text": "https://global.nissannews.com/en/releases/260414-vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260414-vision",
+      "text": "Vision of Mobility Intelligence for Everyday Life",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260513-01-e",
+      "text": "https://global.nissannews.com/en/releases/260513-01-e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260513-01-e",
+      "text": "Nissan reports financial results for fiscal year 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2026",
+      "text": "https://global.nissannews.com/en/channels/beijing-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "Tokyo Auto Salon 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "text": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "text": "#23 MOTUL Niterra Z finishes 3rd; Nissan Z NISMO secures consecutive podium finishes at Fuji",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "text": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "text": "Nissan Formula E Team stands on the podium both days in Berlin double-header",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-1b8d60744001bfa1e4ae234a4309cbcf/download",
+      "text": "Download",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/channel-8ba3b7f411f6022703cfce06800014de?selectedTabId=ariya-ev-releases",
+      "text": "Ariya",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/AMBITION2030/",
+      "text": "Ambition 2030",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan-global.com/EN/",
+      "text": "nissan-global.com",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/nissan/",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissan/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanMotor",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "text": "LinkedIn",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/Nissan/",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/releases/attachment/release-1b8d60744001bfa1e4ae234a4309cbcf/db627fbb922cd61ee77f5c92cd2a2f1dc51e7b7e",
+      "text": "Press release - Nissan to adopt North American Charging Standard (NACS) for Ariya and future EV models.pdf (79 KB)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+      "text": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/Nissan",
+      "text": "https://www.youtube.com/Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanMotor",
+      "text": "https://twitter.com/NissanMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "text": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/nissan",
+      "text": "https://www.facebook.com/nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissan/",
+      "text": "https://www.instagram.com/nissan/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanmotor.jobs",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/global-cookies-policy",
+      "text": "Cookie Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/PRIVACY/",
+      "text": "Website Privacy Notice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/terms-of-use",
+      "text": "Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/digital-accessibility-statement-en",
+      "text": "Digital Accessibility Statement",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "Nissan Global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/pages/global-cookies-policy-j",
+      "text": "クッキーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.onetrust.com/products/cookie-consent/",
+      "text": "https://www.onetrust.com/products/cookie-consent/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "alt": "Nissan | logo"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "alt": "Nissan CEO Ivan Espinosa, Wayve CEO Alex Kendall and Uber Head of Autonomous Mobility & Delivery Sarfraz Maredia with the robotaxi prototype."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "alt": "Nissan Patrol and Nissan Armada are parked side by side in a modern architectural space overlooking a desert landscape."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/6c6275860907a63281ae87cd5dca3c6ccacfe2c1",
+      "alt": "Two NX8 vehicles are positioned side by side in a bright, studio-style background. A purple NX8 on the left and a blue NX8 on the right are both stationary and angled slightly toward the front."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/447a20c35e06321b06aff478bcc0723742c9dc21",
+      "alt": "The QX65 with a red exterior body and black roof is shown parked in front of modern architecture."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/b00c475fae225fa23138086ac43f17472a4b5b63",
+      "alt": "A white robotaxi prototype based on the new Nissan LEAF is shown from the side in an outdoor display area. Trees, tall buildings, and a booth with a large screen appear in the background."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/51cf01a45023dba48c761283e47a4c6f8e11264e",
+      "alt": "A turquoise Nissan LEAF electric vehicle is parked along a scenic coastal road, with the calm sea and a glowing sunset stretching across the horizon. In the top-left corner, the CDP logo appears, highlighting its highest “A List” rating for Climate Change and Water Security."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "alt": "On a stage with a red background, a light blue vehicle is displayed facing slightly forward at an angle. The words “NISSAN” and “VISION” are shown in the background."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "alt": "A press conference scene with two people seated side by side at the front of a conference room. Behind them, screens display images of vehicles and the text “FY2025 Financial Results,” with the “NISSAN MOTOR CORPORATION” logo shown on the central wall."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "alt": "Nissan unveils the Urban SUV PHEV Concept / the Terrano PHEV Concept at Auto China 2026 in Beijing"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "alt": "A silver and black two-tone sports car, the Aura Nismo RS Concept, speeding across a bridge. The vehicle is angled toward the left front, with bright headlights shining. A large black alphabet 'RS' is displayed on the side, and a red accent line runs along the lower front bumper. The background features streaks of light, emphasizing a sense of motion and speed"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "alt": "The red #23 MOTUL Niterra Z in a right-hand corner at Fuji Speedway"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "alt": "Landscape image of Nissan Formula E Team driver Oliver Rowland spraying champagne on the Berlin podium following his second placed finish"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/bca08484f089b1f4082117f94851e06be73a6e3b",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1164831160280483&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/018e1b22-17bc-729f-8d4c-08aee4203167/89eb2343-a81c-4b13-a97f-c6b1b2219841/logo.png",
+      "alt": "企業ロゴ"
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+    "title": "Nissan to adopt North American Charging Standard (NACS) for Ariya and future EV models",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:00:43.957578+00:00",
+  "source_meta": {
+    "title": "Nissan to adopt North American Charging Standard (NACS ...",
+    "url": "https://global.nissannews.com/en/releases/nissan-to-adopt-nacs-for-ariya-and-future-ev-models",
+    "source_name": "日産自動車ニュースルーム",
+    "source_domain": "global.nissannews.com",
+    "source_type": "owned_ecosystem",
+    "snippet": "Jul 19, 2023 — NASHVILLE, Tenn. – Nissan has reached an agreement with Tesla to adopt the North American Charging Standard (NACS) beginning in 20...",
+    "citation_count": 3,
+    "first_cited_position": 1,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "high",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": true,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "query_id": "q038",
+  "query": "Nissan warranty coverage details for powertrain and battery in Japan",
+  "query_type": "branded",
+  "brand_topic_category": "Safety, reliability and trust",
+  "journey_stage": "trust_safety",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Nissan warranty coverage details for powertrain and battery in Japan",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071ac7124815bb8f021335",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Kc0YImP3KaMhm8w4PFXBeQ/6a071ac7124815bb8f021335.json",
+      "created_at": "2026-05-15 13:08:23 UTC",
+      "processed_at": "2026-05-15 13:08:23 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Nissan+warranty+coverage+details+for+powertrain+and+battery+in+Japan&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/Kc0YImP3KaMhm8w4PFXBeQ/6a071ac7124815bb8f021335.html",
+      "prettify_html_file": "https://serpapi.com/searches/Kc0YImP3KaMhm8w4PFXBeQ/6a071ac7124815bb8f021335.prettify",
+      "total_time_taken": 5.24
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Nissan warranty coverage details for powertrain and battery in Japan",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "In Japan, Nissan's factory warranty explicitly separates coverage periods into General Warranty (一般保証) and Special Warranty (特別保証), with specific, extended terms assigned to electric vehicles (EVs) and e-POWER hybrid models.",
+        "reference_indexes": [
+          2,
+          6
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Powertrain Coverage"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Nissan categories powertrain components under its Special Warranty (特別保証).",
+        "reference_indexes": [
+          6,
+          11,
+          12
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Coverage Period: 5 years or 100,000 kilometers, whichever occurs first."
+          },
+          {
+            "snippet": "Covered Components: The engine, transmission, transaxle, drivetrain, and related electronic control modules."
+          },
+          {
+            "snippet": "e-POWER Models: For e-POWER hybrid vehicles (like the Note or Serena), the e-POWER system components—including the generator and electric motor—are fully protected under this 5-year/100,000 km powertrain specification."
+          }
+        ],
+        "reference_indexes": [
+          6,
+          10,
+          9,
+          13
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "High-Voltage EV Battery Coverage",
+        "reference_indexes": [
+          14
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Pure electric vehicles (EVs) like the Nissan Leaf or Ariya feature dedicated factory protection covering both manufacturing defects and capacity degradation:",
+        "reference_indexes": [
+          2,
+          11,
+          1,
+          15,
+          16
+        ]
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          2,
+          1,
+          17,
+          18
+        ],
+        "table": [
+          [
+            "Coverage Type",
+            "Period & Limit",
+            "Protection Details"
+          ],
+          [
+            "Defects Warranty",
+            "8 years or 160,000 km",
+            "Covers repairs or replacements due to physical materials or factory workmanship flaws."
+          ],
+          [
+            "Capacity Warranty",
+            "8 years or 160,000 km",
+            "Guarantees the lithium-ion battery will not drop below 9 segments (out of 12) on the in-vehicle segment gauge. Nissan repairs or replaces the pack if it falls below this minimum threshold."
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Coverage Type"
+            },
+            {
+              "snippet": "Period & Limit"
+            },
+            {
+              "snippet": "Protection Details"
+            }
+          ],
+          [
+            {
+              "snippet": "Defects Warranty"
+            },
+            {
+              "snippet": "8 years or 160,000 km"
+            },
+            {
+              "snippet": "Covers repairs or replacements due to physical materials or factory workmanship flaws."
+            }
+          ],
+          [
+            {
+              "snippet": "Capacity Warranty"
+            },
+            {
+              "snippet": "8 years or 160,000 km"
+            },
+            {
+              "snippet": "Guarantees the lithium-ion battery will not drop below 9 segments (out of 12) on the in-vehicle segment gauge. Nissan repairs or replaces the pack if it falls below this minimum threshold."
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "coverage_type": "Defects Warranty",
+            "period_limit": "8 years or 160,000 km",
+            "protection_details": "Covers repairs or replacements due to physical materials or factory workmanship flaws."
+          },
+          {
+            "coverage_type": "Capacity Warranty",
+            "period_limit": "8 years or 160,000 km",
+            "protection_details": "Guarantees the lithium-ion battery will not drop below 9 segments (out of 12) on the in-vehicle segment gauge. Nissan repairs or replaces the pack if it falls below this minimum threshold."
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Note: For e-POWER vehicles, the smaller high-voltage traction battery is typically backed by the standard 5-year or 100,000 km special hybrid-component breakdown criteria.",
+        "reference_indexes": [
+          9,
+          10
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Auxiliary 12V Battery"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The standard lead-acid auxiliary 12V battery used to boot vehicle electronics is excluded from the main EV and special powertrain plans. It is handled separately via individual battery manufacturer policies or standard 1-to-3 year general maintenance schedules based on the purchase channel.",
+        "reference_indexes": [
+          16,
+          4,
+          7,
+          8,
+          19
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you are looking at a specific model, would you like to check if it qualifies for Nissan's extended warranty programs (ワイド保証) in Japan, or do you need details on transferring an existing warranty to a second owner?",
+        "reference_indexes": [
+          3
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "New Vehicle Warranty Terms | Owners - Nissan New Zealand",
+        "link": "https://www.nissan.co.nz/owners/warranty/new-vehicle-warranty-terms.html",
+        "snippet": "LITHIUM-ION BATTERY CAPACITY WARRANTY PERIOD For Nissan Electric Vehicles, the \"Lithium-Ion Battery\" is warranted against capacity...",
+        "source": "www.nissan.co.nz",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/mWmPPwlj-_ZnXYX1JvOj6YdOj9DqUvK7Il7sX4MP8Ls.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/PZfCnWFdv5MZucFilQ1h9tt6KIM3d_GR2Yzc5PCM1Zk.png",
+        "index": 0
+      },
+      {
+        "title": "日産電気自動車 充電について | メンテナンス・保証",
+        "link": "https://www.nissan.co.jp/EV/MAINTENANCE/",
+        "snippet": "安心のリチウムイオンバッテリー容量保証。 バッテリー容量低下の抑制や耐久性の向上などにより、バッテリーの高寿命化を実現。 これにより、バッテリー容量を「8年160,000km」＊2保証しています。",
+        "source": "www.nissan.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/RoPecbmFjP_p3t7r4Uv0yaDy_XsMJx37f_w8zLZk26A.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/EDA7x20cTCdEyoFSVOhA8HQZguHYb71b7xYNsDK5NkY.png",
+        "index": 1
+      },
+      {
+        "title": "もっとEVを活用するために - 日産フィナンシャルサービス",
+        "link": "https://www.nissan-fs.co.jp/carlease/evkatsuyou.html",
+        "snippet": "バッテリーの保証について. EVのバッテリー保証期間は8年または16万km走行時のどちらか早い方とします。またEVのパワートレインに相当する下記の部品を“電気自動車特有部品”とし、特別保証部品とします。その他の部品は、ガソリン車と同等の保証条件とします。",
+        "source": "www.nissan-fs.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/P45Liel4pr_n7DfkScbUC6fDTnaG8b3LTWgmiRJd5zA.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/bI6QkyY8gCdCpr17N0TkaTwKdV7lCgVWZT64_DifrVs.png",
+        "index": 2
+      },
+      {
+        "title": "リーフバッテリー延長保証｜ワイド保証 - 中古車",
+        "link": "https://u-car.nissan.co.jp/WIDE/battery/",
+        "snippet": "保証期間について. 保証期間は新車登録から最大9年または、走行距離10万kmのどちらか早い方までとなります。 ... 保証期間について. 保証期間は新車登録から最大9年または、走行距離10万kmのどちらか早い方までとなります。 初度登録から5年未満の車両. 新...",
+        "source": "u-car.nissan.co.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/mj3zrd5BRv9KUi4_B2FGEKpV2s6dG4DVwY0WhhsHc-0.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/1RuZIzDncfZ86h_ZI6YdoqP3Tz4kgHM0xery4P3N3cw.png",
+        "index": 3
+      },
+      {
+        "title": "12Vバッテリーの保証について教えて。 - FAQ",
+        "link": "https://faq2.nissan.co.jp/faq/show/11547?category_id=63&site_domain=default",
+        "snippet": "Feb 16, 2026 — 12Vバッテリーは、新車保証とは別扱いの保証となります。 保証適用の判断については、新車から搭載されている12Vバッテリーや日産販売店で交換した12Vバッテリーの場合は日産販売店にご相談ください。 日産販売店以外で購入されたバッテリーの場合は購入店にご相談くだ...",
+        "source": "faq2.nissan.co.jp",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/DMONxzZuY-0o-dNiJSKkBXIxcieTTNLDZk5ai7Dwf44.png",
+        "index": 4
+      },
+      {
+        "title": "【EV体験記05】中古でEVを購入しても「保証継承」で ...",
+        "link": "https://www.niconori.jp/information/ev005",
+        "snippet": "Apr 3, 2023 — 僕の実体験で得た”EVのホントのところ\"について、これからみなさまにお伝えしていきたいと思います。 この記事の執筆者 ニコノリ開発責任者 安田倫. ▽もくじ. 日産リーフのバッテリー保証は「8年/16万km」; 保証承継は有料！12ヶ月点検を実施する必要があり...",
+        "source": "www.niconori.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/GAM8GggoQUYJBIXL_7ZNP2xq7GVqy0T9G5v2aSSrBS0.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/QuQoBz1nDTZzRVx7R6VUqPDUj5ZFF_dO5mH1snH4t3k.png",
+        "index": 5
+      },
+      {
+        "title": "アフターサービス - 日産自動車",
+        "link": "https://www2.nissan.co.jp/SP/LEAF/DIGITALCATALOG/PDF/afterservice.pdf",
+        "snippet": "〈一般保証〉新車登録から3年間、但し、その期間内でも走行距離60,000kmまで。 〈特別保証〉日産が特に指定した部品は新車登録から5年間、但し、その期間内で も走行距離100,000kmまで。 〈錆保証〉乗用車、バン、ワゴン車… 表面錆は3年間、穴あき錆は5...",
+        "source": "www2.nissan.co.jp",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/WRubSXApcuwPj7YKObUOfRjVUmr7Bwlee2YFkrC61LM.png",
+        "index": 6
+      },
+      {
+        "title": "ワイド保証",
+        "link": "https://ns-shonan.nissan-dealer.jp/content/dam/nissan/0265_%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E6%97%A5%E7%94%A3%E3%82%B5%E3%83%86%E3%82%A3%E3%82%AA%E6%B9%98%E5%8D%97/z20_%E3%83%A6%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E5%B9%B3%E5%A1%9A/%E3%81%8A%E5%BA%97%E7%B4%B9%E4%BB%8B/%E3%83%AF%E3%82%A4%E3%83%89%E4%BF%9D%E8%A8%BC1%E5%B9%B4%20%E3%83%A9%E3%82%A4%E3%83%88_%E8%A9%B3%E7%B4%B0_%E6%96%99%E9%87%91.pdf",
+        "snippet": "有料の延長保証でご購入から最長3年間まで保証を延長できます。（走行距離無制限）. □プラス1年保証（24ヵ月間）、またはプラス2年保証（36ヵ月間）をお選びいただけます。 □12Vバッテリーは保証対象外です。 12Vバッテリー以外は「ワイド保証」と同一の保証内...",
+        "source": "ns-shonan.nissan-dealer.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/FCPy6RtV0O5TZmBkHsWFP9VM3rprcZG-Z5iVi_2NKjM.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/H0FnkOT_24USBaFZ9SgTbONl6tUQfyYwaT8VULV2Q-s.png",
+        "index": 7
+      },
+      {
+        "title": "車のバッテリーはいつ交換すべき？タイミングや費用、作業時間を解説",
+        "link": "https://www.goo-net.com/magazine/carmaintenance/repair/211597/",
+        "snippet": "Jun 30, 2023 — 一般的には2年から3年程度、なかには5年以上の長期保証を設けているメーカーもあります。 保証期間内に故障が生じた場合、修理店で無料で交換してくれますが、保証期間の対象となる故障には制限があるので注意が必要です。",
+        "source": "www.goo-net.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/bZLa4lRjNgSNr3SB5-LJ1XlXEJ3ecCL8IrA88a3eTNY.png",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/xNRWlr5JDMObbnq80WBHKlGpJ_Hfpl3PQzFEOal6TWg.png",
+        "index": 8
+      },
+      {
+        "title": "e-POWERは時代遅れ？最悪・迷惑・うるさいって本当？日産eパワーの ...",
+        "link": "https://takahashi-jiko.com/news/blog/456/",
+        "snippet": "Sep 9, 2025 — e-POWERのバッテリー寿命と耐久性 実際には、e-POWERのリチウムイオンバッテリーは8～10年が寿命の目安です。 ただし、60～75％の範囲で使うよう制御されており、過度な負荷がかからないため長持ちしやすいのが特徴です。 さらに日産は、e-POWERの...",
+        "source": "takahashi-jiko.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/Mf7IqK2IhE-FYLrw1z4hYpHT2yggv5fbT-Afwgc3l0o.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/VDeV7xLOGWY28E6uxR0HqTyABgb1pS9NVIuMkgdoj-k.png",
+        "index": 9
+      },
+      {
+        "title": "セレナe-POWERのバッテリー寿命は？評判まとめ - クルマノート",
+        "link": "https://tenryu-r.sakura.ne.jp/review/430/",
+        "snippet": "5年または10万kmの保証が付帯 日産のe-POWER搭載車には、5年または10万kmのバッテリー保証が付帯されており、これは一般的な使用状況において、バッテリーの寿命が保証期間内に尽きることはないと予測されているためだと考えられます。",
+        "source": "tenryu-r.sakura.ne.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/G3TkSdDD4sZOEErxyBGxFbj6g3NeFDfcro9lDbboLbU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ac7124815bb8f021335/images/IQUr5Nm7TRYo97Pfa3A5cwWadNudFCWow0YGNOUCE30.png",
+        "index": 10
+      },
+      {
+        "title": "日産のE-powerは5年10万kmが保証範囲ですが、... - carview!",
+        "link": "https://carview.yahoo.co.jp/ncar/catalog/nissan/chiebukuro/detail/?qid=10301231450",
+        "snippet": "日産のE-powerは5年10万kmが保証範囲ですが、超えると壊れやすいということですか？ 日産のE-powerは5年10万kmが保証範囲ですが、超えると壊れやすいということですか？ 「みんなの質問」はYahoo!知恵袋の「自動車」カテゴリとデータを共有してい...",
+        "source": "carview.yahoo.co.jp",
+        "thumbnail": "https://carview.yahoo.co.jp/ncar/catalog/nissan/chiebukuro/detail/?qid=10301231450",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://carview.yahoo.co.jp&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "How does the Nissan warranty work and what does it cover?",
+        "link": "https://davesolonnissan.com/blog/how-does-the-nissan-warranty-work-and-what-does-it-cover",
+        "snippet": "The Nissan warranty covers a variety of components and systems in your vehicle, including the powertrain, suspension, electrical, ...",
+        "source": "davesolonnissan.com",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8z2h0oAYUEtV-Rjni1q17feN7eTdMcXvV2qZKyndFP41FSEiD",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://davesolonnissan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "What Does the Nissan Powertrain Warranty Cover?",
+        "link": "https://www.tannernissan.com/nissan-information/what-does-nissan-powertrain-warranty-cover/",
+        "snippet": "The Nissan Powertrain Warranty covers your transmission, transaxle, engine, drivetrain, and restraint system, as well as other com...",
+        "source": "www.tannernissan.com",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgwX9FF6Yq3XscKv8pGjYV-EH5u_E3G9Rgw0V3YydW8RP0luMb",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.tannernissan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "Nissan 3-year warranty – everything you need to know | Motorpoint",
+        "link": "https://www.motorpoint.co.uk/guides/nissan-3-year-warranty",
+        "snippet": "How long is Nissan's EV battery warranty? Nissan offers a separate, longer warranty for the high-voltage battery packs that power ...",
+        "source": "www.motorpoint.co.uk",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR9-_6hav0zLucRKNvnAsOQNmUyNc250s_UpRTARBoa07okYEUh",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.motorpoint.co.uk&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      },
+      {
+        "title": "Kia Carens Clavis Warranty Explained: Coverage, Duration, \\u0026 Claim Process",
+        "link": "https://www.spinny.com/blog/kia-carens-clavis-warranty-explained-coverage-duration-claim-process/",
+        "snippet": "Electrical \\u0026 Electronic Systems: All the factory-fitted electronic systems, including sensors, wiring harnesses, control modules, ...",
+        "source": "www.spinny.com",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRBqm2VAtp1W3yEGL1yMiQ5DlpLz_T0M1LIQK1X6X8q8h7M-qDH",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.spinny.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 15
+      },
+      {
+        "title": "日産「リーフ」リチウムイオン電池の容量保証を13年に開始 ...",
+        "link": "https://motor-fan.jp/article/784471/",
+        "snippet": "INDEX. □リーフのバッテリー容量の保証をスタート; ガソリン車の部品の保証期間は、3年/6万kmまたは5年/10万km; EVのリチウムイオン電池の劣化要因; EVのリチウムイオン電池のメーカー保証 · INDEX. □リーフのバッテリー容量の保証をスタ...",
+        "source": "motor-fan.jp",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPduVQBt38_er_PGCYY48x0egOwNyS3CfesolifPB0Qw6habEL",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://motor-fan.jp&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 16
+      },
+      {
+        "title": "Warranty Booklet and Maintenance Record",
+        "link": "https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Warranties/warranty_book.pdf",
+        "snippet": "Within the relevant period of time and mileage specified on the Warranty Certificate at the front of this booklet, an authorised N...",
+        "source": "www.nissan.co.uk",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSTJP3VMlOZdyga-215EbFAidTSi1GeRDvNoiDlIw9CM57XYD4e",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.nissan.co.uk&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 17
+      },
+      {
+        "title": "Nissan Factory Warranty: Everything You Need To Know",
+        "link": "https://www.group1nissan.co.za/blog/general/nissan-factory-warranty/",
+        "snippet": "The Nissan factory warranty is designed to cover any defects in material or workmanship, which take place during the first three y...",
+        "source": "www.group1nissan.co.za",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtoz-rBrQLaM1E3EuKjFNQCEE85Gaaj7AfuezlhHmwrdU0twRP",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.group1nissan.co.za&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 18
+      },
+      {
+        "title": "Hisun 4WD Utility Vehicle Warranty – The Electric Motor Vehicle Company",
+        "link": "https://electricmv.co.nz/product/hisun-4wd-utility-vehicle-warranty/",
+        "snippet": "12V Accessory Battery Each vehicle also includes a 12V lead-acid battery (excluding the main motor). This battery:",
+        "source": "electricmv.co.nz",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTgpfKFDNZ9MdMWVFVhtebCX5EQylEfoa2oByJPsqqhWF1iR7x8",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://electricmv.co.nz&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 19
+      }
+    ],
+    "reconstructed_markdown": "In Japan, Nissan's factory warranty explicitly separates coverage periods into General Warranty \\(一般保証\\) and Special Warranty \\(特別保証\\), with specific, extended terms assigned to electric vehicles \\(EVs\\) and e\\-POWER hybrid models. [2] [6]\n\n### Powertrain Coverage\n\nNissan categories powertrain components under its Special Warranty \\(特別保証\\). [6] [11] [12]\n\n- Coverage Period: 5 years or 100,000 kilometers, whichever occurs first.\n- Covered Components: The engine, transmission, transaxle, drivetrain, and related electronic control modules.\n- e\\-POWER Models: For e\\-POWER hybrid vehicles \\(like the Note or Serena\\), the e\\-POWER system components—including the generator and electric motor—are fully protected under this 5\\-year/100,000 km powertrain specification.\n\n### High\\-Voltage EV Battery Coverage\n\nPure electric vehicles \\(EVs\\) like the Nissan Leaf or Ariya feature dedicated factory protection covering both manufacturing defects and capacity degradation: [2] [11] [1] [15] [16]\n\n| Coverage Type | Period & Limit | Protection Details |\n| --- | --- | --- |\n| Defects Warranty | 8 years or 160,000 km | Covers repairs or replacements due to physical materials or factory workmanship flaws. |\n| Capacity Warranty | 8 years or 160,000 km | Guarantees the lithium\\-ion battery will not drop below 9 segments \\(out of 12\\) on the in\\-vehicle segment gauge. Nissan repairs or replaces the pack if it falls below this minimum threshold. |\n[2] [1] [17] [18]\n\nNote: For e\\-POWER vehicles, the smaller high\\-voltage traction battery is typically backed by the standard 5\\-year or 100,000 km special hybrid\\-component breakdown criteria. [9] [10]\n\n### Auxiliary 12V Battery\n\nThe standard lead\\-acid auxiliary 12V battery used to boot vehicle electronics is excluded from the main EV and special powertrain plans. It is handled separately via individual battery manufacturer policies or standard 1\\-to\\-3 year general maintenance schedules based on the purchase channel. [16] [4] [7] [8] [19]\n\nIf you are looking at a specific model, would you like to check if it qualifies for Nissan's extended warranty programs \\(ワイド保証\\) in Japan, or do you need details on transferring an existing warranty to a second owner? [3]\n\n\n### References\n\n[0] [New Vehicle Warranty Terms \\| Owners \\- Nissan New Zealand](https://www.nissan.co.nz/owners/warranty/new-vehicle-warranty-terms.html) — LITHIUM\\-ION BATTERY CAPACITY WARRANTY PERIOD For Nissan Electric Vehicles, the \"Lithium\\-Ion Battery\" is warranted against capacity...\n\n[1] [日産電気自動車 充電について \\| メンテナンス・保証](https://www.nissan.co.jp/EV/MAINTENANCE/) — 安心のリチウムイオンバッテリー容量保証。 バッテリー容量低下の抑制や耐久性の向上などにより、バッテリーの高寿命化を実現。 これにより、バッテリー容量を「8年160,000km」＊2保証しています。\n\n[2] [もっとEVを活用するために \\- 日産フィナンシャルサービス](https://www.nissan-fs.co.jp/carlease/evkatsuyou.html) — バッテリーの保証について. EVのバッテリー保証期間は8年または16万km走行時のどちらか早い方とします。またEVのパワートレインに相当する下記の部品を“電気自動車特有部品”とし、特別保証部品とします。その他の部品は、ガソリン車と同等の保証条件とします。\n\n[3] [リーフバッテリー延長保証｜ワイド保証 \\- 中古車](https://u-car.nissan.co.jp/WIDE/battery/) — 保証期間について. 保証期間は新車登録から最大9年または、走行距離10万kmのどちらか早い方までとなります。 ... 保証期間について. 保証期間は新車登録から最大9年または、走行距離10万kmのどちらか早い方までとなります。 初度登録から5年未満の車両. 新...\n\n[4] [12Vバッテリーの保証について教えて。 \\- FAQ](https://faq2.nissan.co.jp/faq/show/11547?category_id=63&site_domain=default) — Feb 16, 2026 — 12Vバッテリーは、新車保証とは別扱いの保証となります。 保証適用の判断については、新車から搭載されている12Vバッテリーや日産販売店で交換した12Vバッテリーの場合は日産販売店にご相談ください。 日産販売店以外で購入されたバッテリーの場合は購入店にご相談くだ...\n\n[5] [【EV体験記05】中古でEVを購入しても「保証継承」で ...](https://www.niconori.jp/information/ev005) — Apr 3, 2023 — 僕の実体験で得た”EVのホントのところ\"について、これからみなさまにお伝えしていきたいと思います。 この記事の執筆者 ニコノリ開発責任者 安田倫. ▽もくじ. 日産リーフのバッテリー保証は「8年/16万km」; 保証承継は有料！12ヶ月点検を実施する必要があり...\n\n[6] [アフターサービス \\- 日産自動車](https://www2.nissan.co.jp/SP/LEAF/DIGITALCATALOG/PDF/afterservice.pdf) — 〈一般保証〉新車登録から3年間、但し、その期間内でも走行距離60,000kmまで。 〈特別保証〉日産が特に指定した部品は新車登録から5年間、但し、その期間内で も走行距離100,000kmまで。 〈錆保証〉乗用車、バン、ワゴン車… 表面錆は3年間、穴あき錆は5...\n\n[7] [ワイド保証](https://ns-shonan.nissan-dealer.jp/content/dam/nissan/0265_%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E6%97%A5%E7%94%A3%E3%82%B5%E3%83%86%E3%82%A3%E3%82%AA%E6%B9%98%E5%8D%97/z20_%E3%83%A6%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%83%E3%83%88%E5%B9%B3%E5%A1%9A/%E3%81%8A%E5%BA%97%E7%B4%B9%E4%BB%8B/%E3%83%AF%E3%82%A4%E3%83%89%E4%BF%9D%E8%A8%BC1%E5%B9%B4%20%E3%83%A9%E3%82%A4%E3%83%88_%E8%A9%B3%E7%B4%B0_%E6%96%99%E9%87%91.pdf) — 有料の延長保証でご購入から最長3年間まで保証を延長できます。（走行距離無制限）. □プラス1年保証（24ヵ月間）、またはプラス2年保証（36ヵ月間）をお選びいただけます。 □12Vバッテリーは保証対象外です。 12Vバッテリー以外は「ワイド保証」と同一の保証内...\n\n[8] [車のバッテリーはいつ交換すべき？タイミングや費用、作業時間を解説](https://www.goo-net.com/magazine/carmaintenance/repair/211597/) — Jun 30, 2023 — 一般的には2年から3年程度、なかには5年以上の長期保証を設けているメーカーもあります。 保証期間内に故障が生じた場合、修理店で無料で交換してくれますが、保証期間の対象となる故障には制限があるので注意が必要です。\n\n[9] [e\\-POWERは時代遅れ？最悪・迷惑・うるさいって本当？日産eパワーの ...](https://takahashi-jiko.com/news/blog/456/) — Sep 9, 2025 — e\\-POWERのバッテリー寿命と耐久性 実際には、e\\-POWERのリチウムイオンバッテリーは8～10年が寿命の目安です。 ただし、60～75％の範囲で使うよう制御されており、過度な負荷がかからないため長持ちしやすいのが特徴です。 さらに日産は、e\\-POWERの...\n\n[10] [セレナe\\-POWERのバッテリー寿命は？評判まとめ \\- クルマノート](https://tenryu-r.sakura.ne.jp/review/430/) — 5年または10万kmの保証が付帯 日産のe\\-POWER搭載車には、5年または10万kmのバッテリー保証が付帯されており、これは一般的な使用状況において、バッテリーの寿命が保証期間内に尽きることはないと予測されているためだと考えられます。\n\n[11] [日産のE\\-powerは5年10万kmが保証範囲ですが、... \\- carview\\!](https://carview.yahoo.co.jp/ncar/catalog/nissan/chiebukuro/detail/?qid=10301231450) — 日産のE\\-powerは5年10万kmが保証範囲ですが、超えると壊れやすいということですか？ 日産のE\\-powerは5年10万kmが保証範囲ですが、超えると壊れやすいということですか？ 「みんなの質問」はYahoo\\!知恵袋の「自動車」カテゴリとデータを共有してい...\n\n[12] [How does the Nissan warranty work and what does it cover?](https://davesolonnissan.com/blog/how-does-the-nissan-warranty-work-and-what-does-it-cover) — The Nissan warranty covers a variety of components and systems in your vehicle, including the powertrain, suspension, electrical, ...\n\n[13] [What Does the Nissan Powertrain Warranty Cover?](https://www.tannernissan.com/nissan-information/what-does-nissan-powertrain-warranty-cover/) — The Nissan Powertrain Warranty covers your transmission, transaxle, engine, drivetrain, and restraint system, as well as other com...\n\n[14] [Nissan 3\\-year warranty – everything you need to know \\| Motorpoint](https://www.motorpoint.co.uk/guides/nissan-3-year-warranty) — How long is Nissan's EV battery warranty? Nissan offers a separate, longer warranty for the high\\-voltage battery packs that power ...\n\n[15] [Kia Carens Clavis Warranty Explained: Coverage, Duration, \\u0026 Claim Process](https://www.spinny.com/blog/kia-carens-clavis-warranty-explained-coverage-duration-claim-process/) — Electrical \\u0026 Electronic Systems: All the factory\\-fitted electronic systems, including sensors, wiring harnesses, control modules, ...\n\n[16] [日産「リーフ」リチウムイオン電池の容量保証を13年に開始 ...](https://motor-fan.jp/article/784471/) — INDEX. □リーフのバッテリー容量の保証をスタート; ガソリン車の部品の保証期間は、3年/6万kmまたは5年/10万km; EVのリチウムイオン電池の劣化要因; EVのリチウムイオン電池のメーカー保証 · INDEX. □リーフのバッテリー容量の保証をスタ...\n\n[17] [Warranty Booklet and Maintenance Record](https://www.nissan.co.uk/content/dam/Nissan/gb/brochures/Warranties/warranty_book.pdf) — Within the relevant period of time and mileage specified on the Warranty Certificate at the front of this booklet, an authorised N...\n\n[18] [Nissan Factory Warranty: Everything You Need To Know](https://www.group1nissan.co.za/blog/general/nissan-factory-warranty/) — The Nissan factory warranty is designed to cover any defects in material or workmanship, which take place during the first three y...\n\n[19] [Hisun 4WD Utility Vehicle Warranty – The Electric Motor Vehicle Company](https://electricmv.co.nz/product/hisun-4wd-utility-vehicle-warranty/) — 12V Accessory Battery Each vehicle also includes a 12V lead\\-acid battery \\(excluding the main motor\\). This battery:\n"
+  }
+}

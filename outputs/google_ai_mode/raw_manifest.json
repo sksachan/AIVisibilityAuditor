@@ -1,0 +1,1011 @@
+{
+  "raw_manifest": [
+    {
+      "query_id": "q001",
+      "query": "How far can modern small electric cars travel on a single charge for daily city driving in Japan?",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q001_how_far_can_modern_small_electric_cars_travel_on_a_single_charge_for_daily_city__5a0851b6dd.json",
+      "raw_chars": 23228,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 17,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q002",
+      "query": "Typical home charger installation costs and technical requirements for EV owners in Japan?",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q002_typical_home_charger_installation_costs_and_technical_requirements_for_ev_owners_9bfb6a0b38.json",
+      "raw_chars": 24077,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 15,
+      "reference_count": 14,
+      "answer_supporting_reference_count": 14,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q003",
+      "query": "How long do DC fast chargers typically take to add range for midsize electric SUVs during long trips in Japan?",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q003_how_long_do_dc_fast_chargers_typically_take_to_add_range_for_midsize_electric_su_52f18bc6ec.json",
+      "raw_chars": 20268,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 7,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 17,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q004",
+      "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q004_what_battery_warranty_terms_are_common_for_evs_sold_in_japan_and_what_do_they_us_c6defeadde.json",
+      "raw_chars": 24689,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 13,
+      "reference_count": 20,
+      "answer_supporting_reference_count": 20,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q005",
+      "query": "How to plan long-distance trips in Japan with public charging stops and recommended route apps?",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q005_how_to_plan_long_distance_trips_in_japan_with_public_charging_stops_and_recommen_194cfa6eff.json",
+      "raw_chars": 18146,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 10,
+      "answer_supporting_reference_count": 10,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q006",
+      "query": "Nissan Ariya real-world range and energy use for Japanese city and highway driving",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q006_nissan_ariya_real_world_range_and_energy_use_for_japanese_city_and_highway_drivi_8895c60dc0.json",
+      "raw_chars": 25766,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 13,
+      "reference_count": 19,
+      "answer_supporting_reference_count": 19,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q007",
+      "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q007_nissan_leaf_battery_warranty_coverage_and_conditions_in_japan_8099fd4f66.json",
+      "raw_chars": 26745,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 20,
+      "answer_supporting_reference_count": 19,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q008",
+      "query": "Nissan home charger installation guidance and recommended suppliers in Japan",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q008_nissan_home_charger_installation_guidance_and_recommended_suppliers_in_japan_5d4b519147.json",
+      "raw_chars": 16930,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 12,
+      "answer_supporting_reference_count": 10,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q009",
+      "query": "Nissan Ariya compatibility with Japan public fast charging networks and connector types",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q009_nissan_ariya_compatibility_with_japan_public_fast_charging_networks_and_connecto_5f0d54c72e.json",
+      "raw_chars": 20558,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 15,
+      "answer_supporting_reference_count": 13,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q010",
+      "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+      "brand_topic_category": "EV range, charging and battery confidence",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q010_nissan_leaf_tips_for_maximising_battery_life_and_range_in_japan_s_climate_2b344d3ae6.json",
+      "raw_chars": 22818,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 8,
+      "reference_count": 19,
+      "answer_supporting_reference_count": 17,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q011",
+      "query": "Hybrid vs petrol: which is cheaper to run for Japanese city commuters over 5 years?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q011_hybrid_vs_petrol_which_is_cheaper_to_run_for_japanese_city_commuters_over_5_year_bbca346a9b.json",
+      "raw_chars": 27918,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 5,
+      "reference_count": 23,
+      "answer_supporting_reference_count": 21,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q012",
+      "query": "Series-hybrid versus parallel-hybrid: which suits frequent stop-start city driving in Japan?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q012_series_hybrid_versus_parallel_hybrid_which_suits_frequent_stop_start_city_drivin_80e9d582e4.json",
+      "raw_chars": 12379,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 4,
+      "answer_supporting_reference_count": 4,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q013",
+      "query": "Fuel economy differences between small hybrids and petrol cars for urban routes in Japan",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q013_fuel_economy_differences_between_small_hybrids_and_petrol_cars_for_urban_routes__7d07f37be0.json",
+      "raw_chars": 26789,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 13,
+      "reference_count": 19,
+      "answer_supporting_reference_count": 19,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q014",
+      "query": "What are typical maintenance costs for hybrid powertrains in Japan compared to petrol engines?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q014_what_are_typical_maintenance_costs_for_hybrid_powertrains_in_japan_compared_to_p_6d06e2ab83.json",
+      "raw_chars": 27313,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 22,
+      "answer_supporting_reference_count": 20,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q015",
+      "query": "Which powertrain is best for frequent short trips and stop-start traffic in Japanese cities?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q015_which_powertrain_is_best_for_frequent_short_trips_and_stop_start_traffic_in_japa_c6ccec2802.json",
+      "raw_chars": 28538,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 21,
+      "answer_supporting_reference_count": 21,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q016",
+      "query": "Nissan e-POWER running costs versus equivalent petrol models in Japan",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q016_nissan_e_power_running_costs_versus_equivalent_petrol_models_in_japan_fb5fac9d0f.json",
+      "raw_chars": 37464,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 15,
+      "reference_count": 29,
+      "answer_supporting_reference_count": 28,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q017",
+      "query": "How does Nissan e-POWER work and what maintenance does it require in Japan?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q017_how_does_nissan_e_power_work_and_what_maintenance_does_it_require_in_japan_9ca84c756d.json",
+      "raw_chars": 38672,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 9,
+      "reference_count": 33,
+      "answer_supporting_reference_count": 31,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q018",
+      "query": "Nissan hybrid model fuel economy figures and real-world performance in Japan",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q018_nissan_hybrid_model_fuel_economy_figures_and_real_world_performance_in_japan_9b063e2c35.json",
+      "raw_chars": 25211,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 13,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 17,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q019",
+      "query": "Which Nissan e-POWER model is recommended for heavy urban traffic and frequent stops in Japan?",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q019_which_nissan_e_power_model_is_recommended_for_heavy_urban_traffic_and_frequent_s_a823334a53.json",
+      "raw_chars": 26595,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 8,
+      "reference_count": 20,
+      "answer_supporting_reference_count": 18,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q020",
+      "query": "Compare Nissan e-POWER vs conventional hybrid systems for hill starts and steep roads",
+      "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q020_compare_nissan_e_power_vs_conventional_hybrid_systems_for_hill_starts_and_steep__b4fab679ad.json",
+      "raw_chars": 37964,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 29,
+      "answer_supporting_reference_count": 26,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q021",
+      "query": "Cars with flexible seating and enough room for child seats and large strollers for Japanese families",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q021_cars_with_flexible_seating_and_enough_room_for_child_seats_and_large_strollers_f_7e0345e7a7.json",
+      "raw_chars": 30820,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 18,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q022",
+      "query": "How much boot space do families need for weekend trips with two children in Japan?",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q022_how_much_boot_space_do_families_need_for_weekend_trips_with_two_children_in_japa_76200993ff.json",
+      "raw_chars": 9198,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 2,
+      "answer_supporting_reference_count": 2,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q023",
+      "query": "Which vehicles offer ISOFIX positions and easy child-seat access for Japanese family use?",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q023_which_vehicles_offer_isofix_positions_and_easy_child_seat_access_for_japanese_fa_663f9ea0b4.json",
+      "raw_chars": 24625,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 21,
+      "reference_count": 14,
+      "answer_supporting_reference_count": 14,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q024",
+      "query": "Best family cars for frequent long highway trips between Tokyo and regional areas in Japan",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q024_best_family_cars_for_frequent_long_highway_trips_between_tokyo_and_regional_area_e0bca631b8.json",
+      "raw_chars": 28071,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 18,
+      "reference_count": 18,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q025",
+      "query": "Small minivan alternatives suitable for school runs and shopping in crowded Japanese streets",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q025_small_minivan_alternatives_suitable_for_school_runs_and_shopping_in_crowded_japa_47da94c112.json",
+      "raw_chars": 25593,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 16,
+      "reference_count": 15,
+      "answer_supporting_reference_count": 15,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q026",
+      "query": "Nissan Serena interior layout, seating flexibility and ISOFIX locations for families",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q026_nissan_serena_interior_layout_seating_flexibility_and_isofix_locations_for_famil_7b8c4f6947.json",
+      "raw_chars": 23184,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 9,
+      "reference_count": 19,
+      "answer_supporting_reference_count": 15,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q027",
+      "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q027_nissan_x_trail_boot_capacity_and_seat_fold_options_for_long_family_trips_89ce5ea32a.json",
+      "raw_chars": 16108,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 11,
+      "answer_supporting_reference_count": 11,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q028",
+      "query": "Nissan NV200 cargo and seating options when used as a family shuttle in Japan",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q028_nissan_nv200_cargo_and_seating_options_when_used_as_a_family_shuttle_in_japan_b3815d4c11.json",
+      "raw_chars": 21694,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q029",
+      "query": "Nissan Elgrand long-trip comfort features and seating arrangements for multi-passenger travel",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q029_nissan_elgrand_long_trip_comfort_features_and_seating_arrangements_for_multi_pas_be57be8d62.json",
+      "raw_chars": 20568,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 7,
+      "reference_count": 16,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q030",
+      "query": "Nissan Roox compact family car review for city parking in Japan",
+      "brand_topic_category": "Family practicality, space and comfort",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q030_nissan_roox_compact_family_car_review_for_city_parking_in_japan_80d28a5dac.json",
+      "raw_chars": 25629,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 18,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q031",
+      "query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q031_what_adas_features_reduce_low_speed_city_collisions_in_japan_and_how_do_they_wor_6b3bbbd72a.json",
+      "raw_chars": 37534,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 16,
+      "reference_count": 31,
+      "answer_supporting_reference_count": 30,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q032",
+      "query": "How to interpret Japanese crash-test ratings and what should families prioritise?",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q032_how_to_interpret_japanese_crash_test_ratings_and_what_should_families_prioritise_0622c806d1.json",
+      "raw_chars": 22989,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 13,
+      "reference_count": 14,
+      "answer_supporting_reference_count": 13,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q033",
+      "query": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q033_common_reliability_issues_to_check_when_buying_a_used_car_in_japan_and_how_to_sp_2ffa75849f.json",
+      "raw_chars": 18653,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 5,
+      "reference_count": 15,
+      "answer_supporting_reference_count": 15,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q034",
+      "query": "How long are typical powertrain and battery warranties for vehicles sold in Japan?",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q034_how_long_are_typical_powertrain_and_battery_warranties_for_vehicles_sold_in_japa_6d100f83fa.json",
+      "raw_chars": 17632,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 8,
+      "reference_count": 14,
+      "answer_supporting_reference_count": 13,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q035",
+      "query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q035_questions_to_ask_a_dealer_about_safety_feature_calibration_and_software_updates__300ff1d9f4.json",
+      "raw_chars": 11910,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 8,
+      "answer_supporting_reference_count": 8,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q036",
+      "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q036_nissan_propilot_features_and_real_world_performance_on_japanese_expressways_f4196aa6e6.json",
+      "raw_chars": 37055,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 14,
+      "reference_count": 29,
+      "answer_supporting_reference_count": 28,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q037",
+      "query": "Nissan crash test results and any safety awards for Japan-market models",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q037_nissan_crash_test_results_and_any_safety_awards_for_japan_market_models_6e85554446.json",
+      "raw_chars": 17668,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 12,
+      "answer_supporting_reference_count": 12,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q038",
+      "query": "Nissan warranty coverage details for powertrain and battery in Japan",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q038_nissan_warranty_coverage_details_for_powertrain_and_battery_in_japan_caf474b8da.json",
+      "raw_chars": 24242,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 20,
+      "answer_supporting_reference_count": 18,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q039",
+      "query": "Nissan reliability record and common service items for owners in Japan",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q039_nissan_reliability_record_and_common_service_items_for_owners_in_japan_b0fd375368.json",
+      "raw_chars": 31332,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 20,
+      "reference_count": 23,
+      "answer_supporting_reference_count": 21,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q040",
+      "query": "How Nissan's safety systems compare with competitors in Japanese crash tests",
+      "brand_topic_category": "Safety, reliability and trust",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q040_how_nissan_s_safety_systems_compare_with_competitors_in_japanese_crash_tests_a699d0109f.json",
+      "raw_chars": 22507,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "inline_images",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 10,
+      "reference_count": 15,
+      "answer_supporting_reference_count": 15,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q041",
+      "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q041_how_to_calculate_total_cost_of_ownership_for_a_compact_car_in_japan_over_5_years_f14b72535a.json",
+      "raw_chars": 31060,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 20,
+      "reference_count": 21,
+      "answer_supporting_reference_count": 20,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q042",
+      "query": "Typical PCP and lease terms available for family cars in Japan and how to compare them",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q042_typical_pcp_and_lease_terms_available_for_family_cars_in_japan_and_how_to_compar_020e3168f5.json",
+      "raw_chars": 25138,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 8,
+      "reference_count": 19,
+      "answer_supporting_reference_count": 19,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q043",
+      "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q043_how_do_government_ev_subsidies_and_tax_breaks_in_japan_affect_monthly_payments_5f3227e5af.json",
+      "raw_chars": 25365,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 14,
+      "reference_count": 17,
+      "answer_supporting_reference_count": 16,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q044",
+      "query": "Insurance cost differences between kei cars and compact cars in Japan",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q044_insurance_cost_differences_between_kei_cars_and_compact_cars_in_japan_04e83eed1d.json",
+      "raw_chars": 25730,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 15,
+      "reference_count": 18,
+      "answer_supporting_reference_count": 18,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q045",
+      "query": "Resale value factors that most affect small SUVs in the Japanese market",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q045_resale_value_factors_that_most_affect_small_suvs_in_the_japanese_market_6d942a9e25.json",
+      "raw_chars": 29840,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 18,
+      "reference_count": 23,
+      "answer_supporting_reference_count": 22,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q046",
+      "query": "Nissan offers and finance deals for new models in Japan today",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q046_nissan_offers_and_finance_deals_for_new_models_in_japan_today_ad669f3a66.json",
+      "raw_chars": 12832,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 9,
+      "reference_count": 9,
+      "answer_supporting_reference_count": 9,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q047",
+      "query": "Nissan leasing and PCP options available at Japanese dealers and how to choose between them",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q047_nissan_leasing_and_pcp_options_available_at_japanese_dealers_and_how_to_choose_b_bff5527977.json",
+      "raw_chars": 35281,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 15,
+      "reference_count": 25,
+      "answer_supporting_reference_count": 25,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q048",
+      "query": "Nissan e-POWER model running costs and estimated resale value in Japan",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q048_nissan_e_power_model_running_costs_and_estimated_resale_value_in_japan_00a43e81e2.json",
+      "raw_chars": 25612,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 21,
+      "answer_supporting_reference_count": 18,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q049",
+      "query": "Nissan EV subsidy eligibility and how it applies to Nissan purchases in Japan",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q049_nissan_ev_subsidy_eligibility_and_how_it_applies_to_nissan_purchases_in_japan_0fdcff06dd.json",
+      "raw_chars": 27652,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 12,
+      "reference_count": 20,
+      "answer_supporting_reference_count": 17,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    },
+    {
+      "query_id": "q050",
+      "query": "Estimating running costs for a Nissan Leaf over five years in Japan",
+      "brand_topic_category": "Value, offers, finance and total cost of ownership",
+      "status": "success",
+      "raw_file": "/Users/shasacha0/Desktop/LocalPipeline/local_ai_visibility/outputs/google_ai_mode/raw/q050_estimating_running_costs_for_a_nissan_leaf_over_five_years_in_japan_3b2af895dd.json",
+      "raw_chars": 31406,
+      "raw_top_level_keys": [
+        "search_metadata",
+        "search_parameters",
+        "text_blocks",
+        "references",
+        "reconstructed_markdown"
+      ],
+      "text_block_count": 11,
+      "reference_count": 21,
+      "answer_supporting_reference_count": 21,
+      "related_question_count": 0,
+      "inline_video_count": 0
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "url": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 6000,
+    "wordish_count": 859,
+    "heading_count": 8,
+    "bullet_count": 31,
+    "link_count": 40,
+    "image_count": 9,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 42,
+    "numeric_fact_count": 33,
+    "question_count": 0,
+    "unique_line_count": 103,
+    "numeric_facts_sample": [
+      "2.0",
+      "2019",
+      "3",
+      "10",
+      "260410",
+      "102657",
+      "250326",
+      "112449",
+      "260424",
+      "183851",
+      "2025",
+      "03",
+      "10553517",
+      "2",
+      "06",
+      "6",
+      "04",
+      "1",
+      "0"
+    ],
+    "links_sample": [
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo02_wh_pc.png?260410-102657",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-x_wh.svg?250326-112449",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-linkedin_wh.png?260424-183851",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-youtube_wh.svg?260424-183851",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/03/10553517a0110643202031e26d634044-2.jpg",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/06/6d1cfee1873d72c4ff0b68115f19ffa6.jpg",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/04/b7795917c9718c941c6f94f9936b2e59.jpg",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/04/1a8f497e22643d9c7e79d9f696e054a1.jpg",
+      "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-fb_wh.svg?250326-112449",
+      "https://www.dynamic-maps.co.jp/en/",
+      "https://www.dynamic-maps.co.jp/case/",
+      "https://www.dynamic-maps.co.jp/en/case/",
+      "https://www.dynamic-maps.co.jp/en/service/",
+      "https://www.dynamic-maps.co.jp/en/service/hdmap/",
+      "https://www.dynamic-maps.co.jp/en/service/guidance/",
+      "https://www.dynamic-maps.co.jp/en/service/viewer/",
+      "https://www.dynamic-maps.co.jp/en/service/id/",
+      "https://www.dynamic-maps.co.jp/en/company/",
+      "https://www.dynamic-maps.co.jp/en/company/vision/",
+      "https://www.dynamic-maps.co.jp/en/company/access/",
+      "https://www.dynamic-maps.co.jp/en/company/overview/",
+      "https://www.dynamic-maps.co.jp/en/company/history/",
+      "https://www.dynamic-maps.co.jp/en/company/member/",
+      "https://www.dynamic-maps.co.jp/en/column/",
+      "https://www.dynamic-maps.co.jp/en/news/"
+    ],
+    "image_alt_count": 9
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": false,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 20,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 649,
+    "main_chars": 2122,
+    "footer_chars": 273,
+    "tables_chars": 0,
+    "metadata_chars": 139,
+    "full_markdown_chars": 6000
+  },
+  "metadata": {
+    "title": "Contribution to Hands-Off Drivingin the Skyline | Dynamic Map Platform Co., Ltd.",
+    "description": "",
+    "language": "en",
+    "sourceURL": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+    "robots": "max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/",
+      "text": "https://www.dynamic-maps.co.jp/en/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/case/",
+      "text": "JP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/",
+      "text": "EN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/service/",
+      "text": "SERVICE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/service/hdmap/",
+      "text": "Data for Autonomous Driving",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/service/guidance/",
+      "text": "Guidance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/service/viewer/",
+      "text": "Viewer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/service/id/",
+      "text": "Location Information Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/",
+      "text": "COMPANY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/vision/",
+      "text": "Vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/access/",
+      "text": "Access",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/overview/",
+      "text": "Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/history/",
+      "text": "History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/company/member/",
+      "text": "Member",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/",
+      "text": "CASE STUDY",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/column/",
+      "text": "COLUMN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/news/",
+      "text": "NEWS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/ir/",
+      "text": "IR",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/recruit/",
+      "text": "RECRUIT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/download/",
+      "text": "Request Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/download/sample-data/",
+      "text": "Sample data Request",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/contact/",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://x.com/dynamic_maps",
+      "text": "https://x.com/dynamic_maps",
+      "is_pdf": false
+    },
+    {
+      "url": "https://jp.linkedin.com/company/dynamic-map-platform",
+      "text": "https://jp.linkedin.com/company/dynamic-map-platform",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCvX2Cuj-pY15h7ZHTrwZBkQ",
+      "text": "https://www.youtube.com/channel/UCvX2Cuj-pY15h7ZHTrwZBkQ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/",
+      "text": "Case Study",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+      "text": "Contribution to Hands-Off Drivingin the Skyline",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/providing-hd-maps-for-autonomous-driving-development-environments-such-as-simulators/",
+      "text": "Example of Use Providing HD maps for autonomous driving development environments such as simulators Woven by Toyota, Inc.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/use-in-nissan-ariyas-cutting-edge-advanced-driver-assist-technologies/",
+      "text": "Example of Use Use in Nissan ARIYA’s cutting-edge advanced driver assist technologies Nissan Motor Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/use-in-nissan-serenas-propilot-2-0/",
+      "text": "Example of Use Use in Nissan Serena’s ProPILOT 2.0 Nissan Motor Co., Ltd.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/case/",
+      "text": "Back to Case Studies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/dynamic.maps/",
+      "text": "https://www.facebook.com/dynamic.maps/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/privacy/",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/security/",
+      "text": "Basic Information Security Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.dynamic-maps.co.jp/en/terms/",
+      "text": "Terms of Site Use",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo02_wh_pc.png?260410-102657",
+      "alt": "DYNAMIC MAP PLATFORM 10th"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-x_wh.svg?250326-112449",
+      "alt": "X"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-linkedin_wh.png?260424-183851",
+      "alt": "LinkedIn"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-youtube_wh.svg?260424-183851",
+      "alt": "YouTube"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/03/10553517a0110643202031e26d634044-2.jpg",
+      "alt": "Contribution to Hands-Off Drivingin the Skyline"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/06/6d1cfee1873d72c4ff0b68115f19ffa6.jpg",
+      "alt": "Providing HD maps for autonomous driving development environments such as simulators"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/04/b7795917c9718c941c6f94f9936b2e59.jpg",
+      "alt": "Use in Nissan ARIYA’s cutting-edge advanced driver assist technologies"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/uploads/2025/04/1a8f497e22643d9c7e79d9f696e054a1.jpg",
+      "alt": "Use in Nissan Serena’s ProPILOT 2.0"
+    },
+    {
+      "src": "https://www.dynamic-maps.co.jp/en/wp_dmp/wp-content/themes/centered-rwd/assets/images/common/logo_sns-fb_wh.svg?250326-112449",
+      "alt": "Facebook"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+    "title": "Contribution to Hands-Off Drivingin the Skyline | Dynamic Map Platform Co., Ltd.",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:12:44.918815+00:00",
+  "source_meta": {
+    "title": "Contribution to Hands-Off Drivingin the Skyline",
+    "url": "https://www.dynamic-maps.co.jp/en/case/contribution-to-hands-off-drivingin-the-skyline/",
+    "source_name": "ダイナミックマッププラットフォーム株式会社",
+    "source_domain": "www.dynamic-maps.co.jp",
+    "source_type": "other",
+    "snippet": "Nissan Motor Co., Ltd. Model Skyline. Target feature ProPilot 2.0. Date of introduction September 2019. Customer Nissan Motor Corp...",
+    "citation_count": 2,
+    "first_cited_position": 6,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

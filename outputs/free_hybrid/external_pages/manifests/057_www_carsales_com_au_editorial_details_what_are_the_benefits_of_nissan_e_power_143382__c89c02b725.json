@@ -1,0 +1,1102 @@
+{
+  "url": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 23609,
+    "wordish_count": 3436,
+    "heading_count": 8,
+    "bullet_count": 120,
+    "link_count": 144,
+    "image_count": 24,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 146,
+    "numeric_fact_count": 214,
+    "question_count": 32,
+    "unique_line_count": 347,
+    "numeric_facts_sample": [
+      "1",
+      "143382",
+      "2",
+      "2024",
+      "1.5",
+      "900km",
+      "1000km",
+      "02",
+      "4",
+      "52,888",
+      "3",
+      "18",
+      "2023",
+      "15",
+      "2026",
+      "31",
+      "16",
+      "2025",
+      "5",
+      "1999",
+      "1774",
+      "1024",
+      "682",
+      "6749",
+      "7"
+    ],
+    "links_sample": [
+      "https://resource.csnstatic.com/retail/globals/logo/v3/carsales.svg",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail_1774-dpxi.jpg?width=1024&height=682",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6749-7sub.jpg?width=1024&height=682",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6938.jpg?width=1024&height=682",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-1765-ver2-8vsy.jpg?width=1024&height=682",
+      "https://motoring.pxcrush.net/motoring/general/editorial/nissan-logo-resized-300x96-1.jpg?width=100",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-1798.jpg?width=1024&height=682",
+      "https://resource.csnstatic.com/research/taco/shared/instant-offer.jpg",
+      "https://resource.csnstatic.com/research/taco/hub-drivers/family.jpg",
+      "https://editorial.pxcrush.net/carsales/general/editorial/trade-in-creative-resizing-1024-x-683-px.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/2022-nissan-x-trail-ti-4wd-016-apl7.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6814.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-e4orce-115.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/2023-hybrid-suv-comparison04.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-ti-l-e-power-21.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/260414-01_xtrail_rogue-a2xg.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/2026-nissan-x-trail-st-l-01.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/1-9t6g.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://editorial.pxcrush.net/carsales/general/editorial/nissan_x-trail_drive_024-cjzy.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/carsales/QR_download_app_cta.png",
+      "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/AppStoreDownload.svg",
+      "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/GooglePlayDownload.svg",
+      "https://tracking.carsales.com.au/fav.ico?SessionId=1778853941684&ServerName=www.carsales.com.au&referrerUri=&pg=/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/&UserId=&ts=1778853941684&VisitorId=&ExtUId=&kxuser=SearchTS=20260515-140540-5145617&trksrc=v2&area=news and reviews&pagetype=&EventType=SR&CsnEventId=dcdb1744-b4f9-4354-bb43-eb36e76d9338&geocc=&SearchResultCount=&SearchItemsPerPage=&SearchParams=&NetworkIdList=",
+      "https://tracking.carsales.com.au/fav.ico?SessionId=1778853941684&ServerName=www.carsales.com.au&referrerUri=&pg=/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/&UserId=&ts=1778853941684&VisitorId=&ExtUId=&kxuser=SearchTS=20260515-140540-5145617&trksrc=v2&area=news and reviews&pagetype=&EventType=GSR&CsnEventId=dcdb1744-b4f9-4354-bb43-eb36e76d9338&geocc=&SearchResultCount=&SearchItemsPerPage=&SearchParams=&NetworkIdList=",
+      "https://www.carsales.com.au"
+    ],
+    "image_alt_count": 24
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "NewsArticle",
+      "Webpage",
+      "Organization",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "published on this website is of a general nature only and doesn’t consider your particular"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": true,
+    "nav_noise_terms": 4,
+    "content_terms": 374,
+    "noise_ratio": 0.01
+  },
+  "content_regions": {
+    "header_chars": 1087,
+    "main_chars": 8333,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 313,
+    "full_markdown_chars": 23609
+  },
+  "metadata": {
+    "title": "What are the benefits offered by Nissan e-POWER? - carsales.com.au",
+    "description": "Impressive range¹, easy refuelling, sublime refinement – e-POWER elevates your driving experience",
+    "language": "en-AU",
+    "sourceURL": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "NewsArticle",
+      "Webpage",
+      "Organization",
+      "ImageObject"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.carsales.com.au",
+      "text": "https://www.carsales.com.au",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/",
+      "text": "Buy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/",
+      "text": "All cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/new/",
+      "text": "New cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/used/",
+      "text": "Used cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/dealer/",
+      "text": "Dealer cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/private/",
+      "text": "Private seller cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/?q=SpecialOffers.Special%20offers%20available.",
+      "text": "Special offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/electric-fueltype/",
+      "text": "Electric cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/car-finance/",
+      "text": "Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/?q=IsTradeInOfferEligible.Accepts%20carsales%20trade-in.",
+      "text": "carsales trade-in cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/car-inspections/",
+      "text": "Inspections",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/audi/",
+      "text": "Audi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/bmw/",
+      "text": "BMW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/ford/",
+      "text": "Ford",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/holden/",
+      "text": "Holden",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/hyundai/",
+      "text": "Hyundai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/kia/",
+      "text": "Kia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/mazda/",
+      "text": "Mazda",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/mercedes-benz/",
+      "text": "Mercedes-Benz",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/mitsubishi/",
+      "text": "Mitsubishi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/nissan/",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/tesla/",
+      "text": "Tesla",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/toyota/",
+      "text": "Toyota",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/cab-chassis-bodystyle/",
+      "text": "Cab Chassis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/convertible-bodystyle/",
+      "text": "Convertible",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/coupe-bodystyle/",
+      "text": "Coupe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/hatch-bodystyle/",
+      "text": "Hatch",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/sedan-bodystyle/",
+      "text": "Sedan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/suv-bodystyle/",
+      "text": "SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/ute-bodystyle/",
+      "text": "Ute",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/van-bodystyle/",
+      "text": "Van",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/wagon-bodystyle/",
+      "text": "Wagon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/australian-capital-territory-state/",
+      "text": "ACT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/new-south-wales-state/",
+      "text": "NSW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/northern-territory-state/",
+      "text": "NT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/queensland-state/",
+      "text": "QLD",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/south-australia-state/",
+      "text": "SA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/tasmania-state/",
+      "text": "TAS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/victoria-state/",
+      "text": "VIC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/western-australia-state/",
+      "text": "WA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/sell-my-car?ret=internal-carsales-desktop-top-nav&driver_crosssell=carsales.sell_top_nav.link",
+      "text": "Sell",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/sell-my-car?ret=internal-carsales-desktop-top-nav&driver_crosssell=carsales.sell_create_sub_nav.link",
+      "text": "Create an ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/instant-offer?ret=internal-carsales-desktop-top-nav&driver_crosssell=carsales.sell_instant_offer_sub_nav.link",
+      "text": "Get an Instant Offer™",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/trade-in/",
+      "text": "Trade-in NEW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/seller/listings/?ret=internal-carsales-desktop-top-nav&driver_crosssell=carsales.sell_manage_sub_nav.link",
+      "text": "Manage your ad or draft",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/payments",
+      "text": "Get paid through carsales",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/car-valuations/",
+      "text": "Value my car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/",
+      "text": "Research",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/",
+      "text": "Research all cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/",
+      "text": "All news and reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/car-news/",
+      "text": "News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/car-reviews/",
+      "text": "Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/car-advice/",
+      "text": "Advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/best-cars/",
+      "text": "Best cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/owner-reviews/",
+      "text": "Owner reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/car-comparisons/",
+      "text": "Compare cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/electric-cars-category/",
+      "text": "Electric cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/car-of-the-year/",
+      "text": "Car of the year",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/audi/",
+      "text": "Audi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/bmw/",
+      "text": "BMW",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/ford/",
+      "text": "Ford",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/holden/",
+      "text": "Holden",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/hyundai/",
+      "text": "Hyundai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/kia/",
+      "text": "Kia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/mazda/",
+      "text": "Mazda",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/mercedes-benz/",
+      "text": "Mercedes-Benz",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/mitsubishi/",
+      "text": "Mitsubishi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/nissan/",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/tesla/",
+      "text": "Tesla",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/toyota/",
+      "text": "Toyota",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/showroom/",
+      "text": "Showroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/electric-lifestyle/",
+      "text": "Electric cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/new-cars/certified-programs/",
+      "text": "Certified pre-owned",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/new-car-calendar-11034/ ",
+      "text": "New car calendar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/cab-chassis-bodytype/",
+      "text": "Cab Chassis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/convertible-bodytype/",
+      "text": "Convertible",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/coupe-bodytype/",
+      "text": "Coupe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/hatch-bodytype/",
+      "text": "Hatch",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/sedan-bodytype/",
+      "text": "Sedan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/suv-bodytype/",
+      "text": "SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/ute-bodytype/",
+      "text": "Ute",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/van-bodytype/",
+      "text": "Van",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research/wagon-bodytype/",
+      "text": "Wagon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/auth?memberdriver=main_driver&src=notifications&ret=%2f",
+      "text": "Sign up or log in",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/auth?memberdriver=main_driver&src=sitenav&ret=http%3a%2f%2fwww.carsales.com.au%2feditorial%2fdetails%2fwhat-are-the-benefits-of-nissan-e-power-143382%2f",
+      "text": "Sign up/Log in",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/sell-my-car/?ret=internal-carsales-desktop-top-nav&driver_crosssell=carsales.sell_my_car_top_nav",
+      "text": "Sell my car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/research",
+      "text": "Research",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/results/?q=(Or.PostType.Car%20Advice._.PostType.Car%20Features.)",
+      "text": "Advice and guides",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/editorial-guidelines#sponsored-content",
+      "text": "About this content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/what-is-nissan-e-power-143381/?__source=editorialArticle&driver_crosssell=editorial.in.article.link",
+      "text": "Nissan e-POWER",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/what-is-nissan-e-power-143381/?__source=editorialArticle&driver_crosssell=editorial.in.article.link",
+      "text": "What is Nissan e-Power?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/what-is-nissan-e-pedal-143380/?__source=editorialArticle&driver_crosssell=editorial.in.article.link",
+      "text": "What is Nissan e-Pedal Step?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/what-nissan-models-offer-e-power-143383/?__source=editorialArticle&driver_crosssell=editorial.in.article.link",
+      "text": "What Nissan models offer e-POWER?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nissane-power.com.au/?utm_source=carsales&amp;utm_medium=referral&amp;utm_campaign=ePOWER2024&amp;utm_content=advertorial",
+      "text": "Discover more about Nissan X-TRAIL e-Power",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/nissan/",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/nissan/x-trail/",
+      "text": "X-TRAIL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/car-advice/",
+      "text": "Car Advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/car-advice/buying-a-car/",
+      "text": "Buying A Car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/suv-bodytype/",
+      "text": "SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/family-cars-category/",
+      "text": "Family Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/editorial/hybrid-cars-category/",
+      "text": "Hybrid Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/details/2024-nissan-x-trail-ti-e-power-t33-auto-e-4orce-my25/OAG-AD-25189865/",
+      "text": "2024 Nissan X-TRAIL Ti e-POWER T33 Auto e-4ORCE MY25 $52,888 Drive Away",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/price-guide",
+      "text": "Drive Away",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/details/2024-nissan-x-trail-st-l-e-power-t33-auto-e-4orce-my23/OAG-AD-25834697/",
+      "text": "2024 Nissan X-TRAIL ST-L e-POWER T33 Auto e-4ORCE MY23 $36,990 Drive Away",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/cars/?q=%28And.AdsWith.Prices._.AdsWith.Photos._.%28Or.%28C.Make.Nissan._.%28C.Model.X-TRAIL._.Badge.ST-L%20e-POWER.%29%29_.%28C.Make.Nissan._.%28C.Model.X-TRAIL._.Badge.Ti%20e-POWER.%29%29_.%28C.Make.Nissan._.%28C.Model.X-TRAIL._.Badge.Ti-L%20e-POWER.%29%29%29%29",
+      "text": "View all stock",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/user-preferences",
+      "text": "Subscribe today",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/instant-offer/?driver_crosssell=carsales.editorial.get_an_instant_offer_generic_banner.link",
+      "text": "Get a free Instant Offer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/instant-offer/terms-and-conditions",
+      "text": "Instant Offer T&Cs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/family-cars/",
+      "text": "Explore the Family Hub",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/carsales-trade-in-a-simpler-way-to-turn-the-car-you-have-into-the-car-you-want-151580/",
+      "text": "ADVICE carsales trade-in: A simpler way to turn the car you have into the car you want Mar 18th · Carsales Staff",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/nissan-x-trail-what-you-need-to-know-110100/",
+      "text": "ADVICE Nissan X-TRAIL – What you need to know Jul 2023 · Mark Higgins",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/what-nissan-models-offer-e-power-143383/",
+      "text": "SPONSORED What Nissan models offer e-POWER? Mar 2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/nissan-x-trail-st-l-e-power-2023-review-143292/",
+      "text": "REVIEW Nissan X-TRAIL ST-L e-POWER 2023 Review 78 /100 Nov 2023 · Feann Torr",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/mitsubishi-outlander-phev-v-nissan-x-trail-e-power-2023-comparison-142211/",
+      "text": "REVIEW Mitsubishi Outlander PHEV v Nissan X-TRAIL e-POWER 2023 Comparison Aug 2023 · Bruce Newton",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/nissan-x-trail-e-power-2023-review-139589/",
+      "text": "REVIEW Nissan X-TRAIL e-POWER 2023 Review 77 /100 Feb 2023 · Bruce Newton",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/new-nissan-x-trail-unveiled-in-tokyo-151796/",
+      "text": "NEWS New Nissan X-Trail unveiled in Tokyo Apr 15th · Alexandra Lawrence",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/nissan-x-trail-st-l-2wd-2026-review-151698/",
+      "text": "REVIEW Nissan X-TRAIL ST-L 2WD 2026 Review 76 /100 Mar 31st · Trent Giunco",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/cut-price-nissan-x-trail-e-power-2wd-due-this-year-151596/",
+      "text": "NEWS Cut-price Nissan X-TRAIL e-POWER 2WD due this year Mar 16th · Callum Hunter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/details/2026-nissan-x-trail-priced-ahead-of-q1-arrival-150775/",
+      "text": "NEWS 2026 Nissan X-TRAIL priced ahead of Q1 arrival Nov 2025 · Callum Hunter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/editorial/results/?q=(Or.(C.Make.Nissan._.Model.X-TRAIL.)_.(C.Make.Nissan._.Model.X-TRAIL.)_.(C.Make.Nissan._.Model.X-TRAIL.))",
+      "text": "View more articles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carsales.com.au/info/editorial-guidelines/",
+      "text": "Editorial Guidelines & Code of Ethics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://help.carsales.com.au/hc/en-gb/articles/205144035",
+      "text": "Contact us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://help.carsales.com.au/hc/en-gb/",
+      "text": "Help",
+      "is_pdf": false
+    },
+    {
+      "url": "https://mediahouse.carsales.com.au/",
+      "text": "Corporate advertising",
+      "is_pdf": false
+    },
+    {
+      "url": "https://business.carsales.com.au/carsales-dealer-sign-up/",
+      "text": "Dealer advertising",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/about-us/",
+      "text": "About us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://careers.carsales.com.au/",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/competition-winners/",
+      "text": "Competitions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/trust-and-confidence/",
+      "text": "Safer with carsales",
+      "is_pdf": false
+    },
+    {
+      "url": "https://shareholder.carsales.com.au/",
+      "text": "Shareholders",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/sitemap/",
+      "text": "Sitemap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.bikesales.com.au/",
+      "text": "Bikes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.boatsales.com.au/",
+      "text": "Boats",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.caravancampingsales.com.au/",
+      "text": "Caravans",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.constructionsales.com.au/",
+      "text": "Construction",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.farmmachinerysales.com.au/",
+      "text": "Farm machinery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.redbook.com.au/",
+      "text": "RedBook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.trucksales.com.au/",
+      "text": "Trucks",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.chileautos.cl/",
+      "text": "Chileautos",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.encar.com/index.do",
+      "text": "Encar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.webmotors.com.br/",
+      "text": "Webmotors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/privacy-policy/",
+      "text": "Privacy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/responsible-disclosure-program/",
+      "text": "Responsible disclosure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/info/terms-conditions/",
+      "text": "Terms and Conditions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://apps.apple.com/au/app/carsales/id389044209",
+      "text": "https://apps.apple.com/au/app/carsales/id389044209",
+      "is_pdf": false
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=au.com.carsales",
+      "text": "https://play.google.com/store/apps/details?id=au.com.carsales",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.carsales.com.au/app?int_source=internal-linking&int_medium=footer&int_campaign=click-here-download-the-app",
+      "text": "Want more info? Here’s our app landing page",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/carsales.com.au",
+      "text": "https://www.facebook.com/carsales.com.au",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/carsaleschannel",
+      "text": "https://www.youtube.com/user/carsaleschannel",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/carsalescomau/",
+      "text": "https://www.instagram.com/carsalescomau/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/carsales.com.au/",
+      "text": "https://www.linkedin.com/company/carsales.com.au/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@carsalescomau/",
+      "text": "https://www.tiktok.com/@carsalescomau/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://resource.csnstatic.com/retail/globals/logo/v3/carsales.svg",
+      "alt": "Home"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail_1774-dpxi.jpg?width=1024&height=682",
+      "alt": "nissan x trail 1774 dpxi"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6749-7sub.jpg?width=1024&height=682",
+      "alt": "nissan x trail 6749 7sub"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6938.jpg?width=1024&height=682",
+      "alt": "nissan x trail 6938"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-1798.jpg?width=1024&height=682",
+      "alt": "nissan x trail 1798"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-1765-ver2-8vsy.jpg?width=1024&height=682",
+      "alt": "nissan x trail 1765 ver2 8vsy"
+    },
+    {
+      "src": "https://motoring.pxcrush.net/motoring/general/editorial/nissan-logo-resized-300x96-1.jpg?width=100",
+      "alt": "Nissan"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-1798.jpg?width=1024&height=682",
+      "alt": ""
+    },
+    {
+      "src": "https://carsales.pxcrush.net/carsales/car/cil/zxdlur585efn8v55f2jqd3rg4.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": ""
+    },
+    {
+      "src": "https://carsales.pxcrush.net/carsales/car/dealer/2gtgv6nyi1c7sigd8mz2m9b2q.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": ""
+    },
+    {
+      "src": "https://resource.csnstatic.com/research/taco/shared/instant-offer.jpg",
+      "alt": "Sell your car with Instant Offer™"
+    },
+    {
+      "src": "https://resource.csnstatic.com/research/taco/hub-drivers/family.jpg",
+      "alt": "Family"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/trade-in-creative-resizing-1024-x-683-px.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "carsales trade-in: A simpler way to turn the car you have into the car you want"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/2022-nissan-x-trail-ti-4wd-016-apl7.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Nissan X-TRAIL – What you need to know"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-6814.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "What Nissan models offer e-POWER?"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-e4orce-115.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Nissan X-TRAIL ST-L e-POWER 2023 Review"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/2023-hybrid-suv-comparison04.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Mitsubishi Outlander PHEV v Nissan X-TRAIL e-POWER 2023 Comparison"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan-x-trail-ti-l-e-power-21.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Nissan X-TRAIL e-POWER 2023 Review"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/260414-01_xtrail_rogue-a2xg.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "New Nissan X-Trail unveiled in Tokyo"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/2026-nissan-x-trail-st-l-01.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Nissan X-TRAIL ST-L 2WD 2026 Review"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/1-9t6g.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "Cut-price Nissan X-TRAIL e-POWER 2WD due this year"
+    },
+    {
+      "src": "https://editorial.pxcrush.net/carsales/general/editorial/nissan_x-trail_drive_024-cjzy.jpg?pxc_height=320&pxc_width=480&pxc_method=fitfill&pxc_bgtype=self",
+      "alt": "2026 Nissan X-TRAIL priced ahead of Q1 arrival"
+    },
+    {
+      "src": "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/carsales/QR_download_app_cta.png",
+      "alt": "DownloadAppCta"
+    },
+    {
+      "src": "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/AppStoreDownload.svg",
+      "alt": "AppStoreDownload"
+    },
+    {
+      "src": "https://resource.csnstatic.com/retail/merlin/retail-merlin-homepage/images/GooglePlayDownload.svg",
+      "alt": "GooglePlayDownload"
+    },
+    {
+      "src": "https://tracking.carsales.com.au/fav.ico?SessionId=1778853941684&ServerName=www.carsales.com.au&referrerUri=&pg=/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/&UserId=&ts=1778853941684&VisitorId=&ExtUId=&kxuser=SearchTS=20260515-140540-5145617&trksrc=v2&area=news and reviews&pagetype=&EventType=SR&CsnEventId=dcdb1744-b4f9-4354-bb43-eb36e76d9338&geocc=&SearchResultCount=&SearchItemsPerPage=&SearchParams=&NetworkIdList=",
+      "alt": ""
+    },
+    {
+      "src": "https://tracking.carsales.com.au/fav.ico?SessionId=1778853941684&ServerName=www.carsales.com.au&referrerUri=&pg=/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/&UserId=&ts=1778853941684&VisitorId=&ExtUId=&kxuser=SearchTS=20260515-140540-5145617&trksrc=v2&area=news and reviews&pagetype=&EventType=GSR&CsnEventId=dcdb1744-b4f9-4354-bb43-eb36e76d9338&geocc=&SearchResultCount=&SearchItemsPerPage=&SearchParams=&NetworkIdList=",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=27017573&Ver=2&mid=83057e48-04b5-4c2e-8ada-0a44464e94c0&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=What%20are%20the%20benefits%20offered%20by%20Nissan%20e-POWER%3F%20-%20carsales.com.au&kw=What%20are%20the%20benefits%20offered%20by%20Nissan%20e-POWER%3F,%20car%20reviews,%20news,%20advice,%20latest%20car%20news,%20cars,%20used%20cars,%20new%20cars%20,%20carsales%20-%20carsales.com.au&p=https%3A%2F%2Fwww.carsales.com.au%2Feditorial%2Fdetails%2Fwhat-are-the-benefits-of-nissan-e-power-143382%2F&r=&lt=1501&evt=pageLoad&sv=2&asc=D&cdb=AQAc&rn=948607",
+      "alt": ""
+    },
+    {
+      "src": "https://ib.adnxs.com/setuid?entity=315&code=9rqWSZvppvjQXaep7JBNrjBQ4iPYqd0oQaIkdq5yqUA&consent=1",
+      "alt": ""
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm&google_sc&google_ula=5153224&process_consent=T&google_hm=9rqWSZvppvjQXaep7JBNrjBQ4iPYqd0oQaIkdq5yqUA&pi=adx&tdc=ams",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "published on this website is of a general nature only and doesn’t consider your particular"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+    "title": "What are the benefits offered by Nissan e-POWER? - carsales.com.au",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:05:48.561460+00:00",
+  "source_meta": {
+    "title": "What are the benefits offered by Nissan e-POWER? - Carsales",
+    "url": "https://www.carsales.com.au/editorial/details/what-are-the-benefits-of-nissan-e-power-143382/",
+    "source_name": "Carsales",
+    "source_domain": "www.carsales.com.au",
+    "source_type": "publisher_review",
+    "snippet": "Mar 2, 2024 — Impressive range¹, easy refuelling, sublime refinement – e-POWER elevates your driving experience. There are many benefits to Niss...",
+    "citation_count": 3,
+    "first_cited_position": 9,
+    "answer_support_weight": 8,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Compare Nissan e-POWER vs conventional hybrid systems for hill starts and steep roads",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Compare Nissan e-POWER vs conventional hybrid systems for hill starts and steep roads",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

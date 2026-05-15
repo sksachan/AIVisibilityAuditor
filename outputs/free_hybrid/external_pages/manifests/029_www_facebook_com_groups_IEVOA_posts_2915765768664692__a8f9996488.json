@@ -1,0 +1,291 @@
+{
+  "url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 8435,
+    "wordish_count": 1355,
+    "heading_count": 8,
+    "bullet_count": 10,
+    "link_count": 11,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 1,
+    "raw_url_count": 16,
+    "numeric_fact_count": 569,
+    "question_count": 11,
+    "unique_line_count": 44,
+    "numeric_facts_sample": [
+      "2017",
+      "30kw",
+      "2915765768664692",
+      "2021年",
+      "5",
+      "4",
+      "6",
+      "7",
+      "2",
+      "3",
+      "120,000km",
+      "1",
+      "6435",
+      "9",
+      "210184191",
+      "111",
+      "536",
+      "23",
+      "00",
+      "2000",
+      "0",
+      "16",
+      "0001",
+      "7.9996",
+      "4.418"
+    ],
+    "links_sample": [
+      "https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/210184191_4242669029087463_7583218841714689152_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=536f4a&_nc_ohc=mfKUobqjtacQ7kNvwFm2mqq&_nc_oc=AdpYhnUD2al9xBxO09nzfzkeeZwNtbhAfVTgdljNA9oavqPejtchRdZmOmYppnu4Srk&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=mDI39dqPUfRzh0D0Kv1rQg&_nc_ss=7b289&oh=00_Af7OG9tu8iwQIV_KwoRUUs0-wlnDBpBOEKxASh8ymcKbuw&oe=6A2EACB4",
+      "https://www.facebook.com/images/cookies/cookie_info_card_image_1.png",
+      "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FIEVOA%2Fposts%2F2915765768664692%2F",
+      "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "https://www.facebook.com/groups/1602716789969603/?__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=-UC%2CP-R",
+      "https://www.facebook.com/groups/1602716789969603/?multi_permalinks=2915765768664692&hoisted_section_header_type=recently_seen&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=%2CO%2CP-R",
+      "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/?comment_id=2916038851970717&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "https://www.facebook.com/help/1561485474074139",
+      "https://www.facebook.com/policies/cookies/",
+      "https://www.facebook.com/privacy/policies/cookies/?annotations[0]=explanation%2F3_companies_list"
+    ],
+    "image_alt_count": 4
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2021年7月5日"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 5,
+    "content_terms": 17,
+    "noise_ratio": 0.29
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 678,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 195,
+    "full_markdown_chars": 8435
+  },
+  "metadata": {
+    "title": "Irish EV Association | Any tips on how to keep battery temperature down on 2017 30kw nissan leaf | Facebook",
+    "description": "Any tips on how to keep battery temperature down on 2017 30kw nissan leaf?",
+    "language": "ja",
+    "sourceURL": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+    "robots": "noodp,noydir",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FIEVOA%2Fposts%2F2915765768664692%2F",
+      "text": "ログイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "text": "アカウントを忘れた場合",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/1602716789969603/?__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=-UC%2CP-R",
+      "text": "Irish EV Association",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/1602716789969603/?multi_permalinks=2915765768664692&hoisted_section_header_type=recently_seen&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=%2CO%2CP-R",
+      "text": "2021年7月5日",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/photo/?fbid=4242669022420797&set=gm.2915765768664692&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=EH-R",
+      "text": "https://www.facebook.com/photo/?fbid=4242669022420797&set=gm.2915765768664692&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=EH-R",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/?comment_id=2916038851970717&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "text": "4年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/photo.php?fbid=10159566714812813&set=p.10159566714812813&type=3&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "text": "https://www.facebook.com/photo.php?fbid=10159566714812813&set=p.10159566714812813&type=3&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/?comment_id=2915829121991690&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "text": "4年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/?comment_id=2915937145314221&__cft__[0]=AZb9vzBHHalJAGsjzaYHoIG7kCaouLdAaC4Le9VojWj3omJnzGpiO-eDqCf4SrgQPOOh4PioMVqKbDX5P9ePo96ZUGI_wDybLfBA0JKKhs_ZLvEF4P-xmcVz3v1LUf-OJKV34ChK-xcCO8-JmoAMWeRUadcyp7fDLUNAQMCUTVsv5U0-XSlbXccvkgIxNVqNZcEJ2QQOVw6t3y8-9-1qe3wQ&__tn__=R]-R",
+      "text": "4年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "text": "パスワードを忘れた場合",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/help/1561485474074139",
+      "text": "Meta製品",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/policies/cookies/",
+      "text": "Cookieポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/privacy/policies/cookies/?annotations[0]=explanation%2F3_companies_list",
+      "text": "他社",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://scontent-lhr8-1.xx.fbcdn.net/v/t1.6435-9/210184191_4242669029087463_7583218841714689152_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=536f4a&_nc_ohc=mfKUobqjtacQ7kNvwFm2mqq&_nc_oc=AdpYhnUD2al9xBxO09nzfzkeeZwNtbhAfVTgdljNA9oavqPejtchRdZmOmYppnu4Srk&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=mDI39dqPUfRzh0D0Kv1rQg&_nc_ss=7b289&oh=00_Af7OG9tu8iwQIV_KwoRUUs0-wlnDBpBOEKxASh8ymcKbuw&oe=6A2EACB4",
+      "alt": "写真の説明はありません。"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E",
+      "alt": ""
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E",
+      "alt": ""
+    },
+    {
+      "src": "https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/469387669_10162724308322813_9010395653592854196_n.jpg?stp=dst-jpg_s526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=Ko1jz3EWqjYQ7kNvwF-LprX&_nc_oc=AdoPS0YY_fP-3aut9nAbTsFocouwIQVxoRzkcO8I9dMjBp33kh0SkAgVKsS3C9nLvII&_nc_zt=23&_nc_ht=scontent-lhr8-1.xx&_nc_gid=mDI39dqPUfRzh0D0Kv1rQg&_nc_ss=7b289&oh=00_Af6-qg1FAxTfKAFthyHMzuMxRDyB7wcRyzgxhg1RCzWEHw&oe=6A0D05E8",
+      "alt": "写真の説明はありません。"
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_1.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_3.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_4.png",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2021年7月5日"
+  ],
+  "static_fetch": {
+    "status_code": 400,
+    "final_url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+    "title": "Irish EV Association | Any tips on how to keep battery temperature down on 2017 30kw nissan leaf | Facebook",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:01:18.285887+00:00",
+  "source_meta": {
+    "title": "Any tips on how to keep battery temperature down on 2017 30kw ...",
+    "url": "https://www.facebook.com/groups/IEVOA/posts/2915765768664692/",
+    "source_name": "Facebook",
+    "source_domain": "www.facebook.com",
+    "source_type": "forum_community",
+    "snippet": "Jul 5, 2021 — Heat is the killer of your battery ... Nissan Leaf Rules -- for a long battery life with older Leafs: 1: Don't Drive when the outd...",
+    "citation_count": 2,
+    "first_cited_position": 12,
+    "answer_support_weight": 3,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

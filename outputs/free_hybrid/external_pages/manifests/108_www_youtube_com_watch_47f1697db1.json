@@ -1,0 +1,795 @@
+{
+  "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=29",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 19209,
+    "wordish_count": 3344,
+    "heading_count": 8,
+    "bullet_count": 95,
+    "link_count": 96,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 2,
+    "raw_url_count": 99,
+    "numeric_fact_count": 284,
+    "question_count": 103,
+    "unique_line_count": 292,
+    "numeric_facts_sample": [
+      "1",
+      "10",
+      "157",
+      "5",
+      "15",
+      "1828",
+      "3",
+      "2010",
+      "2015",
+      "2022",
+      "8.2",
+      "32",
+      "117",
+      "2.2",
+      "4",
+      "22,712",
+      "2021",
+      "09",
+      "06",
+      "2",
+      "6",
+      "7",
+      "8",
+      "2.34",
+      "140"
+    ],
+    "links_sample": [
+      "https://yt3.ggpht.com/ytc/AIdro_kBhG9n-kB4xujAXPvxhNjIQ_gnyY3Ck6qy0QQ7Id4NGMY=s48-c-k-c0x00ffffff-no-rj",
+      "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "https://www.youtube.com/",
+      "https://www.youtube.com/watch?v=Yeb7zft_79k",
+      "https://www.youtube.com/watch?v=pLjkkoGVDFo",
+      "https://www.youtube.com/watch?v=w11EphPXiA4",
+      "https://www.youtube.com/watch?v=drdXR-0sWjA",
+      "https://www.youtube.com/watch?v=hEFtOAGPKpw",
+      "https://www.youtube.com/watch?v=9k4jLJN6UsA",
+      "https://www.youtube.com/watch?v=L59Bl3rQTA4",
+      "https://www.youtube.com/watch?v=VLsdYHtE27s",
+      "https://www.youtube.com/watch?v=QVndY2v2EeQ",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=47s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=100s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=173s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=229s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=325s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=418s",
+      "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s&pp=0gcJCRQDDuyUWbzu",
+      "https://www.youtube.com/@NissanPhilippinesInc",
+      "https://www.youtube.com/channel/UCAyQsWXwhKqKoQrMvquPENQ/videos",
+      "https://www.youtube.com/channel/UCAyQsWXwhKqKoQrMvquPENQ/about",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbG1zUmNaRjB1Mms4RTJENWtHNHZhYXdZNUllUXxBQ3Jtc0tuSVZ2ZVpOY0pualVKTURER0VaRmVZUzVFQkhjMnJ1R3V2S0VPcGVReTAxbERlU09MV1E4cEYtc1h2dzl0RGw2dUpUWWlJUFZvRzA4UlNpcV9BVHZiM2VHbHVVVGRsZWVtVG9HekhaeERmZFhUM24ydw&q=https%3A%2F%2Fwww.facebook.com%2FNissanPhilippinesInc",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbDc2LVByOWItcFRCYW1MQ29pcEZhY0twTEprZ3xBQ3Jtc0trdVoyMzR1YVZraDdnSkQwMTczZHJQLVRnZWN3ZXpGQ044dERHWHB6cGwzWTFlQUQ5RWg3ODFjMGc3c19yak9xak9FU1JSSXk1MVRseGp0RGFmUFYzV2NqS3o2enlBZFVvNlhFRkc1TDRxOTBwcnpsUQ&q=https%3A%2F%2Ftwitter.com%2FNissanPHI"
+    ],
+    "image_alt_count": 2
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2021/09/06",
+      "2021年\n9月6日"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 154,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2,
+    "main_chars": 22971,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 310,
+    "full_markdown_chars": 19209
+  },
+  "metadata": {
+    "title": "How to Properly Care For Your Nissan Vehicles - YouTube",
+    "description": "TOP 10 MAINTENANCE AND WARRANTY TIPS FOR NEW NISSAN CAR OWNERSGot yourself a brand-new Nissan vehicle? Here are the top 10 things you should know about your ...",
+    "language": "ja-JP",
+    "sourceURL": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=29",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.youtube.com/watch?v=Xu3DPEKdvBw",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.youtube.com/",
+      "text": "https://www.youtube.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Yeb7zft_79k",
+      "text": "https://www.youtube.com/watch?v=Yeb7zft_79k",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Yeb7zft_79k",
+      "text": "15:26 Under the Hood Basics! Learn About the Stuff Under Your Car's Hood! 1A Auto: Repair Tips & Secrets Only Mechanics Know 157万回視聴 • 5 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pLjkkoGVDFo",
+      "text": "17:26 NISSAN OWNERS! NEVER Do THIS to Your CAR! (15 Expensive Mistakes) Everything Nissan 1828回視聴 • 3 か月前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w11EphPXiA4",
+      "text": "21:54 Here's How To Spot Bad Car Dealership's Service Departments and Good Ones The Car Care Nut 89万回視聴 • 2 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=drdXR-0sWjA",
+      "text": "12:09",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hEFtOAGPKpw",
+      "text": "16:35 Nissan Navara Pickup 2010-2015 | BEST SELLER for a REASON??? Car and Driving - Car Reviews 7万回視聴 • 2 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EdJmkZ1Jwoo",
+      "text": "8:38",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9k4jLJN6UsA",
+      "text": "15:44 Revving Up for Adventure: 2022 Nissan Terra VE Test Drive and Review! Manibela 8.2万回視聴 • 3 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L59Bl3rQTA4",
+      "text": "13:01 How to Judge when to Change Lanes using the Mirrors - Blind Spots also Conquer Driving 260万回視聴 • 4 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=at1rT_pCrgc",
+      "text": "23:01",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VLsdYHtE27s",
+      "text": "15:48 Car Maintenance for Beginners : Basic Car Maintenance Tagalog Philippines RiT Riding in Tandem 62万回視聴 • 6 年前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QVndY2v2EeQ",
+      "text": "15:45 NEVER USE 32 PSI Tire Pressure (DESTROYING YOUR TIRES FAST) Tarmac Hub 117万回視聴 • 3 か月前 ライブ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qVShfXquxEY",
+      "text": "7:37",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@NissanPhilippinesInc",
+      "text": "https://www.youtube.com/@NissanPhilippinesInc",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=47s",
+      "text": "Tip 1: Practice proper car care maintenance Tip 1: Practice proper car care maintenance 0:47",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=47s",
+      "text": "Tip 1: Practice proper car care maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=100s",
+      "text": "Tip 2: Take note of your car’s maintenance interval Tip 2: Take note of your car’s maintenance interval 1:40",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=100s",
+      "text": "Tip 2: Take note of your car’s maintenance interval",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=173s",
+      "text": "Tip 3: Take your car to Nissan dealers for your maintenance needs Tip 3: Take your car to Nissan dealers for your maintenance needs 2:53",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=173s",
+      "text": "Tip 3: Take your car to Nissan dealers for your maintenance needs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=229s",
+      "text": "Tip 4: Identify your vehicle warranty period Tip 4: Identify your vehicle warranty period 3:49",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=229s",
+      "text": "Tip 4: Identify your vehicle warranty period",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s",
+      "text": "Tip 5: Take note of parts under a separate warranty Tip 5: Take note of parts under a separate warranty 4:44",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s",
+      "text": "Tip 5: Take note of parts under a separate warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=325s",
+      "text": "Tip 6: Take note of these items that will void your vehicle warranty Tip 6: Take note of these items that will void your vehicle warranty 5:25",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=325s",
+      "text": "Tip 6: Take note of these items that will void your vehicle warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=418s",
+      "text": "Tip 7: Be familiar with warranty information, maintenance booklet, and your owner’s manual Tip 7: Be familiar with warranty information, maintenance booklet, and your owner’s manual 6:58",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Tip 8: Call the Nissan Customer Assistance Center (NCAC) Tip 8: Call the Nissan Customer Assistance Center (NCAC) 7:43",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Tip 8: Call the Nissan Customer Assistance Center (NCAC)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@NissanPhilippinesInc",
+      "text": "Nissan Philippines チャンネル登録者数 2.34万人",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCAyQsWXwhKqKoQrMvquPENQ/videos",
+      "text": "動画",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCAyQsWXwhKqKoQrMvquPENQ/about",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbG1zUmNaRjB1Mms4RTJENWtHNHZhYXdZNUllUXxBQ3Jtc0tuSVZ2ZVpOY0pualVKTURER0VaRmVZUzVFQkhjMnJ1R3V2S0VPcGVReTAxbERlU09MV1E4cEYtc1h2dzl0RGw2dUpUWWlJUFZvRzA4UlNpcV9BVHZiM2VHbHVVVGRsZWVtVG9HekhaeERmZFhUM24ydw&q=https%3A%2F%2Fwww.facebook.com%2FNissanPhilippinesInc",
+      "text": "Nissan Philippines Inc.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbDc2LVByOWItcFRCYW1MQ29pcEZhY0twTEprZ3xBQ3Jtc0trdVoyMzR1YVZraDdnSkQwMTczZHJQLVRnZWN3ZXpGQ044dERHWHB6cGwzWTFlQUQ5RWg3ODFjMGc3c19yak9xak9FU1JSSXk1MVRseGp0RGFmUFYzV2NqS3o2enlBZFVvNlhFRkc1TDRxOTBwcnpsUQ&q=https%3A%2F%2Ftwitter.com%2FNissanPHI",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqbjhBbUh3UVJiT3dCTW9jaDVCdXhESGRYcnVPQXxBQ3Jtc0ttdGh0MzZGSnFkNldvRzA2WWJCM1RjdVZROUQyMEdUV0NXZzdSUkV0aUxUVHZQR2hEd01qNEkydVlac0dmdVY4V2hIWkFHclpIV01Nb1V5TkNCSGlPY0diUGlQNzNxU3ZZbVRzc2J1U25oOUFETmhLVQ&q=https%3A%2F%2Fwww.instagram.com%2Fnissan.ph%2F",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Yeb7zft_79k&pp=ugUEEgJlbg%3D%3D",
+      "text": "Under the Hood Basics! Learn About the Stuff Under Your Car's Hood!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pLjkkoGVDFo",
+      "text": "NISSAN OWNERS! NEVER Do THIS to Your CAR! (15 Expensive Mistakes)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=w11EphPXiA4&pp=ugUHEgVlbi1VUw%3D%3D",
+      "text": "Here's How To Spot Bad Car Dealership's Service Departments and Good Ones",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=drdXR-0sWjA",
+      "text": "THE TRUTH ABOUT PMS NG CASA VS CHANGE OIL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hEFtOAGPKpw",
+      "text": "Nissan Navara Pickup 2010-2015 | BEST SELLER for a REASON???",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EdJmkZ1Jwoo",
+      "text": "Nissan Terra vs Mitsubishi Montero",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9k4jLJN6UsA",
+      "text": "Revving Up for Adventure: 2022 Nissan Terra VE Test Drive and Review!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L59Bl3rQTA4&pp=0gcJCQQLAYcqIYzv",
+      "text": "How to Judge when to Change Lanes using the Mirrors - Blind Spots also",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=at1rT_pCrgc&pp=ugUHEgVlbi1VUw%3D%3D",
+      "text": "When Teenage TYSON Fought a Mob Boss",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VLsdYHtE27s",
+      "text": "Car Maintenance for Beginners : Basic Car Maintenance Tagalog Philippines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QVndY2v2EeQ&pp=ugUEEgJlbg%3D%3D",
+      "text": "NEVER USE 32 PSI Tire Pressure (DESTROYING YOUR TIRES FAST)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qVShfXquxEY",
+      "text": "DO'S AND DONT'S SA PAG PMS SA CASA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=a8dBl3IMLkM",
+      "text": "If Your Car DEALER Does this- WALK OUT!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7Z3CgdxEjmI",
+      "text": "古い電池をドリルに挿入するだけです。どの家庭でもこれが必要ですが、誰もやりません!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=RsePwU8K5aI",
+      "text": "古いタイヤ를 捨てないで！韓国の衝撃的な修復プロセス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mLwlJHVi2Y8&pp=0gcJCQQLAYcqIYzv",
+      "text": "8 Driving Habits That WRECK Automatic Transmissions (Most Drivers Do #3!)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PRSoRkM8GcM&pp=ugUEEgJlbg%3D%3D",
+      "text": "How to SUPER CLEAN your Engine Bay",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4y5ctu2fYgA",
+      "text": "Waiting in an Automatic - Avoid Damage and What to do on your Driving Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FNT11CWxhvQ",
+      "text": "Nissan Navara ATF Oil Change",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xiS5uQXXpIg&pp=ugUEEgJqYQ%3D%3D",
+      "text": "差動装置（デフ）｜どのような仕組みになっている？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=nK0ELeowiAg",
+      "text": "Xterra/Frontier/Pathfinderのメンテナンス項目トップ5",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ru20lj855qY",
+      "text": "GT Pro Hood Damper Installation on Nissan Navara",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1_AQSYsz3ts",
+      "text": "HOW TO CHANGE NISSAN NAVARA AUTOMATIC TRANSMISSION FLUID",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ouTKQLSyuFk",
+      "text": "I Test Drove the Kia Sportage v Hyundai Tucson v Nissan Qashqai v Honda HR-V!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ESyiwSllqFM",
+      "text": "BR-V vs Stargazer vs Xpander Cross vs Veloz: Subcompact seven-seater Big Test part one | Top Gear PH",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NspB1K-tIf4",
+      "text": "Super Linis ng Makina ko Turo ko sa inyo ang Sikreto | How to Super Clean Your Engine",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0Dgur09P1qM",
+      "text": "What REALLY Happened To Edd China and Wheeler Dealers?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=l4HquXu703Q",
+      "text": "REAL TALK: USAPANG WARRANTY FOR NEW CAR OWNERS SA PINAS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0-A2baDmwjc",
+      "text": "How to use the tyre puncture kit in the Nissan Juke",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=XUhXLsrZiE0&pp=0gcJCQQLAYcqIYzv",
+      "text": "How to Install a Hidden Kill Switch in your Car or Truck (Cheap Anti Theft System)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JUaOFaI2UnY",
+      "text": "I Tested 140 Years of Cars!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HUutg28v-Ds&pp=ugUEEgJlbg%3D%3D",
+      "text": "30 illegal HACKING Gadgets You Can ACTUALLY BUY on Amazon 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tGnf8G8A8qU",
+      "text": "How to Super Clean your Interior (Dashboard, Center Console, Door Panels & Glass)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QWposSAWq0c",
+      "text": "HOW TO CHANGE REAR DIFFERENTIAL GEAR OIL (NISSAN NAVARA)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NGe7fYehBME&pp=0gcJCQQLAYcqIYzv",
+      "text": "2024 Nissan Almera VL now with Nissan connect | full tour and test drive impressions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=D_117gglwY8",
+      "text": "High Maintenance Ba Ang Navara?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ez1TWwOfruA",
+      "text": "This STUPID MISTAKE Will Destroy Your Automatic Transmission!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HHyHeRAy31k",
+      "text": "17 WORST Cars That NO ONE Buys According to Consumer Reports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=coRyhYp_t70",
+      "text": "2023 Nissan Rogue SV Delivery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t35T62ZEedA",
+      "text": "17 GENIUS Car Hacks NO ONE Knows About (Pro Tips)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JiMhPrngLMg",
+      "text": "誰も知らない車の秘密機能10選（今すぐ活用しましょう）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V10ngnXTKgo",
+      "text": "Mga Terra at Navara Owner Check niyo niyo muna to, Rack and Pinion Bushing Upgrade",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=58Ci_f30a1w",
+      "text": "How to repair differential gear toyota hiace l replace pinion bearing, ring & pinion setup",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vM3p80YEX8g&pp=ugUEEgJlbg%3D%3D",
+      "text": "日産エクストレイル Ti E-Power 長期テスト：5ヶ月のテストを経ての良かった点と悪かった点",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bxli-SzrDxA",
+      "text": "30,000 km PMS gamit ang Mobil Delvac 1",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jJBob8-g0eA&pp=ugUHEgVlbi1HQg%3D%3D",
+      "text": "I’m 91 years old… If You Can’t Live Alone, Don’t Go to a Care Home — Do This",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zaSq8sA_3oE",
+      "text": "2025 Nissan Navara PRO-4X 4X4 / In-Depth Walkaround Exterior & Interior",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jdg7t6ZljAk",
+      "text": "NISSAN NAVARA NP300 How to Change ATF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P1GlaBz2UUo",
+      "text": "2024 Nissan Terra VL 2.5L 4x4 AT | Test Drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aju4Ud8RLJc",
+      "text": "2026 Affordable Used Cars You Should Buy (Fuel Efficient, Reliable, Family Use or Daily drive)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pMFVoC71keU",
+      "text": "This SECRET Car Trick Is Unknown To 99% of Drivers (Pro Tips)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hQ-y5bTCM2c",
+      "text": "Dahilan ng Pagkasira ng Turbo",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=A5p8Y6uXT0M",
+      "text": "Nissan Service - 2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WwcoWM3eCqY",
+      "text": "NISSAN NAVARA 2021 AT | BASIC PMS by MG Autoworx",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3-MiomP38XE",
+      "text": "20 CAR ACCESSORIES NA DAPAT MERON KA SA KOTSE MO",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pufIS1WClto",
+      "text": "America's Most Dangerous 8'3\" Prisoner – No One Lasted 2 Seconds Against Him–Then He Faced Bruce Lee",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vMrHXV-1inE&pp=ugUHEgVlbi1DQQ%3D%3D",
+      "text": "Steering Wheel and Digital Cluster in the Nissan Pathfinder (2022 - 2024 models)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IKbvBBkPuII",
+      "text": "ピックアップトラックをリフトアップ！（サスペンションはアップグレードせず）（ヨコハマ ジオランダー M/T レビュー）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IacMUhI7dMc&pp=ugUEEgJoaQ%3D%3D",
+      "text": "Car Maintenance Tips | Basic Routine Checkup | In Hindi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TdCJFxNCfxM&pp=0gcJCQQLAYcqIYzv",
+      "text": "✅ 7 Best OBD2 Scanners with ECU Coding [2026]🚗Bidirectional, Live Data, With/No Subscription ABS/SRS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Tip 5: Take note of parts under a separate warranty Tip 5: Take note of parts under a separate warranty 4:44",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s&pp=0gcJCRQDDuyUWbzu",
+      "text": "Tip 5: Take note of parts under a separate warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s",
+      "text": "Tip 8: Call the Nissan Customer Assistance Center (NCAC) Tip 8: Call the Nissan Customer Assistance Center (NCAC) 7:43",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s",
+      "text": "Tip 8: Call the Nissan Customer Assistance Center (NCAC)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=503s",
+      "text": "Tip 9: Schedule an appointment with the Nissan Service Express (NES) Tip 9: Schedule an appointment with the Nissan Service Express (NES) 8:23",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=503s",
+      "text": "Tip 9: Schedule an appointment with the Nissan Service Express (NES)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=549s",
+      "text": "Tip 10: Call the NCAC hotline to avail Nissan Service on Wheels (SOW) Tip 10: Call the NCAC hotline to avail Nissan Service on Wheels (SOW) 9:09",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=549s",
+      "text": "Tip 10: Call the NCAC hotline to avail Nissan Service on Wheels (SOW)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=47s",
+      "text": "00:47",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=100s",
+      "text": "01:40",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=173s",
+      "text": "02:53",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=229s",
+      "text": "03:49",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=284s",
+      "text": "04:44",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=325s",
+      "text": "05:25",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=418s",
+      "text": "06:58",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=463s",
+      "text": "07:43",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=503s",
+      "text": "08:23",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=549s",
+      "text": "09:09",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://yt3.ggpht.com/ytc/AIdro_kBhG9n-kB4xujAXPvxhNjIQ_gnyY3Ck6qy0QQ7Id4NGMY=s48-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    },
+    {
+      "src": "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "alt": "既定のプロフィール写真"
+    }
+  ],
+  "visible_dates": [
+    "2021/09/06",
+    "2021年\n9月6日"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=29",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=29s",
+    "title": "How to Properly Care For Your Nissan Vehicles - YouTube",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:13:32.124166+00:00",
+  "source_meta": {
+    "title": "How to Properly Care For Your Nissan Vehicles",
+    "url": "https://www.youtube.com/watch?v=Xu3DPEKdvBw&t=29",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "video_social",
+    "snippet": "is your brand new Nissan vehicle as a firsttime car owner you might have some questions on how to properly care for your vehicle. ...",
+    "citation_count": 4,
+    "first_cited_position": 22,
+    "answer_support_weight": 5,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "Nissan reliability record and common service items for owners in Japan",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan reliability record and common service items for owners in Japan",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

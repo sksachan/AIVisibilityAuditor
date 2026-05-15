@@ -1,0 +1,360 @@
+{
+  "query_id": "q033",
+  "query": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+  "query_type": "non_branded",
+  "brand_topic_category": "Safety, reliability and trust",
+  "journey_stage": "trust_safety",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071aa9f357f610828672aa",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/ad3yLF4RneCHsU7sM9Ywdw/6a071aa9f357f610828672aa.json",
+      "created_at": "2026-05-15 13:07:53 UTC",
+      "processed_at": "2026-05-15 13:07:53 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Common+reliability+issues+to+check+when+buying+a+used+car+in+Japan+and+how+to+spot+them&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/ad3yLF4RneCHsU7sM9Ywdw/6a071aa9f357f610828672aa.html",
+      "prettify_html_file": "https://serpapi.com/searches/ad3yLF4RneCHsU7sM9Ywdw/6a071aa9f357f610828672aa.prettify",
+      "total_time_taken": 6.3
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Common reliability issues to check when buying a used car in Japan and how to spot them",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "To find a reliable used car in Japan, you must check for hidden rust, past accident repairs, and irregular maintenance records. Japan's humid climate and strict inspection system (Shaken) create specific problem areas you need to watch out for during an inspection.",
+        "snippet_highlighted_words": [
+          "hidden rust, past accident repairs, and irregular maintenance records"
+        ],
+        "reference_indexes": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "📋 Critical Issues to Inspect"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Undercarriage Rust: Salt air and winter road salt corrode the frame."
+          },
+          {
+            "snippet": "A/C System Failure: High summer humidity stresses compressors, causing expensive breakdowns."
+          },
+          {
+            "snippet": "CVT Transmission Slip: Continuous Variable Transmissions in kei cars often fail early."
+          },
+          {
+            "snippet": "Odometer Tampering: Digital clusters can be rolled back before export or resale."
+          },
+          {
+            "snippet": "Neglected Oil Changes: Short city trips cause sludge buildup in standard engines."
+          },
+          {
+            "snippet": "Water Damage: Extreme typhoon seasons lead to flood-damaged cars entering the market."
+          }
+        ],
+        "reference_indexes": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "🔍 How to Spot the Defects"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "Look Under the Vehicle"
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "Bring a flashlight to inspect the floor pans."
+                  },
+                  {
+                    "snippet": "Check for orange flakes or fresh, masking paint."
+                  },
+                  {
+                    "snippet": "Inspect the exhaust pipe for deep corrosion holes."
+                  }
+                ],
+                "reference_indexes": [
+                  8
+                ]
+              }
+            ]
+          },
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "Test the Dashboard and Cabin"
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "Turn the air conditioner to maximum cold immediately."
+                  },
+                  {
+                    "snippet": "Listen for loud rattling noises under the hood."
+                  },
+                  {
+                    "snippet": "Smell the interior for mold or musty mildew."
+                  },
+                  {
+                    "snippet": "Look for mud lines inside the spare tire well."
+                  }
+                ],
+                "reference_indexes": [
+                  9,
+                  10
+                ]
+              }
+            ]
+          },
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "Conduct a Test Drive"
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "Accelerate gently from a complete, dead stop."
+                  },
+                  {
+                    "snippet": "Feel for jerking, slipping, or delayed engagement."
+                  },
+                  {
+                    "snippet": "Listen for whining noises from the transmission bay."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "Read the Auction Sheet and Records",
+                "reference_indexes": [
+                  11
+                ]
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "Request the official Japanese Auction Inspection Sheet."
+                  },
+                  {
+                    "snippet": "Avoid cars rated \"R\" or \"A\" for accident history."
+                  },
+                  {
+                    "snippet": "Look for rating \"XX\" meaning replaced body panels."
+                  },
+                  {
+                    "snippet": "Verify the Shaken (車検) stickers match official paperwork dates."
+                  }
+                ],
+                "reference_indexes": [
+                  12,
+                  13,
+                  14
+                ]
+              },
+              {
+                "type": "paragraph",
+                "snippet": "To help narrow down your search, tell me:"
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "The specific make and model you want?"
+                  },
+                  {
+                    "snippet": "The approximate year or budget?"
+                  },
+                  {
+                    "snippet": "Are you buying from a dealer or an auction?"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "snippet": "I can give you a targeted checklist for that exact vehicle."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "Should You Buy Used Cars Imported from Japan in Australia",
+        "link": "https://www.nipponimports.com.au/should-buy-used-cars-imported-from-japan/",
+        "snippet": "Although Japanese cars are known for their reliability, if you're looking to buy used cars imported from Japan, it's essential to ...",
+        "source": "Nippon Imports",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgEYHDQhrS0WnM0OhpG-ozdIJstugS17-wS0Ja4pew3ez0vyfS",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.nipponimports.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 0
+      },
+      {
+        "title": "What Are The Best Japanese Car Models To Buy?",
+        "link": "https://naylorsautorepairidaho.com/best-japanese-import-models-to-buy-used/",
+        "snippet": "What should I look for when buying a used Japanese car? Review service records, check for accident history, and have a trusted sho...",
+        "source": "Naylor's Auto Repair",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh5468GcTQ-iobtb4gmF4TBdcIigPJDmVIz5XQ4TH1yuoJv5zq",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://naylorsautorepairidaho.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 1
+      },
+      {
+        "title": "Why do Dealers WorldWide choose used cars from Japan?",
+        "link": "https://nichibojapan.com/why-do-dealers-worldwide-choose-used-cars-from-japan/",
+        "snippet": "Japanese car owners adhere to a strict maintenance schedule and inspect their vehicles at stringent checkups, know as 'Shaken'. Th...",
+        "source": "Nichibo Japan",
+        "thumbnail": "https://nichibojapan.com/why-do-dealers-worldwide-choose-used-cars-from-japan/",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://nichibojapan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 2
+      },
+      {
+        "title": "Car Importing from Japan: Simplify with Customs",
+        "link": "https://www.custombrokers.com.au/make-car-importing-from-japan-easy/",
+        "snippet": "Check for significant rusting of the chassis - Japanese cars are exposed to wild winters full of snow, and roads are typically sal...",
+        "source": "www.custombrokers.com.au",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCsZ4BFxpCYCjflP0tGQ_OW9-pQi8JUNhZBZ7kk4WmR20Z_q84",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.custombrokers.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 3
+      },
+      {
+        "title": "7 Red Flags to Lookout for on Vehicle History Reports",
+        "link": "https://sansonejrs66mitsubishi.com/blog/7-red-flags-on-vehicle-history-reports",
+        "snippet": "Rollbacks used to be common in the used car market, but modern electronic dashboards and comprehensive vehicle history reports mak...",
+        "source": "Sansone Jr's 66 Mitsubishi",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQz_tJfNkXU5rGHPGq3I337HYfmfeJzT4Mv-PmXEE-aAkWkLj8p",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://sansonejrs66mitsubishi.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 4
+      },
+      {
+        "title": "Japanese Used Car History Checks in UAE: Why Vehicle Report is Essential",
+        "link": "https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609",
+        "snippet": "Unscrupulous exporters and sellers frequently conceal accident histories or digitally roll back odometers before vehicles enter th...",
+        "source": "YallaMotor",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNSH8aDIG-nn5vQtP-NjRPHV5pZm6hlpDQs90kDHENS4T0JNWV",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.yallamotor.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 5
+      },
+      {
+        "title": "How to Maintain Japanese Used Cars",
+        "link": "https://elevenmotorske.com/articles/how-to-maintain-japanese-used-cars",
+        "snippet": "Regular Oil Changes Changing the oil at regular intervals is crucial for the longevity of your engine. Japanese cars typically req...",
+        "source": "elevenmotorske.com",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT-TAeV9I6ZsLf-J_7lLoWOjUL73iqKFv1MOz62tmuOsk9nW3Fg",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://elevenmotorske.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 6
+      },
+      {
+        "title": "How many kilometres is good for a used car?",
+        "link": "https://www.drive.com.au/caradvice/how-many-kilometres-is-good-for-a-used-car/",
+        "snippet": "Judging a vehicle on mileage is misleading as a vehicle with low k's that's done only city driving with short trips and had standa...",
+        "source": "www.drive.com.au",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-cA7_ul0CZ7Bybb2KtaH6HdMq_pcof9uqMaTROHX_l7Kz7FD_",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.drive.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      },
+      {
+        "title": "How to Inspect a Used Car",
+        "link": "https://www.cars.com/articles/how-to-inspect-a-used-car-1420683366328/",
+        "snippet": "Start at the Bottom Start by looking at the car's undercarriage (underside). Use your flashlight to inspect the floor pans (the me...",
+        "source": "Cars.com",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTezDKyjgplBDxHeZX0z9BfMGbKcBdwaO5FjfvWKNtvuDJ87ME",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cars.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      },
+      {
+        "title": "Finding a Reliable Car",
+        "link": "https://www.lithia.com/research/how-to/finding-a-reliable-car.htm",
+        "snippet": "Sit inside the car and look for wear and tear. Make sure all the electrical components work properly. Are there any unusual smells...",
+        "source": "Lithia Motors",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQw2erA23fiKWi-y_pXXv98HC6SEA0yvXd0kPO7awlxibmRkfrE",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.lithia.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 9
+      },
+      {
+        "title": "What to Check When Buying a Used Car - 27 Point Checklist",
+        "link": "https://rawhide.org/blog/car-tips/what-to-check-when-buying-a-used-car-ultimate-27-point-checklist",
+        "snippet": "14. Inspect the Interior for Unwanted Smells When you first open the car, take a sniff. How does the car smell? Any musty, moldy, ...",
+        "source": "Rawhide Youth Services",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_yad4grwJSiz902JVhtgQ9jF3vNHeM1_nvX7n_lVA6VrHnUCi",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://rawhide.org&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 10
+      },
+      {
+        "title": "SBT News - How To Choose A Reliable Japanese Used Car Exporter In 2025? | Best quality Japanese used cars for sale",
+        "link": "https://www.sbtjapan.com/sbtnews/car-information/how-to-choose-a-reliable-japanese-used-car-exporter-in-2025",
+        "snippet": "Every car sourced from an auction comes with an auction sheet. This sheet is a professional evaluation that includes mileage, cond...",
+        "source": "SBT Japan",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCA9FoCmb7tbpHjZdeOxwWLScB1lemFyRYRgCns3UMEnQtmOrj",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.sbtjapan.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 11
+      },
+      {
+        "title": "How to Smartly Inspect Used Car Photos Before Buying Online How to Smartly Inspect Used Car Photos Before Buying Online",
+        "link": "https://blog.beforward.jp/car-information/inspect-used-car-photos-smartly-before-buying-online.html",
+        "snippet": "Official Inspection Documents: Customers may request the Auction Sheet (from the auction house) or the Vehicle Check Sheet prepare...",
+        "source": "BE FORWARD",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7jM8nbuqHRxLE1w5y0IdM3-52Yr3kuJChxKYwVfGxMXvUjsvu",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://blog.beforward.jp&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "Top Mistakes First-Time Importers Make \\u0026 How to Avoid Them – Tokyo Drive Guide",
+        "link": "https://tokyodrive.com.au/top-mistakes-first-time-importers-make-how-to-avoid-them-tokyo-drive-guide/",
+        "snippet": "2. Skipping the Vehicle History Check It's easy to fall in love with a shiny skyline or a turbocharged classic. But what if that c...",
+        "source": "Tokyo Drive",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS_v3RtIqh7t80W6zfZWAxWcZYY22Nej_IcbDGx1vmupLqKSigT",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://tokyodrive.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "Importing Cars from Japan to NZ: What You Need to Know",
+        "link": "https://www.cars2nz.com/blog/-import-car-from-japan-to-nz",
+        "snippet": "Grade R or A: Vehicles in this category have a history of accidents, with some parts having been repaired or replaced. Focusing on...",
+        "source": "Cars2NZ",
+        "thumbnail": "https://www.cars2nz.com/blog/-import-car-from-japan-to-nz",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.cars2nz.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      }
+    ],
+    "reconstructed_markdown": "To find a reliable used car in Japan, you must check for hidden rust, past accident repairs, and irregular maintenance records. Japan's humid climate and strict inspection system \\(Shaken\\) create specific problem areas you need to watch out for during an inspection. [0] [1] [2]\n\n### 📋 Critical Issues to Inspect\n\n- Undercarriage Rust: Salt air and winter road salt corrode the frame.\n- A/C System Failure: High summer humidity stresses compressors, causing expensive breakdowns.\n- CVT Transmission Slip: Continuous Variable Transmissions in kei cars often fail early.\n- Odometer Tampering: Digital clusters can be rolled back before export or resale.\n- Neglected Oil Changes: Short city trips cause sludge buildup in standard engines.\n- Water Damage: Extreme typhoon seasons lead to flood\\-damaged cars entering the market.\n\n### 🔍 How to Spot the Defects\n\n\n\n### References\n\n[0] [Should You Buy Used Cars Imported from Japan in Australia](https://www.nipponimports.com.au/should-buy-used-cars-imported-from-japan/) — Although Japanese cars are known for their reliability, if you're looking to buy used cars imported from Japan, it's essential to ...\n\n[1] [What Are The Best Japanese Car Models To Buy?](https://naylorsautorepairidaho.com/best-japanese-import-models-to-buy-used/) — What should I look for when buying a used Japanese car? Review service records, check for accident history, and have a trusted sho...\n\n[2] [Why do Dealers WorldWide choose used cars from Japan?](https://nichibojapan.com/why-do-dealers-worldwide-choose-used-cars-from-japan/) — Japanese car owners adhere to a strict maintenance schedule and inspect their vehicles at stringent checkups, know as 'Shaken'. Th...\n\n[3] [Car Importing from Japan: Simplify with Customs](https://www.custombrokers.com.au/make-car-importing-from-japan-easy/) — Check for significant rusting of the chassis \\- Japanese cars are exposed to wild winters full of snow, and roads are typically sal...\n\n[4] [7 Red Flags to Lookout for on Vehicle History Reports](https://sansonejrs66mitsubishi.com/blog/7-red-flags-on-vehicle-history-reports) — Rollbacks used to be common in the used car market, but modern electronic dashboards and comprehensive vehicle history reports mak...\n\n[5] [Japanese Used Car History Checks in UAE: Why Vehicle Report is Essential](https://www.yallamotor.com/news/vehicle-report-launches-japanese-car-history-checks-53609) — Unscrupulous exporters and sellers frequently conceal accident histories or digitally roll back odometers before vehicles enter th...\n\n[6] [How to Maintain Japanese Used Cars](https://elevenmotorske.com/articles/how-to-maintain-japanese-used-cars) — Regular Oil Changes Changing the oil at regular intervals is crucial for the longevity of your engine. Japanese cars typically req...\n\n[7] [How many kilometres is good for a used car?](https://www.drive.com.au/caradvice/how-many-kilometres-is-good-for-a-used-car/) — Judging a vehicle on mileage is misleading as a vehicle with low k's that's done only city driving with short trips and had standa...\n\n[8] [How to Inspect a Used Car](https://www.cars.com/articles/how-to-inspect-a-used-car-1420683366328/) — Start at the Bottom Start by looking at the car's undercarriage \\(underside\\). Use your flashlight to inspect the floor pans \\(the me...\n\n[9] [Finding a Reliable Car](https://www.lithia.com/research/how-to/finding-a-reliable-car.htm) — Sit inside the car and look for wear and tear. Make sure all the electrical components work properly. Are there any unusual smells...\n\n[10] [What to Check When Buying a Used Car \\- 27 Point Checklist](https://rawhide.org/blog/car-tips/what-to-check-when-buying-a-used-car-ultimate-27-point-checklist) — 14. Inspect the Interior for Unwanted Smells When you first open the car, take a sniff. How does the car smell? Any musty, moldy, ...\n\n[11] [SBT News \\- How To Choose A Reliable Japanese Used Car Exporter In 2025? \\| Best quality Japanese used cars for sale](https://www.sbtjapan.com/sbtnews/car-information/how-to-choose-a-reliable-japanese-used-car-exporter-in-2025) — Every car sourced from an auction comes with an auction sheet. This sheet is a professional evaluation that includes mileage, cond...\n\n[12] [How to Smartly Inspect Used Car Photos Before Buying Online How to Smartly Inspect Used Car Photos Before Buying Online](https://blog.beforward.jp/car-information/inspect-used-car-photos-smartly-before-buying-online.html) — Official Inspection Documents: Customers may request the Auction Sheet \\(from the auction house\\) or the Vehicle Check Sheet prepare...\n\n[13] [Top Mistakes First\\-Time Importers Make \\u0026 How to Avoid Them – Tokyo Drive Guide](https://tokyodrive.com.au/top-mistakes-first-time-importers-make-how-to-avoid-them-tokyo-drive-guide/) — 2. Skipping the Vehicle History Check It's easy to fall in love with a shiny skyline or a turbocharged classic. But what if that c...\n\n[14] [Importing Cars from Japan to NZ: What You Need to Know](https://www.cars2nz.com/blog/-import-car-from-japan-to-nz) — Grade R or A: Vehicles in this category have a history of accidents, with some parts having been repaired or replaced. Focusing on...\n"
+  }
+}

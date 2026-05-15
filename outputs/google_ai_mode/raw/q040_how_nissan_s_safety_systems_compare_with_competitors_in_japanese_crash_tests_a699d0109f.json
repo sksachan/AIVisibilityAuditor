@@ -1,0 +1,462 @@
+{
+  "query_id": "q040",
+  "query": "How Nissan's safety systems compare with competitors in Japanese crash tests",
+  "query_type": "branded",
+  "brand_topic_category": "Safety, reliability and trust",
+  "journey_stage": "trust_safety",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "How Nissan's safety systems compare with competitors in Japanese crash tests",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071ad60e4be083179159b1",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/rkYuVM0aSANlIlKDhNMJpw/6a071ad60e4be083179159b1.json",
+      "created_at": "2026-05-15 13:08:38 UTC",
+      "processed_at": "2026-05-15 13:08:38 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=How+Nissan%27s+safety+systems+compare+with+competitors+in+Japanese+crash+tests&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/rkYuVM0aSANlIlKDhNMJpw/6a071ad60e4be083179159b1.html",
+      "prettify_html_file": "https://serpapi.com/searches/rkYuVM0aSANlIlKDhNMJpw/6a071ad60e4be083179159b1.prettify",
+      "total_time_taken": 6.37
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "How Nissan's safety systems compare with competitors in Japanese crash tests",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "inline_images": [
+      "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/jl_nGZCqEoiJTkVKxSoH8A.jpeg",
+      "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/VLnS5gbCONb3uj2xGLH69g.jpeg",
+      "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/D6PCxfhcyB9KdDG-rMom5A.jpeg"
+    ],
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Nissan safety systems highly compete with main rivals like Toyota and Honda. In the Japan New Car Assessment Program (JNCAP) tests managed by NASVA, Nissan models consistently secure the maximum Five-Star safety rating. They score high marks in both physical collision rigidity and advanced active crash prevention.",
+        "reference_indexes": [
+          1,
+          2,
+          12,
+          13
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Performance Breakdown by JNCAP Criteria"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "JNCAP evaluates vehicles using a strict point-based matrix across three major categories:",
+        "reference_indexes": [
+          1,
+          2,
+          9,
+          14
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Collision Safety Performance: Out of 100 points."
+          },
+          {
+            "snippet": "Preventive Safety Performance: Out of 82 points."
+          },
+          {
+            "snippet": "Automatic Accident Emergency Call System: Out of 8 points."
+          }
+        ],
+        "reference_indexes": [
+          1,
+          5
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Nissan's flagship suite, ProPILOT Assist, matches the highest levels of preventative scoring alongside Toyota Safety Sense and Honda SENSING.",
+        "reference_indexes": [
+          6,
+          3,
+          10,
+          9
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The table below outlines how popular models across major manufacturers compare in recent JNCAP safety score sheets:",
+        "reference_indexes": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          1,
+          2,
+          8
+        ],
+        "table": [
+          [
+            "Manufacturer & Model",
+            "Collision Safety (Max 100)",
+            "Preventive Safety (Max 82)",
+            "Emergency Call (Max 8)",
+            "Overall Star Rating"
+          ],
+          [
+            "Nissan Note / Aura",
+            "86.79 points",
+            "81.95 points",
+            "8.00 points",
+            "★★★★★ (Five Star)"
+          ],
+          [
+            "Nissan Roox",
+            "86.54 points",
+            "82.00 points",
+            "8.00 points",
+            "★★★★★ (Five Star)"
+          ],
+          [
+            "Honda Fit",
+            "87.28 points",
+            "79.12 points",
+            "8.00 points",
+            "★★★★★ (Five Star)"
+          ],
+          [
+            "Toyota Aqua",
+            "89.92 points",
+            "79.12 points",
+            "8.00 points",
+            "★★★★★ (Five Star)"
+          ],
+          [
+            "Honda WR-V (Elevate)",
+            "Overall: 176.23 / 193.8 total points",
+            "—",
+            "—",
+            "★★★★★ (Five Star)"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Manufacturer & Model"
+            },
+            {
+              "snippet": "Collision Safety (Max 100)"
+            },
+            {
+              "snippet": "Preventive Safety (Max 82)"
+            },
+            {
+              "snippet": "Emergency Call (Max 8)"
+            },
+            {
+              "snippet": "Overall Star Rating"
+            }
+          ],
+          [
+            {
+              "snippet": "Nissan Note / Aura"
+            },
+            {
+              "snippet": "86.79 points"
+            },
+            {
+              "snippet": "81.95 points"
+            },
+            {
+              "snippet": "8.00 points"
+            },
+            {
+              "snippet": "★★★★★ (Five Star)"
+            }
+          ],
+          [
+            {
+              "snippet": "Nissan Roox"
+            },
+            {
+              "snippet": "86.54 points"
+            },
+            {
+              "snippet": "82.00 points"
+            },
+            {
+              "snippet": "8.00 points"
+            },
+            {
+              "snippet": "★★★★★ (Five Star)"
+            }
+          ],
+          [
+            {
+              "snippet": "Honda Fit"
+            },
+            {
+              "snippet": "87.28 points"
+            },
+            {
+              "snippet": "79.12 points"
+            },
+            {
+              "snippet": "8.00 points"
+            },
+            {
+              "snippet": "★★★★★ (Five Star)"
+            }
+          ],
+          [
+            {
+              "snippet": "Toyota Aqua"
+            },
+            {
+              "snippet": "89.92 points"
+            },
+            {
+              "snippet": "79.12 points"
+            },
+            {
+              "snippet": "8.00 points"
+            },
+            {
+              "snippet": "★★★★★ (Five Star)"
+            }
+          ],
+          [
+            {
+              "snippet": "Honda WR-V (Elevate)"
+            },
+            {
+              "snippet": "Overall: 176.23 / 193.8 total points"
+            },
+            {
+              "snippet": "—"
+            },
+            {
+              "snippet": "—"
+            },
+            {
+              "snippet": "★★★★★ (Five Star)"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "manufacturer_model": "Nissan Note / Aura",
+            "collision_safety_max_100": "86.79 points",
+            "preventive_safety_max_82": "81.95 points",
+            "emergency_call_max_8": "8.00 points",
+            "overall_star_rating": "★★★★★ (Five Star)"
+          },
+          {
+            "manufacturer_model": "Nissan Roox",
+            "collision_safety_max_100": "86.54 points",
+            "preventive_safety_max_82": "82.00 points",
+            "emergency_call_max_8": "8.00 points",
+            "overall_star_rating": "★★★★★ (Five Star)"
+          },
+          {
+            "manufacturer_model": "Honda Fit",
+            "collision_safety_max_100": "87.28 points",
+            "preventive_safety_max_82": "79.12 points",
+            "emergency_call_max_8": "8.00 points",
+            "overall_star_rating": "★★★★★ (Five Star)"
+          },
+          {
+            "manufacturer_model": "Toyota Aqua",
+            "collision_safety_max_100": "89.92 points",
+            "preventive_safety_max_82": "79.12 points",
+            "emergency_call_max_8": "8.00 points",
+            "overall_star_rating": "★★★★★ (Five Star)"
+          },
+          {
+            "manufacturer_model": "Honda WR-V (Elevate)",
+            "collision_safety_max_100": "Overall: 176.23 / 193.8 total points",
+            "preventive_safety_max_82": "—",
+            "emergency_call_max_8": "—",
+            "overall_star_rating": "★★★★★ (Five Star)"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Key Strengths and Competitive Differences"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Kei Car Safety Dominance: Nissan sets itself apart by bringing its full ProPILOT active driving suites down into subcompact segments. The Nissan Roox scored a perfect 82/82 in preventive safety, outperforming larger, more expensive competitor sedans and hatchbacks."
+          },
+          {
+            "snippet": "Pedestrian Mitigation Technology: JNCAP heavily factors in pedestrian and cyclist avoidance. Nissan's 4K-class high-resolution cameras and front radar systems accurately track vulnerable road users early, matching the strict standards of Subaru EyeSight and Toyota's systems."
+          },
+          {
+            "snippet": "Crash Structure vs. Electronic Mitigation: While Toyota models often score slightly higher in raw structure impact metrics, Nissan leverages superior standard active electronics. This active intervention helps mitigate or avoid collisions entirely before impact."
+          }
+        ],
+        "reference_indexes": [
+          1,
+          9,
+          2,
+          3,
+          0,
+          4,
+          7,
+          11
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you'd like to look closer, let me know if you want to focus on a specific vehicle class (e.g., SUVs, EVs, or Kei cars) or compare a particular safety technology like autonomous braking or lane-keep assist."
+      }
+    ],
+    "references": [
+      {
+        "title": "How the 2026 Nissan Sentra became an IIHS TOP SAFETY ...",
+        "link": "https://usa.nissannews.com/en-US/releases/stories-confidence-comes-standard-how-the-2026-nissan-sentra-became-an-iihs-top-safety-pick",
+        "snippet": "Apr 16, 2026 — The 2026 Nissan Sentra uses a completely new ADAS (Advanced Driver Assistance System) suite compared to the outgoing model, with c...",
+        "source": "usa.nissannews.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/4F74eZF_kYBxa5hEuz__mmejT_88kDbqQn8QYf73KHg.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/PXO3tj4Vw_A88I2bEi0qygYyqQ3dmycMrp7KNjSnDXg.png",
+        "index": 0
+      },
+      {
+        "title": "Vehicle Safety Performance 2021 - NASVA",
+        "link": "https://www.nasva.go.jp/mamoru/en/download/JNCAP_2022_panf_en.pdf",
+        "snippet": "100% 8/8 points. ★★★★★ Overall evaluation. Collision Safety. Preventive Safety. A rank. A rank. 79.12/82 points. 96% 89.92/100 poi...",
+        "source": "www.nasva.go.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/ZkYEJ4TVijsAYNXHayhsca9REkSSqWV4bQaFY6WOwA4.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/KgtHutiWg_SHx0SOLkMycXiWDwr1WQsoWKKjFEjPuNM.png",
+        "index": 1
+      },
+      {
+        "title": "Vehicle Safety Performance 2020",
+        "link": "https://www.nasva.go.jp/mamoru/en/download/JNCAP_2021.3_panf_en.pdf",
+        "snippet": "Advanced type. 100% Automatic Accident Emergency Call System. 8/8 points. Collision Safety. Preventive Safety. ★★★★★ Overall evalu...",
+        "source": "www.nasva.go.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/0KNQYYiCtF48IerH17UxCmxaBQLRId7KuF8R1s13hz8.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/suxv4ejTYUPHo8PIqAAaRnA9o1iqdlbAUGqKLN0ccaQ.png",
+        "index": 2
+      },
+      {
+        "title": "Comparing the three major Japanese driving assistance ...",
+        "link": "https://en.eeworld.com.cn/news/qcdz/eic513088.html",
+        "snippet": "Oct 14, 2020 — Currently, Nissan's ProPILOT 1.0 has evolved to L2 level autonomous driving assistance technology, which can realize one-button st...",
+        "source": "en.eeworld.com.cn",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/1CSi1QPL9b7mffAHgIOnayJ01Fy4mCZpIGZFN4SG2Qk.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/A9e3fvUfU6GxqKijfL1vzcjIKtXj2OXbvySCee-nP5A.png",
+        "index": 3
+      },
+      {
+        "title": "2018 Nissan LEAF Awarded the Maximum Five Stars in ...",
+        "link": "https://www.autoevolution.com/news/2018-nissan-leaf-awarded-the-maximum-five-stars-in-japanese-crash-tests-123712.html",
+        "snippet": "Feb 21, 2018 — Finally, having more weight can be an advantage in some crashes, and EVs tend to be heavier than their ICE counterparts. Tesla's m...",
+        "source": "www.autoevolution.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/NTAVSNySxvSz6wcQCp7OEDaE5rMzjQ_zmwPufoGD4RE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/qmWVuqiZbxHoTpwC4SmIPhzduhSekzWMXiJvFuL9-sM.png",
+        "index": 4
+      },
+      {
+        "title": "Information of Japan New Car Assessment Program",
+        "link": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+        "snippet": "Vehicle Safety Performance 2024～2025 * Preventive safety performance（85.8points out of 85.8） * Collision safety performance（100poi...",
+        "source": "www.nasva.go.jp",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/wxg9a_hw7RoWoA3OUtRxylEY-H7owS6IJbEZ5uLtbog.png",
+        "index": 5
+      },
+      {
+        "title": "JNCAP Assessment on Toyota Vehicles Announced",
+        "link": "https://global.toyota/en/newsroom/toyota/28285830.html",
+        "snippet": "May 30, 2019 — Against this backdrop, the above-mentioned cars equipped with a TNGA platform received five stars, the top ranking in the collisio...",
+        "source": "global.toyota",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/cI-R60MpPg-uZBEwt3H6S17O13SmYMsEbgMsnY0tCEQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/4T032LGDoOCWE2IdKoGllvXHKUqaNGxX7CiD8415ES0.png",
+        "index": 6
+      },
+      {
+        "title": "Outline of Preventive safety performance evaluation",
+        "link": "https://www.nasva.go.jp/mamoru/en/active_safety_search/about_active_safety.html",
+        "snippet": "Method of Preventive safety performance evaluation（2024～2025） Taking account of the traffic accident occurrence situation in Japan...",
+        "source": "www.nasva.go.jp",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/1FiPxquJxzCoK_orbXcOpuRh270_cwDLRczV0eWl21g.png",
+        "index": 7
+      },
+      {
+        "title": "Made-in-India Honda Elevate bags 5 stars in JNCAP crash tests",
+        "link": "https://timesofindia.indiatimes.com/auto/cars/made-in-india-honda-elevate-bags-5-stars-in-jncap-crash-tests-details/articleshow/120368995.cms",
+        "snippet": "Apr 17, 2025 — Made-in-India Honda Elevate bags 5 stars in JNCAP crash tests: Details. ... Made-in-India Honda Elevate bags 5 stars in JNCAP cras...",
+        "source": "timesofindia.indiatimes.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/lQ6GNHU5CMCDNKzx7F-ZtXg09lA0rHZpkR-_74DN7gE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/pBXObBGLApkrMp4Lg0yL9MZHi9ZNOq-O9Ax99rwkgWo.png",
+        "index": 8
+      },
+      {
+        "title": "Real Crash Test Results of Japanese Cars - everycar review",
+        "link": "https://everycar-review.com/2025/04/17/real-crash-test-results-of-japanese-cars/",
+        "snippet": "Apr 17, 2025 — 2. Top-Performing Japanese Cars (Based on Recent Tests) 🚗 Subaru Forester (JNCAP & IIHS) JNCAP: ★★★★★ overall safety. IIHS: Top S...",
+        "source": "everycar-review.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/veqXGaJ9zg2EEieHUhucHZ35ZyrggmfWNsiEttsPeUg.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/lWARpDt9ns7SQNW8mLGcCwMKoykQ2OVLFCGuthx-mFo.png",
+        "index": 9
+      },
+      {
+        "title": "Top 5 Crash-Safe Japanese SUVs | EVERYCAR REVIEW",
+        "link": "https://everycar-review.com/2025/04/22/top-5-crash-safe-japanese-suvs/",
+        "snippet": "Apr 22, 2025 — 1. Toyota RAV4. Safety Highlights: 5-star rating in JNCAP and Euro NCAP. Toyota Safety Sense with pre-collision system, adaptive c...",
+        "source": "everycar-review.com",
+        "thumbnail": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/OoNL6u4YrPI98cw9ftULts_dcmSY2IbdBKOGq2u8aX8.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/cxk2Kd-6Tg4gnqeXsA-iaeuueIiCxBt1h4E9RPNxLlA.png",
+        "index": 10
+      },
+      {
+        "title": "Which brand have the best driver assist package? Subaru Eyesight ...",
+        "link": "https://www.reddit.com/r/whatcarshouldIbuy/comments/rmaru9/which_brand_have_the_best_driver_assist_package/",
+        "snippet": "Dec 22, 2021 — Comments Section * ikilledtupac. • 4y ago. The biggest problem with Nissan 360 is it comes with a Nissan. AntiMage2. OP • 4y ago. ...",
+        "source": "www.reddit.com",
+        "source_icon": "https://serpapi.com/searches/6a071ad60e4be083179159b1/images/BwA6YGk6JFuS9cYe0wWbebwqcDPHt8beS9Gng9sv6dQ.png",
+        "index": 11
+      },
+      {
+        "title": "5-Star Safety For Honda, Nissan, Peugeot and Toyota - CarShowroom",
+        "link": "https://www.carshowroom.com.au/news/5-star-safety-for-honda-nissan-peugeot-and-toyota/",
+        "snippet": "ANCAP has completed its latest round of local one-off barrier tests and, no surprise, the Honda Accord, Honda City, Nissan X-Trail...",
+        "source": "www.carshowroom.com.au",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQC3ro8G0MIRn18eaibC0OHamVA2vFuKSgn7xOJsQ6tM4iPkj-O",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.carshowroom.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 12
+      },
+      {
+        "title": "2021 Nissan Rogue's NHTSA Crash Test Results Are Troubling",
+        "link": "https://www.motortrend.com/news/2021-nissan-rogue-nhtsa-crash-test-rating",
+        "snippet": "The front driver gets a Four Star rating, but the front passenger only earns a Two Star rating. The overall front rating is only a...",
+        "source": "www.motortrend.com",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ3dtGrC_e3DNzQP6DRe_FTB0BPVHpoUNR2tcEZ12cYFdh4rV7u",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.motortrend.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 13
+      },
+      {
+        "title": "FUJI HEAVY INDUSTRIES Ltd. NEWS RELEASE | NewsRelease",
+        "link": "https://www.subaru.co.jp/en/news/archives/press/2011/11_11_29e.html",
+        "snippet": "Conducted by the Ministry of Land, Infrastructure, Transport and Tourism and NASVA *, JNCAP ( Japan New Car Assessment Program ) a...",
+        "source": "www.subaru.co.jp",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ13UlW4FFh-JljxWi2mTiSf2uxfTGsICuteA9VLDtKqWHFKVtz",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://www.subaru.co.jp&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 14
+      }
+    ],
+    "reconstructed_markdown": "Nissan safety systems highly compete with main rivals like Toyota and Honda. In the Japan New Car Assessment Program \\(JNCAP\\) tests managed by NASVA, Nissan models consistently secure the maximum Five\\-Star safety rating. They score high marks in both physical collision rigidity and advanced active crash prevention. [1] [2] [12] [13]\n\n### Performance Breakdown by JNCAP Criteria\n\nJNCAP evaluates vehicles using a strict point\\-based matrix across three major categories: [1] [2] [9] [14]\n\n- Collision Safety Performance: Out of 100 points.\n- Preventive Safety Performance: Out of 82 points.\n- Automatic Accident Emergency Call System: Out of 8 points.\n\nNissan's flagship suite, ProPILOT Assist, matches the highest levels of preventative scoring alongside Toyota Safety Sense and Honda SENSING. [6] [3] [10] [9]\n\nThe table below outlines how popular models across major manufacturers compare in recent JNCAP safety score sheets: [1] [2] [8]\n\n| Manufacturer & Model | Collision Safety \\(Max 100\\) | Preventive Safety \\(Max 82\\) | Emergency Call \\(Max 8\\) | Overall Star Rating |\n| --- | --- | --- | --- | --- |\n| Nissan Note / Aura | 86.79 points | 81.95 points | 8.00 points | ★★★★★ \\(Five Star\\) |\n| Nissan Roox | 86.54 points | 82.00 points | 8.00 points | ★★★★★ \\(Five Star\\) |\n| Honda Fit | 87.28 points | 79.12 points | 8.00 points | ★★★★★ \\(Five Star\\) |\n| Toyota Aqua | 89.92 points | 79.12 points | 8.00 points | ★★★★★ \\(Five Star\\) |\n| Honda WR\\-V \\(Elevate\\) | Overall: 176.23 / 193.8 total points | — | — | ★★★★★ \\(Five Star\\) |\n[1] [2] [8]\n\n### Key Strengths and Competitive Differences\n\n- Kei Car Safety Dominance: Nissan sets itself apart by bringing its full ProPILOT active driving suites down into subcompact segments. The Nissan Roox scored a perfect 82/82 in preventive safety, outperforming larger, more expensive competitor sedans and hatchbacks.\n- Pedestrian Mitigation Technology: JNCAP heavily factors in pedestrian and cyclist avoidance. Nissan's 4K\\-class high\\-resolution cameras and front radar systems accurately track vulnerable road users early, matching the strict standards of Subaru EyeSight and Toyota's systems.\n- Crash Structure vs. Electronic Mitigation: While Toyota models often score slightly higher in raw structure impact metrics, Nissan leverages superior standard active electronics. This active intervention helps mitigate or avoid collisions entirely before impact.\n\nIf you'd like to look closer, let me know if you want to focus on a specific vehicle class \\(e.g., SUVs, EVs, or Kei cars\\) or compare a particular safety technology like autonomous braking or lane\\-keep assist.\n\n\n### References\n\n[0] [How the 2026 Nissan Sentra became an IIHS TOP SAFETY ...](https://usa.nissannews.com/en-US/releases/stories-confidence-comes-standard-how-the-2026-nissan-sentra-became-an-iihs-top-safety-pick) — Apr 16, 2026 — The 2026 Nissan Sentra uses a completely new ADAS \\(Advanced Driver Assistance System\\) suite compared to the outgoing model, with c...\n\n[1] [Vehicle Safety Performance 2021 \\- NASVA](https://www.nasva.go.jp/mamoru/en/download/JNCAP_2022_panf_en.pdf) — 100% 8/8 points. ★★★★★ Overall evaluation. Collision Safety. Preventive Safety. A rank. A rank. 79.12/82 points. 96% 89.92/100 poi...\n\n[2] [Vehicle Safety Performance 2020](https://www.nasva.go.jp/mamoru/en/download/JNCAP_2021.3_panf_en.pdf) — Advanced type. 100% Automatic Accident Emergency Call System. 8/8 points. Collision Safety. Preventive Safety. ★★★★★ Overall evalu...\n\n[3] [Comparing the three major Japanese driving assistance ...](https://en.eeworld.com.cn/news/qcdz/eic513088.html) — Oct 14, 2020 — Currently, Nissan's ProPILOT 1.0 has evolved to L2 level autonomous driving assistance technology, which can realize one\\-button st...\n\n[4] [2018 Nissan LEAF Awarded the Maximum Five Stars in ...](https://www.autoevolution.com/news/2018-nissan-leaf-awarded-the-maximum-five-stars-in-japanese-crash-tests-123712.html) — Feb 21, 2018 — Finally, having more weight can be an advantage in some crashes, and EVs tend to be heavier than their ICE counterparts. Tesla's m...\n\n[5] [Information of Japan New Car Assessment Program](https://www.nasva.go.jp/mamoru/en/about/about.html) — Vehicle Safety Performance 2024～2025 \\* Preventive safety performance（85.8points out of 85.8） \\* Collision safety performance（100poi...\n\n[6] [JNCAP Assessment on Toyota Vehicles Announced](https://global.toyota/en/newsroom/toyota/28285830.html) — May 30, 2019 — Against this backdrop, the above\\-mentioned cars equipped with a TNGA platform received five stars, the top ranking in the collisio...\n\n[7] [Outline of Preventive safety performance evaluation](https://www.nasva.go.jp/mamoru/en/active_safety_search/about_active_safety.html) — Method of Preventive safety performance evaluation（2024～2025） Taking account of the traffic accident occurrence situation in Japan...\n\n[8] [Made\\-in\\-India Honda Elevate bags 5 stars in JNCAP crash tests](https://timesofindia.indiatimes.com/auto/cars/made-in-india-honda-elevate-bags-5-stars-in-jncap-crash-tests-details/articleshow/120368995.cms) — Apr 17, 2025 — Made\\-in\\-India Honda Elevate bags 5 stars in JNCAP crash tests: Details. ... Made\\-in\\-India Honda Elevate bags 5 stars in JNCAP cras...\n\n[9] [Real Crash Test Results of Japanese Cars \\- everycar review](https://everycar-review.com/2025/04/17/real-crash-test-results-of-japanese-cars/) — Apr 17, 2025 — 2. Top\\-Performing Japanese Cars \\(Based on Recent Tests\\) 🚗 Subaru Forester \\(JNCAP & IIHS\\) JNCAP: ★★★★★ overall safety. IIHS: Top S...\n\n[10] [Top 5 Crash\\-Safe Japanese SUVs \\| EVERYCAR REVIEW](https://everycar-review.com/2025/04/22/top-5-crash-safe-japanese-suvs/) — Apr 22, 2025 — 1. Toyota RAV4. Safety Highlights: 5\\-star rating in JNCAP and Euro NCAP. Toyota Safety Sense with pre\\-collision system, adaptive c...\n\n[11] [Which brand have the best driver assist package? Subaru Eyesight ...](https://www.reddit.com/r/whatcarshouldIbuy/comments/rmaru9/which_brand_have_the_best_driver_assist_package/) — Dec 22, 2021 — Comments Section \\* ikilledtupac. • 4y ago. The biggest problem with Nissan 360 is it comes with a Nissan. AntiMage2. OP • 4y ago. ...\n\n[12] [5\\-Star Safety For Honda, Nissan, Peugeot and Toyota \\- CarShowroom](https://www.carshowroom.com.au/news/5-star-safety-for-honda-nissan-peugeot-and-toyota/) — ANCAP has completed its latest round of local one\\-off barrier tests and, no surprise, the Honda Accord, Honda City, Nissan X\\-Trail...\n\n[13] [2021 Nissan Rogue's NHTSA Crash Test Results Are Troubling](https://www.motortrend.com/news/2021-nissan-rogue-nhtsa-crash-test-rating) — The front driver gets a Four Star rating, but the front passenger only earns a Two Star rating. The overall front rating is only a...\n\n[14] [FUJI HEAVY INDUSTRIES Ltd. NEWS RELEASE \\| NewsRelease](https://www.subaru.co.jp/en/news/archives/press/2011/11_11_29e.html) — Conducted by the Ministry of Land, Infrastructure, Transport and Tourism and NASVA \\*, JNCAP \\( Japan New Car Assessment Program \\) a...\n"
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "query_id": "q004",
+  "query": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+  "query_type": "non_branded",
+  "brand_topic_category": "EV range, charging and battery confidence",
+  "journey_stage": "consideration",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a07199a8976f7e2617de17e",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/mDsQgq5fTHH-YRQmlmFiJA/6a07199a8976f7e2617de17e.json",
+      "created_at": "2026-05-15 13:03:22 UTC",
+      "processed_at": "2026-05-15 13:03:22 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=What+battery+warranty+terms+are+common+for+EVs+sold+in+Japan+and+what+do+they+usually+cover%3F&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/mDsQgq5fTHH-YRQmlmFiJA/6a07199a8976f7e2617de17e.html",
+      "prettify_html_file": "https://serpapi.com/searches/mDsQgq5fTHH-YRQmlmFiJA/6a07199a8976f7e2617de17e.prettify",
+      "total_time_taken": 17.08
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "What battery warranty terms are common for EVs sold in Japan and what do they usually cover?",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "In Japan, electric vehicle (EV) battery warranties are highly standardized among major manufacturers, protecting buyers from both sudden mechanical failures and gradual capacity degradation.",
+        "reference_indexes": [
+          13,
+          1
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Common Warranty Terms"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The baseline industry standard for EV battery coverage in the Japanese domestic market consists of two separate parameters:",
+        "reference_indexes": [
+          13
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Standard Coverage Threshold: 8 years or 160,000 kilometers, whichever occurs first. This applies to volume models such as the popular Nissan Sakura, Nissan Leaf, and Nissan Ariya."
+          },
+          {
+            "snippet": "Extended Coverage Threshold: 10 years or 200,000 kilometers. Automakers like Toyota offer this upgraded tier for vehicles like the Toyota bZ4X to provide increased peace of mind over a longer lifecycle."
+          }
+        ],
+        "reference_indexes": [
+          13,
+          10,
+          6,
+          14,
+          8,
+          17,
+          9,
+          12,
+          11
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "What Do the Warranties Cover?"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "EV battery warranties in Japan split their protection into two distinct categories:",
+        "reference_indexes": [
+          1,
+          2,
+          5,
+          18
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "1. Hardware Defects and Failures"
+              },
+              {
+                "type": "paragraph",
+                "snippet": "The manufacturer will cover 100% of the cost for parts and labor if the high-voltage pack suffers an outright internal failure under normal operating conditions. This typically includes:",
+                "reference_indexes": [
+                  1
+                ]
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "Faulty or dead battery cells and modules."
+                  },
+                  {
+                    "snippet": "Internal short circuits or insulation faults."
+                  },
+                  {
+                    "snippet": "Defects in the Battery Management System (BMS) software or hardware."
+                  },
+                  {
+                    "snippet": "Cooling system leaks into the sealed battery pack housing."
+                  }
+                ],
+                "reference_indexes": [
+                  1
+                ]
+              }
+            ]
+          },
+          {
+            "text_blocks": [
+              {
+                "type": "heading",
+                "snippet": "2. Capacity Degradation Guarantees"
+              },
+              {
+                "type": "paragraph",
+                "snippet": "Unlike internal combustion engine cars, EV warranties also protect against the loss of the battery's ability to hold a charge.",
+                "reference_indexes": [
+                  5
+                ]
+              },
+              {
+                "type": "list",
+                "list": [
+                  {
+                    "snippet": "The 70% Clause: Manufacturers guarantee that the State of Health (SOH) of the traction battery will not fall below 70% of its original capacity within the designated time and mileage frame."
+                  },
+                  {
+                    "snippet": "Segment Displays: On vehicles utilizing visual gauge segments—such as older Nissan Leaf variants—the warranty triggers if the dashboard capacity meter drops to 8 out of 12 bars (signaling a drop past the threshold)."
+                  },
+                  {
+                    "snippet": "The Remedy: If the battery drops below 70%, the dealership will repair the faulty module, upgrade individual components, or replace the entire pack to restore the capacity back to a factory-approved operating line."
+                  }
+                ],
+                "reference_indexes": [
+                  13,
+                  8,
+                  17,
+                  1,
+                  14
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Key Exclusions (What is Not Covered)"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The warranty can be completely or partially voided under specific conditions:",
+        "reference_indexes": [
+          18,
+          2,
+          4
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Lack of Maintenance: Failing to perform mandated regular dealer inspections, such as the periodic safety checks tied to Japan's Shaken vehicle inspection cycle [0.35]."
+          },
+          {
+            "snippet": "Physical Abuse and Damage: Road debris striking the underside of the vehicle, severe accidents, or custom structural alterations to the frame."
+          },
+          {
+            "snippet": "Misuse or Environmental Abuse: Leaving the car entirely uncharged for months at a time, or using non-approved, high-voltage charging equipment outside factory recommendations."
+          }
+        ],
+        "reference_indexes": [
+          4,
+          15,
+          7,
+          0,
+          19
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Transferability to Used Buyers"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Virtually all factory EV battery warranties in Japan are fully transferable to subsequent owners. If you purchase a pre-owned EV, you can maintain the remaining years and mileage coverage by taking the car to an authorized dealer to undergo a formal \"warranty succession\" evaluation (Hoshō Keishō).",
+        "reference_indexes": [
+          8,
+          3,
+          16
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you are looking at a specific model, let me know the make and year so I can find its exact coverage terms."
+      }
+    ],
+    "references": [
+      {
+        "title": "EV Battery Insurance Coverage: 2025 Protection Guide - Recharged",
+        "link": "https://recharged.com/articles/ev-battery-insurance-coverage?srsltid=AfmBOooibILqqwtIYb6cJqlylyPmTLSTUfcZL9VkJbntb0y30QqgbZ6K",
+        "snippet": "Typical EV battery warranty terms * Time & mileage. Most EVs carry 8‑year battery coverage, commonly paired with 100,000–150,000 m...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/GxB-m8tgu6fnf8StA3bdQfw3pUeb5KxTyuCE4Cp4HVk.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/m9AGkEQLMEzwjMs-p8KGFV3F33yooCj4jfT643BySK0.png",
+        "index": 0
+      },
+      {
+        "title": "EV Battery Warranty 2025: What’s Covered & What’s Not - Recharged",
+        "link": "https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt",
+        "snippet": "What an EV battery warranty actually covers * Defects and outright failures. This includes things like: Failed modules or cells. I...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/1EOUxf1w0kq1i0Z8UXcExfIQLBrFFUaL42CcfRi7bZA.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/eJuXGhlwmNFntJtDhXHjEGRuaOS-tMq92pzQ09-XkEU.png",
+        "index": 1
+      },
+      {
+        "title": "Electric Car Battery Warranty: Complete 2025 Guide - Recharged",
+        "link": "https://recharged.com/articles/electric-car-battery-warranty-guide?srsltid=AfmBOoq2FebtLRHS-Dbe6nJPsw80-EJanDLYShwtjkKN5xKZ9XJPFFVF",
+        "snippet": "Key takeaways before you sign Electric car battery warranties aren't mysterious once you break them into pieces: years, miles, and...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/pco4vFSbwhD2El9RQbtmu_jFP7HtL5MbRUHvHDNTs4c.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/LXkWI00PFRPDAcmAWY4tCmIeS1jw6gbrGK6GwNICFOg.png",
+        "index": 2
+      },
+      {
+        "title": "Best Warranties for Electric Cars in 2025 | OEM & Extended Option",
+        "link": "https://www.recurrentauto.com/research/best-warranties-for-electric-cars-in-2025",
+        "snippet": "Mar 11, 2025 — Most Warranties: * Offer coverage for 8 or 10 years; * Cover at least 100,000 miles; * Cover significant loss of battery capacity ...",
+        "source": "Recurrent",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/jufID-pBT_-7HueVkmtmGcTx1iKg9Yj6ef21IgZfA54.png",
+        "index": 3
+      },
+      {
+        "title": "What Voids EV Battery Warranty? Key Mistakes to Avoid - Recharged",
+        "link": "https://recharged.com/articles/what-voids-ev-battery-warranty",
+        "snippet": "Capacity warranties typically kick in only if the pack drops below a defined threshold (often 70%) **within both** the time and mi...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/MAZCnA5SKuT4Ln9VLLLsGUaxRnbG4vlHQqxUCXv4QLo.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/HQlF6pK9H-b31jmBiE2dQIkCMU4Yj0sQfzS2kkczGpE.png",
+        "index": 4
+      },
+      {
+        "title": "Car batteries: how long does the warranty last and ... - Moeve",
+        "link": "https://www.moeve.es/en/blog/car-batteries-how-long-does-the-warranty-last",
+        "snippet": "Apr 16, 2026 — The picture changes considerably when it comes to electric or hybrid vehicles. The high-voltage battery represents a significant i...",
+        "source": "Moeve",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/1pU9ejMFd8xmXynftQOSwpsUhiAy0Su_iO7h67jTOQc.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/U2DuckH68pPQJ_8CGGFkgGlYxzC5_gvxQgKtwhUs9QU.png",
+        "index": 5
+      },
+      {
+        "title": "EV Battery Warranty Comparison (All Major Brands, 2026 Guide)",
+        "link": "https://recharged.com/articles/ev-battery-warranty-comparison-all-brands?srsltid=AfmBOooUXTxqEaEBm9RY-ca0AtggWydq3o0dx9Kd0e2nn8ozNdqfUNL-",
+        "snippet": "When you compare two similar used EVs, the one with more remaining battery warranty (years and miles) is often worth paying a bit ...",
+        "source": "Recharged",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/1UqUW9o0v2JQxMJqRdgdWIEI7ZuKxufsk7x3D9p4dfg.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/ncI-pwErzgCFcztMMKi3eQkZfR3kVZH35lExFWsajV0.png",
+        "index": 6
+      },
+      {
+        "title": "What Warranty Does An EV Battery Cover - Midtronics",
+        "link": "https://www.midtronics.com/blog/what-warranty-does-an-ev-battery-cover/",
+        "snippet": "May 16, 2023 — What Warranty Does An EV Battery Cover * Federally Mandated Warranty for EV Batteries. It will immediately help to settle your ner...",
+        "source": "Midtronics",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/yWwTqLZcPCLr3O2-vCA-zNCYxrx8dEd3NnuCx5ZBDxI.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/FPIM0081KYF_JnvJfF0u5q6isy4_JV7H2PHad43LtGc.png",
+        "index": 7
+      },
+      {
+        "title": "EV Battery Warranty Comparison: Every Major Brand Reviewed",
+        "link": "https://drive-ev.ae/ev-battery-warranty-comparison-every-major-brand-reviewed/",
+        "snippet": "Feb 28, 2026 — Premium Brands. Tesla offers 8 years with varying mileage limits by model. BMW provides 8 years or 160,000 km. Mercedes-Benz match...",
+        "source": "drive-ev.ae",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/GiH2OaWZa7zb4_i39fQ-BqYo8bGhXtXu_jpWj3Q1RqI.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/H2y318O3TnZdJF_X_bOJ7jqG21dd-gpYxLM-A71NGhQ.png",
+        "index": 8
+      },
+      {
+        "title": "EV Lifetime Battery Warranty Explained: The Truth Behind the Hype ...",
+        "link": "https://www.facebook.com/allaboutevsofficial/posts/ev-lifetime-battery-warranty-explained-the-truth-behind-the-hypeevbatterywarrant/122155078712663140/",
+        "snippet": "Jan 29, 2026 — How do EV warranties work, especially battery warranties? EV warranties work like regular car warranties but pay extra attention t...",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/mXi_1DmW6sxVrZ30uLYJMdiayK0BT6ysO2X0cMp18Zs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/hizXR2l39q9T95DC5x8-k2rcLAVWpMQNEtnQ6WNkaSI.png",
+        "index": 9
+      },
+      {
+        "title": "トヨタ bZ4X | 走行性能 | トヨタ自動車WEBサイト",
+        "link": "https://toyota.jp/bz4x/performance/",
+        "snippet": "バッテリーに不具合が発生した場合、10年20万kmまでの間、無償でバッテリー修理を行えるほか、新車時と比べて充電量が70％未満となった場合には無償でのバッテリー交換を保証しているため、安心してbZ4Xをお楽しみいただけます。",
+        "source": "toyota.jp",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/RnSkxAKoPOAajVgsgHmooqB4NLd8JMldop7JmKd8gGs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/B6T7_U-Otokq3pcoRFByfZTUVBy47cejS4uCvzp2E0E.png",
+        "index": 10
+      },
+      {
+        "title": "bZ4Xのバッテリー容量はどれくらい？｜充電時間・航続距離 ...",
+        "link": "https://www.weins-toyota-kanagawa.co.jp/carlife_support/article/2025_11_20_bZ4X_battery",
+        "snippet": "bZ4Xのバッテリー容量保証. トヨタは、bZ4Xの駆動用バッテリーに対して、手厚いメーカー保証を設定しています。 【bZ4X EVバッテリー特別保証】 ・保証期間: 新車登録から10年間 ・保証距離: 200,000kmまで ・保証内容: バッテリー容量70...",
+        "source": "ウエインズトヨタ神奈川",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/4U8ZeJDKda2ISuUqgfysqnNwzKBGT3umdWxcwUhzaS0.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/kKdwBimyBRTH5xEC99TIduvDunvizzSdwpph22ueKuU.png",
+        "index": 11
+      },
+      {
+        "title": "bZ4X | 充電 - ネッツトヨタ大阪",
+        "link": "https://www.netz-osaka.co.jp/contents-new-car/bz4x/charge",
+        "snippet": "バッテリーに不具合が発生した場合、10年20万kmまでの間、無償でバッテリー修理を行えるほか、新車時と比べて充電量が70%以下となった場合には無償でのバッテリー交換を保証しているため、安心してbZ4Xをお楽しみいただけます。 no image ...",
+        "source": "ネッツトヨタ大阪",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/1sImXbRSOiQyLRCoanTnq4wSGchTjTpkiSYf2cDtzWI.png",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/UbXaez4ye--DqH-PeEOWpVOLAGaZQjpfoF5Fvd3z0_4.png",
+        "index": 12
+      },
+      {
+        "title": "電気自動車用バッテリーの寿命は何年？交換や値段、劣化防止のコツを解説",
+        "link": "https://evdays.tepco.co.jp/entry/2021/09/09/000018",
+        "snippet": "Sep 9, 2021 — 表で示したように、日本国内で市販されるEVの多くが、バッテリー容量は「8年または16万km（どちらか早い方が適用される）」程度まで「バッテリー容量（SOH） 70％以上」を保証しています。 ただし、近年のバッテリー性能の向上によって、保証期間や走行距離を延ばし...",
+        "source": "東京電力",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/2VT4HH1to_p7QliMuShT5H7Sg-DiKxsnbpWqpkQdAEA.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/yCaKlqDlOg1aPAe89itbdMhkUeqes7CYzBNqyWbk4Zo.png",
+        "index": 13
+      },
+      {
+        "title": "「街乗りに最高！ 装備が充実で家族も安心」オーナーが「日産 サクラ ...",
+        "link": "https://www.goo-net.com/magazine/contents/buyers-guide/276804/",
+        "snippet": "Mar 6, 2026 — ちなみに、日産はサクラの駆動用バッテリーについて8年16万kmで保証。 もしも状態が下回ったときには修理や部品交換によって規定値以上に復帰してくれるという内容です。 この保証内容は、認定中古車でも継続して受けられます。",
+        "source": "www.goo-net.com",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/wtUq8_n4Onp7aP3Z6gddSSR9mfdwpwCpnRdAJg4RMRE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/l7FT0_vwG5ziLM0Pulv7-4qap6EWmdX_oZdbmMEVPwo.png",
+        "index": 14
+      },
+      {
+        "title": "トヨタ、bZ4Xのバッテリー保証で走行距離無制限、10年保証",
+        "link": "https://www.reddit.com/r/electricvehicles/comments/sa60qz/toyota_unlimited_miles_10y_battery_warranty_for/?tl=ja",
+        "snippet": "Jan 22, 2022 — トヨタ、bZ4Xのバッテリー保証で走行距離無制限、10年保証. Misleading Headline: See pinned comment. トヨタは、bZ4Xのバッテリー容量が90%を維持する限り、年1回のサービスを受けることを条件に、走行距離無制限、1...",
+        "source": "Reddit",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/626dwo9vr3cjNR1dTDVzi9ZIjmoi38niRKnn4jZMgqM.png",
+        "index": 15
+      },
+      {
+        "title": "『日産サクラの中古車購入についてについて相談です ...",
+        "link": "https://carview.yahoo.co.jp/ncar/catalog/nissan/sakura/chiebukuro/detail/?qid=11319006701",
+        "snippet": "Aug 21, 2025 — 中古で購入した後に日産ディーラーに持ち込んで保証継承の手続きおよび点検を受けると保証継承することができます。新車登録から「一般保証3年間」または「特別保証5年間」「8年または16万kmまでのバッテリー保証」を受けることができます。点検には1万円もかからないと思...",
+        "source": "carview!",
+        "thumbnail": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/dNljEusuuUmTVcnVRtOWytjErg43jg6fLUBhTMcYJV8.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/17gl3XYrgN2kKoxWBAg53dC12Ws3fIrF4nDmKdM2R2g.png",
+        "index": 16
+      },
+      {
+        "title": "保証内容目安 - EVstand",
+        "link": "https://evstand.net/warranty/",
+        "snippet": "日産, サクラ, 8年16万km いづれか早い方で、バッテリー容量計が8セグメントになった場合に9セグメント以上への復帰を保証。 -. 日産, アリア, 8年16万km いづれか早い方で、バッテリー容量計が8セグメントになった場合に9セグメント以上への復帰を保...",
+        "source": "EVstand",
+        "source_icon": "https://serpapi.com/searches/6a07199a8976f7e2617de17e/images/290N_l8IHuGwJLh8YjSdWb_JRTolBJn5l_k1swbGB0c.png",
+        "index": 17
+      },
+      {
+        "title": "EV（電気自動車）バッテリーの寿命はどれくらい？劣化の ...",
+        "link": "https://www.evee.energy/column/detail?columnId=695db157ecce2ec9814989f4",
+        "snippet": "EVバッテリーは「8年または16万km」 が寿命の目安. 一般的には、 「8年または16万km」 が寿命の目安とされています。メーカーによっては 「8年または24万km」 と、より長く保証する場合もあります。 バッテリーは時間や使い方によって徐々に性能が落ちて...",
+        "source": "www.evee.energy",
+        "thumbnail": "https://www.evee.energy/column/detail?columnId=695db157ecce2ec9814989f4",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.evee.energy&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 18
+      },
+      {
+        "title": "How to Choose the Right Electric Car Warranty for You",
+        "link": "https://www.evuniverse.com/how-to-choose-the-right-electric-car-warranty-for-you/",
+        "snippet": "Regular maintenance, such as software updates and battery conditioning, is also usually not covered under the warranty. Understand...",
+        "source": "EV Universe",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTzCoPYJSl7KtyrnXJtIx6wqHEK4ci6RNvWOi_EKQU_FA41Pe-3",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.evuniverse.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 19
+      }
+    ],
+    "reconstructed_markdown": "In Japan, electric vehicle \\(EV\\) battery warranties are highly standardized among major manufacturers, protecting buyers from both sudden mechanical failures and gradual capacity degradation. [13] [1]\n\n### Common Warranty Terms\n\nThe baseline industry standard for EV battery coverage in the Japanese domestic market consists of two separate parameters: [13]\n\n- Standard Coverage Threshold: 8 years or 160,000 kilometers, whichever occurs first. This applies to volume models such as the popular Nissan Sakura, Nissan Leaf, and Nissan Ariya.\n- Extended Coverage Threshold: 10 years or 200,000 kilometers. Automakers like Toyota offer this upgraded tier for vehicles like the Toyota bZ4X to provide increased peace of mind over a longer lifecycle.\n\n### What Do the Warranties Cover?\n\nEV battery warranties in Japan split their protection into two distinct categories: [1] [2] [5] [18]\n\n\n### Key Exclusions \\(What is Not Covered\\)\n\nThe warranty can be completely or partially voided under specific conditions: [18] [2] [4]\n\n- Lack of Maintenance: Failing to perform mandated regular dealer inspections, such as the periodic safety checks tied to Japan's Shaken vehicle inspection cycle \\[0.35\\].\n- Physical Abuse and Damage: Road debris striking the underside of the vehicle, severe accidents, or custom structural alterations to the frame.\n- Misuse or Environmental Abuse: Leaving the car entirely uncharged for months at a time, or using non\\-approved, high\\-voltage charging equipment outside factory recommendations.\n\n### Transferability to Used Buyers\n\nVirtually all factory EV battery warranties in Japan are fully transferable to subsequent owners. If you purchase a pre\\-owned EV, you can maintain the remaining years and mileage coverage by taking the car to an authorized dealer to undergo a formal \"warranty succession\" evaluation \\(Hoshō Keishō\\). [8] [3] [16]\n\nIf you are looking at a specific model, let me know the make and year so I can find its exact coverage terms.\n\n\n### References\n\n[0] [EV Battery Insurance Coverage: 2025 Protection Guide \\- Recharged](https://recharged.com/articles/ev-battery-insurance-coverage?srsltid=AfmBOooibILqqwtIYb6cJqlylyPmTLSTUfcZL9VkJbntb0y30QqgbZ6K) — Typical EV battery warranty terms \\* Time & mileage. Most EVs carry 8‑year battery coverage, commonly paired with 100,000–150,000 m...\n\n[1] [EV Battery Warranty 2025: What’s Covered & What’s Not \\- Recharged](https://recharged.com/articles/battery-warranty-ev-guide?srsltid=AfmBOopSb5n6oy2AcCgw7SpQzAALWwfqzvzZyP8ak4Z2N5rc2sxEo_Jt) — What an EV battery warranty actually covers \\* Defects and outright failures. This includes things like: Failed modules or cells. I...\n\n[2] [Electric Car Battery Warranty: Complete 2025 Guide \\- Recharged](https://recharged.com/articles/electric-car-battery-warranty-guide?srsltid=AfmBOoq2FebtLRHS-Dbe6nJPsw80-EJanDLYShwtjkKN5xKZ9XJPFFVF) — Key takeaways before you sign Electric car battery warranties aren't mysterious once you break them into pieces: years, miles, and...\n\n[3] [Best Warranties for Electric Cars in 2025 \\| OEM & Extended Option](https://www.recurrentauto.com/research/best-warranties-for-electric-cars-in-2025) — Mar 11, 2025 — Most Warranties: \\* Offer coverage for 8 or 10 years; \\* Cover at least 100,000 miles; \\* Cover significant loss of battery capacity ...\n\n[4] [What Voids EV Battery Warranty? Key Mistakes to Avoid \\- Recharged](https://recharged.com/articles/what-voids-ev-battery-warranty) — Capacity warranties typically kick in only if the pack drops below a defined threshold \\(often 70%\\) \\*\\*within both\\*\\* the time and mi...\n\n[5] [Car batteries: how long does the warranty last and ... \\- Moeve](https://www.moeve.es/en/blog/car-batteries-how-long-does-the-warranty-last) — Apr 16, 2026 — The picture changes considerably when it comes to electric or hybrid vehicles. The high\\-voltage battery represents a significant i...\n\n[6] [EV Battery Warranty Comparison \\(All Major Brands, 2026 Guide\\)](https://recharged.com/articles/ev-battery-warranty-comparison-all-brands?srsltid=AfmBOooUXTxqEaEBm9RY-ca0AtggWydq3o0dx9Kd0e2nn8ozNdqfUNL-) — When you compare two similar used EVs, the one with more remaining battery warranty \\(years and miles\\) is often worth paying a bit ...\n\n[7] [What Warranty Does An EV Battery Cover \\- Midtronics](https://www.midtronics.com/blog/what-warranty-does-an-ev-battery-cover/) — May 16, 2023 — What Warranty Does An EV Battery Cover \\* Federally Mandated Warranty for EV Batteries. It will immediately help to settle your ner...\n\n[8] [EV Battery Warranty Comparison: Every Major Brand Reviewed](https://drive-ev.ae/ev-battery-warranty-comparison-every-major-brand-reviewed/) — Feb 28, 2026 — Premium Brands. Tesla offers 8 years with varying mileage limits by model. BMW provides 8 years or 160,000 km. Mercedes\\-Benz match...\n\n[9] [EV Lifetime Battery Warranty Explained: The Truth Behind the Hype ...](https://www.facebook.com/allaboutevsofficial/posts/ev-lifetime-battery-warranty-explained-the-truth-behind-the-hypeevbatterywarrant/122155078712663140/) — Jan 29, 2026 — How do EV warranties work, especially battery warranties? EV warranties work like regular car warranties but pay extra attention t...\n\n[10] [トヨタ bZ4X \\| 走行性能 \\| トヨタ自動車WEBサイト](https://toyota.jp/bz4x/performance/) — バッテリーに不具合が発生した場合、10年20万kmまでの間、無償でバッテリー修理を行えるほか、新車時と比べて充電量が70％未満となった場合には無償でのバッテリー交換を保証しているため、安心してbZ4Xをお楽しみいただけます。\n\n[11] [bZ4Xのバッテリー容量はどれくらい？｜充電時間・航続距離 ...](https://www.weins-toyota-kanagawa.co.jp/carlife_support/article/2025_11_20_bZ4X_battery) — bZ4Xのバッテリー容量保証. トヨタは、bZ4Xの駆動用バッテリーに対して、手厚いメーカー保証を設定しています。 【bZ4X EVバッテリー特別保証】 ・保証期間: 新車登録から10年間 ・保証距離: 200,000kmまで ・保証内容: バッテリー容量70...\n\n[12] [bZ4X \\| 充電 \\- ネッツトヨタ大阪](https://www.netz-osaka.co.jp/contents-new-car/bz4x/charge) — バッテリーに不具合が発生した場合、10年20万kmまでの間、無償でバッテリー修理を行えるほか、新車時と比べて充電量が70%以下となった場合には無償でのバッテリー交換を保証しているため、安心してbZ4Xをお楽しみいただけます。 no image ...\n\n[13] [電気自動車用バッテリーの寿命は何年？交換や値段、劣化防止のコツを解説](https://evdays.tepco.co.jp/entry/2021/09/09/000018) — Sep 9, 2021 — 表で示したように、日本国内で市販されるEVの多くが、バッテリー容量は「8年または16万km（どちらか早い方が適用される）」程度まで「バッテリー容量（SOH） 70％以上」を保証しています。 ただし、近年のバッテリー性能の向上によって、保証期間や走行距離を延ばし...\n\n[14] [「街乗りに最高！ 装備が充実で家族も安心」オーナーが「日産 サクラ ...](https://www.goo-net.com/magazine/contents/buyers-guide/276804/) — Mar 6, 2026 — ちなみに、日産はサクラの駆動用バッテリーについて8年16万kmで保証。 もしも状態が下回ったときには修理や部品交換によって規定値以上に復帰してくれるという内容です。 この保証内容は、認定中古車でも継続して受けられます。\n\n[15] [トヨタ、bZ4Xのバッテリー保証で走行距離無制限、10年保証](https://www.reddit.com/r/electricvehicles/comments/sa60qz/toyota_unlimited_miles_10y_battery_warranty_for/?tl=ja) — Jan 22, 2022 — トヨタ、bZ4Xのバッテリー保証で走行距離無制限、10年保証. Misleading Headline: See pinned comment. トヨタは、bZ4Xのバッテリー容量が90%を維持する限り、年1回のサービスを受けることを条件に、走行距離無制限、1...\n\n[16] [『日産サクラの中古車購入についてについて相談です ...](https://carview.yahoo.co.jp/ncar/catalog/nissan/sakura/chiebukuro/detail/?qid=11319006701) — Aug 21, 2025 — 中古で購入した後に日産ディーラーに持ち込んで保証継承の手続きおよび点検を受けると保証継承することができます。新車登録から「一般保証3年間」または「特別保証5年間」「8年または16万kmまでのバッテリー保証」を受けることができます。点検には1万円もかからないと思...\n\n[17] [保証内容目安 \\- EVstand](https://evstand.net/warranty/) — 日産, サクラ, 8年16万km いづれか早い方で、バッテリー容量計が8セグメントになった場合に9セグメント以上への復帰を保証。 \\-. 日産, アリア, 8年16万km いづれか早い方で、バッテリー容量計が8セグメントになった場合に9セグメント以上への復帰を保...\n\n[18] [EV（電気自動車）バッテリーの寿命はどれくらい？劣化の ...](https://www.evee.energy/column/detail?columnId=695db157ecce2ec9814989f4) — EVバッテリーは「8年または16万km」 が寿命の目安. 一般的には、 「8年または16万km」 が寿命の目安とされています。メーカーによっては 「8年または24万km」 と、より長く保証する場合もあります。 バッテリーは時間や使い方によって徐々に性能が落ちて...\n\n[19] [How to Choose the Right Electric Car Warranty for You](https://www.evuniverse.com/how-to-choose-the-right-electric-car-warranty-for-you/) — Regular maintenance, such as software updates and battery conditioning, is also usually not covered under the warranty. Understand...\n"
+  }
+}

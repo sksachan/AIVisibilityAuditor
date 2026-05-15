@@ -1,0 +1,617 @@
+{
+  "url": "https://carconnect.jp/column/ev/ev-subsidy/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 15639,
+    "wordish_count": 4941,
+    "heading_count": 9,
+    "bullet_count": 56,
+    "link_count": 71,
+    "image_count": 15,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 25,
+    "raw_url_count": 74,
+    "numeric_fact_count": 138,
+    "question_count": 40,
+    "unique_line_count": 339,
+    "numeric_facts_sample": [
+      "2026年",
+      "5",
+      "1",
+      "3",
+      "35万円",
+      "2025年",
+      "25万円",
+      "4",
+      "66%",
+      "7%",
+      "20",
+      "22",
+      "2000",
+      "22%",
+      "220%",
+      "200%",
+      "2024%",
+      "2025",
+      "12",
+      "2180330",
+      "1024",
+      "10",
+      "162379",
+      "6",
+      "849"
+    ],
+    "links_sample": [
+      "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/logo.webp",
+      "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/search-icon.webp",
+      "https://carconnect.jp/wp-content/uploads/2025/12/money-2180330_1280-1024x682.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/10/162379-6-849eff64f5be822608b5eec5403f3a86-3900x2925-1.webp",
+      "https://carconnect.jp/wp-content/uploads/2025/03/oxana-melis-zjqe_46ga4k-unsplash-scaled.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/09/3735107_s.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/05/chuttersnap-xfaYAsMV1p8-unsplash-scaled.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/04/4387158_s.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/02/nissan-skyline-r32-6508582_1280.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/04/hoseung-han-nYMmmrYxISY-unsplash-1.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/03/melissa-mjoen-mfRgIB3st4I-unsplash-scaled.jpg",
+      "https://carconnect.jp/wp-content/uploads/2025/06/tesla-6889042_1280.jpg",
+      "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/facebook.webp",
+      "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/x.webp",
+      "https://carconnect.jp/",
+      "https://carconnect.jp/column/ev/",
+      "https://carconnect.jp/column/release/",
+      "https://carconnect.jp/column/autonomous-driving/",
+      "https://carconnect.jp",
+      "https://carconnect.jp/column/ev/ev-subsidy/",
+      "https://carconnect.jp/column/ev/ev-subsidy/#EV_dian_qi_zi_dong_cheno_bu_zhu_jin_zhi_dutoha",
+      "https://carconnect.jp/column/ev/ev-subsidy/#guono_bu_zhu_jin_CEV_bu_zhu_jinno_gai_yao",
+      "https://carconnect.jp/column/ev/ev-subsidy/#bu_zhu_jinno_dui_xiangtonaru_che_zhongno_zhong_lei_BEVPHEVFCV",
+      "https://carconnect.jp/column/ev/ev-subsidy/#2026nian_duno_bu_zhu_jin_ehaikura",
+      "https://carconnect.jp/column/ev/ev-subsidy/#2026nian_du_guonoEV_bu_zhu_jin_CEV_bu_zhu_jinno_xiang_xi"
+    ],
+    "image_alt_count": 16
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "ImageObject",
+      "website",
+      "ITService",
+      "PostalAddress",
+      "GeoCoordinates",
+      "Article",
+      "WebPage",
+      "Person"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 498,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 98,
+    "main_chars": 8136,
+    "footer_chars": 85,
+    "tables_chars": 698,
+    "metadata_chars": 318,
+    "full_markdown_chars": 15639
+  },
+  "metadata": {
+    "title": "【2026年度最新】EV（電気自動車）の補助金はいくら？対象車種・申請方法・注意点を徹底解説 | Carconnect",
+    "description": "",
+    "language": "ja",
+    "sourceURL": "https://carconnect.jp/column/ev/ev-subsidy/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://carconnect.jp/column/ev/ev-subsidy/",
+    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Organization",
+      "ImageObject",
+      "website",
+      "ITService",
+      "PostalAddress",
+      "GeoCoordinates",
+      "Article",
+      "WebPage",
+      "Person"
+    ],
+    "schema_block_count": 5
+  },
+  "links": [
+    {
+      "url": "https://carconnect.jp/",
+      "text": "https://carconnect.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/",
+      "text": "EV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/release/",
+      "text": "リリース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/autonomous-driving/",
+      "text": "自動運転",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp",
+      "text": "CarConnect",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/",
+      "text": "nonactive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#EV_dian_qi_zi_dong_cheno_bu_zhu_jin_zhi_dutoha",
+      "text": "1 EV（電気自動車）の補助金制度とは？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#guono_bu_zhu_jin_CEV_bu_zhu_jinno_gai_yao",
+      "text": "1.1 国の補助金（CEV補助金）の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#bu_zhu_jinno_dui_xiangtonaru_che_zhongno_zhong_lei_BEVPHEVFCV",
+      "text": "1.2 補助金の対象となる車種の種類（BEV・PHEV・FCV）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#2026nian_duno_bu_zhu_jin_ehaikura",
+      "text": "1.3 2026年度の補助金額はいくら？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#2026nian_du_guonoEV_bu_zhu_jin_CEV_bu_zhu_jinno_xiang_xi",
+      "text": "2 【2026年度】国のEV補助金（CEV補助金）の詳細",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#BEVno_bu_zhu_jin_e_zui_da130wan_yuan",
+      "text": "2.1 BEVの補助金額（最大130万円）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#PHEVno_bu_zhu_jin_e_zui_da85wan_yuan",
+      "text": "2.2 PHEVの補助金額（最大85万円）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#FCVno_bu_zhu_jin_e_zui_da255wan_yuan",
+      "text": "2.3 FCVの補助金額（最大255万円）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#zhiEVno_bu_zhu_jin_e_zui_da58wan_yuan",
+      "text": "2.4 軽EVの補助金額（最大58万円）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#dui_xiang_che_zhongno_yi_lan_zhu_yao_che_zhongto_bu_zhu_jin_e",
+      "text": "2.5 対象車種の一覧（主要車種と補助金額）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#zi_zhi_ti_du_zinoEV_bu_zhu_jin_zhu_yao_dou_dao_fu_xian_bie",
+      "text": "3 自治体独自のEV補助金【主要都道府県別】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#dong_jing_dou",
+      "text": "3.1 東京都",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#shen_nai_chuan_xian",
+      "text": "3.2 神奈川県",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#da_ban_fu",
+      "text": "3.3 大阪府",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#ai_zhi_xian",
+      "text": "3.4 愛知県",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#sono_tano_dou_dao_fu_xian",
+      "text": "3.5 その他の都道府県",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#EV_bu_zhu_jinno_shen_qing_fang_fato_shou_xukino_liure",
+      "text": "4 EV補助金の申請方法と手続きの流れ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#suteppu1_dui_xiang_che_zhongno_que_rento_gou_ru",
+      "text": "4.1 ステップ1：対象車種の確認と購入",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#suteppu2_bi_yao_shu_leino_zhun_bei",
+      "text": "4.2 ステップ2：必要書類の準備",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#suteppu3_shen_qing_shuno_ti_chu",
+      "text": "4.3 ステップ3：申請書の提出",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#suteppu4_shen_zhajiao_fu",
+      "text": "4.4 ステップ4：審査・交付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#shen_qing_qi_xianto_zhu_yi_dian",
+      "text": "4.5 申請期限と注意点",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#EV_bu_zhu_jinwo_shoukeru_jino_zhu_yi_dian",
+      "text": "5 EV補助金を受ける際の注意点",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#bao_you_yi_wu_qi_jiangaaru",
+      "text": "5.1 保有義務期間がある",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#yu_suan_shang_xianni_dasuruto_shou_fu_zhong_le",
+      "text": "5.2 予算上限に達すると受付終了",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#risu_che_liangno_chang_heno_zhu_yi_dian",
+      "text": "5.3 リース車両の場合の注意点",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#zhong_guEVha_dui_xiang_wai",
+      "text": "5.4 中古EVは対象外",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#yokuaru_zhi_wen",
+      "text": "6 よくある質問",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#EV_bu_zhu_jinhaitsumadeni_shen_qingsurebaii",
+      "text": "6.1 EV補助金はいつまでに申請すればいい？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#guoto_zi_zhi_tino_bu_zhu_jinha_bing_yongdekiru",
+      "text": "6.2 国と自治体の補助金は併用できる？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#EV_bu_zhu_jinwo_shouke_qurumadenidorekurai_shi_jiangakakaru",
+      "text": "6.3 EV補助金を受け取るまでにどれくらい時間がかかる？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#fa_rendemoEV_bu_zhu_jinwo_shen_qingdekiru",
+      "text": "6.4 法人でもEV補助金を申請できる？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-subsidy/#matomeEV_bu_zhu_jinwo_xianku_huo_yongshite_dian_qi_zi_dong_chewoo_deni_gou_rushiyou",
+      "text": "7 【まとめ】EV補助金を賢く活用して電気自動車をお得に購入しよう",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.cev-pc.or.jp",
+      "text": "一般社団法人次世代自動車振興センター",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.cev-pc.or.jp",
+      "text": "次世代自動車振興センターの公式サイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.cev-pc.or.jp/local_supports/hokkaido.html",
+      "text": "一般社団法人次世代自動車振興センター",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-demerit/",
+      "text": "電気自動車（EV）のデメリット7選と3つの誤解。「買ってはいけない」は本当？購入後に後悔しない全知識と解決策",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-bill/",
+      "text": "電気自動車（EV）の電気代の目安は？ガソリン車との比較や安く抑えるポイントも解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/eu-ev/",
+      "text": "ヨーロッパは電気自動車（EV）の普及に失敗したって本当？現状の数値データを解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev-charge-time/",
+      "text": "電気自動車（EV）の充電時間の目安は？充電の種類や時間短縮の方法も解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/self-driving-light-car/",
+      "text": "【2026年最新】自動運転機能付き軽自動車おすすめ７選！レベル別の違いと選び方を解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev_merit/",
+      "text": "【総まとめ】電気自動車(EV)のメリット7選！デメリットをカバーする方法も合わせて解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/ev_penetration_rate/",
+      "text": "電気自動車（EV）の普及率は？日本2.66%・世界27.7%・ノルウェー97%の最新比較【2026年5月版】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/self-driving-taxi/",
+      "text": "【2026年最新】自動運転タクシー（ロボタクシー）とは？日本・海外の現状と実用化時期を徹底解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/autonomous_driving/",
+      "text": "日本の自動運転はどこまで進んでる？自動運転のメリット・デメリットや今後の課題にも言及",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/column/ev/tesla-autonomous-driving/",
+      "text": "テスラの自動運転は今どこまで進化した？FSD・Autopilot・Cybercabの違いと日本実装時期【2026年最新】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/sitemap/",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/policy/",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/company/",
+      "text": "運営会社",
+      "is_pdf": false
+    },
+    {
+      "url": "https://carconnect.jp/contact/",
+      "text": "お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/thinca0108/",
+      "text": "https://www.facebook.com/thinca0108/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://x.com/kaiwacloud",
+      "text": "https://x.com/kaiwacloud",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/logo.webp",
+      "alt": "Carconnect"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/search-icon.webp",
+      "alt": "検索キーワードを入力"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%2024%2024%22%3E%3C/svg%3E",
+      "alt": "検索キーワードを入力"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/12/money-2180330_1280-1024x682.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/12/34015163_s.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/12/AdobeStock_221051909-1024x724.jpeg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/05/resize-3-1024x682.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/12/resize-1024x683.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/10/answer-3509503_1280-1024x682.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/12/33756402_s.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/10/162379-6-849eff64f5be822608b5eec5403f3a86-3900x2925-1.webp",
+      "alt": "電気自動車（EV）のデメリット7選と3つの誤解。「買ってはいけない」は本当？購入後に後悔しない全知識と解決策"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/03/oxana-melis-zjqe_46ga4k-unsplash-scaled.jpg",
+      "alt": "電気自動車（EV）の電気代の目安は？ガソリン車との比較や安く抑えるポイントも解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/09/3735107_s.jpg",
+      "alt": "ヨーロッパは電気自動車（EV）の普及に失敗したって本当？現状の数値データを解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/05/chuttersnap-xfaYAsMV1p8-unsplash-scaled.jpg",
+      "alt": "電気自動車（EV）の充電時間の目安は？充電の種類や時間短縮の方法も解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/04/4387158_s.jpg",
+      "alt": "【2026年最新】自動運転機能付き軽自動車おすすめ７選！レベル別の違いと選び方を解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/02/nissan-skyline-r32-6508582_1280.jpg",
+      "alt": "【総まとめ】電気自動車(EV)のメリット7選！デメリットをカバーする方法も合わせて解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/03/oxana-melis-zjqe_46ga4k-unsplash-scaled.jpg",
+      "alt": "電気自動車（EV）の普及率は？日本2.66%・世界27.7%・ノルウェー97%の最新比較【2026年5月版】"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/04/hoseung-han-nYMmmrYxISY-unsplash-1.jpg",
+      "alt": "【2026年最新】自動運転タクシー（ロボタクシー）とは？日本・海外の現状と実用化時期を徹底解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/03/melissa-mjoen-mfRgIB3st4I-unsplash-scaled.jpg",
+      "alt": "日本の自動運転はどこまで進んでる？自動運転のメリット・デメリットや今後の課題にも言及"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/uploads/2025/06/tesla-6889042_1280.jpg",
+      "alt": "テスラの自動運転は今どこまで進化した？FSD・Autopilot・Cybercabの違いと日本実装時期【2026年最新】"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/facebook.webp",
+      "alt": "【2026年度最新】EV（電気自動車）の補助金はいくら？対象車種・申請方法・注意点を徹底解説"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/x.webp",
+      "alt": "x"
+    },
+    {
+      "src": "https://carconnect.jp/wp-content/themes/wordpress-themes-template/img/common/footer-logo.webp",
+      "alt": "carconnect"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://carconnect.jp/column/ev/ev-subsidy/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://carconnect.jp/column/ev/ev-subsidy/",
+    "title": "【2026年度最新】EV（電気自動車）の補助金はいくら？対象車種・申請方法・注意点を徹底解説 | Carconnect",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:15:15.623959+00:00",
+  "source_meta": {
+    "title": "【2026年度最新】EV（電気自動車）の補助金はいくら？対象 ...",
+    "url": "https://carconnect.jp/column/ev/ev-subsidy/",
+    "source_name": "carconnect.jp",
+    "source_domain": "carconnect.jp",
+    "source_type": "other",
+    "snippet": "Apr 15, 2026 — 2025年度と比較してBEVの補助金額は大幅に拡充されており、最大130万円は過去最高水準 です。 この金額は車両の環境性能やV2H（Vehicle to Home）対応などの条件により変動するため、購入予定の車種の具体的な補助額は事前に確認しておきましょう。...",
+    "citation_count": 3,
+    "first_cited_position": 11,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How do government EV subsidies and tax breaks in Japan affect monthly payments?",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

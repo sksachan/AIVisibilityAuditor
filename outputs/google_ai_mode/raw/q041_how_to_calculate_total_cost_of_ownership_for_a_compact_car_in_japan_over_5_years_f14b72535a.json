@@ -1,0 +1,576 @@
+{
+  "query_id": "q041",
+  "query": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+  "query_type": "non_branded",
+  "brand_topic_category": "Value, offers, finance and total cost of ownership",
+  "journey_stage": "cost_value",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071adde9639ba619fa2bb9",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/KD4hfr9e1dhCsfSOVmX9pg/6a071adde9639ba619fa2bb9.json",
+      "created_at": "2026-05-15 13:08:45 UTC",
+      "processed_at": "2026-05-15 13:08:45 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=How+to+calculate+total+cost+of+ownership+for+a+compact+car+in+Japan+over+5+years%3F&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/KD4hfr9e1dhCsfSOVmX9pg/6a071adde9639ba619fa2bb9.html",
+      "prettify_html_file": "https://serpapi.com/searches/KD4hfr9e1dhCsfSOVmX9pg/6a071adde9639ba619fa2bb9.prettify",
+      "total_time_taken": 8.0
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "How to calculate total cost of ownership for a compact car in Japan over 5 years?",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "To calculate the Total Cost of Ownership (TCO) for a compact car in Japan over a 5-year timeline, you must track one-time purchase expenses, fixed operating costs, variable driving costs, and then subtract the estimated resale value.",
+        "snippet_highlighted_words": [
+          "track one-time purchase expenses, fixed operating costs, variable driving costs, and then subtract the estimated resale value"
+        ],
+        "reference_indexes": [
+          7,
+          8
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The primary formula is:\n$\\text{TCO}=\\text{Initial\\ Purchase\\ Costs}+\\text{5-Year\\ Fixed\\ Costs}+\\text{5-Year\\ Variable\\ Costs}-\\text{Resale\\ Value}$",
+        "snippet_latex": [
+          "\\text{TCO}=\\text{Initial\\ Purchase\\ Costs}+\\text{5-Year\\ Fixed\\ Costs}+\\text{5-Year\\ Variable\\ Costs}-\\text{Resale\\ Value}"
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "1. Calculate Initial Purchase Costs"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "This encompasses the upfront money paid to get the car legally onto the road."
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Vehicle Price: The sticker price of the compact car (including options)."
+          },
+          {
+            "snippet": "Acquisition Taxes: Note that the previous Environmental Performance Tax (0% to 3%) has been structured out or frozen via recent Japanese tax reforms. Standard consumption tax (10%) still applies to the vehicle purchase price."
+          },
+          {
+            "snippet": "Pro-rated Taxes & Compulsory Insurance: You must pay the initial weight tax and the first year’s compulsory insurance (Jidoseihan) up front."
+          },
+          {
+            "snippet": "Registration Fees: Total dealer documentation, license plate fees, and police certificate (Shako Shomeisho) fees.",
+            "reference_indexes": [
+              12,
+              13,
+              16,
+              19,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "2. Calculate 5-Year Fixed Operating Costs"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "These are fixed structural costs that you must pay regardless of how many kilometers you drive."
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Annual Automobile Tax (Jidosha-zei): Paid every May. For standard compact cars (1.0L to 1.5L engines), this is ¥30,500 to ¥34,500 annually. Total over 5 years is roughly ¥152,500 – ¥172,500."
+          },
+          {
+            "snippet": "Mandatory Inspection (Shaken): Occurs at Year 3 for a new car, and every 2 years after. Over a 5-year ownership period, you will pay for one Shaken cycle (at the end of Year 3). A typical compact car inspection costs ¥70,000 to ¥130,000 inclusive of compulsory insurance (Jibaiseki) and weight tax (Omori-zei)."
+          },
+          {
+            "snippet": "Optional Insurance (Voluntary/任意保険): Highly recommended. Based on driver age, gold/blue license status, and coverage, expect ¥40,000 to ¥80,000 annually. Total over 5 years is ¥200,000 – ¥400,000."
+          },
+          {
+            "snippet": "Parking Space (Chushajo): Legally required to register a car in Japan. Costs vary dramatically by geography:",
+            "list": [
+              {
+                "snippet": "Rural area: ~¥3,000 to ¥5,000/month ( $\\approx $ ¥240,000 over 5 years).",
+                "snippet_latex": [
+                  "\\approx "
+                ]
+              },
+              {
+                "snippet": "Urban center (e.g., Tokyo): ~¥20,000 to ¥40,000/month ( $\\approx $ ¥1,800,000 over 5 years).",
+                "snippet_latex": [
+                  "\\approx "
+                ]
+              }
+            ],
+            "reference_indexes": [
+              10,
+              14,
+              11,
+              5,
+              0,
+              2,
+              18,
+              15,
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "3. Estimate 5-Year Variable Driving Costs",
+        "reference_indexes": [
+          20
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "These costs map directly to your actual vehicle usage."
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Fuel Costs: Calculated based on your expected mileage.\n$\\text{5-Year\\ Fuel\\ Cost}=\\left(\\frac{\\text{Annual\\ km\\ Driven}}{\\text{Real\\ Fuel\\ Efficiency\\ (km/L)}}\\times \\text{Fuel\\ Price\\ per\\ Liter}\\right)\\times 5$",
+            "snippet_latex": [
+              "\\text{5-Year\\ Fuel\\ Cost}=\\left(\\frac{\\text{Annual\\ km\\ Driven}}{\\text{Real\\ Fuel\\ Efficiency\\ (km/L)}}\\times \\text{Fuel\\ Price\\ per\\ Liter}\\right)\\times 5"
+            ]
+          },
+          {
+            "snippet": "Routine Maintenance: Includes bi-annual oil changes, tire replacement (once every 4–5 years), wipers, and cabin air filters. Budget roughly ¥20,000 to ¥40,000 annually (¥100,000 – ¥200,000 total)."
+          },
+          {
+            "snippet": "Highway Tolls & Coin Parking: If you frequently use expressways or park in paid city lots, budget an extra ¥30,000 to ¥100,000 annually.",
+            "reference_indexes": [
+              2,
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "4. Determine Resale Value and Calculate TCO"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Subtract the residual asset value at the end of Year 5 to find your true economic cost.",
+        "reference_indexes": [
+          8,
+          6
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Resale Value: Typical domestic compact passenger cars (like a Toyota Vitz/Yaris or Honda Fit) retain roughly 35% to 50% of their initial value after 5 years, assuming standard mileage (under 10,000 km/year) and good condition."
+          },
+          {
+            "snippet": "The Final Equation: Sum up the results of sections 1, 2, and 3, then subtract this residual value."
+          }
+        ],
+        "reference_indexes": [
+          8,
+          4
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Baseline Estimate Matrix (5-Year Total)"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Excluding the vehicle's net depreciation (Purchase Price minus Resale Value), here is a scannable snapshot of what running a standard 1.3L compact car costs over 5 years in Japan:"
+      },
+      {
+        "type": "table",
+        "reference_indexes": [
+          14,
+          2,
+          15,
+          1
+        ],
+        "table": [
+          [
+            "Expense Category",
+            "Low-End (Rural / Low Use)",
+            "High-End (Urban / High Use)"
+          ],
+          [
+            "Automobile Tax (5 Years)",
+            "¥152,500",
+            "¥172,500"
+          ],
+          [
+            "Shaken Inspection (1 Cycle)",
+            "¥70,000",
+            "¥130,000"
+          ],
+          [
+            "Optional Insurance (5 Years)",
+            "¥200,000",
+            "¥400,000"
+          ],
+          [
+            "Parking Space (5 Years)",
+            "¥180,000",
+            "¥1,800,000"
+          ],
+          [
+            "Fuel & Maintenance (5 Years)",
+            "¥350,000",
+            "¥750,000"
+          ],
+          [
+            "Estimated Total Running Cost",
+            "¥952,500",
+            "¥3,252,500"
+          ]
+        ],
+        "detailed": [
+          [
+            {
+              "snippet": "Expense Category"
+            },
+            {
+              "snippet": "Low-End (Rural / Low Use)"
+            },
+            {
+              "snippet": "High-End (Urban / High Use)"
+            }
+          ],
+          [
+            {
+              "snippet": "Automobile Tax (5 Years)"
+            },
+            {
+              "snippet": "¥152,500"
+            },
+            {
+              "snippet": "¥172,500"
+            }
+          ],
+          [
+            {
+              "snippet": "Shaken Inspection (1 Cycle)"
+            },
+            {
+              "snippet": "¥70,000"
+            },
+            {
+              "snippet": "¥130,000"
+            }
+          ],
+          [
+            {
+              "snippet": "Optional Insurance (5 Years)"
+            },
+            {
+              "snippet": "¥200,000"
+            },
+            {
+              "snippet": "¥400,000"
+            }
+          ],
+          [
+            {
+              "snippet": "Parking Space (5 Years)"
+            },
+            {
+              "snippet": "¥180,000"
+            },
+            {
+              "snippet": "¥1,800,000"
+            }
+          ],
+          [
+            {
+              "snippet": "Fuel & Maintenance (5 Years)"
+            },
+            {
+              "snippet": "¥350,000"
+            },
+            {
+              "snippet": "¥750,000"
+            }
+          ],
+          [
+            {
+              "snippet": "Estimated Total Running Cost"
+            },
+            {
+              "snippet": "¥952,500"
+            },
+            {
+              "snippet": "¥3,252,500"
+            }
+          ]
+        ],
+        "formatted": [
+          {
+            "expense_category": "Automobile Tax (5 Years)",
+            "low_end_rural_low_use": "¥152,500",
+            "high_end_urban_high_use": "¥172,500"
+          },
+          {
+            "expense_category": "Shaken Inspection (1 Cycle)",
+            "low_end_rural_low_use": "¥70,000",
+            "high_end_urban_high_use": "¥130,000"
+          },
+          {
+            "expense_category": "Optional Insurance (5 Years)",
+            "low_end_rural_low_use": "¥200,000",
+            "high_end_urban_high_use": "¥400,000"
+          },
+          {
+            "expense_category": "Parking Space (5 Years)",
+            "low_end_rural_low_use": "¥180,000",
+            "high_end_urban_high_use": "¥1,800,000"
+          },
+          {
+            "expense_category": "Fuel & Maintenance (5 Years)",
+            "low_end_rural_low_use": "¥350,000",
+            "high_end_urban_high_use": "¥750,000"
+          },
+          {
+            "expense_category": "Estimated Total Running Cost",
+            "low_end_rural_low_use": "¥952,500",
+            "high_end_urban_high_use": "¥3,252,500"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "To complete your calculation, add your planned car purchase price and subtract your expected resale value from these baseline maintenance totals.",
+        "reference_indexes": [
+          7,
+          8
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you would like to run a concrete calculation, please tell me:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "The exact city or prefecture where you plan to register the vehicle (for exact parking and tax estimates)"
+          },
+          {
+            "snippet": "Whether you are looking at a standard yellow-plate Kei car (660cc) or a white-plate compact car (e.g., 1200cc)"
+          },
+          {
+            "snippet": "Your estimated annual driving mileage"
+          }
+        ],
+        "reference_indexes": [
+          2,
+          9
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "What's the average total monthly cost of having a car? - Reddit",
+        "link": "https://www.reddit.com/r/japanlife/comments/165b3ls/whats_the_average_total_monthly_cost_of_having_a/",
+        "snippet": "Aug 30, 2023 — If you get a kei car the annual tax is ¥7,200. The biannual shaken will run you around ¥80,000. If you buy a new car you won't nee...",
+        "source": "Reddit",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/O1N9wQNQqKdH6fahHg1qsstGQMXJo_z3ZNJ4ksWDOZs.png",
+        "index": 0
+      },
+      {
+        "title": "Typical cost of owning a car in Japan? : r/japanlife - Reddit",
+        "link": "https://www.reddit.com/r/japanlife/comments/gamfrd/typical_cost_of_owning_a_car_in_japan/",
+        "snippet": "Apr 30, 2020 — This is how much I pay (estimates as I forgot exact prices, some might be way off as my memory isn't the best): ¥5,000 per month f...",
+        "source": "Reddit",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/9PsByH9ANqa6oAKrixAQS631c9devjgmrTDQczZ9pxQ.png",
+        "index": 1
+      },
+      {
+        "title": "Buying a Car in Japan? What are the Costs?｜Yosh - note",
+        "link": "https://note.com/teacher_gemini/n/ncea7198361c0",
+        "snippet": "Jun 25, 2025 — 2. Car Maintenance Costs (Annual). These are expenses that occur annually or periodically as long as you own the car. 2.1. Automob...",
+        "source": "note",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/2RjvCudeWwja4O9EibXlFGaWQcLUL_qA00p3XqOivwY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/uQKYdQVgeznTXPn9judehLrLde4Wsr5b2yTOxGz0Pxg.png",
+        "index": 2
+      },
+      {
+        "title": "Owning a Car in Tokyo: Everything You Need to Know",
+        "link": "https://tokyoportfolio.com/articles/owning-a-car-in-tokyo/",
+        "snippet": "Sep 7, 2025 — Owning a car in Tokyo involves multiple layered costs—purchase price, registration, inspections, insurance, parking, fuel, and mai...",
+        "source": "Tokyo Portfolio",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/_kzdQQ_KyX_otHkH9S_KaxIDULHye5HwB9s7YlgaMqE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/S9f1a1rUbWbLU2Te-P_thA6VRzNe7moUB2XhYG-CBj4.png",
+        "index": 3
+      },
+      {
+        "title": "True Cost to Own Calculator - Carvetka",
+        "link": "https://carvetka.com/tools/true-cost-ownership-calculator",
+        "snippet": "The 6 Components of TCO * Year 1: 20-30% loss ($6,000-9,000 on $30k car) * Years 2-5: 10-15% per year. * Toyota/Honda hold value b...",
+        "source": "Carvetka",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/j2BpBTCvVM6dt-KhGwj2KpaDQnubYRnSM23GKil3pV0.png",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/SIJ_yeHkgbgAIGZRI7-HSxqQEvnMU2_yXjwQeHLecL8.png",
+        "index": 4
+      },
+      {
+        "title": "Costs of Car Ownership in Japan - Blog",
+        "link": "https://resources.realestate.co.jp/housing_service_blog/costs-of-car-ownership-in-japan/",
+        "snippet": "Sep 10, 2020 — Beyond the car itself, you need to consider shaken or the car inspection. Every two years, by law, you are required to go into a c...",
+        "source": "Real Estate Japan",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/nUHmJLw3fC7YFJpZLj13hATPnhdvoCIQ13KbbqEsP80.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/RKJgVjGpbiFB-r9UxCalWYKL_AHUC47XGdnGzrdhh-4.png",
+        "index": 5
+      },
+      {
+        "title": "What Is Total Cost of Ownership (TCO)? - IBM",
+        "link": "https://www.ibm.com/think/topics/total-cost-of-ownership",
+        "snippet": "Oct 13, 2025 — One way to roughly calculate TCO is to add up costs (initial, operating, maintenance and downtime) and subtract end-of-life value.",
+        "source": "IBM",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/SjTIu1_YM-9-KiE8GylfFbW1AY_KWaWxYHRzKA37Q9I.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/cYRU2Pt-4mabJmk2KhyU9cFF_b2IJNOmxEnNnVuCDjs.png",
+        "index": 6
+      },
+      {
+        "title": "Total Cost of Ownership (TCO) Explained - NetSuite",
+        "link": "https://www.netsuite.com/portal/resource/articles/accounting/total-cost-ownership-tco.shtml",
+        "snippet": "Apr 27, 2025 — It can be summarized in a formula: TCO = acquisition cost + operating costs + maintenance and incidental costs – the value of the ...",
+        "source": "Oracle NetSuite",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/DSK9brSfWMlIbpAvv_zGZgIrt7eW2P_QqSNmaPKxooQ.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/LbwZaJXebd92CuNH6aRagUcqn8zpSELMsBceo3zxO3s.png",
+        "index": 7
+      },
+      {
+        "title": "Total Cost of Ownership for a car: how to calculate it to maximise ...",
+        "link": "https://www.getcoc.eu/en/blog/post/total-cost-of-ownership-for-a-car",
+        "snippet": "Mar 30, 2026 — TCO formula ... The residual value is the price at which the vehicle is sold at the end of its life cycle, so it is subtracted fro...",
+        "source": "GetCOC",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/5zdKFqULmiqK0SqpDMFkcemg7YI2DtIotJngaAaPPpU.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/zrZGTyheOZZTTajS_AyXjzb4_Y1Ska1KVtoTAeuCMWQ.png",
+        "index": 8
+      },
+      {
+        "title": "Car Ownership Cost Calculator | GetMoneyRich",
+        "link": "https://apps.getmoneyrich.com/calculators/car-ownership-cost-calculator",
+        "snippet": "Car Ownership Cost Calculator * Type of Car: Petrol. Diesel. Fuel Efficiency: * Years Run: Average Fuel Rate: * Average km Run/ Ye...",
+        "source": "getmoneyrich",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/o2kq5iPgexoo18tJhJGwdDqi2iT0oXF_93BEC9-eRNA.png",
+        "index": 9
+      },
+      {
+        "title": "May is the time to pay automobile tax. - 茨城県国際交流協会",
+        "link": "https://global.ia-ibaraki.or.jp/en/post-250514022453/",
+        "snippet": "May 14, 2025 — This month, let's learn about tax related to cars! * Q1. Who has to pay? Anyone who owns a car as of April 1st 2025, must pay auto...",
+        "source": "茨城県国際交流協会",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/6BNzzHsjmTXd825DHtjJ4WJWIpgjuuqS1-uS7ucueAI.png",
+        "index": 10
+      },
+      {
+        "title": "Overview of Automobile Tax",
+        "link": "https://www.pref.aichi.jp/global/en/living/taxes/tax.pdf",
+        "snippet": "* 29,500 yen. 34,500 yen. 39,500 yen. 45,000 yen. 51,000 yen. 58,000 yen. 66,500 yen. ... * P. a. sse. n. g. e. r ca. ... * D. is.",
+        "source": "愛知県",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/OvNxNFUIPci5glEQ7BAe0UgAVxreBOS8CZt6rXTJhSA.png",
+        "index": 11
+      },
+      {
+        "title": "Japan to Suspend Vehicle Environmental Performance Tax for 2 Yrs",
+        "link": "https://sp.m.jiji.com/english/show/44573",
+        "snippet": "Dec 16, 2025 — Japan's government and ruling coalition plan to suspend the tax levied on automobiles in accordance with their fuel efficiency for...",
+        "source": "時事通信ニュース",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/swfNXf-vQji8dzBYoWLiUubRyRTf1tGBXIoe7a6wHYA.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/df7Qp_4SC3JqCFnCjuSitJsrJhWZbVxT7ZdtXHWNVCQ.png",
+        "index": 12
+      },
+      {
+        "title": "Japan Car Tax Changes – What You Need to Know (2026 ...",
+        "link": "https://www.facebook.com/61573869523181/posts/-japan-car-tax-changes-what-you-need-to-know-2026starting-april-2026-japan-is-ma/122194229234795650/",
+        "snippet": "Mar 22, 2026 — 📢🚗 Japan Car Tax Changes – What You Need to Know (2026) Starting April 2026, Japan is making some major changes to car taxes. He...",
+        "source": "Facebook",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/637LppaGAc4wNW5XZT-9A1g1tUlMDxzT_gjHcnmj-Po.jpeg",
+        "index": 13
+      },
+      {
+        "title": "Annual Automobile Tax in Japan - AccessJ",
+        "link": "http://www.accessj.com/2013/05/annual-automobile-tax-in-japan.html",
+        "snippet": "May 17, 2013 — Table_title: Annual Automobile Tax in Japan Table_content: header: | Total Displacement | Home Use | Business Use | row: | Total D...",
+        "source": "www.accessj.com",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/MqzPkWVAUXOJezPxfmljZG0lKxBsxN-OCtqZANeESRo.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/FXvBKbBY5sv97evaXDPjPllh9z2ik_ogTrUFRt64z5M.png",
+        "index": 14
+      },
+      {
+        "title": "Car Insurance in Japan: A Guide to the Top Providers | MailMate",
+        "link": "https://mailmate.jp/blog/car-insurance-in-japan",
+        "snippet": "Feb 27, 2026 — Kei car (軽自動車), low mileage, experienced driver: around 20,000 to 50,000 yen per year. Standard passenger car, average usage, mid-",
+        "source": "MailMate.jp",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/YqJjfwdAtHJ6cxlFP64eso1kenPaBhtk2wvkMLYeAqE.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/bpoEGs5QgNDiisOdflEgwxwnSqrNEjRtR4Dy3erQZb0.png",
+        "index": 15
+      },
+      {
+        "title": "Japan Eyeing 2-Year Freeze of Auto Environmental Performance Tax",
+        "link": "https://sp.m.jiji.com/english/show/44300",
+        "snippet": "Dec 3, 2025 — Japan's government and ruling coalition are considering suspending the environmental performance tax on automobiles for two years,",
+        "source": "時事通信ニュース",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/i_yZTQlNyACZC9chP8aNi6Evn0VKaXTL1qST-E3c3N8.png",
+        "source_icon": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/3ZPT-MektVQbbROP9jPWPEGCb7VlyrjJvCGmv3PkMC4.png",
+        "index": 16
+      },
+      {
+        "title": "What is really costs to own a car in Japan!",
+        "link": "https://www.youtube.com/watch?t=1&v=FWDWjbH7jOg",
+        "snippet": "Sep 4, 2025 — running a car in Japan. let's do it. so at the moment um I've got to go down and become a member of JAF JAF the Japan Automobile F...",
+        "source": "YouTube",
+        "thumbnail": "https://serpapi.com/searches/6a071adde9639ba619fa2bb9/images/b_g1r9iAph6Pg2yoJIoPu8zPAvvK6v7BQhz_X5IB9QY.jpeg",
+        "index": 17
+      },
+      {
+        "title": "What is really costs to own a car in Japan!",
+        "link": "https://www.youtube.com/watch?v=FWDWjbH7jOg&t=1",
+        "snippet": "running a car in Japan. let's do it. so at the moment um I've got to go down and become a member of JAF JAF the Japan Automobile F...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWP7F8GuQqtKYri4Hzdrqd4Of_i1-RUSN2UcxIcexTiBDZhRve",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 18
+      },
+      {
+        "title": "Export Car from Japan to Australia: The Business Guide",
+        "link": "https://genfreight.com.au/export-car-from-japan-to-australia-complete-business-guide/",
+        "snippet": "Customs Duty \\u0026 GST. Thanks to the Japan-Australia Economic Partnership Agreement (JAEPA), there is now a 0% customs duty on most v...",
+        "source": "GenFreight Global Logistics",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZgvxsLeMUio9AEFuJGbKMC-SP-Xi1pp6iX7gcxPLAzXuR33Na",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://genfreight.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 19
+      },
+      {
+        "title": "Total Cost of Ownership Calculator | CompareCar | Auto Car Compare",
+        "link": "https://autocarcompare.com/tco-calculator/",
+        "snippet": "Calculate the real cost of owning a car over 5 years. Include purchase price, insurance, fuel, maintenance, and depreciation.",
+        "source": "autocarcompare.com",
+        "thumbnail": "https://autocarcompare.com/tco-calculator/",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://autocarcompare.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 20
+      }
+    ],
+    "reconstructed_markdown": "To calculate the Total Cost of Ownership \\(TCO\\) for a compact car in Japan over a 5\\-year timeline, you must track one\\-time purchase expenses, fixed operating costs, variable driving costs, and then subtract the estimated resale value. [7] [8]\n\nThe primary formula is:\n$\\text{TCO}=\\text{Initial\\ Purchase\\ Costs}\\+\\text{5\\-Year\\ Fixed\\ Costs}\\+\\text{5\\-Year\\ Variable\\ Costs}\\-\\text{Resale\\ Value}$\n\n### 1. Calculate Initial Purchase Costs\n\nThis encompasses the upfront money paid to get the car legally onto the road.\n\n- Vehicle Price: The sticker price of the compact car \\(including options\\).\n- Acquisition Taxes: Note that the previous Environmental Performance Tax \\(0% to 3%\\) has been structured out or frozen via recent Japanese tax reforms. Standard consumption tax \\(10%\\) still applies to the vehicle purchase price.\n- Pro\\-rated Taxes & Compulsory Insurance: You must pay the initial weight tax and the first year’s compulsory insurance \\(Jidoseihan\\) up front.\n- Registration Fees: Total dealer documentation, license plate fees, and police certificate \\(Shako Shomeisho\\) fees. [12] [13] [16] [19] [3]\n\n### 2. Calculate 5\\-Year Fixed Operating Costs\n\nThese are fixed structural costs that you must pay regardless of how many kilometers you drive.\n\n- Annual Automobile Tax \\(Jidosha\\-zei\\): Paid every May. For standard compact cars \\(1.0L to 1.5L engines\\), this is ¥30,500 to ¥34,500 annually. Total over 5 years is roughly ¥152,500 – ¥172,500.\n- Mandatory Inspection \\(Shaken\\): Occurs at Year 3 for a new car, and every 2 years after. Over a 5\\-year ownership period, you will pay for one Shaken cycle \\(at the end of Year 3\\). A typical compact car inspection costs ¥70,000 to ¥130,000 inclusive of compulsory insurance \\(Jibaiseki\\) and weight tax \\(Omori\\-zei\\).\n- Optional Insurance \\(Voluntary/任意保険\\): Highly recommended. Based on driver age, gold/blue license status, and coverage, expect ¥40,000 to ¥80,000 annually. Total over 5 years is ¥200,000 – ¥400,000.\n- Parking Space \\(Chushajo\\): Legally required to register a car in Japan. Costs vary dramatically by geography: [10] [14] [11] [5] [0] [2] [18] [15] [3]\n  - Rural area: \\~¥3,000 to ¥5,000/month \\( $\\approx $ ¥240,000 over 5 years\\).\n  - Urban center \\(e.g., Tokyo\\): \\~¥20,000 to ¥40,000/month \\( $\\approx $ ¥1,800,000 over 5 years\\).\n\n### 3. Estimate 5\\-Year Variable Driving Costs\n\nThese costs map directly to your actual vehicle usage.\n\n- Fuel Costs: Calculated based on your expected mileage.\n$\\text{5\\-Year\\ Fuel\\ Cost}=\\left\\(\\frac{\\text{Annual\\ km\\ Driven}}{\\text{Real\\ Fuel\\ Efficiency\\ \\(km/L\\)}}\\times \\text{Fuel\\ Price\\ per\\ Liter}\\right\\)\\times 5$\n- Routine Maintenance: Includes bi\\-annual oil changes, tire replacement \\(once every 4–5 years\\), wipers, and cabin air filters. Budget roughly ¥20,000 to ¥40,000 annually \\(¥100,000 – ¥200,000 total\\).\n- Highway Tolls & Coin Parking: If you frequently use expressways or park in paid city lots, budget an extra ¥30,000 to ¥100,000 annually. [2] [0] [1]\n\n### 4. Determine Resale Value and Calculate TCO\n\nSubtract the residual asset value at the end of Year 5 to find your true economic cost. [8] [6]\n\n- Resale Value: Typical domestic compact passenger cars \\(like a Toyota Vitz/Yaris or Honda Fit\\) retain roughly 35% to 50% of their initial value after 5 years, assuming standard mileage \\(under 10,000 km/year\\) and good condition.\n- The Final Equation: Sum up the results of sections 1, 2, and 3, then subtract this residual value.\n\n### Baseline Estimate Matrix \\(5\\-Year Total\\)\n\nExcluding the vehicle's net depreciation \\(Purchase Price minus Resale Value\\), here is a scannable snapshot of what running a standard 1.3L compact car costs over 5 years in Japan:\n\n| Expense Category | Low\\-End \\(Rural / Low Use\\) | High\\-End \\(Urban / High Use\\) |\n| --- | --- | --- |\n| Automobile Tax \\(5 Years\\) | ¥152,500 | ¥172,500 |\n| Shaken Inspection \\(1 Cycle\\) | ¥70,000 | ¥130,000 |\n| Optional Insurance \\(5 Years\\) | ¥200,000 | ¥400,000 |\n| Parking Space \\(5 Years\\) | ¥180,000 | ¥1,800,000 |\n| Fuel & Maintenance \\(5 Years\\) | ¥350,000 | ¥750,000 |\n| Estimated Total Running Cost | ¥952,500 | ¥3,252,500 |\n[14] [2] [15] [1]\n\nTo complete your calculation, add your planned car purchase price and subtract your expected resale value from these baseline maintenance totals. [7] [8]\n\nIf you would like to run a concrete calculation, please tell me:\n\n- The exact city or prefecture where you plan to register the vehicle \\(for exact parking and tax estimates\\)\n- Whether you are looking at a standard yellow\\-plate Kei car \\(660cc\\) or a white\\-plate compact car \\(e.g., 1200cc\\)\n- Your estimated annual driving mileage\n\n\n### References\n\n[0] [What's the average total monthly cost of having a car? \\- Reddit](https://www.reddit.com/r/japanlife/comments/165b3ls/whats_the_average_total_monthly_cost_of_having_a/) — Aug 30, 2023 — If you get a kei car the annual tax is ¥7,200. The biannual shaken will run you around ¥80,000. If you buy a new car you won't nee...\n\n[1] [Typical cost of owning a car in Japan? : r/japanlife \\- Reddit](https://www.reddit.com/r/japanlife/comments/gamfrd/typical_cost_of_owning_a_car_in_japan/) — Apr 30, 2020 — This is how much I pay \\(estimates as I forgot exact prices, some might be way off as my memory isn't the best\\): ¥5,000 per month f...\n\n[2] [Buying a Car in Japan? What are the Costs?｜Yosh \\- note](https://note.com/teacher_gemini/n/ncea7198361c0) — Jun 25, 2025 — 2. Car Maintenance Costs \\(Annual\\). These are expenses that occur annually or periodically as long as you own the car. 2.1. Automob...\n\n[3] [Owning a Car in Tokyo: Everything You Need to Know](https://tokyoportfolio.com/articles/owning-a-car-in-tokyo/) — Sep 7, 2025 — Owning a car in Tokyo involves multiple layered costs—purchase price, registration, inspections, insurance, parking, fuel, and mai...\n\n[4] [True Cost to Own Calculator \\- Carvetka](https://carvetka.com/tools/true-cost-ownership-calculator) — The 6 Components of TCO \\* Year 1: 20\\-30% loss \\($6,000\\-9,000 on $30k car\\) \\* Years 2\\-5: 10\\-15% per year. \\* Toyota/Honda hold value b...\n\n[5] [Costs of Car Ownership in Japan \\- Blog](https://resources.realestate.co.jp/housing_service_blog/costs-of-car-ownership-in-japan/) — Sep 10, 2020 — Beyond the car itself, you need to consider shaken or the car inspection. Every two years, by law, you are required to go into a c...\n\n[6] [What Is Total Cost of Ownership \\(TCO\\)? \\- IBM](https://www.ibm.com/think/topics/total-cost-of-ownership) — Oct 13, 2025 — One way to roughly calculate TCO is to add up costs \\(initial, operating, maintenance and downtime\\) and subtract end\\-of\\-life value.\n\n[7] [Total Cost of Ownership \\(TCO\\) Explained \\- NetSuite](https://www.netsuite.com/portal/resource/articles/accounting/total-cost-ownership-tco.shtml) — Apr 27, 2025 — It can be summarized in a formula: TCO = acquisition cost \\+ operating costs \\+ maintenance and incidental costs – the value of the ...\n\n[8] [Total Cost of Ownership for a car: how to calculate it to maximise ...](https://www.getcoc.eu/en/blog/post/total-cost-of-ownership-for-a-car) — Mar 30, 2026 — TCO formula ... The residual value is the price at which the vehicle is sold at the end of its life cycle, so it is subtracted fro...\n\n[9] [Car Ownership Cost Calculator \\| GetMoneyRich](https://apps.getmoneyrich.com/calculators/car-ownership-cost-calculator) — Car Ownership Cost Calculator \\* Type of Car: Petrol. Diesel. Fuel Efficiency: \\* Years Run: Average Fuel Rate: \\* Average km Run/ Ye...\n\n[10] [May is the time to pay automobile tax. \\- 茨城県国際交流協会](https://global.ia-ibaraki.or.jp/en/post-250514022453/) — May 14, 2025 — This month, let's learn about tax related to cars\\! \\* Q1. Who has to pay? Anyone who owns a car as of April 1st 2025, must pay auto...\n\n[11] [Overview of Automobile Tax](https://www.pref.aichi.jp/global/en/living/taxes/tax.pdf) — \\* 29,500 yen. 34,500 yen. 39,500 yen. 45,000 yen. 51,000 yen. 58,000 yen. 66,500 yen. ... \\* P. a. sse. n. g. e. r ca. ... \\* D. is.\n\n[12] [Japan to Suspend Vehicle Environmental Performance Tax for 2 Yrs](https://sp.m.jiji.com/english/show/44573) — Dec 16, 2025 — Japan's government and ruling coalition plan to suspend the tax levied on automobiles in accordance with their fuel efficiency for...\n\n[13] [Japan Car Tax Changes – What You Need to Know \\(2026 ...](https://www.facebook.com/61573869523181/posts/-japan-car-tax-changes-what-you-need-to-know-2026starting-april-2026-japan-is-ma/122194229234795650/) — Mar 22, 2026 — 📢🚗 Japan Car Tax Changes – What You Need to Know \\(2026\\) Starting April 2026, Japan is making some major changes to car taxes. He...\n\n[14] [Annual Automobile Tax in Japan \\- AccessJ](http://www.accessj.com/2013/05/annual-automobile-tax-in-japan.html) — May 17, 2013 — Table\\_title: Annual Automobile Tax in Japan Table\\_content: header: \\| Total Displacement \\| Home Use \\| Business Use \\| row: \\| Total D...\n\n[15] [Car Insurance in Japan: A Guide to the Top Providers \\| MailMate](https://mailmate.jp/blog/car-insurance-in-japan) — Feb 27, 2026 — Kei car \\(軽自動車\\), low mileage, experienced driver: around 20,000 to 50,000 yen per year. Standard passenger car, average usage, mid\\-\n\n[16] [Japan Eyeing 2\\-Year Freeze of Auto Environmental Performance Tax](https://sp.m.jiji.com/english/show/44300) — Dec 3, 2025 — Japan's government and ruling coalition are considering suspending the environmental performance tax on automobiles for two years,\n\n[17] [What is really costs to own a car in Japan\\!](https://www.youtube.com/watch?t=1&v=FWDWjbH7jOg) — Sep 4, 2025 — running a car in Japan. let's do it. so at the moment um I've got to go down and become a member of JAF JAF the Japan Automobile F...\n\n[18] [What is really costs to own a car in Japan\\!](https://www.youtube.com/watch?t=1&v=FWDWjbH7jOg) — running a car in Japan. let's do it. so at the moment um I've got to go down and become a member of JAF JAF the Japan Automobile F...\n\n[19] [Export Car from Japan to Australia: The Business Guide](https://genfreight.com.au/export-car-from-japan-to-australia-complete-business-guide/) — Customs Duty \\u0026 GST. Thanks to the Japan\\-Australia Economic Partnership Agreement \\(JAEPA\\), there is now a 0% customs duty on most v...\n\n[20] [Total Cost of Ownership Calculator \\| CompareCar \\| Auto Car Compare](https://autocarcompare.com/tco-calculator/) — Calculate the real cost of owning a car over 5 years. Include purchase price, insurance, fuel, maintenance, and depreciation.\n"
+  }
+}

@@ -1,0 +1,424 @@
+{
+  "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 7200,
+    "wordish_count": 988,
+    "heading_count": 8,
+    "bullet_count": 37,
+    "link_count": 43,
+    "image_count": 6,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 45,
+    "numeric_fact_count": 18,
+    "question_count": 1,
+    "unique_line_count": 125,
+    "numeric_facts_sample": [
+      "2026",
+      "5",
+      "15",
+      "64,530",
+      "2",
+      "10",
+      "14",
+      "26.05",
+      "30",
+      "12",
+      "2024",
+      "26",
+      "83,430",
+      "189,000",
+      "39,960"
+    ],
+    "links_sample": [
+      "https://libs-europe.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/ALL-NEW-X-TRAIL.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/X-TERRA.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/ALL-NEW-PATROL.webp.ximg.l_3_m.smart.webp",
+      "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/MAGNITE.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/Qashqai.webp.ximg.l_3_m.smart.webp",
+      "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html#container",
+      "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html#footer-element",
+      "https://www.nissan.com.ge/services/contact-us.html",
+      "https://www.nissan.com.ge/experience-nissan/news-and-events/latestnews.html",
+      "https://me.nissanmotornews.com/en/channels/channel-26e9524983914ddb37b8973cf600a892",
+      "https://www.nissan.com.ge/location-finder.html",
+      "https://www.nissan.com.ge/services/book-a-test-drive.html",
+      "https://www.nissan.com.ge/services/request-a-quote.html",
+      "https://www.nissan.com.ge/vehicles/new/x-trail.html",
+      "https://www.nissan.com.ge/vehicles/new/x-terra.html",
+      "https://allnewpatrol.nissan.com.ge",
+      "https://www.nissan.com.ge/vehicles/new/all-new-magnite.html",
+      "https://www.nissan.com.ge/vehicles/new/qashqai.html",
+      "https://www.nissan.com.ge/owners.html",
+      "https://www.nissan.com.ge/owners/owners-home.html",
+      "https://www.nissan.com.ge/owners/nissan-service.html",
+      "https://www.nissan.com.ge/owners/genuine-accessories.html",
+      "https://www.nissan.com.ge/owners/driver-guide.html",
+      "https://www.nissan.com.ge/owners/warranty.html"
+    ],
+    "image_alt_count": 6
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2026/5/15",
+      "2026/5/1"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 71,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 909,
+    "main_chars": 2081,
+    "footer_chars": 312,
+    "tables_chars": 0,
+    "metadata_chars": 221,
+    "full_markdown_chars": 7200
+  },
+  "metadata": {
+    "title": "LEAF Battery Health | Nissan",
+    "description": "Learn about how to maintain your Nissan LEAF battery and keep it healthy.",
+    "language": "ka-GE",
+    "sourceURL": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+    "robots": "index,follow",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html#container",
+      "text": "გადადით მთავარ შინაარსზე",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html#footer-element",
+      "text": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/",
+      "text": "https://www.nissan.com.ge/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/services/contact-us.html",
+      "text": "დაგვიკავშირდით",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/experience-nissan/news-and-events/latestnews.html",
+      "text": "უკანასკნელი სიახლეები",
+      "is_pdf": false
+    },
+    {
+      "url": "https://me.nissanmotornews.com/en/channels/channel-26e9524983914ddb37b8973cf600a892",
+      "text": "ნიუსრუმი",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/location-finder.html",
+      "text": "იპოვეთ უახლოესი სადემონსტრაციო დარბაზი",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/services/book-a-test-drive.html",
+      "text": "დაჯავშნეთ სატესტო გავლა",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/services/request-a-quote.html",
+      "text": "მიიღეთ ონლაინ კვოტირება",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/vehicles/new/x-trail.html",
+      "text": "X-TRAIL Starting Price ₾64,530",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/vehicles/new/x-terra.html",
+      "text": "X-TERRA Starting Price ₾83,430",
+      "is_pdf": false
+    },
+    {
+      "url": "https://allnewpatrol.nissan.com.ge",
+      "text": "ALL-NEW PATROL Starting Price ₾189,000",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/vehicles/new/all-new-magnite.html",
+      "text": "ALL-NEW MAGNITE Starting Price ₾39,960",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/vehicles/new/qashqai.html",
+      "text": "QASHQAI Starting Price ₾64,530",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners.html",
+      "text": "Owners",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/owners-home.html",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/nissan-service.html",
+      "text": "Service",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/genuine-accessories.html",
+      "text": "Accessories",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/driver-guide.html",
+      "text": "Driver's Guide",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/warranty.html",
+      "text": "Warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/faqs.html",
+      "text": "FAQs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/recall-information.html",
+      "text": "Recall",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/nissan-connect-services-detailed.html",
+      "text": "NissanConnect Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources.html",
+      "text": "Resources",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-range.html",
+      "text": "Tips & tricks to get the best range from your LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-how-to-guides.html",
+      "text": "How-to’s",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/content/nissan/en_GB/index/ownership/ownership/technology-explained",
+      "text": "Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/content/nissan/en_GB/index/ownership/ownership/accessories",
+      "text": "Accessories",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/content/nissan/en_GB/index/ownership/nissan-services/book-a-service",
+      "text": "Book A Service",
+      "is_pdf": false
+    },
+    {
+      "url": "http://en-gb.dark.env.heliosnissan.net/dealer-locator.html",
+      "text": "Find your nearest dealer",
+      "is_pdf": false
+    },
+    {
+      "url": "http://en-gb.dark.env.heliosnissan.net/customer-service/contact-us.html",
+      "text": "Contact Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks.html",
+      "text": "Leaf Tips And Tricks",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+      "text": "Toggle კლიენტთა მომსახურება menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+      "text": "Toggle ქსელი menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+      "text": "Toggle სავაჭრო ინსტრუმენტები menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+      "text": "Toggle ნისან სოციალ menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanME",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.twitter.com/NissanME",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.youtube.com/user/NissanMiddleEast",
+      "text": "youtube",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://libs-europe.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/ALL-NEW-X-TRAIL.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "ALL-NEW X-TRAIL"
+    },
+    {
+      "src": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/X-TERRA.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "X-TERRA"
+    },
+    {
+      "src": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/ALL-NEW-PATROL.webp.ximg.l_3_m.smart.webp",
+      "alt": "patrol 2024"
+    },
+    {
+      "src": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/MAGNITE.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "ALL-NEW MAGNITE"
+    },
+    {
+      "src": "https://www-europe.nissan-cdn.net/content/dam/Nissan/nissan_middle_east/Cars-Side-Shots/Qashqai.webp.ximg.l_3_m.smart.webp",
+      "alt": "Nissan Qashqai"
+    }
+  ],
+  "visible_dates": [
+    "2026/5/15",
+    "2026/5/1"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+    "title": "LEAF Battery Health | Nissan",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:01:09.218281+00:00",
+  "source_meta": {
+    "title": "LEAF Battery Health - Nissan",
+    "url": "https://www.nissan.com.ge/owners/resources/leaf-tips-and-tricks/leaf-battery-health.html",
+    "source_name": "www.nissan.com.ge",
+    "source_domain": "www.nissan.com.ge",
+    "source_type": "other",
+    "snippet": "Battery Care. Avoid fully charging and deep discharge of the battery pack. Keep your LEAF's charge level between 2 and 10 bars to ...",
+    "citation_count": 2,
+    "first_cited_position": 14,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Leaf tips for maximising battery life and range in Japan's climate",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

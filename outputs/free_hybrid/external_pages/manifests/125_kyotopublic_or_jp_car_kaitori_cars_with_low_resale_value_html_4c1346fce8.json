@@ -1,0 +1,493 @@
+{
+  "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 17056,
+    "wordish_count": 5364,
+    "heading_count": 9,
+    "bullet_count": 41,
+    "link_count": 59,
+    "image_count": 18,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 11,
+    "raw_url_count": 60,
+    "numeric_fact_count": 592,
+    "question_count": 15,
+    "unique_line_count": 252,
+    "numeric_facts_sample": [
+      "2024年",
+      "1",
+      "400万円",
+      "500万円",
+      "80％",
+      "3年",
+      "100％",
+      "25",
+      "2024",
+      "071万円",
+      "1,799万円",
+      "50％",
+      "100万円",
+      "2010年",
+      "5年",
+      "7",
+      "214",
+      "1,668万円",
+      "518",
+      "2,233万円",
+      "140万円",
+      "4",
+      "70",
+      "110.26%",
+      "17.29％"
+    ],
+    "links_sample": [
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/1b114554ab6af286c7f10f6798d330b9-940x492.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/04/517ef51e2ea6c8bcc1bad7d3b39a0a00-300x120.png",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/EE20EA38-746A-4B60-B755-137BDD461ACE-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/04/33DC0248-6373-4D78-9807-2D2666ABF537-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/06/7a3c765d5fa941af0de35a9775cb27ef-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/06/4B3FFCB1-0108-44D9-9B0A-225D31612B58-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/06/f23debdbf25c2499ca7c21e977ebd91b-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/01/2B21B813-A2D9-48AB-8B38-89FA8A98F2CB-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/04/517ef51e2ea6c8bcc1bad7d3b39a0a00-1024x410.png",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/03/uuid2CDA5918-E3F9-4211-A81A-372BE2A20C22library1type1mode1loctruecaptrue-1024x536.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/58c122dbc0425addf20bd01aa315bcc5-520x300.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/11/4F275440-3A10-4752-9859-1C7818AB684E-520x300.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/04/CB91C0E8-E31B-4B72-BA18-267F37594833-520x300.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/02/1-6-520x300.jpg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/10/99463DE0-B139-4AF2-87AB-687DBA1426B9-520x300.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/03/1F1443AD-155A-4C5B-AA78-D4411A971431-520x300.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/ee28ba5403a85c214f27da53923a7669-160x160.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/2ade180726a1aa6cb5b2ea66365fd82c-160x160.jpeg",
+      "https://www.kyotopublic.or.jp/car-kaitori/",
+      "https://www.kyotopublic.or.jp/car-kaitori",
+      "https://www.zba.jp/car-hanbai/promo/landing/?ID=dacaw00001",
+      "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%8C%E4%BD%8E%E3%81%84%E8%BB%8A%E3%81%AE%E7%89%B9%E5%BE%B4%E3%81%A8%E3%81%9D%E3%81%AE%E6%82%AA%E5%BD%B1%E9%9F%BF",
+      "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%A8%E8%A8%88%E7%AE%97%E6%96%B9%E6%B3%95",
+      "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E4%BA%BA%E6%B0%97%E3%81%AE%E3%81%AA%E3%81%84%E3%83%A2%E3%83%87%E3%83%AB%E3%82%84%E9%AB%98%E7%B4%9A%E8%BB%8A%E3%81%AF%E8%A6%81%E6%B3%A8%E6%84%8F",
+      "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E4%BD%8E%E3%81%84%E3%81%93%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%8C%E6%B8%88%E7%9A%84%E6%90%8D%E5%A4%B1"
+    ],
+    "image_alt_count": 18
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Article",
+      "ImageObject",
+      "Person",
+      "Organization"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 248,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 466,
+    "main_chars": 7612,
+    "footer_chars": 238,
+    "tables_chars": 376,
+    "metadata_chars": 199,
+    "full_markdown_chars": 17056
+  },
+  "metadata": {
+    "title": "リセールバリュー低い車ランキング【2024年度版】実際の口コミもまとめてみた | 車買取のおすすめ　最強WEBマガジン",
+    "description": "",
+    "language": "ja",
+    "sourceURL": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+    "robots": "index, follow",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Article",
+      "ImageObject",
+      "Person",
+      "Organization"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/",
+      "text": "車買取のおすすめ　最強WEBマガジン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori",
+      "text": "ホーム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.zba.jp/car-hanbai/promo/landing/?ID=dacaw00001",
+      "text": "ズバットを見てみる",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%8C%E4%BD%8E%E3%81%84%E8%BB%8A%E3%81%AE%E7%89%B9%E5%BE%B4%E3%81%A8%E3%81%9D%E3%81%AE%E6%82%AA%E5%BD%B1%E9%9F%BF",
+      "text": "リセールバリューが低い車の特徴とその悪影響",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%AE%E5%9F%BA%E7%A4%8E%E3%81%A8%E8%A8%88%E7%AE%97%E6%96%B9%E6%B3%95",
+      "text": "リセールバリューの基礎と計算方法",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E4%BA%BA%E6%B0%97%E3%81%AE%E3%81%AA%E3%81%84%E3%83%A2%E3%83%87%E3%83%AB%E3%82%84%E9%AB%98%E7%B4%9A%E8%BB%8A%E3%81%AF%E8%A6%81%E6%B3%A8%E6%84%8F",
+      "text": "人気のないモデルや高級車は要注意",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E4%BD%8E%E3%81%84%E3%81%93%E3%81%A8%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%8C%E6%B8%88%E7%9A%84%E6%90%8D%E5%A4%B1",
+      "text": "リセールが低いことによる経済的損失",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E4%BD%8E%E3%81%84%E5%9B%BD%E7%94%A3%E8%BB%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0",
+      "text": "リセールが低い国産車ランキング",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%881%E4%BD%8D%E3%80%8C%E4%B8%89%E8%8F%B1%E3%83%9F%E3%83%A9%E3%83%BC%E3%82%B8%E3%83%A5%E3%80%8D",
+      "text": "ワースト1位「三菱ミラージュ」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%882%E4%BD%8D%E3%80%8C%E3%83%AC%E3%82%AF%E3%82%B5%E3%82%B9GS%E3%80%8D",
+      "text": "ワースト2位「レクサスGS」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%883%E4%BD%8D%E3%80%8C%E3%83%AC%E3%82%AF%E3%82%B5%E3%82%B9LS%E3%80%8D",
+      "text": "ワースト3位「レクサスLS」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%884%E4%BD%8D%E3%80%8C%E6%97%A5%E7%94%A3%E3%83%AA%E3%83%BC%E3%83%95%E3%80%8D",
+      "text": "ワースト4位「日産リーフ」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%885%E4%BD%8D%E3%80%8C%E3%83%88%E3%83%A8%E3%82%BFSAI%E3%80%8D",
+      "text": "ワースト5位「トヨタSAI」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E6%A0%BC%E3%81%8C%E9%81%95%E3%81%86%EF%BC%9F%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E6%82%AA%E3%81%84%E5%A4%96%E8%BB%8A%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0",
+      "text": "格が違う？リセールが悪い外車ランキング",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%881%E4%BD%8D%E3%80%8CBMW7%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA%E3%80%8D",
+      "text": "ワースト1位「BMW7シリーズ」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%882%E4%BD%8D%E3%80%8C%E3%82%A2%E3%82%A6%E3%83%87%E3%82%A3A8%E3%80%8D",
+      "text": "ワースト2位「アウディA8」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AF%E3%83%BC%E3%82%B9%E3%83%883%E4%BD%8D%E3%80%8C%E3%83%99%E3%83%B3%E3%83%84S%E3%82%AF%E3%83%A9%E3%82%B9%E3%80%8D",
+      "text": "ワースト3位「ベンツSクラス」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E9%80%86%E3%81%AB%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E8%BB%8A%E3%81%A8%E3%81%AF%EF%BC%9F",
+      "text": "逆にリセールが落ちない車とは？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%81%93%E3%82%8C%E3%81%AF%E5%87%84%E3%81%84%EF%BC%81%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%AE%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E8%BB%8A%E3%81%9F%E3%81%A1",
+      "text": "これは凄い！リセールの落ちない車たち",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E8%90%BD%E3%81%A1%E3%81%AA%E3%81%84%E8%BB%8A%E3%81%AE%E7%89%B9%E5%BE%B4",
+      "text": "リセールが落ちない車の特徴",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%A7%E6%B3%A8%E6%84%8F%E3%81%99%E3%81%B9%E3%81%8D%E7%82%B9%E3%81%A8%E3%81%9D%E3%81%AE%E5%AF%BE%E7%AD%96",
+      "text": "リセールバリューで注意すべき点とその対策",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#EV%E3%81%AE%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%A8%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E3%81%AE%E5%AF%BF%E5%91%BD",
+      "text": "EVのリセールとバッテリーの寿命",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%82%AC%E3%82%BD%E3%83%AA%E3%83%B3%E8%BB%8A%E3%81%AF%E4%BB%8A%E5%BE%8C%E5%80%A4%E4%B8%8A%E3%81%8C%E3%82%8A%E3%81%99%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%9F",
+      "text": "ガソリン車は今後値上がりするのか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%81%8C%E4%BD%8E%E3%81%84%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8%E3%81%AF%E3%80%8C%E3%81%8A%E5%BE%97%E3%81%AB%E8%B2%B7%E3%81%88%E3%82%8B%E3%80%8D%E3%81%A8%E3%81%84%E3%81%86%E3%81%93%E3%81%A8",
+      "text": "リセールが低いということは「お得に買える」ということ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%82%BA%E3%83%90%E3%83%83%E3%83%88%E8%BB%8A%E8%B2%A9%E5%A3%B2%E3%81%A7%E4%BE%A1%E5%80%A4%E3%81%82%E3%82%8B%E4%B8%80%E5%8F%B0%E3%82%92%E3%82%B2%E3%83%83%E3%83%88%E3%81%97%E3%82%88%E3%81%86",
+      "text": "ズバット車販売で価値ある一台をゲットしよう",
+      "is_pdf": false
+    },
+    {
+      "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html#%E3%81%BE%E3%81%A8%E3%82%81",
+      "text": "まとめ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/renovation_kami/status/1761578411573870775?ref_src=twsrc%5Etfw",
+      "text": "February 25, 2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ucarpac.com/resalevalue/m001",
+      "text": "ユーカーパック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.zba.jp/car-hanbai/promo/landing/?ID=dacaw00001",
+      "text": "ズバット車販売",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/forester-car-tax.html",
+      "text": "フォレスターの自動車税はどれくらい!?実際の声をまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/what-light-vehicles-should-you-not-buy.html",
+      "text": "買ってはいけない軽自動車はこれ！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/serena-secondhand-car.html",
+      "text": "セレナ中古車が安い理由は？実際どれくらい？Twitterの声をまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/precautions-for-used-benz-c-class.html",
+      "text": "ベンツＣクラス中古の注意点6選！選ぶときに失敗しないコツ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/purchasing-a-used-light-car.html",
+      "text": "中古の軽自動車コミコミ10万で買える⁉ Twitter民の声もまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/import-car-ranking.html",
+      "text": "憧れの外車ランキング！タイプ別にまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/lexus-nx-maintenance-costs.html",
+      "text": "前の記事 レクサスNXの維持費はぶっちゃけどれくらい!?Xのリアルな声も…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/how-to-sell-your-bmw-for-a-high-price.html",
+      "text": "次の記事 BMW高く売る方法5選、X民の声をまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/buying-an-acura.html",
+      "text": "アキュラ 日本で買うにはどうすれば良い？！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/rav4-review.html",
+      "text": "RAV4はでかすぎ!?X民のリアルな口コミをまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/how-to-sell-your-bmw-for-a-high-price.html",
+      "text": "BMW高く売る方法5選、X民の声をまとめてみた",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+      "text": "リセールバリュー低い車ランキング【2024年度版】実際の口コミもまとめてみた",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/1b114554ab6af286c7f10f6798d330b9-940x492.jpeg",
+      "alt": "リセールバリュー低い車"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/04/517ef51e2ea6c8bcc1bad7d3b39a0a00-300x120.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/EE20EA38-746A-4B60-B755-137BDD461ACE-1024x536.jpeg",
+      "alt": "リセールバリューが低い車の特徴"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/04/33DC0248-6373-4D78-9807-2D2666ABF537-1024x536.jpeg",
+      "alt": "人気のない車や高級車は値段が安くなる"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/06/7a3c765d5fa941af0de35a9775cb27ef-1024x536.jpeg",
+      "alt": "リセールバリューの低い国産車"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/06/4B3FFCB1-0108-44D9-9B0A-225D31612B58-1024x536.jpeg",
+      "alt": "リセールバリューの低い輸入車"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/06/f23debdbf25c2499ca7c21e977ebd91b-1024x536.jpeg",
+      "alt": "リセールバリューの高い車の特徴"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/01/2B21B813-A2D9-48AB-8B38-89FA8A98F2CB-1024x536.jpeg",
+      "alt": "リセールバリューで損をしないためのコツ"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/04/517ef51e2ea6c8bcc1bad7d3b39a0a00-1024x410.png",
+      "alt": "ズバット"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/03/uuid2CDA5918-E3F9-4211-A81A-372BE2A20C22library1type1mode1loctruecaptrue-1024x536.jpeg",
+      "alt": "まとめ"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/58c122dbc0425addf20bd01aa315bcc5-520x300.jpeg",
+      "alt": "フォレスターの自動車税はどれくらい!?実際の声をまとめてみた"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/11/4F275440-3A10-4752-9859-1C7818AB684E-520x300.jpeg",
+      "alt": "買ってはいけない軽自動車はこれ！"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/04/CB91C0E8-E31B-4B72-BA18-267F37594833-520x300.jpeg",
+      "alt": "セレナ中古車が安い理由は？実際どれくらい？Twitterの声をまとめてみた"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/02/1-6-520x300.jpg",
+      "alt": "ベンツＣクラス中古の注意点6選！選ぶときに失敗しないコツ"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/10/99463DE0-B139-4AF2-87AB-687DBA1426B9-520x300.jpeg",
+      "alt": "中古の軽自動車コミコミ10万で買える⁉ Twitter民の声もまとめてみた"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2023/03/1F1443AD-155A-4C5B-AA78-D4411A971431-520x300.jpeg",
+      "alt": "憧れの外車ランキング！タイプ別にまとめてみた"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/ee28ba5403a85c214f27da53923a7669-160x160.jpeg",
+      "alt": "レクサスNX維持費"
+    },
+    {
+      "src": "https://www.kyotopublic.or.jp/car-kaitori/wp-content/uploads/2024/05/2ade180726a1aa6cb5b2ea66365fd82c-160x160.jpeg",
+      "alt": "BMX高く売る方法"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+    "title": "リセールバリュー低い車ランキング【2024年度版】実際の口コミもまとめてみた | 車買取のおすすめ　最強WEBマガジン",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:16:25.250944+00:00",
+  "source_meta": {
+    "title": "リセールバリュー低い車ランキング【2024年度版】実際の口コミも ...",
+    "url": "https://kyotopublic.or.jp/car-kaitori/cars-with-low-resale-value.html",
+    "source_name": "京都駐車場なび",
+    "source_domain": "kyotopublic.or.jp",
+    "source_type": "other",
+    "snippet": "リセールが低い国産車ランキング * ワースト1位「三菱ミラージュ」 * ワースト2位「レクサスGS」 * ワースト3位「レクサスLS」 * ワースト4位「日産リーフ」 * ワースト5位「トヨタSAI」",
+    "citation_count": 4,
+    "first_cited_position": 18,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "heading",
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

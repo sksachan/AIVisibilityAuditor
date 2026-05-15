@@ -1,0 +1,935 @@
+{
+  "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 22974,
+    "wordish_count": 3144,
+    "heading_count": 9,
+    "bullet_count": 116,
+    "link_count": 128,
+    "image_count": 12,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 4,
+    "raw_url_count": 130,
+    "numeric_fact_count": 30,
+    "question_count": 5,
+    "unique_line_count": 331,
+    "numeric_facts_sample": [
+      "2.0",
+      "2030",
+      "4",
+      "360",
+      "3",
+      "1",
+      "2",
+      "7",
+      "5",
+      "12",
+      "10",
+      "15",
+      "25",
+      "29",
+      "31",
+      "33",
+      "34"
+    ],
+    "links_sample": [
+      "https://www.nissan-global.com/library/assets/img/hd_logo.svg",
+      "https://www.nissan-global.com/library/assets/img/hd_nav_close_btn_01.svg",
+      "https://www.nissan-global.com/library/assets/img/icon_facebook_01.svg",
+      "https://www.nissan-global.com/library/assets/img/icon_twitter_01.svg",
+      "https://www.nissan-global.com/library/assets/img/icon_linkedin_01.svg",
+      "https://www.nissan-global.com/library/assets/img/icon_mail_01.svg",
+      "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_thum_01_en.jpg",
+      "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_01_en.jpg",
+      "https://www.nissan-global.com/library/assets/img/ft_icon_youtube.svg",
+      "https://www.nissan-global.com/library/assets/img/ft_icon_twitter.svg",
+      "https://www.nissan-global.com/library/assets/img/ft_icon_linkedin.svg",
+      "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "https://www.nissan-global.com/EN/",
+      "https://global.nissannews.com/en",
+      "https://www.nissanmotor.jobs/",
+      "https://www.nissan-global.com/EN/INQUIRY/",
+      "https://www.nissan-global.com/EN/COMPANY/",
+      "https://www.nissan-global.com/EN/COMPANY/MESSAGE/",
+      "https://www.nissan-global.com/EN/COMPANY/PURPOSE/",
+      "https://www.nissan-global.com/EN/COMPANY/PLAN/",
+      "https://www.nissan-global.com/EN/COMPANY/PLAN/VISION/",
+      "https://www.nissan-global.com/EN/COMPANY/PLAN/RENISSAN/",
+      "https://www.nissan-global.com/EN/COMPANY/PLAN/HISTORY/",
+      "https://www.nissan-global.com/EN/COMPANY/LIFE_AT_NISSAN/",
+      "https://www.nissan-global.com/EN/COMPANY/PROFILE/"
+    ],
+    "image_alt_count": 12
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 31,
+    "content_terms": 82,
+    "noise_ratio": 0.38
+  },
+  "content_regions": {
+    "header_chars": 2220,
+    "main_chars": 11860,
+    "footer_chars": 174,
+    "tables_chars": 226,
+    "metadata_chars": 287,
+    "full_markdown_chars": 22974
+  },
+  "metadata": {
+    "title": "ProPILOT 2.0 | Innovation | Nissan Motor Corporation Global Website",
+    "description": "Nissan’s ProPILOT 2.0: Nissan’s various technologies, including electrification, autonomous drive, connected car & service, mobility service, and energy management, are introduced.",
+    "language": "en",
+    "sourceURL": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "https://www.nissan-global.com/EN/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "Newsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanmotor.jobs/",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INQUIRY/",
+      "text": "Inquiries",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/",
+      "text": "Our Company",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/",
+      "text": "Go to Our Company",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/MESSAGE/",
+      "text": "CEO Message",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PURPOSE/",
+      "text": "Corporate Purpose",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PLAN/",
+      "text": "Vision & Business Plan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PLAN/VISION/",
+      "text": "Our Vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PLAN/RENISSAN/",
+      "text": "Re:Nissan Recovery Plan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PLAN/HISTORY/",
+      "text": "Nissan Vision & Business Plan History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/LIFE_AT_NISSAN/",
+      "text": "Life at Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/",
+      "text": "Company Outline",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/EXECUTIVE/",
+      "text": "Our Leadership",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/HERITAGE/",
+      "text": "Our History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/ESTABLISHMENT/",
+      "text": "Major Facilities in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/EN_ESTABLISHMENT/",
+      "text": "Major Facilities Overseas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/SALESNETWORK/",
+      "text": "Major Sales Network Overseas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/SUBSIDIARY/",
+      "text": "Major Subsidiaries and Affiliates in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/BRANDS/",
+      "text": "Our Brands",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/",
+      "text": "Corporate Governance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/RISK_MANAGEMENT/",
+      "text": "Risk Management",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/COMPLIANCE/",
+      "text": "Compliance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/EVENTS/",
+      "text": "Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/FLEET_PARTNERSHIPS/",
+      "text": "Nissan Global Fleet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/HERITAGE/",
+      "text": "Nissan Heritage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/ALLIANCE/",
+      "text": "Renault-Nissan-Mitsubishi Alliance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/STORIES/",
+      "text": "Stories",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/",
+      "text": "Sustainability",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/",
+      "text": "Go to Sustainability",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/OVERVIEW/",
+      "text": "Sustainability Strategy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/MATERIALITY/",
+      "text": "Nissan Materiality",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/",
+      "text": "Environmental",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/FRAMEWORK/",
+      "text": "Environmental Initiatives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/GREENPROGRAM/",
+      "text": "Nissan Green Program 2030",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/GREENPROGRAM/CLIMATE/",
+      "text": "Climate Change",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/GREENPROGRAM/DEPENDENCY/",
+      "text": "Resource Dependency",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/ENVIRONMENT/GREENPROGRAM/AIRWATER/",
+      "text": "Air Quality & Water",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/",
+      "text": "Social",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/HUMANRIGHTS/",
+      "text": "Human Rights",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/DIVERSITY/",
+      "text": "Diversity, Equity & Inclusion​",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/EMPLOYEE_HUMAN_RIGHTS/",
+      "text": "Employee Human Rights",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/EMPLOYEE/",
+      "text": "Learning & Development",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/HEALTH/",
+      "text": "Health & Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/SAFETY/",
+      "text": "Traffic Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/QUALITY/",
+      "text": "Quality",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/SUPPLYCHAIN/",
+      "text": "Responsible Sourcing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/CITIZENSHIP/",
+      "text": "Communities",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/INTELLECTUAL_PROPERTY/",
+      "text": "Intellectual Property",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/SOCIAL/DIVERSITY/",
+      "text": "Diversity, Equity & Inclusion",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/KEY_INITIATIVES/",
+      "text": "Key Initiatives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/",
+      "text": "Governance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/LIBRARY/",
+      "text": "Reports, Policies & Guidelines",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SUSTAINABILITY/GLOBALCOMPACT/",
+      "text": "The UN Global Compact",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/",
+      "text": "Innovation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/",
+      "text": "Go to Innovation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/",
+      "text": "Electrification",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/E_POWER/",
+      "text": "e-POWER: The electrification technology born from EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/E_4ORCE/",
+      "text": "Nissan e-4ORCE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/FORMULA_E/",
+      "text": "Formula E",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/EV_MILESTONES/",
+      "text": "EV Milestones",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/VEHICLE_INTELLIGENCE/",
+      "text": "Advanced Driver Assistance & Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/VEHICLE_INTELLIGENCE/PROPILOT/",
+      "text": "Advanced driver-assistance features ProPILOT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/MOBILITY_SERVICES/",
+      "text": "Mobility Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/CONNECTIVITY_INFOTAINMENT/",
+      "text": "Connectivity & Infotainment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/SUSTAINABLE_SOLUTIONS/",
+      "text": "Sustainable Solutions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/FUTURE_TECHNOLOGY/",
+      "text": "Future Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/",
+      "text": "Technology Library",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/DESIGN/",
+      "text": "Design",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/DESIGN/MESSAGE/",
+      "text": "Message",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/DESIGN/DESIGNWORKS/",
+      "text": "Design Gallery",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/DESIGN/LIBRARY/",
+      "text": "Library",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/DESIGN/RECRUIT/",
+      "text": "Design Recruitment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/PLANT/",
+      "text": "Nissan Monozukuri",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/NRC/",
+      "text": "Nissan Research Center",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/",
+      "text": "Nissan Advanced Technology Center",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/LICENSE/",
+      "text": "Technology License",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/",
+      "text": "Investors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/",
+      "text": "Go to Investors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/INDIVIDUAL/",
+      "text": "Individual Investors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/NEWS_EVENT/",
+      "text": "Financial News & Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/FINANCIAL_RESULTS/",
+      "text": "Results, Reports and Presentations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/MANAGEMENT/",
+      "text": "Leadership Team",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/",
+      "text": "Stock & Bond Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/DIVIDEND/",
+      "text": "Shareholder Returns & Dividends",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/SERVICES/",
+      "text": "Shareholder Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/INFORMATION/",
+      "text": "Nissan’s Stock Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/RATING_CORPORATE_BOND/",
+      "text": "Rating & Bond Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/STOCK/SUSTAINABLE_FINANCE/",
+      "text": "Sustainable Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/PERFORMANCE/",
+      "text": "Performance Highlights",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/PERFORMANCE/RESULT/",
+      "text": "Sales, Production & Export Results",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INQUIRY/",
+      "text": "Inquiry",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/INTEGRATED_REPORT/",
+      "text": "Integrated Report",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/LIBRARY/FINANCIAL/",
+      "text": "Financial results",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/nissan-model-lineup",
+      "text": "Nissan Models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ELECTRIFICATION/E_POWER/",
+      "text": "e-POWER",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+      "text": "ProPILOT 2.0",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "text": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=ProPILOT%202.0%20%7C%20Innovation%20%7C%20Nissan%20Motor%20Corporation%20Global%20Website%0a&url=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "text": "https://twitter.com/intent/tweet?text=ProPILOT%202.0%20%7C%20Innovation%20%7C%20Nissan%20Motor%20Corporation%20Global%20Website%0a&url=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "text": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PPRP/",
+      "text": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PPRP/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PPNL/",
+      "text": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PPNL/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT_PARK/",
+      "text": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT_PARK/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT/",
+      "text": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/?category=25",
+      "text": "Car Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/?performance=29",
+      "text": "Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/?performance=31",
+      "text": "Comfort & Convenience",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/?technology=33",
+      "text": "Autonomous Drive/Advanced Driver Assistance System",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/?technology=34",
+      "text": "Connected Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/VEHICLE_INTELLIGENCE/",
+      "text": "Advanced Drive Assistance & Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/NISSAN_FUTURES/",
+      "text": "Nissan Futures",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ADVANCED_TECH_CENTER/",
+      "text": "Nissan Advanced Technology Center - Silicon Valley",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/INSPIRATION_NISSAN_ENGINEERS/",
+      "text": "Nissan engineers unleash the power of imagination",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+      "text": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/Nissan",
+      "text": "https://www.youtube.com/Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanMotor",
+      "text": "https://twitter.com/NissanMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nissan-motor-corporation",
+      "text": "https://www.linkedin.com/company/nissan-motor-corporation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/SITEMAP/",
+      "text": "Sitemap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/ABOUT/",
+      "text": "Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/ACCESSIBILITY-POLICY/",
+      "text": "Web Accessibility",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/PRIVACY/",
+      "text": "Website Privacy Notice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/DISCLAIMER/",
+      "text": "Disclaimer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/INQUIRY/FAQ/",
+      "text": "FAQ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COOKIES/",
+      "text": "Cookies Policy.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COOKIES/",
+      "text": "Cookies Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.onetrust.com/products/cookie-consent/",
+      "text": "https://www.onetrust.com/products/cookie-consent/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/hd_logo.svg",
+      "alt": "NISSAN MOTOR CORPORATION"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/hd_nav_close_btn_01.svg",
+      "alt": "close"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/icon_facebook_01.svg",
+      "alt": "facebook"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/icon_twitter_01.svg",
+      "alt": "X"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/icon_linkedin_01.svg",
+      "alt": "linkedin"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/icon_mail_01.svg",
+      "alt": "mail"
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_thum_01_en.jpg",
+      "alt": "ProPILOT 2.0"
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_01_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_02_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_03_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_04_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_05_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_06_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/ASSETS/IMG/propilot2_07_en.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/ASSETS/IMG/pprp_thumb_jp.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/ASSETS/IMG/ppnl_thumb_jp.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/ASSETS/IMG/ProPILOT_Park_Step03_2.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/JP/INNOVATION/TECHNOLOGY/ARCHIVE/ASSETS/IMG/ProPILOT_thumb.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/ft_icon_youtube.svg",
+      "alt": "YouTube (A new tab will open)"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/ft_icon_twitter.svg",
+      "alt": "X (A new tab will open)"
+    },
+    {
+      "src": "https://www.nissan-global.com/library/assets/img/ft_icon_linkedin.svg",
+      "alt": "linkedin (A new tab will open)"
+    },
+    {
+      "src": "https://t.co/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=790474da-1ac8-411f-b03c-3119074ca020&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=1946647a-3ac2-4d9f-9774-fee2ed3407e3&pt=ProPILOT%202.0%20%7C%20Innovation%20%7C%20Nissan%20Motor%20Corporation%20Global%20Website&tw_document_href=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853847493.619809693533716440&txn_id=o6ozg&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/i/adsct?bci=3&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=2&event_id=790474da-1ac8-411f-b03c-3119074ca020&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=1946647a-3ac2-4d9f-9774-fee2ed3407e3&pt=ProPILOT%202.0%20%7C%20Innovation%20%7C%20Nissan%20Motor%20Corporation%20Global%20Website&tw_document_href=https%3A%2F%2Fwww.nissan-global.com%2FEN%2FINNOVATION%2FTECHNOLOGY%2FARCHIVE%2FPROPILOT2%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=2&tw_sale_amount=0&twpid=tw.1778853847493.619809693533716440&txn_id=o6ozg&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/bbc0afe8-0ff2-4245-bd4c-2d35c30abae8/015725e9-d5c1-45d6-aaf4-19ddc51dcbb9/logo.png",
+      "alt": "NISSAN MOTOR CORPORATION"
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+    "title": "ProPILOT 2.0 | Innovation | Nissan Motor Corporation Global Website",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:12:34.573963+00:00",
+  "source_meta": {
+    "title": "ProPILOT 2.0 | Innovation - Nissan Global",
+    "url": "https://www.nissan-global.com/EN/INNOVATION/TECHNOLOGY/ARCHIVE/PROPILOT2/",
+    "source_name": "Nissan global website",
+    "source_domain": "www.nissan-global.com",
+    "source_type": "owned_ecosystem",
+    "snippet": "The new ProPILOT also enables hands-off driving while cruising in a given lane. When the vehicle approaches a road divide, or when...",
+    "citation_count": 3,
+    "first_cited_position": 2,
+    "answer_support_weight": 5,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "high",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": true,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan ProPILOT features and real-world performance on Japanese expressways",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

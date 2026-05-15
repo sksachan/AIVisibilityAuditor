@@ -1,0 +1,17 @@
+{
+  "validation_status": "success",
+  "errors": [],
+  "required_files_checked": [
+    "outputs/visibility/ai_visibility_scores.json",
+    "outputs/source_landscape/source_classification.json",
+    "outputs/source_landscape/competitor_publisher_landscape.json",
+    "outputs/page_scores/owned_page_scores.json",
+    "outputs/page_scores/external_page_scores.json",
+    "outputs/benchmark/winning_source_patterns.json",
+    "outputs/benchmark/owned_vs_external_gap_analysis.json",
+    "outputs/recommendations/owned_page_content_recommendations.json",
+    "outputs/pr_publisher_opportunities/pr_opportunity_plan.json",
+    "outputs/dashboard/ai_visibility_dashboard_dataset.json",
+    "outputs/bodhi/bodhi_input_bundle.json"
+  ]
+}

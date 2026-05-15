@@ -1,0 +1,557 @@
+{
+  "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 14289,
+    "wordish_count": 2130,
+    "heading_count": 8,
+    "bullet_count": 55,
+    "link_count": 66,
+    "image_count": 11,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 1,
+    "raw_url_count": 68,
+    "numeric_fact_count": 70,
+    "question_count": 0,
+    "unique_line_count": 186,
+    "numeric_facts_sample": [
+      "15",
+      "5",
+      "2026",
+      "3",
+      "7",
+      "350",
+      "2",
+      "45%",
+      "360",
+      "180",
+      "26.05",
+      "30",
+      "12",
+      "20240806",
+      "20",
+      "2022",
+      "2023",
+      "201500",
+      "1",
+      "6",
+      "4",
+      "10000",
+      "2015%",
+      "202026%",
+      "2014%"
+    ],
+    "links_sample": [
+      "https://libs-asia.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/global/vehicles/ariya/main/overview/spec/20240806_ARIYA_4WD.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/SerenaC28/C28%20Web.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/NOTE_e-POWER_2024/profile-image/NOTE_ePOWER_VehicleThumbnail_20240411.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/elgrand-restyle/profile-image/elgrand_250_1536x864.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/LEAF-2022/LEAF-profile.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/X-Trail-2023/profile/nissan-x-trail-2023-profile.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/Qashqai_Facelift/Qashqai%20Turbo%20Mild%20Hybrid%20-%20FL%20-%201500x800.jpg.ximg.l_3_m.smart.jpg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/Townstar_2025/Townstar%20Website%20Profile%20Picture.jpg.ximg.l_3_m.smart.jpg",
+      "https://s3-ap-southeast-1.amazonaws.com/caas-media-storage/upload/photos/user-upload-photo/dfe8f06a-6e01-4d8b-b515-2f752f6dd015-fdb726b7d6754f25820a26c8f9f0c041.png",
+      "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Fri%2C%2015%20May%202026%2014%3A09%3A04%20GMT&n=-1d&b=Features%20%7C%20ELGRAND%20Restyle%20%7C%20Nissan%20Hong%20Kong&.yp=10105706&f=https%3A%2F%2Fen.nissan.com.hk%2Fvehicles%2Fnew%2Felgrand%2Ffeatures.html&enc=UTF-8&yv=1.16.6&tagmgr=gtm%2Cadobe",
+      "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#container",
+      "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#footer-element",
+      "https://en.nissan.com.hk/offers.html",
+      "https://en.nissan.com.hk/nissan-services/servicing-and-maintenance.html",
+      "https://en.nissan.com.hk/content/nissan_prod/en_HK/index/nissan-services/customer-promise",
+      "https://en.nissan.com.hk/nissan-services/benefits.html",
+      "https://en.nissan.com.hk/nissan-services/our-services.html",
+      "https://en.nissan.com.hk/nissan-services/centres-locations.html",
+      "https://en.nissan.com.hk/nissan-services/warranty.html",
+      "https://en.nissan.com.hk/events.html",
+      "https://en.nissan.com.hk/experience-nissan.html",
+      "https://www.nissan-global.com/EN/",
+      "https://en.nissan.com.hk/vehicles/pricelist.html",
+      "https://en.nissan.com.hk/vehicles/new/ariya.html"
+    ],
+    "image_alt_count": 11
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": false,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": false,
+    "robots_indexable": true,
+    "hreflang_count": 2,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 132,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 1116,
+    "main_chars": 7146,
+    "footer_chars": 413,
+    "tables_chars": 0,
+    "metadata_chars": 100,
+    "full_markdown_chars": 14289
+  },
+  "metadata": {
+    "title": "Features | ELGRAND Restyle | Nissan Hong Kong",
+    "description": "",
+    "language": "en-HK",
+    "sourceURL": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+    "robots": "index,follow",
+    "hreflang": [
+      {
+        "hreflang": "zh-HK",
+        "href": "https://www.nissan.com.hk/vehicles/new/elgrand/features.html"
+      },
+      {
+        "hreflang": "en-HK",
+        "href": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html"
+      }
+    ],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#container",
+      "text": "Skip to main content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#footer-element",
+      "text": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/",
+      "text": "https://en.nissan.com.hk/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/offers.html",
+      "text": "Current Offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/nissan-services/servicing-and-maintenance.html",
+      "text": "Servicing & Maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/content/nissan_prod/en_HK/index/nissan-services/customer-promise",
+      "text": "Customer Promise",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/nissan-services/benefits.html",
+      "text": "Benefits",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/nissan-services/our-services.html",
+      "text": "Our Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/nissan-services/centres-locations.html",
+      "text": "Centres Locations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/nissan-services/warranty.html",
+      "text": "Warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/events.html",
+      "text": "Safety Recall Notice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/experience-nissan.html",
+      "text": "Experience Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "Global News and Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/pricelist.html",
+      "text": "Price List",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/ariya.html",
+      "text": "ARIYA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/serena.html",
+      "text": "Serena e-POWER",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/NOTE.html",
+      "text": "NOTE e-POWER",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand.html",
+      "text": "ELGRAND RESTYLE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/leaf.html",
+      "text": "LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/x-trail.html",
+      "text": "X-TRAIL e-POWER",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/qashqai.html",
+      "text": "QASHQAI TURBO MILD HYBRID FL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/Townstar.html",
+      "text": "Townstar",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand.html",
+      "text": "Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/design.html",
+      "text": "Design",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "Features",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/performance.html",
+      "text": "Performance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/specifications.html",
+      "text": "Specifications",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/request-a-brochure.html",
+      "text": "Request a Brochure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#journey",
+      "text": "comfort & convenience",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#room",
+      "text": "flexible room",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#luxury",
+      "text": "Luxury experience",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html#Safety",
+      "text": "Safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/",
+      "text": "Nissan Hong Kong",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new.html",
+      "text": "New Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "繁體中文",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "Toggle Vehicles menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new.html",
+      "text": "All Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/pricelist.html",
+      "text": "View Pricelist",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "Toggle Owners menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/events.html",
+      "text": "Latest News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/content/nissan_prod/en_HK/index/test-drive-review",
+      "text": "Test Drive Review",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.dchmsc.com/mot_brand_car_nissan.php",
+      "text": "Repairs & Maintenance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/owners/honest-motors.html",
+      "text": "Honest Motors",
+      "is_pdf": false
+    },
+    {
+      "url": "https://bit.ly/3xMdxEP",
+      "text": "Career",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "Toggle Customer Service menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/dealer-finder.html",
+      "text": "Find a Dealer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/test-drive.html",
+      "text": "Book a Test Drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/services/contact-us.html",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+      "text": "Toggle Nissan Social menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/NissanHongKong",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCqVSAzNaLcxW1iVYfGayAwQ",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/legal/privacy.html",
+      "text": "Privacy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/legal/copyright.html",
+      "text": "Copyright",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/legal/disclaimer.html",
+      "text": "Disclaimer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://en.nissan.com.hk/legal/personal-data-and-privacy-statement.html",
+      "text": "Personal Data and Privacy Statement",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.nissan-global.com/EN/index.html",
+      "text": "Global Site",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/global/vehicles/ariya/main/overview/spec/20240806_ARIYA_4WD.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "ARIYA"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/SerenaC28/C28%20Web.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Serena e-POWER"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/NOTE_e-POWER_2024/profile-image/NOTE_ePOWER_VehicleThumbnail_20240411.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "NISSAN NOTE e-POWER"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/elgrand-restyle/profile-image/elgrand_250_1536x864.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Nissan ELGRAND Restyle"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/LEAF-2022/LEAF-profile.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Nissan LEAF"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/X-Trail-2023/profile/nissan-x-trail-2023-profile.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Nissan X-Trail e-POWER"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/Qashqai_Facelift/Qashqai%20Turbo%20Mild%20Hybrid%20-%20FL%20-%201500x800.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Nissan Qashqai FL"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/hong-kong/vehicles/Townstar_2025/Townstar%20Website%20Profile%20Picture.jpg.ximg.l_3_m.smart.jpg",
+      "alt": "Nissan Townstar"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=728716417506699&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://s3-ap-southeast-1.amazonaws.com/caas-media-storage/upload/photos/user-upload-photo/dfe8f06a-6e01-4d8b-b515-2f752f6dd015-fdb726b7d6754f25820a26c8f9f0c041.png",
+      "alt": "omnichat-custom-icon-img"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=909155380174993&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Fri%2C%2015%20May%202026%2014%3A09%3A04%20GMT&n=-1d&b=Features%20%7C%20ELGRAND%20Restyle%20%7C%20Nissan%20Hong%20Kong&.yp=10105706&f=https%3A%2F%2Fen.nissan.com.hk%2Fvehicles%2Fnew%2Felgrand%2Ffeatures.html&enc=UTF-8&yv=1.16.6&tagmgr=gtm%2Cadobe",
+      "alt": "dot image pixel"
+    },
+    {
+      "src": "https://sp.analytics.yahoo.com/sp.pl?a=10000&b=Features%20%7C%20ELGRAND%20Restyle%20%7C%20Nissan%20Hong%20Kong&.yp=10203993&f=https%3A%2F%2Fen.nissan.com.hk%2Fvehicles%2Fnew%2Felgrand%2Ffeatures.html&enc=UTF-8&yv=1.16.6&tagmgr=gtm%2Cadobe",
+      "alt": "dot image pixel"
+    },
+    {
+      "src": "https://sp.analytics.yahoo.com/sp.pl?a=10000&b=Features%20%7C%20ELGRAND%20Restyle%20%7C%20Nissan%20Hong%20Kong&.yp=10206113&f=https%3A%2F%2Fen.nissan.com.hk%2Fvehicles%2Fnew%2Felgrand%2Ffeatures.html&enc=UTF-8&yv=1.16.6&tagmgr=gtm%2Cadobe",
+      "alt": "dot image pixel"
+    },
+    {
+      "src": "https://track.omnichat.ai/restapi/v1/pixel/track?ecid=f206715a-bad5-4255-bff9-4c682e8988c1&p=ownsite&t=Nissan%20Hong%20Kong&bh=pageview&v=1.0&dl=https%3A%2F%2Fen.nissan.com.hk%2Fvehicles%2Fnew%2Felgrand%2Ffeatures.html&dv=web_desktop&ssid=b0wo8ird-mp6ztvyh.1778854146569.1778854146569",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+    "title": "Features | ELGRAND Restyle | Nissan Hong Kong",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:09:10.179787+00:00",
+  "source_meta": {
+    "title": "Features | ELGRAND Restyle - Nissan Hong Kong",
+    "url": "https://en.nissan.com.hk/vehicles/new/elgrand/features.html",
+    "source_name": "Nissan Hong Kong",
+    "source_domain": "en.nissan.com.hk",
+    "source_type": "other",
+    "snippet": "Getting in ELGAND Restyle is like travelling aboard an executive jet, time spent in the cabin of the Nissan ELGRAND Restyle is a s...",
+    "citation_count": 2,
+    "first_cited_position": 3,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Family practicality, space and comfort",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Elgrand long-trip comfort features and seating arrangements for multi-passenger travel",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Elgrand long-trip comfort features and seating arrangements for multi-passenger travel",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

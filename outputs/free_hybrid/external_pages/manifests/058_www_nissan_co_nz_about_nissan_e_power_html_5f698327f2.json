@@ -1,0 +1,740 @@
+{
+  "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 18818,
+    "wordish_count": 2807,
+    "heading_count": 9,
+    "bullet_count": 85,
+    "link_count": 89,
+    "image_count": 14,
+    "pdf_link_count": 1,
+    "table_like": true,
+    "table_line_count": 14,
+    "raw_url_count": 91,
+    "numeric_fact_count": 50,
+    "question_count": 20,
+    "unique_line_count": 309,
+    "numeric_facts_sample": [
+      "15",
+      "05",
+      "2026",
+      "5",
+      "4",
+      "2",
+      "100km",
+      "100%",
+      "10",
+      "300,000km",
+      "10,000",
+      "81",
+      "02",
+      "1",
+      "6.1",
+      "139",
+      "7.8",
+      "183",
+      "4.1",
+      "92",
+      "26.05",
+      "30",
+      "12",
+      "20",
+      "950"
+    ],
+    "links_sample": [
+      "https://libs-asia.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Navara/side-profiles/All-New-Navara-r3.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/X-TRAIL/side-profiles/P33A_L4%2B_EPOWER_XHQ_03.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/QASHQAI/side-profiles/Side%20profile%20Hero_QQMY26_Red.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Patrol/side-profiles/Ti-L%20Patrol-r2.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/All-New-Z/side-profiles/Z-my24-NISMO-side-profile-950x489.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Navara/side-profiles/new-navara-pro-4x-950x489.png.ximg.l_3_m.smart.png",
+      "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/X-TRAIL/overview/X-TRAIL-HERO-SURF-FINAL-vlp-d-hero-r2.jpg",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/Transmission.png",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/engine.png",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/electric-motor.png",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/battery.png",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/enventer.png",
+      "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/generator.png",
+      "https://www.nissan.co.nz/about-nissan/e-power.html#container",
+      "https://www.nissan.co.nz/about-nissan/e-power.html#footer-element",
+      "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "https://www.nissan.co.nz/shop-at-home.html",
+      "https://www.nissan.co.nz/vehicles/build-a-vehicle.html",
+      "https://www.nissan.co.nz/vehicles/download-brochure.html",
+      "https://www.nissan.co.nz/offers.html",
+      "https://www.nissan.co.nz/forms/get-a-quote.html",
+      "https://www.nissan.co.nz/test-drive.html",
+      "https://www.nissan.co.nz/owners/servicing-old.html",
+      "https://www.nissan.co.nz/owners/servicing-old/pre-paid-service.html"
+    ],
+    "image_alt_count": 14
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 1,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 0,
+    "content_terms": 172,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 1956,
+    "main_chars": 11335,
+    "footer_chars": 516,
+    "tables_chars": 1712,
+    "metadata_chars": 237,
+    "full_markdown_chars": 18818
+  },
+  "metadata": {
+    "title": "e-POWER - Hybrid Reinvented | Nissan New Zealand",
+    "description": "Get to grips with Nissan e-POWER technology. How do they work? Why is e-POWER so quiet? The answers to all your questions here.",
+    "language": "en-NZ",
+    "sourceURL": "https://www.nissan.co.nz/about-nissan/e-power.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.nissan.co.nz/about-nissan/e-power.html",
+    "robots": "index,follow",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html#container",
+      "text": "Skip to main content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html#footer-element",
+      "text": "https://www.nissan.co.nz/about-nissan/e-power.html#footer-element",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/",
+      "text": "https://www.nissan.co.nz/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "text": "e-POWER - Hybrid Reinvented",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/shop-at-home.html",
+      "text": "Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/build-a-vehicle.html",
+      "text": "Build a Vehicle",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/download-brochure.html",
+      "text": "Download a Brochure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/offers.html",
+      "text": "View Offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/forms/get-a-quote.html",
+      "text": "Request a Quote",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/test-drive.html",
+      "text": "Book a Test Drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/overview-old.html",
+      "text": "Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/servicing-old.html",
+      "text": "Servicing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/servicing-old/pre-paid-service.html",
+      "text": "Pre-paid Service",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/assistance.html",
+      "text": "Roadside Assistance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/warranty.html",
+      "text": "Warranty",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/recalls.html",
+      "text": "Recalls",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/insurance.html",
+      "text": "Insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/owner-support.html",
+      "text": "Help & Support",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/fleet/overview.html",
+      "text": "Fleet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/financial-services/forms.html",
+      "text": "Forms",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/financial-services/nissan-future-value.html",
+      "text": "Nissan Future Value",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/financial-services/finance-calculator.html",
+      "text": "Finance Calculator",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/financial-services/contact-us.html",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/news-and-events.html",
+      "text": "News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/intelligent-mobility.html",
+      "text": "Intelligent Mobility",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/formula-e-documentary.html",
+      "text": "Formula E",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/contact-us.html",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/about-us.html",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/careers-plus.html",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/find-a-dealer.html",
+      "text": "Find a Dealer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/intelligent-mobility.html",
+      "text": "Nissan Intelligent Mobility",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/download-brochure.html",
+      "text": "Download Brochure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/warranty.html",
+      "text": "Warranty Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/offers.html",
+      "text": "Current Offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/all-new-navara.html",
+      "text": "All-New Navara",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail.html",
+      "text": "NEW X-TRAIL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26.html",
+      "text": "QASHQAI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/patrol-my25.html",
+      "text": "MY25 Patrol",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/Z.html",
+      "text": "Nissan Z",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/navara.html",
+      "text": "Navara",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range.html",
+      "text": "All Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan.html",
+      "text": "Experience Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/news-and-events.html",
+      "text": "What's New",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail.html",
+      "text": "Discover it now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail/build.html",
+      "text": "CONFIGURE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/test-drive.html",
+      "text": "Book A Test Drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26.html",
+      "text": "Discover it now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26/build.html",
+      "text": "CONFIGURE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail/download-brochure.html",
+      "text": "X-TRAIL Brochure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail/download-specsheet.html",
+      "text": "X-TRAIL Spec Sheet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26/download-brochure.html",
+      "text": "QASHQAI Brochure",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26/download-specsheet.html",
+      "text": "QASHQAI Spec Sheet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/warranty.html",
+      "text": "Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/financial-services.html",
+      "text": "Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners/maintenance-and-repair.html",
+      "text": "Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/embed/X_ZvA3Vuqs8",
+      "text": "https://www.youtube.com/embed/X_ZvA3Vuqs8",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail/build.html",
+      "text": "Build your X-TRAIL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/test-drive.html",
+      "text": "Book a test drive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail.html",
+      "text": "Explore",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26/build.html",
+      "text": "Build your QASHQAI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/qashqai-my26.html",
+      "text": "Explore",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/new-x-trail.html",
+      "text": "Discover more about X-Trail now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/",
+      "text": "Nissan New Zealand",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "text": "Toggle Vehicles menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/content/nissan_prod/en_NZ/index/vehicles/browse-range/juke",
+      "text": "JUKE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/content/nissan_prod/en_NZ/index/vehicles/browse-range/qashqai-my24",
+      "text": "QASHQAI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/content/nissan_prod/en_NZ/index/vehicles/browse-range/x-trail",
+      "text": "X-TRAIL",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/content/nissan_prod/en_NZ/index/vehicles/browse-range/pathfinder",
+      "text": "Pathfinder",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/browse-range/patrol.html",
+      "text": "Patrol",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/fleet.html",
+      "text": "Fleet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "text": "Toggle Shop@Home menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/forms/contact-me.html",
+      "text": "Contact Me",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "text": "Toggle About Nissan menu",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/about-us.html",
+      "text": "Why Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/owners.html",
+      "text": "Owners",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/forms/subscribe-to-nissan-news-and-events.html",
+      "text": "E-News Sign up",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/new-zealand/files/terms-and-conditions/Gran%20Turismo_terms_NZ.pdf",
+      "text": "Competition Terms",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nissan.co.nz/procurement.html",
+      "text": "Procurement",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+      "text": "Toggle Nissan Social menu",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.facebook.com/nissanNZ",
+      "text": "facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "http://twitter.com/NissanNZ",
+      "text": "twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.youtube.com/user/NZNissan",
+      "text": "youtube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissan_nz/",
+      "text": "instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com",
+      "text": "Global Site",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/sitemap.html",
+      "text": "Sitemap",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/important-information.html",
+      "text": "Disclaimer",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/privacy.html",
+      "text": "Privacy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/vehicles/build-a-vehicle.html",
+      "text": "BUILD YOUR OWN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.co.nz/finance-calculator.html",
+      "text": "Finance Calculator",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www-asia.nissan-cdn.net/content/dam/Nissan/new-zealand/files/terms-and-conditions/Gran%20Turismo_terms_NZ.pdf",
+      "text": "Competition Terms",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/nissan-next-logo-text.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://libs-asia.nissan-cdn.net/etc/designs/nissan_next_v3/26.05.30.NISSAN-12/common-assets/img/svg/location.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Navara/side-profiles/All-New-Navara-r3.png.ximg.l_3_m.smart.png",
+      "alt": "All-New Navara"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/X-TRAIL/side-profiles/P33A_L4%2B_EPOWER_XHQ_03.png.ximg.l_3_m.smart.png",
+      "alt": "Nissan X-TRAIL side profile"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/QASHQAI/side-profiles/Side%20profile%20Hero_QQMY26_Red.png.ximg.l_3_m.smart.png",
+      "alt": "Qashqai MY26"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Patrol/side-profiles/Ti-L%20Patrol-r2.png.ximg.l_3_m.smart.png",
+      "alt": "Patrol my25"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/All-New-Z/side-profiles/Z-my24-NISMO-side-profile-950x489.png.ximg.l_3_m.smart.png",
+      "alt": "Nissan Z NISMO side profile"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/Navara/side-profiles/new-navara-pro-4x-950x489.png.ximg.l_3_m.smart.png",
+      "alt": "New Nissan Navara PRO-4X"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/AU/Images/vehicles/X-TRAIL/overview/X-TRAIL-HERO-SURF-FINAL-vlp-d-hero-r2.jpg",
+      "alt": "Car from a bird's-eye view driving across a road"
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/global/pt-test/ePower-B.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www-asia.nissan-cdn.net/content/dam/Nissan/global/pt-test/ePower-A-C.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/Transmission.png",
+      "alt": "Transmission"
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/engine.png",
+      "alt": "Engine"
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/electric-motor.png",
+      "alt": "Motor"
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/battery.png",
+      "alt": "Battery"
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/enventer.png",
+      "alt": "Inverter"
+    },
+    {
+      "src": "https://www.nissan.co.nz/content/dam/Nissan/AU/Images/vehicles/e-power/generator.png",
+      "alt": "Generator"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=955865884488813&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://px.ads.linkedin.com/collect/?pid=5645204&fmt=gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=560407766924604&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://ct.pinterest.com/v3/?event=init&tid=2613535902803&pd[em]=<hashed_email_address>&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+    "title": "e-POWER - Hybrid Reinvented | Nissan New Zealand",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:05:56.324400+00:00",
+  "source_meta": {
+    "title": "e-POWER - Hybrid Reinvented - Nissan New Zealand",
+    "url": "https://www.nissan.co.nz/about-nissan/e-power.html",
+    "source_name": "Nissan New Zealand",
+    "source_domain": "www.nissan.co.nz",
+    "source_type": "other",
+    "snippet": "e-POWER Powertrain explained In daily driving, e-POWER utilises an electric motor that is directly connected to the wheels, provid...",
+    "citation_count": 2,
+    "first_cited_position": 3,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Compare Nissan e-POWER vs conventional hybrid systems for hill starts and steep roads",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Compare Nissan e-POWER vs conventional hybrid systems for hill starts and steep roads",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

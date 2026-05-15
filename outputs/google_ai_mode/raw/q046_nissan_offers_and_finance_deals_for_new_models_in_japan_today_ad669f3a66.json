@@ -1,0 +1,224 @@
+{
+  "query_id": "q046",
+  "query": "Nissan offers and finance deals for new models in Japan today",
+  "query_type": "branded",
+  "brand_topic_category": "Value, offers, finance and total cost of ownership",
+  "journey_stage": "cost_value",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Nissan offers and finance deals for new models in Japan today",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071b30318660741f59b285",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/Rtby2XGI0FvSJiGzBGFzyg/6a071b30318660741f59b285.json",
+      "created_at": "2026-05-15 13:10:08 UTC",
+      "processed_at": "2026-05-15 13:10:08 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Nissan+offers+and+finance+deals+for+new+models+in+Japan+today&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/Rtby2XGI0FvSJiGzBGFzyg/6a071b30318660741f59b285.html",
+      "prettify_html_file": "https://serpapi.com/searches/Rtby2XGI0FvSJiGzBGFzyg/6a071b30318660741f59b285.prettify",
+      "total_time_taken": 4.82
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Nissan offers and finance deals for new models in Japan today",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Nissan Japan offers a maximum purchase support cash incentive of up to 500,000 yen for new models through its current active national promotional campaign. The program features a lottery for vehicle purchase funds combined with dealer test-drive bonuses and optional equipment credits.",
+        "snippet_links": [
+          {
+            "text": "Nissan Japan",
+            "link": "https://www.nissan.co.jp/"
+          }
+        ],
+        "snippet_highlighted_words": [
+          "Nissan Japan offers a maximum purchase support cash incentive of up to 500,000 yen"
+        ],
+        "reference_indexes": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Active Financial Campaigns & Deals"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "Nissan's purchasing campaigns in Japan emphasize residential value financing and cash-back incentives:",
+        "reference_indexes": [
+          3,
+          5
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "New Vehicle Purchase Gift Campaign: A national lottery running until August 31, 2026, awards 300,000 yen in purchase funds to 200 winners. An additional \"Double Chance\" lottery provides 100,000 yen to 5,000 participants who test-drive a vehicle at a dealership after entering online."
+          },
+          {
+            "snippet": "Optional Equipment Upgrades: Buyers of new registered passenger vehicles receive an extra 100,000 yen option credit, while Kei car buyers receive 50,000 yen. Combined with the lottery, the total discount reaches up to 500,000 yen."
+          },
+          {
+            "snippet": "Residual Value Credit Plan (Zanketsu): Nissan Financial Services handles targeted low-interest residual-value lease structures. These plans include promotional cashbacks covering the equivalent of the first 6 months of interest payments on eligible new models."
+          },
+          {
+            "snippet": "P.O.P (Personal Option Plan) Subscription: A flat-rate consumer car lease or subscription setup allows individuals or businesses to upgrade to a brand-new vehicle every 3 years under a 5-year contract. The current special feature includes cash-back incentives specifically for the Serena e-4ORCE model."
+          }
+        ],
+        "reference_indexes": [
+          2,
+          6,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Eligible New Models"
+      },
+      {
+        "type": "paragraph",
+        "snippet": "The promotional campaigns apply to Nissan’s latest core domestic lineup:",
+        "reference_indexes": [
+          2,
+          6
+        ]
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Electric Vehicles (EVs): The Nissan Ariya crossover and the high-volume Nissan Sakura Kei EV."
+          },
+          {
+            "snippet": "e-POWER Hybrids: The freshly updated Serena minivan (including e-4ORCE variants), X-Trail SUV, and Note Aura."
+          },
+          {
+            "snippet": "Sports Cars: The high-end Skyline sedan and the Fairlady Z."
+          }
+        ],
+        "reference_indexes": [
+          5,
+          0,
+          1,
+          7,
+          8
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "If you would like to explore specific payment tiers, please let me know:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Which specific vehicle model you are interested in?"
+          },
+          {
+            "snippet": "Your preferred loan or lease duration (e.g., 3 years or 5 years)?"
+          },
+          {
+            "snippet": "The intended down payment amount you plan to allocate?"
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "title": "日産自動車ホームページ",
+        "link": "https://www.nissan.co.jp/",
+        "snippet": "キャンペーン実施中 購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる！ 当選総額5.5憶円以上のプレゼントキャンペーン 詳しくはこちら 2026.4.06. あなたの街の桜開花は？ 「日産サクラ」開花リレー開催中！ 全国の日産のお店Inst...",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/UgH6BsoZQKmraD7SrHVZDryg-sKY1_eJatdnoq4tY8Y.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/UtHCloQMdoxGYMlXZSMqgS3sWsGl8Ar7HFeN0w0zOKk.png",
+        "index": 0
+      },
+      {
+        "title": "カーラインアップ - 日産",
+        "link": "https://www.nissan.co.jp/CARLINEUP/",
+        "snippet": "* ノート オーラ AUTECH. 〜5人 WEBカタログ TOP お気に入り車種に追加 お気に入り車種に追加 お気に入りを解除する セルフ見積り 試乗車・展示車検索 販売店検索 カタログ請求 オンライン相談・注文 3,103,100円～ * ノート オーラ ...",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/l9rReUEGW-TrSfdWNat7QlPUvFyZbQvqBT3MUy38lWs.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/1D9xvTdyqIMxNS9ogdqwSI26ufwOb0muhzdlIRcLiDk.png",
+        "index": 1
+      },
+      {
+        "title": "話題の新型車も対象！ 購入資金プレゼントキャンペーン - 日産",
+        "link": "https://www2.nissan.co.jp/EVENT/PRIZE/26/01/",
+        "snippet": "話題の新型車も対象！ | 購入資金プレゼントキャンペーン | 当選総額過去. 今すぐ応募する今すぐ応募する. 応募締切：2026年8月31日(月)19:00まで. 応募規約はこちら. 抽選で200名さまに30万円購入資金 | もっと詳しく; はずれてもWチャン...",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/r7rLVqNZs16VJE0y5I0LWgb9FFIGEzlH9_eog90BKQk.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/qco7UFpyRHPm12TrCYLUeNGN07lzqmP4psDcY_xMi1o.png",
+        "index": 2
+      },
+      {
+        "title": "日産｜残価設定型クレジット購入後6ヶ月間実質金利0＆おまとめプラン ...",
+        "link": "https://www2.nissan.co.jp/EVENT/CAMPAIGN/25/H2/",
+        "snippet": "Mar 31, 2026 — 2025年10月1日～2026年3月31日までに対象車種の新車を株式会社日産フィナンシャルサービスの残価設定型クレジットでご成約いただき、かつ2026年5月31日までにクレジット実行された場合、初回支払月から6ヶ月間分の金利相当額をキャッシュバックします。",
+        "source": "日産自動車",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/HYOfC7tzE3Zx9ZD8sGYdxDbaAQh7vEyYrc_EUsiyaNc.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/3izH-8T0ufqJVr75fSy5Ld0CaCFtX_Zn2q2yKb8iF8M.png",
+        "index": 3
+      },
+      {
+        "title": "キャンペーン情報 - 香川日産",
+        "link": "https://ni-kagawa.nissan-dealer.jp/info/campaign",
+        "snippet": "採用情報 · 会社情報 · ご意見・ご要望 · Nissan · 香川日産自動車株式会社. 新車. 試乗車・展示車検索 · カーラインアップ · カスタムカー · 福祉車両（LV). 中古車. 日産の中古車販売 · 日産の中古車ワイド保証. アフターサービス.",
+        "source": "香川日産自動車株式会社",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/wBYcLqp3ulSahOfr6xd1jCj4jCsLjkOkj4Pm0YKrxPY.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/cNnQClSvt_cZeL0uxrnOSKyHbJiQFhPPLnI7swEDBqw.png",
+        "index": 4
+      },
+      {
+        "title": "フェア・キャンペーン・特集【おすすめコンテンツ】 - 日産東京",
+        "link": "https://www.nissan-tokyo.co.jp/event/",
+        "snippet": "フェア・キャンペーン. 購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる新車購入資金プレゼントキャンペーン！ 購入サポート. 宿る伝統、進化のその先へ 同型エンジンを持つ2台 スカイライン・. 進化を遂げたスカイラインとフェアレディZ、心を...",
+        "source": "日産東京販売株式会社",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/jPBt25DdVVOCp2o1Pi8Hk5s3M9syi7-8IQJI-bZIvvM.jpeg",
+        "source_icon": "https://serpapi.com/searches/6a071b30318660741f59b285/images/QsJyzijptnEcIidZVcHmacKW0ewsahUssgkWHgiqpeA.png",
+        "index": 5
+      },
+      {
+        "title": "新型車にも使える購入資金キャンペーン開催中！！ #日産 ...",
+        "link": "https://www.instagram.com/p/DXeBucEiXuu/",
+        "snippet": "Apr 23, 2026 — 新車購入時に使える購入資金３０万円が抽選で２００名様にキャンペーンにご応募後に試乗されるとその場で購入資金１０万円が抽選で５０００名様に当たるとってもアツい内容となっております なんと話題の新型車も対象！わーい！！ さらに今回は新車をご購入で登録車１０万円軽自...",
+        "source": "Instagram",
+        "thumbnail": "https://serpapi.com/searches/6a071b30318660741f59b285/images/usosvs9phmST4OwU1bb6L_NPw11l2KSr3b6kHyJK0IQ.jpeg",
+        "index": 6
+      },
+      {
+        "title": "Nissan Note Aura NISMO (2021) Exterior Interior Driving",
+        "link": "https://www.youtube.com/watch?v=t-JtKh6RHIY",
+        "snippet": "Sales in Japan of the Note Aura, which was announced in June this year, start today. The all-new Note Aura NISMO comes exclusively...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3vK6tbIu079w5xWL3ASEvPZBZWkm_kBxxWQPm176NGy5Xpu8V",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      },
+      {
+        "title": "Nissan New Cars 2026 Models in Japan, import ...",
+        "link": "https://www.batfa.com/new-nissan.html",
+        "snippet": "Nissan New Cars 2026 Models in Japan, import New Nissan Car for Sale by Exporter and Dealer. Want to import Nissan New Car? We off...",
+        "source": "Batfa Japan Inc.",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRKHoosuYbb7YMeR0lPBqJt0NhlEUM4I0su2aHnC5UxqnU8hJtv",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.batfa.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 8
+      }
+    ],
+    "reconstructed_markdown": "[Nissan Japan](https://www.nissan.co.jp/) offers a maximum purchase support cash incentive of up to 500,000 yen for new models through its current active national promotional campaign. The program features a lottery for vehicle purchase funds combined with dealer test\\-drive bonuses and optional equipment credits. [1] [2] [6]\n\n### Active Financial Campaigns & Deals\n\nNissan's purchasing campaigns in Japan emphasize residential value financing and cash\\-back incentives: [3] [5]\n\n- New Vehicle Purchase Gift Campaign: A national lottery running until August 31, 2026, awards 300,000 yen in purchase funds to 200 winners. An additional \"Double Chance\" lottery provides 100,000 yen to 5,000 participants who test\\-drive a vehicle at a dealership after entering online.\n- Optional Equipment Upgrades: Buyers of new registered passenger vehicles receive an extra 100,000 yen option credit, while Kei car buyers receive 50,000 yen. Combined with the lottery, the total discount reaches up to 500,000 yen.\n- Residual Value Credit Plan \\(Zanketsu\\): Nissan Financial Services handles targeted low\\-interest residual\\-value lease structures. These plans include promotional cashbacks covering the equivalent of the first 6 months of interest payments on eligible new models.\n- P.O.P \\(Personal Option Plan\\) Subscription: A flat\\-rate consumer car lease or subscription setup allows individuals or businesses to upgrade to a brand\\-new vehicle every 3 years under a 5\\-year contract. The current special feature includes cash\\-back incentives specifically for the Serena e\\-4ORCE model.\n\n### Eligible New Models\n\nThe promotional campaigns apply to Nissan’s latest core domestic lineup: [2] [6]\n\n- Electric Vehicles \\(EVs\\): The Nissan Ariya crossover and the high\\-volume Nissan Sakura Kei EV.\n- e\\-POWER Hybrids: The freshly updated Serena minivan \\(including e\\-4ORCE variants\\), X\\-Trail SUV, and Note Aura.\n- Sports Cars: The high\\-end Skyline sedan and the Fairlady Z.\n\nIf you would like to explore specific payment tiers, please let me know:\n\n- Which specific vehicle model you are interested in?\n- Your preferred loan or lease duration \\(e.g., 3 years or 5 years\\)?\n- The intended down payment amount you plan to allocate?\n\n\n### References\n\n[0] [日産自動車ホームページ](https://www.nissan.co.jp/) — キャンペーン実施中 購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる！ 当選総額5.5憶円以上のプレゼントキャンペーン 詳しくはこちら 2026.4.06. あなたの街の桜開花は？ 「日産サクラ」開花リレー開催中！ 全国の日産のお店Inst...\n\n[1] [カーラインアップ \\- 日産](https://www.nissan.co.jp/CARLINEUP/) — \\* ノート オーラ AUTECH. 〜5人 WEBカタログ TOP お気に入り車種に追加 お気に入り車種に追加 お気に入りを解除する セルフ見積り 試乗車・展示車検索 販売店検索 カタログ請求 オンライン相談・注文 3,103,100円～ \\* ノート オーラ ...\n\n[2] [話題の新型車も対象！ 購入資金プレゼントキャンペーン \\- 日産](https://www2.nissan.co.jp/EVENT/PRIZE/26/01/) — 話題の新型車も対象！ \\| 購入資金プレゼントキャンペーン \\| 当選総額過去. 今すぐ応募する今すぐ応募する. 応募締切：2026年8月31日\\(月\\)19:00まで. 応募規約はこちら. 抽選で200名さまに30万円購入資金 \\| もっと詳しく; はずれてもWチャン...\n\n[3] [日産｜残価設定型クレジット購入後6ヶ月間実質金利0＆おまとめプラン ...](https://www2.nissan.co.jp/EVENT/CAMPAIGN/25/H2/) — Mar 31, 2026 — 2025年10月1日～2026年3月31日までに対象車種の新車を株式会社日産フィナンシャルサービスの残価設定型クレジットでご成約いただき、かつ2026年5月31日までにクレジット実行された場合、初回支払月から6ヶ月間分の金利相当額をキャッシュバックします。\n\n[4] [キャンペーン情報 \\- 香川日産](https://ni-kagawa.nissan-dealer.jp/info/campaign) — 採用情報 · 会社情報 · ご意見・ご要望 · Nissan · 香川日産自動車株式会社. 新車. 試乗車・展示車検索 · カーラインアップ · カスタムカー · 福祉車両（LV\\). 中古車. 日産の中古車販売 · 日産の中古車ワイド保証. アフターサービス.\n\n[5] [フェア・キャンペーン・特集【おすすめコンテンツ】 \\- 日産東京](https://www.nissan-tokyo.co.jp/event/) — フェア・キャンペーン. 購入資金30万円とWチャンスで10万円が合計5,200名さまに当たる新車購入資金プレゼントキャンペーン！ 購入サポート. 宿る伝統、進化のその先へ 同型エンジンを持つ2台 スカイライン・. 進化を遂げたスカイラインとフェアレディZ、心を...\n\n[6] [新型車にも使える購入資金キャンペーン開催中！！ \\#日産 ...](https://www.instagram.com/p/DXeBucEiXuu/) — Apr 23, 2026 — 新車購入時に使える購入資金３０万円が抽選で２００名様にキャンペーンにご応募後に試乗されるとその場で購入資金１０万円が抽選で５０００名様に当たるとってもアツい内容となっております なんと話題の新型車も対象！わーい！！ さらに今回は新車をご購入で登録車１０万円軽自...\n\n[7] [Nissan Note Aura NISMO \\(2021\\) Exterior Interior Driving](https://www.youtube.com/watch?v=t-JtKh6RHIY) — Sales in Japan of the Note Aura, which was announced in June this year, start today. The all\\-new Note Aura NISMO comes exclusively...\n\n[8] [Nissan New Cars 2026 Models in Japan, import ...](https://www.batfa.com/new-nissan.html) — Nissan New Cars 2026 Models in Japan, import New Nissan Car for Sale by Exporter and Dealer. Want to import Nissan New Car? We off...\n"
+  }
+}

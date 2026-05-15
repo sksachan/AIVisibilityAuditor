@@ -1,0 +1,112 @@
+{
+  "site_standards_status": "success",
+  "checked_at_utc": "2026-05-15T13:02:56.180818+00:00",
+  "domain": "https://www.nissan.co.jp",
+  "candidate_bases_checked": [
+    "https://www.nissan.co.jp/",
+    "https://nissan.co.jp/",
+    "https://www2.nissan.co.jp/",
+    "https://www3.nissan.co.jp/"
+  ],
+  "robots_txt": {
+    "url": "https://www3.nissan.co.jp/robots.txt",
+    "resolved_url": "https://www3.nissan.co.jp/robots.txt",
+    "status": "available",
+    "http_status_code": 200,
+    "content_type": "text/plain; charset=utf-8",
+    "chars": 49,
+    "sample": "https://www3.nissan.co.jp/index.pages-sitemap.xml"
+  },
+  "llms_txt": {
+    "url": "https://www.nissan.co.jp/llms.txt",
+    "resolved_url": "https://www.nissan.co.jp/llms.txt",
+    "status": "not_available",
+    "http_status_code": 404,
+    "content_type": "text/html",
+    "chars": 2037,
+    "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+  },
+  "robots_attempts": [
+    {
+      "url": "https://www.nissan.co.jp/robots.txt",
+      "resolved_url": "https://www.nissan.co.jp/robots.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://nissan.co.jp/robots.txt",
+      "resolved_url": "https://www.nissan.co.jp:443/robots.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://www2.nissan.co.jp/robots.txt",
+      "resolved_url": "https://www2.nissan.co.jp/robots.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://www3.nissan.co.jp/robots.txt",
+      "resolved_url": "https://www3.nissan.co.jp/robots.txt",
+      "status": "available",
+      "http_status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "chars": 49,
+      "sample": "https://www3.nissan.co.jp/index.pages-sitemap.xml"
+    }
+  ],
+  "llms_txt_attempts": [
+    {
+      "url": "https://www.nissan.co.jp/llms.txt",
+      "resolved_url": "https://www.nissan.co.jp/llms.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://nissan.co.jp/llms.txt",
+      "resolved_url": "https://www.nissan.co.jp:443/llms.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://www2.nissan.co.jp/llms.txt",
+      "resolved_url": "https://www2.nissan.co.jp/llms.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html",
+      "chars": 2037,
+      "sample": "<?xml version=\"1.0\" encoding=\"Shift_JIS\"?> <!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.1//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml11.dtd\"> <html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"ja\" lang=\"ja\"> <head> <title>úYFANZXG[</title> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=Shift_JIS\"> <meta http-equiv=\"Refresh\" CONTENT=\"5;URL=http://www.nissan.co.jp/\"> <style type=\"text/css\"> <!-- body {margin: 0px;background-color: #FFFFFF;color: #666666; font-family: \"MS P Gothic\", osaka, Arial, Helvetica;} #container {width: 1200px; margin: 0 auto;} #head {margin-bottom: 80px;} #rogo {margin-left: 6.5px;} #foot {width: 1200px; height: 30px; border-top: 1px solid #999999; margin:120px auto 0; text-align: right; font-size: 10px; padding: 5px;} .r01{ background-image:url(/FILENOTFOUND/IMAGES/r01.gif); background-repeat:no-repeat;padding:15px} .r02{ background-image:url(/FILENOTFOUND/IMAGES/r02.gif); background-repeat:no-repeat; background-position:bottom;padding:15px 15px 30px 15px;} td{ font-size:12px;} a{text-decoration: none;color: #C71444;} a:hover {text-decoration: none;color: #C71444;} a:visited {text-decoration: none;color: #C71444;} table {margin-left: 268px;} --> </style> </head> <body> <div id=\"container\"> <div id=\"head\"> <a href=\"http://www.nissan.co.jp\"><img src=\"/COMMON/GN/IMAGES/logo.png\" alt=\"NISSAN\" width=\"100\" border=\"0\" id=\"rogo\" /></a> </div> <table width=\"664\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" bgcolor=\"#F3F3F3\"> <tr> <td class=\"r01\"> <img src=\"/FILENOTFOUND/IMAGES/sorry.gif\" alt=\"åÏ\\µó²"
+    },
+    {
+      "url": "https://www3.nissan.co.jp/llms.txt",
+      "resolved_url": "https://www3.nissan.co.jp/llms.txt",
+      "status": "not_available",
+      "http_status_code": 404,
+      "content_type": "text/html;charset=utf-8",
+      "chars": 71070,
+      "sample": "<!DOCTYPE html> <!--[if lt IE 9 ]><html lang=\"ja-JP\" dir=\"ltr\" class=\"no-js ltie9\" prefix=\"og: http://ogp.me/ns#\"><![endif]--> <!--[if IE 9 ]><html lang=\"ja-JP\" dir=\"ltr\" class=\"no-js ie9\" prefix=\"og: http://ogp.me/ns#\"><![endif]--> <!--[if gt IE 9]><!--><html lang=\"ja-JP\" dir=\"ltr\" class=\"no-js\" prefix=\"og: http://ogp.me/ns#\"><!--<![endif]--> <head> <script> document.documentElement.classList.remove('no-js'); document.documentElement.classList.add('js'); </script> <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta name=\"version\" content=\"26.05.30.NISSAN\"> <meta name=\"geo.country\" content=\"JP\"> <meta name=\"twitter:title\" content=\"Page not found\" /> <meta name=\"twitter:description\" content=\"\" /> <meta name=\"twitter:card\" content=\"summary\" /> <meta property=\"og:title\" content=\"Page not found\" /> <meta property=\"og:image\" content=\"https://libs-asia.nissan-cdn.net/etc/designs/nissan_modernisation/26.05.30.NISSAN-12/common-assets/img/logo/logo.png\"/> <meta pro"
+    }
+  ],
+  "signals": {
+    "robots_available": true,
+    "llms_txt_available": false,
+    "robots_mentions_sitemap": false,
+    "robots_blocks_common_ai_agents": false
+  },
+  "notes": "robots.txt and llms.txt are domain-level standards checks. Page-level JSON-LD is scored from page markdown where observable."
+}

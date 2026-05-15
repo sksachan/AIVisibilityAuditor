@@ -1,0 +1,599 @@
+{
+  "url": "https://www.youtube.com/watch?v=iodBolUYgjA&t=3",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 13679,
+    "wordish_count": 3690,
+    "heading_count": 8,
+    "bullet_count": 69,
+    "link_count": 71,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 74,
+    "numeric_fact_count": 149,
+    "question_count": 89,
+    "unique_line_count": 250,
+    "numeric_facts_sample": [
+      "1",
+      "7889",
+      "5",
+      "7,889",
+      "2020",
+      "09",
+      "10",
+      "4.99",
+      "20",
+      "3",
+      "40",
+      "33年",
+      "2",
+      "6.2",
+      "4",
+      "５",
+      "50",
+      "54",
+      "2026",
+      "8",
+      "930",
+      "2022",
+      "0",
+      "6",
+      "2688"
+    ],
+    "links_sample": [
+      "https://yt3.ggpht.com/ytc/AIdro_lF6pCjGZo7nXAf8rXenQHrxilb06AdVQN_80_9q0FuCsc=s48-c-k-c0x00ffffff-no-rj",
+      "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "https://www.youtube.com/",
+      "https://support.google.com/youtube/answer/15569972?hl=ja",
+      "https://www.youtube.com/watch?v=wAL-WTYVefo",
+      "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+      "https://www.youtube.com/@Fukushima_NISSAN",
+      "https://www.youtube.com/channel/UCoXMUFy7ZcTEMoxtFnvY5bA/videos",
+      "https://www.youtube.com/channel/UCoXMUFy7ZcTEMoxtFnvY5bA/about",
+      "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqa2VQb1gzMzROS29FdDU3ZE9Uc1FwN1ZVejk2QXxBQ3Jtc0tsLVBlY19KSFQyOTllOU1aX1lUZlJWYlppVkpFaENnZGx1djNXTHBHd3QzeU1iOVBkV0pPbWo1N2RSMm1XdERGMW5WVzBxemNZWF8yMTNIdHBNSkFwckpYb0ZRVVZJMV9QYW9GNXlJQW1IMGdwakw3SQ&q=https%3A%2F%2Ftwitter.com%2Ffukushimanissan",
+      "https://www.youtube.com/watch?v=DgpeU1RHxcI",
+      "https://www.youtube.com/watch?v=E305-OAGLto&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=H9R_8uE7a6Y&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=q6HHFZNB8vU&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=P4VVYhPZfwI&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=mPbn4FEnCRU",
+      "https://www.youtube.com/watch?v=_QHisHC2Zd0&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=k0uqhWUuoho",
+      "https://www.youtube.com/watch?v=KYcmjjXD0BY",
+      "https://www.youtube.com/watch?v=SOe90fHt784&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=ouTKQLSyuFk",
+      "https://www.youtube.com/watch?v=4APK-ieAucI&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=LGKducMrXyI&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=OTbetwlVa1c&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=zNt-s6oXgfU"
+    ],
+    "image_alt_count": 2
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2020/09/10",
+      "2020/09/1",
+      "2026/3/8",
+      "2020年\n9月1"
+    ],
+    "authority_signals": true,
+    "cta_links": false,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 56,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2,
+    "main_chars": 16523,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 310,
+    "full_markdown_chars": 13679
+  },
+  "metadata": {
+    "title": "【実燃費】KICKS低燃費アタック：導入編【e-POWERと燃費のハナシ】 - YouTube",
+    "description": "ふくにちチャンネル燃費アタック！日産のコンパクトSUV、キックス。カタログ燃費は書いてあるけど…実燃費はどうなの？？燃費アタックに向けた導入編です。いつもふくにちチャンネルをご覧いただきありがとうございます！ふくにちInstagramもフォローお願いします▶https://www.instagram.com/fu...",
+    "language": "ja-JP",
+    "sourceURL": "https://www.youtube.com/watch?v=iodBolUYgjA&t=3",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.youtube.com/watch?v=iodBolUYgjA",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.youtube.com/",
+      "text": "https://www.youtube.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@Fukushima_NISSAN",
+      "text": "https://www.youtube.com/@Fukushima_NISSAN",
+      "is_pdf": false
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/15569972?hl=ja",
+      "text": "詳細",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wAL-WTYVefo",
+      "text": "Italy Jr. Underbelly Italy Jr.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ",
+      "text": "音楽",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@Fukushima_NISSAN",
+      "text": "福島日産 チャンネル登録者数 4.99万人",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoXMUFy7ZcTEMoxtFnvY5bA/videos",
+      "text": "動画",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoXMUFy7ZcTEMoxtFnvY5bA/about",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=Watch_SD_EP&redir_token=QUFFLUhqa2VQb1gzMzROS29FdDU3ZE9Uc1FwN1ZVejk2QXxBQ3Jtc0tsLVBlY19KSFQyOTllOU1aX1lUZlJWYlppVkpFaENnZGx1djNXTHBHd3QzeU1iOVBkV0pPbWo1N2RSMm1XdERGMW5WVzBxemNZWF8yMTNIdHBNSkFwckpYb0ZRVVZJMV9QYW9GNXlJQW1IMGdwakw3SQ&q=https%3A%2F%2Ftwitter.com%2Ffukushimanissan",
+      "text": "福島日産twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0-F-V95CrLQ&list=PLv5vcq4_HXY_Nomx2MV5Qw5VnAgiXDctk",
+      "text": "https://www.youtube.com/watch?v=0-F-V95CrLQ&list=PLv5vcq4_HXY_Nomx2MV5Qw5VnAgiXDctk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=DgpeU1RHxcI",
+      "text": "【徹底比較】女子目線で「ダイハツロッキーvs日産キックス」つまり「eSMART HYBRID対e POWER」内外装・走行・燃費・システムハイブリッドなどを一般人が比べました",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=E305-OAGLto&pp=0gcJCQQLAYcqIYzv",
+      "text": "【オーナー 閲覧注意】日産 キックス　正直レビュー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=H9R_8uE7a6Y&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【車庫入れロジック】この理論を知れば、ナナメ誘導しなくても、いつもと違うクルマでもバックができる！！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=q6HHFZNB8vU&pp=0gcJCQQLAYcqIYzv",
+      "text": "保護したスズメを空に放った翌日...まさかの光景に絶句 【後編】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P4VVYhPZfwI&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【間違いだらけのクルマ選び】今、スバルが面白い理由/COTY受賞の新型フォレスター試乗/「世界シェア1%のメーカー」の戦略/インプレッサは「もったいない」［モータージャーナリスト・島下泰久/前編］",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mPbn4FEnCRU",
+      "text": "WD-40で1分で古いヘッドライトを新品同様に！天才的な裏技",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_QHisHC2Zd0&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【藤トモが比較】ヤリスクロスとキックスを比べてみたら？｜内外装編｜",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=k0uqhWUuoho",
+      "text": "センターコンソールのピアノブラックを永久にキズから守る方法。グラシアスを超えた!?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KYcmjjXD0BY",
+      "text": "33年眠っていた2万回転の伝説を復活：アリに侵食されたCBR250RR",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SOe90fHt784&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【日産キックス】徹底検証 日産KICKS の 実燃費 は？【神奈川日産】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ouTKQLSyuFk",
+      "text": "I Test Drove the Kia Sportage v Hyundai Tucson v Nissan Qashqai v Honda HR-V!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4APK-ieAucI&pp=0gcJCQQLAYcqIYzv",
+      "text": "竹岡圭の日産キックス4WD試乗記【NISSAN KICKS e-POWER】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LGKducMrXyI&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産 キックス 【閲覧注意!? 辛口試乗】 e-POWERは最高!! でも走りの質感に疑問が…!! NISSAN KICKS E-CarLife with 五味やすたか",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OTbetwlVa1c&pp=0gcJCQQLAYcqIYzv",
+      "text": "【耐えられない…良すぎて】新型ソリオバンディット納車1年採点! 外装･内装･収納･実燃費･加速など満足度評価! どうしてそんなに気に入っているのか?! | SUZUKI SOLIO BANDIT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zNt-s6oXgfU",
+      "text": "【新型アクア vs 日産ノート（走行比較編）】“一般道、高速、峠道” ガチ比較したら…⚫︎⚫︎の圧勝に驚き（汗）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AWzr4oKZTjE",
+      "text": "【e-powerオーナー必見】プロが教えるワンペダル（e-pedal step）の極意！状況別のワンペダル走行方法解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2F0befKejag",
+      "text": "【車の暖房】車内を最速で暖めたいあなたへ。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CPep-6xeq0o&pp=ugUEEgJqYQ%3D%3D",
+      "text": "脳梗塞が近い人だけに起こる「足の異変」見逃すと突然倒れます！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jst-vxD1UTQ&pp=ugUEEgJqYQ%3D%3D",
+      "text": "［スバル公式］フォレスターの特長をギュッとまとめてご紹介！これ一本ですべてが分かる！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PbMSEp_55r4",
+      "text": "【電動ブレーキの闇】便利すぎる代償…知らないと詰む落とし穴とは？仕組みとトラブルを徹底解説！【ゆっくり解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IO7rvfXC4D8",
+      "text": "【日産キックス（内外装編）】コンパクトSUVで大人気ですが…良い点、悪い点がハッキリし過ぎでした（ X ツートーンインテリアエディション）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-v5w_ZJrLHM",
+      "text": "【燃費計測試乗レビュー】キックスはe-POWERで低燃費&運転しやすい！って実際どうなの？？【キックス高速試乗まとめ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=11RS7T7N5kw",
+      "text": "【ナビ･メーターが良かった車ランキング!】ナビの使い勝手･メーターの見やすさ･先進性など60台以上買った車のメーカー別で評価! おすすめのナビやメーターは意外なアノ車! ポンコツナビはどれだ?!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Q-ZjO2GzcDU",
+      "text": "社長は元特殊部隊員。その戦闘技術がヤバかった【田村装備開発】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8jlaCdufbAg",
+      "text": "【え？全部見えてたの？】YoutubeとGoogleを安全に使うために設定すべきポイントを解説！【この設定は絶対OFFにして！】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yWueeg1HH2I&pp=ugUEEgJqYQ%3D%3D",
+      "text": "4WD追加で商品力アップ！ 日産キックス e-POWER 4WD を ラブカーズtv 河口まなぶ が内外装チェック＆試乗インプレッション！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cK3oi6D2YGk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "ペーパードライバーがバック駐車できるようになる練習法",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LRSSjGwsuv0",
+      "text": "【Claude Code完全入門】誰でも使えるツール／実行革命／ChatGPTとの違い／５体のAIエージェントで実演／願望の質＝アウトプットの質／Skills活用法／経営者こそ使うべき／言語化が全て",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fv3RYJ7OEuo&pp=ugUEEgJqYQ%3D%3D",
+      "text": "50歳で貯金ほぼゼロ 青木さやかの資産づくり【豊島晋作のテレ東経済ニュースアカデミー】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dx8vSplTU0w&pp=ugUEEgJqYQ%3D%3D",
+      "text": "脳梗塞が近い人だけに起こる「手の異変」見逃すと突然倒れます！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=geE0hD79TaA&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "【新供述】「前をしっかり見ていなかった」「ブレーキを踏んだものの間に合わなかった」 大型トラック追突で６人死亡　54歳の女逮捕　三重・亀山市",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oTOhT299paM",
+      "text": "tvk「クルマでいこう！」公式 日産 リーフ 2026/3/8放送(#930)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GZXjMLIn_dE&pp=ugUEEgJqYQ%3D%3D",
+      "text": "〈ENG-Sub〉GRMNヤリス 峠アタック!!【Hot-Version】2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=U-esCCFHdxk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【誰でも出来る】硬くて砂が薄いバンカーの\"世界一簡単な打ち方\"【大叩きの原因第１位】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zjCHjOnzFro",
+      "text": "【燃費激悪】ランドクルーザーFJの良いところ・悪いところをカタログ見て考える　ランクルFJ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZD_wCmFVmf0",
+      "text": "【NissanConnect チュートリアル動画】NissanConnectインフォテインメントシステム 初期設定",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pXWAABQj0-g",
+      "text": "なんで知らなかったんだろう！WD-40を泡に吹きかけて、家中の壊れたプラスチックを修理しよう！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gj2BXVmPZL4&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【購入します!!】新型エルグランド内装･外装見てきた! アルファードを超える装備の数々に驚いた! 第3世代e-POWERにプロパイロット2.0&e-4ORCEまで搭載! 2026フルモデルチェンジ!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R6cenJk8cqw&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【密着】CAと広報を兼務する「二刀流」の2日間！フライトからインスタライブまで全部見せます！✈️🎥",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uMbGWjqil0w&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【衝撃映像】奈良公園の鹿が大阪に出現！「6頭の団体を見たのは生まれて初めて」生駒山を越えた\"神の使い\"の大移動　行方を徹底追跡｜newsランナー〈カンテレNEWS〉",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hMncv4bIiL0",
+      "text": "【日産 キックス】後席とラゲッジ広大／ダッシュ力すご！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qGsTottV_VE",
+      "text": "多彩な運転支援機能で街乗りも楽々！日産キックスe-POWERの街乗り燃費をじっくり計測するよ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iLNXliI0dAI",
+      "text": "🔴 LIVE Barred Owl Nest Cam 🦉 | Post-Fledge Updates & Owl Activity",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2AVhGBef8X8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "「ホテルのレビュー書く仕事」が…1日14時間の電話、居眠りしたらスタンガン　日本人が証言するカンボジア詐欺拠点の“恐怖支配”【Nスタ解説】｜TBS NEWS DIG",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HHp4rjhJsWI",
+      "text": "Moody Gardens Penguin Cam LIVE | Penguin Habitat Stream at the Aquarium in Galveston, Texas",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_zzG4aNPgas&pp=ugUEEgJqYQ%3D%3D",
+      "text": "自宅に電気自動車(EV) 充電コンセントを設置する時の疑問７選",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=LYCcsiQc7_8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "○○を使えば小学生でも解ける！？余弦定理は使用不可！【中学受験算数】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6zt5IPkyX68&pp=0gcJCQQLAYcqIYzv",
+      "text": "【コンパクトSUV頂上決戦！いよいよ…NO1決定！（後編）】CX-30、日産キックス、ヴェゼル、クロストレック、エクリプスクロス、カローラクロス…最高評価はどれだ！？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L-gpKg4_cYM&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【バカ売れ必至!! 新型 キックス 】徹底予想 ボルボ&VWイイトコ取りスタイルに1.4リッターe-POWERでトヨタ&ホンダ超えも？ &価格予想",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZsdsQzem0Ec",
+      "text": "【アニメ・MFゴースト】北原望役の芹澤優がアルファ ロメオ 4Cをドライブ！ 思わず号泣!? 収録中に悔しかったエピソードも……",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Oup57CwRRKs&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産キックス初試乗！　静かさ滑らかさ力強さはクラスNo1？　そして足回りは骨太な欧州テイスト！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_oysMyG3Frs&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【本気で走る！】KICKS低燃費アタック：本番【エコ運転】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=3OzbpnkuNs8",
+      "text": "【日産 新型キックス】待望の４WD登場！！【KICKS】｜群馬日産",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ElleD_qpErw",
+      "text": "🔴 ライブ 春の庭のバードフィーダー 🌼 カーディナル、キツツキ、リス、猫 テレビ 睡眠",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NmSUp4Gezc8",
+      "text": "【2026年最新版】Excelとも神連携！本当に使えるCopilot活用法10選【完全攻略】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OK4E26aCV3U&pp=0gcJCQQLAYcqIYzv",
+      "text": "【トンデモナイ飛び道具!】日産新型リーフB7公道試乗! プロパイロット2.0だけじゃない! アレがスゴかった!! 加速･電費･航続距離･急速充電レポート | NISSAN LEAF B7 G 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7-2FglUHkDw",
+      "text": "【内装がヤバい！】日産新型キックス内外装紹介！マイチェン変更点とスタイルエディション専用装備を徹底チェック！【NISSAN KICKS STYLE EDITION 2023】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=12DVcfO0DDM",
+      "text": "【B-29】日本の技術者が鹵獲したスーパーフォートレスを調査し、製造不可能と結論づけた理由",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hdnOb-4TXNk",
+      "text": "This SCARED ME! Porsche's quickest ever SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Dr5zebXpO-M&pp=0gcJCQQLAYcqIYzv",
+      "text": "Storchennest Live Webcam in Bad Salzungen, Thüringen",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFY5TVQ2NFZxbEp3eWxHSHRNbEFzWXduTDVOQXxBQ3Jtc0trb3pwYUVMbFhQNkFtZUgyd0M2dHVId2FGZm1ZT3JEMFRrOHBJdHZlVk12c3pyMGFOeEZwZ3UyTXFmT2hoRzlic0JOMEtnaUhjMDl3NDlxd3R1TlpUTkMzcTBtYkJsMWZZTnB6SU80Ym80a1BERExSdw&q=https%3A%2F%2Fwww.instagram.com%2Ffukushimanissan%2F&v=iodBolUYgjA",
+      "text": "/ fukushimanissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjF5cUtmdDFUZTk1SDh2cEZQQWJRTTBRRnlrd3xBQ3Jtc0tubjltM0dYZHprd0dRb3VkcnBKUFhvTHZCWENFVEVaZUwxUDNCdGR5a3ZEWEQ3c3JOMWkxWWoyZVY4NW5kenpXTE43ZEx3WDdiYktQMmdvX0dmRkxwSS1ObGxhX1NSYmxVWkQ0MW8yN25USTdrSmdBOA&q=https%3A%2F%2Faisha-mente.jp%2F&v=iodBolUYgjA",
+      "text": "https://aisha-mente.jp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqblRQQzB2bnhVQ01RckVOOURCSWZXeXRlSlVNUXxBQ3Jtc0ttZ2I0VF9sWU9ZR1RVVXhvNEZ2NzJRREQwRG9JUTJkUlNlSU8xLUk2WXoyMmlSYkNMbjJRQ0JES2VidElUT251WHlDVGt6ckpfMFdVWkxlOXJhNXhXSlRtY0ZMZng4QUlkd2diSVl1MHRyRHRxX0NVZw&q=https%3A%2F%2Fni-fukushima.nissan-dealer.jp%2F&v=iodBolUYgjA",
+      "text": "https://ni-fukushima.nissan-dealer.jp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnpBaUFicVpHRG1HTk9ZVkl0QXl2VUpfZWR2UXxBQ3Jtc0tscFE4TU9XRTljMjgzR1hNUkR3Zm1pTTJJMVNFQ195RFc4NDlXQ000R1dBOWV5NlBjUlVQbUE3dHBDMThWaC11ZFdia3JLaHdkelI3X0w3c3BWM2NEWkk0aVoyVFRseGdQb3I0eUtILUN3QTY0UjhDQQ&q=https%3A%2F%2Ff-nissan-saiyou.jp%2F&v=iodBolUYgjA",
+      "text": "https://f-nissan-saiyou.jp",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://yt3.ggpht.com/ytc/AIdro_lF6pCjGZo7nXAf8rXenQHrxilb06AdVQN_80_9q0FuCsc=s48-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    },
+    {
+      "src": "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "alt": "既定のプロフィール写真"
+    }
+  ],
+  "visible_dates": [
+    "2020/09/10",
+    "2020/09/1",
+    "2026/3/8",
+    "2020年\n9月1"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=iodBolUYgjA&t=3",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=iodBolUYgjA&t=3s",
+    "title": "【実燃費】KICKS低燃費アタック：導入編【e-POWERと燃費のハナシ】 - YouTube",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:03:47.941994+00:00",
+  "source_meta": {
+    "title": "Introduction [e-POWER and fuel consu...",
+    "url": "https://www.youtube.com/watch?v=iodBolUYgjA&t=3",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "video_social",
+    "snippet": "はい福日チャンネルをご覧の皆さん。 こんにちは。 今日はまたこちらの車。 キックスを試場しており。 ます。 今回の市場でえキックスの何を見ていくかというと。 この車の燃費を試してみたいと思いますはいでこちらのキックスまずカタログ上のえ燃費を申し上げますと。 え...",
+    "citation_count": 5,
+    "first_cited_position": 13,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Nissan e-POWER running costs versus equivalent petrol models in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan e-POWER running costs versus equivalent petrol models in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

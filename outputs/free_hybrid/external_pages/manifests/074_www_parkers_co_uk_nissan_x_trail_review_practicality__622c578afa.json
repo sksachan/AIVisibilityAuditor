@@ -1,0 +1,1140 @@
+{
+  "url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 27032,
+    "wordish_count": 4134,
+    "heading_count": 9,
+    "bullet_count": 123,
+    "link_count": 138,
+    "image_count": 15,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 9,
+    "raw_url_count": 140,
+    "numeric_fact_count": 216,
+    "question_count": 32,
+    "unique_line_count": 414,
+    "numeric_facts_sample": [
+      "2026",
+      "1",
+      "2022",
+      "3.5",
+      "5",
+      "12",
+      "2024",
+      "1.6",
+      "2",
+      "60",
+      "40",
+      "20",
+      "585",
+      "575",
+      "485",
+      "120",
+      "360",
+      "2021",
+      "17",
+      "3",
+      "4680mm",
+      "6",
+      "2025",
+      "1,500",
+      "10"
+    ],
+    "links_sample": [
+      "https://www.parkers.co.uk/dist/_6-87-2-DO-6138-175/images/logos/parkers.150x30.png",
+      "https://parkers-images.bauersecure.com/wp-images/292/logo/100x0/nissan.png?quality=75",
+      "https://parkers-images.bauersecure.com/wp-images/191676/boot-load-space/930x620/2023-nissan-xtrail-platinum-silver-oy72-xrm-007.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191674/cut-out/210x140/050-nissan-x-trail-review.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/static-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-002.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/static-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-003.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/driving-moving-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-017.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/main-interior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-004.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-005.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-006.jpg",
+      "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-011.jpg",
+      "https://www.parkers.co.uk/dist/_6-87-2-DO-6138-175/images/logos/euro-ncap.png",
+      "https://parkers-images.bauersecure.com/wp-images/348154/120x120/keith_adams.jpg?mode=crop&quality=90",
+      "https://static-cdn.bauersecure.com/Common/Logos/bauer.117x52.png",
+      "https://ct.pinterest.com/v3/?event=init&tid=2612441428804&pd[em]=<hashed_email_address>&noscript=1",
+      "https://www.parkers.co.uk/",
+      "https://www.parkers.co.uk/vans-pickups/",
+      "https://www.parkers.co.uk/cars-for-sale/shortlist/",
+      "https://www.parkers.co.uk/car-reviews/",
+      "https://www.parkers.co.uk/car-awards/",
+      "https://www.parkers.co.uk/owner-reviews/",
+      "https://www.parkers.co.uk/car-specs/",
+      "https://www.parkers.co.uk/car-valuation/",
+      "https://www.parkers.co.uk/sell-my-car/",
+      "https://www.parkers.co.uk/cars-for-sale/"
+    ],
+    "image_alt_count": 15
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Review",
+      "Person",
+      "Car",
+      "Rating",
+      "ImageObject",
+      "Organization",
+      "Brand",
+      "QuantitativeValue"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "Updated: 12 August 2024"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 16,
+    "content_terms": 275,
+    "noise_ratio": 0.06
+  },
+  "content_regions": {
+    "header_chars": 962,
+    "main_chars": 10802,
+    "footer_chars": 664,
+    "tables_chars": 248,
+    "metadata_chars": 396,
+    "full_markdown_chars": 27032
+  },
+  "metadata": {
+    "title": "Nissan X-Trail (2026) boot space & practicality",
+    "description": "Read what our experts think about the Nissan X-Trail's practicality, boot size and overall dimensions, how it compares to its rivals and more.",
+    "language": "en",
+    "sourceURL": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+    "robots": "max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Review",
+      "Person",
+      "Car",
+      "Rating",
+      "ImageObject",
+      "Organization",
+      "Brand",
+      "QuantitativeValue"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.parkers.co.uk/",
+      "text": "Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/vans-pickups/",
+      "text": "Vans & Pickups",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/shortlist/",
+      "text": "0 Saved Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-reviews/",
+      "text": "Car Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-reviews/",
+      "text": "– All reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-awards/",
+      "text": "– Parkers Car Awards",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/owner-reviews/",
+      "text": "– Owner Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-specs/",
+      "text": "Car Specs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-specs/",
+      "text": "– All specs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-valuation/",
+      "text": "Car Valuations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-valuation/",
+      "text": "– Free car valuation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/sell-my-car/",
+      "text": "– Sell my car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/",
+      "text": "Cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/",
+      "text": "– All cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/used/",
+      "text": "– Used cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/new/",
+      "text": "– New cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://parkers.hpicheck.com/",
+      "text": "– Car history check",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/",
+      "text": "Best Cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/",
+      "text": "– All best cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-leasing/",
+      "text": "– Leasing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-leasing/special-offers/",
+      "text": "– Leasing special offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-finance/",
+      "text": "– Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/company-cars/",
+      "text": "– Company cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/which-car/",
+      "text": "– Car choosing tool",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-tax/",
+      "text": "– Car tax",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quotes.parkerscompare.com/car/?utm_source=parkers.co.uk&utm_medium=link&utm_campaign=brandawareness&utm_content=parkers_subnav_insurance",
+      "text": "– Compare car insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-insurance/insurance-groups/",
+      "text": "– Car insurance groups",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-advice/",
+      "text": "– Advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-advice/product-reviews/",
+      "text": "– Product reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/",
+      "text": "– News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/electric-cars/",
+      "text": "– Electric car advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/",
+      "text": "https://www.parkers.co.uk/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/shortlist/",
+      "text": "Saved Cars 0",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+      "text": "More from Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-reviews/",
+      "text": "All reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-awards/",
+      "text": "Parkers Car Awards",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/owner-reviews/",
+      "text": "Owner Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-specs/",
+      "text": "All specs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-valuation/",
+      "text": "Free car valuation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/sell-my-car/",
+      "text": "Sell my car",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/",
+      "text": "All cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/used/",
+      "text": "Used cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/cars-for-sale/new/",
+      "text": "New cars for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://parkers.hpicheck.com/",
+      "text": "Car history check",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/",
+      "text": "All best cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-leasing/",
+      "text": "Leasing",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-leasing/special-offers/",
+      "text": "Leasing special offers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-finance/",
+      "text": "Finance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/company-cars/",
+      "text": "Company cars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/which-car/",
+      "text": "Car choosing tool",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-tax/",
+      "text": "Car tax",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quotes.parkerscompare.com/car/?utm_source=parkers.co.uk&utm_medium=link&utm_campaign=brandawareness&utm_content=parkers_subnav_insurance",
+      "text": "Compare car insurance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-insurance/insurance-groups/",
+      "text": "Car insurance groups",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-advice/",
+      "text": "Advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-advice/product-reviews/",
+      "text": "Product reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/",
+      "text": "News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/electric-cars/",
+      "text": "Electric car advice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/suv-2022/owner-reviews/",
+      "text": "Owner Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/suv-2022/specs/",
+      "text": "Specs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/suv-2022/for-sale/",
+      "text": "For Sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/suv-2022/used-prices/",
+      "text": "Used Prices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/car-leasing/",
+      "text": "Lease Deals",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-reviews/",
+      "text": "Car reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/",
+      "text": "X-Trail",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/reviews/",
+      "text": "(change model)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/author/keith-adams/",
+      "text": "Keith Adams",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/skoda/kodiaq/review/",
+      "text": "Skoda Kodiaq",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/kia/sorento/review/",
+      "text": "Kia Sorento",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/what-is/euro-ncap/",
+      "text": "Euro NCAP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/what-is/autonomous-emergency-braking/",
+      "text": "automatic emergency braking (AEB),",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/what-is/a-blindspot-monitor/",
+      "text": "blindspot monitoring",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/autonomous-vehicles/",
+      "text": "semi-autonomous tech",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/what-is/isofix/",
+      "text": "Isofix points",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/what-is/euro-ncap/",
+      "text": "https://www.parkers.co.uk/what-is/euro-ncap/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.euroncap.com/en/results/nissan/x+trail/47772",
+      "text": "Read the full Euro NCAP report for the Nissan X-Trail SUV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/suv-2022/specs/",
+      "text": "View full specs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/",
+      "text": "1 Overview",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/interior/",
+      "text": "3 Interior, tech & comfort",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/engines/",
+      "text": "4 Engines & handling",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/mpg-running-costs/",
+      "text": "5 Ownership cost",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/verdict/",
+      "text": "6 Verdict",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/author/keith-adams/",
+      "text": "https://www.parkers.co.uk/author/keith-adams/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best/",
+      "text": "https://www.parkers.co.uk/suv/best/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best/",
+      "text": "The best SUVs to buy in 2025 - family-friendly hold-alls tried, tested and rated Looking for the best SUVs to buy in 2025? The Parkers team reveal the best ones to buy – for driving, practicality and economy. Read on to find out more. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/best-used-cars-under-1500/",
+      "text": "https://www.parkers.co.uk/used-cars/best-used-cars-under-1500/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/best-used-cars-under-1500/",
+      "text": "£1,500 to spend? These used cars are absolute steals Looking for a reliable used car on a budget? Our expert guide to the best cars for under £1,500 covers city runabouts, family estates and weekend fun – all cheap to buy. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.getorevive.com/cf/r/69e68e1e5714e40012051409",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.getorevive.com/cf/r/69e68e1e5714e40012051409",
+      "text": "When Neuropathy Hits, Try This Immediately (It's Genius!) Neuropathy sufferers across the UK are trying this simple home-trick — and finally sleeping through the night without burning or tingling. DailyTrends UK | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 2:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://rtrk.energyquotegenius.com/69e7dbf58f7c1da5794aca67",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://rtrk.energyquotegenius.com/69e7dbf58f7c1da5794aca67",
+      "text": "Installers Agree: Solar Only Pays Off in These UK Postcodes Free solar panel quote. UK Solar | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://mozarreraptions.com/fe65ffda-c1a5-4ed7-b64e-4dd0e7baa52f",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://mozarreraptions.com/fe65ffda-c1a5-4ed7-b64e-4dd0e7baa52f",
+      "text": "Top Dermatologists Say This Gem Is \"All You Need\" To Tighten Wrinkles \"My Skin Is Smooth And My Age Spots Are Fading\" Skincare | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best-family/",
+      "text": "https://www.parkers.co.uk/suv/best-family/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best-family/",
+      "text": "Top family SUVs for 2025: space, safety and value | Parkers Here are the best family SUVs to buy in 2025. Compare space, comfort, safety and running costs to find the perfect SUV for your family's needs. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/used-car-sales/most-unreliable-used-cars-2026/",
+      "text": "https://www.parkers.co.uk/car-news/used-car-sales/most-unreliable-used-cars-2026/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/used-car-sales/most-unreliable-used-cars-2026/",
+      "text": "The 10 least reliable used cars revealed... guess which is top? Discover the 10 least reliable used cars revealed by Warrantywise’s latest Reliability Index, and why these luxury SUVs and executive saloons could leave owners facing huge repair bills. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nailhealth.site/pages/2-new-ads",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nailhealth.site/pages/2-new-ads",
+      "text": "Like A Power-Sandblaster For Nail Fungus — Genius! UK Health Desk | Sponsored Sponsored Read More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 4:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tr.shopwisdomhub.com",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tr.shopwisdomhub.com",
+      "text": "Ex-Military Night Vision Scope is Taking the UK By Storm. But Is It Really Good? Top Tech Gear | Sponsored Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quelancepitylus.com/a0ada1b2-fc88-4417-abac-34ef18046305",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quelancepitylus.com/a0ada1b2-fc88-4417-abac-34ef18046305",
+      "text": "Seniors Born 1946-1976 With No Life Insurance Could Be Eligible For This British Seniors Insurance | Sponsored Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.nexo7.store/01KGT6M3T9X5Q2RV8H7NP4WAER",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.nexo7.store/01KGT6M3T9X5Q2RV8H7NP4WAER",
+      "text": "The best walking shoes to wear all day for elderly people Podiflex | Sponsored Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 5:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tick.nerdygadget.com/9f9b677c-6e6d-4a86-a46d-55191282a841",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tick.nerdygadget.com/9f9b677c-6e6d-4a86-a46d-55191282a841",
+      "text": "The \"Silverware Bird\" Secret: Why Thousands Are Buying This Metal Robin FANYIL | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://start.mycarloanclaims.co.uk",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://start.mycarloanclaims.co.uk",
+      "text": "We Could Locate (2) Mis-Sold Car Finance Agreements In Your Name Please reply today to take the next step with a discretionary lender. My Car Loan Claims | Sponsored Sponsored Get Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nailhealth.site/pages/3-new-ad",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nailhealth.site/pages/3-new-ad",
+      "text": "Simple 'Pressure Washer' Trick For Nail Fungus - Genius! UK Health Desk | Sponsored Sponsored Read More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 6:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tick.topchicdeals.com/7c1cd535-2f20-4570-afa0-af2adbd6fcb7",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tick.topchicdeals.com/7c1cd535-2f20-4570-afa0-af2adbd6fcb7",
+      "text": "Why This Tiny Silver Bird Is Becoming One of the UK’s Most Loved Gifts Glosritystore | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://go.lpload.com/3c2db51c-ec96-432a-b53a-4a942ed5a9be",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://go.lpload.com/3c2db51c-ec96-432a-b53a-4a942ed5a9be",
+      "text": "Having vision problems? Try this simple trick tonight Vision Helper | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best-used-suvs-15000/",
+      "text": "https://www.parkers.co.uk/suv/best-used-suvs-15000/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/suv/best-used-suvs-15000/",
+      "text": "The perfect family cars? These are the 10 best used SUVs under £15,000 right now Explore our top picks of used family SUVs under £15,000 for 2025 – from the practical Skoda Karoq to the hybrid Toyota C-HR. Discover reliability, value, and expert insights Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/volkswagen-phaeton/",
+      "text": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/volkswagen-phaeton/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/volkswagen-phaeton/",
+      "text": "The £80k luxury car you can buy for £6k – and why fortune favours the brave The Volkswagen Phaeton offers Bentley-level comfort for used Ford money. From V6 diesel to W12, here’s what to check before buying one. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://quelancepitylus.com/a0ada1b2-fc88-4417-abac-34ef18046305",
+      "text": "People Born 1946-1976 With No Life Insurance Could Be Eligible For This British Seniors Insurance | Sponsored Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 9:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://tick.topchicdeals.com/7c1cd535-2f20-4570-afa0-af2adbd6fcb7",
+      "text": "This Little Robin Brings Warmth to British Homes Glosritystore | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://go.lpload.com/3c2db51c-ec96-432a-b53a-4a942ed5a9be",
+      "text": "If you have vision loss or blurred vision, do this immediately Vision Helper | Sponsored Sponsored Learn More",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/best-used-suvs-under-10000/",
+      "text": "https://www.parkers.co.uk/best-cars/best-used-suvs-under-10000/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/best-used-suvs-under-10000/",
+      "text": "The perfect family cars? 10 best used SUVs under £10,000 right now Discover the best used SUVs under £10,000 in 2026. From the Skoda Kamiq to the Nissan Qashqai, our experts reveal the smartest buys for families on a budget. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/range-rover-sport-l320/",
+      "text": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/range-rover-sport-l320/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/what-could-possibly-go-wrong/range-rover-sport-l320/",
+      "text": "Why these sub-£10k Range Rovers could ruin your life – or make your year Tempted by a used Range Rover Sport for less than £10k? Here’s what goes wrong, what to look out for, and why the L320 is still such a desirable SUV – if you’re brave. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://start.mycarloanclaims.co.uk",
+      "text": "Your Potential Refund For Mis-Sold Car Finance: £1,658** - Lookup Your Name* Please reply today to take the next step with a discretionary lender. My Car Loan Claims | Sponsored Sponsored Get Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-wide:Below Article Thumbnails V3 | Card 11:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://more.betterlife-magazine.com/02272b45-3ed5-4e3c-b08f-45abf86a1297",
+      "text": "Ad",
+      "is_pdf": false
+    },
+    {
+      "url": "https://more.betterlife-magazine.com/02272b45-3ed5-4e3c-b08f-45abf86a1297",
+      "text": "Tired of High BP Readings at Your GP? This £68 Monitor Shows Your Real Numbers Vitaltrack | Sponsored Sponsored Shop Now",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.nexo7.store/01KGT6M3T9X5Q2RV8H7NP4WAER",
+      "text": "Elderly ladies call these sandals a blessing – they can wear them comfortably all day Podiflex | Sponsored Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/ParkersCarBuying",
+      "text": "https://www.facebook.com/ParkersCarBuying",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.twitter.com/ParkersCars",
+      "text": "https://www.twitter.com/ParkersCars",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/user/ParkersTV",
+      "text": "https://www.youtube.com/user/ParkersTV",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/contact-us/",
+      "text": "https://www.parkers.co.uk/contact-us/",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.bauermedia.co.uk",
+      "text": "http://www.bauermedia.co.uk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/about-us/",
+      "text": "About us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/contact-us/",
+      "text": "Contact us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/advertise/",
+      "text": "Advertise with us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.bauerdatapromise.co.uk/",
+      "text": "Privacy & cookie policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/terms-and-conditions/",
+      "text": "Terms of use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.bauerlegal.co.uk/speak-up/",
+      "text": "Speak up",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.bauermediacomplaints.co.uk/",
+      "text": "Complaints policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+      "text": "Privacy settings",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+      "text": "Do not sell my information",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.bauerdatapromise.co.uk/",
+      "text": "bauerdatapromise.co.uk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://trk.getorevive.com/cf/r/69e68e1e5714e40012051409",
+      "text": "https://trk.getorevive.com/cf/r/69e68e1e5714e40012051409",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-01-y-delta:Explore More | Card 2:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://rtrk.energyquotegenius.com/69e7dbf58f7c1da5794aca67",
+      "text": "https://rtrk.energyquotegenius.com/69e7dbf58f7c1da5794aca67",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/chery/",
+      "text": "https://www.parkers.co.uk/car-news/chery/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/chery/",
+      "text": "Silly names aside, this Chinese carmaker could be about to disrupt the market Chery has officially launched in the UK with a full range of SUVs, prices from £24,995 and a seven-year warranty. Here’s what buyers need to know. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/cheapest-new-cars/",
+      "text": "https://www.parkers.co.uk/best-cars/cheapest-new-cars/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/best-cars/cheapest-new-cars/",
+      "text": "Britain’s cheapest new cars 2025: The 10 best new car bargains Meet Britain’s cheapest new cars, with our Top 10 list of affordable new models, from city cars to hybrids – all offering great value for money. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://mozarreraptions.com/fe65ffda-c1a5-4ed7-b64e-4dd0e7baa52f",
+      "text": "https://mozarreraptions.com/fe65ffda-c1a5-4ed7-b64e-4dd0e7baa52f",
+      "is_pdf": false
+    },
+    {
+      "url": "https://popup.taboola.com/en/?template=colorbox&utm_source=bauermediauk-parkers&utm_medium=referral&utm_content=thumbs-feed-01-y-delta:Explore More | Card 5:",
+      "text": "Sponsored",
+      "is_pdf": false
+    },
+    {
+      "url": "https://nailhealth.site/pages/2-new-ads",
+      "text": "https://nailhealth.site/pages/2-new-ads",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/best-buys/",
+      "text": "https://www.parkers.co.uk/used-cars/best-buys/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/used-cars/best-buys/",
+      "text": "In the market for a new vehicle? these used bargains should be on your list... Looking to buy a secondhand motor? These are the best used cars to buy in 2025 across all sectors and price points. Our experts have chosen the best buys. Parkers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/nissan/leaf-ev/",
+      "text": "https://www.parkers.co.uk/car-news/nissan/leaf-ev/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.parkers.co.uk/car-news/nissan/leaf-ev/",
+      "text": "Does this new British-built EV have what it takes to go to the top of the class? The all-new Nissan Leaf continues UK production in Sunderland with up to 386 miles of range and 150kW charging. Here’s why it matters to car buyers. Parkers",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.parkers.co.uk/dist/_6-87-2-DO-6138-175/images/logos/parkers.150x30.png",
+      "alt": "Parkers"
+    },
+    {
+      "src": "https://www.parkers.co.uk/dist/_6-87-2-DO-6138-175/images/logos/parkers.200x40.png",
+      "alt": "Parkers"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/wp-images/292/logo/100x0/nissan.png?quality=75",
+      "alt": "New 2020 Nissan Logo"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/wp-images/191676/boot-load-space/930x620/2023-nissan-xtrail-platinum-silver-oy72-xrm-007.jpg",
+      "alt": "Nissan X-Trail boot"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/boot-load-space/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-007.jpg",
+      "alt": "Nissan X-Trail boot"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191674/cut-out/210x140/050-nissan-x-trail-review.jpg",
+      "alt": "Nissan X-Trail review (2024)"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/static-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-002.jpg",
+      "alt": "Nissan X-Trail rear static"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/static-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-003.jpg",
+      "alt": "Nissan X-Trail profile static"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/driving-moving-exterior/210x140/2023-nissan-xtrail-024.jpg",
+      "alt": "Nissan X-Trail review (2024)"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/driving-moving-exterior/210x140/2023-nissan-xtrail-028.jpg",
+      "alt": "Nissan X-Trail review (2024)"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/driving-moving-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-017.jpg",
+      "alt": "Nissan X-Trail dynamic"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/driving-moving-exterior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-014.jpg",
+      "alt": "Nissan X-Trail dynamic"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/main-interior/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-004.jpg",
+      "alt": "Nissan X-Trail interior"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-005.jpg",
+      "alt": "Nissan X-Trail infotainment"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-006.jpg",
+      "alt": "Nissan X-Trail middle row of seats"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/gallery-thumbnail/wp-images/191676/interior-detail/210x140/2023-nissan-xtrail-platinum-silver-oy72-xrm-011.jpg",
+      "alt": "Nissan X-Trail rear row of seats"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/wp-images/191676/interior-detail/675x450/2023-nissan-xtrail-platinum-silver-oy72-xrm-006.jpg",
+      "alt": "Nissan X-Trail middle row of seats"
+    },
+    {
+      "src": "https://www.parkers.co.uk/dist/_6-87-2-DO-6138-175/images/logos/euro-ncap.png",
+      "alt": "Euro NCAP logo"
+    },
+    {
+      "src": "https://parkers-images.bauersecure.com/wp-images/348154/120x120/keith_adams.jpg?mode=crop&quality=90",
+      "alt": "Keith Adams"
+    },
+    {
+      "src": "https://static-cdn.bauersecure.com/Common/Logos/bauer.117x52.png",
+      "alt": "Bauer Media logo"
+    },
+    {
+      "src": "https://ct.pinterest.com/v3/?event=init&tid=2612441428804&pd[em]=<hashed_email_address>&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "Updated: 12 August 2024"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+    "title": "Nissan X-Trail (2026) boot space & practicality",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:08:09.899539+00:00",
+  "source_meta": {
+    "title": "Nissan X-Trail (2026) boot space & practicality - Parkers",
+    "url": "https://www.parkers.co.uk/nissan/x-trail/review/practicality/",
+    "source_name": "Parkers",
+    "source_domain": "www.parkers.co.uk",
+    "source_type": "other",
+    "snippet": "Aug 12, 2024 — Boot space and storage A sliding rear bench is standard from Tekna grade and optional on N-Connecta allowing you to increase boots...",
+    "citation_count": 2,
+    "first_cited_position": 5,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "list"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Family practicality, space and comfort",
+    "related_queries_seed": [
+      {
+        "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan X-Trail boot capacity and seat fold options for long family trips",
+        "brand_topic_category": "Family practicality, space and comfort",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 7568,
+    "wordish_count": 1117,
+    "heading_count": 8,
+    "bullet_count": 11,
+    "link_count": 14,
+    "image_count": 3,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 1,
+    "raw_url_count": 17,
+    "numeric_fact_count": 330,
+    "question_count": 9,
+    "unique_line_count": 53,
+    "numeric_facts_sample": [
+      "2017",
+      "30kwh",
+      "3393986430842621",
+      "90",
+      "8",
+      "2023年",
+      "130",
+      "150km",
+      "2016",
+      "11",
+      "83%",
+      "2",
+      "30kw",
+      "30",
+      "16",
+      "3",
+      "2000",
+      "0",
+      "0001",
+      "7.9996",
+      "4.418",
+      "3.5815",
+      "7.9995",
+      "001",
+      "12.4176"
+    ],
+    "links_sample": [
+      "https://static.xx.fbcdn.net/rsrc.php/y-/r/oJDN4UDRn_R.webp",
+      "https://static.xx.fbcdn.net/images/emoji.php/v9/tf1/2/16/1f923.png",
+      "https://external-lhr6-1.xx.fbcdn.net/emg1/v/t13/17614153708586843716?url=https%3A%2F%2Fflipthefleet.org%2Fwp-content%2Fuploads%2F2018%2F07%2FBMSUpdateNoFormula20180725.png&fb_obo=1&utld=flipthefleet.org&stp=c0.5000x0.5000f_dst-emg0_p196x196_q75_tt6&_nc_gid=c8IAvcHBbLJSFF8cyMC0BQ&_nc_oc=AdqknWaWl3VW8BRtCHIl5rvYANkMg9m9w-yNz6JI1Ux8XBITByl9HxxMUcp868Mif-g&ccb=13-1&oh=06_Q3-_AS155i1P_wYytQK4aBsP3C4oJ6XRoW2rVnQIo8Ac-jn_&oe=6A091B0B&_nc_sid=d86115",
+      "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FIEVOA%2Fposts%2F3393986430842621%2F",
+      "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "https://www.facebook.com/groups/1602716789969603/?__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=-UC%2CP-R",
+      "https://www.facebook.com/groups/1602716789969603/?multi_permalinks=3393986430842621&hoisted_section_header_type=recently_seen&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=%2CO%2CP-R",
+      "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/?comment_id=3394008704173727&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=R]-R",
+      "https://l.facebook.com/l.php?u=https%3A%2F%2Fflipthefleet.org%2F2018%2F30-kwh-nissan-leaf-firmware-update-to-correct-capacity-reporting%2F&h=AUCOFVeH0mb_t-WTnw0j6STm7MHMpHX3yVacPGzQsV6Rtyk7TkOF9hiTDg5Bu2xA86U6sMVFtvlbJki6-XvRojKk7Bc3xO6-2Y-EAkEepe58CcdfewJHQDcko3t-wbwfTC0sbG6EE-RMR2XeNUsj2usDYgnsl0ZIo5HpnA&__tn__=R]-R&c[0]=AUDUh6Z8AnJtyJSRMFfsq68L-TIi_1rPjUeKgwGOySRmRMG4mQc1KvCxbWoL8NkI-SpP3AkamMLshrvn9EgRZ1aWnY-SD_OfgDvOH7xGgskt666YM8DBXYVJfYbn93D7dIVT72QsP-8ce7Wi-2WqEjqFny0lPIcWTVIjkFdWCn8m1k2ppWhNkC7PjAtZjeC0ITfXHV7oClfCsXVvJAaCWA",
+      "https://l.facebook.com/l.php?u=https%3A%2F%2Fflipthefleet.org%2F2018%2F30-kwh-nissan-leaf-firmware-update-to-correct-capacity-reporting%2F&h=AUArRha5V-K9oygfB1hGuiIyBMfrjd8mH4_IkJOJ9dI3tUYluWQPJxQpJVGDT3JCIh5WhhslLRIHYSWbt2p537Mz3ebbR1i7y2p42CDQIBDbWvpi9mCDMDpgqwvhrfVYvPQX4cURvcJTwtjNFNx8iZ2Bgp68Sbm_WoGYIw&__tn__=R]-R&c[0]=AUDUh6Z8AnJtyJSRMFfsq68L-TIi_1rPjUeKgwGOySRmRMG4mQc1KvCxbWoL8NkI-SpP3AkamMLshrvn9EgRZ1aWnY-SD_OfgDvOH7xGgskt666YM8DBXYVJfYbn93D7dIVT72QsP-8ce7Wi-2WqEjqFny0lPIcWTVIjkFdWCn8m1k2ppWhNkC7PjAtZjeC0ITfXHV7oClfCsXVvJAaCWA",
+      "https://www.facebook.com/help/1561485474074139",
+      "https://www.facebook.com/policies/cookies/",
+      "https://www.facebook.com/privacy/policies/cookies/?annotations[0]=explanation%2F3_companies_list"
+    ],
+    "image_alt_count": 4
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2023年3月1"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 3,
+    "content_terms": 19,
+    "noise_ratio": 0.16
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 1675,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 274,
+    "full_markdown_chars": 7568
+  },
+  "metadata": {
+    "title": "Irish EV Association | Hi. I have a 2017 Nissan Leaf 30kwh | Facebook",
+    "description": "Hi. I have a 2017 Nissan Leaf 30kwh. There's just short of 90k on the clock. It is a Japanese import. Battery capacity has dropped to 8 bars. I've had...",
+    "language": "ja",
+    "sourceURL": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+    "robots": "noodp,noydir",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FIEVOA%2Fposts%2F3393986430842621%2F",
+      "text": "ログイン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "text": "アカウントを忘れた場合",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/1602716789969603/?__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=-UC%2CP-R",
+      "text": "Irish EV Association",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/1602716789969603/?multi_permalinks=3393986430842621&hoisted_section_header_type=recently_seen&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=%2CO%2CP-R",
+      "text": "2023年3月19日",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/?comment_id=3394008704173727&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=R]-R",
+      "text": "3年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/?comment_id=3394746247433306&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=R]-R",
+      "text": "3年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fflipthefleet.org%2F2018%2F30-kwh-nissan-leaf-firmware-update-to-correct-capacity-reporting%2F&h=AUCOFVeH0mb_t-WTnw0j6STm7MHMpHX3yVacPGzQsV6Rtyk7TkOF9hiTDg5Bu2xA86U6sMVFtvlbJki6-XvRojKk7Bc3xO6-2Y-EAkEepe58CcdfewJHQDcko3t-wbwfTC0sbG6EE-RMR2XeNUsj2usDYgnsl0ZIo5HpnA&__tn__=R]-R&c[0]=AUDUh6Z8AnJtyJSRMFfsq68L-TIi_1rPjUeKgwGOySRmRMG4mQc1KvCxbWoL8NkI-SpP3AkamMLshrvn9EgRZ1aWnY-SD_OfgDvOH7xGgskt666YM8DBXYVJfYbn93D7dIVT72QsP-8ce7Wi-2WqEjqFny0lPIcWTVIjkFdWCn8m1k2ppWhNkC7PjAtZjeC0ITfXHV7oClfCsXVvJAaCWA",
+      "text": "https://flipthefleet.org/.../30-kwh-nissan-leaf-firmware.../",
+      "is_pdf": false
+    },
+    {
+      "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fflipthefleet.org%2F2018%2F30-kwh-nissan-leaf-firmware-update-to-correct-capacity-reporting%2F&h=AUArRha5V-K9oygfB1hGuiIyBMfrjd8mH4_IkJOJ9dI3tUYluWQPJxQpJVGDT3JCIh5WhhslLRIHYSWbt2p537Mz3ebbR1i7y2p42CDQIBDbWvpi9mCDMDpgqwvhrfVYvPQX4cURvcJTwtjNFNx8iZ2Bgp68Sbm_WoGYIw&__tn__=R]-R&c[0]=AUDUh6Z8AnJtyJSRMFfsq68L-TIi_1rPjUeKgwGOySRmRMG4mQc1KvCxbWoL8NkI-SpP3AkamMLshrvn9EgRZ1aWnY-SD_OfgDvOH7xGgskt666YM8DBXYVJfYbn93D7dIVT72QsP-8ce7Wi-2WqEjqFny0lPIcWTVIjkFdWCn8m1k2ppWhNkC7PjAtZjeC0ITfXHV7oClfCsXVvJAaCWA",
+      "text": "30 kWh Nissan Leaf firmware update to correct capacity reporting - FlipTheFleet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/?comment_id=3393997584174839&__cft__[0]=AZbiZ9yLfwq6S8BG1gCcczJlxKf80qclx1RuLHcCEX48LzIPa0FN1A1jxAjAMs7PPho24QNzN4EcHffuJ0PgsJDGr7SvhY2dMHhO3G27oesE_zFLa1ws2k_tNhMc5IDZtwWmPzbwXh9r8gxG-6o055crrpZ_h-Jr0bukdPRDogQVuO1QC9apRiMRZmIgMAiuA7s&__tn__=R]-R",
+      "text": "3年",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/recover/initiate?ars=royal_blue_bar",
+      "text": "パスワードを忘れた場合",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/help/1561485474074139",
+      "text": "Meta製品",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/policies/cookies/",
+      "text": "Cookieポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/privacy/policies/cookies/?annotations[0]=explanation%2F3_companies_list",
+      "text": "他社",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://static.xx.fbcdn.net/rsrc.php/y-/r/oJDN4UDRn_R.webp",
+      "alt": ""
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E",
+      "alt": ""
+    },
+    {
+      "src": "https://static.xx.fbcdn.net/images/emoji.php/v9/tf1/2/16/1f923.png",
+      "alt": "🤣"
+    },
+    {
+      "src": "https://external-lhr6-1.xx.fbcdn.net/emg1/v/t13/17614153708586843716?url=https%3A%2F%2Fflipthefleet.org%2Fwp-content%2Fuploads%2F2018%2F07%2FBMSUpdateNoFormula20180725.png&fb_obo=1&utld=flipthefleet.org&stp=c0.5000x0.5000f_dst-emg0_p196x196_q75_tt6&_nc_gid=c8IAvcHBbLJSFF8cyMC0BQ&_nc_oc=AdqknWaWl3VW8BRtCHIl5rvYANkMg9m9w-yNz6JI1Ux8XBITByl9HxxMUcp868Mif-g&ccb=13-1&oh=06_Q3-_AS155i1P_wYytQK4aBsP3C4oJ6XRoW2rVnQIo8Ac-jn_&oe=6A091B0B&_nc_sid=d86115",
+      "alt": "30 kWh Nissan Leaf firmware update to correct capacity reporting - FlipTheFleet"
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_1.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_3.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/images/cookies/cookie_info_card_image_4.png",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2023年3月1"
+  ],
+  "static_fetch": {
+    "status_code": 400,
+    "final_url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+    "title": "Irish EV Association | Hi. I have a 2017 Nissan Leaf 30kwh | Facebook",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T13:59:15.179200+00:00",
+  "source_meta": {
+    "title": "Nissan Leaf battery warranty issue with Japanese import",
+    "url": "https://www.facebook.com/groups/IEVOA/posts/3393986430842621/",
+    "source_name": "Facebook",
+    "source_domain": "www.facebook.com",
+    "source_type": "forum_community",
+    "snippet": "Mar 19, 2023 — * Conor Burke. Warranty repairs have to be through the dealer. But judging by the information you have translated from the book in...",
+    "citation_count": 2,
+    "first_cited_position": 1,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "EV range, charging and battery confidence",
+    "related_queries_seed": [
+      {
+        "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan Leaf battery warranty coverage and conditions in Japan",
+        "brand_topic_category": "EV range, charging and battery confidence",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

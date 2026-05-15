@@ -1,0 +1,1439 @@
+{
+  "url": "https://global.nissannews.com/en/channels/e-power",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 35027,
+    "wordish_count": 4937,
+    "heading_count": 8,
+    "bullet_count": 113,
+    "link_count": 155,
+    "image_count": 42,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 156,
+    "numeric_fact_count": 227,
+    "question_count": 4,
+    "unique_line_count": 297,
+    "numeric_facts_sample": [
+      "1",
+      "2026",
+      "12",
+      "9",
+      "2027",
+      "2025",
+      "13",
+      "23",
+      "3",
+      "21",
+      "26",
+      "2023",
+      "2024",
+      "15",
+      "11",
+      "1986",
+      "20",
+      "2022",
+      "25",
+      "19",
+      "27",
+      "2021",
+      "22",
+      "6",
+      "31"
+    ],
+    "links_sample": [
+      "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "https://global.nissannews.com/page-MVGhb/attachment/6c6275860907a63281ae87cd5dca3c6ccacfe2c1",
+      "https://global.nissannews.com/page-MVGhb/attachment/447a20c35e06321b06aff478bcc0723742c9dc21",
+      "https://global.nissannews.com/page-MVGhb/attachment/b00c475fae225fa23138086ac43f17472a4b5b63",
+      "https://global.nissannews.com/page-MVGhb/attachment/51cf01a45023dba48c761283e47a4c6f8e11264e",
+      "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "https://www.facebook.com/tr?id=1164831160280483&ev=PageView&noscript=1",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/c43fc1f8e3a42b80d980d5e57eeb0c8c40392e36",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/af85c884972b361664de649a12ab8dd1de11c4e9",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/99195b6fc6529e9e0152992b52b50a0bfaa3a01f",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/b07136461cc6e53e77ff7f964ad379433790f456",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/b98496178457970d8fdb014d7c7cb1044824112a",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/e1dc78b63681974c9b2b576c5e2daab9d05e37ae",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a831f2c3e421ee38d7c69f6ca311579c767dcea",
+      "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a09c31ba033b33f389b50a02f9d7b4b6db35e85e",
+      "https://wieck-nissanao-production.s3.amazonaws.com/photos/9813fba5081fa3194a1b335351b3928f4577da50/thumbnail-364x204.jpg",
+      "https://wieck-nissanao-production.s3.amazonaws.com/photos/fcadf73c0bde5fa02f1fdb1bce447b91d262233a/thumbnail-364x204.jpg",
+      "https://wieck-nissanao-production.s3.amazonaws.com/photos/40c80b439c68d6adf16aaeb3fa66d5a74bd4a845/thumbnail-364x204.jpg"
+    ],
+    "image_alt_count": 42
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": true,
+    "nav_noise_terms": 3,
+    "content_terms": 126,
+    "noise_ratio": 0.02
+  },
+  "content_regions": {
+    "header_chars": 2328,
+    "main_chars": 6703,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 222,
+    "full_markdown_chars": 35027
+  },
+  "metadata": {
+    "title": "e-POWER",
+    "description": "Nissan Global Newsroom | Latest news, photos and videos. Visit our global newsroom for announcements, photos and videos from Nissan Motor Corporation.",
+    "language": "en",
+    "sourceURL": "https://global.nissannews.com/en/channels/e-power",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "https://global.nissannews.com/en",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en",
+      "text": "Global Newsroom",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP",
+      "text": "日本語",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/all-news-archive",
+      "text": "News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/news",
+      "text": "News Releases",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/news?selectedTabId=news-photos",
+      "text": "Release Photos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/notices",
+      "text": "Notices",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/nissan-model-lineup",
+      "text": "Models",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/nissan-model-lineup",
+      "text": "Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/major-models-lineup-infiniti",
+      "text": "INFINITI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/heritage_models",
+      "text": "Heritage",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/nng-nissan-in-depth",
+      "text": "More From Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/sustainability",
+      "text": "Sustainability",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/channel-45ec0f513c5381a56ca843312d308f65",
+      "text": "Electrification",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/technology-en",
+      "text": "Technology",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/PROFILE/",
+      "text": "Facilities",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/nng-corporate",
+      "text": "Corporate",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/vision",
+      "text": "Our Vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/re-nissan",
+      "text": "Re:Nissan: Our recovery plan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/sales-report-year-en",
+      "text": "Sales, Production & Export Results",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/investor-relations",
+      "text": "Investor News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/",
+      "text": "Investor Site",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/IR/FINANCIAL_RESULTS/",
+      "text": "Results, Reports and Presentations",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/corporate-officers",
+      "text": "Executive Bios",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/executive-manage-change",
+      "text": "Executive management changes",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/COMPANY/GOVERNANCE/",
+      "text": "Corporate Governance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/renault-nissan-mitsubishi",
+      "text": "Renault Nissan Mitsubishi Alliance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/auto-show-archive",
+      "text": "Events",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2026",
+      "text": "2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2026",
+      "text": "Auto China 2026 (Beijing)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2025",
+      "text": "2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/auto-guangzhou-2025",
+      "text": "Auto Guangzhou",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/jms-2025",
+      "text": "Japan Mobility Show",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/shanghai-2025",
+      "text": "Auto Shanghai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2025",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/events-2024",
+      "text": "2024",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/auto-guangzhou-2024",
+      "text": "Auto Guangzhou",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2024",
+      "text": "Auto China 2024 (Beijing)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-sallon-2024",
+      "text": "Tokyo Auto salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/auto-show-archive",
+      "text": "Archive",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/pages/motorsports-archive",
+      "text": "Motorsports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/formula-e",
+      "text": "Formula E",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/nismo-news",
+      "text": "NISMO News",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/channels/channel-1c1dfa2d347ec972e305af1f71002338",
+      "text": "Super GT",
+      "is_pdf": false
+    },
+    {
+      "url": "https://usa.nissannews.com/en-US/channels/us-nissan-z-gt4?selectedTabId=us-nissan-z-gt4-releases",
+      "text": "Nissan Z GT4",
+      "is_pdf": false
+    },
+    {
+      "url": "https://canada.nissannews.com/en-CA/channels/ca-canada-nissan-sentra-cup",
+      "text": "Sentra Cup",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/infiniti",
+      "text": "INFINITI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/regions",
+      "text": "Regions",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/contacts",
+      "text": "Contacts",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/basket",
+      "text": "No Saved Items Saved Item Saved Items",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/basket",
+      "text": "https://global.nissannews.com/en/basket",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "text": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-uber-and-nissan-announce-collaboration-on-robotaxis",
+      "text": "Wayve, Uber and Nissan announce collaboration on Robotaxis",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "text": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-leaf-crowned-supreme-winner-for-2026-by-womens-worldwide-car-of-the-year",
+      "text": "New Nissan LEAF crowned Supreme Winner for 2026 by Women's Worldwide Car of the Year",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "text": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/dongfeng-nissan-launches-the-all-new-nx8-in-china",
+      "text": "Dongfeng Nissan launches the All-New NX8 in China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "text": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-2027-infiniti-qx65-debuts-in-us",
+      "text": "All-new 2027 INFINITI QX65 debuts in U.S.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "text": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/wayve-and-nissan-to-exhibit-global-robotaxi-prototype-vehicle-at-nvidia-gtc-2026",
+      "text": "Wayve and Nissan to exhibit global robotaxi prototype vehicle powered by NVIDIA DRIVE Hyperion for Uber trials",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/251212-02-e",
+      "text": "https://global.nissannews.com/en/releases/251212-02-e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/251212-02-e",
+      "text": "CDP awards A-rank to Nissan for climate change and water security initiatives",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260414-vision",
+      "text": "https://global.nissannews.com/en/releases/260414-vision",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260414-vision",
+      "text": "Vision of Mobility Intelligence for Everyday Life",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260513-01-e",
+      "text": "https://global.nissannews.com/en/releases/260513-01-e",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/260513-01-e",
+      "text": "Nissan reports financial results for fiscal year 2025",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/beijing-2026",
+      "text": "https://global.nissannews.com/en/channels/beijing-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/tokyo-auto-salon-2026",
+      "text": "Tokyo Auto Salon 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "text": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/number-23-motul-niterra-z-finishes-3rd-podium-at-fuji",
+      "text": "#23 MOTUL Niterra Z finishes 3rd; Nissan Z NISMO secures consecutive podium finishes at Fuji",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "text": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-formula-e-team-stands-on-the-podium-both-days-in-berlin-double-header",
+      "text": "Nissan Formula E Team stands on the podium both days in Berlin double-header",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/",
+      "text": "Home",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/e-power",
+      "text": "Newest",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/e-power?sortOrder=PublishedAscending",
+      "text": "Oldest",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-x-trail-nismo-on-sep-24-2025-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-launches-x-trail-nismo-on-sep-24-2025-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-x-trail-nismo-on-sep-24-2025-in-japan",
+      "text": "Nissan launches X‑Trail NISMO in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-x-trail-nismo-on-sep-24-2025-in-japan",
+      "text": "Nissan today announced the launch of the first-ever, X‑Trail NISMO in Japan.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-f5a7b4c73b85cae9d4a824891718e5c8?gallery=release-f5a7b4c73b85cae9d4a824891718e5c8&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-f5a7b4c73b85cae9d4a824891718e5c8?gallery=release-f5a7b4c73b85cae9d4a824891718e5c8&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-3rd-generation-e-power-technology-in-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-launches-3rd-generation-e-power-technology-in-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-3rd-generation-e-power-technology-in-europe",
+      "text": "Nissan launches third generation e‑POWER technology in Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-3rd-generation-e-power-technology-in-europe",
+      "text": "Nearly a decade after its global debut, Nissan is launching the most advanced form of its unique e‑POWER technology.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-a850b0e658c78586ea9c117ed605d4d2?gallery=release-a850b0e658c78586ea9c117ed605d4d2&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-a850b0e658c78586ea9c117ed605d4d2?gallery=release-a850b0e658c78586ea9c117ed605d4d2&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-expands-availability-of-next-generation-nissanconnect-services?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-expands-availability-of-next-generation-nissanconnect-services?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-expands-availability-of-next-generation-nissanconnect-services",
+      "text": "Nissan expands availability of next-generation NissanConnect Services",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-expands-availability-of-next-generation-nissanconnect-services",
+      "text": "Nissan Motor Co., Ltd. has expanded the availability of its next-generation NissanConnect services into Europe.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-b82c610eb56d38b68441195e3c16ae1e?gallery=release-b82c610eb56d38b68441195e3c16ae1e&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-b82c610eb56d38b68441195e3c16ae1e?gallery=release-b82c610eb56d38b68441195e3c16ae1e&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-b82c610eb56d38b68441195e3c16ae1e?gallery=release-b82c610eb56d38b68441195e3c16ae1e&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-b82c610eb56d38b68441195e3c16ae1e?gallery=release-b82c610eb56d38b68441195e3c16ae1e&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231208-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/231208-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231208-01-e",
+      "text": "Serena wins COTY Technology Car of the Year award in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231208-01-e",
+      "text": "Nissan announces today that the Serena minivan won the Technology Car of the Year award as part of 2023-2024 Japan Car of the year awards. The award for the Serena follows that for the Nissan X‑Trail won last year.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-ca0047dba030bc835e923d815905336e?gallery=release-ca0047dba030bc835e923d815905336e&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-ca0047dba030bc835e923d815905336e?gallery=release-ca0047dba030bc835e923d815905336e&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231115-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/231115-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231115-01-e",
+      "text": "Serena wins RJC car and technology of the year awards",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/231115-01-e",
+      "text": "Nissan announces today that the Serena minivan won the RJC Car of the Year award and the RJC Technology of the Year award in Japan for 2023.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-0a142cda058309079750a0cd0d3167bf?gallery=release-0a142cda058309079750a0cd0d3167bf&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-0a142cda058309079750a0cd0d3167bf?gallery=release-0a142cda058309079750a0cd0d3167bf&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-sunderland-plant-passes-11-million-milestone?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-sunderland-plant-passes-11-million-milestone?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-sunderland-plant-passes-11-million-milestone",
+      "text": "Nissan Sunderland Plant passes 11 million milestone",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-sunderland-plant-passes-11-million-milestone",
+      "text": "The team at Nissan Sunderland Plant are celebrating building their 11 millionth vehicle since production started in 1986.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-e06be09f8af8cdde90bfd6596f16b388?gallery=release-e06be09f8af8cdde90bfd6596f16b388&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-e06be09f8af8cdde90bfd6596f16b388?gallery=release-e06be09f8af8cdde90bfd6596f16b388&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/auto-shanghai-2023?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/auto-shanghai-2023?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/auto-shanghai-2023",
+      "text": "Nissan highlights electrification and connectivity at Auto Shanghai 2023",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/auto-shanghai-2023",
+      "text": "Nissan is highlighting a wide range of electrified and seamlessly connected vehicles that aim to exceed consumer expectations at Auto Shanghai 2023.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-e4e95e5eaf26bc6fa8f94a21d707a39b?gallery=release-e4e95e5eaf26bc6fa8f94a21d707a39b&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-e4e95e5eaf26bc6fa8f94a21d707a39b?gallery=release-e4e95e5eaf26bc6fa8f94a21d707a39b&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-e4e95e5eaf26bc6fa8f94a21d707a39b?gallery=release-e4e95e5eaf26bc6fa8f94a21d707a39b&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-e4e95e5eaf26bc6fa8f94a21d707a39b?gallery=release-e4e95e5eaf26bc6fa8f94a21d707a39b&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-x-trail-awarded-best-large-suv-by-ww-car-of-the-year-2023?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-x-trail-awarded-best-large-suv-by-ww-car-of-the-year-2023?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-x-trail-awarded-best-large-suv-by-ww-car-of-the-year-2023",
+      "text": "Nissan X‑Trail awarded best Large SUV by Women’s World Car of the Year 2023",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-x-trail-awarded-best-large-suv-by-ww-car-of-the-year-2023",
+      "text": "The jury of the Women’s World Car of the Year (WWCOTY) 2023 has awarded Nissan X‑Trail the title of Best Large SUV 2023 for its thirteenth edition.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-0cbaaa35cd823cb7d80b7f6fb01f3d71?gallery=release-0cbaaa35cd823cb7d80b7f6fb01f3d71&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-0cbaaa35cd823cb7d80b7f6fb01f3d71?gallery=release-0cbaaa35cd823cb7d80b7f6fb01f3d71&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-serena-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-serena-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-serena-in-japan",
+      "text": "Nissan launches the all-new Serena in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-serena-in-japan",
+      "text": "Nissan today announced the launch of the fully-revamped Serena in Japan. Sales of gasoline-powered models will start this winter, and e‑POWER models are to start in spring.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-38b3f4b4373aa402953910d18b48895a?gallery=release-38b3f4b4373aa402953910d18b48895a&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-38b3f4b4373aa402953910d18b48895a?gallery=release-38b3f4b4373aa402953910d18b48895a&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-38b3f4b4373aa402953910d18b48895a?gallery=release-38b3f4b4373aa402953910d18b48895a&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-38b3f4b4373aa402953910d18b48895a?gallery=release-38b3f4b4373aa402953910d18b48895a&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-x-trail-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-x-trail-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-x-trail-in-japan",
+      "text": "Nissan launches the all-new X‑Trail in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-the-all-new-x-trail-in-japan",
+      "text": "Nissan today launched the all-new X‑Trail in Japan, with sales starting on July 25.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-eeb3fca6e4d3baab92962a71650490a1?gallery=release-eeb3fca6e4d3baab92962a71650490a1&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-eeb3fca6e4d3baab92962a71650490a1?gallery=release-eeb3fca6e4d3baab92962a71650490a1&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-eeb3fca6e4d3baab92962a71650490a1?gallery=release-eeb3fca6e4d3baab92962a71650490a1&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-eeb3fca6e4d3baab92962a71650490a1?gallery=release-eeb3fca6e4d3baab92962a71650490a1&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-kicks-goes-on-sale-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/new-nissan-kicks-goes-on-sale-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-kicks-goes-on-sale-in-japan",
+      "text": "New Nissan Kicks goes on sale in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/new-nissan-kicks-goes-on-sale-in-japan",
+      "text": "Following a minor model change, the new Nissan Kicks electrified SUV goes on sale July 19 across Japan. The vehicle launch marks another milestone in Nissan’s expansion of its electrified vehicle lineup.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-78c2698d60c264e7844a86167e21c15f?gallery=release-78c2698d60c264e7844a86167e21c15f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-78c2698d60c264e7844a86167e21c15f?gallery=release-78c2698d60c264e7844a86167e21c15f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-charges-towards-electrified-future-with-new-line-up-and-technologies?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-charges-towards-electrified-future-with-new-line-up-and-technologies?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-charges-towards-electrified-future-with-new-line-up-and-technologies",
+      "text": "Nissan charges towards electrified future with new line-up and technologies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-charges-towards-electrified-future-with-new-line-up-and-technologies",
+      "text": "Today, Nissan has set its course firmly towards a sustainable future and bolstered its position in the European market with the presentation of its new six-part electrified line-up arriving this Summer.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-7649279cca9d786cbd5af9067214867f?gallery=release-7649279cca9d786cbd5af9067214867f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-7649279cca9d786cbd5af9067214867f?gallery=release-7649279cca9d786cbd5af9067214867f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-7649279cca9d786cbd5af9067214867f?gallery=release-7649279cca9d786cbd5af9067214867f&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-7649279cca9d786cbd5af9067214867f?gallery=release-7649279cca9d786cbd5af9067214867f&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-all-new-electric-compact-car-coming-to-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-all-new-electric-compact-car-coming-to-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-all-new-electric-compact-car-coming-to-europe",
+      "text": "Nissan announces all-new electric compact car coming to Europe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-all-new-electric-compact-car-coming-to-europe",
+      "text": "Nissan today announced an all-new compact electric vehicle coming to European markets.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-3c588fa4b94db0cf85fb4c34ad2b4816?gallery=release-3c588fa4b94db0cf85fb4c34ad2b4816&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-3c588fa4b94db0cf85fb4c34ad2b4816?gallery=release-3c588fa4b94db0cf85fb4c34ad2b4816&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-3c588fa4b94db0cf85fb4c34ad2b4816?gallery=release-3c588fa4b94db0cf85fb4c34ad2b4816&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-3c588fa4b94db0cf85fb4c34ad2b4816?gallery=release-3c588fa4b94db0cf85fb4c34ad2b4816&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211221-02-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/211221-02-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211221-02-e",
+      "text": "Nissan heads to Tokyo Auto Salon 2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211221-02-e",
+      "text": "The all-new Japan-market Fairlady Z will be among the highlights as Nissan displays a variety of models, from the recently unveiled Z GT500 racecar to exciting customized Nissan Note models, at the Tokyo Auto Salon 2022.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-bf474e990500454c1e768fb2605d2633?gallery=release-bf474e990500454c1e768fb2605d2633&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-bf474e990500454c1e768fb2605d2633?gallery=release-bf474e990500454c1e768fb2605d2633&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211210-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/211210-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211210-01-e",
+      "text": "Nissan Note and Note Aura win Japan Car of the Year award",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211210-01-e",
+      "text": "The Nissan Note and Note Aura have been named the 2021-22 Japan Car of the Year. This is the fifth time Nissan has won this award in total.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-bf474e990500454c1e768fb260478b57?gallery=release-bf474e990500454c1e768fb260478b57&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-bf474e990500454c1e768fb260478b57?gallery=release-bf474e990500454c1e768fb260478b57&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211109-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/211109-01-e?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211109-01-e",
+      "text": "Note and Note Aura named 2022 RJC Car of the Year in Japan, Second-generation e‑POWER awarded RJC Technology of the Year 6 best",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/211109-01-e",
+      "text": "The Automotive Researchers’ & Journalists’ Conference Japan announced today that it has named the Nissan Note / Note Aura the 31st (2022) RJC Car of the Year and given the second generation e‑POWER system the RJC Technology of the Year award 6 best.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-19ece0b4021c4f39a563d40ffa4526cf?gallery=release-19ece0b4021c4f39a563d40ffa4526cf&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-19ece0b4021c4f39a563d40ffa4526cf?gallery=release-19ece0b4021c4f39a563d40ffa4526cf&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-note-aura-wins-jahfa-car-of-the-year-2021-2022?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-note-aura-wins-jahfa-car-of-the-year-2021-2022?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-note-aura-wins-jahfa-car-of-the-year-2021-2022",
+      "text": "Note Aura wins Japan Automotive Hall of Fame Car of the Year 2021-2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-note-aura-wins-jahfa-car-of-the-year-2021-2022",
+      "text": "The Japan Automotive Hall of Fame (JAHFA) announced today that the Nissan Note Aura is the 2021-2022 JAHFA Car of the Year.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-19ece0b4021c4f39a563d40ffa427c45?gallery=release-19ece0b4021c4f39a563d40ffa427c45&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-19ece0b4021c4f39a563d40ffa427c45?gallery=release-19ece0b4021c4f39a563d40ffa427c45&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-note-autech-crossover-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-launches-note-autech-crossover-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-note-autech-crossover-in-japan",
+      "text": "Nissan launches Note Autech Crossover in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-launches-note-autech-crossover-in-japan",
+      "text": "Nissan and its affiliate Autech announced today the start of sales of the Note Autech Crossover in Japan.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-c252360e116720126985295f9d59dc52?gallery=release-c252360e116720126985295f9d59dc52&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-c252360e116720126985295f9d59dc52?gallery=release-c252360e116720126985295f9d59dc52&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-unveils-e-power-sylphy-in-china?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/nissan-unveils-e-power-sylphy-in-china?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-unveils-e-power-sylphy-in-china",
+      "text": "Nissan unveils e‑POWER on Sylphy in China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/nissan-unveils-e-power-sylphy-in-china",
+      "text": "Nissan today unveiled the e‑POWER Sylphy, the first model equipped with the award-winning e‑POWER technology for customers in China.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-c252360e116720126985295f9d235cd4?gallery=release-c252360e116720126985295f9d235cd4&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-c252360e116720126985295f9d235cd4?gallery=release-c252360e116720126985295f9d235cd4&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/launch-of-note-aura-nismo-and-start-of-sales-of-note-aura-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/launch-of-note-aura-nismo-and-start-of-sales-of-note-aura-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/launch-of-note-aura-nismo-and-start-of-sales-of-note-aura-in-japan",
+      "text": "Nissan announces launch of Note Aura NISMO and start of sales of Note Aura in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/launch-of-note-aura-nismo-and-start-of-sales-of-note-aura-in-japan",
+      "text": "Nissan Motor Co., Ltd. today announced the launch of the Note Aura NISMO, sales of which are scheduled to start in Japan this autumn. Sales in Japan of the Note Aura, which was announced in June this year, start today.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-f34959dc65fa6147308490ca57075105?gallery=release-f34959dc65fa6147308490ca57075105&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-f34959dc65fa6147308490ca57075105?gallery=release-f34959dc65fa6147308490ca57075105&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-f34959dc65fa6147308490ca57075105?gallery=release-f34959dc65fa6147308490ca57075105&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-f34959dc65fa6147308490ca57075105?gallery=release-f34959dc65fa6147308490ca57075105&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-note-aura-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/all-new-note-aura-in-japan?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-note-aura-in-japan",
+      "text": "Nissan launches the all-new Note Aura in Japan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-note-aura-in-japan",
+      "text": "Nissan today launched the all-new Note Aura premium compact car in Japan, with sales planned to start in autumn.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-7e94e6bc94121889c0b58aa9b6147365?gallery=release-7e94e6bc94121889c0b58aa9b6147365&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-7e94e6bc94121889c0b58aa9b6147365?gallery=release-7e94e6bc94121889c0b58aa9b6147365&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-7e94e6bc94121889c0b58aa9b6147365?gallery=release-7e94e6bc94121889c0b58aa9b6147365&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-7e94e6bc94121889c0b58aa9b6147365?gallery=release-7e94e6bc94121889c0b58aa9b6147365&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/2021-nissan-closed-loop-recycling-system-qashqai?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/2021-nissan-closed-loop-recycling-system-qashqai?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/2021-nissan-closed-loop-recycling-system-qashqai",
+      "text": "Nissan launches lightweight aluminum technology in Europe on all-new Qashqai",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/2021-nissan-closed-loop-recycling-system-qashqai",
+      "text": "The all-new Qashqai will be Nissan’s first model built in Europe using a significant number of lightweight aluminum panels.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-dddf1112a362ec8e949261ce0b112b2d?gallery=release-dddf1112a362ec8e949261ce0b112b2d&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-dddf1112a362ec8e949261ce0b112b2d?gallery=release-dddf1112a362ec8e949261ce0b112b2d&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/e-power-reaches-500k-milestone?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/e-power-reaches-500k-milestone?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/e-power-reaches-500k-milestone",
+      "text": "Sales in Japan of e‑POWER electrified vehicles surpasses 500,000-unit cumulative milestone",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/e-power-reaches-500k-milestone",
+      "text": "Nissan announced today that cumulative sales of vehicles with its e‑POWER electrified powertrain surpassed 500,000 units at the end of March.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-d0c9cc076e501d55209b8492410697e5?gallery=release-d0c9cc076e501d55209b8492410697e5&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-d0c9cc076e501d55209b8492410697e5?gallery=release-d0c9cc076e501d55209b8492410697e5&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-qashqai-debut-in-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/all-new-qashqai-debut-in-europe?origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-qashqai-debut-in-europe",
+      "text": "All-new Qashqai makes European debut",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/all-new-qashqai-debut-in-europe",
+      "text": "Nissan today unveiled the all-new Nissan Qashqai compact crossover SUV for the European market, set to go on sale this summer.",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-90531deb71e1308a53b4a776ff144e2f?gallery=release-90531deb71e1308a53b4a776ff144e2f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-90531deb71e1308a53b4a776ff144e2f?gallery=release-90531deb71e1308a53b4a776ff144e2f&viewallTab=photos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/releases/release-90531deb71e1308a53b4a776ff144e2f?gallery=release-90531deb71e1308a53b4a776ff144e2f&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "text": "https://global.nissannews.com/en/releases/release-90531deb71e1308a53b4a776ff144e2f?gallery=release-90531deb71e1308a53b4a776ff144e2f&viewallTab=videos&origin=channel-73a46e6e1723cbab2b602c8f33164b5c",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/Nissan",
+      "text": "https://www.youtube.com/Nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/NissanMotor",
+      "text": "https://twitter.com/NissanMotor",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "text": "https://www.linkedin.com/company/nissan-motor-corporation/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/nissan",
+      "text": "https://www.facebook.com/nissan",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/nissan/",
+      "text": "https://www.instagram.com/nissan/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissanmotor.jobs",
+      "text": "Careers",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/global-cookies-policy",
+      "text": "Cookie Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/PRIVACY/",
+      "text": "Website Privacy Notice",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/terms-of-use",
+      "text": "Terms of Use",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/pages/digital-accessibility-statement-en",
+      "text": "Digital Accessibility Statement",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan-global.com/EN/",
+      "text": "Nissan Global",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/en/channels/e-power",
+      "text": "https://global.nissannews.com/en/channels/e-power",
+      "is_pdf": false
+    },
+    {
+      "url": "https://global.nissannews.com/ja-JP/pages/global-cookies-policy-j",
+      "text": "クッキーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.onetrust.com/products/cookie-consent/",
+      "text": "https://www.onetrust.com/products/cookie-consent/",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://global.nissannews.com/assets/images/logos/vi/853d2ff360b168de1e6c960d1fbfd10d-nissan-global-gradient-blue.png",
+      "alt": "Nissan | logo"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/c6ced6e4df84626c0c6319746d46556672999046",
+      "alt": "Nissan CEO Ivan Espinosa, Wayve CEO Alex Kendall and Uber Head of Autonomous Mobility & Delivery Sarfraz Maredia with the robotaxi prototype."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/41607e106404ec40f4d9f1813c5e8207a72e1b31",
+      "alt": "Nissan Patrol and Nissan Armada are parked side by side in a modern architectural space overlooking a desert landscape."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/6c6275860907a63281ae87cd5dca3c6ccacfe2c1",
+      "alt": "Two NX8 vehicles are positioned side by side in a bright, studio-style background. A purple NX8 on the left and a blue NX8 on the right are both stationary and angled slightly toward the front."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/447a20c35e06321b06aff478bcc0723742c9dc21",
+      "alt": "The QX65 with a red exterior body and black roof is shown parked in front of modern architecture."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/b00c475fae225fa23138086ac43f17472a4b5b63",
+      "alt": "A white robotaxi prototype based on the new Nissan LEAF is shown from the side in an outdoor display area. Trees, tall buildings, and a booth with a large screen appear in the background."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/51cf01a45023dba48c761283e47a4c6f8e11264e",
+      "alt": "A turquoise Nissan LEAF electric vehicle is parked along a scenic coastal road, with the calm sea and a glowing sunset stretching across the horizon. In the top-left corner, the CDP logo appears, highlighting its highest “A List” rating for Climate Change and Water Security."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/da6bb118f242c0911c6577925a9a7d93488ffb20",
+      "alt": "On a stage with a red background, a light blue vehicle is displayed facing slightly forward at an angle. The words “NISSAN” and “VISION” are shown in the background."
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/88b694e6ab9ebc060801b6b7118248e59ec6b927",
+      "alt": "A press conference scene with two people seated side by side at the front of a conference room. Behind them, screens display images of vehicles and the text “FY2025 Financial Results,” with the “NISSAN MOTOR CORPORATION” logo shown on the central wall."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/d47bfa325b2527d72085a8cd89c1a29609edbf17",
+      "alt": "Nissan unveils the Urban SUV PHEV Concept / the Terrano PHEV Concept at Auto China 2026 in Beijing"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/page-MVGhb/attachment/fa6510e5c68595e0f98199b36fe121916f16c7dd",
+      "alt": "A silver and black two-tone sports car, the Aura Nismo RS Concept, speeding across a bridge. The vehicle is angled toward the left front, with bright headlights shining. A large black alphabet 'RS' is displayed on the side, and a red accent line runs along the lower front bumper. The background features streaks of light, emphasizing a sense of motion and speed"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/fc433ad58ee40648076ef1dd604c0a55bf1f9bdc",
+      "alt": "The red #23 MOTUL Niterra Z in a right-hand corner at Fuji Speedway"
+    },
+    {
+      "src": "https://global.nissannews.com/page-MVGhb/attachment/1d3cb9d607ad915ac685794c29ad1aa5ca183aa5",
+      "alt": "Landscape image of Nissan Formula E Team driver Oliver Rowland spraying champagne on the Berlin podium following his second placed finish"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1164831160280483&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/c43fc1f8e3a42b80d980d5e57eeb0c8c40392e36",
+      "alt": "A grey Nissan X-TRAIL NISMO with black and red accents is parked on a reflective floor surface. In the background, a modern curved architectural structure and a cloudy sky are visible. The vehicle is positioned facing left."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/af85c884972b361664de649a12ab8dd1de11c4e9",
+      "alt": "New e-POWER on Qashqai Deep Ocean Left rear and taillight e-POWER badge close up"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/99195b6fc6529e9e0152992b52b50a0bfaa3a01f",
+      "alt": "New Qashqai 2024 close up on central screen with map app"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/b07136461cc6e53e77ff7f964ad379433790f456",
+      "alt": "Nissan Serena photo"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/b98496178457970d8fdb014d7c7cb1044824112a",
+      "alt": "Blue and Beige Nissan Serena"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/de3594ce1fcc62de0807717d27b745df4d9b6eae",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/65d58d00ad5b87080da6f3a3dca1b2434b9ca1c0",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a75a24937690595a5e8e74f46d0907c4878685db",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/947584b1c90973fa9e090d618482ae86b2bfe3b9/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/e1dc78b63681974c9b2b576c5e2daab9d05e37ae",
+      "alt": "Nissan launches the all-new X-Trail in Japan"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/0ec6e48bbfd6fe8ffebb6c8246f81ecce6282b3c/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/dd0db2b33c0e9597d6a4776a20faf73d9d336cca/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/88bf92695f67a6e919c9239b2d0e25d06f931ece/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/4ed73eb3b609e40323c37e627dcf6339282bdc76/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/815c2c123d715b8f568db4248a312914f0202cd8",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/bee9ed8beb627c61503b28c73d3981af96d60a2e",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/3e428e6a5c052aa431bc8117c069b47af7b871c5/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/c042b3333be4066d185b951949afd0a69575aba5",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/b3d577b53ac4b2c8c368cde79f718a85aaef4337",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/8a831f2c3e421ee38d7c69f6ca311579c767dcea",
+      "alt": "Nissan announces launch of Note Aura NISMO and start of sales of Note Aura in Japan"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/a09c31ba033b33f389b50a02f9d7b4b6db35e85e",
+      "alt": "Nissan launches lightweight aluminum technology in Europe on all-new Qashqai"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/releaseInlineImages/eda0d0fa8d74b11590b12a542ae21886df781ee1",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/08561b7b290bdb0f5e0a42a0188bb9b41866aa33/thumbnail-364x204.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/9813fba5081fa3194a1b335351b3928f4577da50/thumbnail-364x204.jpg",
+      "alt": "In a subdued setting with a geometric-patterned wall, a silver X-Trail / Rogue is shown stationary, facing slightly forward at an angle."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/fcadf73c0bde5fa02f1fdb1bce447b91d262233a/thumbnail-364x204.jpg",
+      "alt": "With a geometric-patterned wall and a snowy landscape in the background, an X-Trail / Rogue is shown stationary, facing directly forward in a calm, subdued setting."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/40c80b439c68d6adf16aaeb3fa66d5a74bd4a845/thumbnail-364x204.jpg",
+      "alt": "Against a geometric-patterned wall, a silver X-Trail / Rogue is shown from the side, facing to the right in a calm, studio-like setting."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/15015fa1aa2737fd5bc6960aa0c1be6e0cab7c92/thumbnail-364x204.jpg",
+      "alt": "At the center of a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the right front. The car features a matte dark gray body with bold red accents on the front lip and black wheels. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top, while several spotlights shine from above. On the left side of the stage stands a person in a suit, and in the foreground, multiple photographers and media personnel are capturing the scene."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/fe0881a74014980fc5fc9ff3d311ddd17eab1e11/thumbnail-364x204.jpg",
+      "alt": "On a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the right front. The car features a matte dark gray body with bold red accents on the front lip and black wheels. To the right of the vehicle are two high chairs, occupied from left by Head of Design Mitsunori Morita (wearing a red shirt and black jacket) and Head of Development Takeji Katakura (in a black jacket and pants). Behind them, a large screen shows close-up design details and the “AURA NISMO RS CONCEPT” logo."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/4be43d56c32e484c2ccbab87d5443107b5322b0a/thumbnail-364x204.jpg",
+      "alt": "On a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the right front. The car features a matte dark gray body with bold red accents on the front lip and black wheels. To the right of the vehicle are two high chairs, occupied from left by Head of Design Mitsunori Morita (wearing a red shirt and black jacket) and Head of Development Takeji Katakura (in a black jacket and pants). Behind them, a large screen shows close-up design details and the “AURA NISMO RS CONCEPT” logo."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/27031813d224c74eded4d58edb9fae42a877581a/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces slightly to the right front, featuring a matte dark gray body with striking red accents on the front lip. From left to right, Nissan Motorsports & Customizing Co., Ltd. President Hiroshi Sanada in a suit, Head of Design Mitsunori Morita wearing a red shirt and black jacket, and Head of Development Takeji Katakura in a black jacket and pants stand beside the car. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top. Several spotlights shine from above, creating a sleek presentation atmosphere typical of an unveiling event."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/07a73fb4f3280603c40b6957234d1879090d23ce/thumbnail-364x204.jpg",
+      "alt": "On a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the right front. The car features a matte dark gray body with bold red accents on the front lip and black wheels. To the right of the vehicle are two high chairs, occupied from left by Head of Design Mitsunori Morita (wearing a red shirt and black jacket) and Head of Development Takeji Katakura (in a black jacket and pants). Behind them, a large screen shows close-up design details and the “AURA NISMO RS CONCEPT” logo."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/bb79f09fa1f8debe0db1a3f0996c7f8a2e6509af/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces slightly to the right front, featuring a matte dark gray body with striking red accents on the front lip. To the left of the vehicle stands Nissan Motorsports & Customizing Co., Ltd. CEO Hiroshi Sanada, resting a hand on the car. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top. Several spotlights shine from above, creating a sleek presentation atmosphere typical of an unveiling event."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/8bc9d377d26f363fa5d1601d8090484ab37a9f4c/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces slightly to the right front, featuring a matte dark gray body with striking red accents on the front lip. To the left of the vehicle stands Nissan Motorsports & Customizing Co., Ltd. CEO Hiroshi Sanada, resting a hand on the car. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top. Several spotlights shine from above, creating a sleek presentation atmosphere typical of an unveiling event."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/3653c9e773ab174f4971593df710a50071329743/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces toward the right front, featuring a matte dark gray body with bold red accents on the front lip and black sporty wheels. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top. Several spotlights shine from above, creating a sleek presentation atmosphere typical of an auto show or unveiling event."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/c7e1fd1b75c0a8b0a5913d22e49ac44e8843d832/thumbnail-364x204.jpg",
+      "alt": "On a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the right front. The car features a matte dark gray body with bold red accents on the front lip and black wheels. To the right of the vehicle are two high chairs, occupied from left by Head of Design Mitsunori Morita (wearing a red shirt and black jacket) and Head of Development Takeji Katakura (in a black jacket and pants). Behind them, a large screen shows close-up design details and the “AURA NISMO RS CONCEPT” logo."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/16131928750aed3d6b8c97be941b00e403f4294e/thumbnail-364x204.jpg",
+      "alt": "At the center of a circular stage, the sporty concept car “AURA NISMO RS Concept” is displayed, facing slightly to the left rear. The car features a matte dark gray body with bold red accents on the rear diffuser and black wheels. The rear shows the “NISSAN” logo and the “AURA NISMO RS Concept” badge. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top, while several spotlights shine from above."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/e9f443e61b9d8d7a88c766f3c6ddf5085ed29085/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces slightly to the right front, featuring a matte dark gray body with striking red accents on the front lip. Head of Design Mitsunori Morita wearing a red shirt and black jacket, and Head of Development Takeji Katakura in a black jacket and pants standing right side og the car."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/cce858ea614ea8b1df189c704556689e2657c719/thumbnail-364x204.jpg",
+      "alt": "The sporty concept car “AURA NISMO RS Concept” is displayed at the center of a circular stage. The car faces toward the right front, featuring a matte dark gray body with bold red accents on the front lip and black sporty wheels. The background is black with white logos reading “NISSAN,” “AURA nismo RS CONCEPT,” and “nismo” at the top. Several spotlights shine from above, creating a sleek presentation atmosphere typical of an auto show or unveiling event."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/a00960e3f51352ee92516676a35d44d311d3d0dd/thumbnail-364x204.jpg",
+      "alt": "A beige X-Trail is parked on a paved road. The vehicle is facing slightly to the left, and the Nissan logo is visible on the front grille. The license plate reads 'XTRAIL', and lush green trees fill the background."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/e01c083270136252beea91e7c663e5f01722d504/thumbnail-364x204.jpg",
+      "alt": "Against a dark background, the Skyline is shown facing forward, with the upper body and front lights visible in the scene."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/b9ab5029fd39f9c460f8f247d4430c0e01dd7960/thumbnail-364x204.jpg",
+      "alt": "A grey Nissan X-Trail NISMO is driving on a highway. The vehicle is facing forward, and the background features a concrete barrier and greenery. The road is clear with no other vehicles visible."
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.amazonaws.com/photos/2def513a6074040cfe730c2f003f9831c75ee1b0/thumbnail-364x204.jpg",
+      "alt": "A scene capturing the experimental vehicle Serena driving in front of a Ferris wheel in Yokohama"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/videos/94a5e352286144aa4ebe1ace32107b08f319f1de/frame-10.0.jpg",
+      "alt": "B-Roll video of 2024 European Nissan Qashqai featuring next-generation NissanConnect Services"
+    },
+    {
+      "src": "https://wieck-nissanao-production.s3.us-west-1.amazonaws.com/videos/95cf241185d8c37fe3a45740caacc063015ce5ce/frame-10.0.jpg",
+      "alt": "New Nissan Serena B-Roll"
+    },
+    {
+      "src": "https://wieck-nissanao-stage.s3-us-west-1.amazonaws.com/videos/cc10fc1a1dc651146daa44ac8c5405d4f003815a/frame-10.0.jpg",
+      "alt": "B-Roll: Nissan at Auto Shanghai 2019"
+    },
+    {
+      "src": "https://wieck-nissanao-stage.s3-us-west-1.amazonaws.com/videos/b4594cc159c8c2f9c067a20b4d3c991b83904e98/frame-10.0.jpg",
+      "alt": "B-Roll: Nissan at Auto China in Beijing"
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/9eed5f8f-e125-4a0f-8933-0e970ace6a5f/018e1b22-17bc-729f-8d4c-08aee4203167/89eb2343-a81c-4b13-a97f-c6b1b2219841/logo.png",
+      "alt": "企業ロゴ"
+    },
+    {
+      "src": "https://cdn-au.onetrust.com/logos/static/powered_by_logo.svg",
+      "alt": "Powered by Onetrust"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/en/channels/e-power",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://global.nissannews.com/en/channels/e-power?selectedTabId=e-power-releases",
+    "title": "e-POWER",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:05:31.390007+00:00",
+  "source_meta": {
+    "title": "e-POWER",
+    "url": "https://global.nissannews.com/en/channels/e-power",
+    "source_name": "日産自動車ニュースルーム",
+    "source_domain": "global.nissannews.com",
+    "source_type": "owned_ecosystem",
+    "snippet": "Aug 21, 2025 — Note and Note Aura named 2022 RJC Car of the Year in Japan, Second-generation e‑POWER awarded RJC Technology of the Year 6 best. T...",
+    "citation_count": 1,
+    "first_cited_position": 3,
+    "answer_support_weight": 4,
+    "supported_block_types": [
+      "table"
+    ],
+    "source_quality": "high",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": true,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Which Nissan e-POWER model is recommended for heavy urban traffic and frequent stops in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Which Nissan e-POWER model is recommended for heavy urban traffic and frequent stops in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

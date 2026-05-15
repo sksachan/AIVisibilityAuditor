@@ -1,0 +1,536 @@
+{
+  "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "blocked",
+  "extraction_status": "blocked",
+  "content_score_policy": "exclude_from_content_score",
+  "geo_analysis_ready": false,
+  "extraction_quality_score": 0.78,
+  "extraction_metrics": {
+    "markdown_chars": 7783,
+    "wordish_count": 1210,
+    "heading_count": 8,
+    "bullet_count": 31,
+    "link_count": 36,
+    "image_count": 5,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 38,
+    "numeric_fact_count": 50,
+    "question_count": 15,
+    "unique_line_count": 92,
+    "numeric_facts_sample": [
+      "1",
+      "25",
+      "1.2L",
+      "80",
+      "114",
+      "2024",
+      "05",
+      "01",
+      "04",
+      "2084%",
+      "2",
+      "2023",
+      "4",
+      "1024%",
+      "2026",
+      "15",
+      "22",
+      "23",
+      "53478878"
+    ],
+    "links_sample": [
+      "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2024/05/PDSLOGO2024-01-04.png?fit=2084%2C1120&ssl=1",
+      "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-4.jpg?resize=1024%2C683&ssl=1",
+      "https://paddleshift.sg/wp-content/uploads/2026/05/Defender-Trophy.jpg",
+      "https://paddleshift.sg/wp-content/uploads/2026/04/Vios.jpg",
+      "https://paddleshift.sg/wp-content/uploads/2026/04/Fronx-15.jpg",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/#wp--skip-link--target",
+      "https://paddleshift.sg/",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=facebook&nb=1",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=x&nb=1",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=whatsapp&nb=1",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=telegram&nb=1",
+      "https://paddleshift.sg/2023/01/22/the-race-cars-of-tokyo-auto-salon-2023/",
+      "https://www.nissan.com.sg/vehicles/new/noteepower.html",
+      "https://paddleshift.sg/2023/01/23/honda-s660-a-practical-road-test/",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=jetpack-whatsapp&nb=1",
+      "https://paddleshift.sg/category/reviews/",
+      "https://paddleshift.sg/2026-defender-trophy-phev-review-almost-at-home-anywhere/",
+      "https://paddleshift.sg/2026-toyota-vios-hybrid-review-efficiency-over-excitement/",
+      "https://paddleshift.sg/2026-suzuki-fronx-review-versatility-within-boundaries/",
+      "https://paddleshift.sg/contact/",
+      "https://www.facebook.com/paddleshiftsg",
+      "https://www.instagram.com/paddleshiftsg",
+      "https://www.youtube.com/channel/UCZj8-K63BP6bQMOYdMRk5pg",
+      "https://www.tiktok.com/@paddleshiftsg",
+      "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/"
+    ],
+    "image_alt_count": 5
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "NewsMediaOrganization",
+      "Organization",
+      "WebSite",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebPage",
+      "Person",
+      "BlogPosting",
+      "ListItem"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2023/01/18",
+      "2023/01/1",
+      "有効期限: 90 日間.",
+      "有効期限をセッションごとにリセットする.",
+      "有効期限: 365 日間.",
+      "有効期限をセッションごとにリセットする. その他の保存形式を使用.",
+      "有効期限: 1825 日間.",
+      "有効期限: 395 日間.",
+      "有効期限: 180 日間.",
+      "有効期限: 400 日間.",
+      "有効期限: 750 日間.",
+      "有効期限: 366 日間.",
+      "有効期限: 3650 日間.",
+      "有効期限: 1827 日間.",
+      "有効期限: 720 日間.",
+      "有効期限: 730 日間.",
+      "有効期限: 30 日間.",
+      "有効期限: 1830 日間.",
+      "有効期限: 21 日間.",
+      "有効期限: 390 日間.",
+      "有効期限: 3653 日間.",
+      "有効期限: 396 日間.",
+      "有効期限: 731 日間.",
+      "有効期限: 393 日間.",
+      "有効期限: 914 日間.",
+      "有効期限: 120 日間.",
+      "有効期限: 728 日間.",
+      "有効期限: 397 日間.",
+      "有効期限: 60 日間.",
+      "有効期限: 548 日間."
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 73,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 3538,
+    "footer_chars": 131,
+    "tables_chars": 0,
+    "metadata_chars": 493,
+    "full_markdown_chars": 7783
+  },
+  "metadata": {
+    "title": "Nissan Note e-Power - The Ideal City Car? - paddleshiftsg",
+    "description": "Earlier this month, I was in Tokyo to cover the Tokyo Auto Salon. All our commutes were taken care of by a rented Nissan Note e-Power, which, I've since",
+    "language": "en-US",
+    "sourceURL": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+    "statusCode": 403,
+    "contentType": "text/html",
+    "canonical": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+    "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "NewsMediaOrganization",
+      "Organization",
+      "WebSite",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebPage",
+      "Person",
+      "BlogPosting",
+      "ListItem"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/#wp--skip-link--target",
+      "text": "Skip to content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/",
+      "text": "https://paddleshift.sg/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=facebook&nb=1",
+      "text": "Share on Facebook (Opens in new window)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=x&nb=1",
+      "text": "Share on X (Opens in new window)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=whatsapp&nb=1",
+      "text": "Share on WhatsApp (Opens in new window)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=telegram&nb=1",
+      "text": "Share on Telegram (Opens in new window)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2023/01/22/the-race-cars-of-tokyo-auto-salon-2023/",
+      "text": "Tokyo Auto Salon",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2023/01/18/why-range-extender-evs-are-the-way-to-go/",
+      "text": "https://paddleshift.sg/2023/01/18/why-range-extender-evs-are-the-way-to-go/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nissan.com.sg/vehicles/new/noteepower.html",
+      "text": "Note e-Power",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2023/01/23/honda-s660-a-practical-road-test/",
+      "text": "Honda S660 – A Practical Road Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=telegram&nb=1",
+      "text": "Share on Telegram (Opens in new window) Telegram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/?share=jetpack-whatsapp&nb=1",
+      "text": "Share on WhatsApp (Opens in new window) WhatsApp",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/category/reviews/",
+      "text": "Reviews",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-defender-trophy-phev-review-almost-at-home-anywhere/",
+      "text": "2026 Defender Trophy PHEV Review – Almost At Home Anywhere",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-defender-trophy-phev-review-almost-at-home-anywhere/",
+      "text": "https://paddleshift.sg/2026-defender-trophy-phev-review-almost-at-home-anywhere/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-toyota-vios-hybrid-review-efficiency-over-excitement/",
+      "text": "2026 Toyota Vios Hybrid Review – Efficiency Over Excitement",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-toyota-vios-hybrid-review-efficiency-over-excitement/",
+      "text": "https://paddleshift.sg/2026-toyota-vios-hybrid-review-efficiency-over-excitement/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-suzuki-fronx-review-versatility-within-boundaries/",
+      "text": "2026 Suzuki Fronx Review – Versatility Within Boundaries",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/2026-suzuki-fronx-review-versatility-within-boundaries/",
+      "text": "https://paddleshift.sg/2026-suzuki-fronx-review-versatility-within-boundaries/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/contact/",
+      "text": "Advertising",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/contact/",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/contact/",
+      "text": "General Enquries",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/paddleshiftsg",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/paddleshiftsg",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCZj8-K63BP6bQMOYdMRk5pg",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@paddleshiftsg",
+      "text": "TikTok",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "設定を変更するにはどうすればよいですか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "同意しなかった場合はどうなりますか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "正当な利益に該当するとどうなるのですか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "すべてに同意する必要がありますか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "パートナーのリスト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "詳細を表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "その他",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "ストレージの詳細",
+      "is_pdf": false
+    },
+    {
+      "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+      "text": "プライバシー ポリシー",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2024/05/PDSLOGO2024-01-04.png?fit=2084%2C1120&ssl=1",
+      "alt": "paddleshiftsg"
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-4.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-2.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-3.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-6.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-1-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-2-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-3-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-4-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-5.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-6-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/Note-e-Power-7.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/notejp-2.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/notejp-1.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i0.wp.com/paddleshift.sg/wp-content/uploads/2023/01/notejp-3.jpg?resize=1024%2C683&ssl=1",
+      "alt": ""
+    },
+    {
+      "src": "https://paddleshift.sg/wp-content/uploads/2026/05/Defender-Trophy.jpg",
+      "alt": "2026 Defender Trophy PHEV Review – Almost At Home Anywhere"
+    },
+    {
+      "src": "https://paddleshift.sg/wp-content/uploads/2026/04/Vios.jpg",
+      "alt": "2026 Toyota Vios Hybrid Review – Efficiency Over Excitement"
+    },
+    {
+      "src": "https://paddleshift.sg/wp-content/uploads/2026/04/Fronx-15.jpg",
+      "alt": "2026 Suzuki Fronx Review – Versatility Within Boundaries"
+    },
+    {
+      "src": "https://pixel.wp.com/g.gif?v=ext&blog=121034102&post=1191&tz=8&srv=paddleshift.sg&hp=atomic&ac=2&amp=0&j=1%3A15.9-a.1&host=paddleshift.sg&ref=https%3A%2F%2Fpaddleshift.sg%2Fnissan-note-e-power-the-ideal-city-car%2F&fcp=1984&rand=0.37674607180217334",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "2023/01/18",
+    "2023/01/1",
+    "有効期限: 90 日間.",
+    "有効期限をセッションごとにリセットする.",
+    "有効期限: 365 日間.",
+    "有効期限をセッションごとにリセットする. その他の保存形式を使用.",
+    "有効期限: 1825 日間.",
+    "有効期限: 395 日間.",
+    "有効期限: 180 日間.",
+    "有効期限: 400 日間.",
+    "有効期限: 750 日間.",
+    "有効期限: 366 日間.",
+    "有効期限: 3650 日間.",
+    "有効期限: 1827 日間.",
+    "有効期限: 720 日間.",
+    "有効期限: 730 日間.",
+    "有効期限: 30 日間.",
+    "有効期限: 1830 日間.",
+    "有効期限: 21 日間.",
+    "有効期限: 390 日間.",
+    "有効期限: 3653 日間.",
+    "有効期限: 396 日間.",
+    "有効期限: 731 日間.",
+    "有効期限: 393 日間.",
+    "有効期限: 914 日間.",
+    "有効期限: 120 日間.",
+    "有効期限: 728 日間.",
+    "有効期限: 397 日間.",
+    "有効期限: 60 日間.",
+    "有効期限: 548 日間."
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 403,
+    "final_url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+    "title": "Nissan Note e-Power - The Ideal City Car? - paddleshiftsg",
+    "error": null,
+    "blocked": true
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:05:14.232953+00:00",
+  "source_meta": {
+    "title": "Nissan Note e-Power - The Ideal City Car? - paddleshiftsg",
+    "url": "https://paddleshift.sg/nissan-note-e-power-the-ideal-city-car/",
+    "source_name": "paddleshiftsg",
+    "source_domain": "paddleshift.sg",
+    "source_type": "other",
+    "snippet": "Jan 29, 2023 — You can tell that kei car know-how has been applied to the design of the Note. The wheels are in the far corners of the vehicle, m...",
+    "citation_count": 2,
+    "first_cited_position": 14,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Which Nissan e-POWER model is recommended for heavy urban traffic and frequent stops in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Which Nissan e-POWER model is recommended for heavy urban traffic and frequent stops in Japan?",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

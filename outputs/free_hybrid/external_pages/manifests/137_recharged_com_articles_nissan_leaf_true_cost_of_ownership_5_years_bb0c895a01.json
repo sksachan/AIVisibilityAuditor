@@ -1,0 +1,484 @@
+{
+  "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 23833,
+    "wordish_count": 3643,
+    "heading_count": 9,
+    "bullet_count": 43,
+    "link_count": 51,
+    "image_count": 8,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 20,
+    "raw_url_count": 52,
+    "numeric_fact_count": 275,
+    "question_count": 28,
+    "unique_line_count": 371,
+    "numeric_facts_sample": [
+      "5",
+      "2025",
+      "2",
+      "18",
+      "32",
+      "400",
+      "750",
+      "10,000",
+      "12,000",
+      "30",
+      "50%",
+      "0",
+      "10",
+      "2023",
+      "2024",
+      "24,000",
+      "2019",
+      "2020",
+      "40",
+      "60",
+      "2015",
+      "2017",
+      "2011",
+      "2013",
+      "4"
+    ],
+    "links_sample": [
+      "https://recharged.com/logo.svg",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2F0eec4db0fa6782219eacebbd7e079234-hero.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2F0eec4db0fa6782219eacebbd7e079234-content.png&w=3840&q=75",
+      "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F315358-5A5EC530-5CFE-4B90-9047-9B7347C836AB.jpg&w=3840&q=75",
+      "https://recharged.com/bolt.svg",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/c9e9ead806b6e548c1ddb061a2a14f2c-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/a3a20c1ac995-hero.png",
+      "https://d365moeqy2c2l.cloudfront.net/images/hero/a82e580c5eaee12d6d8dd56700240043-hero.png",
+      "https://recharged.com/",
+      "https://recharged.com/vehicles?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+      "https://recharged.com/sell",
+      "https://recharged.com/prequalify",
+      "https://recharged.com/vehicles",
+      "https://recharged.com/articles/category/ownership-and-costs",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#why-nissan-leaf-ownership-costs-matter",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#key-cost-drivers-at-a-glance",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#upfront-price-and-5-year-depreciation",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#electricity-vs-gas-spending",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#maintenance-and-repairs-over-5-years",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#insurance-registration-and-fees",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#battery-health-and-replacement-risk",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#5-year-cost-scenarios-new-vs-used-leaf",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#how-buying-used-with-recharged-changes-the-math",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#checklist-lowering-your-5-year-leaf-cost",
+      "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#faq-nissan-leaf-true-cost-of-ownership"
+    ],
+    "image_alt_count": 8
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": true,
+    "header_present": true,
+    "nav_noise_terms": 1,
+    "content_terms": 341,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 884,
+    "main_chars": 15820,
+    "footer_chars": 461,
+    "tables_chars": 1495,
+    "metadata_chars": 242,
+    "full_markdown_chars": 23833
+  },
+  "metadata": {
+    "title": "Nissan Leaf True Cost of Ownership 5 Years (2025 Guide) | Recharged",
+    "description": "See the true 5-year cost of owning a Nissan Leaf: purchase price, depreciation, charging, maintenance, insurance, and tips to save when buying used.",
+    "language": "en",
+    "sourceURL": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "Organization",
+      "Article",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://recharged.com/",
+      "text": "https://recharged.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+      "text": "Shop EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "Sell or trade",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Pre-qualify",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "Browse EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/category/ownership-and-costs",
+      "text": "Ownership & Costs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#why-nissan-leaf-ownership-costs-matter",
+      "text": "Why Nissan Leaf 5‑Year Ownership Costs Matter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#key-cost-drivers-at-a-glance",
+      "text": "Nissan Leaf Cost Drivers at a Glance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#upfront-price-and-5-year-depreciation",
+      "text": "Upfront Price and 5‑Year Depreciation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#electricity-vs-gas-spending",
+      "text": "Electricity vs. Gas: What You’ll Actually Spend",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#maintenance-and-repairs-over-5-years",
+      "text": "Maintenance and Repairs Over 5 Years",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#insurance-registration-and-fees",
+      "text": "Insurance, Registration, and Fees",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#battery-health-and-replacement-risk",
+      "text": "Battery Health and Replacement Risk",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#5-year-cost-scenarios-new-vs-used-leaf",
+      "text": "5‑Year Cost Scenarios: New vs. Used Leaf",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#how-buying-used-with-recharged-changes-the-math",
+      "text": "How Buying Used With Recharged Changes the Math",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#checklist-lowering-your-5-year-leaf-cost",
+      "text": "Checklist: Lowering Your 5‑Year Nissan Leaf Ownership Cost",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#faq-nissan-leaf-true-cost-of-ownership",
+      "text": "FAQ: Nissan Leaf True Cost of Ownership",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys#bottom-line-is-a-nissan-leaf-worth-it-for-5-years",
+      "text": "Bottom Line: Is a Nissan Leaf Worth It for 5 Years?",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "Browse Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "See all →",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/nissan/leaf/1N4AZ1CP7JC315358",
+      "text": "2018 Nissan LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/nissan/leaf/1N4CZ1CV4PC557119",
+      "text": "2023 Nissan LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles/nissan/leaf/1N4BZ1BV4NC553033",
+      "text": "2022 Nissan LEAF",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/best-used-electric-car-for-seniors",
+      "text": "Used EVs · 11 min Best Used Electric Cars for Seniors in 2026: Safe, Easy, and Comfortable Looking for the best used electric car for seniors? See 2026’s top EVs for comfort, safety, easy controls, and great value, plus tips on shopping used confidently. best-used-evs seniors-and-driving ev-safety",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/charging-electric-car-battery",
+      "text": "Charging · 9 min Charging an Electric Car Battery: Complete 2025 Guide for U.S. Drivers Learn how to charge an electric car battery at home, at work, and on the road. Understand charging levels, costs, battery health, and smart habits for U.S. EV owners. ev-charging charging-electric-car-battery home-ev-charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles/used-lucid-air-vs-porsche-taycan-comparison-2026",
+      "text": "Reviews & Comparisons · 11 min Used Lucid Air vs Porsche Taycan: 2026 Comparison for Smart Buyers Used Lucid Air vs Porsche Taycan comparison for 2026 shoppers. See range, performance, costs, reliability, and which luxury EV makes more sense used. lucid-air porsche-taycan used-ev-buying",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/vehicles",
+      "text": "EVs for sale",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/learning",
+      "text": "Learn about EVs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/articles",
+      "text": "Articles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/chargers",
+      "text": "Charging",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sell",
+      "text": "How it works",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/prequalify",
+      "text": "Get pre-qualified",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/contact/book",
+      "text": "Book a consultation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/VUd8wC2AWngZLdUTA",
+      "text": "Richmond, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/63oR9zeJvgDNMamJA",
+      "text": "Fairfax, VA",
+      "is_pdf": false
+    },
+    {
+      "url": "https://maps.app.goo.gl/kRdmVQWRzkjyTpRw5",
+      "text": "Charlotte, NC",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/returns",
+      "text": "7-Day Return Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/privacy",
+      "text": "Privacy Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/sms-optin",
+      "text": "SMS Opt-In",
+      "is_pdf": false
+    },
+    {
+      "url": "https://recharged.com/do-not-sell",
+      "text": "Do Not Sell or Share My Information",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.tiktok.com/@recharged.com",
+      "text": "TikTok",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@RechargedEVs",
+      "text": "YouTube",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.instagram.com/rechargedevs/",
+      "text": "Instagram",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/recharged-evs/",
+      "text": "LinkedIn",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/Recharged.EVs",
+      "text": "Facebook",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://recharged.com/logo.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/icon.svg",
+      "alt": "Recharged"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fhero%2F0eec4db0fa6782219eacebbd7e079234-hero.png&w=3840&q=75",
+      "alt": "Nissan Leaf True Cost of Ownership Over 5 Years: Complete Guide"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fd365moeqy2c2l.cloudfront.net%2Fimages%2Fcontent%2F0eec4db0fa6782219eacebbd7e079234-content.png&w=3840&q=75",
+      "alt": "Side-by-side comparison graphic of Nissan Leaf five-year ownership costs versus a similar compact gas car"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F315358-5A5EC530-5CFE-4B90-9047-9B7347C836AB.jpg&w=3840&q=75",
+      "alt": "2018 Nissan LEAF"
+    },
+    {
+      "src": "https://recharged.com/bolt.svg",
+      "alt": ""
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F557119-E2FDED4AEA4292BA99C5F31404E229BF.jpg&w=3840&q=75",
+      "alt": "2023 Nissan LEAF"
+    },
+    {
+      "src": "https://recharged.com/_next/image?url=https%3A%2F%2Fdealerslink.s3.amazonaws.com%2Fvehicles%2F5454%2F553033-9614A6FB9743B4C04163A08E754DC86E.jpg&w=3840&q=75",
+      "alt": "2022 Nissan LEAF"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/c9e9ead806b6e548c1ddb061a2a14f2c-hero.png",
+      "alt": "Best Used Electric Cars for Seniors in 2026: Safe, Easy, and Comfortable"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/a3a20c1ac995-hero.png",
+      "alt": "Charging an Electric Car Battery: Complete 2025 Guide for U.S. Drivers"
+    },
+    {
+      "src": "https://d365moeqy2c2l.cloudfront.net/images/hero/a82e580c5eaee12d6d8dd56700240043-hero.png",
+      "alt": "Used Lucid Air vs Porsche Taycan: 2026 Comparison for Smart Buyers"
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1416665379491545&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+    "title": "Nissan Leaf True Cost of Ownership 5 Years (2025 Guide) | Recharged",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:19:31.220020+00:00",
+  "source_meta": {
+    "title": "Nissan Leaf True Cost of Ownership 5 Years (2025 Guide)",
+    "url": "https://recharged.com/articles/nissan-leaf-true-cost-of-ownership-5-years?srsltid=AfmBOoqeLsge0s3kAAlnnDpo1UQVCkGgCR4HL5e4TkWJ1hGeNMPgs9Ys",
+    "source_name": "Recharged",
+    "source_domain": "recharged.com",
+    "source_type": "partner_infrastructure",
+    "snippet": "Nissan Leaf (Home Charging Heavy) * Efficiency: ~3.5 mi/kWh (varies by model and driving) * Electricity price example: $0.15/kWh. ...",
+    "citation_count": 3,
+    "first_cited_position": 3,
+    "answer_support_weight": 8,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Estimating running costs for a Nissan Leaf over five years in Japan",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Estimating running costs for a Nissan Leaf over five years in Japan",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

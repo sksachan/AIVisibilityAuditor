@@ -1,0 +1,692 @@
+{
+  "url": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.83,
+  "extraction_metrics": {
+    "markdown_chars": 17728,
+    "wordish_count": 5275,
+    "heading_count": 8,
+    "bullet_count": 93,
+    "link_count": 94,
+    "image_count": 2,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 96,
+    "numeric_fact_count": 225,
+    "question_count": 122,
+    "unique_line_count": 334,
+    "numeric_facts_sample": [
+      "1",
+      "4",
+      "2023年",
+      "9543",
+      "11",
+      "9,543",
+      "2025",
+      "06",
+      "12",
+      "12L",
+      "17147917",
+      "1640人",
+      "126",
+      "250",
+      "51",
+      "2",
+      "300km",
+      "8.2",
+      "9",
+      "78",
+      "6",
+      "200年",
+      "1日",
+      "50",
+      "180円"
+    ],
+    "links_sample": [
+      "https://yt3.ggpht.com/A-dQmKKoKSeFItheCH4EXq7ZnreWotlkXBSfTI9mOdAVKxfUxiwI81vs1Zw3ZwRMoi11RMfZ=s48-c-k-c0x00ffffff-no-rj",
+      "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "https://www.youtube.com/",
+      "https://support.google.com/youtube/answer/15569972?hl=ja",
+      "https://www.youtube.com/@nenpi-12L600km",
+      "https://www.youtube.com/channel/UCkky9VM-Dzpr5ypkiksCYAQ/videos",
+      "https://www.youtube.com/channel/UCkky9VM-Dzpr5ypkiksCYAQ/about",
+      "https://www.youtube.com/channel/UClpTuJEIxS1mjS_IntkJeEA",
+      "https://www.youtube.com/watch?v=dGQJW2PyI1k",
+      "https://www.youtube.com/watch?v=FI9pEwqd9Eg&pp=0gcJCTEB7p79v9jh",
+      "https://www.youtube.com/watch?v=G7K_n4E6dE4&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=1U9Ivi8bl8c",
+      "https://www.youtube.com/watch?v=8YNJpaE_XVk&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=uV0JE5bHf_Y&pp=0gcJCQQLAYcqIYzv",
+      "https://www.youtube.com/watch?v=F_0LUAmWRmQ",
+      "https://www.youtube.com/watch?v=BJ-qWatc6Dc&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=WC6jWjohmss&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=HFBhfjXfxJI&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=jQcGt6zFRDc",
+      "https://www.youtube.com/watch?v=8APrA8DGtd4&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=JHiRcxYjVmQ&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=xFLfsufol7c&pp=ugUEEgJqYQ%3D%3D",
+      "https://www.youtube.com/watch?v=MenWa3KMeW4",
+      "https://www.youtube.com/watch?v=GScH0DVreLg",
+      "https://www.youtube.com/watch?v=s-CkFiNGLOo&pp=ugUEEgJqYQ%3D%3D"
+    ],
+    "image_alt_count": 2
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": false,
+    "schema_json_ld": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "2025/06/12",
+      "2025/06/1",
+      "2026年3月2"
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 127,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 2,
+    "main_chars": 24038,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 310,
+    "full_markdown_chars": 17728
+  },
+  "metadata": {
+    "title": "【燃費】ノートe-POWER 祝日午後の神奈川→東京→埼玉ルート 混雑する一般道を実走【ニッサン】 - YouTube",
+    "description": "2023年式ニッサンノートe-POWERをレンタカーで借りて、神奈川県海老名市から東京都内を経由して埼玉県越谷市まで、首都圏の一般道だけを走行して実走燃費を調べた動画です。エンジンで発電した電気をバッテリーに充電して、バッテリーの電力を使ってモーターで走るノートe-POWERに乗り、燃料を満タン給油、トリップメー...",
+    "language": "ja-JP",
+    "sourceURL": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "VideoObject",
+      "InteractionCounter"
+    ],
+    "schema_block_count": 1
+  },
+  "links": [
+    {
+      "url": "https://www.youtube.com/",
+      "text": "https://www.youtube.com/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@nenpi-12L600km",
+      "text": "https://www.youtube.com/@nenpi-12L600km",
+      "is_pdf": false
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/15569972?hl=ja",
+      "text": "詳細",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/@nenpi-12L600km",
+      "text": "【燃費・航続距離系】12Lのガソリンで600km チャンネル登録者数 1640人",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCkky9VM-Dzpr5ypkiksCYAQ/videos",
+      "text": "動画",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCkky9VM-Dzpr5ypkiksCYAQ/about",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UClpTuJEIxS1mjS_IntkJeEA",
+      "text": "【126~250ccクラス系】軽二輪ライダーチャンネル",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dGQJW2PyI1k",
+      "text": "【普通車燃費】ソリオマイルドHV 首都圏の信号多い区間を実走！【スズキ】 作成者: 【燃費・航続距離系】12Lのガソリンで600km",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FI9pEwqd9Eg&pp=0gcJCTEB7p79v9jh",
+      "text": "【燃費】ノートe-POWER 空いている一般道の実走燃費は？【ニッサン】 作成者: 【燃費・航続距離系】12Lのガソリンで600km",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=G7K_n4E6dE4&pp=ugUEEgJqYQ%3D%3D",
+      "text": "知らないと損するe-powerメリット・デメリット(e-power致命的な弱点・e-powerにしかできないこと）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1U9Ivi8bl8c",
+      "text": "日産ノート e-Power 300kmロングドライブで乗り心地検証 大阪難波〜静岡焼津",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8YNJpaE_XVk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "「売りたくないし値引きもしません」車屋に嫌われるお客さんの特徴5選を解説します...",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uV0JE5bHf_Y&pp=0gcJCQQLAYcqIYzv",
+      "text": "【どっちが速い？燃費いい？】アクアとノートの走行性比較",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=F_0LUAmWRmQ",
+      "text": "Googleマップが大進化！便利すぎて知らなきゃ損！バイクも車も必見！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BJ-qWatc6Dc&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【危険行為】あなたはやってませんか？AT車で絶対にやってはいけない9の事【車解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WC6jWjohmss&pp=ugUEEgJqYQ%3D%3D",
+      "text": "一台の利益はたった18万円…補助金バブルが弾けた中国EV業界の末路",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HFBhfjXfxJI&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【オーラ試乗】いよいよプロパイロットで初走行！感想はどうでしょうか？【日産オーラ久々試乗レポ②】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jQcGt6zFRDc",
+      "text": "【高速燃費】新型NOTE E-Power X FF 時速100km燃費チャレンジ！e-POWERの実力は！？ NISSAN NOTE E-Power X FF#車を買って調べてみた!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8APrA8DGtd4&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【知らなきゃ大損】使い方次第でカーライフが一気に変わる！今さら聞けないスマートキーの使い方を徹底解説【車解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JHiRcxYjVmQ&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【燃費】ノートe-POWER エコランで驚きの燃費が！【ニッサン】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xFLfsufol7c&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産ノートはなぜ売れ続けるのか？よくある故障は？元日産整備士が解説します",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MenWa3KMeW4",
+      "text": "【電動感比較】 新型ライズハイブリッドvsノートe-POWER!! アナタはコスパを取るか？ EV感を取るか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=GScH0DVreLg",
+      "text": "【徹底解説】車でYouTubeを見る方法の最適解",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=s-CkFiNGLOo&pp=ugUEEgJqYQ%3D%3D",
+      "text": "「中古車市場に溢れる国産EV」大暴落の理由と電気自動車が安く買えるタイミングを解説します！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ehvyVfeb-F8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【日産オーラ後期】小さな高級車に相応しい車内と静粛性は選んで間違いない！！（内外装・試乗）「ノートオーラ後期Gグレード」",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=H9R_8uE7a6Y&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【車庫入れロジック】この理論を知れば、ナナメ誘導しなくても、いつもと違うクルマでもバックができる！！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=APnZHHjw4Is&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【日産ノート】これは知らないでしょ？「小さな不満」と「意外な神機能」乗ってわかった長所短所/ノート(マイナー後e-Power)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xqCgZ_KiYQI&pp=ugUEEgJqYQ%3D%3D",
+      "text": "納車後買っちゃうアクセサリー品 よかった？そうでもなかった？色々ご紹介雑談【日産ノートオーラ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1k5uFyyfnds",
+      "text": "【ノート e-POWER 4WD】走りは変更ありませんがマイナーチェンジしたノートの走りをチェック！【試乗＆燃費計測｜まとめ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YEHA0hMxJuk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産ノート e-power　内外装徹底チェック！　大きなデメリットは〇〇〇！　ライバル車より一番高級感のある内装！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FI9pEwqd9Eg&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "【燃費】ノートe-POWER 空いている一般道の実走燃費は？【ニッサン】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qRtN_LnLfNk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【ゆっくり解説】9割が知らないSTAP細胞事件の真相",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8jlaCdufbAg",
+      "text": "【え？全部見えてたの？】YoutubeとGoogleを安全に使うために設定すべきポイントを解説！【この設定は絶対OFFにして！】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=43FntwbCAhc",
+      "text": "No.78！ 日産の自慢のコンパクトカーの日産ノート EPOWERを楽しみつつわかる範囲内で紹介してみた！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=X3aep1S6uQY&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【燃費】ソリオマイルドHV 最高速度120km/h区間のハイペースvs標高1000m以上のアップダウンで燃費比較【スズキ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Vn5ydyUQasc&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "【衝撃】そのウインカーの出し方間違ってます…合流で迷わないウインカーの出し方徹底解説【車解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KuzoCSkKGRE&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【漫画】※格差社会※ 年収別でこれだけ違う年金生活…平均14万円の現実と老後の住まいに現れる残酷な格差",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zEvRx8W2cGA",
+      "text": "【いい車とは】ノートvsフィットどっちを買う？？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=OjBAJkeXegU&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【燃費】ノートe-POWER メーター読み120km/h巡航でも低燃費は出るのか？【ニッサン】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2JPLzO-jnmc",
+      "text": "【残酷な格差】テスラで冬の高速を720km走って気づいたEV充電インフラの問題点",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=q6HHFZNB8vU",
+      "text": "保護したスズメを空に放った翌日...まさかの光景に絶句 【後編】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=KdedIqRFGZc&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "飛行機が時速950キロ以上で飛ばない理由",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2zbDcGg8tqw&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【初心者必見】バック駐車が簡単にできる７つのステップ！駐車が上手くなるコツを解説。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bu_4hrpehFg&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産ノートオーラ 納車3日目で気付くここがダメ！バッドポイント！【オーラ 6AA-FE13】※一部説明欄に訂正有りますm(_ _)m",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mwMG6oT98Cc&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【タワマンは廃墟化する】東京は「富裕層の植民地」／ヒルズ族が壊した「地域コミュニティ」／「200年住宅」は実現できる／新自由主義と不動産証券化の闇《プリツカー賞建築家・山本理顕》",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Qtxu4glUeSQ&pp=ugUEEgJqYQ%3D%3D",
+      "text": "ホンダ好きが日産ノート e-POWERに乗ったら価値観が変化した！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YJxdPudz16U&pp=ugUEEgJqYQ%3D%3D",
+      "text": "BYD失速は中国EV崩壊の始まりだった。EV世界王者BYDの栄光と絶望。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WlHWYOSk8R8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【燃費】ライズハイブリッド 東京駅まで片道2時間の地獄の渋滞ルート走行燃費【トヨタ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UINDT4oi0sA",
+      "text": "ノートe-POWER試乗ドライブ！1日乗って燃費や走り、加速をチェック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4lK5B_lhk0w&pp=ugUEEgJqYQ%3D%3D",
+      "text": "先代ノートe-power乗りが新型ノートe-powerをレビュー総集編（走りは重要だから絶対に見た方がいい）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zNt-s6oXgfU",
+      "text": "【新型アクア vs 日産ノート（走行比較編）】“一般道、高速、峠道” ガチ比較したら…⚫︎⚫︎の圧勝に驚き（汗）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ijSku5FjmFY&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【タカオカ解説】日米首脳会談で日本が勝ち得たもの　「おもてなし」でも「ゴマすり」でもない…舞台裏の戦略とは？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=jAEJAh2hVck&pp=ugUEEgJqYQ%3D%3D",
+      "text": "日産 ノート【公道試乗】電動ドライブの進化でライバルを引き離す!! 静かで滑らかな走りが圧巻!! でも ワンペダル が欲しい!? NISSAN NOTE E-CarLife with 五味やすたか",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wllkcChC_Y0&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【実測】NワンEVの航続距離はカタログ値の半分!? それでも「買い」と断言する理由【N-ONE e:】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fv3RYJ7OEuo&pp=ugUEEgJqYQ%3D%3D",
+      "text": "50歳で貯金ほぼゼロ 青木さやかの資産づくり【豊島晋作のテレ東経済ニュースアカデミー】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bF-MjR1_VSk&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "【Eカラ比較】 トヨタ アクア vs 日産 ノート ｜試乗編 E-CarLife with 五味やすたか",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=A3LJueejU_4&pp=ugUEEgJqYQ%3D%3D",
+      "text": "ホンダ、日産、トヨタのハイブリッドを走行比較したら違いすぎて驚いた…メーター燃費比較アリ【フィットRS vs 日産ノート vs アクア】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-bMJ9yvxpE8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【日産ノート】なぜ売れる？人気の理由を徹底検証！e-POWERの走り＆燃費も詳しく解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=q7GguQB8N1M",
+      "text": "「ヒグマは人を襲わない」TBS発表と食い違う事実…「どうぶつ奇想天外」写真家襲撃事故1996年【地図とアニメで解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=mefiyoEnD-E&pp=ugUEEgJqYQ%3D%3D",
+      "text": "180円/L超時代、日本最良燃費の※アルトMHVは1000円でどこまで行ける!?【異常な結果】政府のガソリン10円値下げは待てん! こういう車で乗り切れ【スズキ】※ストロングHV除く",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Fc0iL34fcdU",
+      "text": "見た目は賛否両論？【 日産 ノート 改良型 】土屋圭市が峠試乗…マイナーチェンジで刷新された外観と内装を工藤貴宏 藤井マリーが解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iJnFiX6bFBw&pp=ugUEEgJqYdIHCQkECwGHKiGM7w%3D%3D",
+      "text": "【これ衝撃でした…】アクアとフィット、ガチで比べてみた！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=l67jlzb6EVk",
+      "text": "【オーナー 閲覧注意】日産 ノート e-POWER　正直レビュー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PbMSEp_55r4",
+      "text": "【電動ブレーキの闇】便利すぎる代償…知らないと詰む落とし穴とは？仕組みとトラブルを徹底解説！【ゆっくり解説】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-Isux1H4zas&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【比較レビュー！】日産ノートのマイナーチェンジ前後を同時にレビュー！ライブ配信の高画質カット版です。",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=IrhpPSHFEGg&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【燃費】ソリオマイルドハイブリッド 東海北陸自動車道の登坂区間を1085mまで上る【スズキ】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SDefcIPUipc&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【95馬力】軽の枠を捨てた「ホンダ・スーパーワン」がヤバすぎる！全開加速でタイヤが空転…【EVのSuper-ONE】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=FGdAByJG38I&pp=ugUEEgJqYQ%3D%3D",
+      "text": "新型フィット と ノート e power で、ゼロヨン(風)やってみた結果",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NQDxySwd0Gg",
+      "text": "【新発売】ガソリン要らずのHONDA原付！22万円のコスパおばけ！【ICON e:】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hiDXcvslPwU",
+      "text": "【YouTube】実は危険なプライバシー設定！今すぐ設定をオフにしよう【個人情報漏洩】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=cK3oi6D2YGk&pp=ugUEEgJqYQ%3D%3D",
+      "text": "ペーパードライバーがバック駐車できるようになる練習法",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uMbGWjqil0w&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【衝撃映像】奈良公園の鹿が大阪に出現！「6頭の団体を見たのは生まれて初めて」生駒山を越えた\"神の使い\"の大移動　行方を徹底追跡｜newsランナー〈カンテレNEWS〉",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=d2NHR61VZnI",
+      "text": "雪道で最強といえる走りやすさ発揮！　日産ノート クロスオーバー を ラブカーズTV 河口まなぶ が雪上で徹底的に試乗する！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hiw3tjXGdlc",
+      "text": "【ダイハツ歴代車】初代ロッキーにコンパーノも【東京オートサロン2023事前 連続紹介その2】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Gw7UN17-pgs&pp=ugUEEgJqYQ%3D%3D",
+      "text": "370万円から買える⁉︎納車された軽キャンピングカーが想像以上に高性能だった...【Happy1+City】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=BbfUdenOF0w",
+      "text": "【NISSAN】日産 E12ノート e-power X レビュー&実燃費チェック【NOTE e-power】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=_zzG4aNPgas&pp=ugUEEgJqYQ%3D%3D",
+      "text": "自宅に電気自動車(EV) 充電コンセントを設置する時の疑問７選",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2k8KRjdMnYA&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【ライブ】2026年春闘 賃上げ率は？連合が第一回集計を発表【LIVE】(2026年3月23日) ANN/テレ朝",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iME9hxbQZ30",
+      "text": "【AURAマイチェン】ボディカラー現車チェック！マイナーチェンジした日産ノート オーラから５色じっくり見比べます【2024 AURA MC】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NmSUp4Gezc8",
+      "text": "【2026年最新版】Excelとも神連携！本当に使えるCopilot活用法10選【完全攻略】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8chYEJQSWLY",
+      "text": "9割が間違える黄色センターラインの意味 複雑な交通ルールを徹底解説【ゆっくり解説】【交通ルール】",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2AVhGBef8X8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "「ホテルのレビュー書く仕事」が…1日14時間の電話、居眠りしたらスタンガン　日本人が証言するカンボジア詐欺拠点の“恐怖支配”【Nスタ解説】｜TBS NEWS DIG",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9co17pgCW_o",
+      "text": "【日産ノート】納車前後の皆様へ‥ノートは貴方にちょうど良い‥",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ZD_wCmFVmf0",
+      "text": "【NissanConnect チュートリアル動画】NissanConnectインフォテインメントシステム 初期設定",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dx_iQbNFGd0",
+      "text": "液体水素エンジン車開発の軌跡 世界初のレース参戦の舞台裏に密着│トヨタイムズニュース",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R6cenJk8cqw&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【密着】CAと広報を兼務する「二刀流」の2日間！フライトからインスタライブまで全部見せます！✈️🎥",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Od1fgPN2qF8&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【mibot】真夏にエアコン全開で走り続けた結果…",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gj2BXVmPZL4&pp=ugUEEgJqYQ%3D%3D",
+      "text": "【購入します!!】新型エルグランド内装･外装見てきた! アルファードを超える装備の数々に驚いた! 第3世代e-POWERにプロパイロット2.0&e-4ORCEまで搭載! 2026フルモデルチェンジ!",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MwFuLF4LDhs&pp=ugUEEgJqYQ%3D%3D",
+      "text": "ホンダ ICON e: 乗ってみた！ガチで航続距離テストしてみた！【モトブログ】HONDA ELECTRIC MOTORCYCLE Review in Japan #バイク #モトブログ #原付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/hashtag/%E3%83%8B%E3%83%83%E3%82%B5%E3%83%B3%E3%83%8E%E3%83%BC%E3%83%88e",
+      "text": "#ニッサンノートe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/hashtag/%E3%83%8E%E3%83%BC%E3%83%88e",
+      "text": "#ノートe",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PL_aBTvM8tkTwkL0nP__cAueQ9cm_SFm61",
+      "text": "• 普通車燃費",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCkky9VM-Dzpr5ypkiksCYAQ",
+      "text": "/ @nenpi-12l600km",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://yt3.ggpht.com/A-dQmKKoKSeFItheCH4EXq7ZnreWotlkXBSfTI9mOdAVKxfUxiwI81vs1Zw3ZwRMoi11RMfZ=s48-c-k-c0x00ffffff-no-rj",
+      "alt": ""
+    },
+    {
+      "src": "https://yt3.ggpht.com/a/default-user=s48-c-k-c0x00ffffff-no-rj",
+      "alt": "既定のプロフィール写真"
+    }
+  ],
+  "visible_dates": [
+    "2025/06/12",
+    "2025/06/1",
+    "2026年3月2"
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+    "title": "【燃費】ノートe-POWER 祝日午後の神奈川→東京→埼玉ルート 混雑する一般道を実走【ニッサン】 - YouTube",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:04:57.685373+00:00",
+  "source_meta": {
+    "title": "[Fuel Efficiency] Nissan Note e-POWER: Real-world test drive ...",
+    "url": "https://www.youtube.com/watch?v=4jKEvCgStIw",
+    "source_name": "YouTube",
+    "source_domain": "www.youtube.com",
+    "source_type": "video_social",
+    "snippet": "Jun 12, 2025 — 通勤走行とかねまそういった使い方でもね燃費がいいんじゃないでしょうかね。 はいそれではね今回ノートEパワー首都圏の下道走行の燃費結果的には。 L。 25.3kmlター25.3kmになりました今回の検証はこの辺で失礼いたしますまた次回の燃費検証でお会いしましょう...",
+    "citation_count": 2,
+    "first_cited_position": 7,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "table"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Social/forum/video source; useful as directional evidence but lower authority."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": true,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+    "related_queries_seed": [
+      {
+        "query": "Nissan hybrid model fuel economy figures and real-world performance in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      },
+      {
+        "query": "Nissan hybrid model fuel economy figures and real-world performance in Japan",
+        "brand_topic_category": "Hybrid / e-POWER running costs and powertrain choice",
+        "query_type": "branded",
+        "priority": ""
+      }
+    ]
+  }
+}

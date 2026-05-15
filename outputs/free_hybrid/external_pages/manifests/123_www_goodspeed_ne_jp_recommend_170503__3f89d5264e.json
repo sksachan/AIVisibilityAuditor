@@ -1,0 +1,901 @@
+{
+  "url": "https://www.goodspeed.ne.jp/recommend/170503/",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 16353,
+    "wordish_count": 4884,
+    "heading_count": 9,
+    "bullet_count": 101,
+    "link_count": 113,
+    "image_count": 12,
+    "pdf_link_count": 0,
+    "table_like": true,
+    "table_line_count": 21,
+    "raw_url_count": 116,
+    "numeric_fact_count": 214,
+    "question_count": 36,
+    "unique_line_count": 385,
+    "numeric_facts_sample": [
+      "2",
+      "170503",
+      "3年",
+      "5年",
+      "7年",
+      "1",
+      "3",
+      "1年",
+      "000km",
+      "2020年",
+      "000台",
+      "2026.04",
+      "27",
+      "6",
+      "106％",
+      "95％",
+      "93％",
+      "4",
+      "86％",
+      "5",
+      "84％",
+      "67％",
+      "66％",
+      "80%",
+      "66%"
+    ],
+    "links_sample": [
+      "https://www.facebook.com/tr?id=610393374361903&ev=PageView&noscript=1",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/tcd-w/logo-resized.gif?var=202304",
+      "https://www.goodspeed.ne.jp/images/usami_logo.png?var=251215",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/0a5ad291397af582460e04802b83fbed.png",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/8be8c21fc6d1045a66f2dc00b5a4bb2b.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/3fbcbd7da4681a8bc67d287cf6eaed80.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/2d163e73a6ee82aa0e89e21ae029e85a.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/e53b8a6014e895d3f2f5bda55e2aafb0.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/12/gs_logo.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2016/08/084fd10512c97f36b381defd03835c36.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/2016/09/tempo300px90.jpg",
+      "https://www.goodspeed.ne.jp/main/wp-content/uploads/img/bn/19001046_WH_jp.png",
+      "https://www.goodspeed.ne.jp/",
+      "https://goodspeed-group.co.jp/recruit/",
+      "http://goodspeed-group.co.jp/",
+      "https://www.goodspeed.ne.jp/recommend/170503/",
+      "http://stock.goodspeed.ne.jp",
+      "https://www.goodspeed.ne.jp/buyup",
+      "https://www.goodspeed.ne.jp/shop/",
+      "https://www.goodspeed.ne.jp/syaken/",
+      "https://www.goodspeed.ne.jp/service/bankin/",
+      "https://www.goodspeed.ne.jp/service/rentacar/",
+      "https://www.goodspeed.ne.jp/service/waranty/",
+      "https://www.goodspeed.ne.jp/category/recommend/",
+      "https://www.goodspeed.ne.jp/gs-blog/information/"
+    ],
+    "image_alt_count": 12
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Article",
+      "Person",
+      "Organization",
+      "ImageObject"
+    ],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": true,
+    "breadcrumb_schema": true,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 187,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 7614,
+    "footer_chars": 0,
+    "tables_chars": 1420,
+    "metadata_chars": 296,
+    "full_markdown_chars": 16353
+  },
+  "metadata": {
+    "title": "リセールバリューが高いSUVは？ランキングでご紹介！購入前に確認しよう！ | SUVといえばグッドスピードGOOD SPEED",
+    "description": "リセールバリューが高いSUVは？ランキングでご紹介！購入前に確認しよう！購入した物の再販価格のことをリセールバリューと言います。リセールバリューが高い車とは、すなわち、買取価格や下取り価格が高額な車ということです。",
+    "language": "",
+    "sourceURL": "https://www.goodspeed.ne.jp/recommend/170503/",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.goodspeed.ne.jp/recommend/170503/",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": true,
+    "schema_types": [
+      "BreadcrumbList",
+      "ListItem",
+      "Article",
+      "Person",
+      "Organization",
+      "ImageObject"
+    ],
+    "schema_block_count": 2
+  },
+  "links": [
+    {
+      "url": "https://www.goodspeed.ne.jp/",
+      "text": "https://www.goodspeed.ne.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://goodspeed-group.co.jp/recruit/",
+      "text": "採用サイト",
+      "is_pdf": false
+    },
+    {
+      "url": "http://goodspeed-group.co.jp/",
+      "text": "コーポレートサイト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/170503/",
+      "text": "MENU",
+      "is_pdf": false
+    },
+    {
+      "url": "http://stock.goodspeed.ne.jp",
+      "text": "買いたい",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup",
+      "text": "売りたい",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/",
+      "text": "店舗情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/syaken/",
+      "text": "車検",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/bankin/",
+      "text": "鈑金",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/rentacar/",
+      "text": "レンタカー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/waranty/",
+      "text": "サポート",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/category/recommend/",
+      "text": "コラム",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/",
+      "text": "トップページ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/category/recommend/",
+      "text": "おすすめ記事",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/gs-blog/information/",
+      "text": "グッドスピード",
+      "is_pdf": false
+    },
+    {
+      "url": "http://twitter.com/share?text=%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%8C%E9%AB%98%E3%81%84SUV%E3%81%AF%EF%BC%9F%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%A7%E3%81%94%E7%B4%B9%E4%BB%8B%EF%BC%81%E8%B3%BC%E5%85%A5%E5%89%8D%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%97%E3%82%88%E3%81%86%EF%BC%81&url=https%3A%2F%2Fwww.goodspeed.ne.jp%2Frecommend%2F170503%2F&via=&tw_p=tweetbutton&related=",
+      "text": "Tweet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.goodspeed.ne.jp/recommend/170503/&t=%E3%83%AA%E3%82%BB%E3%83%BC%E3%83%AB%E3%83%90%E3%83%AA%E3%83%A5%E3%83%BC%E3%81%8C%E9%AB%98%E3%81%84SUV%E3%81%AF%EF%BC%9F%E3%83%A9%E3%83%B3%E3%82%AD%E3%83%B3%E3%82%B0%E3%81%A7%E3%81%94%E7%B4%B9%E4%BB%8B%EF%BC%81%E8%B3%BC%E5%85%A5%E5%89%8D%E3%81%AB%E7%A2%BA%E8%AA%8D%E3%81%97%E3%82%88%E3%81%86%EF%BC%81",
+      "text": "Share",
+      "is_pdf": false
+    },
+    {
+      "url": "https://plus.google.com/share?url=https%3A%2F%2Fwww.goodspeed.ne.jp%2Frecommend%2F170503%2F",
+      "text": "+1",
+      "is_pdf": false
+    },
+    {
+      "url": "http://b.hatena.ne.jp/add?mode=confirm&url=https%3A%2F%2Fwww.goodspeed.ne.jp%2Frecommend%2F170503%2F",
+      "text": "Hatena",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=suz07300",
+      "text": "スズキ・ジムニーシエラ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy09300",
+      "text": "TOYOTA・ランドクルーザー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy09401",
+      "text": "TOYOTA・FJクルーザー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy09200",
+      "text": "TOYOTA・ランドクルーザープラド",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=sub03700",
+      "text": "スバル・フォレスター",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=lex00500",
+      "text": "レクサス・RX",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=mer00500-mercedes",
+      "text": "メルセデスベンツ・Gクラス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy09300",
+      "text": "TOYOTA・ランドクルーザープラド",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=chr03100-chrysler",
+      "text": "ジープ・ラングラー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=lex01000",
+      "text": "レクサス・NX",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy09200",
+      "text": "ランドクルーザープラドの中古車一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy03700",
+      "text": "ハリア―の中古車一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=toy01d00",
+      "text": "CH-Rの中古車一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://stock.goodspeed.ne.jp/cars/?shashu=nis06600",
+      "text": "エクストレイルの中古車一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/gs-blog/information/",
+      "text": "記事一覧はこちら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/170501/",
+      "text": "SUVで4wdの特徴とは？おすすめの4wd車もご紹介！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/170506/",
+      "text": "中古車の保証はどう選ぶ？年式別のおすすめや注意すべき保証についてもご紹介！",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177005/",
+      "text": "https://www.goodspeed.ne.jp/recommend/177005/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177005/",
+      "text": "RAV4を購入して後悔したポイントは？利用者の口コミを解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177003/",
+      "text": "https://www.goodspeed.ne.jp/recommend/177003/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177003/",
+      "text": "日産 キックスの評判は悪い？後悔しないための欠点・燃費・評価を解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177001/",
+      "text": "https://www.goodspeed.ne.jp/recommend/177001/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/177001/",
+      "text": "中古車の保証期間はどれくらい？平均や延長保証の必要性を解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/176997/",
+      "text": "https://www.goodspeed.ne.jp/recommend/176997/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/176997/",
+      "text": "6万キロの中古車は問題ない？あと何年乗れるか、相場も解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "https://www.goodspeed.ne.jp/buyup/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/syaken/",
+      "text": "https://www.goodspeed.ne.jp/syaken/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/rentacar/",
+      "text": "https://www.goodspeed.ne.jp/service/rentacar/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/bankin/",
+      "text": "https://www.goodspeed.ne.jp/service/bankin/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/estate/",
+      "text": "https://www.goodspeed.ne.jp/company/estate/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/177026/",
+      "text": "https://www.goodspeed.ne.jp/news/177026/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/177026/",
+      "text": "一部店舗の整備サービス統合に関するお知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/176980/",
+      "text": "https://www.goodspeed.ne.jp/news/176980/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/176980/",
+      "text": "グッドスピードMEGA SUV大阪豊中店 閉店のお知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/176942/",
+      "text": "https://www.goodspeed.ne.jp/news/176942/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/176942/",
+      "text": "グッドスピード津ミニバン専門店 閉店に関するお知らせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/",
+      "text": "NEWS & TOPICS 一覧を見る",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/recommend/170503/",
+      "text": "PAGE TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/",
+      "text": "SUVといえばグッドスピードTOP ページ",
+      "is_pdf": false
+    },
+    {
+      "url": "http://stock.goodspeed.ne.jp",
+      "text": "全店舗在庫情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "SUV納得買取",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup_ex/",
+      "text": "車買取事例一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop",
+      "text": "グッドスピード店舗一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-kasugai/",
+      "text": "MEGA SUV 春日井店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-ogaki/",
+      "text": "MEGA 大垣店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-chiryu/",
+      "text": "MEGA SUV 知立店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/hamamatsu/",
+      "text": "MEGA 浜松店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-tokainawa/",
+      "text": "MEGA SUV 東海名和店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-kobe//",
+      "text": "MEGA SUV 神戸大蔵谷店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-shimizu",
+      "text": "MEGA SUV 清水鳥坂店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-toyokawa/",
+      "text": "MEGA SUV 豊川御油店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-toyonaka/",
+      "text": "MEGA SUV 大阪豊中店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-higashi_fukuoka/",
+      "text": "MEGA SUV 東福岡店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-haebaru/",
+      "text": "MEGA SUV 南風原店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-kanazawa/",
+      "text": "MEGA SUV 金沢店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/gifu",
+      "text": "岐阜 SUV専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/yokkaichi",
+      "text": "四日市 SUV専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/meito_mini/",
+      "text": "名東 MINI専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/komaki",
+      "text": "小牧 ミニバン専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/anjo",
+      "text": "安城 ミニバン専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/hiace-camping/",
+      "text": "GOODSPEED VANLIFE 春日井店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/okazaki-s/",
+      "text": "MEGA 輸入車 SUV 岡崎昭和町店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-showa/",
+      "text": "MEGA 輸入車 名古屋昭和橋店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/midori/",
+      "text": "SPORT緑 輸入車専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/sport-okazaki/",
+      "text": "SPORT岡崎 輸入車専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/175257/",
+      "text": "UNITED MINICARS",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "豊田元町 買取専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "東海名和 買取専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "神戸大蔵谷 買取専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/buyup/",
+      "text": "東福岡 買取専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/syaken/",
+      "text": "グッドスピード車検 守山店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/syaken/",
+      "text": "グッドスピード車検 中川・港店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/syaken/",
+      "text": "グッドスピード車検 岐阜店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-toki/",
+      "text": "MEGA SUV イオンモール土岐店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/bankin/",
+      "text": "中川BPセンター/中川全塗装専門工場",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/bankin/",
+      "text": "春日井 BPセンター",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/service/bankin/",
+      "text": "緑BPセンター",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/pro_kasugai/",
+      "text": "春日井 全塗装専門工場",
+      "is_pdf": false
+    },
+    {
+      "url": "http://goodspeed-group.co.jp/company/",
+      "text": "会社概要",
+      "is_pdf": false
+    },
+    {
+      "url": "http://goodspeed-group.co.jp/credo/",
+      "text": "企業理念",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/estate/",
+      "text": "店舗用地募集",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/privacy/",
+      "text": "個人情報保護方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/antisocial/",
+      "text": "反社会的勢力に対する基本方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/law/",
+      "text": "特定商取引法に基づく表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://goodspeed-group.co.jp/company/#:~:text=%E7%9B%A3%E6%9F%BB%E5%BD%B9-,%E5%8F%A4%E7%89%A9%E5%96%B6%E6%A5%AD%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A5%E3%81%8F%E8%A1%A8%E7%A4%BA,-%E6%B0%8F%E5%90%8D%E5%8F%88%E3%81%AF%E5%90%8D%E7%A7%B0",
+      "text": "古物営業法に基づく表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/solicitation-policy/",
+      "text": "金融サービス提供の勧誘方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/fiduciaryduty/",
+      "text": "お客さま本位の業務運営方針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/company/l-inspection/",
+      "text": "法定点検料金",
+      "is_pdf": false
+    },
+    {
+      "url": "http://goodspeed-group.co.jp/",
+      "text": "コーポレートサイトはこちら",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/news/",
+      "text": "ニュース・トピックス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/contact",
+      "text": "お問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/sitemap",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/satei/",
+      "text": "SPEED　MAGAZINE",
+      "is_pdf": false
+    },
+    {
+      "url": "https://privacymark.jp/",
+      "text": "https://privacymark.jp/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-kobe/",
+      "text": "MEGA SUV 神戸大蔵谷店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/mega-shimizu/",
+      "text": "MEGA SUV 清水鳥坂店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://goodspeed.ne.jp/shop/mega-toyokawa/",
+      "text": "MEGA SUV 豊川御油店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/lp_moriyama/",
+      "text": "守山 SUV専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/gifu/",
+      "text": "岐阜 SUV専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/yokkaichi/",
+      "text": "四日市 SUV専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/komaki/",
+      "text": "小牧 ミニバン専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/shop/anjo/",
+      "text": "安城 ミニバン専門店",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.goodspeed.ne.jp/",
+      "text": "GOOD SPEED.",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://www.facebook.com/tr?id=610393374361903&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/tcd-w/logo-resized.gif?var=202304",
+      "alt": "GOOD SPEED"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/images/usami_logo.png?var=251215",
+      "alt": "宇佐美グループロゴ"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/img/common/arw_pankuz.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/0a5ad291397af582460e04802b83fbed.png",
+      "alt": "suv リセールバリュー"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/8be8c21fc6d1045a66f2dc00b5a4bb2b.jpg",
+      "alt": "トヨタ ランドクルーザープラド 中古車"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/3fbcbd7da4681a8bc67d287cf6eaed80.jpg",
+      "alt": "トヨタ ハリア― 中古車"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/2d163e73a6ee82aa0e89e21ae029e85a.jpg",
+      "alt": "トヨタ CH-R 中古車"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/04/e53b8a6014e895d3f2f5bda55e2aafb0.jpg",
+      "alt": "エクストレイル 中古車"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2022/12/gs_logo.jpg",
+      "alt": "GOODSPEED編集部"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2026/01/ed9bae6171ef63810950c69b59ea3dd9.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2023/03/e8a1e373229207eeb74029ee5bc753b3.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2026/01/pasted-2026.01.23-15.35.52.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2016/08/084fd10512c97f36b381defd03835c36.jpg",
+      "alt": "板金塗装"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/2016/09/tempo300px90.jpg",
+      "alt": "店舗用地募集"
+    },
+    {
+      "src": "https://www.goodspeed.ne.jp/main/wp-content/uploads/img/bn/19001046_WH_jp.png",
+      "alt": "プライバシーマーク"
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=36ba2907-6d78-4342-9da2-f5a6d7b824e4&e=pv&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1602745840691912&ev=PageView&noscript=1",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.goodspeed.ne.jp/recommend/170503/",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.goodspeed.ne.jp/recommend/170503/",
+    "title": "リセールバリューが高いSUVは？ランキングでご紹介！購入前に確認しよう！ | SUVといえばグッドスピードGOOD SPEED",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:15:55.632224+00:00",
+  "source_meta": {
+    "title": "リセールバリューが高いSUVは？ランキングでご紹介！購入前に確認しよう！ | SUVといえばグッドスピードGOOD SPEED",
+    "url": "https://www.goodspeed.ne.jp/recommend/170503/",
+    "source_name": "グッドスピード",
+    "source_domain": "www.goodspeed.ne.jp",
+    "source_type": "other",
+    "snippet": "SUVは人気が高く、リセールバリューが高い車種が多いです。リセールバリューが高い車とは、買取価格や下取り価格が高額な車のことです。リセールバリューの高い車を選ぶと、手放すタイミングを間違えなければ実質的に支払う費用を抑えることができます。 リセールバリューが高...",
+    "citation_count": 6,
+    "first_cited_position": 7,
+    "answer_support_weight": 9,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "low",
+    "source_quality_notes": [
+      "Source type could not be confidently classified; authority is uncertain."
+    ],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": true,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Value, offers, finance and total cost of ownership",
+    "related_queries_seed": [
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "Resale value factors that most affect small SUVs in the Japanese market",
+        "brand_topic_category": "Value, offers, finance and total cost of ownership",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,1356 @@
+{
+  "url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 1.0,
+  "extraction_metrics": {
+    "markdown_chars": 36364,
+    "wordish_count": 6784,
+    "heading_count": 9,
+    "bullet_count": 199,
+    "link_count": 210,
+    "image_count": 18,
+    "pdf_link_count": 11,
+    "table_like": true,
+    "table_line_count": 36,
+    "raw_url_count": 212,
+    "numeric_fact_count": 182,
+    "question_count": 0,
+    "unique_line_count": 729,
+    "numeric_facts_sample": [
+      "39001",
+      "6",
+      "5",
+      "2024",
+      "2025",
+      "85.8",
+      "100",
+      "8",
+      "193.8",
+      "69.44",
+      "50.20",
+      "69.43",
+      "16.52",
+      "92.27",
+      "122.08",
+      "89",
+      "197",
+      "2022",
+      "91",
+      "199",
+      "2019",
+      "2020",
+      "71.89",
+      "84.63",
+      "4"
+    ],
+    "links_sample": [
+      "https://www.nasva.go.jp/common/img/common/logo.png",
+      "https://www.nasva.go.jp/common/img/common/search_btn.png",
+      "https://www.nasva.go.jp/common/img/common/search_btn_close.png",
+      "https://www.nasva.go.jp/common/img/common/menu_btn.png",
+      "https://www.nasva.go.jp/common/img/common/glnav2_off.gif",
+      "https://www.nasva.go.jp/common/img/common/glnav3_off.gif",
+      "https://www.nasva.go.jp/common/img/common/glnav4_on.gif",
+      "https://www.nasva.go.jp/common/img/common/glnavNC_off.gif",
+      "https://www.nasva.go.jp/common/img/common/glnav5_off.gif",
+      "https://www.nasva.go.jp/common/img/common/glnav6_off.gif",
+      "https://www.nasva.go.jp/common/img/common/icon_pdf.gif",
+      "https://www.nasva.go.jp/common/img/common/icon_blank.gif",
+      "https://www.nasva.go.jp/common/img/mamoru/main_visual_en.jpg",
+      "https://www.nasva.go.jp/mamoru/images/common/chd_front_4_en.png",
+      "https://www.nasva.go.jp/mamoru/images/common/chd_front_3_en.png",
+      "https://www.nasva.go.jp/mamoru/images/common/chd_front_2_en.png",
+      "https://www.nasva.go.jp/mamoru/images/common/chd_front_1_en.png",
+      "https://www.nasva.go.jp/common/img/common/page_top.gif",
+      "https://www.nasva.go.jp/mamoru/en/about/about.html#contents",
+      "https://www4.zoomsight-sv2.jp/NASVA/controller/index.html#https://www.nasva.go.jp/",
+      "https://www.nasva.go.jp/sitemap.html",
+      "https://www.nasva.go.jp/gaiyou/qa.html",
+      "https://www.nasva.go.jp/gaiyou/shozai.html",
+      "https://www.nasva.go.jp/index.html",
+      "https://www.nasva.go.jp/nasvachan/index.html"
+    ],
+    "image_alt_count": 18
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 11,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": false,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 0,
+    "content_terms": 372,
+    "noise_ratio": 0.0
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 21315,
+    "footer_chars": 0,
+    "tables_chars": 6804,
+    "metadata_chars": 249,
+    "full_markdown_chars": 36364
+  },
+  "metadata": {
+    "title": "Information of Japan New Car Assessment Program｜National agency for Automotive Safety & Victims' Aid",
+    "description": "Japan New Car Assessment Program (JNCAP) was started, operated by the National Agency for Automotive Safety and Victims' Aid, and vehicles collision safety performance evaluation has been conducted based on vehicle collision tests.",
+    "language": "en",
+    "sourceURL": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#contents",
+      "text": "本文へ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www4.zoomsight-sv2.jp/NASVA/controller/index.html#https://www.nasva.go.jp/",
+      "text": "音声読み上げ・ルビ振り",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sitemap.html",
+      "text": "サイトマップ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/qa.html",
+      "text": "よくある質問",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/shozai.html",
+      "text": "所在地",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/index.html",
+      "text": "https://www.nasva.go.jp/index.html",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/nasvachan/index.html",
+      "text": "ナスバちゃんのお部屋",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/saiyou/index.html",
+      "text": "採用情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/index.html",
+      "text": "防ぐトップへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/moushikomi_shidou.html",
+      "text": "運行管理者指導講習 貨物軽安全管理者講習のお申込み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekisei_yoyaku.html",
+      "text": "運転者適性診断のお申込み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/shidougaiyou.html",
+      "text": "講習の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/shidousyurui.html",
+      "text": "講習の種類",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_kaijo.html",
+      "text": "開催案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/moushikomi_shidou.html",
+      "text": "講習の申し込み方法",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/shidoutext.html",
+      "text": "運行管理者指導講習テキストの追録・正誤表",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/news/pdf/2024/20241008_1.pdf",
+      "text": "運行管理者等指導講習の修了証明の変更について（手帳から修了証明書）",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseigaiyou.html",
+      "text": "運転者適性診断の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseisyurui.html",
+      "text": "運転者適性診断の種類",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseiflow.html",
+      "text": "運転者適性診断の流れ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/moushikomi.html",
+      "text": "運転者適性診断の申込み方法",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekisei_yoyaku.html",
+      "text": "適性診断の予約について",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseijisya.html",
+      "text": "自社での適性診断受診を希望する方へのご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseipc.html",
+      "text": "適性診断受診用パソコン貸出のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekisei.html",
+      "text": "適性診断活用講座",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekisei3.html",
+      "text": "適性診断活用講座スケジュール",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_gaiyou.html",
+      "text": "ナスバ安全マネジメントサービスの概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_syurui.html",
+      "text": "ナスバ安全マネジメントサービスの種類",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_toiawase.html",
+      "text": "お問い合わせ・申込み方法等",
+      "is_pdf": false
+    },
+    {
+      "url": "https://ks-yoyaku.nasva.go.jp/",
+      "text": "安全マネジメント関係講習会・国土交通省認定セミナーの予約",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_schedule.html",
+      "text": "講習会・認定セミナースケジュール",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/hyouka_gaiyou.html",
+      "text": "評価の概要・メリット",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/hyouka_flow.html",
+      "text": "評価申込から実施までの流れ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/hyouka_kekka.html",
+      "text": "評価に関するアンケート結果",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/bus_gaiyou-moushikomi.html",
+      "text": "貸切バス事業許可更新に係る評価",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/sannyu.html",
+      "text": "指導講習、適性診断への参入支援",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/partner.html",
+      "text": "ナスバパートナー（適性診断実施機関等のご案内）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/nasvanet_0701.html",
+      "text": "ナスバネットソフトウェア仕様書",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/nasvanet_04.html",
+      "text": "ナスバネットの利用に必要なパソコンの仕様",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/nasvanet_02.html",
+      "text": "適性診断の測定システム（ナスバネット）のご紹介",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/nasvanet_03.html",
+      "text": "ナスバとの利用契約の流れ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/guide-shinsei.pdf",
+      "text": "【必ずお読みください】申請にあたっての注意事項",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/shinseisyo.pdf",
+      "text": "（指導講習）受講履歴証明申請書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/tekisei_shoumei.pdf",
+      "text": "適性診断票謄本・受診証明書発行申込書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/tekisei_meibo.pdf",
+      "text": "事業者別適性診断受診者名簿作成依頼申込書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/youshiki_seminar.pdf",
+      "text": "認定セミナー受講済証再交付申請書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/ex-inin.pdf",
+      "text": "委任状様式（指導講習、セミナー、適性診断関係）",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/kikenbus.html",
+      "text": "危険予知トレーニングシート集",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_dorareko-kyt.html",
+      "text": "ドライブレコーダーＫＹＴ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCwFJ6KstdbqM9P91828lu2g",
+      "text": "自動車の適正使用に関する啓発動画 （国土交通省　審査・リコール課の公式チャンネル）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/2014un_handbook.html",
+      "text": "運行管理者ハンドブック",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/iso/gaiyou01.html",
+      "text": "ISO 39001の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/iso/jyokyo.html",
+      "text": "認証取得状況",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/service.html",
+      "text": "事故防止対策にナスバのサービスを活用しませんか",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/index.html",
+      "text": "支えるトップへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/ryougo.html",
+      "text": "療護施設の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/seturitu.html",
+      "text": "設立の経緯",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/shisetsugaiyou.html",
+      "text": "各療護施設の概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/nyuin.html",
+      "text": "入院の申込みについて",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/nyutaiin.html",
+      "text": "ナスバ療護施設における入退院実績",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/chiryoukaizen.html",
+      "text": "ナスバスコアを用いた治療改善効果分析結果",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/gakkai.html",
+      "text": "学会発表資料",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/yougo.html",
+      "text": "用語の解説",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/shikyukingaku.html",
+      "text": "受取り金額",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/shikyukingaku.html#anchor1",
+      "text": "介護料の支給対象となるサービス",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/shikyukingaku.html#anchor2",
+      "text": "介護料の支給対象となる介護用品",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tanki.html",
+      "text": "短期入院・短期入所費用助成制度",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/soudannaiyou.html",
+      "text": "在宅介護相談窓口",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.mlit.go.jp/jidosha/jidosha_mn2_000011.html",
+      "text": "短期入院協力病院・施設一覧 (国土交通省のホームページに移動します。)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/houmonshien.html",
+      "text": "訪問支援の実施",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/kouryukai.html",
+      "text": "交流会の開催",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/kaigoryo.html",
+      "text": "介護料のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/taisyou.html",
+      "text": "受取り対象となる方",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/shinsei.html",
+      "text": "申請手続き",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/youshiki.html",
+      "text": "申請様式一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/seikatu.html",
+      "text": "生活資金貸付のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/koutu.html",
+      "text": "交通遺児等貸付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/furiko.html",
+      "text": "不履行判決等貸付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/hokenkin.html",
+      "text": "後遺障害保険金（共済金）一部立替貸付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/hosyoukin.html",
+      "text": "保障金一部立替貸付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/soudannaiyou.html",
+      "text": "被害者援護員による相談受付",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/hotline.html",
+      "text": "交通事故被害者ホットライン",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/soudan-shien.html",
+      "text": "相談支援実施団体",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/hotline-faq.html",
+      "text": "ホットラインによくあるお問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/hotline/form/step1.html",
+      "text": "メールによるお問い合わせ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tomonokai.html",
+      "text": "独立行政法人自動車事故対策機構交通遺児友の会のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tomonokai.html#anchor1",
+      "text": "友の会の集い",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tomonokai.html#anchor2",
+      "text": "絵画・書道・写真等のコンテスト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tomonokai.html#anchor3",
+      "text": "友の会だより（四季報）の発行",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/tomonokai.html#anchor4",
+      "text": "企業様等からのご招待",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/oyanakiato/index.html",
+      "text": "自動車事故による重度後遺障害者家族が「介護者なき後、親なき後」に備えるための情報提供",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/cm.html",
+      "text": "支える事故被害者の支援（動画）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/video.html",
+      "text": "療護施設のご紹介(動画)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/zaitaku.html",
+      "text": "在宅介護に向けて(動画)",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.mlit.go.jp/jidosha/anzen/04relief/info/window/party.html",
+      "text": "交通事故関係被害者団体 (国土交通省のホームページに移動します。)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/download/leaflet.pdf",
+      "text": "被害者支援のご案内リーフレット",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/download/flyer.pdf",
+      "text": "被害者支援のご案内チラシ",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/sekison.html",
+      "text": "重度脊髄損傷者受入環境整備事業（モデル事業）のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/index.html",
+      "text": "守るトップへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/about/about.html",
+      "text": "自動車アセスメントのご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/active_safety_search/about_active_safety.html",
+      "text": "予防安全性能アセスメント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/assessment_car/newtest.html",
+      "text": "衝突安全性能アセスメント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/acn/about_acn.html",
+      "text": "事故自動緊急通報装置評価",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/assessment_child/use_test.html",
+      "text": "チャイルドシートアセスメント",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/download/car_download.html",
+      "text": "資料ダウンロード",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/faq/index.html",
+      "text": "よくある質問",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/index.html",
+      "text": "English",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/index.html#search_list1",
+      "text": "自動車アセスメントを検索する",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/index.html#search_list2",
+      "text": "チャイルドシートアセスメントを検索する",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/index.html",
+      "text": "機構のご案内トップへ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/aisatsu.html",
+      "text": "理事長の挨拶",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/gaiyou.html",
+      "text": "概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/rinen_sisin.html",
+      "text": "基本理念・行動指針",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/enkaku.html",
+      "text": "沿革",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/soshiki.html",
+      "text": "組織",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/yakusyoku.html",
+      "text": "役職員",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/shozai.html",
+      "text": "所在地一覧",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/jyouhou1.html#gyoumu",
+      "text": "中期目標・中期計画等",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/video.html",
+      "text": "ナスバ業務紹介ビデオ",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/special_movie.html",
+      "text": "ナスバスペシャルムービー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/2025pamphleta.pdf",
+      "text": "機構概要パンフレット：和文（PDFファイル/6MB)",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/2025pamphleta_e.pdf",
+      "text": "Corporate Profile：English（PDFファイル/5MB)",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/jyouhou1.html",
+      "text": "情報公開",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/kojin.html",
+      "text": "個人情報保護",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/kitei.html",
+      "text": "規程",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/houdou01.html",
+      "text": "報道発表資料",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/hyouka.html",
+      "text": "評価・検討等",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/eigyo.html",
+      "text": "支所の開業日（沖縄除く）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/eigyo-okinawa.html",
+      "text": "沖縄支所開業日",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/choutatu/nyusatu.html",
+      "text": "入札の公告等",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/choutatu/seihuchoutatu.html",
+      "text": "政府調達",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/choutatu/tekisei_kokyo.html",
+      "text": "適正な公共調達への取り組み",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/choutatu/sonota_kohyo.html",
+      "text": "その他の公表",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/",
+      "text": "TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/",
+      "text": "Protect",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#01",
+      "text": "Information of Japan New Car Assessment Program",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#02",
+      "text": "Information of Child Seat Assessment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#03",
+      "text": "History",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/about_active_safety.html",
+      "text": "Preventive safety performance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/newtest.html",
+      "text": "Collision safety performance",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/acn/about_acn.html",
+      "text": "Automatic accident emergency call system",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_child/front_test.html",
+      "text": "CRS Frontal collision evaluation test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_child/use_test.html",
+      "text": "CRS Usability evaluation test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_child/how_to.html",
+      "text": "How to use a child seat properly",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+      "text": "Efforts of JNCAP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/about_active_safety.html",
+      "text": "Outline of Preventive Safety Performance Assessment",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/collision_avoidance_system.html",
+      "text": "Test Procedures and Evaluation Methods for Autonomous Emergency Braking System (AEBS)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/lane_keep_assist_system.html",
+      "text": "Test Procedures and Evaluation Methods for Lane Departure Prevention System (LDPS)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/post.html",
+      "text": "Test Procedures and Evaluation Methods for Rear-view monitoring system (Until FY2022)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/high_performance_headlamp.html",
+      "text": "Test Procedures and Evaluation Methods for High-performance headlights",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/active_safety_search/pedal_stepping_wrong.html",
+      "text": "Test Procedures and Evaluation Methods for Pedal misapplication prevention",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/newtest.html",
+      "text": "Outline of collision safety performance evaluation",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/crackup_test.html",
+      "text": "Test Procedures and Evaluation Methods for Collision Safety Performance Tests (Front, Side and Rear)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/ev_test.html",
+      "text": "Test Procedures and Evaluation Methods for Prevent Electric Shock Protection After Collision for Electric Vehicles",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/head_protection_test.html",
+      "text": "Test Procedures and Evaluation Methods for Pedestrian Head Protection Performance Tests",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/legs_protection_test.html",
+      "text": "Test Procedures and Evaluation Methods for Pedestrian leg Protection Performance Tests",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/brake_test.html",
+      "text": "Test Procedures for Braking Performance Tests (Until FY2015)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/seatbelt_test.html",
+      "text": "Test Procedures and Evaluation Methods for Rear Passenger’s Seat Belt Usability Evaluation Test (Until FY2017)",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/seatbelt_reminder.html",
+      "text": "Test Procedures and Evaluation Methods for Seat Belt Reminder for Passengers Evaluation Test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/acn/about_acn.html",
+      "text": "Test Procedures and Evaluation Methods for Automatic accident emergency call system",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_car/link_overseas.html",
+      "text": "World NCAPs",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_child/front_test.html",
+      "text": "Test Procedures and Evaluation Methods for frontal collision evaluation test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/assessment_child/use_test.html",
+      "text": "Test Procedures and Evaluation Methods for usability evaluation test",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/download/car_download.html",
+      "text": "Download",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/contact.html",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/",
+      "text": "日本語",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+      "text": "New Car Assessment Preventive safety performance Collision safety performance Automatic accident emergency call system",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#02",
+      "text": "Child Seat Assessment Protecting babies,small children",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/about/about.html#header",
+      "text": "https://www.nasva.go.jp/mamoru/en/about/about.html#header",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/links.html",
+      "text": "リンク集",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/contact.html",
+      "text": "お問合せ・ご意見",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaibutsuho.html",
+      "text": "外部通報窓口",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/privacypolicy.html",
+      "text": "プライバシーポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sitepolicy.html",
+      "text": "サイトポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/snspolicy.html",
+      "text": "SNS運用ポリシー",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/",
+      "text": "防ぐ 事故の防止",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/shidougaiyou.html",
+      "text": "運行管理者等指導講習のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekiseigaiyou.html",
+      "text": "運転者適性診断のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/tekisei.html",
+      "text": "適性診断活用講座のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/mng_gaiyou.html",
+      "text": "ナスバ安全マネジメントサービスのご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/hyouka_gaiyou.html",
+      "text": "運輸安全マネジメント評価のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/iso/gaiyou01.html",
+      "text": "ＩＳＯ３９００１・Ｎ−ＲＴＳＭＳのご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/kikenbus.html",
+      "text": "乗務員教育のための参考情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/",
+      "text": "支える 被害者の支援",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/ryougo.html",
+      "text": "療護施設のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/kaigoryo.html",
+      "text": "介護料支給のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/sasaeru/soudannaiyou.html",
+      "text": "相談窓口のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/kgr/manual.html",
+      "text": "ナスバ介護料ポータル利用者マニュアル",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/",
+      "text": "守る 安全な車選び",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/mamoru/en/index.html",
+      "text": "JNCAP（English）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/nasvachan/",
+      "text": "ナスバちゃんのお部屋",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/",
+      "text": "ナスバ 機構のご案内",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/gaiyou.html",
+      "text": "機構概要",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/eigyo.html",
+      "text": "各支所の開業日",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/choutatu/nyusatu.html",
+      "text": "調達情報",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nasva.go.jp/saiyou/",
+      "text": "採用情報",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [
+    {
+      "url": "https://www.nasva.go.jp/news/pdf/2024/20241008_1.pdf",
+      "text": "運行管理者等指導講習の修了証明の変更について（手帳から修了証明書）",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/guide-shinsei.pdf",
+      "text": "【必ずお読みください】申請にあたっての注意事項",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/shinseisyo.pdf",
+      "text": "（指導講習）受講履歴証明申請書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/tekisei_shoumei.pdf",
+      "text": "適性診断票謄本・受診証明書発行申込書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/tekisei_meibo.pdf",
+      "text": "事業者別適性診断受診者名簿作成依頼申込書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/youshiki_seminar.pdf",
+      "text": "認定セミナー受講済証再交付申請書",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/fusegu/documents/ex-inin.pdf",
+      "text": "委任状様式（指導講習、セミナー、適性診断関係）",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/download/leaflet.pdf",
+      "text": "被害者支援のご案内リーフレット",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/download/flyer.pdf",
+      "text": "被害者支援のご案内チラシ",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/2025pamphleta.pdf",
+      "text": "機構概要パンフレット：和文（PDFファイル/6MB)",
+      "is_pdf": true
+    },
+    {
+      "url": "https://www.nasva.go.jp/gaiyou/documents/2025pamphleta_e.pdf",
+      "text": "Corporate Profile：English（PDFファイル/5MB)",
+      "is_pdf": true
+    }
+  ],
+  "images": [
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/logo.png",
+      "alt": "独立行政法人自動車事故対策機構　ナスバ"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/search_btn.png",
+      "alt": "検索"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/search_btn_close.png",
+      "alt": "閉じる"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/menu_btn.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/close_btn.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav2_off.gif",
+      "alt": "防ぐ 事故の防止"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav2.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav3_off.gif",
+      "alt": "支える 被害者の支援"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav3.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav4_on.gif",
+      "alt": "守る 安全な車選び"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav4_on.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnavNC_off.gif",
+      "alt": "ナスバちゃんのお部屋"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnavNC.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav5_off.gif",
+      "alt": "ナスバ 機構のご案内"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav5.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav6_off.gif",
+      "alt": "採用情報"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav6.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/mega_close.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/arrow05.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/icon_pdf.gif",
+      "alt": "PDF"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/icon_blank.gif",
+      "alt": "別窓ウインドウで開きます"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/glnav4.png",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/icon_pdf.gif",
+      "alt": ""
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/mamoru/main_visual_en.jpg",
+      "alt": "Protect -For safety in case of emergency- \"New Car Assessment Program\" will be announced. For those who want to choose a safer car -New Car Assessment -Child Seat Assesment"
+    },
+    {
+      "src": "https://www.nasva.go.jp/mamoru/images/common/chd_front_4_en.png",
+      "alt": "Excellent"
+    },
+    {
+      "src": "https://www.nasva.go.jp/mamoru/images/common/chd_front_3_en.png",
+      "alt": "Good"
+    },
+    {
+      "src": "https://www.nasva.go.jp/mamoru/images/common/chd_front_2_en.png",
+      "alt": "Nomal"
+    },
+    {
+      "src": "https://www.nasva.go.jp/mamoru/images/common/chd_front_1_en.png",
+      "alt": "Not recomended"
+    },
+    {
+      "src": "https://www.nasva.go.jp/common/img/common/page_top.gif",
+      "alt": "ページの先頭へ"
+    }
+  ],
+  "visible_dates": [],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+    "title": "Information of Japan New Car Assessment Program｜National agency for Automotive Safety & Victims' Aid",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:10:21.286681+00:00",
+  "source_meta": {
+    "title": "Information of Japan New Car Assessment Program",
+    "url": "https://www.nasva.go.jp/mamoru/en/about/about.html",
+    "source_name": "独立行政法人自動車事故対策機構 ナスバ",
+    "source_domain": "www.nasva.go.jp",
+    "source_type": "authority_body",
+    "snippet": "Vehicle Safety Performance 2022. From FY2022, an evaluation corresponding to accidents with bicyclist has been newly introduced in...",
+    "citation_count": 3,
+    "first_cited_position": 1,
+    "answer_support_weight": 7,
+    "supported_block_types": [
+      "list",
+      "paragraph",
+      "table"
+    ],
+    "source_quality": "high",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "How to interpret Japanese crash-test ratings and what should families prioritise?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "How to interpret Japanese crash-test ratings and what should families prioritise?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

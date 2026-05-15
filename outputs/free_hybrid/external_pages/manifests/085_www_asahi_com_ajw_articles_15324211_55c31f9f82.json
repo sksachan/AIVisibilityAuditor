@@ -1,0 +1,947 @@
+{
+  "url": "https://www.asahi.com/ajw/articles/15324211",
+  "kind": "external",
+  "resource_type": "html",
+  "scrape_method": "local_full_page_playwright",
+  "paid_api_used": false,
+  "firecrawl_used": false,
+  "crawl_status": "success",
+  "extraction_status": "success",
+  "content_score_policy": "score",
+  "geo_analysis_ready": true,
+  "extraction_quality_score": 0.9,
+  "extraction_metrics": {
+    "markdown_chars": 27825,
+    "wordish_count": 7359,
+    "heading_count": 8,
+    "bullet_count": 83,
+    "link_count": 90,
+    "image_count": 7,
+    "pdf_link_count": 0,
+    "table_like": false,
+    "table_line_count": 0,
+    "raw_url_count": 94,
+    "numeric_fact_count": 146,
+    "question_count": 12,
+    "unique_line_count": 579,
+    "numeric_facts_sample": [
+      "2025",
+      "15324211",
+      "28",
+      "2024",
+      "19",
+      "09",
+      "2022",
+      "90",
+      "27",
+      "29",
+      "2012",
+      "2018",
+      "10",
+      "75",
+      "1,673",
+      "13",
+      "0.8",
+      "348",
+      "23",
+      "6.6",
+      "4",
+      "2021",
+      "12",
+      "24",
+      "7"
+    ],
+    "links_sample": [
+      "https://aw.dw.impact-ad.jp/c/map/?oid=c906999ddcc53ef2&cid=54718075592425901992814710450383404786&sp=adb&fu=a2b0fe75-51b7-4836-aaab-daaf97a8ac8a&i5=0&dl=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211",
+      "https://p.potaufeu.asahi.com/ajw/css/images/en_logo@2x.png",
+      "https://p.potaufeu.asahi.com/6299-p/picture/28602343/0d90416db71a31fa56a72295f90849d8.jpg",
+      "https://public.potaufeu.asahi.com/ajw/images/banner/2026LowerHouseelection_300_150 1.jpg",
+      "https://public.potaufeu.asahi.com/ajw/images/banner/2025_80years_since_the_end_of_world_war_2_300_150.jpg",
+      "https://public.potaufeu.asahi.com/ajw/images/banner/2025DiplomatDocuments-300x150.jpg",
+      "https://p.potaufeu.asahi.com/1823-p/picture/28885739/e48c7314d37a7d5fbe13ce8826705aa7.jpg",
+      "https://www.asahi.com/ajw/articles/15324211#MainInner",
+      "https://www.asahi.com/ajw/help/policy.html",
+      "https://www.asahi.com/ajw/",
+      "http://twitter.com/ajwasahi",
+      "https://www.facebook.com/AJW.Asahi",
+      "https://www.asahi.com/",
+      "https://www.asahi.com/ajw/new/",
+      "https://www.asahi.com/ajw/national_report/",
+      "https://www.asahi.com/ajw/politics/",
+      "https://www.asahi.com/ajw/business/",
+      "https://www.asahi.com/ajw/asia_world/",
+      "https://www.asahi.com/ajw/asia_world/china/",
+      "https://www.asahi.com/ajw/asia_world/korean_peninsula/",
+      "https://www.asahi.com/ajw/asia_world/around_asia/",
+      "https://www.asahi.com/ajw/asia_world/world/",
+      "https://www.asahi.com/ajw/sci_tech/",
+      "https://www.asahi.com/ajw/culture/",
+      "https://www.asahi.com/ajw/culture/style/"
+    ],
+    "image_alt_count": 7
+  },
+  "geo_signals": {
+    "answer_first": true,
+    "headings_present": true,
+    "extractable_passages": true,
+    "low_noise_ratio": true,
+    "faq_like": true,
+    "comparison_terms": true,
+    "actionable_terms": true,
+    "domain_specific_terms": true,
+    "key_facts": true,
+    "statistics_or_numbers": true,
+    "source_citations": true,
+    "internal_links": true,
+    "external_links": true,
+    "pdf_or_spec_links": true,
+    "linked_pdf_count": 0,
+    "image_alt_evidence": true,
+    "schema_json_ld": false,
+    "schema_types": [],
+    "product_schema": false,
+    "faq_schema": false,
+    "offer_schema": false,
+    "organization_schema": false,
+    "breadcrumb_schema": false,
+    "canonical": true,
+    "meta_description": true,
+    "robots_indexable": true,
+    "hreflang_count": 0,
+    "freshness_signals": true,
+    "visible_dates": [
+      "有効期限: 90 日間.",
+      "有効期限をセッションごとにリセットする.",
+      "有効期限: 365 日間.",
+      "有効期限をセッションごとにリセットする. その他の保存形式を使用.",
+      "有効期限: 1825 日間.",
+      "有効期限: 395 日間.",
+      "有効期限: 180 日間.",
+      "有効期限: 400 日間.",
+      "有効期限: 750 日間.",
+      "有効期限: 366 日間.",
+      "有効期限: 3650 日間.",
+      "有効期限: 1827 日間.",
+      "有効期限: 720 日間.",
+      "有効期限: 730 日間.",
+      "有効期限: 30 日間.",
+      "有効期限: 1830 日間.",
+      "有効期限: 21 日間.",
+      "有効期限: 390 日間.",
+      "有効期限: 3653 日間.",
+      "有効期限: 396 日間.",
+      "有効期限: 731 日間.",
+      "有効期限: 393 日間.",
+      "有効期限: 914 日間.",
+      "有効期限: 120 日間.",
+      "有効期限: 728 日間.",
+      "有効期限: 397 日間.",
+      "有効期限: 60 日間.",
+      "有効期限: 548 日間.",
+      "有効期限: 3000 日間.",
+      "有効期限: 360 日間."
+    ],
+    "authority_signals": true,
+    "cta_links": true,
+    "footer_present": false,
+    "header_present": false,
+    "nav_noise_terms": 7,
+    "content_terms": 51,
+    "noise_ratio": 0.14
+  },
+  "content_regions": {
+    "header_chars": 0,
+    "main_chars": 39070,
+    "footer_chars": 0,
+    "tables_chars": 0,
+    "metadata_chars": 280,
+    "full_markdown_chars": 27825
+  },
+  "metadata": {
+    "title": "Car safety rule to counter gas pedal errors eyed for June 2025 | The Asahi Shimbun: Breaking News, Japan News and Analysis",
+    "description": "The transport ministry as early as next June will require all new cars to be equipped with safety features that prevent accidents caused by drivers accidentally stepping on the wrong pedal, sources said.",
+    "language": "en",
+    "sourceURL": "https://www.asahi.com/ajw/articles/15324211",
+    "statusCode": 200,
+    "contentType": "text/html",
+    "canonical": "https://www.asahi.com/ajw/articles/15324211",
+    "robots": "",
+    "hreflang": [],
+    "json_ld_present": false,
+    "schema_types": [],
+    "schema_block_count": 0
+  },
+  "links": [
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211#MainInner",
+      "text": "Skip to content",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/help/policy.html",
+      "text": "the site policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/",
+      "text": "https://www.asahi.com/ajw/",
+      "is_pdf": false
+    },
+    {
+      "url": "http://twitter.com/ajwasahi",
+      "text": "Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.facebook.com/AJW.Asahi",
+      "text": "Facebook",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/",
+      "text": "日本語",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/",
+      "text": "HOME",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/new/",
+      "text": "What’s New",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/national_report/",
+      "text": "National Report",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/politics/",
+      "text": "Politics",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/business/",
+      "text": "Business",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/asia_world/",
+      "text": "Asia & World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/asia_world/china/",
+      "text": "China",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/asia_world/korean_peninsula/",
+      "text": "Korean Peninsula",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/asia_world/around_asia/",
+      "text": "Around Asia",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/asia_world/world/",
+      "text": "World",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/sci_tech/",
+      "text": "Sci & Tech",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/",
+      "text": "Culture",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/style/",
+      "text": "Style",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/food/",
+      "text": "Food",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/movies/",
+      "text": "Movies",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/manga_anime/",
+      "text": "Manga & Anime",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/culture/people/",
+      "text": "People",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/travel/",
+      "text": "Travel",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/sports/",
+      "text": "Sports",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/opinion/",
+      "text": "Opinion",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/opinion/editorial/",
+      "text": "Editorial",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/opinion/vox/",
+      "text": "Vox Populi",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/opinion/views/",
+      "text": "Views",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/special/",
+      "text": "Special",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/",
+      "text": "The Asahi Shimbun",
+      "is_pdf": false
+    },
+    {
+      "url": "http://twitter.com/intent/tweet?url=https://www.asahi.com/ajw/articles/15324211&text=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%20Asia%20%26%20Japan%20Watch",
+      "text": "Tweet",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/search?q=https://www.asahi.com/ajw/articles/15324211",
+      "text": "list",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/14365535",
+      "text": "Fuel-efficiency recording devices in cars to become mandatory June 4, 2021",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/14448193",
+      "text": "Car automatic braking systems to cover cyclists under new rule October 12, 2021",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/14762353",
+      "text": "Anti-theft tech used for alarm system to save kids left on buses November 24, 2022",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16560614",
+      "text": "Visa capital rule forcing foreign business owners to close down",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16502839",
+      "text": "Osaka Metro seeks full refund for EV buses used during expo",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16563495",
+      "text": "Over 1,000 cases of manufacturing misconduct found at Nidec",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16564343",
+      "text": "SUMO/ Fans charmed by wrestlers clad in personalized summer kimono",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16562757",
+      "text": "VOX POPULI: Trump-Xi summit recalls ‘Asakai’s nightmare’",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16560203",
+      "text": "Student feared death just before fatal bus crash in Fukushima",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16563854",
+      "text": "Trump and Xi open Beijing summit with praise for trade progress",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16290361",
+      "text": "Filipino woman detained for two years due to translation error",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16564648",
+      "text": "Vietnamese held over break-in at site of Setagaya family murder",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16560540",
+      "text": "Japan scrambles to boost defenses against threats from Mythos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16549892",
+      "text": "Peace returns after tourism hotspot cancels sakura festival",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16507241",
+      "text": "‘Demon Slayer’ kills again at box office, exceeding 40 billion yen",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16554061",
+      "text": "SOCIAL ‘JUSTICE’: Influencers in Japan banking on anti-foreigner views for cash",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16486932",
+      "text": "Saitama now home to Japan's first diversity studies program",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16557720",
+      "text": "Court rejects African refugee’s bid for Japanese citizenship",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16548027",
+      "text": "Japan expands military role in U.S.-Philippine joint exercise",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16520190",
+      "text": "Chinese users ‘recklessly’ draw upon OpenClaw AI agent",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11039455/",
+      "text": "https://www.asahi.com/ajw/tag/11039455/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11039257/",
+      "text": "https://www.asahi.com/ajw/tag/11039257/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11037055/",
+      "text": "https://www.asahi.com/ajw/tag/11037055/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/video/",
+      "text": "Videos",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16561140",
+      "text": "Video obtained of NuVasive Japan sales rep helping with surgery May 13, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16555311",
+      "text": "Hokkaido town outraged after 58 prisoners’ graves found vandalized May 11, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/16477319",
+      "text": "Tie-ups with hot IP content key to USJ's successful run in Osaka May 5, 2026",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11038361/",
+      "text": "https://www.asahi.com/ajw/tag/11038361/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11038361/",
+      "text": "YOASOBI",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11037055/",
+      "text": "Diplomatic Documents",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.asahi.com/hibakusha/english/",
+      "text": "http://www.asahi.com/hibakusha/english/",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.asahi.com/hibakusha/english/",
+      "text": "Memories of Hiroshima and Nagasaki",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11036986/",
+      "text": "https://www.asahi.com/ajw/tag/11036986/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11036986/",
+      "text": "Taste of Life",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11037095/",
+      "text": "https://www.asahi.com/ajw/tag/11037095/",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/tag/11037095/",
+      "text": "Memories of Nikkei Americans",
+      "is_pdf": false
+    },
+    {
+      "url": "https://twitter.com/search?q=ajw%20Asahi%20Shimbun",
+      "text": "Asahi Shimbun on Twitter",
+      "is_pdf": false
+    },
+    {
+      "url": "http://www.asahi.com/english/weekly/",
+      "text": "Asahi Weekly",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/inhouse_news/",
+      "text": "In-house News and Messages",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.nytimes.com/",
+      "text": "The New York Times",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211#Header",
+      "text": "BACK TO TOP",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/corporate/english/11051833",
+      "text": "About Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/help/policy.html",
+      "text": "Site Policy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/help/privacy.html",
+      "text": "Privacy",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/help/copyright.html",
+      "text": "Copyright",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/help/privacy.html#Contact",
+      "text": "Contact Us",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/corporate/privacy-portal/accessdata/asadigi.html",
+      "text": "Transmission of user information to external service providers（利用者情報の外部送信）",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/corporate/privacy-portal/",
+      "text": "Privacy Portal",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "設定を変更するにはどうすればよいですか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "同意しなかった場合はどうなりますか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "正当な利益に該当するとどうなるのですか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "すべてに同意する必要がありますか？",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "パートナーのリスト",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "詳細を表示",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "その他",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "ストレージの詳細",
+      "is_pdf": false
+    },
+    {
+      "url": "https://www.asahi.com/ajw/articles/15324211",
+      "text": "プライバシー ポリシー",
+      "is_pdf": false
+    }
+  ],
+  "linked_pdfs": [],
+  "images": [
+    {
+      "src": "https://aw.dw.impact-ad.jp/c/map/?oid=c906999ddcc53ef2&cid=54718075592425901992814710450383404786&sp=adb&fu=a2b0fe75-51b7-4836-aaab-daaf97a8ac8a&i5=0&dl=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211",
+      "alt": ""
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/ajw/css/images/en_logo@2x.png",
+      "alt": "The Asahi Shimbun | Asia & Japan Watch"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/6299-p/picture/28602343/0d90416db71a31fa56a72295f90849d8.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/2154-p/picture/26165864/44c46875263f5510703ca630df28abcd.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/08ee-p/picture/26416910/ef3c42922fc70abe594d1b66bc2698ea.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/241c-p/picture/27232973/755376f533aee19bfc0c28811838718a.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/8fa9-p/picture/30831998/8ca841e15597b3bae7591afb1da37bd3_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/65be-p/picture/30812701/202f3551c7bb38be33cda8a0897b00ae_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/0454-p/picture/30836450/c763637608623de3a8f5ae97044e7898_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/eb41-p/picture/30837271/d1415666b645e0a872902c95411018e7_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/c67f-p/picture/30835951/e7ceb2c3493b3f26c14259aefc68067c_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/d234-p/picture/30832001/d8dd9ffc8fcef8d065180da81440c570_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/08c3-p/picture/30836814/3560d8c06a005e946f2e247c1e8a12d8_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/57ce-p/picture/30783221/5334b0cb4b8e6a580e5ccc56cc5fd200_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/b9f8-p/picture/30838371/a2097ea2a96c6b426b2a7b06fccf3f90_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/fd91-p/picture/30831994/47c0d3abb183034f326cdf11e092c110_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/c9e8-p/picture/30527421/8becdfa389388334e9109ebe15f26358_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/675f-p/picture/30805273/7bee4dd9f7954fb246bf765a30e1e6ba_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/7b71-p/picture/30824360/bcf0f50b888a4b02179d5873a503aa0e_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/bb2f-p/picture/30808028/6ad3ca85a6485c7ed4245b05fe58d46f_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/176c-p/picture/28965060/3ba3becbb5b2cafcd31bf85c98964ea4_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/ce20-p/picture/30812898/57ffa24a5025d119b1cfdc40e04a5616_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/4298-p/picture/30811541/99c4d8fcc76bdc18b6ee1eac11fc79a1_300px.jpg",
+      "alt": "Photo/Illutration"
+    },
+    {
+      "src": "https://public.potaufeu.asahi.com/ajw/images/banner/2026LowerHouseelection_300_150 1.jpg",
+      "alt": "2026 Lower House election"
+    },
+    {
+      "src": "https://public.potaufeu.asahi.com/ajw/images/banner/2025_80years_since_the_end_of_world_war_2_300_150.jpg",
+      "alt": "80 years since the end of WWII"
+    },
+    {
+      "src": "https://public.potaufeu.asahi.com/ajw/images/banner/2025DiplomatDocuments-300x150.jpg",
+      "alt": "Diplomat Documents"
+    },
+    {
+      "src": "https://i.ytimg.com/vi/d-_DJtj9HUA/mqdefault.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://i.ytimg.com/vi/gGOrUeFLTKw/mqdefault.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://i.ytimg.com/vi/WKWbXabWKMQ/mqdefault.jpg",
+      "alt": ""
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/1823-p/picture/28885739/e48c7314d37a7d5fbe13ce8826705aa7.jpg",
+      "alt": "Photo"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/9e20-p/picture/28252734/541860dfaa346e951f12716eb2643ad7.jpg",
+      "alt": "Photo"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/85db-p/picture/27383821/1eb57ff204b7880550a35cd9eff2b84d.jpg",
+      "alt": "Photo"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/b0a3-p/picture/26812467/da82bba8ce177a752a1dd83ee1a38491.jpg",
+      "alt": "Photo"
+    },
+    {
+      "src": "https://p.potaufeu.asahi.com/d4c6-p/picture/28252540/a8a8c8ce9c1c502b685bd996ee06a8a5.jpg",
+      "alt": "Photo"
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=0b225ab7-5889-452b-b3cd-3ad91acce1f5&e=pv&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=b75d39a9-696e-4ed8-a718-ad59040dc48e&e=pv&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=829648130965154&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://tr.line.me/tag.gif?c_t=lap&t_id=2a4354f9-afab-4b21-aa49-d2f1b817f81e&e=pv&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1281506156433336&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://i.smartnews-ads.com/p?id=3a4f4af5edc0551396eedf76&e=PageView",
+      "alt": ""
+    },
+    {
+      "src": "https://i.smartnews-ads.com/p?id=dcfb600b1f902a523f1a2edf&e=PageView",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=25548990958023450&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://www.facebook.com/tr?id=1431830885045239&ev=PageView&noscript=1",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=76cb79db-22db-46f7-98dd-d9a36fe6b67c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=ojnah&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=76cb79db-22db-46f7-98dd-d9a36fe6b67c&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=ojnah&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=0d07d0e6-2117-4154-be7f-1d146afaa419&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=o8imj&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=0d07d0e6-2117-4154-be7f-1d146afaa419&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=o8imj&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=43373441-2b84-440e-8070-9e7b1c417108&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=o809z&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=43373441-2b84-440e-8070-9e7b1c417108&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=o809z&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://t.co/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=4c008689-f942-4cc6-a282-351b955f784e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=qi29l&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Europe%2FLondon%26ja-JP%26Google%20Inc.%26MacIntel%26127%261440%261400%2610%2624%261440%261400%260%26na&eci=3&event=%7B%7D&event_id=4c008689-f942-4cc6-a282-351b955f784e&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=15d56d10-d085-478f-b55a-33bcf2e39502&pt=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News%2C%20Japan%20News%20and%20Analysis&tw_document_href=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1778854181461.273010745409863207&txn_id=qi29l&type=javascript&version=2.3.53",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=97066766&tm=gtm002&Ver=2&mid=d2367b1f-1e7b-4220-be4a-ed64fb318e22&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News,%20Japan%20News%20and%20Analysis&kw=National%20Report,Asahi%20Shimbun,Japan,news&p=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&r=&lt=1364&evt=pageLoad&sv=2&asc=D&cdb=AQAc&rn=460674",
+      "alt": ""
+    },
+    {
+      "src": "https://bat.bing.net/action/0?ti=187098708&tm=gtm002&Ver=2&mid=a51ac895-977e-4f74-97ef-53bdcc13e263&bo=2&pi=0&lg=ja-JP&sw=1440&sh=1400&sc=24&tl=Car%20safety%20rule%20to%20counter%20gas%20pedal%20errors%20eyed%20for%20June%202025%20%7C%20The%20Asahi%20Shimbun%3A%20Breaking%20News,%20Japan%20News%20and%20Analysis&kw=National%20Report,Asahi%20Shimbun,Japan,news&p=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&r=&lt=1364&evt=pageLoad&sv=2&asc=D&cdb=AQAc&rn=819642",
+      "alt": ""
+    },
+    {
+      "src": "https://meas.hera.d2c.ne.jp/v1/events/2cb8b-5247c1ec-bc0f-4426-8de4-d201ed4abca2/pv/tag.gif?a=AJTtRGzKNzxdrUTtamYC&r=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211",
+      "alt": ""
+    },
+    {
+      "src": "https://meas.hera.d2c.ne.jp/v1/events/7ca01-12f035b3-d819-4162-af03-7f98b32b6505/pv/tag.gif?a=AJTtRGzKNzxdrUTtamYC&r=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211",
+      "alt": ""
+    },
+    {
+      "src": "https://cm.g.doubleclick.net/pixel?google_nid=treasuredata_dmp&google_cm&td_write_key=8151/fcd628065149d648b80f11448b4083528c0d8a91&td_global_id=td_global_id&td_client_id=e7a5d0e2-17fc-4fc1-a88d-d227ade9e8e5&td_host=www.asahi.com&account=tokyo-48",
+      "alt": ""
+    },
+    {
+      "src": "https://aw.dw.impact-ad.jp/ut/rep?u=576&v=60&r=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&t=2732&fu=a2b0fe75-51b7-4836-aaab-daaf97a8ac8a",
+      "alt": ""
+    },
+    {
+      "src": "https://www.pages07.net/WTS/event.jpeg?accesskey=7644b76e-1628afe2b30-3a49a1d67881ef16e3bf2f68bd600905&v=1.31&isNewSession=1&type=pageview&isNewVisitor=1&sessionGUID=12b52297-2b75-37a3-a79e-7993118c4182&webSyncID=05d5e664-435b-36de-b6a3-7c7404b67bc4&url=https%3A%2F%2Fwww.asahi.com%2Fajw%2Farticles%2F15324211&newSiteVisit=1&hostname=www.asahi.com&pathname=%2Fajw%2Farticles%2F15324211&newPageVisit=1&eventKey=7dd37023-0a7b-e418-0414-b6888d042b13",
+      "alt": ""
+    }
+  ],
+  "visible_dates": [
+    "有効期限: 90 日間.",
+    "有効期限をセッションごとにリセットする.",
+    "有効期限: 365 日間.",
+    "有効期限をセッションごとにリセットする. その他の保存形式を使用.",
+    "有効期限: 1825 日間.",
+    "有効期限: 395 日間.",
+    "有効期限: 180 日間.",
+    "有効期限: 400 日間.",
+    "有効期限: 750 日間.",
+    "有効期限: 366 日間.",
+    "有効期限: 3650 日間.",
+    "有効期限: 1827 日間.",
+    "有効期限: 720 日間.",
+    "有効期限: 730 日間.",
+    "有効期限: 30 日間.",
+    "有効期限: 1830 日間.",
+    "有効期限: 21 日間.",
+    "有効期限: 390 日間.",
+    "有効期限: 3653 日間.",
+    "有効期限: 396 日間.",
+    "有効期限: 731 日間.",
+    "有効期限: 393 日間.",
+    "有効期限: 914 日間.",
+    "有効期限: 120 日間.",
+    "有効期限: 728 日間.",
+    "有効期限: 397 日間.",
+    "有効期限: 60 日間.",
+    "有効期限: 548 日間.",
+    "有効期限: 3000 日間.",
+    "有効期限: 360 日間."
+  ],
+  "static_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.asahi.com/ajw/articles/15324211",
+    "error": null,
+    "blocked": false,
+    "content_type": "text/html"
+  },
+  "rendered_fetch": {
+    "status_code": 200,
+    "final_url": "https://www.asahi.com/ajw/articles/15324211",
+    "title": "Car safety rule to counter gas pedal errors eyed for June 2025 | The Asahi Shimbun: Breaking News, Japan News and Analysis",
+    "error": null,
+    "blocked": false
+  },
+  "pdf_parser": {},
+  "timestamp_utc": "2026-05-15T14:09:48.132879+00:00",
+  "source_meta": {
+    "title": "Car safety rule to counter gas pedal errors eyed for June 2025",
+    "url": "https://www.asahi.com/ajw/articles/15324211",
+    "source_name": "朝日新聞",
+    "source_domain": "www.asahi.com",
+    "source_type": "news_media",
+    "snippet": "Jun 28, 2024 — The transport ministry will discuss the specific time when the requirement to the new cars will take effect and other issues later...",
+    "citation_count": 4,
+    "first_cited_position": 17,
+    "answer_support_weight": 6,
+    "supported_block_types": [
+      "list",
+      "paragraph"
+    ],
+    "source_quality": "medium",
+    "source_quality_notes": [],
+    "is_owned_domain": false,
+    "is_owned_ecosystem": false,
+    "is_off_market": false,
+    "is_social_or_forum": false,
+    "is_low_authority": false,
+    "selection_reason": "google_ai_mode_top_3_external_citation",
+    "brand_topic_category": "Safety, reliability and trust",
+    "related_queries_seed": [
+      {
+        "query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      },
+      {
+        "query": "What ADAS features reduce low-speed city collisions in Japan and how do they work?",
+        "brand_topic_category": "Safety, reliability and trust",
+        "query_type": "non_branded",
+        "priority": ""
+      }
+    ]
+  }
+}

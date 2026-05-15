@@ -1,0 +1,220 @@
+{
+  "query_id": "q035",
+  "query": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+  "query_type": "non_branded",
+  "brand_topic_category": "Safety, reliability and trust",
+  "journey_stage": "trust_safety",
+  "request_params_without_api_key": {
+    "engine": "google_ai_mode",
+    "q": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+    "gl": "jp",
+    "hl": "en",
+    "device": "desktop"
+  },
+  "serpapi_response": {
+    "search_metadata": {
+      "id": "6a071ab6bb48ad22a59e5a78",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/SDPkhYmMaSPXnMvUpdFaqw/6a071ab6bb48ad22a59e5a78.json",
+      "created_at": "2026-05-15 13:08:06 UTC",
+      "processed_at": "2026-05-15 13:08:06 UTC",
+      "google_ai_mode_url": "https://www.google.com/search?q=Questions+to+ask+a+dealer+about+safety+feature+calibration+and+software+updates+before+buying&udm=50&gl=jp&hl=en",
+      "raw_html_file": "https://serpapi.com/searches/SDPkhYmMaSPXnMvUpdFaqw/6a071ab6bb48ad22a59e5a78.html",
+      "prettify_html_file": "https://serpapi.com/searches/SDPkhYmMaSPXnMvUpdFaqw/6a071ab6bb48ad22a59e5a78.prettify",
+      "total_time_taken": 2.42
+    },
+    "search_parameters": {
+      "engine": "google_ai_mode",
+      "q": "Questions to ask a dealer about safety feature calibration and software updates before buying",
+      "hl": "en",
+      "gl": "jp",
+      "device": "desktop"
+    },
+    "text_blocks": [
+      {
+        "type": "paragraph",
+        "snippet": "Before buying a car, verifying its advanced driver assistance systems (ADAS) are properly calibrated and updated is crucial for your safety.",
+        "reference_indexes": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Safety Feature Calibration"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Has this vehicle ever required ADAS recalibration?"
+          },
+          {
+            "snippet": "Was the calibration done following a windshield replacement or accident?"
+          },
+          {
+            "snippet": "Did a certified technician perform the camera and radar alignments?"
+          },
+          {
+            "snippet": "Can you provide the official digital calibration report?"
+          },
+          {
+            "snippet": "Are any safety sensors currently misaligned or throwing error codes?"
+          }
+        ],
+        "reference_indexes": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Software Updates & History"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Is the vehicle’s operating software currently up to date?"
+          },
+          {
+            "snippet": "Does this specific model support Over-The-Air (OTA) updates?"
+          },
+          {
+            "snippet": "Are OTA updates free, or do they require a subscription?"
+          },
+          {
+            "snippet": "Which safety modules must be updated manually at the dealership?"
+          },
+          {
+            "snippet": "Has the telematics or infotainment system ever been replaced?"
+          }
+        ],
+        "reference_indexes": [
+          6,
+          7
+        ]
+      },
+      {
+        "type": "heading",
+        "snippet": "Warranty & Future Costs"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "Does the certified pre-owned (CPO) warranty cover ADAS sensors?"
+          },
+          {
+            "snippet": "Will you perform a final software flash before delivery?"
+          },
+          {
+            "snippet": "What is the typical labor cost if I need a recalibration later?"
+          },
+          {
+            "snippet": "Are software updates covered under the standard bumper-to-bumper warranty?"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "To help you get the most accurate answers, tell me:"
+      },
+      {
+        "type": "list",
+        "list": [
+          {
+            "snippet": "The make, model, and year of the car you are looking at"
+          },
+          {
+            "snippet": "If it is brand new, used, or certified pre-owned (CPO)"
+          },
+          {
+            "snippet": "If it has a history of accidents or windshield replacements"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "snippet": "I can tailor these questions into a specific checklist for that exact vehicle."
+      }
+    ],
+    "references": [
+      {
+        "title": "ADAS System Calibration – When and How to Do It ?",
+        "link": "https://www.glassdrive.com/adas-system-calibration-when-and-how-do-it",
+        "snippet": "For ultimate car safety, always keep in mind that vehicles should not be driven without proper ADAS ( Advanced driver assistance s...",
+        "source": "www.glassdrive.com",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjrAO8cGZoDo-kyo5qFP-1JCYR6KnSbg8hcB7BJAuGQ07EQnoG",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.glassdrive.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 0
+      },
+      {
+        "title": "Driving Forward: Express Diagnostics Attains Ford Certification for ADAS Calibrations in Line with New Ford Certification Rules",
+        "link": "https://expdiag.com/driving-forward-express-diagnostics-attains-ford-certification-for-adas-calibrations-in-line-with-new-ford-certification-rules/",
+        "snippet": "However, their ( Advanced Driver Assistance Systems ) effectiveness relies heavily on precise calibrations, making certification a...",
+        "source": "expdiag.com",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSNdOGPondfVFbmtx3ZHWVl8_R6Gt2iAyGysZ-IyfWGcrWCerub",
+        "source_icon": "https://encrypted-tbn1.gstatic.com/faviconV2?url=https://expdiag.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 1
+      },
+      {
+        "title": "ADAS Calibration Services in Highlands Ranch, CO",
+        "link": "https://www.denveractionautoglass.com/services/adas-calibration/",
+        "snippet": "Advanced driver assistance systems are becoming a standard part of modern vehicles, and they are an important part of keeping driv...",
+        "source": "www.denveractionautoglass.com",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcgyRRFL3jvzFA6vGaCB2iWMUJyMa1t36nDI5AVCChk_XIsUtv",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.denveractionautoglass.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 2
+      },
+      {
+        "title": "ADAS Calibration | Same Day Service | Affordable",
+        "link": "https://www.smithautoglass.com/ADAS_Calibration",
+        "snippet": "Proper ADAS ( Advanced Driver Assistance System ) calibration ensures the camera is precisely aligned to the manufacturer's specif...",
+        "source": "Smith Auto Glass",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSuE3n4O2EIxp_KNgJFHpbF-WJ3Mc30O_DsEvTK7mvpeaFyjeKf",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://www.smithautoglass.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 3
+      },
+      {
+        "title": "Does Your Windshield Need Calibration? Here’s How to Know",
+        "link": "https://www.richmondhillautoglass.ca/does-your-windshield-need-calibration/",
+        "snippet": "Calibration documentation: Ask for a printed or digital calibration report. This verifies the system was recalibrated to OEM specs...",
+        "source": "Richmond Hill Auto Glass",
+        "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAqPD4hz748QTT7Mvr8S7DVUwtlT2hWIESdAMJn3AZ_izMsUnq",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://www.richmondhillautoglass.ca&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 4
+      },
+      {
+        "title": "Demystifying Pedestrian Detection Systems and ADAS Calibration",
+        "link": "https://repairify.com.au/blog/demystifying-pedestrian-detection-systems-adas-calibration/",
+        "snippet": "Misaligned sensors make collision avoidance technology ineffective.",
+        "source": "Repairify Australia",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTWnnrat9E-aVQiSBLmkLmoD8z-sOywcWcleWVS6lzDvBjfoorz",
+        "source_icon": "https://encrypted-tbn3.gstatic.com/faviconV2?url=https://repairify.com.au&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 5
+      },
+      {
+        "title": "ADAS calibrations: Hyundai Santa Cruz front camera sensor and blind spot monitor",
+        "link": "https://www.youtube.com/watch?v=rW56ssFFtGw",
+        "snippet": "They ( Babcox Media's Joe Keene ) include making sure your software is the current version; being sure of a mobile Wi-Fi hot spot ...",
+        "source": "YouTube",
+        "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSInyX3zaMfbZ2FKzQgsScTwgTnSz6kGDW3lC-XT68X7GRgOeBc",
+        "source_icon": "https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 6
+      },
+      {
+        "title": "Change is in the Air - Installing Updated Calibrations",
+        "link": "https://gearsmagazine.com/magazine/change-is-in-the-air-installing-updated-calibrations/",
+        "snippet": "In addition, not all updates available for all systems will be loaded via the OTA system. Some manufacturers are implementing a sy...",
+        "source": "Gears Magazine",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlLeUG_5OwLzliVJGbikxJ_ySZkxQeR4Zwdlu4Q3_kQHpi4TV",
+        "source_icon": "https://encrypted-tbn0.gstatic.com/faviconV2?url=https://gearsmagazine.com&client=AIM&size=128&type=FAVICON&fallback_opts=TYPE,SIZE,URL",
+        "index": 7
+      }
+    ],
+    "reconstructed_markdown": "Before buying a car, verifying its advanced driver assistance systems \\(ADAS\\) are properly calibrated and updated is crucial for your safety. [0] [1] [2]\n\n### Safety Feature Calibration\n\n- Has this vehicle ever required ADAS recalibration?\n- Was the calibration done following a windshield replacement or accident?\n- Did a certified technician perform the camera and radar alignments?\n- Can you provide the official digital calibration report?\n- Are any safety sensors currently misaligned or throwing error codes?\n\n### Software Updates & History\n\n- Is the vehicle’s operating software currently up to date?\n- Does this specific model support Over\\-The\\-Air \\(OTA\\) updates?\n- Are OTA updates free, or do they require a subscription?\n- Which safety modules must be updated manually at the dealership?\n- Has the telematics or infotainment system ever been replaced?\n\n### Warranty & Future Costs\n\n- Does the certified pre\\-owned \\(CPO\\) warranty cover ADAS sensors?\n- Will you perform a final software flash before delivery?\n- What is the typical labor cost if I need a recalibration later?\n- Are software updates covered under the standard bumper\\-to\\-bumper warranty?\n\nTo help you get the most accurate answers, tell me:\n\n- The make, model, and year of the car you are looking at\n- If it is brand new, used, or certified pre\\-owned \\(CPO\\)\n- If it has a history of accidents or windshield replacements\n\nI can tailor these questions into a specific checklist for that exact vehicle.\n\n\n### References\n\n[0] [ADAS System Calibration – When and How to Do It ?](https://www.glassdrive.com/adas-system-calibration-when-and-how-do-it) — For ultimate car safety, always keep in mind that vehicles should not be driven without proper ADAS \\( Advanced driver assistance s...\n\n[1] [Driving Forward: Express Diagnostics Attains Ford Certification for ADAS Calibrations in Line with New Ford Certification Rules](https://expdiag.com/driving-forward-express-diagnostics-attains-ford-certification-for-adas-calibrations-in-line-with-new-ford-certification-rules/) — However, their \\( Advanced Driver Assistance Systems \\) effectiveness relies heavily on precise calibrations, making certification a...\n\n[2] [ADAS Calibration Services in Highlands Ranch, CO](https://www.denveractionautoglass.com/services/adas-calibration/) — Advanced driver assistance systems are becoming a standard part of modern vehicles, and they are an important part of keeping driv...\n\n[3] [ADAS Calibration \\| Same Day Service \\| Affordable](https://www.smithautoglass.com/ADAS_Calibration) — Proper ADAS \\( Advanced Driver Assistance System \\) calibration ensures the camera is precisely aligned to the manufacturer's specif...\n\n[4] [Does Your Windshield Need Calibration? Here’s How to Know](https://www.richmondhillautoglass.ca/does-your-windshield-need-calibration/) — Calibration documentation: Ask for a printed or digital calibration report. This verifies the system was recalibrated to OEM specs...\n\n[5] [Demystifying Pedestrian Detection Systems and ADAS Calibration](https://repairify.com.au/blog/demystifying-pedestrian-detection-systems-adas-calibration/) — Misaligned sensors make collision avoidance technology ineffective.\n\n[6] [ADAS calibrations: Hyundai Santa Cruz front camera sensor and blind spot monitor](https://www.youtube.com/watch?v=rW56ssFFtGw) — They \\( Babcox Media's Joe Keene \\) include making sure your software is the current version; being sure of a mobile Wi\\-Fi hot spot ...\n\n[7] [Change is in the Air \\- Installing Updated Calibrations](https://gearsmagazine.com/magazine/change-is-in-the-air-installing-updated-calibrations/) — In addition, not all updates available for all systems will be loaded via the OTA system. Some manufacturers are implementing a sy...\n"
+  }
+}
