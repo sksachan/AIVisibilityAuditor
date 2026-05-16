@@ -482,12 +482,34 @@ def strict_ai_visibility(row: dict, idx: int, target_urls: list[str]) -> tuple[i
     return int(score), details
 
 
+
+def clean_env_value(value, default=""):
+    if value is None:
+        return default
+    v = str(value).strip()
+    for _ in range(4):
+        if len(v) >= 2 and ((v[0] == v[-1] == '"') or (v[0] == v[-1] == "'")):
+            v = v[1:-1].strip()
+        else:
+            break
+    return v if v != "" else default
+
+
+def env_int(*names, default=0):
+    for name in names:
+        raw = os.environ.get(name)
+        cleaned = clean_env_value(raw, None)
+        if cleaned is not None:
+            return int(float(cleaned))
+    return int(default)
+
 def main():
-    project = Path(os.environ.get("PROJECT_DIR") or ".").resolve()
-    brand = os.environ.get("BRAND") or "Nissan"
-    market = os.environ.get("MARKET") or "Japan"
-    domain = os.environ.get("DOMAIN") or "https://www.nissan.co.jp"
-    
+    project = Path(clean_env_value(os.environ.get("PROJECT_DIR"), ".")).resolve()
+    brand = clean_env_value(os.environ.get("BRAND"), "Nissan")
+    market = clean_env_value(os.environ.get("MARKET"), "Japan")
+    domain = clean_env_value(os.environ.get("DOMAIN"), "https://www.nissan.co.jp")
+    max_external_per_query = env_int("MAX_EXTERNAL_SOURCES_PER_QUERY", "MAX_EXTERNAL_PER_QUERY", default=5)
+
     audit = load_json(project / "outputs/audit_context/audit_context.json", {}) or load_json(project / "inputs/audit_context.json", {}) or {}
     evidence = load_json(project / "outputs/evidence_scope/evidence_scope.json", {}) or {}
     google = load_json(project / "outputs/google_ai_mode/google_ai_mode_compact.json", {}) or {}
@@ -503,36 +525,6 @@ def main():
     target_urls = [p.get("url") for p in audit_pages if isinstance(p, dict) and p.get("url")]
     if not target_urls:
         target_urls = [p.get("url") for p in owned_pages if isinstance(p, dict) and p.get("url")]
-
-    def clean_env_value(value, default=None):
-        if value is None:
-            return default
-        value = str(value).strip()
-
-        # Bodhi sometimes injects values as quoted strings, e.g. '"5"' or "'5'".
-        while len(value) >= 2 and (
-            (value[0] == value[-1] == '"') or
-            (value[0] == value[-1] == "'")
-        ):
-            value = value[1:-1].strip()
-
-        return value if value != "" else default
-
-
-    def env_int(*names, default=0):
-        for name in names:
-            raw = os.environ.get(name)
-            cleaned = clean_env_value(raw)
-            if cleaned is not None:
-                return int(cleaned)
-        return int(default)
-
-
-    max_external_per_query = env_int(
-        "MAX_EXTERNAL_SOURCES_PER_QUERY",
-        "MAX_EXTERNAL_PER_QUERY",
-        default=5
-    )
 
     # Normalise query rows by id and query text.
     q_by_text = {to_text(q.get("query") or q.get("query_text") or q.get("prompt")).lower(): q for q in query_rows if isinstance(q, dict)}
@@ -608,11 +600,14 @@ def main():
     # Build related-query map from evidence_scope where available.
     evidence_queries = first_list(evidence, ["queries"])
     page_to_queries = defaultdict(list)
-    for q in evidence_queries:
+    for qidx, q in enumerate(evidence_queries):
         if not isinstance(q, dict):
             continue
         qtext = q.get("query") or q.get("query_text")
-        qid = q.get("query_id") or q.get("id")
+        qid = q.get("query_id") or q.get("id") or f"q{qidx+1:03d}"
+        # Backfill ids into the in-memory evidence row so downstream payload builders
+        # can join by query_id even when Railway compact evidence omitted it.
+        q["query_id"] = qid
         linked = first_list(q, ["owned_pages", "mapped_owned_pages", "owned_page_links", "target_pages", "pages"])
         for item in linked:
             if isinstance(item, dict):
