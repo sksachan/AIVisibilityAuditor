@@ -27,3 +27,15 @@ outputs/**/markdown/**
 
 playwright-report/
 test-results/
+
+# Runtime evidence and analysis outputs
+outputs/*
+!outputs/.gitkeep
+
+# Local runtime/workspace artifacts
+ai_visibility_workspace/
+*.zip
+*.log
+__pycache__/
+*.pyc
+.DS_Store
