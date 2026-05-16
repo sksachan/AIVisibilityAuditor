@@ -346,17 +346,53 @@ def strict_geo_score(page: dict, related_queries: list[dict]) -> tuple[int, dict
         "freshness_index": int(freshness),
         "faq_readiness": int(faq),
     }
-    # Hard caps, aligned to the legacy Firecrawl GEO framework. A page that does not visibly answer
-    # the mapped query cannot score as GEO-ready even if it has metadata/schema.
+    # Hard caps, aligned to the strict 6x20 GEO framework used in the original Firecrawl audit.
+    # A page cannot reach the upper bands by being a long official page alone. It must visibly answer
+    # the mapped buyer query, provide evidence/proof, be extractable via FAQ/schema patterns and show
+    # freshness/validity signals where claims, finance, safety, warranty or incentives are involved.
     score = sum(dims.values())
+
+    related_query_types = {query_type_of(q, to_text(q.get("query") if isinstance(q, dict) else q)) for q in related_queries if q}
+    has_branded_query = "branded" in related_query_types
+    has_nonbranded_query = "non_branded" in related_query_types or not has_branded_query
+    trust_weak = dims["eeat_signals"] < 10 or m["proof_hits"] < 3
+    schema_weak = dims["structured_data"] < 8
+    faq_weak = dims["faq_readiness"] < 8
+    freshness_weak = dims["freshness_index"] < 8
+    answer_weak = (not answer_first) or overlap < 2
+    proof_weak = m["numeric_evidence_count"] < 2 and m["proof_hits"] < 3
+    finance_or_legal_intent = any(x in lower for x in ["残価", "おまとめ", "サブスク", "金利", "保証", "補助金", "保険", "車検", "契約", "条件", "warranty", "finance", "lease", "insurance", "subsidy"])
+
+    cap_reasons = []
+    def apply_cap(value, reason):
+        nonlocal score
+        if score > value:
+            cap_reasons.append(reason)
+            score = value
+
     if weak_content:
-        score = min(score, 32)
-    if not answer_first:
-        score = min(score, 72)
+        apply_cap(30, "weak substantive content / extraction payload too thin")
     if overlap == 0:
-        score = min(score, 58)
-    if dims["faq_readiness"] == 0:
-        score = min(score, 82)
+        apply_cap(42, "no mapped-query term overlap")
+    if answer_weak:
+        apply_cap(56, "missing answer-first buyer-query coverage")
+    if has_branded_query and proof_weak:
+        apply_cap(52, "branded query page lacks sufficient visible evidence/proof in the content")
+    if has_nonbranded_query and trust_weak:
+        apply_cap(50, "non-branded query requires stronger trust/evidence before AI systems should cite it")
+    if schema_weak:
+        apply_cap(72, "weak structured data / machine readability")
+    if faq_weak:
+        apply_cap(68, "weak FAQ or Q&A extractability")
+    if trust_weak:
+        apply_cap(66, "weak proof / EEAT evidence")
+    if finance_or_legal_intent and freshness_weak:
+        apply_cap(58, "finance/safety/warranty/incentive content lacks strong freshness or validity signals")
+    if answer_weak and schema_weak and faq_weak:
+        apply_cap(52, "combined answer-first, schema and FAQ gaps")
+    if answer_weak and trust_weak and has_nonbranded_query:
+        apply_cap(46, "non-branded query has both answer and trust gaps")
+
     gaps = [k for k, v in dims.items() if v < 10]
     diagnostics = {
         "substantive_units": round(m["substantive_units"], 1),
@@ -364,9 +400,18 @@ def strict_geo_score(page: dict, related_queries: list[dict]) -> tuple[int, dict
         "query_term_overlap": overlap,
         "answer_first_detected": bool(answer_first),
         "boilerplate_hits": m["boilerplate_hits"],
+        "cap_reasons": cap_reasons,
+        "related_query_types": sorted(related_query_types),
+        "answer_weak": bool(answer_weak),
+        "trust_weak": bool(trust_weak),
+        "schema_weak": bool(schema_weak),
+        "faq_weak": bool(faq_weak),
+        "freshness_weak": bool(freshness_weak),
         "strict_scoring_notes": [
             "Official brand ownership alone does not create high GEO readiness.",
-            "Scores are capped where no answer-first query match is detected.",
+            "Scores are capped where no answer-first mapped-query coverage is detected.",
+            "Branded query pages are penalised when page content lacks visible evidence/proof.",
+            "Non-branded queries require stronger trust and evidence because AI answers are unlikely to cite owned pages without proof.",
             "FAQ readiness requires visible FAQ/Q&A evidence, not inferred buyer questions.",
         ],
     }
@@ -640,7 +685,7 @@ def main():
             "journey_category": cat,
             "geo_readiness_score": score,
             "score_120": score,
-            "score_band": "critical" if score < 30 else ("weak" if score < 55 else ("moderate" if score < 80 else "strong")),
+            "score_band": "critical" if score <= 30 else ("low" if score <= 55 else ("moderate" if score <= 75 else ("good" if score <= 95 else "strong"))),
             "dimensions": dims,
             "dimension_gaps": gaps,
             "strict_diagnostics": diagnostics,
@@ -666,12 +711,15 @@ def main():
         proof = min(20, authority + min(5, tm["proof_hits"]))
         query_match = min(20, 4 + min(8, tm["answer_hits"]) + min(8, tm["numeric_evidence_count"]))
         external_score = min(100, query_match + packaging + proof + min(15, tm["substantive_units"] / 180) + (5 if tm["has_dates"] else 0))
+        citation_influence = int(round(min(100, authority * 2 + min(30, tm["answer_hits"] * 3 + tm["numeric_evidence_count"] * 2) + (10 if tm["has_dates"] else 0))))
         external_scores.append({
             "url": url,
             "title": p.get("title", ""),
             "source_domain": p.get("source_domain") or domain_of(url),
             "source_type": st,
             "external_benchmark_score": int(round(external_score)),
+            "external_citation_influence_score": citation_influence,
+            "winning_content_pattern_score": int(round(external_score)),
             "query_answer_match": int(query_match),
             "answer_packaging": int(packaging),
             "evidence_and_proof": int(proof),
@@ -684,6 +732,7 @@ def main():
 
     avg_owned = round(sum(x["score_120"] for x in owned_scores) / max(1, len(owned_scores)), 1)
     avg_external = round(sum(x["external_benchmark_score"] for x in external_scores) / max(1, len(external_scores)), 1)
+    avg_external_influence = round(sum(x.get("external_citation_influence_score", 0) for x in external_scores) / max(1, len(external_scores)), 1)
     avg_visibility = round(sum(x["ai_visibility_score"] for x in score_rows) / max(1, len(score_rows)), 1)
 
     write_json(project / "outputs/visibility/visibility_matrix.json", {"brand": brand, "market": market, "queries": query_matrix, "rows": query_matrix})
@@ -703,7 +752,7 @@ def main():
     write_json(project / "outputs/page_scores/owned_page_scores.json", {"brand": brand, "market": market, "pages": owned_scores, "owned_pages": owned_scores, "scoring_framework": "strict_geo_6x20_v2"})
     write_json(project / "outputs/page_scores/external_page_scores.json", {"brand": brand, "market": market, "pages": external_scores, "external_pages": external_scores})
 
-    winning = [{"source_type": st, "citation_count": c, "winning_pattern": "External source cited in AI answers; benchmark score is authority and extractability weighted."} for st, c in source_counts.most_common()]
+    winning = [{"source_type": st, "citation_count": c, "winning_pattern": "External source is observed in AI citations; use its answer format, proof pattern and extractability as benchmark input for owned-page CMS changes."} for st, c in source_counts.most_common()]
     write_json(project / "outputs/benchmark/winning_source_patterns.json", {"brand": brand, "market": market, "patterns": winning})
 
     owned_by_cat = defaultdict(list)
@@ -732,6 +781,7 @@ def main():
             "winning_external_source_types": list({x.get("source_type") for x in escores if x.get("source_type")})[:5],
             "owned_geo_score_120": oavg,
             "external_benchmark_score": eavg,
+            "external_citation_influence_score": eavg,
             "source_preference_gap": gap,
             "gap_severity": "material" if gap >= 15 else ("moderate" if gap >= 7 else "low"),
             "gap_reasons": [
@@ -740,7 +790,7 @@ def main():
                 "Competitor and third-party sources are separated from Nissan-owned visibility",
             ],
         })
-    write_json(project / "outputs/benchmark/source_preference_benchmark.json", {"brand": brand, "market": market, "queries": bench, "rows": bench, "average_owned_geo_score": avg_owned, "average_external_benchmark_score": avg_external})
+    write_json(project / "outputs/benchmark/source_preference_benchmark.json", {"brand": brand, "market": market, "queries": bench, "rows": bench, "average_owned_geo_score": avg_owned, "average_external_benchmark_score": avg_external, "average_external_citation_influence_score": avg_external_influence, "metric_note": "External benchmark is not a GEO score for third-party pages. It captures observed citation influence and winning content patterns to inform owned-page CMS remediation."})
     write_json(project / "outputs/benchmark/owned_vs_external_gap_analysis.json", {"brand": brand, "market": market, "gaps": bench, "rows": bench})
 
     recs = []
@@ -794,6 +844,8 @@ def main():
         "ai_visibility_score": avg_visibility,
         "average_owned_geo_score_120": avg_owned,
         "average_external_benchmark_score": avg_external,
+        "average_external_citation_influence_score": avg_external_influence,
+        "external_benchmark_metric_note": "This is not a third-party GEO quality score. It reflects external citation influence and content patterns observed in AI answers for use in owned-page remediation.",
         "owned_target_page_citations": sum(1 for m in query_matrix if m.get("owned_target_page_cited")),
         "owned_domain_citations": sum(m.get("owned_domain_citations", 0) for m in query_matrix),
         "brand_or_model_mention_only_query_count": brand_only,
@@ -819,7 +871,7 @@ def main():
         "query_evidence": query_matrix,
         "owned_page_recommendations": recs,
         "pr_opportunities": pr,
-        "methodology": "Strict GEO scoring uses the 6x20 framework and caps pages without answer-first query matching. AI visibility is observed-evidence-first and heavily weighted to exact owned target-page citations.",
+        "methodology": "Strict GEO scoring uses the 6x20 framework and caps pages without answer-first mapped-query coverage, proof, FAQ/schema and freshness. External benchmark signals capture why external sources win in AI answers; they are not full GEO audits of third-party pages. AI visibility is observed-evidence-first and heavily weighted to exact owned target-page citations.",
     }
     write_json(project / "outputs/dashboard/ai_visibility_dashboard_dataset.json", dashboard)
     bundle = {
@@ -830,6 +882,8 @@ def main():
         "pr_opportunities": pr,
         "methodology_and_caveats": [
             "Owned GEO scores are strict and query-specific; official ownership alone is not sufficient.",
+            "Branded query pages are penalised when evidence is not visible in page content; non-branded queries require stronger trust/proof to become AI-citable.",
+            "External benchmark signals capture citation influence and winning content patterns, not a full GEO quality score for third-party pages.",
             "AI visibility score gives strong credit only for exact owned target-page citations; brand/model mentions are low-credit signals.",
             "Competitor-led visibility is reported separately from generic external-led visibility.",
         ],
