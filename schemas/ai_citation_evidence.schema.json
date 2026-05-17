@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AI Citation Evidence",
+  "type": "object",
+  "properties": {
+    "citation_count": {"type": "integer"},
+    "citations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query_id", "url"],
+        "properties": {
+          "query_id": {"type": "string"},
+          "query": {"type": "string"},
+          "rank": {"type": "integer"},
+          "url": {"type": "string"},
+          "domain": {"type": "string"},
+          "title": {"type": "string"},
+          "snippet": {"type": "string"},
+          "source_type": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@
 Locked orchestration strategy:
 query -> top 3 owned URLs -> top 3 external citations -> winning patterns -> CMS/PR actions -> rerun deltas.
 
-This v3 builder is deliberately tolerant of three payload shapes:
+This v5 builder is deliberately tolerant of three payload shapes:
 1) canonical query_workbench.v1 bundles,
 2) older Bodhi preview bundles with query_evidence / owned_readiness / source_landscape,
 3) Railway Bodhi compact bundles with audit_context / evidence_scope / google_ai_mode / owned and external pages.
@@ -310,8 +310,8 @@ def classify_visibility(row: dict, citations: list[dict], competitors: list[str]
     return raw or "not_observed"
 
 
-def external_top3_from_citations(citations: list[dict]) -> list[dict]:
-    return [c for c in citations if c.get("url") and not c.get("is_owned_domain")][:3]
+def external_top3_from_citations(citations: list[dict], max_n: int = 3) -> list[dict]:
+    return [c for c in citations if c.get("url") and not c.get("is_owned_domain")][:max_n]
 
 
 def winning_patterns(query: str, citations: list[dict], pattern_lookup: list[dict] | None = None) -> list[dict]:
@@ -695,7 +695,7 @@ def upgrade_canonical_bundle(existing: dict, args) -> dict:
     upgraded['legacy_pr_opportunities']=existing.get('pr_opportunities') or []
     upgraded['legacy_action_checklist']=existing.get('action_checklist') or []
     upgraded.setdefault('parser_manifest',{}).update({
-        'upgraded_to_contract':'page_level_cms_grouped_pr.v1',
+        'upgraded_to_contract':'page_level_cms_grouped_pr.v2',
         'page_level_cms_recommendations':len(upgraded.get('page_level_cms_recommendations') or []),
         'grouped_pr_opportunities':len(upgraded.get('grouped_pr_opportunities') or []),
         'canonical_action_count':len(upgraded.get('action_checklist') or []),
@@ -833,7 +833,7 @@ def build_from_preview(preview: dict, args) -> dict:
         for comp in competitors: competitor_counts[comp]+=1
         status=classify_visibility(row,citations,competitors)
         mapped=map_owned_urls(q, owned_pages, args.max_owned, qid=qid, category=cat)
-        top3=external_top3_from_citations(citations)
+        top3=external_top3_from_citations(citations, getattr(args, "max_external", 3))
         pats=winning_patterns(q, top3, patterns_lookup)
         cms=cms_recs(q,qid,mapped,pats); pr=pr_recs(q,qid,top3,pats)
         all_cms.extend(cms); all_pr.extend(pr)
@@ -867,7 +867,7 @@ def build_from_preview(preview: dict, args) -> dict:
         bundle["legacy_query_pr_opportunities"] = preview["pr_opportunities"]
     if "action_checklist" in preview:
         bundle["legacy_action_checklist"] = preview["action_checklist"]
-    bundle["parser_manifest"]={**(preview.get("parser_manifest") if isinstance(preview.get("parser_manifest"),dict) else {}), "query_workbench_count":len(qwork), "source_of_truth":"query_workbench_builder_v3_from_preview_or_compact"}
+    bundle["parser_manifest"]={**(preview.get("parser_manifest") if isinstance(preview.get("parser_manifest"),dict) else {}), "query_workbench_count":len(qwork), "source_of_truth":"query_workbench_builder_v5_from_preview_or_compact"}
     return bundle
 
 
@@ -902,7 +902,7 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
 
     return {
         "schema_version":"query_workbench.v1",
-        "contract_version":"page_level_cms_grouped_pr.v1",
+        "contract_version":"page_level_cms_grouped_pr.v2",
         "run_id":run_id,
         "brand":args.brand,
         "market":args.market,
@@ -927,6 +927,21 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
         "action_checklist":canonical_actions,
         "source_landscape":{"source_type_counts":[{"source_type":k,"count":v} for k,v in source_counts.most_common()],"competitors":[{"name":k,"count":v} for k,v in competitor_counts.most_common()]},
         "run_history":[],
+        "evidence_collection":{
+            "run_mode":getattr(args,"run_mode","reuse_existing_evidence"),
+            "query_portfolio_mode":getattr(args,"query_portfolio_mode","reuse"),
+            "serpapi_enabled":str(getattr(args,"enable_serpapi","false")).lower() in {"1","true","yes"},
+            "owned_crawl_enabled":str(getattr(args,"enable_owned_crawl","true")).lower() in {"1","true","yes"},
+            "external_crawl_enabled":str(getattr(args,"enable_external_crawl","false")).lower() in {"1","true","yes"},
+            "max_owned_pages_per_query":getattr(args,"max_owned",3),
+            "max_external_citations_per_query":getattr(args,"max_external",3),
+            "query_limit":getattr(args,"query_limit",0),
+            "notes":"Paid AI citation collection is optional and controlled by run mode / enable_serpapi. Load latest should always serve last successful completed bundle."
+        },
+        "tracking_plan":{
+            "cms_actions_track":["page_geo_score_after_update","linked_query_ai_visibility_after_future_evidence_refresh","owned_target_citation_after_future_evidence_refresh"],
+            "pr_actions_track":["affected_query_visibility_after_future_evidence_refresh","new_external_source_mentions_after_future_evidence_refresh","competitor_pressure_after_future_evidence_refresh"]
+        },
         "measurement_contract":{
             "cms_tracking_level":"owned_page_url",
             "cms_success_metrics":["page_geo_score_120_delta","linked_query_ai_visibility_score_delta","owned_target_citation_count_delta"],
@@ -947,9 +962,26 @@ def main():
     ap.add_argument("--domain", default="https://www.nissan.co.jp")
     ap.add_argument("--run-id", default="")
     ap.add_argument("--max-owned", type=int, default=3)
+    ap.add_argument("--max-external", type=int, default=3)
+    ap.add_argument("--run-mode", default="reuse_existing_evidence", choices=["reuse_existing_evidence","fresh_mapping","refresh_owned_pages","refresh_external_pages","fresh_ai_citations","full_refresh"])
+    ap.add_argument("--query-portfolio-mode", default="reuse", choices=["reuse","manual","synthetic"])
+    ap.add_argument("--query-portfolio", default="", help="Path to query_portfolio JSON from manual input or DeepResearch workflow")
+    ap.add_argument("--sitemap-inventory", default="", help="Path to sitemap_inventory JSON generated from site standards / sitemap loader")
+    ap.add_argument("--ai-citations", default="", help="Path to normalised AI citations JSON")
+    ap.add_argument("--owned-pages", default="", help="Optional owned page crawl evidence JSON")
+    ap.add_argument("--external-pages", default="", help="Optional external page crawl evidence JSON")
+    ap.add_argument("--enable-serpapi", default="false")
+    ap.add_argument("--enable-owned-crawl", default="true")
+    ap.add_argument("--enable-external-crawl", default="false")
+    ap.add_argument("--query-limit", type=int, default=0)
     args=ap.parse_args()
     root=Path(args.project_root).resolve()
     raw_input=load_json(Path(args.input_json), {}) if args.input_json else {}
+    query_portfolio_file = load_json(Path(args.query_portfolio), {}) if args.query_portfolio else load_json(root/'outputs/query_portfolio/query_portfolio.json', {})
+    sitemap_inventory_file = load_json(Path(args.sitemap_inventory), {}) if args.sitemap_inventory else load_json(root/'outputs/sitemap/sitemap_inventory.json', {})
+    ai_citations_file = load_json(Path(args.ai_citations), {}) if args.ai_citations else load_json(root/'outputs/ai_citations/ai_citations.json', {})
+    owned_pages_file = load_json(Path(args.owned_pages), {}) if args.owned_pages else {}
+    external_pages_file = load_json(Path(args.external_pages), {}) if args.external_pages else {}
 
     canonical=find_canonical_payload(raw_input) if isinstance(raw_input,dict) else None
     if isinstance(canonical,dict):
@@ -968,10 +1000,12 @@ def main():
             owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
             source_class=load_json(root/'outputs/source_landscape/source_classification.json', {}) or {}
             patterns=load_json(root/'outputs/benchmark/winning_source_patterns.json', {}) or {}
-            query_rows=(as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
-            owned_pages=(records_list(owned_full,["pages","owned_pages","items"]) or records_list(audit,["pages","owned_urls","candidate_owned_pages"]) or records_list(evidence,["owned_pages","candidate_owned_pages"]))
+            query_rows=(as_list(query_portfolio_file,["queries","query_portfolio","items"]) or as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
+            if args.query_limit and len(query_rows) > args.query_limit:
+                query_rows = query_rows[:args.query_limit]
+            owned_pages=(records_list(owned_pages_file,["pages","owned_pages","items"]) or records_list(sitemap_inventory_file,["urls","pages","owned_pages","items"]) or records_list(owned_full,["pages","owned_pages","items"]) or records_list(audit,["pages","owned_urls","candidate_owned_pages"]) or records_list(evidence,["owned_pages","candidate_owned_pages"]))
             # external/source rows can provide citations by query when visibility rows do not.
-            sources=records_list(source_class,["sources","rows"], default_key="url")
+            sources=records_list(ai_citations_file,["citations","sources","rows","items"], default_key="url") + records_list(source_class,["sources","rows"], default_key="url")
             sources_by_q=defaultdict(list)
             for s in sources:
                 qid=text(s.get("query_id"));
@@ -989,7 +1023,7 @@ def main():
                 if isinstance(score_by_q.get(qid,{}).get("competitor_brands_detected"),dict): competitors=[k.title() for k,v in score_by_q[qid]["competitor_brands_detected"].items() if v]
                 for comp in competitors: competitor_counts[comp]+=1
                 status=classify_visibility({**score_by_q.get(qid,{}),**row},citations,competitors)
-                top3=external_top3_from_citations(citations)
+                top3=external_top3_from_citations(citations, args.max_external)
                 mapped=map_owned_urls(q,owned_pages,args.max_owned,qid=qid,category=cat)
                 pats=winning_patterns(q,top3,pattern_lookup)
                 cms=cms_recs(q,qid,mapped,pats); pr=pr_recs(q,qid,top3,pats)
@@ -1012,7 +1046,7 @@ def main():
         "queries_with_top_citations": sum(1 for q in qwork if (q.get("current_ai_visibility") or {}).get("top_citations")),
         "queries_with_external_top3": sum(1 for q in qwork if q.get("external_top3_benchmark")),
         "queries_with_three_owned_urls": sum(1 for q in qwork if len(q.get("mapped_owned_urls") or []) >= 3),
-        "source_of_truth": "query_workbench_builder_v3",
+        "source_of_truth": "query_workbench_builder_v5_phase2",
     })
     bundle.setdefault("validation", {})
     if isinstance(bundle["validation"], dict):
@@ -1022,6 +1056,8 @@ def main():
         bundle["validation"]["quality_warnings"] = warnings
         bundle["validation"]["status"] = bundle["validation"].get("status") or ("warning" if warnings else "passed")
     write_json(root/'outputs/query_workbench/query_workbench.json', {"query_workbench": qwork})
+    if query_portfolio_file: write_json(root/'outputs/query_portfolio/query_portfolio.normalised.json', query_portfolio_file)
+    if sitemap_inventory_file: write_json(root/'outputs/sitemap/sitemap_inventory.normalised.json', sitemap_inventory_file)
     write_json(root/'outputs/frontend_report_bundle.json', bundle)
     write_json(root/'outputs/bodhi/preview_node_bundle.json', bundle)
     write_json(root/'outputs/dashboard/ai_visibility_dashboard_dataset.json', bundle)

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Frontend Report Bundle v2",
+  "type": "object",
+  "required": ["schema_version", "contract_version", "query_workbench", "page_level_cms_recommendations", "grouped_pr_opportunities", "action_checklist"],
+  "properties": {
+    "schema_version": {"const": "query_workbench.v1"},
+    "contract_version": {"const": "page_level_cms_grouped_pr.v2"},
+    "run_id": {"type": "string"},
+    "brand": {"type": "string"},
+    "market": {"type": "string"},
+    "domain": {"type": "string"},
+    "evidence_collection": {"type": "object"},
+    "query_workbench": {"type": "array"},
+    "owned_url_readiness": {"type": "array"},
+    "page_level_cms_recommendations": {"type": "array"},
+    "grouped_pr_opportunities": {"type": "array"},
+    "action_checklist": {"type": "array"},
+    "tracking_plan": {"type": "object"}
+  }
+}

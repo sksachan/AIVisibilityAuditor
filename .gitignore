@@ -1,41 +1,20 @@
-.env
-*.env
-
 .venv/
 venv/
-env/
-
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.DS_Store
-
-ai_visibility_workspace/
-*.zip
-
-# Ignore generated output blobs by default
-outputs/**
-
-# But keep reusable deterministic JSON outputs
-!outputs/
-!outputs/**/*.json
-
-# Still exclude heavy crawl extracts even if nested
-outputs/**/raw_html/**
-outputs/**/rendered_html/**
-outputs/**/markdown/**
-
-playwright-report/
-test-results/
-
-# Runtime evidence and analysis outputs
-outputs/*
-!outputs/.gitkeep
-
-# Local runtime/workspace artifacts
-ai_visibility_workspace/
-*.zip
-*.log
 __pycache__/
 *.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
 .DS_Store
+outputs/
+data/
+tmp/
+*.log
+playwright-report/
+test-results/

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Query Portfolio",
+  "type": "object",
+  "required": ["brand", "market", "queries"],
+  "properties": {
+    "brand": {"type": "string"},
+    "market": {"type": "string"},
+    "domain": {"type": "string"},
+    "portfolio_source": {"type": "string", "enum": ["manual", "reuse", "synthetic_deepresearch", "synthetic"]},
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query_id", "query"],
+        "properties": {
+          "query_id": {"type": "string"},
+          "query": {"type": "string"},
+          "topic": {"type": "string"},
+          "journey_stage": {"type": "string"},
+          "intent": {"type": "string"},
+          "priority": {"type": "string"},
+          "recommended_page_type": {"type": "string"},
+          "reason_selected": {"type": "string"}
+        }
+      }
+    }
+  }
+}

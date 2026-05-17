@@ -67,3 +67,22 @@ cp .env.example .env
 - `outputs/actions/improvement_backlog.json` — prioritised actions.
 - `outputs/dashboard/ai_visibility_dashboard_dataset.json` — frontend-ready dashboard dataset.
 - `outputs/bodhi/bodhi_input_bundle.json` — compact bundle for downstream report workflow.
+
+## Phase 2 v5 additions
+
+This package adds the Phase 2 full evidence-acquisition contract while keeping paid collection optional. New scripts include:
+
+- `scripts/build_query_portfolio.py`
+- `scripts/load_sitemap_inventory.py`
+- `scripts/map_queries_to_owned_urls.py`
+- `scripts/normalise_ai_citations.py`
+- `scripts/extract_benchmark_patterns.py`
+- `scripts/validate_frontend_bundle.py`
+
+The canonical output is:
+
+- `outputs/frontend_report_bundle.json`
+- `schema_version = query_workbench.v1`
+- `contract_version = page_level_cms_grouped_pr.v2`
+
+Paid SerpAPI collection should be enabled only when the workflow passes `--enable-serpapi true`; otherwise existing citation evidence is reused.
