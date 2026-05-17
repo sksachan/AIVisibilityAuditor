@@ -930,13 +930,17 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
         "evidence_collection":{
             "run_mode":getattr(args,"run_mode","reuse_existing_evidence"),
             "query_portfolio_mode":getattr(args,"query_portfolio_mode","reuse"),
-            "serpapi_enabled":str(getattr(args,"enable_serpapi","false")).lower() in {"1","true","yes"},
-            "owned_crawl_enabled":str(getattr(args,"enable_owned_crawl","true")).lower() in {"1","true","yes"},
-            "external_crawl_enabled":str(getattr(args,"enable_external_crawl","false")).lower() in {"1","true","yes"},
+            "evidence_executor":"railway_evidence_service",
+            "bodhi_executes_serpapi":False,
+            "bodhi_executes_owned_crawl":False,
+            "bodhi_executes_external_crawl":False,
+            "requested_serpapi_refresh":str(getattr(args,"enable_serpapi","false")).lower() in {"1","true","yes"},
+            "requested_owned_crawl_refresh":str(getattr(args,"enable_owned_crawl","false")).lower() in {"1","true","yes"},
+            "requested_external_crawl_refresh":str(getattr(args,"enable_external_crawl","false")).lower() in {"1","true","yes"},
             "max_owned_pages_per_query":getattr(args,"max_owned",3),
             "max_external_citations_per_query":getattr(args,"max_external",3),
             "query_limit":getattr(args,"query_limit",0),
-            "notes":"Paid AI citation collection is optional and controlled by run mode / enable_serpapi. Load latest should always serve last successful completed bundle."
+            "notes":"Bodhi does not call SerpAPI or crawl pages. Refresh execution is owned by Railway evidence service; this builder only consumes stored evidence and assembles the report contract."
         },
         "tracking_plan":{
             "cms_actions_track":["page_geo_score_after_update","linked_query_ai_visibility_after_future_evidence_refresh","owned_target_citation_after_future_evidence_refresh"],
@@ -971,7 +975,7 @@ def main():
     ap.add_argument("--owned-pages", default="", help="Optional owned page crawl evidence JSON")
     ap.add_argument("--external-pages", default="", help="Optional external page crawl evidence JSON")
     ap.add_argument("--enable-serpapi", default="false")
-    ap.add_argument("--enable-owned-crawl", default="true")
+    ap.add_argument("--enable-owned-crawl", default="false")
     ap.add_argument("--enable-external-crawl", default="false")
     ap.add_argument("--query-limit", type=int, default=0)
     args=ap.parse_args()
