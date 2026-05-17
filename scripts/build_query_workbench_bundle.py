@@ -1,23 +1,22 @@
 #!/usr/bin/env python3
-"""Build the canonical query-led AI Search Visibility report bundle.
+"""Build canonical query-led AI Search Visibility report bundle.
 
 Locked orchestration strategy:
 query -> top 3 owned URLs -> top 3 external citations -> winning patterns -> CMS/PR actions -> rerun deltas.
 
-The script is dependency-light and intentionally deterministic. It consumes the existing
-AIVisibilityAuditor output files and produces a single frontend/Bodhi-safe bundle:
-  outputs/frontend_report_bundle.json
-  outputs/bodhi/preview_node_bundle.json
-  outputs/query_workbench/query_workbench.json
+This v3 builder is deliberately tolerant of three payload shapes:
+1) canonical query_workbench.v1 bundles,
+2) older Bodhi preview bundles with query_evidence / owned_readiness / source_landscape,
+3) Railway Bodhi compact bundles with audit_context / evidence_scope / google_ai_mode / owned and external pages.
 """
 from __future__ import annotations
-import argparse, json, re, time, math
+import argparse, json, re, time, math, hashlib
 from pathlib import Path
 from urllib.parse import urlparse
 from collections import Counter, defaultdict
 from typing import Any
 
-OWNED_HINTS = ["nissan.co.jp", "nissan-global.com", "nissannews.com", "nissan-fs.co.jp"]
+OWNED_HINTS = ["nissan.co.jp", "nissan-global.com", "nissannews.com", "nissan-fs.co.jp", "global.nissannews.com"]
 COMPETITORS = {
     "Toyota": ["toyota", "トヨタ", "lexus", "レクサス"],
     "Honda": ["honda", "ホンダ"],
@@ -26,6 +25,15 @@ COMPETITORS = {
     "Subaru": ["subaru", "スバル"],
     "Suzuki": ["suzuki", "スズキ"],
     "Daihatsu": ["daihatsu", "ダイハツ"],
+}
+INTENT_RULES = {
+    "charging": ["charge", "charging", "charger", "充電", "range", "battery", "ariya", "leaf", "sakura", "ev"],
+    "warranty": ["warranty", "保証", "battery", "faq", "support", "service"],
+    "range": ["range", "cruising", "battery", "charge", "ariya", "leaf", "sakura", "ev"],
+    "epower": ["e-power", "powertrain", "hybrid", "fuel", "燃費", "note", "aura", "serena"],
+    "safety": ["safety", "assist", "adas", "crash", "安全", "360"],
+    "finance": ["finance", "loan", "lease", "subscription", "insurance", "price", "cost", "payment", "支払"],
+    "family": ["family", "seat", "storage", "luggage", "serena", "x-trail", "elgrand", "interior"],
 }
 PREFERENCE_RULES = [
     "Start with a direct answer that can be quoted without page context.",
@@ -41,7 +49,7 @@ PREFERENCE_RULES = [
 def load_json(path: Path, default=None):
     try:
         if path.exists():
-            return json.loads(path.read_text(encoding='utf-8'))
+            return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return default
     return default
@@ -49,31 +57,47 @@ def load_json(path: Path, default=None):
 
 def write_json(path: Path, obj: Any):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding='utf-8')
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def as_list(obj: Any, keys=()):
-    if isinstance(obj, list): return obj
-    if not isinstance(obj, dict): return []
-    for k in keys:
-        v=obj.get(k)
-        if isinstance(v, list): return v
-        if isinstance(v, dict):
-            nested=as_list(v, keys)
-            if nested: return nested
+def stable_id(prefix: str, *parts: str) -> str:
+    h = hashlib.sha1("|".join(str(p or "") for p in parts).encode("utf-8")).hexdigest()[:10]
+    return f"{prefix}_{h}"
+
+
+def text(v: Any, limit: int = 0) -> str:
+    if v is None:
+        s = ""
+    elif isinstance(v, str):
+        s = v
+    elif isinstance(v, (int, float, bool)):
+        s = str(v)
+    elif isinstance(v, list):
+        s = " ".join(text(x) for x in v)
+    elif isinstance(v, dict):
+        s = " ".join(text(x) for k, x in v.items() if str(k).lower() not in {"html", "raw_html", "rendered_html"})
+    else:
+        s = str(v)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit] if limit and len(s) > limit else s
+
+
+def as_list(obj: Any, keys=()) -> list:
+    if isinstance(obj, list):
+        return obj
+    if isinstance(obj, dict):
+        for k in keys:
+            v = obj.get(k)
+            if isinstance(v, list):
+                return v
+            if isinstance(v, dict):
+                nested = as_list(v, keys)
+                if nested:
+                    return nested
     return []
 
 
-
-
 def record_dict(v: Any, default_key: str = "url") -> dict:
-    """Return a dict for mixed compact-payload records.
-
-    Railway/Bodhi compact payloads may contain arrays of strings where the
-    full pipeline normally emits arrays of objects. For example owned pages
-    may be ["https://..."] rather than [{"url":"https://..."}].
-    The query-workbench builder must be tolerant of both shapes.
-    """
     if isinstance(v, dict):
         return v
     if isinstance(v, str):
@@ -86,208 +110,283 @@ def record_dict(v: Any, default_key: str = "url") -> dict:
 def records_list(obj: Any, keys=(), default_key: str = "url") -> list[dict]:
     return [record_dict(x, default_key=default_key) for x in as_list(obj, keys)]
 
-def text(v: Any, limit: int = 0) -> str:
-    if v is None: s=''
-    elif isinstance(v, str): s=v
-    elif isinstance(v, (int,float,bool)): s=str(v)
-    elif isinstance(v, list): s=' '.join(text(x) for x in v)
-    elif isinstance(v, dict): s=' '.join(text(x) for k,x in v.items() if str(k).lower() not in {'html','raw_html','rendered_html'})
-    else: s=str(v)
-    s=re.sub(r'\s+',' ',s).strip()
-    return s[:limit] if limit and len(s)>limit else s
-
 
 def domain(url: str) -> str:
     try:
-        d=urlparse(url or '').netloc.lower()
-        return d[4:] if d.startswith('www.') else d
+        d = urlparse(url or "").netloc.lower()
+        return d[4:] if d.startswith("www.") else d
     except Exception:
-        return ''
+        return ""
 
 
 def is_owned(url: str) -> bool:
-    d=domain(url)
+    d = domain(url)
     return any(h in d for h in OWNED_HINTS)
 
 
-def source_type(url: str, raw='') -> str:
-    d=domain(url); r=(raw or '').lower()
-    if is_owned(url): return 'owned_or_brand_ecosystem'
-    if any(x in d for x in ['toyota','honda','mitsubishi','mazda','subaru','suzuki','daihatsu','lexus']): return 'competitor_owned'
-    if any(x in d for x in ['reddit','youtube','facebook','instagram','x.com','twitter','tiktok']): return 'forum_social_video'
-    if any(x in d for x in ['go.jp','mlit','meti','nasva','enecho']): return 'authority_body'
-    if any(x in d for x in ['tepco','charging','charge','evdays']): return 'partner_infrastructure'
-    if any(x in d for x in ['price','carmo','rakuten','broker','mailmate','gaijinpot','tc-v']): return 'aggregator_marketplace'
-    if 'review' in r or 'publisher' in r or any(x in d for x in ['nikkei','asahi','recharged','autonews','carwow','parkers','greencarreports']): return 'publisher_review'
-    return r or 'other_external'
+def source_type(url: str, raw: str = "") -> str:
+    d = domain(url); r = (raw or "").lower()
+    if is_owned(url): return "owned_or_nissan_ecosystem"
+    if any(x in d for x in ["toyota", "honda", "mitsubishi", "mazda", "subaru", "suzuki", "daihatsu", "lexus"]): return "competitor_owned"
+    if any(x in d for x in ["reddit", "youtube", "facebook", "instagram", "x.com", "twitter", "tiktok"]): return "forum_social_video"
+    if any(x in d for x in ["go.jp", "mlit", "meti", "nasva", "enecho"]): return "authority_body"
+    if any(x in d for x in ["tepco", "charging", "charge", "evdays"]): return "partner_infrastructure"
+    if any(x in d for x in ["finance", "insurance", "loan", "credit", "fs."]): return "finance_or_insurance"
+    if any(x in d for x in ["price", "carmo", "rakuten", "broker", "mailmate", "gaijinpot", "tc-v"]): return "aggregator_marketplace"
+    if "review" in r or "publisher" in r or any(x in d for x in ["nikkei", "asahi", "recharged", "autonews", "carwow", "parkers", "greencarreports"]): return "publisher_review"
+    return r or "other"
 
 
 def query_id(row: dict, i: int) -> str:
-    return str(row.get('query_id') or row.get('id') or row.get('qid') or f'q{i+1:03d}')
+    return str(row.get("query_id") or row.get("id") or row.get("qid") or f"q{i+1:03d}")
 
 
 def normalise_query(row: dict) -> str:
-    return text(row.get('query') or row.get('search_query') or row.get('question') or row.get('user_query'))
+    return text(row.get("query") or row.get("search_query") or row.get("question") or row.get("user_query"))
+
+
+def normalise_citation(r: dict, pos: int = 1) -> dict:
+    u = text(r.get("url") or r.get("source_url") or r.get("link") or r.get("href"))
+    return {
+        "rank": int(r.get("rank") or r.get("citation_position") or r.get("observed_citation_position") or pos),
+        "citation_position": int(r.get("citation_position") or r.get("rank") or r.get("observed_citation_position") or pos),
+        "title": text(r.get("title") or r.get("source_name") or domain(u)),
+        "url": u,
+        "domain": text(r.get("domain") or r.get("source_domain") or domain(u)),
+        "source_type": source_type(u, text(r.get("source_type") or r.get("source_category"))),
+        "snippet": text(r.get("snippet") or r.get("text") or r.get("summary") or r.get("content_extract"), 700),
+        "is_owned_domain": bool(r.get("is_owned_domain") or r.get("is_owned") or is_owned(u)),
+        "is_owned_target_page": bool(r.get("is_owned_target_page") or r.get("owned_target_page_cited") or False),
+        "is_competitor": bool(r.get("is_competitor") or source_type(u) == "competitor_owned"),
+    }
 
 
 def refs_from(row: dict) -> list[dict]:
     out=[]
     if not isinstance(row, dict): return out
-    for k in ['citations','references','top_citations','top_cited_sources','sources','organic_results','answer_supporting_references']:
+    for k in ["citations", "references", "top_citations", "top_cited_sources", "sources", "organic_results", "answer_supporting_references"]:
         v=row.get(k)
         if isinstance(v, list): out += [x for x in v if isinstance(x, dict)]
-    for k in ['answer','response','google_ai_mode','metadata']:
+    for k in ["answer", "response", "google_ai_mode", "metadata"]:
         if isinstance(row.get(k), dict): out += refs_from(row[k])
     seen=set(); clean=[]
-    for r in out:
-        u=text(r.get('url') or r.get('source_url') or r.get('link') or r.get('href'))
-        if u and u not in seen:
-            seen.add(u); clean.append(r)
+    for i,r in enumerate(out, start=1):
+        c=normalise_citation(r, i)
+        if c["url"] and c["url"] not in seen:
+            seen.add(c["url"]); clean.append(c)
     return clean
 
 
 def detect_competitors(blob: str, citations: list[dict]) -> list[str]:
-    all_text=(blob+' '+' '.join(text(c) for c in citations)).lower()
+    all_text=(blob+" "+" ".join(text(c) for c in citations)).lower()
     found=[]
     for name, variants in COMPETITORS.items():
         if any(v.lower() in all_text for v in variants): found.append(name)
     return found
 
 
-def score_owned_page(page: dict, query: str='') -> tuple[int, dict, list[str]]:
+def infer_intents(query: str) -> list[str]:
+    q=query.lower()
+    intents=[]
+    if any(x in q for x in ["charge", "charger", "charging", "connector", "充電"]): intents.append("charging")
+    if any(x in q for x in ["warranty", "保証"]): intents.append("warranty")
+    if any(x in q for x in ["range", "battery", "energy", "ev", "electric"]): intents.append("range")
+    if any(x in q for x in ["e-power", "hybrid", "powertrain", "fuel", "petrol", "燃費"]): intents.append("epower")
+    if any(x in q for x in ["safety", "adas", "crash", "collision", "rating"]): intents.append("safety")
+    if any(x in q for x in ["cost", "price", "finance", "loan", "lease", "insurance", "subscription", "resale"]): intents.append("finance")
+    if any(x in q for x in ["family", "seat", "luggage", "storage", "comfort", "minivan"]): intents.append("family")
+    return intents or ["general"]
+
+
+def page_blob(page: dict) -> str:
+    return (text(page.get("url") or page.get("resolved_url") or page.get("page_url")) + " " +
+            text(page.get("title") or page.get("page_title")) + " " +
+            text(page.get("description")) + " " +
+            text(page.get("journey_category") or page.get("brand_topic_category")) + " " +
+            text(page.get("related_queries") or page.get("mapped_queries") or page.get("related_queries_seed")) + " " +
+            text(page.get("evidence_markdown") or page.get("markdown") or page.get("content_extract") or page.get("main_text"), 4000)).lower()
+
+
+def score_owned_page(page: dict, query: str="") -> tuple[int, dict, list[str]]:
     page = record_dict(page)
-    blob=text(page)
-    low=blob.lower(); q=normalise_query({'query':query}).lower()
-    q_terms=[w for w in re.findall(r'[a-z0-9]+', q) if len(w)>3]
+    if page.get("score_120") or page.get("geo_readiness_score"):
+        score = int(float(page.get("score_120") or page.get("geo_readiness_score") or 0))
+        dims = page.get("dimensions") if isinstance(page.get("dimensions"), dict) else {}
+        if not dims:
+            dims = page.get("geo_dimensions") if isinstance(page.get("geo_dimensions"), dict) else {}
+        gaps = page.get("dimension_gaps") or page.get("geo_gaps") or []
+        if not isinstance(gaps, list): gaps=[]
+        return score, dims, gaps
+    blob=page_blob(page); low=blob; q=query.lower()
+    q_terms=[w for w in re.findall(r"[a-z0-9]+", q) if len(w)>3]
     overlap=len({w for w in q_terms if w in low})
-    numeric=len(re.findall(r'\d+[\d,.]*\s?(km|kwh|kw|円|万円|年|%|％|mm|kg|人|席)', low))
-    headings=len(re.findall(r'(^|\n)#{1,4}\s+', blob))
-    questions=sum(low.count(x) for x in ['?', '？','faq','よくある','question','質問'])
-    proof=sum(low.count(x) for x in ['official','warranty','safety','rating','test','保証','安全','評価','公式','仕様','諸元'])
-    dates=1 if re.search(r'20[2-3][0-9]|更新日|last updated', low) else 0
+    numeric=len(re.findall(r"\d+[\d,.]*\s?(km|kwh|kw|円|万円|年|%|％|mm|kg|人|席)", low))
+    headings=len(re.findall(r"(^|\n)#{1,4}\s+", text(page.get("markdown") or "")))
+    questions=sum(low.count(x) for x in ["?", "？", "faq", "よくある", "question", "質問"])
+    proof=sum(low.count(x) for x in ["official", "warranty", "safety", "rating", "test", "保証", "安全", "評価", "公式", "仕様", "諸元"])
+    dates=1 if re.search(r"20[2-3][0-9]|更新日|last updated", low) else 0
     length=min(20, int(len(blob)/900))
     dims={
-        'answer_clarity': min(20, 5+overlap*3 + (4 if len(blob)>500 else 0)),
-        'semantic_depth': min(20, 4+length + min(6, numeric)),
-        'structured_extractability': min(20, 5+headings*3 + min(6, questions)),
-        'evidence_and_proof': min(20, 4+proof*2 + min(8, numeric)),
-        'freshness': min(20, 8+dates*8),
-        'faq_readiness': min(20, 4+questions*3),
+        "answer_clarity": min(20, 5+overlap*3 + (4 if len(blob)>500 else 0)),
+        "semantic_depth": min(20, 4+length + min(6, numeric)),
+        "structured_extractability": min(20, 5+headings*3 + min(6, questions)),
+        "evidence_and_proof": min(20, 4+proof*2 + min(8, numeric)),
+        "freshness": min(20, 8+dates*8),
+        "faq_readiness": min(20, 4+questions*3),
     }
     score=sum(dims.values())
     gaps=[k for k,v in dims.items() if v<12]
     return score,dims,gaps
 
 
-def map_owned_urls(query: str, owned_pages: list[dict], max_n=3) -> list[dict]:
-    q_terms=[w for w in re.findall(r'[a-z0-9]+', query.lower()) if len(w)>2]
+def page_intent_bonus(query: str, page: dict) -> int:
+    b=page_blob(page); bonus=0
+    for intent in infer_intents(query):
+        if intent == "general": continue
+        words=INTENT_RULES.get(intent, [])
+        hits=sum(1 for w in words if w.lower() in b)
+        bonus += min(35, hits*7)
+    # penalise obvious mismatch: safety assist page for non-safety cost/charging/warranty query
+    u=text(page.get("url") or page.get("page_url") or page.get("resolved_url")).lower()
+    if "360_safety_assist" in u and not any(x in query.lower() for x in ["safety", "adas", "crash", "collision", "assist"]):
+        bonus -= 18
+    if "e-power" in u and any(x in query.lower() for x in ["hybrid", "e-power", "powertrain", "fuel"]):
+        bonus += 25
+    if any(x in u for x in ["charge", "charging", "range"]) and any(x in query.lower() for x in ["charge", "range", "battery", "ev"]):
+        bonus += 25
+    if "faq" in u and any(x in query.lower() for x in ["warranty", "guidance", "tips", "how"]):
+        bonus += 12
+    return bonus
+
+
+def related_query_match(qid: str, query: str, page: dict) -> int:
+    rel=page.get("related_queries") or page.get("mapped_queries") or page.get("related_queries_seed") or []
+    blob=text(rel).lower()
+    score=0
+    if qid and qid.lower() in blob: score += 80
+    qterms={w for w in re.findall(r"[a-z0-9]+", query.lower()) if len(w)>3}
+    score += min(60, len([w for w in qterms if w in blob])*10)
+    return score
+
+
+def map_owned_urls(query: str, owned_pages: list[dict], max_n=3, qid: str="", category: str="") -> list[dict]:
+    q_terms=[w for w in re.findall(r"[a-z0-9]+", query.lower()) if len(w)>2]
     ranked=[]
     for raw_p in owned_pages:
         p=record_dict(raw_p)
-        u=text(p.get('url') or p.get('resolved_url') or p.get('href') or p.get('link') or p.get('value'))
+        u=text(p.get("url") or p.get("resolved_url") or p.get("href") or p.get("link") or p.get("page_url") or p.get("value"))
         if not u: continue
-        blob=(text(p.get('title'))+' '+text(p.get('description'))+' '+text(p.get('journey_category'))+' '+text(p.get('brand_topic_category'))+' '+text(p.get('mapped_queries'))+' '+text(p.get('related_queries_seed'))+' '+text(p.get('evidence_markdown'), 2000)).lower()
+        blob=page_blob(p)
         overlap=len({w for w in q_terms if w in blob})
         score,dims,gaps=score_owned_page(p, query)
-        mapping_score=min(100, overlap*14 + score/3 + (10 if is_owned(u) else 0))
+        category_bonus=18 if category and category.lower() in text(p.get("journey_category") or p.get("brand_topic_category")).lower() else 0
+        mapping_score=overlap*12 + score/2 + page_intent_bonus(query,p) + related_query_match(qid,query,p) + category_bonus + (10 if is_owned(u) else 0)
         ranked.append((mapping_score, p, score, dims, gaps))
     ranked.sort(key=lambda x:x[0], reverse=True)
-    out=[]
-    for rank,(ms,p,score,dims,gaps) in enumerate(ranked[:max_n], start=1):
+    out=[]; seen=set()
+    for rank,(ms,p,score,dims,gaps) in enumerate([x for x in ranked if text(x[1].get("url") or x[1].get("page_url") or x[1].get("resolved_url")) not in seen][:max_n], start=1):
+        u=text(p.get("url") or p.get("resolved_url") or p.get("page_url"))
+        seen.add(u)
         out.append({
-            'rank': rank,
-            'url': text(p.get('url') or p.get('resolved_url')),
-            'title': text(p.get('title') or p.get('page_title')),
-            'mapping_score': round(ms,1),
-            'mapping_reason': 'Best available owned page based on query-term, page-title, journey and evidence overlap.',
-            'current_geo_score_120': score,
-            'geo_dimensions': dims,
-            'geo_gaps': gaps,
-            'recommended_update_focus': gaps[:4] or ['evidence_and_proof'],
+            "rank": rank,
+            "url": u,
+            "title": text(p.get("title") or p.get("page_title")),
+            "mapping_score": round(ms,1),
+            "mapping_reason": "Ranked by query/topic match, page-type suitability, existing related-query linkage and GEO readiness.",
+            "current_geo_score_120": score,
+            "geo_dimensions": dims,
+            "geo_gaps": gaps,
+            "recommended_update_focus": (gaps[:4] or ["evidence_and_proof"]),
         })
     return out
 
 
-def external_top3(row: dict) -> list[dict]:
-    citations=[]
-    for pos,r in enumerate(refs_from(row), start=1):
-        u=text(r.get('url') or r.get('source_url') or r.get('link') or r.get('href'))
-        if not u or is_owned(u): continue
-        citations.append({
-            'rank': len(citations)+1,
-            'title': text(r.get('title') or r.get('source_name') or domain(u)),
-            'url': u,
-            'domain': domain(u),
-            'source_type': source_type(u, text(r.get('source_type'))),
-            'snippet': text(r.get('snippet') or r.get('text') or r.get('summary'), 500),
-            'observed_citation_position': pos,
-        })
-        if len(citations)>=3: break
-    return citations
+def classify_visibility(row: dict, citations: list[dict], competitors: list[str]) -> str:
+    raw=text(row.get("visibility_status") or row.get("status")).lower()
+    if row.get("owned_target_page_cited") or row.get("owned_target_page_citation") or any(c.get("is_owned_target_page") for c in citations): return "owned_target_cited"
+    if row.get("owned_domain_citations") or any(c.get("is_owned_domain") for c in citations): return "owned_domain_cited"
+    if competitors or row.get("competitor_led") or "competitor" in raw: return "competitor_led"
+    if citations or "external" in raw: return "external_led"
+    return raw or "not_observed"
 
 
-def winning_patterns(query: str, citations: list[dict]) -> list[dict]:
-    out=[]
+def external_top3_from_citations(citations: list[dict]) -> list[dict]:
+    return [c for c in citations if c.get("url") and not c.get("is_owned_domain")][:3]
+
+
+def winning_patterns(query: str, citations: list[dict], pattern_lookup: list[dict] | None = None) -> list[dict]:
+    out=[]; pattern_lookup=pattern_lookup or []
+    by_type=defaultdict(list)
+    for p in pattern_lookup:
+        if isinstance(p, dict):
+            by_type[text(p.get("source_type") or p.get("source_category") or p.get("type"))].append(p)
     for c in citations:
-        st=c['source_type']; sn=c.get('snippet','')
+        st=c.get("source_type") or "other"; sn=c.get("snippet","")
         patterns=[]
-        if re.search(r'\d', sn): patterns.append('uses numeric evidence')
-        if st in {'authority_body','partner_infrastructure'}: patterns.append('borrows authority from specialist or official source')
-        if st in {'publisher_review','aggregator_marketplace'}: patterns.append('packages comparison or buyer guidance')
-        if st=='forum_social_video': patterns.append('captures lived-experience language and objections')
-        if not patterns: patterns.append('uses extractable answer wording')
+        if re.search(r"\d", sn): patterns.append("uses numeric evidence or dated proof")
+        if st in {"authority_body","partner_infrastructure"}: patterns.append("borrows authority from specialist or official source")
+        if st in {"publisher_review","aggregator_marketplace","finance_or_insurance"}: patterns.append("packages comparison, cost or buyer guidance")
+        if st=="competitor_owned": patterns.append("uses model-specific facts in a directly quotable format")
+        if st=="forum_social_video": patterns.append("captures lived-experience language and objections")
+        for bp in by_type.get(st, [])[:1]:
+            extra=text(bp.get("pattern") or bp.get("winning_pattern") or bp.get("description") or bp.get("source_pattern"), 220)
+            if extra: patterns.append(extra)
+        if not patterns: patterns.append("uses extractable answer wording")
         out.append({
-            'source_url': c['url'], 'source_domain': c['domain'], 'source_type': st,
-            'pattern_type': '; '.join(patterns),
-            'owned_content_implication': 'Replicate the useful structure on mapped owned pages using verified brand facts only.',
-            'pr_implication': 'Create corroborating third-party proof where owned pages cannot credibly self-validate the claim.',
-            'evidence_basis': sn or f'{c["domain"]} appeared as a top external citation for this query.'
+            "source_url": c["url"], "source_domain": c.get("domain") or domain(c["url"]), "source_type": st,
+            "pattern_type": "; ".join(dict.fromkeys(patterns)),
+            "owned_content_implication": "Replicate the useful answer structure on mapped owned pages using verified Nissan facts only.",
+            "pr_implication": "Create corroborating third-party proof where owned pages cannot credibly self-validate the claim.",
+            "evidence_basis": sn or f"{c.get('domain') or domain(c['url'])} appeared as a top external citation for this query.",
         })
     return out
 
 
-def cms_recs(query: str, mapped: list[dict], patterns: list[dict]) -> list[dict]:
+def cms_recs(query: str, qid: str, mapped: list[dict], patterns: list[dict]) -> list[dict]:
     recs=[]
-    pat='; '.join(sorted({p['pattern_type'] for p in patterns})) or 'answer-first extractable evidence'
+    pat="; ".join(sorted({p["pattern_type"] for p in patterns})) or "answer-first extractable evidence"
     for m in mapped:
-        title=m['title'] or m['url'].split('/')[-1] or 'owned page'
-        focus=', '.join(m.get('geo_gaps') or ['answer_clarity'])
+        fname=(m["url"].rstrip("/").split("/")[-1] or "owned page")
         recs.append({
-            'recommendation_id': f"cms_{abs(hash(query+m['url'])) % 10**10}",
-            'query': query,
-            'target_url': m['url'],
-            'title': f'Add query-specific answer module to {title[:80]}',
-            'owner': 'AEM/CMS + Product',
-            'priority': 'High' if m.get('current_geo_score_120',0)<60 else 'Medium',
-            'module_type': 'answer_first_summary_plus_faq',
-            'placement': 'Above detailed product copy / below hero',
-            'recommendation': f'Create a concise answer-first section for: {query}',
-            'winning_pattern_to_copy': pat,
-            'content_requirements': [
-                'Use only verified product, pricing, warranty, charging, safety or ownership facts already approved for the market.',
-                'State the direct answer in the first 120-180 words.',
-                'Add a small comparison, caveat or decision checklist when the query is evaluative.',
-                'Add FAQ schema only where the page already supports the answer.'
+            "recommendation_id": stable_id("cms", qid, m["url"]),
+            "query_id": qid,
+            "query": query,
+            "target_url": m["url"],
+            "title": f"Add query-specific answer module to {fname}",
+            "owner": "AEM/CMS + Product",
+            "priority": "High" if m.get("current_geo_score_120",0)<70 else "Medium",
+            "module_type": "answer_first_summary_plus_faq",
+            "placement": "Above detailed product copy / below hero",
+            "recommendation": f"Create a concise answer-first section for: {query}",
+            "winning_pattern_to_copy": pat,
+            "content_requirements": [
+                "State the direct answer in the first 120-180 words.",
+                "Use only verified product, pricing, warranty, charging, safety or ownership facts already approved for the market.",
+                "Mirror the external winning structure without copying external wording.",
+                "Add FAQ schema only where the page already supports the answer.",
             ],
-            'geo_gaps_addressed': m.get('geo_gaps') or [],
-            'validation_required': ['Product', 'Legal/Compliance']
+            "geo_gaps_addressed": m.get("geo_gaps") or [],
+            "validation_required": ["Product", "Legal/Compliance"],
         })
     return recs
 
 
-def pr_recs(query: str, citations: list[dict], patterns: list[dict]) -> list[dict]:
+def pr_recs(query: str, qid: str, citations: list[dict], patterns: list[dict]) -> list[dict]:
     if not citations: return []
-    types=sorted({c['source_type'] for c in citations})
+    types=sorted({c.get("source_type") for c in citations if c.get("source_type")})
+    domains=sorted({c.get("domain") or domain(c.get("url")) for c in citations if c.get("url")})
     return [{
-        'recommendation_id': f"pr_{abs(hash(query+','.join(types))) % 10**10}",
-        'query': query,
-        'title': f'Build external proof for: {query[:90]}',
-        'owner': 'PR / Communications',
-        'priority': 'High' if any(t in {'publisher_review','authority_body','partner_infrastructure'} for t in types) else 'Medium',
-        'target_source_types': types,
-        'recommendation': 'Secure or create credible third-party-referenceable evidence that can corroborate the owned-page answer.',
-        'why_it_matters': 'The current AI answer relies on external citations; owned content needs independent corroboration to change the answer source mix.',
-        'evidence_basis': '; '.join(p['evidence_basis'] for p in patterns[:2]),
+        "recommendation_id": stable_id("pr", qid, ",".join(types), ",".join(domains)),
+        "query_id": qid,
+        "query": query,
+        "title": f"Build external proof for: {query[:90]}",
+        "owner": "PR / Communications",
+        "priority": "High" if any(t in {"publisher_review","authority_body","partner_infrastructure","competitor_owned"} for t in types) else "Medium",
+        "target_source_types": types,
+        "target_domains_observed": domains,
+        "recommendation": "Secure or create credible third-party-referenceable evidence that can corroborate the owned-page answer.",
+        "why_it_matters": "Current AI answers rely on external citations; owned content needs independent corroboration to shift the answer source mix.",
+        "evidence_basis": "; ".join(p.get("evidence_basis","") for p in patterns[:2]),
     }]
 
 
@@ -298,102 +397,26 @@ def visibility_score(status: str, owned_target: bool, owned_domain: bool, compet
     if not competitors: score+=15
     else: score+=max(0, 12-len(competitors)*4)
     score+=min(20, external_count*4)
-    if 'competitor' in status: score-=15
-    if 'external' in status: score-=8
+    if "competitor" in status: score-=15
+    if "external" in status: score-=8
     return max(0,min(100,score))
-
-
-def classify_visibility(row: dict, citations: list[dict], competitors: list[str]) -> str:
-    owned_target=any(c.get('is_owned_target_page') or is_owned(c.get('url','')) for c in citations)
-    owned_domain=any(is_owned(c.get('url','')) for c in citations)
-    raw=text(row.get('visibility_status') or row.get('status')).lower()
-    if owned_target: return 'owned_target_cited'
-    if owned_domain: return 'owned_domain_cited'
-    if competitors or 'competitor' in raw: return 'competitor_led'
-    if citations: return 'external_led'
-    return 'not_observed'
-
-
-
-def write_compact_files_from_payload(root: Path, payload: Any) -> bool:
-    """Accept Railway compact/bodhi-compact payloads and write their file objects into outputs/."""
-    if not isinstance(payload, dict):
-        return False
-    # direct canonical handled elsewhere
-    candidates=[]
-    for key in ['files','bodhi_compact','compact_bundle','bundle','data','run','evidence','outputs']:
-        v=payload.get(key)
-        if isinstance(v, dict):
-            candidates.append(v)
-    if isinstance(payload.get('files'), dict):
-        candidates.insert(0, payload['files'])
-    candidates.append(payload)
-    mapping={
-        'audit_context':['audit_context','audit_context.json','outputs/audit_context/audit_context.json'],
-        'evidence_scope':['evidence_scope','evidence_scope.json','outputs/evidence_scope/evidence_scope.json'],
-        'google_ai_mode_compact':['google_ai_mode_compact','google_ai_mode_compact.json','outputs/google_ai_mode/google_ai_mode_compact.json'],
-        'owned_pages_full':['owned_pages_full','owned_pages_full.json','outputs/content_intelligence/owned_pages_full.json'],
-        'external_pages_full':['external_pages_full','external_pages_full.json','outputs/external_pages/external_pages_full.json'],
-        'visibility_matrix':['visibility_matrix','visibility_matrix.json','outputs/visibility/visibility_matrix.json'],
-        'source_classification':['source_classification','source_classification.json','outputs/source_landscape/source_classification.json'],
-    }
-    paths={
-        'audit_context':'outputs/audit_context/audit_context.json',
-        'evidence_scope':'outputs/evidence_scope/evidence_scope.json',
-        'google_ai_mode_compact':'outputs/google_ai_mode/google_ai_mode_compact.json',
-        'owned_pages_full':'outputs/content_intelligence/owned_pages_full.json',
-        'external_pages_full':'outputs/external_pages/external_pages_full.json',
-        'visibility_matrix':'outputs/visibility/visibility_matrix.json',
-        'source_classification':'outputs/source_landscape/source_classification.json',
-    }
-    wrote=False
-    for canonical, names in mapping.items():
-        value=None
-        for obj in candidates:
-            for name in names:
-                if name in obj:
-                    value=obj[name]
-                    break
-            if value is not None:
-                break
-        if isinstance(value, dict) and 'content' in value:
-            value=value['content']
-        if isinstance(value, dict) and 'data' in value and len(value)==1:
-            value=value['data']
-        if isinstance(value, str):
-            st=value.strip()
-            if st.startswith('{') or st.startswith('['):
-                try: value=json.loads(st)
-                except Exception: pass
-        if value is not None:
-            write_json(root/paths[canonical], value)
-            wrote=True
-    return wrote
 
 
 def find_canonical_payload(obj: Any) -> Any:
     if isinstance(obj, dict):
-        if isinstance(obj.get('query_workbench'), list):
-            return obj
-        if isinstance(obj.get('frontend_report_bundle'), dict):
-            return find_canonical_payload(obj['frontend_report_bundle'])
-        # Bodhi Preview Node tile pattern
-        data=obj.get('data')
-        if isinstance(data, dict):
-            got=find_canonical_payload(data)
+        if obj.get("schema_version") == "query_workbench.v1" and isinstance(obj.get("query_workbench"), list): return obj
+        if isinstance(obj.get("frontend_report_bundle"), dict):
+            got=find_canonical_payload(obj["frontend_report_bundle"])
             if got: return got
-        layout=obj.get('layout')
-        if isinstance(layout, dict):
-            for tile in layout.get('tiles') or []:
-                got=find_canonical_payload(tile)
-                if got: return got
-        default=obj.get('default')
-        if isinstance(default, str):
+        for key in ["data", "layout", "input"]:
+            got=find_canonical_payload(obj.get(key))
+            if got: return got
+        default=obj.get("default") or obj.get("stdout") or obj.get("response")
+        if isinstance(default, str) and default.strip().startswith(("{","[")):
             try:
                 got=find_canonical_payload(json.loads(default))
                 if got: return got
-            except Exception:
-                pass
+            except Exception: pass
         for v in obj.values():
             got=find_canonical_payload(v)
             if got: return got
@@ -403,163 +426,277 @@ def find_canonical_payload(obj: Any) -> Any:
             if got: return got
     return None
 
+
+def find_preview_payload(obj: Any) -> dict | None:
+    if isinstance(obj, dict):
+        if isinstance(obj.get("query_evidence"), list) and (isinstance(obj.get("owned_readiness"), list) or isinstance(obj.get("source_landscape"), dict)):
+            return obj
+        if obj.get("schema_version") == "frontend_report_bundle_v1_preview_contract": return obj
+        # Bodhi output node stdout
+        if "Frontend Preview Bundle Builder" in obj and isinstance(obj["Frontend Preview Bundle Builder"], dict):
+            st=(obj["Frontend Preview Bundle Builder"].get("data") or {}).get("stdout")
+            if isinstance(st,str):
+                try: return find_preview_payload(json.loads(st))
+                except Exception: pass
+        for v in obj.values():
+            if isinstance(v,str) and v.strip().startswith("{"):
+                try:
+                    got=find_preview_payload(json.loads(v))
+                    if got: return got
+                except Exception: pass
+            got=find_preview_payload(v)
+            if got: return got
+    elif isinstance(obj, list):
+        for v in obj:
+            got=find_preview_payload(v)
+            if got: return got
+    return None
+
+
+def write_compact_files_from_payload(root: Path, payload: Any) -> bool:
+    if not isinstance(payload, dict): return False
+    candidates=[]
+    for key in ["files","bodhi_compact","compact_bundle","bundle","data","run","evidence","outputs"]:
+        v=payload.get(key)
+        if isinstance(v, dict): candidates.append(v)
+    candidates.append(payload)
+    mapping={
+        "audit_context":["audit_context","audit_context.json","outputs/audit_context/audit_context.json"],
+        "evidence_scope":["evidence_scope","evidence_scope.json","outputs/evidence_scope/evidence_scope.json"],
+        "google_ai_mode_compact":["google_ai_mode_compact","google_ai_mode_compact.json","outputs/google_ai_mode/google_ai_mode_compact.json"],
+        "owned_pages_full":["owned_pages_full","owned_pages_full.json","outputs/content_intelligence/owned_pages_full.json"],
+        "external_pages_full":["external_pages_full","external_pages_full.json","outputs/external_pages/external_pages_full.json"],
+        "visibility_matrix":["visibility_matrix","visibility_matrix.json","outputs/visibility/visibility_matrix.json"],
+        "source_classification":["source_classification","source_classification.json","outputs/source_landscape/source_classification.json"],
+        "ai_visibility_scores":["ai_visibility_scores","ai_visibility_scores.json","outputs/visibility/ai_visibility_scores.json"],
+        "winning_source_patterns":["winning_source_patterns","winning_source_patterns.json","outputs/benchmark/winning_source_patterns.json"],
+        "source_preference_benchmark":["source_preference_benchmark","source_preference_benchmark.json","outputs/benchmark/source_preference_benchmark.json"],
+    }
+    paths={
+        "audit_context":"outputs/audit_context/audit_context.json",
+        "evidence_scope":"outputs/evidence_scope/evidence_scope.json",
+        "google_ai_mode_compact":"outputs/google_ai_mode/google_ai_mode_compact.json",
+        "owned_pages_full":"outputs/content_intelligence/owned_pages_full.json",
+        "external_pages_full":"outputs/external_pages/external_pages_full.json",
+        "visibility_matrix":"outputs/visibility/visibility_matrix.json",
+        "source_classification":"outputs/source_landscape/source_classification.json",
+        "ai_visibility_scores":"outputs/visibility/ai_visibility_scores.json",
+        "winning_source_patterns":"outputs/benchmark/winning_source_patterns.json",
+        "source_preference_benchmark":"outputs/benchmark/source_preference_benchmark.json",
+    }
+    wrote=False
+    for canonical,names in mapping.items():
+        value=None
+        for obj in candidates:
+            for name in names:
+                if name in obj:
+                    value=obj[name]; break
+            if value is not None: break
+        if isinstance(value, dict) and "content" in value: value=value["content"]
+        if isinstance(value, dict) and "data" in value and len(value)==1: value=value["data"]
+        if isinstance(value, str):
+            st=value.strip()
+            if st.startswith(("{","[")):
+                try: value=json.loads(st)
+                except Exception: pass
+        if value is not None:
+            write_json(root/paths[canonical], value); wrote=True
+    return wrote
+
+
+def build_from_preview(preview: dict, args) -> dict:
+    qrows=preview.get("query_evidence") or []
+    owned_pages=preview.get("owned_readiness") or []
+    old_kpis=preview.get("executive_kpis") if isinstance(preview.get("executive_kpis"),dict) else {}
+    sl=preview.get("source_landscape") if isinstance(preview.get("source_landscape"),dict) else {}
+    sources=sl.get("sources") if isinstance(sl.get("sources"),list) else []
+    visibility=preview.get("visibility") if isinstance(preview.get("visibility"),dict) else {}
+    patterns_lookup=visibility.get("external_benchmark_patterns") or []
+    sources_by_q=defaultdict(list)
+    for s in sources:
+        if isinstance(s,dict):
+            c=normalise_citation({**s,"url":s.get("source_url") or s.get("url"),"domain":s.get("source_domain") or s.get("domain")}, len(sources_by_q[text(s.get("query_id"))])+1)
+            c["is_owned_domain"] = bool(s.get("is_owned_domain") or is_owned(c["url"]))
+            c["is_owned_target_page"] = bool(s.get("is_owned_target_page"))
+            c["is_competitor"] = bool(s.get("is_competitor") or c["source_type"]=="competitor_owned")
+            sources_by_q[text(s.get("query_id"))].append(c)
+    qwork=[]; all_cms=[]; all_pr=[]; actions_by_key={}; source_counts=Counter(); competitor_counts=Counter()
+    for i,row in enumerate(qrows):
+        row=record_dict(row, default_key="query")
+        qid=query_id(row,i); q=normalise_query(row); cat=text(row.get("brand_topic_category") or row.get("journey_category") or row.get("category") or "Unclassified")
+        citations=[normalise_citation(c, j+1) for j,c in enumerate(row.get("citations") or []) if isinstance(c,dict)]
+        if not citations and sources_by_q.get(qid): citations=sources_by_q[qid]
+        for c in citations: source_counts[c["source_type"]]+=1
+        competitors=list(row.get("competitor_brands_detected") or []) if isinstance(row.get("competitor_brands_detected"),list) else []
+        if isinstance(row.get("competitor_brands_detected"),dict): competitors=[k.title() for k,v in row["competitor_brands_detected"].items() if v]
+        if not competitors: competitors=detect_competitors(text(row), citations)
+        for comp in competitors: competitor_counts[comp]+=1
+        status=classify_visibility(row,citations,competitors)
+        mapped=map_owned_urls(q, owned_pages, args.max_owned, qid=qid, category=cat)
+        top3=external_top3_from_citations(citations)
+        pats=winning_patterns(q, top3, patterns_lookup)
+        cms=cms_recs(q,qid,mapped,pats); pr=pr_recs(q,qid,top3,pats)
+        all_cms.extend(cms); all_pr.extend(pr)
+        owned_target=bool(row.get("owned_target_page_cited") or row.get("owned_target_page_citations") or any(c.get("is_owned_target_page") for c in citations))
+        owned_domain=bool(row.get("owned_domain_citations") or any(c.get("is_owned_domain") for c in citations))
+        score=row.get("ai_visibility_score")
+        try: score=int(float(score))
+        except Exception: score=visibility_score(status,owned_target,owned_domain,competitors,len(top3))
+        item={
+            "query_id":qid,"query":q,"query_type":row.get("query_type") or ("branded" if "nissan" in q.lower() or "日産" in q else "non_branded"),"journey_category":cat,
+            "current_ai_visibility":{"score":score,"status":status,"owned_target_cited":owned_target,"owned_domain_cited":owned_domain,"competitors":competitors,"competitor_citation_count":int(row.get("competitor_citation_count") or len(competitors)),"top_citations":citations[:8]},
+            "mapped_owned_urls":mapped,"external_top3_benchmark":top3,"winning_patterns":pats,"cms_recommendations":cms,"pr_recommendations":pr,"action_items":[],"previous_run_delta":None,"loop_state":"baseline_ready" if not owned_target else "monitor_and_refresh",
+        }
+        item["action_items"]=[{"action":c["title"],"owner":c["owner"],"priority":c["priority"],"effort":"M","status":"Not started","target":c["target_url"],"workstream":"CMS remediation","source_query_id":qid} for c in cms[:3]] + [{"action":p["title"],"owner":p["owner"],"priority":p["priority"],"effort":"M","status":"Not started","target":", ".join(p.get("target_domains_observed") or p.get("target_source_types") or []),"workstream":"PR / external proof","source_query_id":qid} for p in pr[:1]]
+        for a in item["action_items"]:
+            actions_by_key.setdefault((a["workstream"],a.get("target"),a["action"]), {**a,"linked_query_ids":[]})["linked_query_ids"].append(qid)
+        qwork.append(item)
+    # Prefer previous deduped action checklist if present and valid.
+    old_actions=preview.get("action_checklist") if isinstance(preview.get("action_checklist"),list) else []
+    action_checklist=old_actions or list(actions_by_key.values())
+    owned_summary=build_owned_summary(qwork)
+    bundle=assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklist, source_counts, competitor_counts)
+    # Carry rich legacy fields so frontend can render old-quality views too.
+    for k in ["executive_report","executive_kpis","dashboard_summary","source_landscape","visibility","owned_page_recommendations","cms_ready_content_modules","cms_generation_summary","pr_strategy_synthesis","pr_opportunities","action_checklist_summary","validation"]:
+        if k in preview: bundle[k]=preview[k]
+    bundle["parser_manifest"]={**(preview.get("parser_manifest") if isinstance(preview.get("parser_manifest"),dict) else {}), "query_workbench_count":len(qwork), "source_of_truth":"query_workbench_builder_v3_from_preview_or_compact"}
+    return bundle
+
+
+def build_owned_summary(qwork: list[dict]) -> list[dict]:
+    byurl={}
+    for x in qwork:
+        for m in x.get("mapped_owned_urls") or []:
+            u=m.get("url")
+            if not u: continue
+            o=byurl.setdefault(u,{**m,"related_queries":[],"journey_category":x.get("journey_category")})
+            o["related_queries"].append({"id":x.get("query_id"),"query":x.get("query"),"visibility_status":(x.get("current_ai_visibility") or {}).get("status")})
+    return list(byurl.values())
+
+
+def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklist, source_counts, competitor_counts) -> dict:
+    qcount=len(qwork)
+    avg_ai=round(sum((x.get("current_ai_visibility") or {}).get("score",0) for x in qwork)/max(1,qcount),1)
+    target_cites=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("owned_target_cited"))
+    domain_cites=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("owned_domain_cited"))
+    competitor_led=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("status")=="competitor_led")
+    external_led=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("status")=="external_led")
+    run_id=args.run_id or f"{args.brand}_{args.market}_{time.strftime('%Y%m%d_%H%M%S')}_baseline".replace(" ","_")
+    return {
+        "schema_version":"query_workbench.v1",
+        "run_id":run_id,
+        "brand":args.brand,
+        "market":args.market,
+        "domain":args.domain,
+        "generated_at":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "locked_orchestration_strategy":"query -> top_3_owned_urls -> top_3_external_citations -> winning_patterns -> CMS_PR_recommendations -> rerun_delta -> refreshed_recommendations",
+        "executive":{
+            "summary": f"{args.brand} has {avg_ai}/100 average AI visibility across {qcount} audited queries. Each query is mapped to up to three owned URLs and benchmarked against the top external citations.",
+            "what_is_happening":["AI answers are compressing discovery into a small citation set.","Owned pages must compete at query level, not only domain level.","External sources reveal the answer structure and evidence patterns that models prefer."],
+            "why_now":["Generative engines cite passages, not only rank pages.","Visibility should be managed as a recurring evidence and content loop.","New citations can appear after refresh, so recommendations must be regenerated from observed top sources."],
+            "priority_actions":["Implement top query-level CMS modules for mapped owned URLs.","Create PR proof assets where external sources currently dominate.","Rerun the same query portfolio after updates and compare deltas."],
+            "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1)}
+        },
+        "query_workbench":qwork,
+        "owned_url_readiness":owned_summary,
+        "cms_recommendations":all_cms,
+        "pr_opportunities":all_pr,
+        "action_checklist":action_checklist,
+        "source_landscape":{"source_type_counts":[{"source_type":k,"count":v} for k,v in source_counts.most_common()],"competitors":[{"name":k,"count":v} for k,v in competitor_counts.most_common()]},
+        "run_history":[],
+        "methodology":{"visibility_principles":["Position/citation prominence, owned citation status, competitor displacement and source control are tracked at query level."],"geo_preference_rules":PREFERENCE_RULES,"refresh_policy":"On rerun, preserve query ids, refresh top citations, recompute winning patterns and regenerate recommendations only where evidence changed."},
+    }
+
+
 def main():
     ap=argparse.ArgumentParser()
-    ap.add_argument('--project-root', default='.')
-    ap.add_argument('--input-json', default='')
-    ap.add_argument('--brand', default='Nissan')
-    ap.add_argument('--market', default='Japan')
-    ap.add_argument('--domain', default='https://www.nissan.co.jp')
-    ap.add_argument('--run-id', default='')
-    ap.add_argument('--max-owned', type=int, default=3)
+    ap.add_argument("--project-root", default=".")
+    ap.add_argument("--input-json", default="")
+    ap.add_argument("--brand", default="Nissan")
+    ap.add_argument("--market", default="Japan")
+    ap.add_argument("--domain", default="https://www.nissan.co.jp")
+    ap.add_argument("--run-id", default="")
+    ap.add_argument("--max-owned", type=int, default=3)
     args=ap.parse_args()
     root=Path(args.project_root).resolve()
     raw_input=load_json(Path(args.input_json), {}) if args.input_json else {}
 
-    audit=load_json(root/'outputs/audit_context/audit_context.json', {}) or load_json(root/'inputs/audit_context.json', {}) or {}
-    evidence=load_json(root/'outputs/evidence_scope/evidence_scope.json', {}) or {}
-    visibility=load_json(root/'outputs/visibility/visibility_matrix.json', {}) or {}
-    ai_scores=load_json(root/'outputs/visibility/ai_visibility_scores.json', {}) or {}
-    owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
-    external_full=load_json(root/'outputs/external_pages/external_pages_full.json', {}) or {}
-    owned_recs_existing=load_json(root/'outputs/recommendations/owned_page_content_recommendations.json', {}) or {}
-    pr_existing=load_json(root/'outputs/pr_publisher_opportunities/pr_opportunity_plan.json', {}) or {}
-    action_existing=load_json(root/'outputs/actions/action_checklist.json', {}) or {}
-
-    # Bodhi/Railway input support: canonical preview bundle or compact file payload.
-    if isinstance(raw_input, dict):
-        canonical = find_canonical_payload(raw_input)
-        if isinstance(canonical, dict) and isinstance(canonical.get('query_workbench'), list):
-            bundle=canonical
-            write_json(root/'outputs/frontend_report_bundle.json', bundle)
-            write_json(root/'outputs/bodhi/preview_node_bundle.json', bundle)
-            write_json(root/'outputs/query_workbench/query_workbench.json', {'query_workbench': bundle.get('query_workbench',[])})
-            print(json.dumps({'status':'copied_existing_canonical_bundle','query_count':len(bundle.get('query_workbench',[]))}, indent=2))
-            return
-        write_compact_files_from_payload(root, raw_input)
-
-    query_rows = as_list(visibility, ['queries','rows']) or as_list(audit, ['queries','query_portfolio']) or as_list(evidence, ['queries'])
-    owned_pages = records_list(owned_full, ['pages','owned_pages','items']) or records_list(audit, ['pages','owned_urls','candidate_owned_pages']) or records_list(evidence, ['owned_pages'])
-    score_rows = as_list(ai_scores, ['scores','rows'])
-    score_by_q={str(x.get('query_id') or x.get('id')): x for x in score_rows if isinstance(x, dict)}
-
-    qwork=[]; all_citations=[]; all_cms=[]; all_pr=[]; source_counts=Counter(); competitor_counts=Counter()
-    for i,raw_row in enumerate(query_rows):
-        row = record_dict(raw_row, default_key='query')
-        if not isinstance(row, dict): continue
-        qid=query_id(row,i); q=normalise_query(row)
-        if not q: continue
-        citations=[]
-        # Use embedded citations first, fallback to external top3.
-        embedded=refs_from(row)
-        for pos,r in enumerate(embedded, start=1):
-            u=text(r.get('url') or r.get('source_url') or r.get('link') or r.get('href'))
-            if not u: continue
-            c={'rank':pos,'title':text(r.get('title') or r.get('source_name') or domain(u)), 'url':u, 'domain':domain(u), 'source_type':source_type(u, text(r.get('source_type'))), 'snippet':text(r.get('snippet') or r.get('text') or r.get('summary'), 500), 'is_owned':is_owned(u)}
-            citations.append(c); all_citations.append({**c,'query_id':qid,'query':q})
-            source_counts[c['source_type']]+=1
-        top3=[c for c in citations if not c['is_owned']][:3] or external_top3(row)
-        for c in top3: source_counts[c['source_type']]+=0
-        competitors=detect_competitors(text(row), citations)
-        for comp in competitors: competitor_counts[comp]+=1
-        status=classify_visibility(row, citations, competitors)
-        mapped=map_owned_urls(q, owned_pages, args.max_owned)
-        patterns=winning_patterns(q, top3)
-        cms=cms_recs(q, mapped, patterns); pr=pr_recs(q, top3, patterns)
-        all_cms.extend(cms); all_pr.extend(pr)
-        sc=score_by_q.get(qid, {})
-        owned_target=any(c.get('is_owned') for c in citations)
-        owned_domain=owned_target
-        ai_score=int(sc.get('ai_visibility_score') or visibility_score(status, owned_target, owned_domain, competitors, len(top3)))
-        qwork.append({
-            'query_id': qid,
-            'query': q,
-            'query_type': row.get('query_type') or ('branded' if 'nissan' in q.lower() or '日産' in q else 'non_branded'),
-            'journey_category': text(row.get('brand_topic_category') or row.get('journey_category') or row.get('category') or 'Unclassified'),
-            'current_ai_visibility': {
-                'score': ai_score,
-                'status': status,
-                'owned_target_cited': owned_target,
-                'owned_domain_cited': owned_domain,
-                'competitors': competitors,
-                'competitor_citation_count': len(competitors),
-                'top_citations': citations[:8]
-            },
-            'mapped_owned_urls': mapped,
-            'external_top3_benchmark': top3,
-            'winning_patterns': patterns,
-            'cms_recommendations': cms,
-            'pr_recommendations': pr,
-            'action_items': [],
-            'previous_run_delta': None,
-            'loop_state': 'baseline_ready' if not owned_target else 'monitor_and_refresh'
-        })
-
-    for item in qwork:
-        actions=[]
-        for c in item['cms_recommendations'][:3]:
-            actions.append({'action':c['title'],'owner':c['owner'],'priority':c['priority'],'effort':'M','status':'Not started','target':c['target_url'],'workstream':'CMS remediation','source_query_id':item['query_id']})
-        for p in item['pr_recommendations'][:1]:
-            actions.append({'action':p['title'],'owner':p['owner'],'priority':p['priority'],'effort':'M','status':'Not started','target':', '.join(p.get('target_source_types',[])),'workstream':'PR / external proof','source_query_id':item['query_id']})
-        item['action_items']=actions
-
-    qcount=len(qwork); owned_count=len(owned_pages)
-    avg_ai=round(sum(x['current_ai_visibility']['score'] for x in qwork)/max(1,qcount),1)
-    target_cites=sum(1 for x in qwork if x['current_ai_visibility']['owned_target_cited'])
-    domain_cites=sum(1 for x in qwork if x['current_ai_visibility']['owned_domain_cited'])
-    competitor_led=sum(1 for x in qwork if x['current_ai_visibility']['status']=='competitor_led')
-    external_led=sum(1 for x in qwork if x['current_ai_visibility']['status']=='external_led')
-    owned_summary=[]
-    seen=set()
-    for x in qwork:
-        for m in x['mapped_owned_urls']:
-            if m['url'] in seen: continue
-            seen.add(m['url'])
-            owned_summary.append({**m,'related_queries':[{'id':x['query_id'],'query':x['query'],'visibility_status':x['current_ai_visibility']['status']}], 'journey_category':x['journey_category']})
-    # merge duplicate related queries
-    byurl={}
-    for x in qwork:
-        for m in x['mapped_owned_urls']:
-            o=byurl.setdefault(m['url'], {**m,'related_queries':[], 'journey_category':x['journey_category']})
-            o['related_queries'].append({'id':x['query_id'],'query':x['query'],'visibility_status':x['current_ai_visibility']['status']})
-    owned_summary=list(byurl.values())
-    actions=[a for q in qwork for a in q['action_items']]
-    run_id=args.run_id or f"{args.brand}_{args.market}_{time.strftime('%Y%m%d_%H%M%S')}_baseline".replace(' ','_')
-    bundle={
-        'schema_version':'query_workbench.v1',
-        'run_id':run_id,
-        'brand':args.brand,
-        'market':args.market,
-        'domain':args.domain,
-        'generated_at':time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
-        'locked_orchestration_strategy':'query -> top_3_owned_urls -> top_3_external_citations -> winning_patterns -> CMS_PR_recommendations -> rerun_delta -> refreshed_recommendations',
-        'executive':{
-            'summary': f'{args.brand} has {avg_ai}/100 average AI visibility across {qcount} audited queries. The optimisation loop is now query-led: each query is mapped to up to three owned URLs and benchmarked against the top external citations.',
-            'what_is_happening':['AI answers are compressing discovery into a small citation set.','Owned pages must compete at query level, not only domain level.','External sources reveal the answer structure and evidence patterns that models prefer.'],
-            'why_now':['Generative engines cite passages, not only rank pages.','Visibility should be managed as a recurring evidence and content loop.','New citations can appear after refresh, so recommendations must be regenerated from observed top sources.'],
-            'priority_actions':['Implement top query-level CMS modules for mapped owned URLs.','Create PR proof assets where external sources currently dominate.','Rerun the same query portfolio after updates and compare deltas.'],
-            'headline_metrics':{
-                'ai_visibility_score':avg_ai,'query_count':qcount,'owned_page_count':len(owned_summary),'owned_target_page_citations':target_cites,'owned_domain_citations':domain_cites,'competitor_led_query_count':competitor_led,'external_led_query_count':external_led,'external_source_count':sum(source_counts.values()),'average_owned_geo_score_120':round(sum(o.get('current_geo_score_120',0) for o in owned_summary)/max(1,len(owned_summary)),1)
-            }
-        },
-        'query_workbench':qwork,
-        'owned_url_readiness':owned_summary,
-        'cms_recommendations':all_cms,
-        'pr_opportunities':all_pr,
-        'action_checklist':actions,
-        'source_landscape':{'source_type_counts':[{'source_type':k,'count':v} for k,v in source_counts.most_common()], 'competitors':[{'name':k,'count':v} for k,v in competitor_counts.most_common()]},
-        'run_history':[],
-        'methodology':{
-            'visibility_principles':['Position/citation prominence, owned citation status, competitor displacement and source control are tracked at query level.'],
-            'geo_preference_rules':PREFERENCE_RULES,
-            'refresh_policy':'On rerun, preserve query ids, refresh top citations, recompute winning patterns and regenerate recommendations only where evidence changed.'
-        }
-    }
-    write_json(root/'outputs/query_workbench/query_workbench.json', {'query_workbench':qwork})
+    canonical=find_canonical_payload(raw_input) if isinstance(raw_input,dict) else None
+    if isinstance(canonical,dict):
+        bundle=canonical
+    else:
+        preview=find_preview_payload(raw_input) if isinstance(raw_input,dict) else None
+        if preview:
+            bundle=build_from_preview(preview,args)
+        else:
+            if isinstance(raw_input,dict): write_compact_files_from_payload(root, raw_input)
+            audit=load_json(root/'outputs/audit_context/audit_context.json', {}) or load_json(root/'inputs/audit_context.json', {}) or {}
+            evidence=load_json(root/'outputs/evidence_scope/evidence_scope.json', {}) or {}
+            visibility=load_json(root/'outputs/visibility/visibility_matrix.json', {}) or {}
+            ai_scores=load_json(root/'outputs/visibility/ai_visibility_scores.json', {}) or {}
+            google=load_json(root/'outputs/google_ai_mode/google_ai_mode_compact.json', {}) or {}
+            owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
+            source_class=load_json(root/'outputs/source_landscape/source_classification.json', {}) or {}
+            patterns=load_json(root/'outputs/benchmark/winning_source_patterns.json', {}) or {}
+            query_rows=(as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
+            owned_pages=(records_list(owned_full,["pages","owned_pages","items"]) or records_list(audit,["pages","owned_urls","candidate_owned_pages"]) or records_list(evidence,["owned_pages","candidate_owned_pages"]))
+            # external/source rows can provide citations by query when visibility rows do not.
+            sources=records_list(source_class,["sources","rows"], default_key="url")
+            sources_by_q=defaultdict(list)
+            for s in sources:
+                qid=text(s.get("query_id"));
+                if qid: sources_by_q[qid].append(normalise_citation({**s,"url":s.get("source_url") or s.get("url")}, len(sources_by_q[qid])+1))
+            score_by_q={str(x.get("query_id") or x.get("id")):x for x in as_list(ai_scores,["scores","rows"]) if isinstance(x,dict)}
+            pattern_lookup=as_list(patterns,["patterns","rows"])
+            qwork=[]; all_cms=[]; all_pr=[]; source_counts=Counter(); competitor_counts=Counter(); actions_by_key={}
+            for i,raw_row in enumerate(query_rows):
+                row=record_dict(raw_row, default_key="query"); qid=query_id(row,i); q=normalise_query(row)
+                if not q: continue
+                cat=text(row.get("brand_topic_category") or row.get("journey_category") or row.get("category") or "Unclassified")
+                citations=refs_from(row) or sources_by_q.get(qid, [])
+                for c in citations: source_counts[c["source_type"]]+=1
+                competitors=detect_competitors(text(row),citations)
+                if isinstance(score_by_q.get(qid,{}).get("competitor_brands_detected"),dict): competitors=[k.title() for k,v in score_by_q[qid]["competitor_brands_detected"].items() if v]
+                for comp in competitors: competitor_counts[comp]+=1
+                status=classify_visibility({**score_by_q.get(qid,{}),**row},citations,competitors)
+                top3=external_top3_from_citations(citations)
+                mapped=map_owned_urls(q,owned_pages,args.max_owned,qid=qid,category=cat)
+                pats=winning_patterns(q,top3,pattern_lookup)
+                cms=cms_recs(q,qid,mapped,pats); pr=pr_recs(q,qid,top3,pats)
+                all_cms.extend(cms); all_pr.extend(pr)
+                owned_target=any(c.get("is_owned_target_page") for c in citations)
+                owned_domain=any(c.get("is_owned_domain") for c in citations)
+                sc=score_by_q.get(qid,{})
+                try: ai_score=int(float(sc.get("ai_visibility_score")))
+                except Exception: ai_score=visibility_score(status,owned_target,owned_domain,competitors,len(top3))
+                item={"query_id":qid,"query":q,"query_type":row.get("query_type") or ("branded" if "nissan" in q.lower() or "日産" in q else "non_branded"),"journey_category":cat,"current_ai_visibility":{"score":ai_score,"status":status,"owned_target_cited":owned_target,"owned_domain_cited":owned_domain,"competitors":competitors,"competitor_citation_count":len(competitors),"top_citations":citations[:8]},"mapped_owned_urls":mapped,"external_top3_benchmark":top3,"winning_patterns":pats,"cms_recommendations":cms,"pr_recommendations":pr,"action_items":[],"previous_run_delta":None,"loop_state":"baseline_ready" if not owned_target else "monitor_and_refresh"}
+                item["action_items"]=[{"action":c["title"],"owner":c["owner"],"priority":c["priority"],"effort":"M","status":"Not started","target":c["target_url"],"workstream":"CMS remediation","source_query_id":qid} for c in cms[:3]] + [{"action":p["title"],"owner":p["owner"],"priority":p["priority"],"effort":"M","status":"Not started","target":", ".join(p.get("target_domains_observed") or []),"workstream":"PR / external proof","source_query_id":qid} for p in pr[:1]]
+                for a in item["action_items"]: actions_by_key.setdefault((a["workstream"],a.get("target"),a["action"]), {**a,"linked_query_ids":[]})["linked_query_ids"].append(qid)
+                qwork.append(item)
+            bundle=assemble_bundle(args,qwork,build_owned_summary(qwork),all_cms,all_pr,list(actions_by_key.values()),source_counts,competitor_counts)
+    # validation / quality flags
+    qwork=bundle.get("query_workbench") or []
+    bundle.setdefault("parser_manifest", {})
+    bundle["parser_manifest"].update({
+        "query_workbench_count": len(qwork),
+        "queries_with_top_citations": sum(1 for q in qwork if (q.get("current_ai_visibility") or {}).get("top_citations")),
+        "queries_with_external_top3": sum(1 for q in qwork if q.get("external_top3_benchmark")),
+        "queries_with_three_owned_urls": sum(1 for q in qwork if len(q.get("mapped_owned_urls") or []) >= 3),
+        "source_of_truth": "query_workbench_builder_v3",
+    })
+    bundle.setdefault("validation", {})
+    if isinstance(bundle["validation"], dict):
+        warnings=[]
+        if bundle["parser_manifest"]["queries_with_external_top3"] == 0: warnings.append("No query has external top-3 citations. Recommendations will be generic.")
+        if bundle["parser_manifest"]["queries_with_three_owned_urls"] < len(qwork): warnings.append("Some queries have fewer than 3 mapped owned URLs.")
+        bundle["validation"]["quality_warnings"] = warnings
+        bundle["validation"]["status"] = bundle["validation"].get("status") or ("warning" if warnings else "passed")
+    write_json(root/'outputs/query_workbench/query_workbench.json', {"query_workbench": qwork})
     write_json(root/'outputs/frontend_report_bundle.json', bundle)
     write_json(root/'outputs/bodhi/preview_node_bundle.json', bundle)
     write_json(root/'outputs/dashboard/ai_visibility_dashboard_dataset.json', bundle)
-    write_json(root/'outputs/actions/action_checklist.json', {'actions':actions})
-    print(json.dumps({'status':'ready','run_id':run_id,'query_count':qcount,'owned_urls':len(owned_summary),'cms_recommendations':len(all_cms),'pr_opportunities':len(all_pr),'actions':len(actions),'output':'outputs/frontend_report_bundle.json'}, ensure_ascii=False, indent=2))
+    write_json(root/'outputs/actions/action_checklist.json', {"actions": bundle.get("action_checklist", [])})
+    print(json.dumps({"status":"ready","run_id":bundle.get("run_id"),"query_count":len(qwork),"queries_with_external_top3":bundle["parser_manifest"]["queries_with_external_top3"],"owned_urls":len(bundle.get("owned_url_readiness") or []),"cms_recommendations":len(bundle.get("cms_recommendations") or []),"pr_opportunities":len(bundle.get("pr_opportunities") or []),"actions":len(bundle.get("action_checklist") or []),"output":"outputs/frontend_report_bundle.json"}, ensure_ascii=False, indent=2))
 
-if __name__=='__main__': main()
+if __name__=='__main__':
+    main()
