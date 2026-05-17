@@ -64,6 +64,28 @@ def as_list(obj: Any, keys=()):
     return []
 
 
+
+
+def record_dict(v: Any, default_key: str = "url") -> dict:
+    """Return a dict for mixed compact-payload records.
+
+    Railway/Bodhi compact payloads may contain arrays of strings where the
+    full pipeline normally emits arrays of objects. For example owned pages
+    may be ["https://..."] rather than [{"url":"https://..."}].
+    The query-workbench builder must be tolerant of both shapes.
+    """
+    if isinstance(v, dict):
+        return v
+    if isinstance(v, str):
+        return {default_key: v}
+    if v is None:
+        return {}
+    return {"value": v}
+
+
+def records_list(obj: Any, keys=(), default_key: str = "url") -> list[dict]:
+    return [record_dict(x, default_key=default_key) for x in as_list(obj, keys)]
+
 def text(v: Any, limit: int = 0) -> str:
     if v is None: s=''
     elif isinstance(v, str): s=v
@@ -133,6 +155,7 @@ def detect_competitors(blob: str, citations: list[dict]) -> list[str]:
 
 
 def score_owned_page(page: dict, query: str='') -> tuple[int, dict, list[str]]:
+    page = record_dict(page)
     blob=text(page)
     low=blob.lower(); q=normalise_query({'query':query}).lower()
     q_terms=[w for w in re.findall(r'[a-z0-9]+', q) if len(w)>3]
@@ -159,8 +182,9 @@ def score_owned_page(page: dict, query: str='') -> tuple[int, dict, list[str]]:
 def map_owned_urls(query: str, owned_pages: list[dict], max_n=3) -> list[dict]:
     q_terms=[w for w in re.findall(r'[a-z0-9]+', query.lower()) if len(w)>2]
     ranked=[]
-    for p in owned_pages:
-        u=text(p.get('url') or p.get('resolved_url'))
+    for raw_p in owned_pages:
+        p=record_dict(raw_p)
+        u=text(p.get('url') or p.get('resolved_url') or p.get('href') or p.get('link') or p.get('value'))
         if not u: continue
         blob=(text(p.get('title'))+' '+text(p.get('description'))+' '+text(p.get('journey_category'))+' '+text(p.get('brand_topic_category'))+' '+text(p.get('mapped_queries'))+' '+text(p.get('related_queries_seed'))+' '+text(p.get('evidence_markdown'), 2000)).lower()
         overlap=len({w for w in q_terms if w in blob})
@@ -415,12 +439,13 @@ def main():
         write_compact_files_from_payload(root, raw_input)
 
     query_rows = as_list(visibility, ['queries','rows']) or as_list(audit, ['queries','query_portfolio']) or as_list(evidence, ['queries'])
-    owned_pages = as_list(owned_full, ['pages','owned_pages','items']) or as_list(audit, ['pages','owned_urls','candidate_owned_pages']) or as_list(evidence, ['owned_pages'])
+    owned_pages = records_list(owned_full, ['pages','owned_pages','items']) or records_list(audit, ['pages','owned_urls','candidate_owned_pages']) or records_list(evidence, ['owned_pages'])
     score_rows = as_list(ai_scores, ['scores','rows'])
     score_by_q={str(x.get('query_id') or x.get('id')): x for x in score_rows if isinstance(x, dict)}
 
     qwork=[]; all_citations=[]; all_cms=[]; all_pr=[]; source_counts=Counter(); competitor_counts=Counter()
-    for i,row in enumerate(query_rows):
+    for i,raw_row in enumerate(query_rows):
+        row = record_dict(raw_row, default_key='query')
         if not isinstance(row, dict): continue
         qid=query_id(row,i); q=normalise_query(row)
         if not q: continue
