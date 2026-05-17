@@ -390,6 +390,272 @@ def pr_recs(query: str, qid: str, citations: list[dict], patterns: list[dict]) -
     }]
 
 
+
+def module_type_for_query(query: str, patterns: list[dict] | None = None) -> str:
+    q=(query or '').lower()
+    if any(x in q for x in ['cost','price','finance','lease','insurance','resale','running cost','total cost']):
+        return 'cost_and_ownership_proof'
+    if any(x in q for x in ['warranty','guarantee','保証']):
+        return 'warranty_and_coverage_faq'
+    if any(x in q for x in ['charging','charger','charge','range','battery','ev']):
+        return 'charging_range_answer_block'
+    if any(x in q for x in ['safety','adas','crash','collision','rating']):
+        return 'safety_proof_block'
+    if any(x in q for x in ['family','seat','luggage','storage','comfort','minivan']):
+        return 'family_practicality_buyer_checklist'
+    if any(x in q for x in ['hybrid','e-power','powertrain','fuel']):
+        return 'powertrain_explainer'
+    return 'answer_first_summary_plus_faq'
+
+
+def module_label(module_type: str) -> str:
+    labels={
+        'cost_and_ownership_proof':'cost and ownership proof module',
+        'warranty_and_coverage_faq':'warranty and coverage FAQ module',
+        'charging_range_answer_block':'charging/range answer block',
+        'safety_proof_block':'safety proof block',
+        'family_practicality_buyer_checklist':'family practicality checklist',
+        'powertrain_explainer':'powertrain explainer',
+        'answer_first_summary_plus_faq':'answer-first summary and FAQ module',
+    }
+    return labels.get(module_type,module_type.replace('_',' '))
+
+
+def pattern_value_weight(pattern: dict) -> int:
+    st=pattern.get('source_type') or ''
+    txt=text(pattern)
+    w=1
+    if st in {'authority_body','partner_infrastructure','publisher_review','finance_or_insurance'}: w += 3
+    if st in {'competitor_owned','aggregator_marketplace'}: w += 2
+    if re.search(r'\d', txt): w += 2
+    if any(x in txt.lower() for x in ['statistics','numeric','warranty','cost','range','rating','official','third-party','authority']): w += 1
+    if st == 'forum_social_video': w += 0
+    return w
+
+
+def action_verb(module_type: str) -> str:
+    if module_type == 'cost_and_ownership_proof': return 'Add ownership-cost evidence block'
+    if module_type == 'warranty_and_coverage_faq': return 'Add warranty and coverage FAQ'
+    if module_type == 'charging_range_answer_block': return 'Add charging/range answer block'
+    if module_type == 'safety_proof_block': return 'Add safety proof block'
+    if module_type == 'family_practicality_buyer_checklist': return 'Add family practicality checklist'
+    if module_type == 'powertrain_explainer': return 'Add e-POWER / powertrain explainer'
+    return 'Add answer-first citation module'
+
+
+def aggregate_page_level_cms(qwork: list[dict], max_changes_per_page: int = 3) -> tuple[list[dict], list[dict]]:
+    """Aggregate all query-level patterns into page-level high-value CMS changes.
+
+    The loop owner implements pages, not individual query rows. This function keeps
+    query lineage but prioritises the smallest number of page changes that can move
+    GEO readiness and AI visibility across many queries.
+    """
+    page_groups=defaultdict(lambda: {
+        'url':'','title':'','journeys':Counter(),'queries':[], 'module_groups':defaultdict(lambda:{
+            'module_type':'','queries':[], 'patterns':[], 'source_types':Counter(), 'external_domains':Counter(), 'geo_gaps':Counter(), 'value_score':0
+        }), 'geo_scores':[], 'geo_gaps':Counter()
+    })
+    for q in qwork:
+        qid=q.get('query_id'); query=q.get('query') or ''; journey=q.get('journey_category') or 'Unclassified'
+        visibility=q.get('current_ai_visibility') or {}
+        patterns=q.get('winning_patterns') or []
+        mapped=q.get('mapped_owned_urls') or []
+        if not mapped: continue
+        # Use all mapped URLs, but give the strongest credit to top-ranked pages.
+        for m in mapped:
+            url=m.get('url')
+            if not url: continue
+            grp=page_groups[url]
+            grp['url']=url; grp['title']=m.get('title') or grp.get('title') or ''
+            grp['journeys'][journey]+=1
+            grp['geo_scores'].append(m.get('current_geo_score_120') or 0)
+            for gap in m.get('geo_gaps') or []: grp['geo_gaps'][gap]+=1
+            mod=module_type_for_query(query, patterns)
+            mg=grp['module_groups'][mod]
+            mg['module_type']=mod
+            query_value=1
+            if visibility.get('status') in {'external_led','competitor_led'}: query_value += 3
+            if not visibility.get('owned_target_cited'): query_value += 2
+            query_value += max(0, 4-int(m.get('rank') or 3))
+            query_value += min(5, len(patterns))
+            mg['value_score'] += query_value
+            mg['queries'].append({'query_id':qid,'query':query,'journey_category':journey,'visibility_status':visibility.get('status'),'ai_visibility_score':visibility.get('score')})
+            for p in patterns:
+                mg['patterns'].append(p)
+                if p.get('source_type'): mg['source_types'][p.get('source_type')]+=1
+                if p.get('source_domain'): mg['external_domains'][p.get('source_domain')]+=1
+                mg['value_score'] += pattern_value_weight(p)
+    page_recs=[]; actions=[]
+    for url,grp in page_groups.items():
+        ranked=sorted(grp['module_groups'].values(), key=lambda x:(x['value_score'], len(x['queries'])), reverse=True)[:max_changes_per_page]
+        avg_geo=round(sum(float(x or 0) for x in grp['geo_scores'])/max(1,len(grp['geo_scores'])),1)
+        primary_journey=grp['journeys'].most_common(1)[0][0] if grp['journeys'] else 'Unclassified'
+        for idx,mg in enumerate(ranked, start=1):
+            module_type=mg['module_type']
+            linked_queries=mg['queries']
+            unique_q=list({q['query_id']:q for q in linked_queries}.values())
+            priority='High' if len(unique_q)>=3 or mg['value_score']>=30 or avg_geo<65 else ('Medium' if len(unique_q)>=2 else 'Low')
+            top_patterns=[]
+            seen=set()
+            for pat in sorted(mg['patterns'], key=pattern_value_weight, reverse=True):
+                key=(pat.get('source_type'), pat.get('pattern_type'))
+                if key in seen: continue
+                seen.add(key); top_patterns.append(pat)
+                if len(top_patterns)>=5: break
+            source_types=[{'source_type':k,'count':v} for k,v in mg['source_types'].most_common(5)]
+            domains=[{'domain':k,'count':v} for k,v in mg['external_domains'].most_common(5)]
+            rec_id=stable_id('pagecms',url,module_type)
+            rec={
+                'recommendation_id':rec_id,
+                'target_url':url,
+                'page_title':grp.get('title',''),
+                'journey_category':primary_journey,
+                'module_type':module_type,
+                'title':f"{action_verb(module_type)} on page",
+                'owner':'AEM/CMS + Product',
+                'priority':priority,
+                'value_score':round(mg['value_score'],1),
+                'query_coverage_count':len(unique_q),
+                'linked_queries':unique_q,
+                'current_geo_score_120':avg_geo,
+                'geo_gaps_addressed':[k for k,_ in grp['geo_gaps'].most_common(5)],
+                'source_types_benchmarked':source_types,
+                'external_domains_benchmarked':domains,
+                'winning_patterns_to_aggregate':top_patterns,
+                'recommended_change':f"Create one {module_label(module_type)} that answers the highest-value recurring query intents for this page, using the observed external winning patterns as structure but only verified owned facts as claims.",
+                'content_requirements':[
+                    'Aggregate overlapping query needs into one reusable page module rather than one module per query.',
+                    'Open with a direct, quotable answer and then add proof, caveats and decision criteria.',
+                    'Use verified Nissan facts only; do not copy or fabricate external-source claims.',
+                    'Prefer statistics, citations, quotations, tables or FAQs where the evidence supports them.',
+                    'Track post-update movement in both page GEO score and query AI visibility score.'
+                ],
+                'expected_impact':{
+                    'geo_score_target_delta':'+8 to +20 points where evidence gaps are addressed',
+                    'ai_visibility_target':'Increase owned target-page citation and reduce external/competitor-led status across linked queries',
+                    'rerun_success_measures':['owned_target_cited=true for linked queries','higher page GEO score','reduced competitor/external-led count']
+                },
+                'validation_required':['Product','Legal/Compliance','SEO/GEO lead']
+            }
+            page_recs.append(rec)
+            actions.append({
+                'action_id':stable_id('actcms',url,module_type),
+                'action':f"{action_verb(module_type)}: {url}",
+                'owner':'AEM/CMS + Product',
+                'priority':priority,
+                'effort':'M' if len(unique_q)<=4 else 'L',
+                'status':'Not started',
+                'target_url':url,
+                'workstream':'CMS page optimisation',
+                'source':'Page-level CMS recommendation',
+                'value_score':round(mg['value_score'],1),
+                'linked_query_ids':[q['query_id'] for q in unique_q],
+                'query_coverage_count':len(unique_q),
+                'module_type':module_type,
+                'tracking_metrics':['page_geo_score_120','linked_query_ai_visibility_score','owned_target_citation_count']
+            })
+    # keep only high/medium value items; low stays in recs but not primary action backlog
+    actions=[a for a in actions if a['priority'] in {'High','Medium'}]
+    actions.sort(key=lambda a:({'High':0,'Medium':1,'Low':2}.get(a['priority'],3), -a.get('query_coverage_count',0), -a.get('value_score',0)))
+    page_recs.sort(key=lambda r:({'High':0,'Medium':1,'Low':2}.get(r['priority'],3), -r.get('query_coverage_count',0), -r.get('value_score',0)))
+    return page_recs, actions
+
+
+def aggregate_pr_opportunities(qwork: list[dict], max_items: int = 20) -> tuple[list[dict], list[dict]]:
+    """Aggregate PR opportunities by source type/theme and grouped queries.
+
+    PR recommendations deliberately do not target owned URLs. They track external
+    proof gaps and grouped query clusters where third-party validation can move
+    AI visibility across many queries.
+    """
+    groups=defaultdict(lambda:{'source_type':'','journeys':Counter(),'queries':[], 'domains':Counter(), 'patterns':[], 'value_score':0, 'competitors':Counter()})
+    for q in qwork:
+        qid=q.get('query_id'); query=q.get('query') or ''; journey=q.get('journey_category') or 'Unclassified'
+        vis=q.get('current_ai_visibility') or {}
+        for comp in vis.get('competitors') or []: pass
+        for c in q.get('external_top3_benchmark') or []:
+            st=c.get('source_type') or 'other'
+            if st in {'owned_or_nissan_ecosystem'}: continue
+            grp=groups[st]; grp['source_type']=st; grp['journeys'][journey]+=1
+            grp['domains'][c.get('domain') or domain(c.get('url'))]+=1
+            query_value=1
+            if vis.get('status') in {'external_led','competitor_led'}: query_value += 3
+            if not vis.get('owned_target_cited'): query_value += 2
+            if st in {'authority_body','publisher_review','partner_infrastructure','finance_or_insurance'}: query_value += 3
+            if st == 'forum_social_video': query_value += 1
+            grp['value_score'] += query_value
+            grp['queries'].append({'query_id':qid,'query':query,'journey_category':journey,'visibility_status':vis.get('status'),'ai_visibility_score':vis.get('score')})
+            for comp in vis.get('competitors') or []: grp['competitors'][comp]+=1
+        for p in q.get('winning_patterns') or []:
+            st=p.get('source_type') or 'other'
+            if st in groups: groups[st]['patterns'].append(p)
+    out=[]; actions=[]
+    for st,grp in groups.items():
+        unique_q=list({q['query_id']:q for q in grp['queries']}.values())
+        if len(unique_q)<2 and grp['value_score']<12:
+            continue
+        priority='High' if len(unique_q)>=5 or grp['value_score']>=35 else 'Medium'
+        if st == 'forum_social_video':
+            opportunity_type='objection_evidence_and_community_signal'
+            action='Monitor and address recurring community objections with credible owned and third-party explainers'
+        elif st in {'authority_body','partner_infrastructure'}:
+            opportunity_type='authority_or_partner_proof'
+            action='Create or secure authoritative third-party proof points aligned to recurring buyer questions'
+        elif st in {'publisher_review','finance_or_insurance','aggregator_marketplace'}:
+            opportunity_type='publisher_and_comparison_coverage'
+            action='Secure neutral comparison/publisher coverage with verifiable facts and decision criteria'
+        elif st == 'competitor_owned':
+            opportunity_type='competitor_displacement_evidence'
+            action='Build third-party validation that offsets competitor-owned evidence in AI answers'
+        else:
+            opportunity_type='external_proof_gap'
+            action='Create third-party-referenceable proof assets for recurring AI answer gaps'
+        opp_id=stable_id('prgrp',st,','.join(q['query_id'] for q in unique_q[:20]))
+        top_patterns=[]; seen=set()
+        for p in sorted(grp['patterns'], key=pattern_value_weight, reverse=True):
+            key=(p.get('source_type'),p.get('pattern_type'))
+            if key in seen: continue
+            seen.add(key); top_patterns.append(p)
+            if len(top_patterns)>=5: break
+        rec={
+            'recommendation_id':opp_id,
+            'opportunity_type':opportunity_type,
+            'source_type':st,
+            'title':action,
+            'owner':'PR / Communications',
+            'priority':priority,
+            'value_score':round(grp['value_score'],1),
+            'query_coverage_count':len(unique_q),
+            'grouped_queries':unique_q,
+            'journey_mix':[{'journey_category':k,'count':v} for k,v in grp['journeys'].most_common()],
+            'observed_external_domains':[{'domain':k,'count':v} for k,v in grp['domains'].most_common(10)],
+            'competitors_observed':[{'competitor':k,'count':v} for k,v in grp['competitors'].most_common(8)],
+            'winning_patterns_observed':top_patterns,
+            'recommended_pr_action':action,
+            'why_it_matters':'This external source pattern influences multiple queries, so it is a higher-value PR lever than query-by-query outreach.',
+            'tracking_metrics':['grouped_query_ai_visibility_score','external_led_query_count','owned_domain_citation_count','competitor_led_query_count'],
+            'exclusions':['No owned URL target is assigned to PR actions; PR is tracked by query group and source landscape only.']
+        }
+        out.append(rec)
+        actions.append({
+            'action_id':stable_id('actpr',st,opp_id),
+            'action':action,
+            'owner':'PR / Communications',
+            'priority':priority,
+            'effort':'M' if len(unique_q)<=6 else 'L',
+            'status':'Not started',
+            'workstream':'PR / external proof',
+            'source':'Grouped PR opportunity',
+            'source_type':st,
+            'value_score':round(grp['value_score'],1),
+            'linked_query_ids':[q['query_id'] for q in unique_q],
+            'query_coverage_count':len(unique_q),
+            'tracking_metrics':['grouped_query_ai_visibility_score','external_citation_mix','competitor_displacement']
+        })
+    out.sort(key=lambda r:({'High':0,'Medium':1}.get(r['priority'],2), -r.get('query_coverage_count',0), -r.get('value_score',0)))
+    actions.sort(key=lambda a:({'High':0,'Medium':1}.get(a['priority'],2), -a.get('query_coverage_count',0), -a.get('value_score',0)))
+    return out[:max_items], actions[:max_items]
+
 def visibility_score(status: str, owned_target: bool, owned_domain: bool, competitors: list[str], external_count: int) -> int:
     score=0
     if owned_target: score+=55
@@ -401,6 +667,40 @@ def visibility_score(status: str, owned_target: bool, owned_domain: bool, compet
     if "external" in status: score-=8
     return max(0,min(100,score))
 
+
+
+
+def upgrade_canonical_bundle(existing: dict, args) -> dict:
+    """Upgrade an existing query_workbench.v1 bundle to the page-level CMS/grouped PR contract."""
+    qwork=existing.get('query_workbench') or []
+    if not isinstance(qwork, list): qwork=[]
+    source_counts=Counter(); competitor_counts=Counter(); all_cms=[]; all_pr=[]
+    for q in qwork:
+        if not isinstance(q, dict): continue
+        for c in (q.get('current_ai_visibility') or {}).get('top_citations') or []:
+            if isinstance(c, dict): source_counts[c.get('source_type') or source_type(c.get('url',''))]+=1
+        for comp in (q.get('current_ai_visibility') or {}).get('competitors') or []:
+            competitor_counts[comp]+=1
+        for c in q.get('cms_recommendations') or []:
+            if isinstance(c,dict): all_cms.append(c)
+        for pr in q.get('pr_recommendations') or []:
+            if isinstance(pr,dict): all_pr.append(pr)
+    owned_summary=existing.get('owned_url_readiness') if isinstance(existing.get('owned_url_readiness'), list) else build_owned_summary(qwork)
+    upgraded=assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, existing.get('action_checklist') or [], source_counts, competitor_counts)
+    # Preserve LLM and render fields from the existing run, but do not override canonical recommendations/actions.
+    preserve_keys=['executive_report','executive_kpis','dashboard_summary','visibility','cms_generation_summary','pr_strategy_synthesis','query_strategy_synthesis','executive_synthesis','validation','parser_manifest','cms_ready_content_modules']
+    for k in preserve_keys:
+        if k in existing: upgraded[k]=existing[k]
+    upgraded['legacy_cms_recommendations']=existing.get('cms_recommendations') or []
+    upgraded['legacy_pr_opportunities']=existing.get('pr_opportunities') or []
+    upgraded['legacy_action_checklist']=existing.get('action_checklist') or []
+    upgraded.setdefault('parser_manifest',{}).update({
+        'upgraded_to_contract':'page_level_cms_grouped_pr.v1',
+        'page_level_cms_recommendations':len(upgraded.get('page_level_cms_recommendations') or []),
+        'grouped_pr_opportunities':len(upgraded.get('grouped_pr_opportunities') or []),
+        'canonical_action_count':len(upgraded.get('action_checklist') or []),
+    })
+    return upgraded
 
 def find_canonical_payload(obj: Any) -> Any:
     if isinstance(obj, dict):
@@ -557,8 +857,16 @@ def build_from_preview(preview: dict, args) -> dict:
     owned_summary=build_owned_summary(qwork)
     bundle=assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklist, source_counts, competitor_counts)
     # Carry rich legacy fields so frontend can render old-quality views too.
-    for k in ["executive_report","executive_kpis","dashboard_summary","source_landscape","visibility","owned_page_recommendations","cms_ready_content_modules","cms_generation_summary","pr_strategy_synthesis","pr_opportunities","action_checklist_summary","validation"]:
+    # Carry rich legacy render fields, but do not overwrite the canonical v4
+    # page-level CMS recommendations, grouped PR opportunities, or action backlog.
+    for k in ["executive_report","executive_kpis","dashboard_summary","source_landscape","visibility","cms_ready_content_modules","cms_generation_summary","pr_strategy_synthesis","action_checklist_summary","validation"]:
         if k in preview: bundle[k]=preview[k]
+    if "owned_page_recommendations" in preview:
+        bundle["legacy_owned_page_recommendations"] = preview["owned_page_recommendations"]
+    if "pr_opportunities" in preview:
+        bundle["legacy_query_pr_opportunities"] = preview["pr_opportunities"]
+    if "action_checklist" in preview:
+        bundle["legacy_action_checklist"] = preview["action_checklist"]
     bundle["parser_manifest"]={**(preview.get("parser_manifest") if isinstance(preview.get("parser_manifest"),dict) else {}), "query_workbench_count":len(qwork), "source_of_truth":"query_workbench_builder_v3_from_preview_or_compact"}
     return bundle
 
@@ -582,29 +890,51 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
     competitor_led=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("status")=="competitor_led")
     external_led=sum(1 for x in qwork if (x.get("current_ai_visibility") or {}).get("status")=="external_led")
     run_id=args.run_id or f"{args.brand}_{args.market}_{time.strftime('%Y%m%d_%H%M%S')}_baseline".replace(" ","_")
+
+    # Canonical v4 prioritisation: CMS is page-level; PR is query-group/source-landscape level.
+    page_cms_recommendations, cms_actions = aggregate_page_level_cms(qwork, max_changes_per_page=3)
+    grouped_pr_opportunities, pr_actions = aggregate_pr_opportunities(qwork, max_items=20)
+    query_level_cms = all_cms
+    query_level_pr = all_pr
+    canonical_actions = cms_actions + pr_actions
+    if not canonical_actions:
+        canonical_actions = action_checklist
+
     return {
         "schema_version":"query_workbench.v1",
+        "contract_version":"page_level_cms_grouped_pr.v1",
         "run_id":run_id,
         "brand":args.brand,
         "market":args.market,
         "domain":args.domain,
         "generated_at":time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "locked_orchestration_strategy":"query -> top_3_owned_urls -> top_3_external_citations -> winning_patterns -> CMS_PR_recommendations -> rerun_delta -> refreshed_recommendations",
+        "locked_orchestration_strategy":"query -> top_3_owned_urls -> top_3_external_citations -> page_level_CMS_changes -> grouped_PR_opportunities -> rerun_delta -> refreshed_recommendations",
         "executive":{
-            "summary": f"{args.brand} has {avg_ai}/100 average AI visibility across {qcount} audited queries. Each query is mapped to up to three owned URLs and benchmarked against the top external citations.",
-            "what_is_happening":["AI answers are compressing discovery into a small citation set.","Owned pages must compete at query level, not only domain level.","External sources reveal the answer structure and evidence patterns that models prefer."],
-            "why_now":["Generative engines cite passages, not only rank pages.","Visibility should be managed as a recurring evidence and content loop.","New citations can appear after refresh, so recommendations must be regenerated from observed top sources."],
-            "priority_actions":["Implement top query-level CMS modules for mapped owned URLs.","Create PR proof assets where external sources currently dominate.","Rerun the same query portfolio after updates and compare deltas."],
-            "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1)}
+            "summary": f"{args.brand} has {avg_ai}/100 average AI visibility across {qcount} audited queries. CMS work is aggregated by page so the highest-value modules can improve multiple linked queries; PR work is grouped by external source pattern, not owned URL.",
+            "what_is_happening":["AI answers are compressing discovery into a small citation set.","Owned pages must compete at query level, but CMS implementation should happen at page level.","External sources reveal the answer structure and evidence patterns that models prefer."],
+            "why_now":["Generative engines cite passages, not only rank pages.","Visibility should be managed as a recurring evidence and content loop.","Page-level CMS changes and grouped PR proof assets can be rerun against the same query set to measure GEO and AI visibility deltas."],
+            "priority_actions":["Implement top page-level CMS modules that cover the most linked queries.","Prioritise PR opportunities that affect multiple grouped queries; do not map PR actions to owned URLs.","Rerun the same query portfolio after updates and compare page GEO score and query AI visibility deltas."],
+            "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1),"page_level_cms_recommendations":len(page_cms_recommendations),"grouped_pr_opportunities":len(grouped_pr_opportunities)}
         },
         "query_workbench":qwork,
         "owned_url_readiness":owned_summary,
-        "cms_recommendations":all_cms,
-        "pr_opportunities":all_pr,
-        "action_checklist":action_checklist,
+        "cms_recommendations":page_cms_recommendations,
+        "page_level_cms_recommendations":page_cms_recommendations,
+        "query_level_cms_recommendations":query_level_cms,
+        "pr_opportunities":grouped_pr_opportunities,
+        "grouped_pr_opportunities":grouped_pr_opportunities,
+        "query_level_pr_signals":query_level_pr,
+        "action_checklist":canonical_actions,
         "source_landscape":{"source_type_counts":[{"source_type":k,"count":v} for k,v in source_counts.most_common()],"competitors":[{"name":k,"count":v} for k,v in competitor_counts.most_common()]},
         "run_history":[],
-        "methodology":{"visibility_principles":["Position/citation prominence, owned citation status, competitor displacement and source control are tracked at query level."],"geo_preference_rules":PREFERENCE_RULES,"refresh_policy":"On rerun, preserve query ids, refresh top citations, recompute winning patterns and regenerate recommendations only where evidence changed."},
+        "measurement_contract":{
+            "cms_tracking_level":"owned_page_url",
+            "cms_success_metrics":["page_geo_score_120_delta","linked_query_ai_visibility_score_delta","owned_target_citation_count_delta"],
+            "pr_tracking_level":"grouped_queries_and_source_type",
+            "pr_success_metrics":["grouped_query_ai_visibility_score_delta","external_led_query_count_delta","competitor_led_query_count_delta"],
+            "pr_url_reporting":"disabled; PR actions are not owned-URL-specific"
+        },
+        "methodology":{"visibility_principles":["Position/citation prominence, owned citation status, competitor displacement and source control are tracked at query level."],"geo_preference_rules":PREFERENCE_RULES,"prioritisation_rules":["CMS recommendations are aggregated by owned URL and ranked by query coverage, evidence value, current visibility gap and GEO gap.","Low-value page changes are retained only as supporting context and excluded from the primary action backlog.","PR opportunities are grouped by source type, journey mix and query coverage; no PR action is assigned to an owned URL."],"refresh_policy":"On rerun, preserve query ids, refresh top citations, recompute page-level CMS and grouped PR recommendations only where evidence changed."},
     }
 
 
@@ -623,7 +953,7 @@ def main():
 
     canonical=find_canonical_payload(raw_input) if isinstance(raw_input,dict) else None
     if isinstance(canonical,dict):
-        bundle=canonical
+        bundle=upgrade_canonical_bundle(canonical,args)
     else:
         preview=find_preview_payload(raw_input) if isinstance(raw_input,dict) else None
         if preview:
