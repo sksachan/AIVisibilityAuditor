@@ -96,3 +96,8 @@ The canonical builder now emits an executive topic scorecard for the CMO-ready E
 - `executive_summary.brand_topic_scorecard`
 
 Dry runs without SerpAPI/citation evidence intentionally show `aiVisibilityScore: null` and comments that evidence was not collected. Live runs with AI citation evidence populate topic-level visibility and relative-position fields from observed citations and competitor/source signals.
+
+## v5.4 notes
+- Consumes Evidence Service v3.4.7 citation fields from `google_ai_mode_compact`, `evidence_scope` and `source_classification`.
+- Populates Query Workbench citation links, external top-3 benchmarks, source landscape counts and grouped PR inputs from SerpAPI references.
+- Preserves English as the default dashboard and CMS recommendation language.

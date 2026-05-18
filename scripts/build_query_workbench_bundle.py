@@ -301,6 +301,80 @@ def refs_from(row: dict) -> list[dict]:
     return clean
 
 
+
+def build_google_citations_by_q(google: dict) -> dict:
+    """Return citations keyed by query_id from google_ai_mode_compact rows.
+
+    Evidence Service v3.4.7 exposes top_citations/references on rows. Older rows
+    may use queries/results. This adapter keeps the report populated even when the
+    query portfolio is the primary query row source.
+    """
+    out = defaultdict(list)
+    rows = []
+    if isinstance(google, dict):
+        rows = google.get("rows") or google.get("queries") or google.get("results") or []
+    if not isinstance(rows, list):
+        return out
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        qid = text(row.get("query_id") or row.get("id"))
+        if not qid:
+            continue
+        refs = refs_from(row)
+        for c in refs:
+            if c.get("url"):
+                out[qid].append(c)
+    return out
+
+
+def build_evidence_citations_by_q(evidence: dict, source_class: dict) -> dict:
+    """Return citations keyed by query_id from evidence_scope and source_classification.
+
+    evidence_scope.ai_citations already carries query_id. source_classification often
+    aggregates by source URL with a queries[] list; expand that back to query rows.
+    """
+    out = defaultdict(list)
+    if isinstance(evidence, dict):
+        for s in records_list(evidence, ["ai_citations", "citations", "external_sources", "sources", "external_citation_urls"], default_key="url"):
+            if not isinstance(s, dict):
+                continue
+            qids = []
+            if s.get("query_id"):
+                qids = [text(s.get("query_id"))]
+            elif isinstance(s.get("queries"), list):
+                qids = [text(x) for x in s.get("queries") if text(x)]
+            for qid in qids:
+                c = normalise_citation({**s, "url": s.get("source_url") or s.get("url")}, len(out[qid]) + 1)
+                if c.get("url"):
+                    out[qid].append(c)
+    if isinstance(source_class, dict):
+        for s in records_list(source_class, ["sources", "rows"], default_key="url"):
+            if not isinstance(s, dict):
+                continue
+            qids = []
+            if s.get("query_id"):
+                qids = [text(s.get("query_id"))]
+            elif isinstance(s.get("queries"), list):
+                qids = [text(x) for x in s.get("queries") if text(x)]
+            for qid in qids:
+                c = normalise_citation({**s, "url": s.get("source_url") or s.get("url")}, len(out[qid]) + 1)
+                if c.get("url"):
+                    out[qid].append(c)
+    # de-dupe per query
+    clean = defaultdict(list)
+    for qid, cites in out.items():
+        seen = set()
+        for idx, c in enumerate(cites, start=1):
+            u = c.get("url")
+            if not u or u in seen:
+                continue
+            seen.add(u)
+            c["rank"] = c.get("rank") or idx
+            c["citation_position"] = c.get("citation_position") or idx
+            clean[qid].append(c)
+    return clean
+
 def detect_competitors(blob: str, citations: list[dict]) -> list[str]:
     all_text=(blob+" "+" ".join(text(c) for c in citations)).lower()
     found=[]
@@ -488,6 +562,7 @@ def cms_recs(query: str, qid: str, mapped: list[dict], patterns: list[dict]) -> 
                 "Use only verified product, pricing, warranty, charging, safety or ownership facts already approved for the market.",
                 "Mirror the external winning structure without copying external wording.",
                 "Add FAQ schema only where the page already supports the answer.",
+                "Write recommendations and dashboard copy in English by default; include local Japanese terms only as evidence labels where useful.",
             ],
             "geo_gaps_addressed": m.get("geo_gaps") or [],
             "validation_required": ["Product", "Legal/Compliance"],
@@ -1284,11 +1359,27 @@ def main():
                 query_rows = query_rows[:args.query_limit]
             owned_pages=(records_list(owned_pages_file,["pages","owned_pages","items"]) or records_list(sitemap_inventory_file,["urls","pages","owned_pages","items"]) or records_list(owned_full,["pages","owned_pages","items"]) or records_list(audit,["pages","owned_urls","candidate_owned_pages"]) or records_list(evidence,["owned_pages","candidate_owned_pages"]))
             # external/source rows can provide citations by query when visibility rows do not.
-            sources=records_list(ai_citations_file,["citations","sources","rows","items"], default_key="url") + records_list(source_class,["sources","rows"], default_key="url")
+            # Include Evidence Service v3.4.7 fields from evidence_scope, source_classification
+            # and google_ai_mode_compact so citations are retained when the primary query
+            # rows come from the portfolio/audit_context rather than Google rows.
             sources_by_q=defaultdict(list)
-            for s in sources:
-                qid=text(s.get("query_id"));
-                if qid: sources_by_q[qid].append(normalise_citation({**s,"url":s.get("source_url") or s.get("url")}, len(sources_by_q[qid])+1))
+            for qid, cites in build_evidence_citations_by_q(evidence, source_class).items():
+                sources_by_q[qid].extend(cites)
+            for qid, cites in build_google_citations_by_q(google).items():
+                sources_by_q[qid].extend(cites)
+            legacy_sources=records_list(ai_citations_file,["citations","sources","rows","items"], default_key="url")
+            for src in legacy_sources:
+                qid=text(src.get("query_id"))
+                if qid:
+                    sources_by_q[qid].append(normalise_citation({**src,"url":src.get("source_url") or src.get("url")}, len(sources_by_q[qid])+1))
+            # de-dupe after combining all source channels
+            for qid, cites in list(sources_by_q.items()):
+                seen=set(); clean=[]
+                for c in cites:
+                    u=c.get("url")
+                    if u and u not in seen:
+                        seen.add(u); clean.append(c)
+                sources_by_q[qid]=clean
             score_by_q={str(x.get("query_id") or x.get("id")):x for x in as_list(ai_scores,["scores","rows"]) if isinstance(x,dict)}
             pattern_lookup=as_list(patterns,["patterns","rows"])
             qwork=[]; all_cms=[]; all_pr=[]; source_counts=Counter(); competitor_counts=Counter(); actions_by_key={}
