@@ -564,6 +564,16 @@ def map_owned_urls(query: str, owned_pages: list[dict], max_n=3, qid: str="", ca
             "geo_dimensions": dims,
             "geo_gaps": gaps,
             "recommended_update_focus": (gaps[:4] or ["evidence_and_proof"]),
+            "technical_signals": {
+                "json_ld_present": bool(p.get("json_ld_present") or p.get("has_json_ld") or p.get("schema_types_detected")),
+                "schema_types": p.get("schema_types_detected") if isinstance(p.get("schema_types_detected"), list) else [],
+                "robots_meta": text(p.get("robots_meta") or (p.get("metadata") or {}).get("robots") if isinstance(p.get("metadata"), dict) else ""),
+                "canonical_url": text(p.get("canonical_url") or p.get("final_url") or p.get("resolved_url")),
+                "meta_description_present": bool(p.get("meta_description") or ((p.get("metadata") or {}).get("description") if isinstance(p.get("metadata"), dict) else "")),
+                "crawl_status": text(p.get("crawl_status")),
+                "word_count": p.get("word_count"),
+                "markdown_chars": p.get("markdown_chars"),
+            },
         })
     return out
 
@@ -1173,6 +1183,7 @@ def write_compact_files_from_payload(root: Path, payload: Any) -> bool:
         "ai_visibility_scores":["ai_visibility_scores","ai_visibility_scores.json","outputs/visibility/ai_visibility_scores.json"],
         "winning_source_patterns":["winning_source_patterns","winning_source_patterns.json","outputs/benchmark/winning_source_patterns.json"],
         "source_preference_benchmark":["source_preference_benchmark","source_preference_benchmark.json","outputs/benchmark/source_preference_benchmark.json"],
+        "site_ai_hygiene":["site_ai_hygiene","ai_discoverability_hygiene","site_ai_hygiene.json"],
     }
     paths={
         "audit_context":"outputs/audit_context/audit_context.json",
@@ -1185,6 +1196,7 @@ def write_compact_files_from_payload(root: Path, payload: Any) -> bool:
         "ai_visibility_scores":"outputs/visibility/ai_visibility_scores.json",
         "winning_source_patterns":"outputs/benchmark/winning_source_patterns.json",
         "source_preference_benchmark":"outputs/benchmark/source_preference_benchmark.json",
+        "site_ai_hygiene":"outputs/site_ai_hygiene.json",
     }
     wrote=False
     for canonical,names in mapping.items():
@@ -1294,6 +1306,23 @@ def build_owned_summary(qwork: list[dict]) -> list[dict]:
     return out
 
 
+
+def build_hygiene_actions(hygiene: dict) -> list[dict]:
+    if not isinstance(hygiene, dict) or not hygiene:
+        return []
+    actions=[]
+    robots=(hygiene.get('robots_txt') or {}) if isinstance(hygiene.get('robots_txt'),dict) else {}
+    llms=(hygiene.get('llms_txt') or {}) if isinstance(hygiene.get('llms_txt'),dict) else {}
+    sd=(hygiene.get('structured_data') or {}) if isinstance(hygiene.get('structured_data'),dict) else {}
+    coverage=float(sd.get('coverage_pct') or 0)
+    if robots.get('status') != 'present':
+        actions.append({'action':'Publish or repair robots.txt and include sitemap directives for AI/search crawlers.','owner':'SEO / Engineering','priority':'High','effort':'S','status':'Not started','workstream':'AI discoverability hygiene','target':robots.get('url') or '/robots.txt','category':'technical_controls'})
+    if llms.get('status') != 'present':
+        actions.append({'action':'Create llms.txt with concise guidance to high-value brand, product, support and policy pages.','owner':'SEO / Content / Engineering','priority':'Medium','effort':'S','status':'Not started','workstream':'AI discoverability hygiene','target':llms.get('url') or '/llms.txt','category':'technical_controls'})
+    if coverage < 70:
+        actions.append({'action':f'Increase JSON-LD/schema coverage across priority owned pages; current audited coverage is {coverage}%.','owner':'SEO / CMS','priority':'High' if coverage < 40 else 'Medium','effort':'M','status':'Not started','workstream':'AI discoverability hygiene','target':'Owned priority pages','category':'structured_data'})
+    return actions
+
 def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklist, source_counts, competitor_counts) -> dict:
     qcount=len(qwork)
     avg_ai=round(sum((x.get("current_ai_visibility") or {}).get("score",0) for x in qwork)/max(1,qcount),1)
@@ -1309,7 +1338,9 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
     brand_topic_scorecard = build_brand_topic_scorecard(qwork, run_history=[])
     query_level_cms = all_cms
     query_level_pr = all_pr
-    canonical_actions = cms_actions + pr_actions
+    site_ai_hygiene = getattr(args, "site_ai_hygiene", {}) if isinstance(getattr(args, "site_ai_hygiene", {}), dict) else {}
+    hygiene_actions = build_hygiene_actions(site_ai_hygiene)
+    canonical_actions = hygiene_actions + cms_actions + pr_actions
     if not canonical_actions:
         canonical_actions = action_checklist
 
@@ -1327,9 +1358,10 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
             "summary": f"{args.brand} has {avg_ai}/100 average AI visibility across {qcount} audited queries. CMS work is aggregated by page so the highest-value modules can improve multiple linked queries; PR work is grouped by external source pattern, not owned URL.",
             "what_is_happening":["AI answers are compressing discovery into a small citation set.","Owned pages must compete at query level, but CMS implementation should happen at page level.","External sources reveal the answer structure and evidence patterns that models prefer."],
             "why_now":["Generative engines cite passages, not only rank pages.","Visibility should be managed as a recurring evidence and content loop.","Page-level CMS changes and grouped PR proof assets can be rerun against the same query set to measure GEO and AI visibility deltas."],
-            "priority_actions":["Implement top page-level CMS modules that cover the most linked queries.","Prioritise PR opportunities that affect multiple grouped queries; do not map PR actions to owned URLs.","Rerun the same query portfolio after updates and compare page GEO score and query AI visibility deltas."],
+            "priority_actions":(([site_ai_hygiene.get("summary")] if site_ai_hygiene.get("summary") else []) + ["Implement top page-level CMS modules that cover the most linked queries.","Prioritise PR opportunities that affect multiple grouped queries; do not map PR actions to owned URLs.","Rerun the same query portfolio after updates and compare page GEO score and query AI visibility deltas."]),
             "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1),"page_level_cms_recommendations":len(page_cms_recommendations),"grouped_pr_opportunities":len(grouped_pr_opportunities),"brand_topic_scorecard_topics":len(brand_topic_scorecard)},
             "brandTopicScorecard": brand_topic_scorecard,
+            "ai_discoverability_hygiene": site_ai_hygiene,
             "brand_topic_scorecard": brand_topic_scorecard
         },
         "executive_summary": {
@@ -1337,6 +1369,8 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
             "brand_topic_scorecard": brand_topic_scorecard,
             "scorecard_methodology": "Grouped from query_workbench by brand topic/journey, using observed AI visibility scores, citation counts, competitor/source evidence, mapped owned URL coverage and previous-run deltas where available."
         },
+        "ai_discoverability_hygiene": site_ai_hygiene,
+        "site_ai_hygiene": site_ai_hygiene,
         "query_workbench":qwork,
         "owned_url_readiness":owned_summary,
         "cms_recommendations":page_cms_recommendations,
@@ -1427,6 +1461,8 @@ def main():
             google=load_json(root/'outputs/google_ai_mode/google_ai_mode_compact.json', {}) or {}
             owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
             source_class=load_json(root/'outputs/source_landscape/source_classification.json', {}) or {}
+            site_ai_hygiene=load_json(root/'outputs/site_ai_hygiene.json', {}) or (evidence.get("site_ai_hygiene") if isinstance(evidence, dict) else {}) or {}
+            setattr(args, "site_ai_hygiene", site_ai_hygiene if isinstance(site_ai_hygiene, dict) else {})
             patterns=load_json(root/'outputs/benchmark/winning_source_patterns.json', {}) or {}
             meta_index=build_query_metadata_index(query_portfolio_file, audit, evidence, visibility, ai_scores, google)
             query_rows=(as_list(query_portfolio_file,["queries","query_portfolio","items"]) or as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
