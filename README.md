@@ -86,3 +86,13 @@ The canonical output is:
 - `contract_version = page_level_cms_grouped_pr.v2`
 
 Paid SerpAPI collection should be enabled only when the workflow passes `--enable-serpapi true`; otherwise existing citation evidence is reused.
+
+## v5.2 Executive Brand Topic Scorecard
+
+The canonical builder now emits an executive topic scorecard for the CMO-ready Executive Report view. The scorecard is evidence-backed and grouped by brand topic / journey. It is emitted at:
+
+- `executive.brandTopicScorecard`
+- `executive.brand_topic_scorecard`
+- `executive_summary.brand_topic_scorecard`
+
+Dry runs without SerpAPI/citation evidence intentionally show `aiVisibilityScore: null` and comments that evidence was not collected. Live runs with AI citation evidence populate topic-level visibility and relative-position fields from observed citations and competitor/source signals.

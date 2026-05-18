@@ -13,9 +13,11 @@ build/
 .env.*
 !.env.example
 .DS_Store
-outputs/
+runs/
 data/
 tmp/
+outputs/
+storage/
 *.log
 playwright-report/
 test-results/

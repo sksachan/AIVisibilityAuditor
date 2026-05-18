@@ -670,6 +670,138 @@ def visibility_score(status: str, owned_target: bool, owned_domain: bool, compet
 
 
 
+def build_brand_topic_scorecard(qwork: list[dict], run_history: list[dict] | None = None) -> list[dict]:
+    """Build a CMO-ready topic scorecard from query-level evidence.
+
+    This is intentionally deterministic. LLM nodes may polish narrative elsewhere,
+    but numeric values and evidence caveats should originate here so the executive
+    report is stable across uploads, latest-run loads and API-triggered refreshes.
+    """
+    groups = defaultdict(lambda: {
+        "topic": "Unclassified",
+        "queries": [],
+        "scores": [],
+        "owned_urls": set(),
+        "citations": 0,
+        "owned_target_citations": 0,
+        "owned_domain_citations": 0,
+        "competitors": Counter(),
+        "source_types": Counter(),
+        "statuses": Counter(),
+        "delta_values": [],
+    })
+    for q in qwork or []:
+        if not isinstance(q, dict):
+            continue
+        topic = text(q.get("brand_topic_category") or q.get("journey_category") or q.get("topic") or "Unclassified") or "Unclassified"
+        topic = topic.replace("&amp;", "&")
+        grp = groups[topic]
+        grp["topic"] = topic
+        vis = q.get("current_ai_visibility") if isinstance(q.get("current_ai_visibility"), dict) else {}
+        query_id_value = text(q.get("query_id") or q.get("id") or q.get("query"))
+        grp["queries"].append(query_id_value)
+        status = text(vis.get("status") or q.get("visibility_status") or "not_collected") or "not_collected"
+        grp["statuses"][status] += 1
+        citations = vis.get("top_citations") if isinstance(vis.get("top_citations"), list) else []
+        ext = q.get("external_top3_benchmark") if isinstance(q.get("external_top3_benchmark"), list) else []
+        citation_count = len(citations) or len(ext)
+        grp["citations"] += citation_count
+        if vis.get("owned_target_cited"):
+            grp["owned_target_citations"] += 1
+        if vis.get("owned_domain_cited"):
+            grp["owned_domain_citations"] += 1
+        score_value = vis.get("score")
+        try:
+            score_float = float(score_value)
+            if citation_count > 0 or status not in {"not_collected", "not_observed", "unknown"}:
+                grp["scores"].append(score_float)
+        except Exception:
+            pass
+        for comp in vis.get("competitors") or []:
+            name = text(comp)
+            if name:
+                grp["competitors"][name] += 1
+        for c in citations + ext:
+            if isinstance(c, dict):
+                st = text(c.get("source_type") or c.get("sourceType") or c.get("source_category"))
+                if st:
+                    grp["source_types"][st] += 1
+                if c.get("is_competitor"):
+                    d = text(c.get("domain") or domain(c.get("url")))
+                    if d:
+                        grp["competitors"][d] += 1
+        for u in q.get("mapped_owned_urls") or []:
+            if isinstance(u, dict) and u.get("url"):
+                grp["owned_urls"].add(text(u.get("url")))
+        prev = q.get("previous_run_delta")
+        if isinstance(prev, dict):
+            for k in ["ai_visibility_delta", "score_delta", "delta", "visibility_delta"]:
+                try:
+                    grp["delta_values"].append(float(prev[k]))
+                    break
+                except Exception:
+                    continue
+    rows = []
+    for topic, grp in groups.items():
+        query_count = len([q for q in grp["queries"] if q])
+        if query_count == 0:
+            continue
+        scores = grp["scores"]
+        avg_score = round(sum(scores) / len(scores), 1) if scores else None
+        citation_count = int(grp["citations"])
+        top_comp = grp["competitors"].most_common(1)[0][0] if grp["competitors"] else ""
+        top_status = grp["statuses"].most_common(1)[0][0] if grp["statuses"] else "not_collected"
+        if citation_count == 0:
+            relative = "Requires fresh AI citation evidence"
+        elif top_comp:
+            relative = f"Benchmark against {top_comp}"
+        elif grp["owned_target_citations"]:
+            relative = "Owned target pages present in citation set"
+        elif grp["owned_domain_citations"]:
+            relative = "Owned domain visible, target-page ownership weak"
+        else:
+            relative = "External/category sources dominate observed citations"
+        if grp["delta_values"]:
+            delta = round(sum(grp["delta_values"]) / len(grp["delta_values"]), 1)
+            direction = (f"+{delta} pts" if delta > 0 else f"{delta} pts" if delta < 0 else "Flat")
+        else:
+            direction = "Not available"
+        if citation_count == 0:
+            comment = f"{topic} has {query_count} mapped quer{'y' if query_count == 1 else 'ies'} and {len(grp['owned_urls'])} owned URL candidate{'s' if len(grp['owned_urls']) != 1 else ''}, but fresh AI citation evidence was not collected for this run."
+        elif avg_score is not None and avg_score >= 70:
+            comment = "Strong topic visibility; maintain evidence freshness and monitor competitor movement."
+        elif avg_score is not None and avg_score >= 45:
+            comment = "Present in AI evidence but not clearly owned; strengthen answer-first owned modules and proof points."
+        else:
+            comment = "Underrepresented in AI narratives; prioritise owned-page coverage and external authority signals."
+        row = {
+            "topic": topic,
+            "aiVisibilityScore": avg_score,
+            "relativePosition": relative,
+            "directionVsLastPeriod": direction,
+            "comment": comment,
+            "queryCount": query_count,
+            "ownedUrlCount": len(grp["owned_urls"]),
+            "citationCount": citation_count,
+            "ownedTargetCitationCount": int(grp["owned_target_citations"]),
+            "ownedDomainCitationCount": int(grp["owned_domain_citations"]),
+            "dominantVisibilityStatus": top_status,
+            "topCompetitorOrExternal": top_comp,
+            "sourceTypeMix": [{"source_type": k, "count": v} for k, v in grp["source_types"].most_common(5)],
+        }
+        # snake_case aliases for LLM/Bodhi consumers that do not preserve camelCase.
+        row["ai_visibility_score"] = avg_score
+        row["relative_position"] = relative
+        row["direction_vs_last_period"] = direction
+        row["query_count"] = query_count
+        row["owned_url_count"] = len(grp["owned_urls"])
+        row["citation_count"] = citation_count
+        rows.append(row)
+    rows.sort(key=lambda r: (-(r.get("queryCount") or 0), -(r.get("citationCount") or 0), -((r.get("aiVisibilityScore") or -1) if r.get("aiVisibilityScore") is not None else -1), r.get("topic") or ""))
+    return rows[:12]
+
+
+
 def upgrade_canonical_bundle(existing: dict, args) -> dict:
     """Upgrade an existing query_workbench.v1 bundle to the page-level CMS/grouped PR contract."""
     qwork=existing.get('query_workbench') or []
@@ -894,6 +1026,7 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
     # Canonical v4 prioritisation: CMS is page-level; PR is query-group/source-landscape level.
     page_cms_recommendations, cms_actions = aggregate_page_level_cms(qwork, max_changes_per_page=3)
     grouped_pr_opportunities, pr_actions = aggregate_pr_opportunities(qwork, max_items=20)
+    brand_topic_scorecard = build_brand_topic_scorecard(qwork, run_history=[])
     query_level_cms = all_cms
     query_level_pr = all_pr
     canonical_actions = cms_actions + pr_actions
@@ -914,7 +1047,14 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
             "what_is_happening":["AI answers are compressing discovery into a small citation set.","Owned pages must compete at query level, but CMS implementation should happen at page level.","External sources reveal the answer structure and evidence patterns that models prefer."],
             "why_now":["Generative engines cite passages, not only rank pages.","Visibility should be managed as a recurring evidence and content loop.","Page-level CMS changes and grouped PR proof assets can be rerun against the same query set to measure GEO and AI visibility deltas."],
             "priority_actions":["Implement top page-level CMS modules that cover the most linked queries.","Prioritise PR opportunities that affect multiple grouped queries; do not map PR actions to owned URLs.","Rerun the same query portfolio after updates and compare page GEO score and query AI visibility deltas."],
-            "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1),"page_level_cms_recommendations":len(page_cms_recommendations),"grouped_pr_opportunities":len(grouped_pr_opportunities)}
+            "headline_metrics":{"ai_visibility_score":avg_ai,"query_count":qcount,"owned_page_count":len(owned_summary),"owned_target_page_citations":target_cites,"owned_domain_citations":domain_cites,"competitor_led_query_count":competitor_led,"external_led_query_count":external_led,"external_source_count":sum(source_counts.values()),"average_owned_geo_score_120":round(sum(o.get("current_geo_score_120",0) for o in owned_summary)/max(1,len(owned_summary)),1),"page_level_cms_recommendations":len(page_cms_recommendations),"grouped_pr_opportunities":len(grouped_pr_opportunities),"brand_topic_scorecard_topics":len(brand_topic_scorecard)},
+            "brandTopicScorecard": brand_topic_scorecard,
+            "brand_topic_scorecard": brand_topic_scorecard
+        },
+        "executive_summary": {
+            "schema_version": "executive_topic_scorecard.v1",
+            "brand_topic_scorecard": brand_topic_scorecard,
+            "scorecard_methodology": "Grouped from query_workbench by brand topic/journey, using observed AI visibility scores, citation counts, competitor/source evidence, mapped owned URL coverage and previous-run deltas where available."
         },
         "query_workbench":qwork,
         "owned_url_readiness":owned_summary,
