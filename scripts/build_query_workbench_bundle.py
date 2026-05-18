@@ -145,6 +145,130 @@ def normalise_query(row: dict) -> str:
     return text(row.get("query") or row.get("search_query") or row.get("question") or row.get("user_query"))
 
 
+
+def build_query_metadata_index(*objs: Any) -> dict[str, dict]:
+    """Collect query/topic metadata from portfolio, audit_context, evidence_scope and compact rows.
+
+    Evidence-service compact bundles may expose Google AI Mode rows separately from
+    the synthetic portfolio. Those rows often contain query_id/query but not
+    journey_stage/topic metadata. This index lets the builder restore the
+    portfolio taxonomy before constructing the report contract.
+    """
+    idx: dict[str, dict] = {}
+    topic_idx: dict[str, dict] = {}
+
+    def merge_meta(qid: str, meta: dict):
+        if not qid:
+            return
+        cur = idx.setdefault(str(qid), {})
+        for k, v in meta.items():
+            if v is not None and v != "" and cur.get(k) in (None, "", [], {}):
+                cur[k] = v
+
+    def walk(obj: Any):
+        if isinstance(obj, dict):
+            for t in as_list(obj, ["topics", "brand_topics", "topic_portfolio"]):
+                if isinstance(t, dict):
+                    tid = text(t.get("topic_id") or t.get("id"))
+                    if tid:
+                        topic_idx.setdefault(tid, {}).update({
+                            "topic_id": tid,
+                            "topic": text(t.get("topic") or t.get("brand_topic") or t.get("name")),
+                            "journey_stage": text(t.get("journey_stage") or t.get("journey_category") or t.get("category")),
+                            "topic_priority": text(t.get("priority")),
+                            "why_this_topic_matters": text(t.get("why_this_topic_matters")),
+                            "recommended_page_types": t.get("recommended_page_types") if isinstance(t.get("recommended_page_types"), list) else [],
+                            "market_notes": text(t.get("market_notes")),
+                        })
+            for q in as_list(obj, ["queries", "query_portfolio", "query_scope", "rows", "items", "results"]):
+                if isinstance(q, dict):
+                    qid = text(q.get("query_id") or q.get("id") or q.get("qid"))
+                    query_text = normalise_query(q)
+                    topic_id = text(q.get("topic_id"))
+                    topic_meta = topic_idx.get(topic_id, {}) if topic_id else {}
+                    journey = text(q.get("journey_stage") or q.get("journey_category") or q.get("category") or topic_meta.get("journey_stage"))
+                    topic = text(q.get("topic") or q.get("brand_topic") or q.get("brand_topic_category") or topic_meta.get("topic"))
+                    if qid or query_text:
+                        meta = {
+                            "query_id": qid,
+                            "query": query_text,
+                            "topic_id": topic_id or topic_meta.get("topic_id"),
+                            "topic": topic,
+                            "brand_topic": topic,
+                            "brand_topic_category": topic or journey,
+                            "journey_stage": journey,
+                            "journey_category": journey,
+                            "intent": text(q.get("intent")),
+                            "priority": text(q.get("priority")),
+                            "recommended_page_type": text(q.get("recommended_page_type")),
+                            "brand_relevance": text(q.get("brand_relevance")),
+                            "reason_selected": text(q.get("reason_selected")),
+                            "expected_ai_answer_source_types": q.get("expected_ai_answer_source_types") if isinstance(q.get("expected_ai_answer_source_types"), list) else [],
+                            "market_localisation_notes": text(q.get("market_localisation_notes")),
+                            "topic_priority": topic_meta.get("topic_priority"),
+                            "why_this_topic_matters": topic_meta.get("why_this_topic_matters"),
+                            "recommended_page_types": topic_meta.get("recommended_page_types") or [],
+                            "market_notes": topic_meta.get("market_notes"),
+                        }
+                        if qid:
+                            merge_meta(qid, meta)
+                        if query_text:
+                            merge_meta(query_text.lower(), meta)
+            for v in obj.values():
+                if isinstance(v, (dict, list)):
+                    walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                if isinstance(v, (dict, list)):
+                    walk(v)
+
+    for obj in objs:
+        walk(obj)
+    return idx
+
+
+def enrich_query_row(row: dict, qid: str, query: str, meta_index: dict[str, dict]) -> dict:
+    """Return row merged with portfolio metadata without overwriting observed evidence."""
+    meta = meta_index.get(str(qid)) or meta_index.get((query or "").lower()) or {}
+    if not meta:
+        return row
+    out = dict(row)
+    for k, v in meta.items():
+        if v is not None and v != "" and out.get(k) in (None, "", [], {}, "Unclassified"):
+            out[k] = v
+    # Canonical aliases used downstream.
+    journey = text(out.get("journey_stage") or out.get("journey_category") or out.get("category"))
+    if journey and (not out.get("journey_category") or out.get("journey_category") == "Unclassified"):
+        out["journey_category"] = journey
+    if journey and not out.get("journey_stage"):
+        out["journey_stage"] = journey
+    topic = text(out.get("topic") or out.get("brand_topic") or out.get("brand_topic_category"))
+    if topic:
+        out.setdefault("topic", topic)
+        out.setdefault("brand_topic", topic)
+        if out.get("brand_topic_category") in (None, "", "Unclassified"):
+            out["brand_topic_category"] = topic
+    return out
+
+
+def query_taxonomy(row: dict) -> dict:
+    journey = text(row.get("journey_stage") or row.get("journey_category") or row.get("category") or "Unclassified") or "Unclassified"
+    topic = text(row.get("topic") or row.get("brand_topic") or row.get("brand_topic_category") or journey) or journey
+    return {
+        "topic_id": text(row.get("topic_id")),
+        "topic": topic,
+        "brand_topic": topic,
+        "journey_stage": journey,
+        "journey_category": journey,
+        "intent": text(row.get("intent")),
+        "priority": text(row.get("priority")),
+        "recommended_page_type": text(row.get("recommended_page_type")),
+        "brand_relevance": text(row.get("brand_relevance")),
+        "reason_selected": text(row.get("reason_selected")),
+        "expected_ai_answer_source_types": row.get("expected_ai_answer_source_types") if isinstance(row.get("expected_ai_answer_source_types"), list) else [],
+        "market_localisation_notes": text(row.get("market_localisation_notes")),
+    }
+
 def normalise_citation(r: dict, pos: int = 1) -> dict:
     u = text(r.get("url") or r.get("source_url") or r.get("link") or r.get("href"))
     return {
@@ -952,10 +1076,13 @@ def build_from_preview(preview: dict, args) -> dict:
             c["is_owned_target_page"] = bool(s.get("is_owned_target_page"))
             c["is_competitor"] = bool(s.get("is_competitor") or c["source_type"]=="competitor_owned")
             sources_by_q[text(s.get("query_id"))].append(c)
+    meta_index = build_query_metadata_index(preview)
     qwork=[]; all_cms=[]; all_pr=[]; actions_by_key={}; source_counts=Counter(); competitor_counts=Counter()
     for i,row in enumerate(qrows):
         row=record_dict(row, default_key="query")
-        qid=query_id(row,i); q=normalise_query(row); cat=text(row.get("brand_topic_category") or row.get("journey_category") or row.get("category") or "Unclassified")
+        qid=query_id(row,i); q=normalise_query(row)
+        row=enrich_query_row(row, qid, q, meta_index)
+        tax=query_taxonomy(row); cat=tax["journey_category"]
         citations=[normalise_citation(c, j+1) for j,c in enumerate(row.get("citations") or []) if isinstance(c,dict)]
         if not citations and sources_by_q.get(qid): citations=sources_by_q[qid]
         for c in citations: source_counts[c["source_type"]]+=1
@@ -976,6 +1103,7 @@ def build_from_preview(preview: dict, args) -> dict:
         except Exception: score=visibility_score(status,owned_target,owned_domain,competitors,len(top3))
         item={
             "query_id":qid,"query":q,"query_type":row.get("query_type") or ("branded" if "nissan" in q.lower() or "日産" in q else "non_branded"),"journey_category":cat,
+            **tax,
             "current_ai_visibility":{"score":score,"status":status,"owned_target_cited":owned_target,"owned_domain_cited":owned_domain,"competitors":competitors,"competitor_citation_count":int(row.get("competitor_citation_count") or len(competitors)),"top_citations":citations[:8]},
             "mapped_owned_urls":mapped,"external_top3_benchmark":top3,"winning_patterns":pats,"cms_recommendations":cms,"pr_recommendations":pr,"action_items":[],"previous_run_delta":None,"loop_state":"baseline_ready" if not owned_target else "monitor_and_refresh",
         }
@@ -1009,9 +1137,15 @@ def build_owned_summary(qwork: list[dict]) -> list[dict]:
         for m in x.get("mapped_owned_urls") or []:
             u=m.get("url")
             if not u: continue
-            o=byurl.setdefault(u,{**m,"related_queries":[],"journey_category":x.get("journey_category")})
-            o["related_queries"].append({"id":x.get("query_id"),"query":x.get("query"),"visibility_status":(x.get("current_ai_visibility") or {}).get("status")})
-    return list(byurl.values())
+            o=byurl.setdefault(u,{**m,"related_queries":[],"journey_category":x.get("journey_category"),"journeys":Counter()})
+            if x.get("journey_category"):
+                o["journeys"][x.get("journey_category")]+=1
+                o["journey_category"]=o["journeys"].most_common(1)[0][0]
+            o["related_queries"].append({"id":x.get("query_id"),"query":x.get("query"),"topic_id":x.get("topic_id"),"topic":x.get("topic"),"journey_category":x.get("journey_category"),"journey_stage":x.get("journey_stage"),"intent":x.get("intent"),"visibility_status":(x.get("current_ai_visibility") or {}).get("status")})
+    out=list(byurl.values())
+    for item in out:
+        item.pop("journeys", None)
+    return out
 
 
 def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklist, source_counts, competitor_counts) -> dict:
@@ -1144,6 +1278,7 @@ def main():
             owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
             source_class=load_json(root/'outputs/source_landscape/source_classification.json', {}) or {}
             patterns=load_json(root/'outputs/benchmark/winning_source_patterns.json', {}) or {}
+            meta_index=build_query_metadata_index(query_portfolio_file, audit, evidence, visibility, ai_scores, google)
             query_rows=(as_list(query_portfolio_file,["queries","query_portfolio","items"]) or as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
             if args.query_limit and len(query_rows) > args.query_limit:
                 query_rows = query_rows[:args.query_limit]
@@ -1159,8 +1294,10 @@ def main():
             qwork=[]; all_cms=[]; all_pr=[]; source_counts=Counter(); competitor_counts=Counter(); actions_by_key={}
             for i,raw_row in enumerate(query_rows):
                 row=record_dict(raw_row, default_key="query"); qid=query_id(row,i); q=normalise_query(row)
+                row=enrich_query_row(row, qid, q, meta_index)
+                q=normalise_query(row)
                 if not q: continue
-                cat=text(row.get("brand_topic_category") or row.get("journey_category") or row.get("category") or "Unclassified")
+                tax=query_taxonomy(row); cat=tax["journey_category"]
                 citations=refs_from(row) or sources_by_q.get(qid, [])
                 for c in citations: source_counts[c["source_type"]]+=1
                 competitors=detect_competitors(text(row),citations)
@@ -1177,7 +1314,7 @@ def main():
                 sc=score_by_q.get(qid,{})
                 try: ai_score=int(float(sc.get("ai_visibility_score")))
                 except Exception: ai_score=visibility_score(status,owned_target,owned_domain,competitors,len(top3))
-                item={"query_id":qid,"query":q,"query_type":row.get("query_type") or ("branded" if "nissan" in q.lower() or "日産" in q else "non_branded"),"journey_category":cat,"current_ai_visibility":{"score":ai_score,"status":status,"owned_target_cited":owned_target,"owned_domain_cited":owned_domain,"competitors":competitors,"competitor_citation_count":len(competitors),"top_citations":citations[:8]},"mapped_owned_urls":mapped,"external_top3_benchmark":top3,"winning_patterns":pats,"cms_recommendations":cms,"pr_recommendations":pr,"action_items":[],"previous_run_delta":None,"loop_state":"baseline_ready" if not owned_target else "monitor_and_refresh"}
+                item={"query_id":qid,"query":q,"query_type":row.get("query_type") or ("branded" if "nissan" in q.lower() or "日産" in q else "non_branded"),"journey_category":cat,**tax,"current_ai_visibility":{"score":ai_score,"status":status,"owned_target_cited":owned_target,"owned_domain_cited":owned_domain,"competitors":competitors,"competitor_citation_count":len(competitors),"top_citations":citations[:8]},"mapped_owned_urls":mapped,"external_top3_benchmark":top3,"winning_patterns":pats,"cms_recommendations":cms,"pr_recommendations":pr,"action_items":[],"previous_run_delta":None,"loop_state":"baseline_ready" if not owned_target else "monitor_and_refresh"}
                 item["action_items"]=[{"action":c["title"],"owner":c["owner"],"priority":c["priority"],"effort":"M","status":"Not started","target":c["target_url"],"workstream":"CMS remediation","source_query_id":qid} for c in cms[:3]] + [{"action":p["title"],"owner":p["owner"],"priority":p["priority"],"effort":"M","status":"Not started","target":", ".join(p.get("target_domains_observed") or []),"workstream":"PR / external proof","source_query_id":qid} for p in pr[:1]]
                 for a in item["action_items"]: actions_by_key.setdefault((a["workstream"],a.get("target"),a["action"]), {**a,"linked_query_ids":[]})["linked_query_ids"].append(qid)
                 qwork.append(item)
