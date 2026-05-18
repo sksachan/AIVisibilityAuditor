@@ -768,8 +768,18 @@ def main():
             "query_mapped": bool(p.get("query_mapped") or related),
             "inventory_source": p.get("inventory_source") or ("query_mapped" if related else "sitemap_inventory"),
             "technical_signals": {
-                "json_ld_present": bool(p.get("json_ld_present") or p.get("has_json_ld") or p.get("schema_types")),
-                "schema_types": p.get("schema_types") or [],
+                # Do not infer JSON-LD from the GEO structured-data score.
+                # Only explicit crawler metadata should drive page-level technical signal status.
+                "json_ld_present": bool(
+                    p.get("json_ld_present")
+                    or p.get("has_json_ld")
+                    or p.get("json_ld_block_count")
+                    or p.get("schema_block_count")
+                    or p.get("schema_types")
+                    or p.get("schema_types_detected")
+                ),
+                "json_ld_block_count": p.get("json_ld_block_count") or p.get("schema_block_count") or 0,
+                "schema_types": p.get("schema_types") or p.get("schema_types_detected") or [],
                 "canonical_url": p.get("canonical_url") or p.get("final_url") or p.get("resolved_url"),
                 "meta_description_present": bool(p.get("meta_description") or p.get("description")),
                 "crawl_status": p.get("crawl_status") or p.get("status"),
