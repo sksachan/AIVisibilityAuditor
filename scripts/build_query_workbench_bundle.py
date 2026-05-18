@@ -947,7 +947,20 @@ def main():
     ap.add_argument("--domain", default="https://www.nissan.co.jp")
     ap.add_argument("--run-id", default="")
     ap.add_argument("--max-owned", type=int, default=3)
-    args=ap.parse_args()
+    # Bodhi workflow compatibility: newer workflow versions pass orchestration
+    # metadata flags that are useful to the workflow but not required by this
+    # bundle builder. Accept them explicitly so old/new workflow JSONs can run
+    # against the same repo package without argparse failures.
+    ap.add_argument("--run-mode", default="")
+    ap.add_argument("--query-portfolio-mode", default="")
+    ap.add_argument("--max-external", type=int, default=0)
+    ap.add_argument("--query-limit", type=int, default=0)
+    ap.add_argument("--query-portfolio", default="")
+    ap.add_argument("--max-owned-inventory-urls", type=int, default=0)
+    ap.add_argument("--max-external-citations-per-query", type=int, default=0)
+    args, unknown = ap.parse_known_args()
+    if unknown:
+        print(json.dumps({"warning":"ignored_unknown_args", "args": unknown}, ensure_ascii=False))
     root=Path(args.project_root).resolve()
     raw_input=load_json(Path(args.input_json), {}) if args.input_json else {}
 
