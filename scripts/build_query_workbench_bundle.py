@@ -1098,6 +1098,9 @@ def upgrade_canonical_bundle(existing: dict, args) -> dict:
         for pr in q.get('pr_recommendations') or []:
             if isinstance(pr,dict): all_pr.append(pr)
     owned_summary=existing.get('owned_url_readiness') if isinstance(existing.get('owned_url_readiness'), list) else build_owned_summary(qwork)
+    if isinstance(owned_summary, list) and owned_summary and not any(isinstance(x, dict) and x.get('technical_signals') for x in owned_summary):
+        # v5.8: rebuild from query workbench when legacy owned_url_readiness lacks per-page technical signals.
+        owned_summary=build_owned_summary(qwork)
     upgraded=assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, existing.get('action_checklist') or [], source_counts, competitor_counts)
     # Preserve LLM and render fields from the existing run, but do not override canonical recommendations/actions.
     preserve_keys=['executive_report','executive_kpis','dashboard_summary','visibility','cms_generation_summary','pr_strategy_synthesis','query_strategy_synthesis','executive_synthesis','validation','parser_manifest','cms_ready_content_modules']
