@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import Counter, defaultdict
 from typing import Any, Dict, List
+from pathlib import Path
 
 from lib import (
     get_config, get_weights, read_json, write_json, read_text, score_text_features,
@@ -201,8 +202,14 @@ def main() -> None:
     owned = read_json(cfg['paths']['owned_pages_full'])
     external = read_json(cfg['paths']['external_pages_full'])
 
+    mapping_payload = read_json('outputs/query_owned_url_mapping.json', default={}) if Path('outputs/query_owned_url_mapping.json').exists() else {}
     owned_lookup: Dict[str, List[Dict[str, Any]]] = {}
     external_lookup: Dict[str, List[Dict[str, Any]]] = {}
+    query_by_id = {str(q.get('query_id') or q.get('id') or ''): q for q in scope.get('queries', []) if isinstance(q, dict)}
+    for m in mapping_payload.get('mappings', []) if isinstance(mapping_payload, dict) else []:
+        if isinstance(m, dict) and m.get('url'):
+            q = query_by_id.get(str(m.get('query_id') or ''), {'query_id': m.get('query_id'), 'query': m.get('query')})
+            owned_lookup.setdefault(m.get('url'), []).append(q)
     for q in scope.get('queries', []):
         for p in q.get('owned_pages', []):
             owned_lookup.setdefault(p.get('url'), []).append(q)
@@ -229,6 +236,8 @@ def main() -> None:
             'highest_score': _max_numeric(owned_scored, 'readiness_score'),
             'lowest_score': _min_numeric(owned_scored, 'readiness_score'),
             'brand_topic_summary': _summarise_by_journey([p for p in owned_scored if p.get('brand_topic_category')]),
+            'owned_inventory_scored': len(owned_scored),
+            'owned_query_mapped_scored': sum(1 for p in owned_scored if owned_lookup.get(p.get('url'))),
             'lowest_scoring_pages': sorted([{'url': p.get('url'), 'score': p.get('readiness_score'), 'geo_score_120': p.get('geo_score_120'), 'brand_topic_category': p.get('brand_topic_category'), 'page_type': p.get('page_type'), 'critical_issues': p.get('critical_issues', [])[:3]} for p in owned_scored if isinstance(p.get('readiness_score'), (int, float))], key=lambda x: x['score'])[:10]
         }
     }

@@ -601,6 +601,7 @@ def main():
     owned_full = load_json(project / "outputs/content_intelligence/owned_pages_full.json", {}) or {}
     external_full = load_json(project / "outputs/external_pages/external_pages_full.json", {}) or {}
     source_class = load_json(project / "outputs/source_landscape/source_classification.json", {}) or {}
+    query_mapping_payload = load_json(project / "outputs/audit_context/query_owned_url_mapping.json", {}) or load_json(project / "outputs/query_owned_url_mapping.json", {}) or {}
 
     query_rows = first_list(audit, ["queries", "query_portfolio"]) or first_list(evidence, ["queries"]) or first_list(google, ["rows", "queries", "items"])
     google_rows = first_list(google, ["rows", "queries", "items"]) or query_rows
@@ -682,9 +683,30 @@ def main():
                 st = s.get("source_category") or s.get("source_type") or classify_source(s.get("source_url") or s.get("url") or "", s.get("raw_source_type") or "")
                 source_counts[st] += 0
 
-    # Build related-query map from evidence_scope where available.
+    # Build related-query map from explicit query_owned_url_mapping first, then evidence_scope.
     evidence_queries = first_list(evidence, ["queries"])
+    q_by_id = {str(q.get("query_id") or q.get("id") or ""): q for q in query_rows if isinstance(q, dict)}
     page_to_queries = defaultdict(list)
+    for m in first_list(query_mapping_payload, ["mappings", "rows", "items"]):
+        if not isinstance(m, dict):
+            continue
+        u = m.get("url") or m.get("page_url") or m.get("target_url")
+        qid = str(m.get("query_id") or "")
+        q = q_by_id.get(qid, {})
+        if u:
+            q_vis = next((mx for mx in query_matrix if mx.get("query_id") == qid), {})
+            page_to_queries[str(u).rstrip("/")].append({
+                "query_id": qid,
+                "query": q.get("query") or m.get("query"),
+                "brand_topic_category": q.get("brand_topic_category") or q.get("journey_category") or q.get("topic"),
+                "query_type": q_vis.get("query_type") or q.get("query_type"),
+                "visibility_status": q_vis.get("visibility_status"),
+                "owned_target_page_cited": q_vis.get("owned_target_page_cited"),
+                "competitor_led": q_vis.get("competitor_led"),
+                "competitor_brands_detected": q_vis.get("competitor_brands_detected", {}),
+                "mapping_score": m.get("mapping_score"),
+                "mapping_reason": m.get("mapping_reason"),
+            })
     for qidx, q in enumerate(evidence_queries):
         if not isinstance(q, dict):
             continue
@@ -741,6 +763,19 @@ def main():
             "title": p.get("title") or p.get("page_title") or "",
             "recommendation_confidence": confidence,
             "related_queries": related[:5],
+            "related_query_count": len(related),
+            "site_inventory_audit": bool(p.get("site_inventory_audit", True)),
+            "query_mapped": bool(p.get("query_mapped") or related),
+            "inventory_source": p.get("inventory_source") or ("query_mapped" if related else "sitemap_inventory"),
+            "technical_signals": {
+                "json_ld_present": bool(p.get("json_ld_present") or p.get("has_json_ld") or p.get("schema_types")),
+                "schema_types": p.get("schema_types") or [],
+                "canonical_url": p.get("canonical_url") or p.get("final_url") or p.get("resolved_url"),
+                "meta_description_present": bool(p.get("meta_description") or p.get("description")),
+                "crawl_status": p.get("crawl_status") or p.get("status"),
+                "word_count": p.get("word_count"),
+                "markdown_chars": p.get("markdown_chars"),
+            },
         })
 
     external_scores = []
@@ -795,7 +830,7 @@ def main():
         },
         "summary": "Strict scoring: competitor-led visibility is separated from Nissan owned-domain and owned-target visibility.",
     })
-    write_json(project / "outputs/page_scores/owned_page_scores.json", {"brand": brand, "market": market, "pages": owned_scores, "owned_pages": owned_scores, "scoring_framework": "strict_geo_6x20_v3_no_easy_marks"})
+    write_json(project / "outputs/page_scores/owned_page_scores.json", {"brand": brand, "market": market, "pages": owned_scores, "owned_pages": owned_scores, "scoring_framework": "strict_geo_6x20_v3_no_easy_marks", "scope": {"owned_inventory_scored": len(owned_scores), "owned_query_mapped_scored": sum(1 for p in owned_scores if p.get("query_mapped")), "inventory_only_scored": sum(1 for p in owned_scores if not p.get("query_mapped"))}})
     write_json(project / "outputs/page_scores/external_page_scores.json", {"brand": brand, "market": market, "pages": external_scores, "external_pages": external_scores})
 
     winning = [{"source_type": st, "citation_count": c, "winning_pattern": "External source is observed in AI citations; use its answer format, proof pattern and extractability as benchmark input for owned-page CMS changes."} for st, c in source_counts.most_common()]
@@ -885,6 +920,8 @@ def main():
     kpis = {
         "query_count": len(query_matrix),
         "owned_page_count": len(owned_scores),
+        "owned_inventory_scored": len(owned_scores),
+        "owned_query_mapped_scored": sum(1 for p in owned_scores if p.get("query_mapped")),
         "external_source_count": len(external_scores),
         "average_ai_visibility_score": avg_visibility,
         "ai_visibility_score": avg_visibility,
