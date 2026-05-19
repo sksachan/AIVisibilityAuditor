@@ -3,6 +3,8 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import mean
+from technical_signal_utils import site_standards_status
+
 from lib import get_config, get_weights, read_json, write_json
 
 
@@ -507,11 +509,12 @@ def _evidence_quality(audit: dict, visibility: dict, owned: dict, external: dict
         'low_quality_external_source_count': external.get('aggregate', {}).get('low_quality_source_count', 0),
         'mapping_quality_mix': audit.get('summary', {}).get('mapping_quality_mix', {}),
         'site_standards': {
+            **site_standards_status(site_standards),
             'robots_txt_available': site_standards.get('signals', {}).get('robots_available'),
             'llms_txt_available': site_standards.get('signals', {}).get('llms_txt_available'),
             'robots_mentions_sitemap': site_standards.get('signals', {}).get('robots_mentions_sitemap'),
             'robots_blocks_common_ai_agents': site_standards.get('signals', {}).get('robots_blocks_common_ai_agents'),
-            'json_ld_checked_from_page_markdown': True,
+            'json_ld_checked_from_explicit_page_technical_signals': True,
         },
         'known_limitations': [
             'Google AI Mode is the only observed citation evidence in this pilot.',
@@ -556,6 +559,7 @@ def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: d
         'preference_rules': _compact_rules(rules),
         'improvement_backlog': _compact_backlog(backlog),
         'scoring_framework': get_weights().get('framework', {}),
+        'site_standards': site_standards_status(site_standards),
         'evidence_quality': _evidence_quality(audit, visibility, owned, external, site_standards),
         'reporting_caveats': _reporting_caveats(),
     }
@@ -573,6 +577,7 @@ def _make_full_bundle(audit: dict, visibility: dict, scope: dict, owned: dict, e
         'dashboard_dataset': dashboard_dataset,
         'preference_rules': rules,
         'improvement_backlog': backlog,
+        'site_standards': site_standards_status(site_standards),
         'evidence_quality': _evidence_quality(audit, visibility, owned, external, site_standards),
         'reporting_caveats': _reporting_caveats(),
     }
