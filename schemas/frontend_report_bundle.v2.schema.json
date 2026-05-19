@@ -29,6 +29,12 @@
     "domain": {
       "type": "string"
     },
+    "ai_discoverability_hygiene": {
+      "$ref": "#/$defs/aiDiscoverabilityHygiene"
+    },
+    "site_ai_hygiene": {
+      "$ref": "#/$defs/aiDiscoverabilityHygiene"
+    },
     "evidence_collection": {
       "type": "object"
     },
@@ -88,6 +94,126 @@
     }
   },
   "$defs": {
+    "aiDiscoverabilityHygiene": {
+      "type": "object",
+      "required": [
+        "priority",
+        "summary",
+        "robots_txt",
+        "llms_txt",
+        "structured_data"
+      ],
+      "properties": {
+        "priority": {
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "summary": {
+          "type": "string"
+        },
+        "robots_txt": {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "available",
+                "not found",
+                "not checked"
+              ]
+            },
+            "url": {
+              "type": "string"
+            },
+            "sitemap_entries_count": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": true
+        },
+        "llms_txt": {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "available",
+                "not found",
+                "not checked"
+              ]
+            },
+            "url": {
+              "type": "string"
+            },
+            "chars": {
+              "type": "integer"
+            }
+          },
+          "additionalProperties": true
+        },
+        "structured_data": {
+          "type": "object",
+          "required": [
+            "owned_pages_total",
+            "pages_with_schema",
+            "pages_with_json_ld",
+            "coverage_pct"
+          ],
+          "properties": {
+            "owned_pages_total": {
+              "type": "integer"
+            },
+            "pages_with_schema": {
+              "type": "integer"
+            },
+            "pages_with_json_ld": {
+              "type": "integer"
+            },
+            "coverage_pct": {
+              "type": "number"
+            },
+            "schema_types_detected": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "integer"
+                  }
+                ]
+              }
+            },
+            "pages_missing_json_ld": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
     "brandTopicScorecardRow": {
       "type": "object",
       "required": [

@@ -15,6 +15,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from collections import Counter, defaultdict
 from typing import Any
+from ai_hygiene import attach_ai_discoverability_hygiene
 
 OWNED_HINTS = ["nissan.co.jp", "nissan-global.com", "nissannews.com", "nissan-fs.co.jp", "global.nissannews.com"]
 COMPETITORS = {
@@ -1410,13 +1411,17 @@ def main():
     ai_citations_file = load_json(Path(args.ai_citations), {}) if args.ai_citations else load_json(root/'outputs/ai_citations/ai_citations.json', {})
     owned_pages_file = load_json(Path(args.owned_pages), {}) if args.owned_pages else {}
     external_pages_file = load_json(Path(args.external_pages), {}) if args.external_pages else {}
+    site_standards_file = load_json(root/'outputs/site_standards/site_standards.json', {}) or {}
+    hygiene_sources = [raw_input, query_portfolio_file, sitemap_inventory_file, ai_citations_file, owned_pages_file, external_pages_file, site_standards_file]
 
     canonical=find_canonical_payload(raw_input) if isinstance(raw_input,dict) else None
     if isinstance(canonical,dict):
+        hygiene_sources.append(canonical)
         bundle=upgrade_canonical_bundle(canonical,args)
     else:
         preview=find_preview_payload(raw_input) if isinstance(raw_input,dict) else None
         if preview:
+            hygiene_sources.append(preview)
             bundle=build_from_preview(preview,args)
         else:
             if isinstance(raw_input,dict): write_compact_files_from_payload(root, raw_input)
@@ -1428,6 +1433,7 @@ def main():
             owned_full=load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {}
             source_class=load_json(root/'outputs/source_landscape/source_classification.json', {}) or {}
             patterns=load_json(root/'outputs/benchmark/winning_source_patterns.json', {}) or {}
+            hygiene_sources.extend([audit, evidence, visibility, ai_scores, google, owned_full, source_class, patterns])
             meta_index=build_query_metadata_index(query_portfolio_file, audit, evidence, visibility, ai_scores, google)
             query_rows=(as_list(query_portfolio_file,["queries","query_portfolio","items"]) or as_list(visibility,["queries","rows"]) or as_list(ai_scores,["scores","rows"]) or as_list(google,["queries","rows","results"]) or as_list(audit,["queries","query_portfolio"]) or as_list(evidence,["queries","query_scope"]))
             if args.query_limit and len(query_rows) > args.query_limit:
@@ -1502,6 +1508,7 @@ def main():
         if bundle["parser_manifest"]["queries_with_three_owned_urls"] < len(qwork): warnings.append("Some queries have fewer than 3 mapped owned URLs.")
         bundle["validation"]["quality_warnings"] = warnings
         bundle["validation"]["status"] = bundle["validation"].get("status") or ("warning" if warnings else "passed")
+    attach_ai_discoverability_hygiene(bundle, *hygiene_sources)
     write_json(root/'outputs/query_workbench/query_workbench.json', {"query_workbench": qwork})
     if query_portfolio_file: write_json(root/'outputs/query_portfolio/query_portfolio.normalised.json', query_portfolio_file)
     if sitemap_inventory_file: write_json(root/'outputs/sitemap/sitemap_inventory.normalised.json', sitemap_inventory_file)

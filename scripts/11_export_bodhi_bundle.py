@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import mean
+from ai_hygiene import build_ai_discoverability_hygiene
 from lib import get_config, get_weights, read_json, write_json
 
 
@@ -533,6 +534,7 @@ def _reporting_caveats() -> list[str]:
 
 
 def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: dict, benchmark: dict, rules: dict, backlog: dict, site_standards: dict) -> dict:
+    hygiene, _ = build_ai_discoverability_hygiene({}, audit, owned, site_standards)
     return {
         'bundle_schema_version': 'ai_visibility_local_v3_bodhi_compact',
         'metadata': {
@@ -556,12 +558,15 @@ def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: d
         'preference_rules': _compact_rules(rules),
         'improvement_backlog': _compact_backlog(backlog),
         'scoring_framework': get_weights().get('framework', {}),
+        'ai_discoverability_hygiene': hygiene,
+        'site_ai_hygiene': hygiene,
         'evidence_quality': _evidence_quality(audit, visibility, owned, external, site_standards),
         'reporting_caveats': _reporting_caveats(),
     }
 
 
 def _make_full_bundle(audit: dict, visibility: dict, scope: dict, owned: dict, external: dict, benchmark: dict, rules: dict, backlog: dict, dashboard_dataset: dict, site_standards: dict) -> dict:
+    hygiene, _ = build_ai_discoverability_hygiene({}, audit, scope, owned, site_standards)
     return {
         'bundle_schema_version': 'ai_visibility_local_v3_full',
         'audit_context': audit,
@@ -573,6 +578,8 @@ def _make_full_bundle(audit: dict, visibility: dict, scope: dict, owned: dict, e
         'dashboard_dataset': dashboard_dataset,
         'preference_rules': rules,
         'improvement_backlog': backlog,
+        'ai_discoverability_hygiene': hygiene,
+        'site_ai_hygiene': hygiene,
         'evidence_quality': _evidence_quality(audit, visibility, owned, external, site_standards),
         'reporting_caveats': _reporting_caveats(),
     }
