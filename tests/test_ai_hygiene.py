@@ -160,6 +160,161 @@ class AiDiscoverabilityHygieneTests(unittest.TestCase):
             self.assertIn("site_ai_hygiene", bundle)
             self.assertEqual(bundle["site_ai_hygiene"], bundle["ai_discoverability_hygiene"])
 
+    def test_builder_preserves_full_owned_inventory_and_source_citations(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            project = Path(tmp)
+            (project / "outputs" / "content_intelligence").mkdir(parents=True)
+            (project / "outputs" / "google_ai_mode").mkdir(parents=True)
+
+            full_pages = []
+            for idx in range(40):
+                full_pages.append(
+                    {
+                        "url": f"https://example.com/page-{idx}",
+                        "title": f"Page {idx}",
+                        "geo_score_120": 20 + idx,
+                        "geo_dimensions": {"structured_data": 20},
+                        "technical_signals": {
+                            "json_ld_present": idx == 0,
+                            "json_ld_block_count": 1 if idx == 0 else 0,
+                            "schema_types": ["Product"] if idx == 0 else [],
+                        },
+                        "inventory_source": "sitemap_inventory",
+                    }
+                )
+            (project / "outputs" / "content_intelligence" / "owned_pages_full.json").write_text(
+                json.dumps({"pages": full_pages}),
+                encoding="utf-8",
+            )
+            (project / "outputs" / "google_ai_mode" / "google_ai_mode_compact.json").write_text(
+                json.dumps(
+                    {
+                        "rows": [
+                            {
+                                "query_id": "q001",
+                                "query": "example ev range",
+                                "top_citations": [
+                                    {
+                                        "url": "https://cars.example/review",
+                                        "domain": "cars.example",
+                                        "source_type": "publisher",
+                                        "title": "Review",
+                                        "snippet": "Captured citation evidence.",
+                                        "rank": 1,
+                                    }
+                                ],
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            input_path = project / "input.json"
+            input_path.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "query_workbench.v1",
+                        "contract_version": "page_level_cms_grouped_pr.v2",
+                        "brand": "Example",
+                        "market": "US",
+                        "domain": "https://example.com",
+                        "executive": {"headline_metrics": {"owned_page_count": 20}},
+                        "query_workbench": [
+                            {
+                                "query_id": "q001",
+                                "query": "example ev range",
+                                "current_ai_visibility": {
+                                    "score": 10,
+                                    "status": "observed",
+                                    "top_citations": [
+                                        {
+                                            "url": "https://cars.example/review",
+                                            "domain": "cars.example",
+                                            "source_type": "publisher",
+                                            "snippet": "Captured citation evidence.",
+                                            "rank": 1,
+                                        }
+                                    ],
+                                },
+                                "winning_patterns": [],
+                                "mapped_owned_urls": [
+                                    {
+                                        "url": f"https://example.com/page-{idx}",
+                                        "title": f"Page {idx}",
+                                        "current_geo_score_120": 20 + idx,
+                                    }
+                                    for idx in range(20)
+                                ],
+                            }
+                        ],
+                        "owned_url_readiness": [
+                            {
+                                "url": f"https://example.com/page-{idx}",
+                                "title": f"Page {idx}",
+                                "current_geo_score_120": 20 + idx,
+                            }
+                            for idx in range(20)
+                        ],
+                        "ai_discoverability_hygiene": {
+                            "priority": "high",
+                            "summary": "Explicit hygiene should not create scored rows.",
+                            "robots_txt": {"status": "available"},
+                            "llms_txt": {"status": "not found"},
+                            "structured_data": {
+                                "owned_pages_total": 40,
+                                "pages_with_schema": 1,
+                                "pages_with_json_ld": 1,
+                                "coverage_pct": 2.5,
+                                "pages_missing_json_ld": [{"url": "https://example.com/not-a-scored-row"}],
+                            },
+                        },
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            subprocess.run(
+                [
+                    sys.executable,
+                    str(ROOT / "scripts" / "build_query_workbench_bundle.py"),
+                    "--project-root",
+                    str(project),
+                    "--input-json",
+                    str(input_path),
+                    "--brand",
+                    "Example",
+                    "--market",
+                    "US",
+                    "--domain",
+                    "https://example.com",
+                ],
+                cwd=str(ROOT),
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+            )
+
+            bundle = json.loads((project / "outputs" / "frontend_report_bundle.json").read_text(encoding="utf-8"))
+            rows = bundle["owned_url_readiness"]
+            by_url = {row["url"]: row for row in rows}
+            self.assertEqual(len(rows), 40)
+            self.assertTrue(by_url["https://example.com/page-0"]["query_mapped"])
+            self.assertFalse(by_url["https://example.com/page-39"]["query_mapped"])
+            self.assertEqual(by_url["https://example.com/page-39"]["current_geo_score_120"], 59)
+            self.assertEqual(by_url["https://example.com/page-0"]["json_ld_present"], True)
+            self.assertNotIn("https://example.com/not-a-scored-row", by_url)
+            self.assertEqual(bundle["executive"]["headline_metrics"]["owned_page_count"], 40)
+
+            citations = bundle["source_landscape"]["source_citations"]
+            self.assertGreaterEqual(len(citations), 1)
+            self.assertEqual(citations[0]["query_id"], "q001")
+            self.assertEqual(citations[0]["source_domain"], "cars.example")
+            self.assertIn("Captured citation evidence", citations[0]["citation_text"])
+            self.assertEqual(bundle["query_workbench"][0]["winning_patterns"], [])
+            self.assertEqual(bundle["query_workbench"][0]["current_ai_visibility"]["top_citations"][0]["domain"], "cars.example")
+
 
 if __name__ == "__main__":
     unittest.main()

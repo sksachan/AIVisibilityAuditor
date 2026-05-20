@@ -277,9 +277,14 @@ def normalise_citation(r: dict, pos: int = 1) -> dict:
         "citation_position": int(r.get("citation_position") or r.get("rank") or r.get("observed_citation_position") or pos),
         "title": text(r.get("title") or r.get("source_name") or domain(u)),
         "url": u,
+        "source_url": u,
         "domain": text(r.get("domain") or r.get("source_domain") or domain(u)),
+        "source_domain": text(r.get("source_domain") or r.get("domain") or domain(u)),
         "source_type": source_type(u, text(r.get("source_type") or r.get("source_category"))),
-        "snippet": text(r.get("snippet") or r.get("text") or r.get("summary") or r.get("content_extract"), 700),
+        "snippet": text(r.get("snippet") or r.get("citation_text") or r.get("text") or r.get("summary") or r.get("content_extract"), 700),
+        "citation_text": text(r.get("citation_text") or r.get("snippet") or r.get("text") or r.get("summary") or r.get("content_extract"), 700),
+        "query_id": text(r.get("query_id")),
+        "query": text(r.get("query")),
         "is_owned_domain": bool(r.get("is_owned_domain") or r.get("is_owned") or is_owned(u)),
         "is_owned_target_page": bool(r.get("is_owned_target_page") or r.get("owned_target_page_cited") or False),
         "is_competitor": bool(r.get("is_competitor") or source_type(u) == "competitor_owned"),
@@ -375,6 +380,261 @@ def build_evidence_citations_by_q(evidence: dict, source_class: dict) -> dict:
             c["citation_position"] = c.get("citation_position") or idx
             clean[qid].append(c)
     return clean
+
+
+def url_key(value: Any) -> str:
+    return text(value).split("#", 1)[0].rstrip("/").lower()
+
+
+def first_value(*values: Any) -> Any:
+    for value in values:
+        if value not in (None, ""):
+            return value
+    return None
+
+
+def page_url(page: dict) -> str:
+    return text(first_value(page.get("url"), page.get("page_url"), page.get("target_url"), page.get("resolved_url"), page.get("canonical_url"), page.get("href"), page.get("link")))
+
+
+def page_score(page: dict) -> Any:
+    return first_value(page.get("current_geo_score_120"), page.get("score_120"), page.get("geo_readiness_score"), page.get("geo_score_120"), page.get("readiness_score"))
+
+
+def has_scored_owned_signal(page: dict) -> bool:
+    return page_score(page) is not None or page.get("geo_analysis_ready") is True
+
+
+def page_technical_signals(page: dict) -> dict:
+    tech = page.get("technical_signals") if isinstance(page.get("technical_signals"), dict) else {}
+    schema_types = first_value(tech.get("schema_types"), tech.get("schemaTypes"), page.get("schema_types"), page.get("schema_types_detected"), [])
+    block_count = first_value(tech.get("json_ld_block_count"), tech.get("jsonLdBlockCount"), page.get("json_ld_block_count"))
+    json_ld_present = first_value(tech.get("json_ld_present"), tech.get("jsonLdPresent"), page.get("json_ld_present"))
+    out = {
+        **tech,
+        "json_ld_present": json_ld_present,
+        "json_ld_block_count": block_count,
+        "schema_types": schema_types if isinstance(schema_types, list) else [],
+        "crawl_status": first_value(tech.get("crawl_status"), tech.get("crawlStatus"), page.get("crawl_status")),
+        "canonical_url": first_value(tech.get("canonical_url"), tech.get("canonicalUrl"), page.get("canonical_url"), page.get("final_url")),
+        "word_count": first_value(tech.get("word_count"), tech.get("wordCount"), page.get("word_count")),
+    }
+    return {k: v for k, v in out.items() if v not in (None, "")}
+
+
+def related_queries_from(value: Any) -> list[dict]:
+    out = []
+    for row in as_list(value):
+        if not isinstance(row, dict):
+            continue
+        related = {
+            "query_id": text(first_value(row.get("query_id"), row.get("id"))),
+            "id": text(first_value(row.get("query_id"), row.get("id"))),
+            "query": text(first_value(row.get("query"), row.get("text"))),
+            "visibility_status": text(first_value(row.get("visibility_status"), row.get("status"))),
+        }
+        if related["query_id"] or related["query"]:
+            out.append(related)
+    return out
+
+
+def canonical_owned_readiness_row(page: dict, *, query_mapped: bool = False, related_queries: list[dict] | None = None) -> dict | None:
+    url = page_url(page)
+    if not url:
+        return None
+    extract = page.get("owned_page_extract") if isinstance(page.get("owned_page_extract"), dict) else {}
+    dims = first_value(page.get("geo_dimensions"), page.get("dimensions"), page.get("dimension_scores"), {})
+    dims = dims if isinstance(dims, dict) else {}
+    tech = page_technical_signals(page)
+    score = page_score(page)
+    row = {
+        "url": url,
+        "title": text(first_value(extract.get("title"), page.get("title"), page.get("page_title"))),
+        "current_geo_score_120": score if score is not None else 0,
+        "geo_dimensions": dims,
+        "query_mapped": bool(page.get("query_mapped") is True or page.get("queryMapped") is True or query_mapped),
+        "inventory_source": text(first_value(page.get("inventory_source"), page.get("inventorySource"), "query_mapped" if query_mapped else "sitemap_inventory")),
+        "related_queries": related_queries if related_queries is not None else related_queries_from(first_value(page.get("related_queries"), page.get("related_query_evidence"), page.get("mapped_queries"))),
+        "technical_signals": tech,
+        "json_ld_present": tech.get("json_ld_present"),
+        "json_ld_block_count": tech.get("json_ld_block_count"),
+        "schema_types": tech.get("schema_types", []),
+    }
+    for key in ("score_band", "crawl_status", "extraction_status", "geo_analysis_ready"):
+        if page.get(key) is not None:
+            row[key] = page.get(key)
+    return {k: v for k, v in row.items() if v is not None}
+
+
+def collect_owned_pages_from_sources(*sources: Any) -> list[dict]:
+    rows = []
+
+    def walk(obj: Any):
+        if isinstance(obj, dict):
+            owned_full = obj.get("owned_pages_full") if isinstance(obj.get("owned_pages_full"), dict) else None
+            if owned_full:
+                for page in records_list(owned_full, ["pages", "owned_pages", "items"]):
+                    if has_scored_owned_signal(page):
+                        rows.append(page)
+            for key in ("owned_url_readiness", "owned_readiness", "owned_pages", "owned_urls", "pages", "items", "rows"):
+                for page in records_list(obj.get(key), default_key="url"):
+                    if has_scored_owned_signal(page):
+                        rows.append(page)
+            for key in ("audit_context", "evidence_scope", "files", "data", "bundle"):
+                if isinstance(obj.get(key), dict):
+                    walk(obj[key])
+        elif isinstance(obj, list):
+            for item in obj:
+                if isinstance(item, dict) and has_scored_owned_signal(item):
+                    rows.append(item)
+
+    for source in sources:
+        walk(source)
+    return rows
+
+
+def mapped_url_index(qwork: list[dict], bundle: dict) -> tuple[set[str], dict[str, list[dict]]]:
+    mapped = set()
+    related_by_url: dict[str, list[dict]] = defaultdict(list)
+    for q in qwork:
+        if not isinstance(q, dict):
+            continue
+        rel = {
+            "query_id": text(q.get("query_id")),
+            "id": text(q.get("query_id")),
+            "query": text(q.get("query")),
+            "topic_id": text(q.get("topic_id")),
+            "topic": text(q.get("topic")),
+            "journey_category": text(q.get("journey_category")),
+            "journey_stage": text(q.get("journey_stage")),
+            "intent": text(q.get("intent")),
+            "visibility_status": text((q.get("current_ai_visibility") or {}).get("status") if isinstance(q.get("current_ai_visibility"), dict) else ""),
+        }
+        for page in q.get("mapped_owned_urls") or []:
+            if not isinstance(page, dict):
+                continue
+            key = url_key(page_url(page))
+            if not key:
+                continue
+            mapped.add(key)
+            related_by_url[key].append({k: v for k, v in rel.items() if v})
+    for rec_key in ("page_level_cms_recommendations", "cms_recommendations"):
+        for rec in bundle.get(rec_key) or []:
+            if not isinstance(rec, dict):
+                continue
+            key = url_key(first_value(rec.get("target_url"), rec.get("targetUrl"), rec.get("url")))
+            if key:
+                mapped.add(key)
+    return mapped, related_by_url
+
+
+def source_citation_rows(qwork: list[dict], *sources: Any) -> list[dict]:
+    rows = []
+    for q in qwork:
+        if not isinstance(q, dict):
+            continue
+        qid = text(q.get("query_id"))
+        query = text(q.get("query"))
+        citations = []
+        vis = q.get("current_ai_visibility") if isinstance(q.get("current_ai_visibility"), dict) else {}
+        citations.extend([c for c in vis.get("top_citations") or [] if isinstance(c, dict)])
+        citations.extend([c for c in q.get("external_top3_benchmark") or [] if isinstance(c, dict)])
+        for i, c in enumerate(citations, start=1):
+            item = normalise_citation({**c, "query_id": qid, "query": query}, i)
+            if item.get("url"):
+                rows.append(item)
+
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+        google = source.get("google_ai_mode_compact") if isinstance(source.get("google_ai_mode_compact"), dict) else source
+        for row in as_list(google, ["rows", "queries", "results"]):
+            if not isinstance(row, dict):
+                continue
+            qid = text(row.get("query_id") or row.get("id"))
+            query = text(row.get("query"))
+            for i, ref in enumerate(refs_from(row), start=1):
+                item = normalise_citation({**ref, "query_id": qid, "query": query}, i)
+                if item.get("url"):
+                    rows.append(item)
+        evidence = source.get("evidence_scope") if isinstance(source.get("evidence_scope"), dict) else source
+        for ref in records_list(evidence, ["ai_citations", "citations", "external_sources", "sources"], default_key="url"):
+            qids = [text(ref.get("query_id"))] if ref.get("query_id") else [text(x) for x in ref.get("queries", []) if text(x)] if isinstance(ref.get("queries"), list) else [""]
+            for qid in qids:
+                item = normalise_citation({**ref, "url": ref.get("source_url") or ref.get("url"), "query_id": qid, "query": ref.get("query")}, len(rows) + 1)
+                if item.get("url"):
+                    rows.append(item)
+
+    deduped = {}
+    for item in rows:
+        key = (text(item.get("query_id")), url_key(item.get("url")), text(item.get("citation_position")))
+        deduped.setdefault(key, item)
+    return list(deduped.values())
+
+
+def observed_domains_from_citations(citations: list[dict]) -> list[dict]:
+    by_domain = {}
+    for c in citations:
+        if c.get("is_owned_domain"):
+            continue
+        d = text(c.get("domain") or c.get("source_domain") or domain(c.get("url")))
+        if not d:
+            continue
+        row = by_domain.setdefault(d, {"domain": d, "source_domain": d, "source_type": c.get("source_type") or "other", "observed_count": 0, "count": 0, "example_url": c.get("url"), "example_query": c.get("query")})
+        row["observed_count"] += 1
+        row["count"] += 1
+    return sorted(by_domain.values(), key=lambda x: x["observed_count"], reverse=True)
+
+
+def finalise_frontend_contract(bundle: dict, *sources: Any) -> dict:
+    qwork = bundle.get("query_workbench") if isinstance(bundle.get("query_workbench"), list) else []
+    mapped, related_by_url = mapped_url_index(qwork, bundle)
+    rows_by_url = {}
+    for row in bundle.get("owned_url_readiness") or []:
+        if not isinstance(row, dict):
+            continue
+        key = url_key(page_url(row))
+        canonical = canonical_owned_readiness_row(row, query_mapped=key in mapped, related_queries=related_by_url.get(key) or related_queries_from(row.get("related_queries")))
+        if key and canonical:
+            rows_by_url[key] = canonical
+    for page in collect_owned_pages_from_sources(*sources):
+        key = url_key(page_url(page))
+        if not key:
+            continue
+        canonical = canonical_owned_readiness_row(page, query_mapped=key in mapped, related_queries=related_by_url.get(key, []))
+        if key in rows_by_url:
+            if not canonical:
+                continue
+            existing = rows_by_url[key]
+            existing["query_mapped"] = bool(existing.get("query_mapped") or canonical.get("query_mapped"))
+            for field in ("title", "current_geo_score_120", "geo_dimensions", "inventory_source", "json_ld_present", "json_ld_block_count", "schema_types"):
+                if existing.get(field) in (None, "", [], {}):
+                    existing[field] = canonical.get(field)
+            tech = existing.get("technical_signals") if isinstance(existing.get("technical_signals"), dict) else {}
+            tech.update(canonical.get("technical_signals") if isinstance(canonical.get("technical_signals"), dict) else {})
+            existing["technical_signals"] = tech
+            if not existing.get("related_queries") and canonical.get("related_queries"):
+                existing["related_queries"] = canonical.get("related_queries")
+            continue
+        if canonical:
+            rows_by_url[key] = canonical
+    owned = list(rows_by_url.values())
+    bundle["owned_url_readiness"] = owned
+    if isinstance(bundle.get("executive"), dict):
+        headline = bundle["executive"].setdefault("headline_metrics", {})
+        if isinstance(headline, dict):
+            headline["owned_page_count"] = len(owned)
+            headline["average_owned_geo_score_120"] = round(sum(float(o.get("current_geo_score_120") or 0) for o in owned) / max(1, len(owned)), 1)
+
+    citations = source_citation_rows(qwork, *sources)
+    landscape = bundle.setdefault("source_landscape", {})
+    if isinstance(landscape, dict):
+        landscape["source_citations"] = citations
+        if not isinstance(landscape.get("observed_non_owned_domains"), list) or not landscape.get("observed_non_owned_domains"):
+            landscape["observed_non_owned_domains"] = observed_domains_from_citations(citations)
+    bundle.setdefault("parser_manifest", {})["owned_url_readiness_count"] = len(owned)
+    bundle["parser_manifest"]["source_citation_count"] = len(citations)
+    return bundle
 
 def detect_competitors(blob: str, citations: list[dict]) -> list[str]:
     all_text=(blob+" "+" ".join(text(c) for c in citations)).lower()
@@ -1508,6 +1768,20 @@ def main():
         if bundle["parser_manifest"]["queries_with_three_owned_urls"] < len(qwork): warnings.append("Some queries have fewer than 3 mapped owned URLs.")
         bundle["validation"]["quality_warnings"] = warnings
         bundle["validation"]["status"] = bundle["validation"].get("status") or ("warning" if warnings else "passed")
+    contract_sources = [
+        raw_input,
+        query_portfolio_file,
+        sitemap_inventory_file,
+        ai_citations_file,
+        owned_pages_file,
+        external_pages_file,
+        load_json(root/'outputs/audit_context/audit_context.json', {}) or {},
+        load_json(root/'outputs/evidence_scope/evidence_scope.json', {}) or {},
+        load_json(root/'outputs/google_ai_mode/google_ai_mode_compact.json', {}) or {},
+        load_json(root/'outputs/content_intelligence/owned_pages_full.json', {}) or {},
+        load_json(root/'outputs/source_landscape/source_classification.json', {}) or {},
+    ]
+    finalise_frontend_contract(bundle, *contract_sources)
     attach_ai_discoverability_hygiene(bundle, *hygiene_sources)
     write_json(root/'outputs/query_workbench/query_workbench.json', {"query_workbench": qwork})
     if query_portfolio_file: write_json(root/'outputs/query_portfolio/query_portfolio.normalised.json', query_portfolio_file)

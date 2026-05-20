@@ -42,7 +42,33 @@
       "type": "array"
     },
     "owned_url_readiness": {
-      "type": "array"
+      "type": "array",
+      "description": "Canonical scored/audited owned URL readiness rows. Its length is the audited owned page count used by executive.headline_metrics.owned_page_count.",
+      "items": {
+        "$ref": "#/$defs/ownedUrlReadinessRow"
+      }
+    },
+    "source_landscape": {
+      "type": "object",
+      "properties": {
+        "source_citations": {
+          "type": "array",
+          "description": "Frontend-readable raw citation evidence from AI/SerpAPI observations.",
+          "items": {
+            "$ref": "#/$defs/sourceCitationRow"
+          }
+        },
+        "observed_non_owned_domains": {
+          "type": "array"
+        },
+        "source_type_counts": {
+          "type": "object"
+        },
+        "competitors": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": true
     },
     "page_level_cms_recommendations": {
       "type": "array"
@@ -94,6 +120,110 @@
     }
   },
   "$defs": {
+    "ownedUrlReadinessRow": {
+      "type": "object",
+      "required": [
+        "url",
+        "current_geo_score_120",
+        "query_mapped"
+      ],
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "current_geo_score_120": {
+          "type": "number"
+        },
+        "geo_dimensions": {
+          "type": "object"
+        },
+        "query_mapped": {
+          "type": "boolean"
+        },
+        "inventory_source": {
+          "type": "string"
+        },
+        "related_queries": {
+          "type": "array"
+        },
+        "technical_signals": {
+          "type": "object"
+        },
+        "json_ld_present": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "json_ld_block_count": {
+          "type": [
+            "integer",
+            "number",
+            "null"
+          ]
+        },
+        "schema_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "sourceCitationRow": {
+      "type": "object",
+      "required": [
+        "url",
+        "domain"
+      ],
+      "properties": {
+        "query_id": {
+          "type": "string"
+        },
+        "query": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "domain": {
+          "type": "string"
+        },
+        "source_domain": {
+          "type": "string"
+        },
+        "source_type": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "snippet": {
+          "type": "string"
+        },
+        "citation_text": {
+          "type": "string"
+        },
+        "citation_position": {
+          "type": "integer"
+        },
+        "rank": {
+          "type": [
+            "integer",
+            "number",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
     "aiDiscoverabilityHygiene": {
       "type": "object",
       "required": [

@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from pathlib import Path
 from statistics import mean
+from urllib.parse import urlparse
 from ai_hygiene import build_ai_discoverability_hygiene
 from lib import get_config, get_weights, read_json, write_json
 
@@ -35,6 +36,113 @@ def _count_mix(rows, key: str) -> dict:
         elif value:
             c[value] += 1
     return dict(c)
+
+
+def _domain(url: str) -> str:
+    try:
+        return urlparse(url or '').netloc.replace('www.', '')
+    except Exception:
+        return ''
+
+
+def _url_key(url: str) -> str:
+    return (url or '').split('#', 1)[0].rstrip('/').lower()
+
+
+def _page_score(row: dict):
+    for key in ('current_geo_score_120', 'geo_score_120', 'score_120', 'geo_readiness_score', 'readiness_score', 'overall_score'):
+        if row.get(key) is not None:
+            return row.get(key)
+    return 0
+
+
+def _technical_signals(row: dict) -> dict:
+    tech = row.get('technical_signals') if isinstance(row.get('technical_signals'), dict) else {}
+    schema_types = tech.get('schema_types', row.get('schema_types', row.get('schema_types_detected', [])))
+    return {
+        **tech,
+        'json_ld_present': tech.get('json_ld_present', row.get('json_ld_present')),
+        'json_ld_block_count': tech.get('json_ld_block_count', row.get('json_ld_block_count')),
+        'schema_types': schema_types if isinstance(schema_types, list) else [],
+    }
+
+
+def _audit_mapped_urls(audit: dict) -> set[str]:
+    mapped = set()
+    for q in audit.get('queries', []) or []:
+        for url in q.get('mapped_pages', []) or q.get('owned_page_urls', []) or []:
+            if isinstance(url, dict):
+                url = url.get('url')
+            key = _url_key(url or '')
+            if key:
+                mapped.add(key)
+    return mapped
+
+
+def _owned_url_readiness_full(owned: dict, audit: dict) -> list[dict]:
+    mapped = _audit_mapped_urls(audit)
+    out = []
+    seen = set()
+    for page in owned.get('page_analysis', []) or owned.get('pages', []) or []:
+        url = page.get('url') or page.get('page_url')
+        key = _url_key(url or '')
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        tech = _technical_signals(page)
+        related = []
+        for q in page.get('mapped_queries', []) or page.get('related_queries', []) or []:
+            if isinstance(q, dict):
+                related.append({k: q.get(k) for k in ('query_id', 'id', 'query', 'visibility_status') if q.get(k)})
+            elif q:
+                related.append({'query': str(q)})
+        out.append({
+            'url': url,
+            'title': page.get('title', ''),
+            'current_geo_score_120': _page_score(page),
+            'geo_dimensions': page.get('geo_dimensions', page.get('dimension_scores', {})),
+            'query_mapped': key in mapped or bool(page.get('query_mapped')),
+            'inventory_source': page.get('inventory_source') or ('query_mapped' if key in mapped else 'sitemap_inventory'),
+            'related_queries': related,
+            'technical_signals': tech,
+            'json_ld_present': tech.get('json_ld_present'),
+            'json_ld_block_count': tech.get('json_ld_block_count'),
+            'schema_types': tech.get('schema_types', []),
+        })
+    return out
+
+
+def _source_citations(visibility: dict) -> list[dict]:
+    rows = []
+    for row in visibility.get('rows', []) or []:
+        qid = row.get('query_id') or row.get('id') or ''
+        query = row.get('query') or ''
+        refs = []
+        refs.extend(row.get('top_citations') or [])
+        refs.extend(row.get('ai_citations') or [])
+        refs.extend(row.get('external_sources') or [])
+        for idx, src in enumerate([r for r in refs if isinstance(r, dict)], start=1):
+            url = src.get('url') or src.get('source_url') or ''
+            if not url:
+                continue
+            d = src.get('domain') or src.get('source_domain') or _domain(url)
+            rows.append({
+                'query_id': qid,
+                'query': query,
+                'url': url,
+                'source_url': url,
+                'domain': d,
+                'source_domain': d,
+                'source_type': src.get('source_type') or src.get('source_category') or '',
+                'title': src.get('title') or src.get('source_name') or d,
+                'snippet': _clip(src.get('snippet') or src.get('citation_text') or src.get('text') or src.get('summary') or '', MAX_SHORT_TEXT),
+                'citation_text': _clip(src.get('citation_text') or src.get('snippet') or src.get('text') or src.get('summary') or '', MAX_SHORT_TEXT),
+                'citation_position': src.get('citation_position') or src.get('rank') or idx,
+            })
+    deduped = {}
+    for row in rows:
+        deduped.setdefault((row.get('query_id'), _url_key(row.get('url', '')), row.get('citation_position')), row)
+    return list(deduped.values())
 
 
 def _owned_summary(owned: dict) -> dict:
@@ -202,6 +310,7 @@ def _source_landscape_summary(external: dict, visibility: dict) -> dict:
     source_type_mix = Counter()
     source_quality_mix = Counter()
     named_sources = Counter()
+    citations = _source_citations(visibility)
     for src in external.get('source_analysis', []):
         if src.get('source_type'):
             source_type_mix[src.get('source_type')] += 1
@@ -222,6 +331,7 @@ def _source_landscape_summary(external: dict, visibility: dict) -> dict:
         'dominant_source_types': [{'source_type': k, 'count': v} for k, v in source_type_mix.most_common(12)],
         'source_quality_mix': dict(source_quality_mix),
         'dominant_sources': [{'source': k, 'count': v} for k, v in named_sources.most_common(12)],
+        'source_citations': citations,
         'publisher_dependency_patterns': external.get('aggregate', {}).get('publisher_dependency_patterns', []),
     }
 
@@ -535,6 +645,8 @@ def _reporting_caveats() -> list[str]:
 
 def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: dict, benchmark: dict, rules: dict, backlog: dict, site_standards: dict) -> dict:
     hygiene, _ = build_ai_discoverability_hygiene({}, audit, owned, site_standards)
+    owned_url_readiness = _owned_url_readiness_full(owned, audit)
+    source_landscape = _source_landscape_summary(external, visibility)
     return {
         'bundle_schema_version': 'ai_visibility_local_v3_bodhi_compact',
         'metadata': {
@@ -552,8 +664,10 @@ def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: d
         'queries': _compact_queries(audit),
         'visibility_summary': _visibility_summary(visibility),
         'owned_readiness_summary': _owned_summary(owned),
+        'owned_url_readiness': owned_url_readiness,
         'external_readiness_summary': _external_summary(external),
-        'source_landscape_summary': _source_landscape_summary(external, visibility),
+        'source_landscape_summary': source_landscape,
+        'source_landscape': source_landscape,
         'benchmark_summary': _compact_benchmark(benchmark),
         'preference_rules': _compact_rules(rules),
         'improvement_backlog': _compact_backlog(backlog),
@@ -567,13 +681,17 @@ def _make_compact_bundle(audit: dict, visibility: dict, owned: dict, external: d
 
 def _make_full_bundle(audit: dict, visibility: dict, scope: dict, owned: dict, external: dict, benchmark: dict, rules: dict, backlog: dict, dashboard_dataset: dict, site_standards: dict) -> dict:
     hygiene, _ = build_ai_discoverability_hygiene({}, audit, scope, owned, site_standards)
+    owned_url_readiness = _owned_url_readiness_full(owned, audit)
+    source_landscape = _source_landscape_summary(external, visibility)
     return {
         'bundle_schema_version': 'ai_visibility_local_v3_full',
         'audit_context': audit,
         'visibility_matrix': visibility,
         'evidence_scope': scope,
         'owned_readiness': owned,
+        'owned_url_readiness': owned_url_readiness,
         'external_readiness': external,
+        'source_landscape': source_landscape,
         'source_preference_benchmark': benchmark,
         'dashboard_dataset': dashboard_dataset,
         'preference_rules': rules,
