@@ -173,7 +173,8 @@ class AiDiscoverabilityHygieneTests(unittest.TestCase):
                     "title": f"Page {idx}",
                     "crawl_status": "success",
                     "word_count": 900,
-                    "markdown": "## Charging support\nOfficial specifications, warranty conditions, safety guidance and 2026 update. Range 300 km. Charging 40 kW.",
+                    "markdown": ("## Charging support\nOfficial specifications, warranty conditions, safety guidance and 2026 update. "
+                                 "Range 300 km. Charging 40 kW. ") * 12,
                     "headings": ["Charging support", "Specifications"],
                     "canonical_url": f"https://example.com/page-{idx}",
                     "technical_signals": {
@@ -308,8 +309,10 @@ class AiDiscoverabilityHygieneTests(unittest.TestCase):
             self.assertTrue(by_url["https://example.com/page-0"]["query_mapped"])
             self.assertFalse(by_url["https://example.com/page-39"]["query_mapped"])
             self.assertEqual(by_url["https://example.com/page-19"]["current_geo_score_120"], 39)
+            self.assertEqual(by_url["https://example.com/page-19"]["scoring_method"], "explicit_page_geo_v1")
             self.assertGreater(by_url["https://example.com/page-21"]["current_geo_score_120"], 0)
             self.assertGreater(by_url["https://example.com/page-21"]["geo_dimensions"]["semantic_depth"], 0)
+            self.assertEqual(by_url["https://example.com/page-21"]["scoring_method"], "crawl_evidence_v1")
             self.assertEqual(by_url["https://example.com/page-0"]["json_ld_present"], True)
             self.assertNotIn("https://example.com/not-a-scored-row", by_url)
             self.assertEqual(bundle["executive"]["headline_metrics"]["owned_page_count"], 40)

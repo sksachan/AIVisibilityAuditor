@@ -401,39 +401,63 @@ def page_score(page: dict) -> Any:
     return first_value(page.get("current_geo_score_120"), page.get("score_120"), page.get("geo_readiness_score"), page.get("geo_score_120"), page.get("readiness_score"))
 
 
-def fallback_geo_from_crawl(page: dict) -> tuple[int, dict[str, int]]:
-    markdown = text(first_value(page.get("markdown"), page.get("text"), page.get("content_extract"), page.get("main_text"), ""), 12000)
+def page_geo_from_crawl(page: dict) -> tuple[int, dict[str, int], str, str]:
+    """Deterministic page-intrinsic GEO/readiness score from crawl evidence.
+
+    This score deliberately ignores query intent. Query matching is handled
+    separately by map_owned_urls() so page readiness remains stable across runs
+    when the page content and crawl evidence have not changed.
+    """
+    tech = page.get("technical_signals") if isinstance(page.get("technical_signals"), dict) else {}
+    markdown = text(first_value(page.get("markdown"), page.get("text"), page.get("content_extract"), page.get("main_text"), tech.get("markdown"), tech.get("text"), ""), 12000)
     title = text(first_value(page.get("title"), page.get("page_title"), ""))
     description = text(first_value(page.get("meta_description"), page.get("description"), ""))
     combined = f"{title}\n{description}\n{markdown}"
     low = combined.lower()
     try:
-        word_count = int(page.get("word_count") or len(combined.split()))
+        word_count = int(first_value(page.get("word_count"), tech.get("word_count"), tech.get("wordCount"), len(combined.split())) or 0)
     except Exception:
         word_count = len(combined.split())
-    headings = page.get("headings") if isinstance(page.get("headings"), list) else []
-    schema_types = first_value(page.get("schema_types"), page.get("schema_types_detected"), [])
+    has_full_crawl_text = word_count >= 250 and len(markdown) >= 500
+    headings = page.get("headings") if isinstance(page.get("headings"), list) else tech.get("headings") if isinstance(tech.get("headings"), list) else []
+    schema_types = first_value(page.get("schema_types"), page.get("schema_types_detected"), tech.get("schema_types"), tech.get("schemaTypes"), [])
     schema_count = len(schema_types) if isinstance(schema_types, list) else 0
-    json_ld_present = bool(first_value(page.get("json_ld_present"), page.get("jsonLdPresent"), False))
+    json_ld_present = bool(first_value(page.get("json_ld_present"), page.get("jsonLdPresent"), tech.get("json_ld_present"), tech.get("jsonLdPresent"), False))
     try:
-        json_ld_blocks = int(first_value(page.get("json_ld_block_count"), page.get("jsonLdBlockCount"), 0) or 0)
+        json_ld_blocks = int(first_value(page.get("json_ld_block_count"), page.get("jsonLdBlockCount"), tech.get("json_ld_block_count"), tech.get("jsonLdBlockCount"), 0) or 0)
     except Exception:
         json_ld_blocks = 0
     numeric_count = len(re.findall(r"\d+[\d,.]*\s?(?:km|kwh|kw|円|万円|年|%|％|mm|kg|人|席)", combined, re.I))
     question_count = low.count("?") + low.count("？") + low.count("faq") + low.count("よくある")
     proof_count = sum(low.count(term) for term in ["保証", "安全", "仕様", "諸元", "条件", "公式", "warranty", "safety", "specification", "official"])
     freshness = bool(re.search(r"20[2-3][0-9]|更新日|掲載日|last updated|valid until", combined, re.I))
+    canonical_url = first_value(page.get("canonical_url"), tech.get("canonical_url"), tech.get("canonicalUrl"), page.get("final_url"))
+    if not has_full_crawl_text:
+        dims = {
+            "content_clarity": 4 if title else 0,
+            "semantic_depth": 0,
+            "structured_data": min(20, (12 if json_ld_present or json_ld_blocks > 0 else 0) + min(8, schema_count * 3)),
+            "eeat_signals": 2,
+            "freshness_index": 4 if canonical_url else 0,
+            "faq_readiness": 0,
+        }
+        return sum(dims.values()), dims, "fallback_limited_v1", "Limited fallback: full markdown crawl text was not available, so only metadata and technical signals were scored."
     dims = {
         "content_clarity": min(20, (4 if title else 0) + (4 if description else 0) + (4 if word_count >= 300 else 0) + (4 if len(headings) >= 2 else 0)),
         "semantic_depth": min(20, (4 if word_count >= 600 else 0) + (4 if word_count >= 1200 else 0) + min(6, numeric_count) + min(4, len(headings))),
         "structured_data": min(20, (12 if json_ld_present or json_ld_blocks > 0 else 0) + min(8, schema_count * 3)),
         "eeat_signals": min(20, 2 + min(8, proof_count) + min(6, numeric_count) + (4 if freshness else 0)),
-        "freshness_index": min(20, 4 + (8 if freshness else 0) + (4 if page.get("canonical_url") else 0)),
+        "freshness_index": min(20, 4 + (8 if freshness else 0) + (4 if canonical_url else 0)),
         "faq_readiness": min(20, min(12, question_count * 3)),
     }
     if text(page.get("crawl_status")).lower() not in {"success", "partial_success_empty_text"} and word_count < 20:
         dims = {key: 0 for key in dims}
-    return sum(dims.values()), dims
+    return sum(dims.values()), dims, "crawl_evidence_v1", "Page-intrinsic GEO/readiness score computed from owned-page crawl text plus JSON-LD/schema, canonical and freshness signals."
+
+
+def fallback_geo_from_crawl(page: dict) -> tuple[int, dict[str, int]]:
+    score, dims, _method, _note = page_geo_from_crawl(page)
+    return score, dims
 
 
 def has_scored_owned_signal(page: dict) -> bool:
@@ -488,13 +512,20 @@ def canonical_owned_readiness_row(page: dict, *, query_mapped: bool = False, rel
     dims = _normalise_dimension_scores(dims) if isinstance(dims, dict) else {}
     tech = page_technical_signals(page)
     score = page_score(page)
+    scoring_method = first_value(page.get("scoring_method"), page.get("scoringMethod"))
+    scoring_notes = first_value(page.get("scoring_notes"), page.get("scoringNotes"))
     if score in (None, "", 0) and not dims:
-        score, dims = fallback_geo_from_crawl(page)
+        score, dims, scoring_method, scoring_notes = page_geo_from_crawl(page)
+    elif not scoring_method:
+        scoring_method = "explicit_page_geo_v1"
+        scoring_notes = "Explicit page-level GEO/readiness score supplied by the Auditor or stored report bundle."
     row = {
         "url": url,
         "title": text(first_value(extract.get("title"), page.get("title"), page.get("page_title"))),
         "current_geo_score_120": score if score is not None else 0,
         "geo_dimensions": dims,
+        "scoring_method": scoring_method,
+        "scoring_notes": scoring_notes,
         "query_mapped": bool(page.get("query_mapped") is True or page.get("queryMapped") is True or query_mapped),
         "inventory_source": text(first_value(page.get("inventory_source"), page.get("inventorySource"), "query_mapped" if query_mapped else "sitemap_inventory")),
         "related_queries": related_queries if related_queries is not None else related_queries_from(first_value(page.get("related_queries"), page.get("related_query_evidence"), page.get("mapped_queries"))),
@@ -654,7 +685,7 @@ def finalise_frontend_contract(bundle: dict, *sources: Any) -> dict:
                 existing["current_geo_score_120"] = canonical.get("current_geo_score_120")
             if not existing.get("geo_dimensions") and canonical.get("geo_dimensions"):
                 existing["geo_dimensions"] = canonical.get("geo_dimensions")
-            for field in ("title", "inventory_source", "json_ld_present", "json_ld_block_count", "schema_types"):
+            for field in ("title", "inventory_source", "json_ld_present", "json_ld_block_count", "schema_types", "scoring_method", "scoring_notes"):
                 if existing.get(field) in (None, "", [], {}):
                     existing[field] = canonical.get(field)
             tech = existing.get("technical_signals") if isinstance(existing.get("technical_signals"), dict) else {}
@@ -748,7 +779,7 @@ def _first_numeric(page: dict, keys: list[str]) -> int | None:
     return None
 
 
-def score_owned_page(page: dict, query: str="") -> tuple[int, dict, list[str]]:
+def score_owned_page_with_method(page: dict) -> tuple[int, dict, list[str], str, str]:
     page = record_dict(page)
 
     # Preserve strict scores produced by strict_geo_visibility_runtime.py or
@@ -774,44 +805,16 @@ def score_owned_page(page: dict, query: str="") -> tuple[int, dict, list[str]]:
             gaps = []
         if dims and not gaps:
             gaps = [k for k, v in dims.items() if isinstance(v, (int, float)) and v < 12]
-        return score, dims, gaps
+        return score, dims, gaps, text(first_value(page.get("scoring_method"), page.get("scoringMethod"), "explicit_page_geo_v1")), "Explicit page-level GEO/readiness score supplied by the Auditor or stored report bundle."
 
-    # Conservative fallback only for records that genuinely do not carry scored
-    # evidence. It is intentionally stricter than the old heuristic and applies
-    # caps so long official pages cannot look strong without answer-first, proof,
-    # schema/FAQ and freshness signals.
-    blob=page_blob(page); low=blob; q=query.lower()
-    q_terms=[w for w in re.findall(r"[a-z0-9]+", q) if len(w)>3 and w not in {"what","which","japan","nissan"}]
-    overlap=len({w for w in q_terms if w in low})
-    numeric=len(re.findall(r"\d+[\d,.]*\s?(km|kwh|kw|円|万円|年|%|％|mm|kg|人|席)", low))
-    headings=len(re.findall(r"(^|\n)#{1,4}\s+", text(page.get("markdown") or page.get("content") or "")))
-    questions=sum(low.count(x) for x in ["?", "？", "faq", "よくある", "question", "質問", "q&a"])
-    proof=sum(low.count(x) for x in ["official", "warranty", "safety", "rating", "test", "保証", "安全", "評価", "公式", "仕様", "諸元", "条件", "注記"])
-    dates=1 if re.search(r"20[2-3][0-9]|更新日|last updated|valid until", low) else 0
-    schema_hits=sum(low.count(x) for x in ["schema", "json-ld", "faqpage", "product", "offer"])
-    answer_terms=sum(low.count(x) for x in ["range", "charging", "charge", "cost", "warranty", "safety", "航続", "充電", "価格", "保証", "安全"])
-    answer_first=bool(overlap >= 1 and any(x in low[:1200] for x in ["range", "charging", "charge", "cost", "warranty", "safety", "航続", "充電", "価格", "保証", "安全"]))
-    substantive = max(len(blob) / 650, 0)
-    dims={
-        "content_clarity": min(20, (3 if len(blob)>900 else 0) + (6 if answer_first else 0) + min(5, overlap*2) + min(3, answer_terms)),
-        "semantic_depth": min(20, 3 + min(6, numeric) + min(4, overlap) + (3 if headings >= 3 else 0) + min(4, int(substantive/4))),
-        "structured_data": min(20, min(8, schema_hits*3) + (3 if headings >= 4 else 0) + (2 if questions >= 2 else 0)),
-        "eeat_signals": min(20, 2 + min(8, proof) + min(5, numeric) + (3 if dates else 0)),
-        "freshness_index": min(20, 3 + (8 if dates else 0) + (3 if "canonical" in low else 0)),
-        "faq_readiness": min(20, min(10, questions*2) + (6 if "faqpage" in low else 0)),
-    }
-    score=sum(dims.values())
-    if not answer_first:
-        score=min(score, 50)
-        dims["content_clarity"] = min(dims["content_clarity"], 8)
-    if proof < 3:
-        score=min(score, 56)
-    if schema_hits == 0:
-        score=min(score, 62)
-    if questions < 2 and "faqpage" not in low:
-        score=min(score, 58)
+    score, dims, method, note = page_geo_from_crawl(page)
     gaps=[k for k,v in dims.items() if v<12]
-    return score,dims,gaps
+    return score, dims, gaps, method, note
+
+
+def score_owned_page(page: dict, query: str="") -> tuple[int, dict, list[str]]:
+    score, dims, gaps, _method, _note = score_owned_page_with_method(page)
+    return score, dims, gaps
 
 
 def page_intent_bonus(query: str, page: dict) -> int:
@@ -853,7 +856,7 @@ def map_owned_urls(query: str, owned_pages: list[dict], max_n=3, qid: str="", ca
         if not u: continue
         blob=page_blob(p)
         overlap=len({w for w in q_terms if w in blob})
-        score,dims,gaps=score_owned_page(p, query)
+        score,dims,gaps,scoring_method,scoring_notes=score_owned_page_with_method(p)
         category_bonus=18 if category and category.lower() in text(p.get("journey_category") or p.get("brand_topic_category")).lower() else 0
         mapping_score=overlap*12 + score/2 + page_intent_bonus(query,p) + related_query_match(qid,query,p) + category_bonus + (10 if is_owned(u) else 0)
         ranked.append((mapping_score, p, score, dims, gaps))
@@ -870,6 +873,8 @@ def map_owned_urls(query: str, owned_pages: list[dict], max_n=3, qid: str="", ca
             "mapping_reason": "Ranked by query/topic match, page-type suitability, existing related-query linkage and GEO readiness.",
             "current_geo_score_120": score,
             "geo_dimensions": dims,
+            "scoring_method": scoring_method,
+            "scoring_notes": scoring_notes,
             "geo_gaps": gaps,
             "recommended_update_focus": (gaps[:4] or ["evidence_and_proof"]),
         })
