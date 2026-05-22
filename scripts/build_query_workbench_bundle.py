@@ -17,7 +17,14 @@ from collections import Counter, defaultdict
 from typing import Any
 from ai_hygiene import attach_ai_discoverability_hygiene
 
-OWNED_HINTS = ["nissan.co.jp", "nissan-global.com", "nissannews.com", "nissan-fs.co.jp", "global.nissannews.com"]
+# Owned domain hints are now loaded dynamically from audit_context or CLI args.
+# This default is kept only for backward compatibility with standalone runs.
+_FALLBACK_OWNED_HINTS = ["nissan.co.jp", "nissan-global.com", "nissannews.com", "nissan-fs.co.jp", "global.nissannews.com"]
+OWNED_HINTS: list[str] = []  # Populated in main() from --owned-domains or audit_context
+
+# Module-level brand/language used by helper functions; set in main().
+brand: str = "Brand"
+output_language: str = "English"
 COMPETITORS = {
     "Toyota": ["toyota", "トヨタ", "lexus", "レクサス"],
     "Honda": ["honda", "ホンダ"],
@@ -915,7 +922,7 @@ def winning_patterns(query: str, citations: list[dict], pattern_lookup: list[dic
         out.append({
             "source_url": c["url"], "source_domain": c.get("domain") or domain(c["url"]), "source_type": st,
             "pattern_type": "; ".join(dict.fromkeys(patterns)),
-            "owned_content_implication": "Replicate the useful answer structure on mapped owned pages using verified Nissan facts only.",
+            "owned_content_implication": f"Replicate the useful answer structure on mapped owned pages using verified {brand} facts only.",
             "pr_implication": "Create corroborating third-party proof where owned pages cannot credibly self-validate the claim.",
             "evidence_basis": sn or f"{c.get('domain') or domain(c['url'])} appeared as a top external citation for this query.",
         })
@@ -944,7 +951,7 @@ def cms_recs(query: str, qid: str, mapped: list[dict], patterns: list[dict]) -> 
                 "Use only verified product, pricing, warranty, charging, safety or ownership facts already approved for the market.",
                 "Mirror the external winning structure without copying external wording.",
                 "Add FAQ schema only where the page already supports the answer.",
-                "Write recommendations and dashboard copy in English by default; include local Japanese terms only as evidence labels where useful.",
+                f"Write recommendations and dashboard copy in {output_language} by default; include local-market terms only as evidence labels where useful.",
             ],
             "geo_gaps_addressed": m.get("geo_gaps") or [],
             "validation_required": ["Product", "Legal/Compliance"],
@@ -1107,7 +1114,7 @@ def aggregate_page_level_cms(qwork: list[dict], max_changes_per_page: int = 3) -
                 'content_requirements':[
                     'Aggregate overlapping query needs into one reusable page module rather than one module per query.',
                     'Open with a direct, quotable answer and then add proof, caveats and decision criteria.',
-                    'Use verified Nissan facts only; do not copy or fabricate external-source claims.',
+                    f'Use verified {brand} facts only; do not copy or fabricate external-source claims.',
                     'Prefer statistics, citations, quotations, tables or FAQs where the evidence supports them.',
                     'Track post-update movement in both page GEO score and query AI visibility score.'
                 ],
@@ -1118,7 +1125,7 @@ def aggregate_page_level_cms(qwork: list[dict], max_changes_per_page: int = 3) -
                 },
                 'validation_required':['Product','Legal/Compliance','SEO/GEO lead'],
             'output_language':'English',
-            'copy_language_policy':'Write all CMS-ready headings, intro copy, body copy, bullets and FAQ items in English. Translate Japanese source evidence into English; keep Japanese terms only as named entities.'
+            'copy_language_policy':f'Write all CMS-ready headings, intro copy, body copy, bullets and FAQ items in {output_language}. Translate local-market source evidence into {output_language}; keep local-market terms only as named entities.'
             }
             page_recs.append(rec)
             actions.append({
@@ -1675,7 +1682,7 @@ def assemble_bundle(args, qwork, owned_summary, all_cms, all_pr, action_checklis
             "max_external_citations_per_query":getattr(args,"max_external",3),
             "query_limit":getattr(args,"query_limit",0),
             "output_language":getattr(args,"output_language","English") or "English",
-            "copy_language_policy":"All dashboard and CMS-ready copy should be written in English by default; translate/summarise Japanese evidence into English and retain Japanese proper nouns only where useful.",
+            "copy_language_policy":f"All dashboard and CMS-ready copy should be written in {output_language} by default; translate/summarise local-market evidence into {output_language} and retain local proper nouns only where useful.",
             "notes":"Bodhi does not call SerpAPI or crawl pages. Refresh execution is owned by Railway evidence service; this builder only consumes stored evidence and assembles the report contract."
         },
         "tracking_plan":{
@@ -1697,9 +1704,11 @@ def main():
     ap=argparse.ArgumentParser()
     ap.add_argument("--project-root", default=".")
     ap.add_argument("--input-json", default="")
-    ap.add_argument("--brand", default="Nissan")
-    ap.add_argument("--market", default="Japan")
-    ap.add_argument("--domain", default="https://www.nissan.co.jp")
+    ap.add_argument("--brand", default=os.environ.get("BRAND", ""))
+    ap.add_argument("--market", default=os.environ.get("MARKET", ""))
+    ap.add_argument("--domain", default=os.environ.get("DOMAIN", ""))
+    ap.add_argument("--owned-domains", default=os.environ.get("OWNED_DOMAINS", ""), help="Comma-separated owned domains")
+    ap.add_argument("--brand-terms", default=os.environ.get("BRAND_TERMS", ""), help="Comma-separated brand terms")
     ap.add_argument("--run-id", default="")
     ap.add_argument("--max-owned", type=int, default=3)
     ap.add_argument("--max-external", type=int, default=3)
@@ -1717,6 +1726,17 @@ def main():
     ap.add_argument("--output-language", default="English")
     args=ap.parse_args()
     root=Path(args.project_root).resolve()
+
+    # Populate module-level OWNED_HINTS, brand, output_language from CLI/env or fallback
+    global OWNED_HINTS, brand, output_language
+    if args.owned_domains:
+        OWNED_HINTS = [d.strip().lower() for d in args.owned_domains.split(",") if d.strip()]
+    elif not OWNED_HINTS:
+        OWNED_HINTS = list(_FALLBACK_OWNED_HINTS)
+
+    brand = args.brand or "Brand"
+    output_language = args.output_language or "English"
+
     raw_input=load_json(Path(args.input_json), {}) if args.input_json else {}
     query_portfolio_file = load_json(Path(args.query_portfolio), {}) if args.query_portfolio else load_json(root/'outputs/query_portfolio/query_portfolio.json', {})
     sitemap_inventory_file = load_json(Path(args.sitemap_inventory), {}) if args.sitemap_inventory else load_json(root/'outputs/sitemap/sitemap_inventory.json', {})

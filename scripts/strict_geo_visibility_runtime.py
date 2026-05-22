@@ -26,8 +26,11 @@ COMPETITOR_BRANDS = {
     "suzuki": ["suzuki", "スズキ"],
     "daihatsu": ["daihatsu", "ダイハツ"],
 }
-NISSAN_TERMS = ["nissan", "日産", "ariya", "アリア", "leaf", "リーフ", "sakura", "サクラ", "serena", "セレナ", "x-trail", "xtrail", "エクストレイル", "note", "ノート", "e-power", "epower", "elgrand", "エルグランド", "roox", "ルークス", "clipper", "クリッパー"]
-OWNED_DOMAIN_FRAGMENTS = ["nissan.co.jp", "nissan-global.com", "global.nissannews.com", "nissannews.com", "nissan-fs.co.jp"]
+# Fallback brand terms for backward compatibility; overridden by BRAND_TERMS env or CLI.
+_FALLBACK_BRAND_TERMS = ["nissan", "日産", "ariya", "アリア", "leaf", "リーフ", "sakura", "サクラ", "serena", "セレナ", "x-trail", "xtrail", "エクストレイル", "note", "ノート", "e-power", "epower", "elgrand", "エルグランド", "roox", "ルークス", "clipper", "クリッパー"]
+_FALLBACK_OWNED_DOMAINS = ["nissan.co.jp", "nissan-global.com", "global.nissannews.com", "nissannews.com", "nissan-fs.co.jp"]
+NISSAN_TERMS: list[str] = []  # Populated in main() from env/CLI
+OWNED_DOMAIN_FRAGMENTS: list[str] = []  # Populated in main() from env/CLI
 BOILERPLATE_TERMS = ["クルマを探す", "オーナーの方へ", "日産を知る", "mynissan", "サイトマップ", "プライバシーポリシー", "ご利用にあたって", "リコール情報", "faq/お問い合わせ", "セルフ見積り", "カタログ請求", "来店予約"]
 QUESTION_MARKERS = ["?", "？", "faq", "よくある", "質問", "q:", "q.", "問", "answer", "回答"]
 ANSWER_TERMS = ["range", "charging", "charge", "cost", "price", "warranty", "battery", "safety", "family", "seat", "isofix", "boot", "fuel", "hybrid", "lease", "finance", "航続", "充電", "価格", "費用", "保証", "バッテリー", "安全", "家族", "シート", "燃費", "ハイブリッド", "リース", "支払い", "補助金"]
@@ -590,9 +593,16 @@ def env_int(*names, default=0):
 
 def main():
     project = Path(clean_env_value(os.environ.get("PROJECT_DIR"), ".")).resolve()
-    brand = clean_env_value(os.environ.get("BRAND"), "Nissan")
-    market = clean_env_value(os.environ.get("MARKET"), "Japan")
-    domain = clean_env_value(os.environ.get("DOMAIN"), "https://www.nissan.co.jp")
+    brand = clean_env_value(os.environ.get("BRAND"), "")
+    market = clean_env_value(os.environ.get("MARKET"), "")
+    domain = clean_env_value(os.environ.get("DOMAIN"), "")
+
+    # Populate module-level brand terms and owned domains from env vars
+    global NISSAN_TERMS, OWNED_DOMAIN_FRAGMENTS
+    brand_terms_env = clean_env_value(os.environ.get("BRAND_TERMS"), "")
+    owned_domains_env = clean_env_value(os.environ.get("OWNED_DOMAINS"), "")
+    NISSAN_TERMS = [t.strip().lower() for t in brand_terms_env.split(",") if t.strip()] if brand_terms_env else _FALLBACK_BRAND_TERMS
+    OWNED_DOMAIN_FRAGMENTS = [d.strip().lower() for d in owned_domains_env.split(",") if d.strip()] if owned_domains_env else _FALLBACK_OWNED_DOMAINS
     max_external_per_query = env_int("MAX_EXTERNAL_SOURCES_PER_QUERY", "MAX_EXTERNAL_PER_QUERY", default=5)
 
     audit = load_json(project / "outputs/audit_context/audit_context.json", {}) or load_json(project / "inputs/audit_context.json", {}) or {}
@@ -793,7 +803,7 @@ def main():
             "queries_with_competitor_presence": len(competitor_query_rows),
             "competitor_brands": dict(sum((Counter(r.get("competitor_brands_detected", {})) for r in competitor_query_rows), Counter())),
         },
-        "summary": "Strict scoring: competitor-led visibility is separated from Nissan owned-domain and owned-target visibility.",
+        "summary": f"Strict scoring: competitor-led visibility is separated from {brand} owned-domain and owned-target visibility.",
     })
     write_json(project / "outputs/page_scores/owned_page_scores.json", {"brand": brand, "market": market, "pages": owned_scores, "owned_pages": owned_scores, "scoring_framework": "strict_geo_6x20_v3_no_easy_marks"})
     write_json(project / "outputs/page_scores/external_page_scores.json", {"brand": brand, "market": market, "pages": external_scores, "external_pages": external_scores})
@@ -832,8 +842,8 @@ def main():
             "gap_severity": "material" if gap >= 15 else ("moderate" if gap >= 7 else "low"),
             "gap_reasons": [
                 "Owned target page is not cited in AI answer" if not m.get("owned_target_page_cited") else "Owned target page cited but extractability can improve",
-                "Non-branded queries receive little or no owned-credit unless Nissan target pages are cited",
-                "Competitor and third-party sources are separated from Nissan-owned visibility",
+                f"Non-branded queries receive little or no owned-credit unless {brand} target pages are cited",
+                f"Competitor and third-party sources are separated from {brand}-owned visibility",
             ],
         })
     write_json(project / "outputs/benchmark/source_preference_benchmark.json", {"brand": brand, "market": market, "queries": bench, "rows": bench, "average_owned_geo_score": avg_owned, "average_external_benchmark_score": avg_external, "average_external_citation_influence_score": avg_external_influence, "metric_note": "External benchmark is not a GEO score for third-party pages. It captures observed citation influence and winning content patterns to inform owned-page CMS remediation."})
@@ -860,7 +870,7 @@ def main():
                 "placement": "below hero / above detailed copy",
                 "proposed_heading": "Answer the main buyer question directly",
                 "brief_for_bodhi": "Create a page-specific, evidence-safe answer-first module using the owned page extract, mapped queries and visible facts only.",
-                "content_requirements": ["Do not invent claims", "Use Japan-market caveats", "Include one concise Q&A only when answerable from the page", "Make the answer extractable for AI citations"],
+                "content_requirements": ["Do not invent claims", f"Use {market}-market caveats", "Include one concise Q&A only when answerable from the page", "Make the answer extractable for AI citations"],
                 "schema_recommendation": {"type": "FAQPage", "required": "if Q&A is published"},
                 "validation_required": ["Product", "Legal"],
                 "expected_gap_closed": ["content_clarity", "query_answer_match", "faq_readiness"],
@@ -878,7 +888,7 @@ def main():
             "recommended_pr_action": "Create validated, third-party-referenceable proof assets and publisher explainers; do not rely on community seeding as a primary tactic.",
             "target_source_types": [st],
             "priority": "P1" if count >= 5 else "P2",
-            "why_it_matters": "External authority and publisher sources are shaping AI answers; Nissan-owned target pages need corroborating citations and cleaner extractable answers.",
+            "why_it_matters": f"External authority and publisher sources are shaping AI answers; {brand}-owned target pages need corroborating citations and cleaner extractable answers.",
         })
     write_json(project / "outputs/pr_publisher_opportunities/pr_opportunity_plan.json", {"brand": brand, "market": market, "opportunities": pr})
 
